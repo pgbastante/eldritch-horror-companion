@@ -1,0 +1,17 @@
+# IDE folders
+.idea/
+
+# OSX files
+.DS_Store
+
+# Node files
+node_modules
+
+# Compiled JS
+*.js.map
+
+# Log files
+
+*.log
+
+dist
