@@ -10,7 +10,14 @@
       "es2015",
       "dom"
     ],
+    "types": [
+      "node",
+      "jasmine"
+    ],
     "noImplicitAny": true,
     "suppressImplicitAnyIndexErrors": true
+  },
+  "awesomeTypeScriptLoaderOptions": {
+    "useWebpackText": true
   }
 }
