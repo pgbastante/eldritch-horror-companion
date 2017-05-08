@@ -1,0 +1,64 @@
+version: "3"
+
+services:
+  node-builder:
+    container_name: mean-builder
+    image: node:latest
+    build:
+      context: .
+      dockerfile: ./.docker/dockerfiles/node-builder.dockerfile
+    volumes:
+      - client-builder:/var/app/
+
+  nginx:
+    container_name: mean-nginx
+    image: nginx
+    build:
+      context: .
+      dockerfile: ./.docker/dockerfiles/nginx.dockerfile
+    networks:
+      - mean-network
+    links:
+      - node:node
+    ports:
+      - "80:80"
+    volumes:
+      - client-builder:/var/app/
+    depends_on:
+      - node-builder
+
+  node:
+    container_name: mean-app
+    image: node
+    build:
+      context: .
+      dockerfile: ./.docker/dockerfiles/node.dockerfile
+    ports:
+      - "3000:3000"
+    networks:
+      - mean-network
+    env_file:
+      - ./.docker/env/node.dev.env
+    working_dir: /var/app
+    depends_on:
+      - node-builder
+
+  mongo:
+    container_name: mean-mongodb
+    image: mongo
+    build:
+      context: .
+      dockerfile: ./.docker/dockerfiles/mongo.dockerfile
+    env_file:
+      - ./.docker/env/mongo.dev.env
+    networks:
+      - mean-network
+    ports:
+      - "27017:27017"
+
+networks:
+  mean-network:
+    driver: bridge
+
+volumes:
+  client-builder:

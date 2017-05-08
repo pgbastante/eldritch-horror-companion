@@ -15,23 +15,43 @@ The current stack is
 * Server
   * Express 4.15.0
 
-Docker
+# Docker
+
+The stack is built with docker compose. It uses the following services:
+
+* Node: The express server
+* Nginx: The server for the client static content and reverse proxy for the express server
+* MongoDB: No-Sql database
+* Node-Builder: This service builds the client code with webpack. When the service runs, it builds the code and exits when done.
+
 
 Go to the project root directory and build the docker image with
 
-docker build . -t \<tagname\>
+``` 
+docker-compose build
+```
+Now, to run the containers just do
 
-Now, to run the container just do
+```
+docker-compose up
+```
 
-docker run -p 3000:3000 -t \<tagname\>
+To get the shell of one of the containers 
 
-This will expose the 3000 port on localhost so you can go to the url localhost:3000 on your browser to see the example running
+```
+docker exec -i -t \<container-name\> /bin/bash
+```
+
+You can see the running containers with
+
+```
+docker-compose ps
+```
 
 I'm using this as a way of learning all the components of the MEAN stack so I'll try to document everything.
 
 Future additions:
-* Nginx ??
-* MongoDB
+* MongoDB database persistence
 * Improve webpack configuration
 * End 2 End testing
 * Express testing and bootstrapping
@@ -39,3 +59,4 @@ Future additions:
 Resources:
 * https://github.com/AngularClass/angular-starter
 * https://github.com/angular/quickstart
+* https://lockmedown.com/docker-devs-multiple-containers-docker-compose/

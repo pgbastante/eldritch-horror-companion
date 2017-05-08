@@ -49,6 +49,7 @@
     "karma-remap-coverage": "^0.1.4",
     "karma-sourcemap-loader": "^0.3.7",
     "karma-webpack": "^2.0.3",
+    "optimize-js-plugin": "0.0.4",
     "raw-loader": "^0.5.1",
     "rimraf": "^2.5.4",
     "source-map-loader": "^0.2.1",
