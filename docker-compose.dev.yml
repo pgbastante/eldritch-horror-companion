@@ -6,9 +6,11 @@ services:
     image: node:latest
     build:
       context: .
-      dockerfile: ./.docker/dockerfiles/node-builder.prod.dockerfile
+      dockerfile: ./.docker/dockerfiles/node-builder.dev.dockerfile
     volumes:
       - client-builder:/var/app/
+      - ./client/:/var/app/:rw
+    command: npm run dev
 
   nginx:
     container_name: mean-nginx
@@ -26,22 +28,25 @@ services:
       - client-builder:/var/app/
     depends_on:
       - node-builder
+      - node
 
   node:
     container_name: mean-app
     image: node
     build:
       context: .
-      dockerfile: ./.docker/dockerfiles/node.prod.dockerfile
+      dockerfile: ./.docker/dockerfiles/node.dev.dockerfile
     ports:
       - "3000:3000"
     networks:
       - mean-network
     env_file:
-      - ./.docker/env/node.prod.env
+      - ./.docker/env/node.dev.env
     working_dir: /var/app
     depends_on:
       - node-builder
+    volumes:
+      - ./server/:/var/app/:rw
 
   mongo:
     container_name: mean-mongodb
@@ -50,7 +55,7 @@ services:
       context: .
       dockerfile: ./.docker/dockerfiles/mongo.dockerfile
     env_file:
-      - ./.docker/env/mongo.prod.env
+      - ./.docker/env/mongo.dev.env
     networks:
       - mean-network
     ports:
