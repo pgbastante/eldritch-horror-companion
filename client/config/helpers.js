@@ -1,7 +1,7 @@
 'use strict';
 
-const path = require('path');
-const ROOT = path.resolve(__dirname, '..');
+const path = require('path'),
+  ROOT = path.resolve(__dirname, '..');
 
 exports.root = function (args) {
   args = Array.prototype.slice.call(arguments, 0);

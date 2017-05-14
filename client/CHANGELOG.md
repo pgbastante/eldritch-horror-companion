@@ -1,3 +1,6 @@
+**v0.0.3**
+* Added tslint-config-standard
+
 **v0.0.2**
 * Karma
 * Jasmine
