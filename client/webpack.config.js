@@ -8,7 +8,6 @@ module.exports = (options) => {
 
   return {
     entry: {
-      vendor: './src/app/vendor.ts',
       app: './src/app/main.ts'
     },
     /**

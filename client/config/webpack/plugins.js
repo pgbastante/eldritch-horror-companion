@@ -5,24 +5,33 @@ const webpack = require('webpack'),
   OptimizeJsPlugin = require('optimize-js-plugin'),
   helpers = require('../helpers'),
   ExtractTextPlugin = require('extract-text-webpack-plugin'),
-  CheckerPlugin = require('awesome-typescript-loader').CheckerPlugin;
+  {CheckerPlugin} = require('awesome-typescript-loader');
 
 class Plugins {
   /**
-   * Define global constraints in compile time mode
+   * Plugin: DefinePlugin
+   * Description: Define free variables.
+   * Useful for having development builds with debug logging or adding global constants.
+   *
+   * Environment helpers
+   *
+   * See: https://webpack.github.io/docs/list-of-plugins.html#defineplugin
    */
   static defineConstants() {
     return new webpack.DefinePlugin({
-      __DEV__: process.env.NODE_ENV !== 'production',
-      __PRODUCTION__: process.env.NODE_ENV === 'production',
-      __TEST__: JSON.stringify(process.env.TEST || false),
-      'process.env.NODE_ENV': JSON.stringify(process.env.NODE_ENV)
+      __DEV__: helpers.isDevelopment(),
+      __PRODUCTION__: helpers.isProduction(),
+      __TEST__: helpers.isTesting()
     });
   }
 
   /**
-   * Simplifies creation of HTML files to serve your webpack bundles. It creates a new html based on a given template
-   * including all the bundles
+   * Plugin: HtmlWebpackPlugin
+   * Description: Simplifies creation of HTML files to serve your webpack bundles.
+   * This is especially useful for webpack bundles that include a hash in the filename
+   * which changes every compilation.
+   *
+   * See: https://github.com/ampedandwired/html-webpack-plugin
    */
   static htmlCreation() {
     return new HtmlWebpackPlugin({
@@ -34,12 +43,17 @@ class Plugins {
   }
 
   /**
-   * This plugin solves a WARNING on the creation of the angular bundle
+   * Plugin: ContextReplacementPlugin
+   * Description: Provides context to Angular's use of System.import
+   *
+   * See: https://webpack.github.io/docs/list-of-plugins.html#contextreplacementplugin
+   * See: https://github.com/angular/angular/issues/11580
    */
   static angularContext() {
 
     return new webpack.ContextReplacementPlugin(
-      /angular(\\|\/)core(\\|\/)@angular/, __dirname);
+      /angular(\\|\/)core(\\|\/)@angular/,
+      helpers.root('src'));
   }
 
   /**
@@ -53,42 +67,82 @@ class Plugins {
   }
 
   /**
-   * JavaScript parser / mangler / compressor / beautifier toolkit
+   * Plugin: UglifyJsPlugin
+   * Description: Minimize all JavaScript output of chunks.
+   * Loaders are switched into minimizing mode.
+   *
+   * See: https://webpack.github.io/docs/list-of-plugins.html#uglifyjsplugin
    */
   static uglify() {
     return new webpack.optimize.UglifyJsPlugin({
-      beautify: false, //prod
+      beautify: false, //true
       output: {
         comments: false
-      }, //prod
+      },
       mangle: {
         screw_ie8: true
-      }, //prod
+      },
       compress: {
-        screw_ie8: true,
-        warnings: false,
-        conditionals: true,
-        unused: true,
-        comparisons: true,
-        sequences: true,
-        dead_code: true,
-        evaluate: true,
-        if_return: true,
-        join_vars: true,
-        negate_iife: false // we need this for lazy v8
+        sequences: true, //true
+        properties: false, //false
+        dead_code: true, //false
+        drop_debugger: true, //false
+        unsafe: false, //false
+        unsafe_comps: false, //false
+        unsafe_math: false, //false
+        unsafe_proto: false, //false
+        conditionals: true, //false
+        comparisons: true, //false
+        evaluate: true, //false
+        booleans: true, //false
+        loops: true, //false
+        unused: true, //false
+        toplevel: true, //false
+        hoist_funs: true, //false
+        hoist_vars: false, //false
+        if_return: true, //false
+        join_vars: true, //false
+        cascade: true, //false
+        collapse_vars: true, //false
+        reduce_vars: true, //false
+        warnings: false, //false
+        screw_ie8: true, //false
+        negate_iife: false, // false, we need this for lazy v8
+        pure_getters: false, //false
+        pure_funcs: null, //null
+        drop_console: false, //false
+        expression: false, //false
+        keep_fargs: true, //true
+        keep_fnames: false, //false
+        passes: 1, //1
+        keep_infinity: false //false
       }
     })
   }
 
   /**
-   * Creates a common chunk
+   * Plugin: CommonsChunkPlugin
+   * Description: Shares common code between the pages.
+   * It identifies common modules and put them into a commons chunk.
+   *
+   * See: https://webpack.github.io/docs/list-of-plugins.html#commonschunkplugin
+   * See: https://github.com/webpack/docs/wiki/optimization#multi-page-app
    */
   static commonChunks() {
-    return new webpack.optimize.CommonsChunkPlugin({
-      name: [
-        'vendor'
-      ]
-    })
+    return [
+      new webpack.optimize.CommonsChunkPlugin({
+        name: [
+          'vendor'
+        ],
+        minChunks: function(module){
+          return module.context && module.context.indexOf("node_modules") !== -1;
+        }
+      }),
+      new webpack.optimize.CommonsChunkPlugin({
+        name: "manifest",
+        minChunks: Infinity
+      })
+    ]
   }
 
   /**
@@ -113,38 +167,39 @@ class Plugins {
     });
   }
 
-  static getBasePlugins() {
+  /**
+   * @returns []
+   */
+  static getCommonPlugins() {
     return [
       this.typeChecker(),
       this.defineConstants,
       this.htmlCreation(),
       this.angularContext(),
-      this.extractCss(),
-      this.typeChecker()
+      this.extractCss()
     ];
   }
 
-  static getProdPlugins() {
+  static getProductionPlugins() {
     return [
       this.uglify(),
-      this.commonChunks(),
       this.optimizeJs()
-    ];
+    ].concat(this.commonChunks());
   }
 
-  static getDevPlugins() {
+  static getDevelopmentPlugins() {
     return [
       this.optimizeJs()
     ];
   }
 
-  static getTestPlugins() {
+  static getTestingPlugins() {
     return [];
   }
 }
 
 
-module.exports = Plugins.getBasePlugins()
-  .concat(helpers.isProduction() ? Plugins.getProdPlugins() : [])
-  .concat(helpers.isDevelopment() ? Plugins.getDevPlugins() : [])
-  .concat(helpers.isTesting() ? Plugins.getTestPlugins() : []);
+module.exports = Plugins.getCommonPlugins()
+  .concat(helpers.isProduction() ? Plugins.getProductionPlugins() : [])
+  .concat(helpers.isDevelopment() ? Plugins.getDevelopmentPlugins() : [])
+  .concat(helpers.isTesting() ? Plugins.getTestingPlugins() : []);

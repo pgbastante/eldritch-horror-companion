@@ -3,16 +3,18 @@
 const helpers = require('../helpers'),
   ExtractTextPlugin = require('extract-text-webpack-plugin');
 
+/**
+ * Loaders for all files on the project.
+ *
+ * Add here all needed loaders and return them in the getter functions of the environment where they will be used
+ */
 class Loaders {
 
   static js() {
     return {
       test: /\.js$/,
       loader: 'babel-loader',
-      exclude: /node_modules|test/,
-      query: {
-        compact: false
-      }
+      exclude: /node_modules|test/
     }
   }
 
@@ -21,7 +23,15 @@ class Loaders {
       test: /\.ts$/,
       enforce: 'pre',
       loader: 'tslint-loader',
-      include: helpers.root('src/app')
+      include: helpers.root('src/app'),
+      options: {
+        // enables type checked rules like 'for-in-array'
+        // uses tsconfig.json from current working directory
+        typeCheck: true,
+
+        // automatically fix linting errors
+        fix: true
+      }
     }
   }
 
@@ -110,12 +120,16 @@ class Loaders {
 
   static fonts() {
     return {
-      test: /\.(eot|woff2?|svg|ttf)([\?]?.*)$/,
+      test: /\.(eot|woff2?|svg|ttf)([?]?.*)$/,
       use: 'file-loader'
     }
   }
 
-  static getBasicLoaders() {
+  /**
+   * Get all the common loaders for all environments
+   * @returns []
+   */
+  static getCommonLoaders() {
     return [
       this.js(),
       this.ts(),
@@ -127,19 +141,19 @@ class Loaders {
     ]
   }
 
-  static getProdLoaders() {
+  static getProductionLoaders() {
     return [
       this.tslint()
     ]
   }
 
-  static getDevLoaders() {
+  static getDevelopmentLoaders() {
     return [
       this.tslint()
     ];
   }
 
-  static getTestLoaders() {
+  static getTestingLoaders() {
     return [
       this.jsSourceMap(),
       this.istambulInstrumenter()
@@ -147,7 +161,7 @@ class Loaders {
   }
 }
 
-module.exports = Loaders.getBasicLoaders()
-  .concat(helpers.isProduction() ? Loaders.getProdLoaders() : [])
-  .concat(helpers.isDevelopment() ? Loaders.getDevLoaders() : [])
-  .concat(helpers.isTesting() ? Loaders.getTestLoaders() : []);
+module.exports = Loaders.getCommonLoaders()
+  .concat(helpers.isProduction() ? Loaders.getProductionLoaders() : [])
+  .concat(helpers.isDevelopment() ? Loaders.getDevelopmentLoaders() : [])
+  .concat(helpers.isTesting() ? Loaders.getTestingLoaders() : []);
