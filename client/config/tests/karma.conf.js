@@ -4,10 +4,10 @@ module.exports = function (config) {
   config.set({
     basePath: '',
     frameworks: ['jasmine'],
-    files: [{pattern: './config/spec-bundle.js', watched: false},],
+    files: [{pattern: './config/tests/spec-bundle.js', watched: false},],
     exclude: [],
-    preprocessors: {'./config/spec-bundle.js': ['webpack', 'sourcemap']},
-    webpack: require('../webpack.config')({env: 'test'}),
+    preprocessors: {'./config/tests/spec-bundle.js': ['webpack', 'sourcemap']},
+    webpack: require('../../webpack.config.js')({env: 'test'}),
     port: 9876,
     colors: true,
     logLevel: config.LOG_WARN,
