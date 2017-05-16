@@ -59,8 +59,7 @@ module.exports = (options) => {
      * speed dramatically.
      */
     devtool: helpers.isProduction() ?
-      'source-map' : (helpers.isTesting() ? 'inline-source-map' :
-        'cheap-module-source-map'),
+      'source-map' : (helpers.isTesting() ? 'inline-source-map' : 'cheap-module-source-map'),
 
     module: {
       /**

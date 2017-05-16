@@ -42,7 +42,7 @@ class Loaders {
         {
           loader: 'awesome-typescript-loader',
           options: {
-            configFileName: 'tsconfig.json'
+            configFileName: helpers.isTesting()?'./config/tests/tsconfig.test.json':'tsconfig.json'
           }
         },
         {

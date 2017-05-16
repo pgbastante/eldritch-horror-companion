@@ -34,7 +34,7 @@ let testing = require('@angular/core/testing'),
    * any file that ends with spec.ts and get its path. By passing in true
    * we say do this recursively
    */
-  testContext = require.context('../src', true, /\.spec\.ts/);
+  testContext = require.context('../../src', true, /\.spec\.ts/);
 
 testing.TestBed.initTestEnvironment(
   browser.BrowserDynamicTestingModule,

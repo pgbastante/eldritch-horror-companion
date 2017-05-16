@@ -44,6 +44,7 @@ docker-compose ps
 
 # TODO
 * MongoDB database persistence
+* MongoDB Connection example in code
 * Improve webpack configuration
 * End 2 End testing
 * Express testing and bootstrapping
@@ -54,8 +55,6 @@ docker-compose ps
 * Babel configuration?
 * A more detailed skeleton for the client and the server
 * A more detailed Readme
-* Review webpack loaders configuration
-* editorconfig review
 * Better use os the ENV constants in webpack configuration
 
 # About this project
