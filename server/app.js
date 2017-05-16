@@ -1,5 +1,10 @@
 'use strict';
 
+if (process.env.NODE_ENV !== 'production') {
+  require('@glimpse/glimpse').init();
+}
+
+
 // Get dependencies
 const express = require('express');
 const path = require('path');

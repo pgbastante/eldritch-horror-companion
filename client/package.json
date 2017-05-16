@@ -3,9 +3,8 @@
   "version": "0.0.1",
   "description": "QuickStart package.json from the documentation official documentation modified for webpack",
   "scripts": {
-    "start": "webpack --config webpack.config.js",
-    "prebuild": "npm run clean",
-    "build": "cross-env NODE_ENV=production webpack --display-error-details",
+    "prestart": "if [ ! -d node_modules ]; then npm install; fi",
+    "start": "cross-env NODE_ENV=production webpack --display-error-details",
     "dev": "cross-env NODE_ENV=development webpack --display-error-details --watch",
     "clean": "rimraf dist/",
     "test": "karma start"

@@ -8,9 +8,8 @@ services:
       context: .
       dockerfile: ./.docker/dockerfiles/node-builder.dev.dockerfile
     volumes:
-      - client-builder:/var/app/
       - ./client/:/var/app/:rw
-    command: npm run dev
+    command: /var/scripts/node-builder.sh
 
   nginx:
     container_name: mean-nginx
@@ -25,10 +24,7 @@ services:
     ports:
       - "80:80"
     volumes:
-      - client-builder:/var/app/
-    depends_on:
-      - node-builder
-      - node
+      - ./client/:/var/app/:ro
 
   node:
     container_name: mean-app
@@ -43,8 +39,6 @@ services:
     env_file:
       - ./.docker/env/node.dev.env
     working_dir: /var/app
-    depends_on:
-      - node-builder
     volumes:
       - ./server/:/var/app/:rw
 
@@ -64,6 +58,3 @@ services:
 networks:
   mean-network:
     driver: bridge
-
-volumes:
-  client-builder:

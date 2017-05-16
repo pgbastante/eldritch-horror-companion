@@ -8,7 +8,7 @@ services:
       context: .
       dockerfile: ./.docker/dockerfiles/node-builder.prod.dockerfile
     volumes:
-      - client-builder:/var/app/
+      - client-prod-builder:/var/app/
 
   nginx:
     container_name: mean-nginx
@@ -23,7 +23,7 @@ services:
     ports:
       - "80:80"
     volumes:
-      - client-builder:/var/app/
+      - client-prod-builder:/var/app/
     depends_on:
       - node-builder
 
@@ -39,7 +39,7 @@ services:
       - mean-network
     env_file:
       - ./.docker/env/node.prod.env
-    working_dir: /var/app
+    working_dir: /var/app/
     depends_on:
       - node-builder
 
@@ -61,4 +61,4 @@ networks:
     driver: bridge
 
 volumes:
-  client-builder:
+  client-prod-builder:

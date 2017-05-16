@@ -8,9 +8,6 @@ COPY ./server/ /var/app/
 
 WORKDIR /var/app/
 
-# Install dependencies and third party libraries
-RUN npm install
-
 # Start the server with node
 CMD [ "npm", "start" ]
 
