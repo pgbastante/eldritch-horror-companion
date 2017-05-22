@@ -1,70 +1,15 @@
-# MEAN Stack bootstrap
+# Eldritch Horror Companion Web-APP
 
-The goal of this project is to create a full-stack JavaScript development environment with production deployment capabilities.
+MEAN Web App to help generating random elements during a gaming session of the board game Eldritch Horror
 
-As a MEAN stack, it's built with:
+The main goal of the App is to avoid spending time drawing cards until you found one of the type you need, and then shuffle all the cards. I think this will help players to reduce the time of the play sessions by just saying what card to look for.
 
-* MongoDb
-* Express
-* Angular
-* NodeJs
+# How to use the app
 
-# Webpack
+First arrange all the cards by type and sort them in alphabetical order, you can use the list of cards from the app to help you.
 
-To build the client we use webpack
+Then just use the app to tell you what card to look for. E.g, you need to find a Status - Injury, you select the parameters in the app and it tells you that you got a Head Injury. Then, you just need to go to the pile of statuses, find the Head Injury cards and choose one of all that are still available.
 
-THe linting on the client is done with codelyzer (http://codelyzer.com/)
+You can configure what expansions of the game you have so you don't get cards you don't have.
 
-# Docker
-
-The stack is built with docker compose. It creates a service for each of the MEAN stack components and another one to build the project in the client.
-
-Go to the project root directory and build the docker image with
-
-``` 
-docker-compose build
-```
-Now, to run the containers just do
-
-```
-docker-compose up
-```
-
-To get the shell of one of the containers 
-
-```
-docker exec -i -t \<container-name\> /bin/bash
-```
-
-You can see the running containers with
-
-```
-docker-compose ps
-```
-
-# TODO
-* MongoDB database persistence
-* MongoDB Connection example in code
-* Improve webpack configuration
-* End 2 End testing
-* Express testing and bootstrapping
-* Review linting configuration for both the client and the server
-* Add a sample of mogodb connection with Express
-* Location for resources like css
-* css linting
-* Babel configuration?
-* A more detailed skeleton for the client and the server
-* A more detailed Readme
-* Better use os the ENV constants in webpack configuration
-
-# About this project
-
-I'm using this as a way of learning all the components of the MEAN stack and to make a bootstrap project for my future creations. I'm aware of other projects, like Mean.js, that are more complete than this one. It's ok, I'm just trying to learn how everything connects and add whatever I like to it. I'm using what I need from the resources I investigate for this project (e.g, I find quite usefull the comments of AngularClass project). This things may change in the future when I get more knowledge of all the parts involved in this. 
-
-Feel free to use it, fork it, or do whatever you whant with it. If you like it, mention me. If you don't... well, you don't need to say anything.
-
-
-# Resources
-* https://github.com/AngularClass/angular-starter
-* https://github.com/angular/quickstart
-* https://lockmedown.com/docker-devs-multiple-containers-docker-compose/
+Hope this helps, any ideas and help are welcome.

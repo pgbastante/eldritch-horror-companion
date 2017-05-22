@@ -46,4 +46,4 @@ testing.TestBed.initTestEnvironment(
  * that will require the file and load it up here. Context will
  * loop and require those spec files here
  */
-var modules = testContext.keys().map(testContext);
+let modules = testContext.keys().map(testContext);

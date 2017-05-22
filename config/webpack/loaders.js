@@ -24,6 +24,7 @@ class Loaders {
       enforce: 'pre',
       loader: 'tslint-loader',
       include: helpers.root('src/app'),
+      exclude: /node_modules/,
       options: {
         // enables type checked rules like 'for-in-array'
         // uses tsconfig.json from current working directory
@@ -42,7 +43,7 @@ class Loaders {
         {
           loader: 'awesome-typescript-loader',
           options: {
-            configFileName: helpers.isTesting()?'./config/tests/tsconfig.test.json':'tsconfig.json'
+            configFileName: helpers.isTesting() ? './config/tests/tsconfig.test.json' : 'tsconfig.json'
           }
         },
         {
@@ -68,7 +69,20 @@ class Loaders {
         fallback: 'style-loader',
         use: 'css-loader'
       }),
-      include: [helpers.root('src', 'styles')]
+      include: [helpers.root('src', 'styles'), /node_modules/]
+    }
+  }
+
+  static less(){
+    return {
+      test: /\.less$/,
+      use: [{
+        loader: "style-loader" // creates style nodes from JS strings
+      }, {
+        loader: "css-loader" // translates CSS into CommonJS
+      }, {
+        loader: "less-loader" // compiles Less to CSS
+      }]
     }
   }
 
@@ -134,6 +148,7 @@ class Loaders {
       this.js(),
       this.ts(),
       this.css(),
+      this.less(),
       this.html(),
       this.json(),
       this.fonts(),

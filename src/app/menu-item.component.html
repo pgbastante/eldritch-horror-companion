@@ -1,0 +1,13 @@
+<md-list-item>
+  <h3 md-line (click)="toggleDisplay()">
+    {{type.name}}
+    <i style="float: right" md-list-avatar class="material-icons" *ngIf="!displayCategories">arrow_drop_down</i>
+    <i style="float: right" md-list-avatar class="material-icons" *ngIf="displayCategories">arrow_drop_up</i>
+  </h3>
+  <p md-line *ngFor="let category of type.categories">
+    <md-checkbox *ngIf="displayCategories">{{category}}</md-checkbox>
+  </p>
+  <p md-line>
+    <button md-button *ngIf="displayCategories">Find</button>
+  </p>
+</md-list-item>

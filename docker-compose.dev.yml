@@ -1,60 +1,29 @@
 version: "3"
 
 services:
-  node-builder:
-    container_name: mean-builder
+  eldritch-builder:
+    container_name: eldritch-builder
     image: node:latest
     build:
       context: .
       dockerfile: ./.docker/dockerfiles/node-builder.dev.dockerfile
     volumes:
-      - ./client/:/var/app/:rw
+      - ./:/var/app/:rw
     command: /var/scripts/node-builder.sh
 
-  nginx:
-    container_name: mean-nginx
+  eldritch-nginx:
+    container_name: eldritch-nginx
     image: nginx
     build:
       context: .
       dockerfile: ./.docker/dockerfiles/nginx.dockerfile
     networks:
-      - mean-network
-    links:
-      - node:node
+      - eldritch-network
     ports:
       - "80:80"
     volumes:
-      - ./client/:/var/app/:ro
-
-  node:
-    container_name: mean-app
-    image: node
-    build:
-      context: .
-      dockerfile: ./.docker/dockerfiles/node.dev.dockerfile
-    ports:
-      - "3000:3000"
-    networks:
-      - mean-network
-    env_file:
-      - ./.docker/env/node.dev.env
-    working_dir: /var/app
-    volumes:
-      - ./server/:/var/app/:rw
-
-  mongo:
-    container_name: mean-mongodb
-    image: mongo
-    build:
-      context: .
-      dockerfile: ./.docker/dockerfiles/mongo.dockerfile
-    env_file:
-      - ./.docker/env/mongo.dev.env
-    networks:
-      - mean-network
-    ports:
-      - "27017:27017"
+      - ./:/var/app/:ro
 
 networks:
-  mean-network:
+  eldritch-network:
     driver: bridge

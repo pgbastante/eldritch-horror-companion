@@ -19,5 +19,8 @@
   },
   "awesomeTypeScriptLoaderOptions": {
     "useWebpackText": true
-  }
+  },
+  "exclude": [
+    "node_modules"
+  ]
 }

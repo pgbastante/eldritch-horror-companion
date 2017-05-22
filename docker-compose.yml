@@ -1,64 +1,33 @@
 version: "3"
 
 services:
-  node-builder:
-    container_name: mean-builder
+  eldritch-builder:
+    container_name: eldritch-builder
     image: node:latest
     build:
       context: .
       dockerfile: ./.docker/dockerfiles/node-builder.prod.dockerfile
     volumes:
-      - client-prod-builder:/var/app/
+      - eldritch-prod-builder:/var/app/
 
-  nginx:
-    container_name: mean-nginx
+  eldritch-nginx:
+    container_name: eldritch-nginx
     image: nginx
     build:
       context: .
       dockerfile: ./.docker/dockerfiles/nginx.dockerfile
     networks:
-      - mean-network
-    links:
-      - node:node
+      - eldritch-network
     ports:
       - "80:80"
     volumes:
-      - client-prod-builder:/var/app/
+      - eldritch-prod-builder:/var/app/
     depends_on:
-      - node-builder
-
-  node:
-    container_name: mean-app
-    image: node
-    build:
-      context: .
-      dockerfile: ./.docker/dockerfiles/node.prod.dockerfile
-    ports:
-      - "3000:3000"
-    networks:
-      - mean-network
-    env_file:
-      - ./.docker/env/node.prod.env
-    working_dir: /var/app/
-    depends_on:
-      - node-builder
-
-  mongo:
-    container_name: mean-mongodb
-    image: mongo
-    build:
-      context: .
-      dockerfile: ./.docker/dockerfiles/mongo.dockerfile
-    env_file:
-      - ./.docker/env/mongo.prod.env
-    networks:
-      - mean-network
-    ports:
-      - "27017:27017"
+      - eldritch-builder
 
 networks:
-  mean-network:
+  eldritch-network:
     driver: bridge
 
 volumes:
-  client-prod-builder:
+  eldritch-prod-builder:

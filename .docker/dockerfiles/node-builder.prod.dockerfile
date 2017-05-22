@@ -5,10 +5,10 @@ ENV NPM_CONFIG_LOGLEVEL warn
 
 VOLUME /var/app/
 
-# Copy the code of the client to the container
-COPY ./client/ /var/app/
+# Copy the code to the container
+COPY ./ /var/app/
 
 WORKDIR /var/app/
 
-# Build the client code for production
+# Build the code for production
 CMD ["npm", "start"]

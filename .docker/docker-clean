@@ -1,5 +1,9 @@
 #!/bin/bash
 
+docker-compose stop
+docker-compose rm
+docker system prune -f
+
 # Stop all containers
 docker stop $(docker ps -a -q)
 
