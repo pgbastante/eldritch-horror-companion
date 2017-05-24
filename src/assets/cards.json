@@ -1,0 +1,24 @@
+[
+  {
+    "name": "Card 1",
+    "categories": [
+      "ritual"
+    ],
+    "type": "Spell"
+  },
+  {
+    "name": "Card 2",
+    "categories": [
+      "incantation",
+      "ritual"
+    ],
+    "type": "Spell"
+  },
+  {
+    "name": "Asset 1",
+    "categories": [
+      "object"
+    ],
+    "type": "Asset"
+  }
+]
