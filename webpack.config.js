@@ -34,7 +34,7 @@ module.exports = (options) => {
        * This option determines the name of on-demand loaded chunk files. See output.filename option for details on
        * the possible values.
        *
-       * Note that these filenames need to be generated at runtime to send the requests for chunks. Because of this,
+       * Note that these file names need to be generated at runtime to send the requests for chunks. Because of this,
        * placeholders like [name] and [chunkhash] need to add a mapping from chunk id to placeholder value to the output
        * bundle with the webpack runtime. This increases the size and may invalidate the bundle when placeholder value for
        * any chunk changes.

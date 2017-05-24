@@ -105,7 +105,7 @@ class Loaders {
    *
    * See: https://github.com/deepsweet/istanbul-instrumenter-loader
    */
-  static istambulInstrumenter() {
+  static istanbulInstrumenter() {
     return {
       enforce: 'post',
       test: /\.(js|ts)$/,
@@ -171,7 +171,7 @@ class Loaders {
   static getTestingLoaders() {
     return [
       this.jsSourceMap(),
-      this.istambulInstrumenter()
+      this.istanbulInstrumenter()
     ]
   }
 }

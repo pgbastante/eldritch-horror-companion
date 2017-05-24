@@ -4,7 +4,7 @@
 **v0.0.2**
 * Karma
 * Jasmine
-* Istambul
+* Istanbul
 * Angular 4.0.3 update
 * Refactored webpack loaders and plugins
 
