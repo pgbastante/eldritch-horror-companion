@@ -1,4 +1,9 @@
-export type expansion =
+class Expansion {
+  name: string;
+  key: expansionType;
+}
+
+export type expansionType =
   'base'
   | 'forsaken-lore'
   | 'mountains-of-madness'

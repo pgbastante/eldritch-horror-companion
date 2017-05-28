@@ -7,7 +7,7 @@ import { Location } from './models/Location';
 
 @Component({
   selector: 'main-menu-list',
-  templateUrl: 'src/app/menu-list.component.html'
+  templateUrl: 'menu-list.component.html'
 })
 export class MenuListComponent {
   itemTypes: Item[] = [new Spell(), new Asset(), new UniqueAsset(), new Condition(), new Location()];

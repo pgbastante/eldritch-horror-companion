@@ -4,7 +4,7 @@ import { Router } from '@angular/router';
 
 @Component({
   selector: 'menu-item',
-  templateUrl: 'src/app/menu-list-item.component.html'
+  templateUrl: 'menu-list-item.component.html'
 })
 export class MenuListItemComponent {
   @Input()
@@ -22,6 +22,6 @@ export class MenuListItemComponent {
     this.toggleDisplayEvent.emit(this.type);
   };
   navigateToRandomGenerator = function () {
-    this.router.navigate(['/randomize', {categories: JSON.stringify(this.categories), type: this.type.type}]);
+    this.router.navigate(['/randomize', {categories: JSON.stringify(this.categories), type: this.item.type}]);
   };
 }
