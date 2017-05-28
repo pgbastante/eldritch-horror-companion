@@ -72,6 +72,20 @@ module.exports = (options) => {
      * A list of webpack plugins. For example, when multiple bundles share some of the same dependencies,
      * the CommonsChunkPlugin could be useful to extract those dependencies into a shared bundle to avoid duplication
      */
-    plugins: require('./config/webpack/plugins')
+    plugins: require('./config/webpack/plugins'),
+    /**
+     * Include polyfills or mocks for various node stuff
+     * Description: Node configuration
+     *
+     * See: https://webpack.github.io/docs/configuration.html#node
+     */
+    node: {
+      global: true,
+      crypto: 'empty',
+      process: true,
+      module: false,
+      clearImmediate: false,
+      setImmediate: false
+    }
   }
 };

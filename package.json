@@ -5,7 +5,8 @@
   "scripts": {
     "prestart": "if [ ! -d node_modules ]; then npm install; fi",
     "start": "cross-env NODE_ENV=production webpack --display-error-details",
-    "dev": "cross-env NODE_ENV=development webpack --display-error-details --watch",
+    "dev": "cross-env NODE_ENV=development webpack --display-error-details",
+    "watch": "cross-env NODE_ENV=development webpack --display-error-details --watch",
     "clean": "rimraf dist/",
     "test": "karma start"
   },

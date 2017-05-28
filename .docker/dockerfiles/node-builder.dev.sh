@@ -5,4 +5,4 @@ npm cache clean
 echo "Updating node_modules"
 npm install
 echo "Running Dev Environment"
-npm run dev
+npm run watch

@@ -62,14 +62,39 @@ class Loaders {
     }
   }
 
-  static css() {
+  /**
+   * To string and css loader support for *.css files (from Angular components)
+   * Returns file content as string
+   *
+   * This will inline the css files on the bundle file
+   */
+  static cssToString(){
+    return {
+      test: /\.css$/,
+      use: ['to-string-loader', 'css-loader'],
+      exclude: [helpers.root('src', 'styles')]
+    }
+  }
+
+  /**
+   * Load require included css files
+   */
+  static cssRequire(){
+    return {
+      test: /\.css$/,
+      use: ['style-loader', 'css-loader'],
+      include: [helpers.root('src', 'styles'),/node_modules/]
+    };
+  }
+
+  static cssExtract() {
     return {
       test: /\.css$/,
       loader: ExtractTextPlugin.extract({
         fallback: 'style-loader',
         use: 'css-loader'
       }),
-      include: [helpers.root('src', 'styles'), /node_modules/]
+      include: [helpers.root('src', 'styles')]
     }
   }
 
@@ -147,23 +172,26 @@ class Loaders {
     return [
       this.js(),
       this.ts(),
-      this.css(),
+      this.cssToString(),
       this.less(),
       this.html(),
       this.json(),
       this.fonts(),
       this.image()
+
     ]
   }
 
   static getProductionLoaders() {
     return [
+      this.cssExtract(),
       this.tslint()
     ]
   }
 
   static getDevelopmentLoaders() {
     return [
+      this.cssRequire(),
       this.tslint()
     ];
   }

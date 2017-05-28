@@ -175,13 +175,13 @@ class Plugins {
       this.typeChecker(),
       this.defineConstants,
       this.htmlCreation(),
-      this.angularContext(),
-      this.extractCss()
+      this.angularContext()
     ];
   }
 
   static getProductionPlugins() {
     return [
+      this.extractCss(),
       this.uglify(),
       this.optimizeJs()
     ].concat(this.commonChunks());

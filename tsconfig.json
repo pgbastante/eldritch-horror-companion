@@ -3,12 +3,15 @@
     "target": "es5",
     "module": "es2015",
     "moduleResolution": "node",
-    "sourceMap": true,
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
+    "sourceMap": true,
     "lib": [
       "es2015",
       "dom"
+    ],
+    "typeRoots": [
+      "node_modules/@types"
     ],
     "types": [
       "node",
@@ -17,10 +20,12 @@
     "noImplicitAny": true,
     "suppressImplicitAnyIndexErrors": true
   },
-  "awesomeTypeScriptLoaderOptions": {
-    "useWebpackText": true
-  },
   "exclude": [
-    "node_modules"
-  ]
+    "node_modules",
+    "dist"
+  ],
+  "awesomeTypescriptLoaderOptions": {
+    "forkChecker": true,
+    "useWebpackText": true
+  }
 }
