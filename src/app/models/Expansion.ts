@@ -1,6 +1,7 @@
-class Expansion {
+export class Expansion {
   name: string;
   key: expansionType;
+  available: boolean;
 }
 
 export type expansionType =
@@ -11,3 +12,12 @@ export type expansionType =
   | 'under-the-piramids'
   | 'signs-of-carcosa'
   | 'the-dreamlands';
+
+export let expansionTypes = [
+  'forsaken-lore'
+  , 'mountains-of-madness'
+  , 'strange-remnants'
+  , 'under-the-piramids'
+  , 'signs-of-carcosa'
+  , 'the-dreamlands'
+];
