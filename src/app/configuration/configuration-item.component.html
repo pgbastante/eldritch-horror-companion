@@ -1,7 +1,7 @@
 <md-list-item>
   <div md-line>
-  <div class="{{expansion.key}}">
-    <md-slide-toggle class="ci-slider" [checked]="expansion.available" (change)="onChange($event)">
+  <div class="configuration-item-image {{expansion.key}}">
+    <md-slide-toggle class="configuration-item-slider" [checked]="expansion.available" (change)="onChange($event)">
       {{expansion.name}}
     </md-slide-toggle>
   </div>

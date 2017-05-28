@@ -1,40 +1,34 @@
-.forsaken-lore {
-  background: url('../../assets/images/forsaken-lore.png') no-repeat center;
+.configuration-item-image{
   width: 45px;
   height: 56px;
+  margin-left: 8px;
+}
+
+.forsaken-lore {
+  background: url('../../assets/images/forsaken-lore.png') no-repeat center;
 }
 
 .mountains-of-madness {
   background: url('../../assets/images/mountains-of-madness.png') no-repeat center;
-  width: 45px;
-  height: 56px;
 }
 
 .signs-of-carcosa {
   background: url('../../assets/images/signs-of-carcosa.png') no-repeat center;
-  width: 45px;
-  height: 56px;
 }
 
 .strange-remnants {
   background: url('../../assets/images/strange-remnants.png') no-repeat center;
-  width: 45px;
-  height: 56px;
 }
 
 .the-dreamlands {
   background: url('../../assets/images/the-dreamlands.png') no-repeat center;
-  width: 45px;
-  height: 56px;
 }
 
 .under-the-pyramids {
   background: url('../../assets/images/under-the-pyramids.png') no-repeat center;
-  width: 45px;
-  height: 56px;
 }
 
-.ci-slider{
+.configuration-item-slider{
   padding-left: 50px;
   padding-top: 16px;
 }

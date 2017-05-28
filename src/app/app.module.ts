@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { MdButtonModule, MdCardModule, MdCheckboxModule, MdListModule } from '@angular/material';
+import { MdButtonModule, MdCardModule, MdCheckboxModule, MdListModule, MdToolbarModule, MdSidenavModule } from '@angular/material';
 import { FormsModule } from '@angular/forms';
 import { MenuListComponent } from './menu-list.component';
 import { RouterModule, Routes } from '@angular/router';
@@ -34,7 +34,9 @@ const appRoutes: Routes = [
     FormsModule,
     HttpModule,
     MdCardModule,
-    ConfigurationModule
+    ConfigurationModule,
+    MdToolbarModule,
+    MdSidenavModule
   ],
   declarations: [MenuListComponent, MenuListItemComponent, MenuRoutingComponent, RandomItemGeneratorComponent],
   bootstrap: [MenuRoutingComponent],

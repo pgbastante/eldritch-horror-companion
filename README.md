@@ -13,3 +13,13 @@ Then just use the app to tell you what card to look for. E.g, you need to find a
 You can configure what expansions of the game you have so you don't get cards you don't have.
 
 Hope this helps, any ideas and help are welcome.
+
+#TODO
+
+* Spanish translation
+* Language selector
+* Show the correct text for each of the categories, expansions...
+* Add all items to the database (spanish and english)
+* Make the location randomizer or tune the existing one to work with locations
+* Main menu smooth transitions
+* General styling
