@@ -1,7 +1,7 @@
 import { Item } from './Item';
 
 export class Asset extends Item {
-  type = 'Asset';
+  type = 'asset';
   categories: assetCategory[] = [
     'trinket',
     'weapon',
@@ -18,7 +18,7 @@ export class Asset extends Item {
 }
 
 export class UniqueAsset extends Item {
-  type = 'Unique Asset';
+  type = 'unique-asset';
   categories: assetCategory[] = [
     'trinket',
     'weapon',

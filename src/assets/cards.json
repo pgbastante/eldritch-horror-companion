@@ -1,27 +1,5470 @@
 [
   {
-    "name": "Card 1",
+    "name": "Financiación",
     "categories": [
-      "ritual"
+      "deal"
     ],
-    "type": "Spell",
-    "expansion": "base"
+    "type": "condition",
+    "expansion": "mom",
+    "front": "Puedes descartar esta carta en lugar de obtener el Estado Deuda o para descartar el Estado Deuda",
+    "retribution": "Si estás en una casilla de Ciudad, puedes darle la vuelta a esta carta",
+    "back": "No va más"
   },
   {
-    "name": "Card 2",
+    "name": "Financiación",
+    "categories": [
+      "deal"
+    ],
+    "type": "condition",
+    "expansion": "mom",
+    "front": "Puedes descartar esta carta en lugar de obtener el Estado Deuda o para descartar el Estado Deuda",
+    "retribution": "Si estás en una casilla de Ciudad, puedes darle la vuelta a esta carta",
+    "back": "Subasta Misteriosa"
+  },
+  {
+    "name": "Financiación",
+    "categories": [
+      "deal"
+    ],
+    "type": "condition",
+    "expansion": "mom",
+    "front": "Puedes descartar esta carta en lugar de obtener el Estado Deuda o para descartar el Estado Deuda",
+    "retribution": "Si estás en una casilla de Ciudad, puedes darle la vuelta a esta carta",
+    "back": "Pago"
+  },
+  {
+    "name": "Financiación",
+    "categories": [
+      "deal"
+    ],
+    "type": "condition",
+    "expansion": "mom",
+    "front": "Puedes descartar esta carta en lugar de obtener el Estado Deuda o para descartar el Estado Deuda",
+    "retribution": "Si estás en una casilla de Ciudad, puedes darle la vuelta a esta carta",
+    "back": "Sicario a sueldo"
+  },
+  {
+    "name": "Deuda",
+    "categories": [
+      "deal",
+      "common"
+    ],
+    "type": "condition",
+    "expansion": "fl",
+    "front": "Acción local: Realiza una prueba de influencia. Si superas la prueba, descarta esta carta",
+    "retribution": "Unos hombres han venido a cobrar la deuda. Dale la vuelta a esta carta",
+    "back": "Recaudación"
+  },
+  {
+    "name": "Deuda",
+    "categories": [
+      "deal",
+      "common"
+    ],
+    "type": "condition",
+    "expansion": "base",
+    "front": "Acción local: Realiza una prueba de influencia. Si superas la prueba, descarta esta carta",
+    "retribution": "Unos hombres han venido a cobrar la deuda. Dale la vuelta a esta carta",
+    "back": "Por encima de las riquezas"
+  },
+  {
+    "name": "Deuda",
+    "categories": [
+      "deal",
+      "common"
+    ],
+    "type": "condition",
+    "expansion": "base",
+    "front": "Acción local: Realiza una prueba de influencia. Si superas la prueba, descarta esta carta",
+    "retribution": "Unos hombres han venido a cobrar la deuda. Dale la vuelta a esta carta",
+    "back": "Sirviente reticente"
+  },
+  {
+    "name": "Deuda",
+    "categories": [
+      "deal",
+      "common"
+    ],
+    "type": "condition",
+    "expansion": "base",
+    "front": "Acción local: Realiza una prueba de influencia. Si superas la prueba, descarta esta carta",
+    "retribution": "Unos hombres han venido a cobrar la deuda. Dale la vuelta a esta carta",
+    "back": "Sicarios"
+  },
+  {
+    "name": "Deuda",
+    "categories": [
+      "deal",
+      "common"
+    ],
+    "type": "condition",
+    "expansion": "base",
+    "front": "Acción local: Realiza una prueba de influencia. Si superas la prueba, descarta esta carta",
+    "retribution": "Unos hombres han venido a cobrar la deuda. Dale la vuelta a esta carta",
+    "back": "Autoridades locales"
+  },
+  {
+    "name": "Deuda",
+    "categories": [
+      "deal",
+      "common"
+    ],
+    "type": "condition",
+    "expansion": "base",
+    "front": "Acción local: Realiza una prueba de influencia. Si superas la prueba, descarta esta carta",
+    "retribution": "Unos hombres han venido a cobrar la deuda. Dale la vuelta a esta carta",
+    "back": "Cobrador"
+  },
+  {
+    "name": "Deuda",
+    "categories": [
+      "deal",
+      "common"
+    ],
+    "type": "condition",
+    "expansion": "sr",
+    "front": "Acción local: Realiza una prueba de influencia. Si superas la prueba, descarta esta carta",
+    "retribution": "Unos hombres han venido a cobrar la deuda. Dale la vuelta a esta carta",
+    "back": "Deuda transferida"
+  },
+  {
+    "name": "Deuda",
+    "categories": [
+      "deal",
+      "common"
+    ],
+    "type": "condition",
+    "expansion": "mom",
+    "front": "Acción local: Realiza una prueba de influencia. Si superas la prueba, descarta esta carta",
+    "retribution": "Unos hombres han venido a cobrar la deuda. Dale la vuelta a esta carta",
+    "back": "Deuda con los gules"
+  },
+  {
+    "name": "Deuda",
+    "categories": [
+      "deal",
+      "common"
+    ],
+    "type": "condition",
+    "expansion": "soc",
+    "front": "Acción local: Realiza una prueba de influencia. Si superas la prueba, descarta esta carta",
+    "retribution": "Unos hombres han venido a cobrar la deuda. Dale la vuelta a esta carta",
+    "back": "Precio por tu cabeza"
+  },
+  {
+    "name": "Deuda",
+    "categories": [
+      "deal",
+      "common"
+    ],
+    "type": "condition",
+    "expansion": "mom",
+    "front": "Acción local: Realiza una prueba de influencia. Si superas la prueba, descarta esta carta",
+    "retribution": "Unos hombres han venido a cobrar la deuda. Dale la vuelta a esta carta",
+    "back": "Un desafortunado accidente"
+  },
+  {
+    "name": "Deuda",
+    "categories": [
+      "deal",
+      "common"
+    ],
+    "type": "condition",
+    "expansion": "fl",
+    "front": "Acción local: Realiza una prueba de influencia. Si superas la prueba, descarta esta carta",
+    "retribution": "Unos hombres han venido a cobrar la deuda. Dale la vuelta a esta carta",
+    "back": "Comida envenenada"
+  },
+  {
+    "name": "Deuda",
+    "categories": [
+      "deal",
+      "common"
+    ],
+    "type": "condition",
+    "expansion": "base",
+    "front": "Acción local: Realiza una prueba de influencia. Si superas la prueba, descarta esta carta",
+    "retribution": "Unos hombres han venido a cobrar la deuda. Dale la vuelta a esta carta",
+    "back": "Hacer un trato"
+  },
+  {
+    "name": "Acuerdo",
+    "categories": [
+      "deal"
+    ],
+    "type": "condition",
+    "expansion": "er",
+    "front": "Acción local: Realiza una prueba de influencia - 1. Si superas la prueba, puedes gastar 2 pistas para descartar esta carta",
+    "retribution": "Tira 1 dado. Si sacas un 1 ó 2, ha llegado el momento de que cumplas tu parte; dale la vuelta a esta carta",
+    "back": "Transacciones siniestras"
+  },
+  {
+    "name": "Acuerdo",
+    "categories": [
+      "deal"
+    ],
+    "type": "condition",
+    "expansion": "er",
+    "front": "Acción local: Realiza una prueba de influencia - 1. Si superas la prueba, puedes gastar 2 pistas para descartar esta carta",
+    "retribution": "Tira 1 dado. Si sacas un 1 ó 2, ha llegado el momento de que cumplas tu parte; dale la vuelta a esta carta",
+    "back": "Trato roto"
+  },
+  {
+    "name": "Acuerdo",
+    "categories": [
+      "deal"
+    ],
+    "type": "condition",
+    "expansion": "er",
+    "front": "Acción local: Realiza una prueba de influencia - 1. Si superas la prueba, puedes gastar 2 pistas para descartar esta carta",
+    "retribution": "Tira 1 dado. Si sacas un 1 ó 2, ha llegado el momento de que cumplas tu parte; dale la vuelta a esta carta",
+    "back": "Contrato oscuro"
+  },
+  {
+    "name": "Acuerdo",
+    "categories": [
+      "deal"
+    ],
+    "type": "condition",
+    "expansion": "er",
+    "front": "Acción local: Realiza una prueba de influencia - 1. Si superas la prueba, puedes gastar 2 pistas para descartar esta carta",
+    "retribution": "Tira 1 dado. Si sacas un 1 ó 2, ha llegado el momento de que cumplas tu parte; dale la vuelta a esta carta",
+    "back": "Consciencia fragmentada"
+  },
+  {
+    "name": "Promesa de poder",
+    "categories": [
+      "deal"
+    ],
+    "type": "condition",
+    "expansion": "soc",
+    "front": "Puedes descartar esta carta para volver a tirar cualquier cantidad de dados al resolver una prueba",
+    "retribution": "Tira 1 dado. Si sacas un 6, tu paciencia por fin se ve recompensada; dale la vuelta a esta carta",
+    "back": "Destierro mayor"
+  },
+  {
+    "name": "Promesa de poder",
+    "categories": [
+      "deal"
+    ],
+    "type": "condition",
+    "expansion": "soc",
+    "front": "Puedes descartar esta carta para volver a tirar cualquier cantidad de dados al resolver una prueba",
+    "retribution": "Tira 1 dado. Si sacas un 6, tu paciencia por fin se ve recompensada; dale la vuelta a esta carta",
+    "back": "Potencial despertado"
+  },
+  {
+    "name": "Promesa de poder",
+    "categories": [
+      "deal"
+    ],
+    "type": "condition",
+    "expansion": "soc",
+    "front": "Puedes descartar esta carta para volver a tirar cualquier cantidad de dados al resolver una prueba",
+    "retribution": "Tira 1 dado. Si sacas un 6, tu paciencia por fin se ve recompensada; dale la vuelta a esta carta",
+    "back": "Solidificar la barrera"
+  },
+  {
+    "name": "Promesa de poder",
+    "categories": [
+      "deal"
+    ],
+    "type": "condition",
+    "expansion": "soc",
+    "front": "Puedes descartar esta carta para volver a tirar cualquier cantidad de dados al resolver una prueba",
+    "retribution": "Tira 1 dado. Si sacas un 6, tu paciencia por fin se ve recompensada; dale la vuelta a esta carta",
+    "back": "Apoyo de la orden"
+  },
+  {
+    "name": "Pacto oscuro",
+    "categories": [
+      "deal"
+    ],
+    "type": "condition",
+    "expansion": "mom",
+    "front": "",
+    "retribution": "Tira 1 dado. Si sacas un 1, es hora de cumplir tu parte del trato; dale la vuelta a esta carta",
+    "back": "Pacto con Eibon"
+  },
+  {
+    "name": "Pacto oscuro",
+    "categories": [
+      "deal"
+    ],
+    "type": "condition",
+    "expansion": "er",
+    "front": "",
+    "retribution": "Tira 1 dado. Si sacas un 1, es hora de cumplir tu parte del trato; dale la vuelta a esta carta",
+    "back": "Encuentro de pesadilla"
+  },
+  {
+    "name": "Pacto oscuro",
+    "categories": [
+      "deal"
+    ],
+    "type": "condition",
+    "expansion": "fl",
+    "front": "",
+    "retribution": "Tira 1 dado. Si sacas un 1, es hora de cumplir tu parte del trato; dale la vuelta a esta carta",
+    "back": "Todo está perdido"
+  },
+  {
+    "name": "Pacto oscuro",
+    "categories": [
+      "deal"
+    ],
+    "type": "condition",
+    "expansion": "base",
+    "front": "",
+    "retribution": "Tira 1 dado. Si sacas un 1, es hora de cumplir tu parte del trato; dale la vuelta a esta carta",
+    "back": "Pacto con el Hombre de Negro"
+  },
+  {
+    "name": "Pacto oscuro",
+    "categories": [
+      "deal"
+    ],
+    "type": "condition",
+    "expansion": "base",
+    "front": "",
+    "retribution": "Tira 1 dado. Si sacas un 1, es hora de cumplir tu parte del trato; dale la vuelta a esta carta",
+    "back": "Uno del millar"
+  },
+  {
+    "name": "Pacto oscuro",
+    "categories": [
+      "deal"
+    ],
+    "type": "condition",
+    "expansion": "base",
+    "front": "",
+    "retribution": "Tira 1 dado. Si sacas un 1, es hora de cumplir tu parte del trato; dale la vuelta a esta carta",
+    "back": "Pacto con Yog-Sothoth"
+  },
+  {
+    "name": "Pacto oscuro",
+    "categories": [
+      "deal"
+    ],
+    "type": "condition",
+    "expansion": "soc",
+    "front": "",
+    "retribution": "Tira 1 dado. Si sacas un 1, es hora de cumplir tu parte del trato; dale la vuelta a esta carta",
+    "back": "Juramento inquebrantable"
+  },
+  {
+    "name": "Aflicción",
+    "categories": [
+      "bane"
+    ],
+    "type": "condition",
+    "expansion": "soc",
+    "front": "Cuando obtengas esta carta descarta 1 Apoyo Aliado",
+    "retribution": "Los aliados de los que te rodeas actúan de forma errática y sin motivo. Dale la vuelta a esta carta",
+    "back": "Mirada demoníaca"
+  },
+  {
+    "name": "Aflicción",
+    "categories": [
+      "bane"
+    ],
+    "type": "condition",
+    "expansion": "soc",
+    "front": "Cuando obtengas esta carta descarta 1 Apoyo Aliado",
+    "retribution": "Los aliados de los que te rodeas actúan de forma errática y sin motivo. Dale la vuelta a esta carta",
+    "back": "Destrucción indiscriminada"
+  },
+  {
+    "name": "Aflicción",
+    "categories": [
+      "bane"
+    ],
+    "type": "condition",
+    "expansion": "soc",
+    "front": "Cuando obtengas esta carta descarta 1 Apoyo Aliado",
+    "retribution": "Los aliados de los que te rodeas actúan de forma errática y sin motivo. Dale la vuelta a esta carta",
+    "back": "Brote psicótico"
+  },
+  {
+    "name": "Aflicción",
+    "categories": [
+      "bane"
+    ],
+    "type": "condition",
+    "expansion": "soc",
+    "front": "Cuando obtengas esta carta descarta 1 Apoyo Aliado",
+    "retribution": "Los aliados de los que te rodeas actúan de forma errática y sin motivo. Dale la vuelta a esta carta",
+    "back": "Codicia obsesiva"
+  },
+  {
+    "name": "Maldito",
+    "categories": [
+      "bane"
+    ],
+    "type": "condition",
+    "expansion": "base",
+    "front": "En tus pruebas sólo cuenta un 6 como éxito sacar un 6. Si fueses a obtener otro Estado Maldito, en lugar de eso dale la vuelta a esta carta. Si fueses a obtener el Estado Bendecido, en lugar de eso descarta esta carta",
+    "retribution": "Lanza 1 dado. Si sacas un 4, 5 o 6, descarta esta carta",
+    "back": "Justicia kármica"
+  },
+  {
+    "name": "Maldito",
+    "categories": [
+      "bane"
+    ],
+    "type": "condition",
+    "expansion": "mom",
+    "front": "En tus pruebas sólo cuenta un 6 como éxito sacar un 6. Si fueses a obtener otro Estado Maldito, en lugar de eso dale la vuelta a esta carta. Si fueses a obtener el Estado Bendecido, en lugar de eso descarta esta carta",
+    "retribution": "Lanza 1 dado. Si sacas un 4, 5 o 6, descarta esta carta",
+    "back": "Hambre animal"
+  },
+  {
+    "name": "Maldito",
+    "categories": [
+      "bane"
+    ],
+    "type": "condition",
+    "expansion": "base",
+    "front": "En tus pruebas sólo cuenta un 6 como éxito sacar un 6. Si fueses a obtener otro Estado Maldito, en lugar de eso dale la vuelta a esta carta. Si fueses a obtener el Estado Bendecido, en lugar de eso descarta esta carta",
+    "retribution": "Lanza 1 dado. Si sacas un 4, 5 o 6, descarta esta carta",
+    "back": "Pinta de Innsmouth"
+  },
+  {
+    "name": "Maldito",
+    "categories": [
+      "bane"
+    ],
+    "type": "condition",
+    "expansion": "base",
+    "front": "En tus pruebas sólo cuenta un 6 como éxito sacar un 6. Si fueses a obtener otro Estado Maldito, en lugar de eso dale la vuelta a esta carta. Si fueses a obtener el Estado Bendecido, en lugar de eso descarta esta carta",
+    "retribution": "Lanza 1 dado. Si sacas un 4, 5 o 6, descarta esta carta",
+    "back": "Atormentado"
+  },
+  {
+    "name": "Maldito",
+    "categories": [
+      "bane"
+    ],
+    "type": "condition",
+    "expansion": "sr",
+    "front": "En tus pruebas sólo cuenta un 6 como éxito sacar un 6. Si fueses a obtener otro Estado Maldito, en lugar de eso dale la vuelta a esta carta. Si fueses a obtener el Estado Bendecido, en lugar de eso descarta esta carta",
+    "retribution": "Lanza 1 dado. Si sacas un 4, 5 o 6, descarta esta carta",
+    "back": "Inestabilidad cósmica"
+  },
+  {
+    "name": "Maldito",
+    "categories": [
+      "bane"
+    ],
+    "type": "condition",
+    "expansion": "fl",
+    "front": "En tus pruebas sólo cuenta un 6 como éxito sacar un 6. Si fueses a obtener otro Estado Maldito, en lugar de eso dale la vuelta a esta carta. Si fueses a obtener el Estado Bendecido, en lugar de eso descarta esta carta",
+    "retribution": "Lanza 1 dado. Si sacas un 4, 5 o 6, descarta esta carta",
+    "back": "Mancillado"
+  },
+  {
+    "name": "Maldito",
+    "categories": [
+      "bane"
+    ],
+    "type": "condition",
+    "expansion": "fl",
+    "front": "En tus pruebas sólo cuenta un 6 como éxito sacar un 6. Si fueses a obtener otro Estado Maldito, en lugar de eso dale la vuelta a esta carta. Si fueses a obtener el Estado Bendecido, en lugar de eso descarta esta carta",
+    "retribution": "Lanza 1 dado. Si sacas un 4, 5 o 6, descarta esta carta",
+    "back": "Maldición de la serpiente"
+  },
+  {
+    "name": "Maldito",
+    "categories": [
+      "bane"
+    ],
+    "type": "condition",
+    "expansion": "fl",
+    "front": "En tus pruebas sólo cuenta un 6 como éxito sacar un 6. Si fueses a obtener otro Estado Maldito, en lugar de eso dale la vuelta a esta carta. Si fueses a obtener el Estado Bendecido, en lugar de eso descarta esta carta",
+    "retribution": "Lanza 1 dado. Si sacas un 4, 5 o 6, descarta esta carta",
+    "back": "Una oscura traición"
+  },
+  {
+    "name": "Maldito",
+    "categories": [
+      "bane"
+    ],
+    "type": "condition",
+    "expansion": "soc",
+    "front": "En tus pruebas sólo cuenta un 6 como éxito sacar un 6. Si fueses a obtener otro Estado Maldito, en lugar de eso dale la vuelta a esta carta. Si fueses a obtener el Estado Bendecido, en lugar de eso descarta esta carta",
+    "retribution": "Lanza 1 dado. Si sacas un 4, 5 o 6, descarta esta carta",
+    "back": "El Signo Amarillo"
+  },
+  {
+    "name": "Justa ira",
+    "categories": [
+      "boon"
+    ],
+    "type": "condition",
+    "expansion": "sr",
+    "front": "Cuando realices una acción de concentrarse o una acción de descansar, obten 1 ficha de Concentración o recupera 1 punto de cordura",
+    "retribution": "Puedes darle la vuelta a esta carta",
+    "back": "Rescate osado"
+  },
+  {
+    "name": "Justa ira",
+    "categories": [
+      "boon"
+    ],
+    "type": "condition",
+    "expansion": "sr",
+    "front": "Cuando realices una acción de concentrarse o una acción de descansar, obten 1 ficha de Concentración o recupera 1 punto de cordura",
+    "retribution": "Puedes darle la vuelta a esta carta",
+    "back": "Pasar a la ofensiva"
+  },
+  {
+    "name": "Justa ira",
+    "categories": [
+      "boon"
+    ],
+    "type": "condition",
+    "expansion": "sr",
+    "front": "Cuando realices una acción de concentrarse o una acción de descansar, obten 1 ficha de Concentración o recupera 1 punto de cordura",
+    "retribution": "Puedes darle la vuelta a esta carta",
+    "back": "Alianza con el Crepúsculo de Plata"
+  },
+  {
+    "name": "Justa ira",
+    "categories": [
+      "boon"
+    ],
+    "type": "condition",
+    "expansion": "sr",
+    "front": "Cuando realices una acción de concentrarse o una acción de descansar, obten 1 ficha de Concentración o recupera 1 punto de cordura",
+    "retribution": "Puedes darle la vuelta a esta carta",
+    "back": "Lo que no nos mata"
+  },
+  {
+    "name": "Bendecido",
+    "categories": [
+      "boon"
+    ],
+    "type": "condition",
+    "expansion": "base",
+    "front": "En tus pruebas cuenta como exito sacar 4, 5 o 6. Si fueses a obtener otro Estado Bendecido, en lugar de eso dale la vuelta a esta carta. Si fueses a obtener el Estado Maldito, en lugar de eso descarta esta carta",
+    "retribution": "Lanza 1 dado. Si sacas un 1 o un 2 descarta esta carta",
+    "back": "Visiones de Hipnos"
+  },
+  {
+    "name": "Bendecido",
+    "categories": [
+      "boon"
+    ],
+    "type": "condition",
+    "expansion": "mom",
+    "front": "En tus pruebas cuenta como exito sacar 4, 5 o 6. Si fueses a obtener otro Estado Bendecido, en lugar de eso dale la vuelta a esta carta. Si fueses a obtener el Estado Maldito, en lugar de eso descarta esta carta",
+    "retribution": "Lanza 1 dado. Si sacas un 1 o un 2 descarta esta carta",
+    "back": "Suerte bendecida"
+  },
+  {
+    "name": "Bendecido",
+    "categories": [
+      "boon"
+    ],
+    "type": "condition",
+    "expansion": "sr",
+    "front": "En tus pruebas cuenta como exito sacar 4, 5 o 6. Si fueses a obtener otro Estado Bendecido, en lugar de eso dale la vuelta a esta carta. Si fueses a obtener el Estado Maldito, en lugar de eso descarta esta carta",
+    "retribution": "Lanza 1 dado. Si sacas un 1 o un 2 descarta esta carta",
+    "back": "Favorecido"
+  },
+  {
+    "name": "Bendecido",
+    "categories": [
+      "boon"
+    ],
+    "type": "condition",
+    "expansion": "base",
+    "front": "En tus pruebas cuenta como exito sacar 4, 5 o 6. Si fueses a obtener otro Estado Bendecido, en lugar de eso dale la vuelta a esta carta. Si fueses a obtener el Estado Maldito, en lugar de eso descarta esta carta",
+    "retribution": "Lanza 1 dado. Si sacas un 1 o un 2 descarta esta carta",
+    "back": "Amado por Bast"
+  },
+  {
+    "name": "Bendecido",
+    "categories": [
+      "boon"
+    ],
+    "type": "condition",
+    "expansion": "base",
+    "front": "En tus pruebas cuenta como exito sacar 4, 5 o 6. Si fueses a obtener otro Estado Bendecido, en lugar de eso dale la vuelta a esta carta. Si fueses a obtener el Estado Maldito, en lugar de eso descarta esta carta",
+    "retribution": "Lanza 1 dado. Si sacas un 1 o un 2 descarta esta carta",
+    "back": "Bendición de Nodess"
+  },
+  {
+    "name": "Bendecido",
+    "categories": [
+      "boon"
+    ],
+    "type": "condition",
+    "expansion": "soc",
+    "front": "En tus pruebas cuenta como exito sacar 4, 5 o 6. Si fueses a obtener otro Estado Bendecido, en lugar de eso dale la vuelta a esta carta. Si fueses a obtener el Estado Maldito, en lugar de eso descarta esta carta",
+    "retribution": "Lanza 1 dado. Si sacas un 1 o un 2 descarta esta carta",
+    "back": "Talento bendecido"
+  },
+  {
+    "name": "Bendecido",
+    "categories": [
+      "boon"
+    ],
+    "type": "condition",
+    "expansion": "fl",
+    "front": "En tus pruebas cuenta como exito sacar 4, 5 o 6. Si fueses a obtener otro Estado Bendecido, en lugar de eso dale la vuelta a esta carta. Si fueses a obtener el Estado Maldito, en lugar de eso descarta esta carta",
+    "retribution": "Lanza 1 dado. Si sacas un 1 o un 2 descarta esta carta",
+    "back": "Ungido"
+  },
+  {
+    "name": "Bendecido",
+    "categories": [
+      "boon"
+    ],
+    "type": "condition",
+    "expansion": "fl",
+    "front": "En tus pruebas cuenta como exito sacar 4, 5 o 6. Si fueses a obtener otro Estado Bendecido, en lugar de eso dale la vuelta a esta carta. Si fueses a obtener el Estado Maldito, en lugar de eso descarta esta carta",
+    "retribution": "Lanza 1 dado. Si sacas un 1 o un 2 descarta esta carta",
+    "back": "Luz de Kthanid"
+  },
+  {
+    "name": "Bendecido",
+    "categories": [
+      "boon"
+    ],
+    "type": "condition",
+    "expansion": "fl",
+    "front": "En tus pruebas cuenta como exito sacar 4, 5 o 6. Si fueses a obtener otro Estado Bendecido, en lugar de eso dale la vuelta a esta carta. Si fueses a obtener el Estado Maldito, en lugar de eso descarta esta carta",
+    "retribution": "Lanza 1 dado. Si sacas un 1 o un 2 descarta esta carta",
+    "back": "Leyendas de las estrellas"
+  },
+  {
+    "name": "Destreza de lucha",
+    "categories": [
+      "talent"
+    ],
+    "type": "condition",
+    "expansion": "soc",
+    "front": "Al resolver un Encuentro de Combate, puedes obtner +3 fuerza durante ese encuentro. Si lo haces, dale la vuelta a esta carta antes de resolver la prueba.",
+    "number": 1
+  },
+  {
+    "name": "Destreza de lucha",
+    "categories": [
+      "talent"
+    ],
+    "type": "condition",
+    "expansion": "soc",
+    "front": "Al resolver un Encuentro de Combate, puedes obtner +3 fuerza durante ese encuentro. Si lo haces, dale la vuelta a esta carta antes de resolver la prueba.",
+    "number": 2
+  },
+  {
+    "name": "Estudioso",
+    "categories": [
+      "talent"
+    ],
+    "type": "condition",
+    "expansion": "soc",
+    "front": "Acción: Realiza una prueba de voluntad -1. Si la superas, mejora 1 habilidad de tu elección. A continuación, dale la vuelta a esta carta",
+    "number": 1
+  },
+  {
+    "name": "Estudioso",
+    "categories": [
+      "talent"
+    ],
+    "type": "condition",
+    "expansion": "soc",
+    "front": "Acción: Realiza una prueba de voluntad -1. Si la superas, mejora 1 habilidad de tu elección. A continuación, dale la vuelta a esta carta",
+    "number": 2
+  },
+  {
+    "name": "Artimañas",
+    "categories": [
+      "talent"
+    ],
+    "type": "condition",
+    "expansion": "soc",
+    "front": "Acción: Realiza una prueba de observacion +2. Si la superas, puedes obtner 1 Apoyo Objeto o Baratija de la reserva que tenga un valor igual o menor a tu resultado de la prueba. A continuación, dale la vuelta a esta carta",
+    "number": 1
+  },
+  {
+    "name": "Artimañas",
+    "categories": [
+      "talent"
+    ],
+    "type": "condition",
+    "expansion": "soc",
+    "front": "Acción: Realiza una prueba de observacion +2. Si la superas, puedes obtner 1 Apoyo Objeto o Baratija de la reserva que tenga un valor igual o menor a tu resultado de la prueba. A continuación, dale la vuelta a esta carta",
+    "number": 2
+  },
+  {
+    "name": "Obstinado",
+    "categories": [
+      "talent"
+    ],
+    "type": "condition",
+    "expansion": "soc",
+    "front": "Una vez por ronda, cuando fueses a perder Cordura, puedes realizar una prueba de voluntad. Si la superas, prevén la pérdida de hasta 2 puntos de Cordura. A continuación, dale la vuelta a esta carta",
+    "number": 1
+  },
+  {
+    "name": "Obstinado",
+    "categories": [
+      "talent"
+    ],
+    "type": "condition",
+    "expansion": "soc",
+    "front": "Una vez por ronda, cuando fueses a perder Cordura, puedes realizar una prueba de voluntad. Si la superas, prevén la pérdida de hasta 2 puntos de Cordura. A continuación, dale la vuelta a esta carta",
+    "number": 2
+  },
+  {
+    "name": "Escurridizo",
+    "categories": [
+      "talent"
+    ],
+    "type": "condition",
+    "expansion": "soc",
+    "front": "Durante la fase de Encuentros, puedes realizar una prueba de observación. Si la superas, puedes elegir un encuentro como si no hubiese un monstruo en tu casilla. A continuación, dale la vuelta a esta carta",
+    "number": 1
+  },
+  {
+    "name": "Escurridizo",
+    "categories": [
+      "talent"
+    ],
+    "type": "condition",
+    "expansion": "soc",
+    "front": "Durante la fase de Encuentros, puedes realizar una prueba de observación. Si la superas, puedes elegir un encuentro como si no hubiese un monstruo en tu casilla. A continuación, dale la vuelta a esta carta",
+    "number": 2
+  },
+  {
+    "name": "Resistente",
+    "categories": [
+      "talent"
+    ],
+    "type": "condition",
+    "expansion": "soc",
+    "front": "Una vez por ronda, cuando fueses a perder Salud, puedes realizar una prueba de fuerza. Si la superas, prevén la perdida de hasta 2 puntos de Salud. A continuación, dale la vuelta a esta carta",
+    "number": 1
+  },
+  {
+    "name": "Resistente",
+    "categories": [
+      "talent"
+    ],
+    "type": "condition",
+    "expansion": "soc",
+    "front": "Una vez por ronda, cuando fueses a perder Salud, puedes realizar una prueba de fuerza. Si la superas, prevén la perdida de hasta 2 puntos de Salud. A continuación, dale la vuelta a esta carta",
+    "number": 2
+  },
+  {
+    "name": "Hipotermia",
+    "categories": [
+      "exposure"
+    ],
+    "type": "condition",
+    "expansion": "mom",
+    "front": "Cuando realices una accuón de descansar, no puedes recuperar Salud; tira 1 dado. Si sacas 4, 5 o 6, descarta esta carta. Si fueses a obtener otro Estado Hipotermia, en lugar de eso dale la vuelta a esta carta.",
+    "back": "Aparición escalofriante"
+  },
+  {
+    "name": "Hipotermia",
+    "categories": [
+      "exposure"
+    ],
+    "type": "condition",
+    "expansion": "mom",
+    "front": "Cuando realices una accuón de descansar, no puedes recuperar Salud; tira 1 dado. Si sacas 4, 5 o 6, descarta esta carta. Si fueses a obtener otro Estado Hipotermia, en lugar de eso dale la vuelta a esta carta.",
+    "back": "Shock térmico"
+  },
+  {
+    "name": "Hipotermia",
+    "categories": [
+      "exposure"
+    ],
+    "type": "condition",
+    "expansion": "mom",
+    "front": "Cuando realices una accuón de descansar, no puedes recuperar Salud; tira 1 dado. Si sacas 4, 5 o 6, descarta esta carta. Si fueses a obtener otro Estado Hipotermia, en lugar de eso dale la vuelta a esta carta.",
+    "back": "Ceguera helada"
+  },
+  {
+    "name": "Hipotermia",
+    "categories": [
+      "exposure"
+    ],
+    "type": "condition",
+    "expansion": "mom",
+    "front": "Cuando realices una accuón de descansar, no puedes recuperar Salud; tira 1 dado. Si sacas 4, 5 o 6, descarta esta carta. Si fueses a obtener otro Estado Hipotermia, en lugar de eso dale la vuelta a esta carta.",
+    "back": "Atrapado por el frío"
+  },
+  {
+    "name": "Hipotermia",
+    "categories": [
+      "exposure"
+    ],
+    "type": "condition",
+    "expansion": "mom",
+    "front": "Cuando realices una accuón de descansar, no puedes recuperar Salud; tira 1 dado. Si sacas 4, 5 o 6, descarta esta carta. Si fueses a obtener otro Estado Hipotermia, en lugar de eso dale la vuelta a esta carta.",
+    "back": "Congelamiento"
+  },
+  {
+    "name": "Hipotermia",
+    "categories": [
+      "exposure"
+    ],
+    "type": "condition",
+    "expansion": "mom",
+    "front": "Cuando realices una accuón de descansar, no puedes recuperar Salud; tira 1 dado. Si sacas 4, 5 o 6, descarta esta carta. Si fueses a obtener otro Estado Hipotermia, en lugar de eso dale la vuelta a esta carta.",
+    "back": "Helado hasta los huesos"
+  },
+  {
+    "name": "Hipotermia",
+    "categories": [
+      "exposure"
+    ],
+    "type": "condition",
+    "expansion": "mom",
+    "front": "Cuando realices una accuón de descansar, no puedes recuperar Salud; tira 1 dado. Si sacas 4, 5 o 6, descarta esta carta. Si fueses a obtener otro Estado Hipotermia, en lugar de eso dale la vuelta a esta carta.",
+    "back": "Prisionero del frío"
+  },
+  {
+    "name": "Hipotermia",
+    "categories": [
+      "exposure"
+    ],
+    "type": "condition",
+    "expansion": "mom",
+    "front": "Cuando realices una accuón de descansar, no puedes recuperar Salud; tira 1 dado. Si sacas 4, 5 o 6, descarta esta carta. Si fueses a obtener otro Estado Hipotermia, en lugar de eso dale la vuelta a esta carta.",
+    "back": "Entumecimiento"
+  },
+  {
+    "name": "Infección",
+    "categories": [
+      "illness"
+    ],
+    "type": "condition",
+    "expansion": "mom",
+    "front": "Cuando realices una acción de descansar, no puedes recuperar Salud; tira 1 dado. Si sacas un 4, 5, o 6, descarta esta carta",
+    "retribution": "Realiza una prueba de fuerza. Si fallas, dale la vuelta a esta carta",
+    "back": "Lesiones e hinchazón"
+  },
+  {
+    "name": "Infección",
+    "categories": [
+      "illness"
+    ],
+    "type": "condition",
+    "expansion": "mom",
+    "front": "Cuando realices una acción de descansar, no puedes recuperar Salud; tira 1 dado. Si sacas un 4, 5, o 6, descarta esta carta",
+    "retribution": "Realiza una prueba de fuerza. Si fallas, dale la vuelta a esta carta",
+    "back": "Shock séptico"
+  },
+  {
+    "name": "Infección",
+    "categories": [
+      "illness"
+    ],
+    "type": "condition",
+    "expansion": "mom",
+    "front": "Cuando realices una acción de descansar, no puedes recuperar Salud; tira 1 dado. Si sacas un 4, 5, o 6, descarta esta carta",
+    "retribution": "Realiza una prueba de fuerza. Si fallas, dale la vuelta a esta carta",
+    "back": "Fiebre hemorrágica"
+  },
+  {
+    "name": "Infección",
+    "categories": [
+      "illness"
+    ],
+    "type": "condition",
+    "expansion": "mom",
+    "front": "Cuando realices una acción de descansar, no puedes recuperar Salud; tira 1 dado. Si sacas un 4, 5, o 6, descarta esta carta",
+    "retribution": "Realiza una prueba de fuerza. Si fallas, dale la vuelta a esta carta",
+    "back": "Envenenamiento de la sangre"
+  },
+  {
+    "name": "Envenenado",
+    "categories": [
+      "illness"
+    ],
+    "type": "condition",
+    "expansion": "fl",
+    "front": "Cuando realices una acción de descansar, no puedes recuperar Salud ni Cordura; dale la vuelta a esta carta",
+    "retribution": "Pierde 1 punto de Salud",
+    "back": "Sueños febriles"
+  },
+  {
+    "name": "Envenenado",
+    "categories": [
+      "illness"
+    ],
+    "type": "condition",
+    "expansion": "fl",
+    "front": "Cuando realices una acción de descansar, no puedes recuperar Salud ni Cordura; dale la vuelta a esta carta",
+    "retribution": "Pierde 1 punto de Salud",
+    "back": "Enfermedad persistente"
+  },
+  {
+    "name": "Envenenado",
+    "categories": [
+      "illness"
+    ],
+    "type": "condition",
+    "expansion": "fl",
+    "front": "Cuando realices una acción de descansar, no puedes recuperar Salud ni Cordura; dale la vuelta a esta carta",
+    "retribution": "Pierde 1 punto de Salud",
+    "back": "Infección arcana"
+  },
+  {
+    "name": "Envenenado",
+    "categories": [
+      "illness"
+    ],
+    "type": "condition",
+    "expansion": "fl",
+    "front": "Cuando realices una acción de descansar, no puedes recuperar Salud ni Cordura; dale la vuelta a esta carta",
+    "retribution": "Pierde 1 punto de Salud",
+    "back": "Asistencia médica"
+  },
+  {
+    "name": "Perseguido",
+    "categories": [
+      "pursuit"
+    ],
+    "type": "condition",
+    "expansion": "mom",
+    "front": "Cuando realices una acción de viajar, puedes tirar 1 dado. Si sacas un 5 o un 6, descarta esta carta",
+    "retribution": "Realiza una prueba de observación. Si fallas, dale la vuelta a esta carta",
+    "back": "Marcado por Yig"
+  },
+  {
+    "name": "Perseguido",
+    "categories": [
+      "pursuit"
+    ],
+    "type": "condition",
+    "expansion": "mom",
+    "front": "Cuando realices una acción de viajar, puedes tirar 1 dado. Si sacas un 5 o un 6, descarta esta carta",
+    "retribution": "Realiza una prueba de observación. Si fallas, dale la vuelta a esta carta",
+    "back": "Bestias de caza"
+  },
+  {
+    "name": "Perseguido",
+    "categories": [
+      "pursuit"
+    ],
+    "type": "condition",
+    "expansion": "mom",
+    "front": "Cuando realices una acción de viajar, puedes tirar 1 dado. Si sacas un 5 o un 6, descarta esta carta",
+    "retribution": "Realiza una prueba de observación. Si fallas, dale la vuelta a esta carta",
+    "back": "Horrores indescriptibles"
+  },
+  {
+    "name": "Perseguido",
+    "categories": [
+      "pursuit"
+    ],
+    "type": "condition",
+    "expansion": "mom",
+    "front": "Cuando realices una acción de viajar, puedes tirar 1 dado. Si sacas un 5 o un 6, descarta esta carta",
+    "retribution": "Realiza una prueba de observación. Si fallas, dale la vuelta a esta carta",
+    "back": "Depredadores por todas partes"
+  },
+  {
+    "name": "Buscado por la ley",
+    "categories": [
+      "pursuit"
+    ],
+    "type": "condition",
+    "expansion": "soc",
+    "front": "No puedes realizar acciones de adquirir Apoyos. Cuando realices una acción de viajar, puedes tirar 1 dado. Si sacas un 4, 5 o 6, descarta esta carta",
+    "retribution": "Realiza una prueba de observación. Si fallas, dale la vuelta a esta carta",
+    "back": "Redada policial"
+  },
+  {
+    "name": "Buscado por la ley",
+    "categories": [
+      "pursuit"
+    ],
+    "type": "condition",
+    "expansion": "soc",
+    "front": "No puedes realizar acciones de adquirir Apoyos. Cuando realices una acción de viajar, puedes tirar 1 dado. Si sacas un 4, 5 o 6, descarta esta carta",
+    "retribution": "Realiza una prueba de observación. Si fallas, dale la vuelta a esta carta",
+    "back": "Muchedumbre airada"
+  },
+  {
+    "name": "Buscado por la ley",
+    "categories": [
+      "pursuit"
+    ],
+    "type": "condition",
+    "expansion": "soc",
+    "front": "No puedes realizar acciones de adquirir Apoyos. Cuando realices una acción de viajar, puedes tirar 1 dado. Si sacas un 4, 5 o 6, descarta esta carta",
+    "retribution": "Realiza una prueba de observación. Si fallas, dale la vuelta a esta carta",
+    "back": "Profugo"
+  },
+  {
+    "name": "Buscado por la ley",
+    "categories": [
+      "pursuit"
+    ],
+    "type": "condition",
+    "expansion": "soc",
+    "front": "No puedes realizar acciones de adquirir Apoyos. Cuando realices una acción de viajar, puedes tirar 1 dado. Si sacas un 4, 5 o 6, descarta esta carta",
+    "retribution": "Realiza una prueba de observación. Si fallas, dale la vuelta a esta carta",
+    "back": "Registro"
+  },
+  {
+    "name": "Detenido",
+    "categories": [
+      "restriction"
+    ],
+    "type": "condition",
+    "expansion": "base",
+    "front": "No puedes moverte ni realizar acciones que no sean la accion de esta carta. En lugar de resolver un encuentro, dale la vuelta a esta carta. Acción local: Realiza una prueba de influencia. Si superas la prueba, descarta esta carta",
+    "back": "Calabozo"
+  },
+  {
+    "name": "Detenido",
+    "categories": [
+      "restriction"
+    ],
+    "type": "condition",
+    "expansion": "base",
+    "front": "No puedes moverte ni realizar acciones que no sean la accion de esta carta. En lugar de resolver un encuentro, dale la vuelta a esta carta. Acción local: Realiza una prueba de influencia. Si superas la prueba, descarta esta carta",
+    "back": "Inanición"
+  },
+  {
+    "name": "Detenido",
+    "categories": [
+      "restriction"
+    ],
+    "type": "condition",
+    "expansion": "mom",
+    "front": "No puedes moverte ni realizar acciones que no sean la accion de esta carta. En lugar de resolver un encuentro, dale la vuelta a esta carta. Acción local: Realiza una prueba de influencia. Si superas la prueba, descarta esta carta",
+    "back": "Semanas sin comer"
+  },
+  {
+    "name": "Detenido",
+    "categories": [
+      "restriction"
+    ],
+    "type": "condition",
+    "expansion": "base",
+    "front": "No puedes moverte ni realizar acciones que no sean la accion de esta carta. En lugar de resolver un encuentro, dale la vuelta a esta carta. Acción local: Realiza una prueba de influencia. Si superas la prueba, descarta esta carta",
+    "back": "Cruel e inusual"
+  },
+  {
+    "name": "Detenido",
+    "categories": [
+      "restriction"
+    ],
+    "type": "condition",
+    "expansion": "fl",
+    "front": "No puedes moverte ni realizar acciones que no sean la accion de esta carta. En lugar de resolver un encuentro, dale la vuelta a esta carta. Acción local: Realiza una prueba de influencia. Si superas la prueba, descarta esta carta",
+    "back": "Agua contaminada"
+  },
+  {
+    "name": "Perdido en el tiempo y el espacio",
+    "categories": [
+      "restriction"
+    ],
+    "type": "condition",
+    "expansion": "fl",
+    "front": "Retira tu ficha de Investigador del tablero de juego. No te ves afectado por otros efectos de juego y no puedes moverte ni realizar acciones. En lugar de resolver un encuentro dale la vuelta a esta carta",
+    "back": "Mundos extraños"
+  },
+  {
+    "name": "Perdido en el tiempo y el espacio",
+    "categories": [
+      "restriction"
+    ],
+    "type": "condition",
+    "expansion": "fl",
+    "front": "Retira tu ficha de Investigador del tablero de juego. No te ves afectado por otros efectos de juego y no puedes moverte ni realizar acciones. En lugar de resolver un encuentro dale la vuelta a esta carta",
+    "back": "Sustituido por otro"
+  },
+  {
+    "name": "Perdido en el tiempo y el espacio",
+    "categories": [
+      "restriction"
+    ],
+    "type": "condition",
+    "expansion": "fl",
+    "front": "Retira tu ficha de Investigador del tablero de juego. No te ves afectado por otros efectos de juego y no puedes moverte ni realizar acciones. En lugar de resolver un encuentro dale la vuelta a esta carta",
+    "back": "Guía desde el vacío"
+  },
+  {
+    "name": "Perdido en el tiempo y el espacio",
+    "categories": [
+      "restriction"
+    ],
+    "type": "condition",
+    "expansion": "fl",
+    "front": "Retira tu ficha de Investigador del tablero de juego. No te ves afectado por otros efectos de juego y no puedes moverte ni realizar acciones. En lugar de resolver un encuentro dale la vuelta a esta carta",
+    "back": "Masas de enjambres"
+  },
+  {
+    "name": "Hambre",
+    "categories": [
+      "madness"
+    ],
+    "type": "condition",
+    "expansion": "mom",
+    "front": "Cuando realices una accion de descansar, no puedes recuperar Cordura; tira 1 dado. Si sacas un 4, 5 o 6, descarta esta carta",
+    "retribution": "Realiza una prueba de voluntad. Si fallas, dale la vuelta a esta carta",
+    "back": "Sed de sangre"
+  },
+  {
+    "name": "Hambre",
+    "categories": [
+      "madness"
+    ],
+    "type": "condition",
+    "expansion": "mom",
+    "front": "Cuando realices una accion de descansar, no puedes recuperar Cordura; tira 1 dado. Si sacas un 4, 5 o 6, descarta esta carta",
+    "retribution": "Realiza una prueba de voluntad. Si fallas, dale la vuelta a esta carta",
+    "back": "Acaparamiento"
+  },
+  {
+    "name": "Hambre",
+    "categories": [
+      "madness"
+    ],
+    "type": "condition",
+    "expansion": "mom",
+    "front": "Cuando realices una accion de descansar, no puedes recuperar Cordura; tira 1 dado. Si sacas un 4, 5 o 6, descarta esta carta",
+    "retribution": "Realiza una prueba de voluntad. Si fallas, dale la vuelta a esta carta",
+    "back": "Sed"
+  },
+  {
+    "name": "Hambre",
+    "categories": [
+      "madness"
+    ],
+    "type": "condition",
+    "expansion": "mom",
+    "front": "Cuando realices una accion de descansar, no puedes recuperar Cordura; tira 1 dado. Si sacas un 4, 5 o 6, descarta esta carta",
+    "retribution": "Realiza una prueba de voluntad. Si fallas, dale la vuelta a esta carta",
+    "back": "Excesos"
+  },
+  {
+    "name": "Amnesia",
+    "categories": [
+      "madness"
+    ],
+    "type": "condition",
+    "expansion": "mom",
+    "front": "Cuando realices una accion de descansar, puedes tirar 1 dado. Si sacas un 5 o un 6, descarta esta carta",
+    "retribution": "Realiza una prueba de voluntad. Si fallas, dale la vuelta a esta carta",
+    "back": "Peligro olvidado"
+  },
+  {
+    "name": "Amnesia",
+    "categories": [
+      "madness"
+    ],
+    "type": "condition",
+    "expansion": "base",
+    "front": "Cuando realices una accion de descansar, puedes tirar 1 dado. Si sacas un 5 o un 6, descarta esta carta",
+    "retribution": "Realiza una prueba de voluntad. Si fallas, dale la vuelta a esta carta",
+    "back": "Deudas inexplicables"
+  },
+  {
+    "name": "Amnesia",
+    "categories": [
+      "madness"
+    ],
+    "type": "condition",
+    "expansion": "base",
+    "front": "Cuando realices una accion de descansar, puedes tirar 1 dado. Si sacas un 5 o un 6, descarta esta carta",
+    "retribution": "Realiza una prueba de voluntad. Si fallas, dale la vuelta a esta carta",
+    "back": "Delitos olvidados"
+  },
+  {
+    "name": "Amnesia",
+    "categories": [
+      "madness"
+    ],
+    "type": "condition",
+    "expansion": "base",
+    "front": "Cuando realices una accion de descansar, puedes tirar 1 dado. Si sacas un 5 o un 6, descarta esta carta",
+    "retribution": "Realiza una prueba de voluntad. Si fallas, dale la vuelta a esta carta",
+    "back": "La terrible verdad"
+  },
+  {
+    "name": "Amnesia",
+    "categories": [
+      "madness"
+    ],
+    "type": "condition",
+    "expansion": "fl",
+    "front": "Cuando realices una accion de descansar, puedes tirar 1 dado. Si sacas un 5 o un 6, descarta esta carta",
+    "retribution": "Realiza una prueba de voluntad. Si fallas, dale la vuelta a esta carta",
+    "back": "Palabras prohibidas"
+  },
+  {
+    "name": "Alucinaciones",
+    "categories": [
+      "madness"
+    ],
+    "type": "condition",
+    "expansion": "base",
+    "front": "Cuando realices una accion de descansar, puedes tirar 1 dado. Si sacas un 5 o un 6, descarta esta carta",
+    "retribution": "Realiza una prueba de voluntad. Si fallas, dale la vuelta a esta carta",
+    "back": "Las voces"
+  },
+  {
+    "name": "Alucinaciones",
+    "categories": [
+      "madness"
+    ],
+    "type": "condition",
+    "expansion": "fl",
+    "front": "Cuando realices una accion de descansar, puedes tirar 1 dado. Si sacas un 5 o un 6, descarta esta carta",
+    "retribution": "Realiza una prueba de voluntad. Si fallas, dale la vuelta a esta carta",
+    "back": "Abducido"
+  },
+  {
+    "name": "Alucinaciones",
+    "categories": [
+      "madness"
+    ],
+    "type": "condition",
+    "expansion": "base",
+    "front": "Cuando realices una accion de descansar, puedes tirar 1 dado. Si sacas un 5 o un 6, descarta esta carta",
+    "retribution": "Realiza una prueba de voluntad. Si fallas, dale la vuelta a esta carta",
+    "back": "Enjambre"
+  },
+  {
+    "name": "Alucinaciones",
+    "categories": [
+      "madness"
+    ],
+    "type": "condition",
+    "expansion": "base",
+    "front": "Cuando realices una accion de descansar, puedes tirar 1 dado. Si sacas un 5 o un 6, descarta esta carta",
+    "retribution": "Realiza una prueba de voluntad. Si fallas, dale la vuelta a esta carta",
+    "back": "Delirios"
+  },
+  {
+    "name": "Paranoia",
+    "categories": [
+      "madness"
+    ],
+    "type": "condition",
+    "expansion": "base",
+    "front": "Cuando realices una accion de descansar, puedes tirar 1 dado. Si sacas un 5 o un 6, descarta esta carta",
+    "retribution": "Realiza una prueba de voluntad. Si fallas, dale la vuelta a esta carta",
+    "back": "Estallidos violentos"
+  },
+  {
+    "name": "Paranoia",
+    "categories": [
+      "madness"
+    ],
+    "type": "condition",
+    "expansion": "base",
+    "front": "Cuando realices una accion de descansar, puedes tirar 1 dado. Si sacas un 5 o un 6, descarta esta carta",
+    "retribution": "Realiza una prueba de voluntad. Si fallas, dale la vuelta a esta carta",
+    "back": "Agorafobia"
+  },
+  {
+    "name": "Paranoia",
+    "categories": [
+      "madness"
+    ],
+    "type": "condition",
+    "expansion": "base",
+    "front": "Cuando realices una accion de descansar, puedes tirar 1 dado. Si sacas un 5 o un 6, descarta esta carta",
+    "retribution": "Realiza una prueba de voluntad. Si fallas, dale la vuelta a esta carta",
+    "back": "Cleptomania"
+  },
+  {
+    "name": "Paranoia",
+    "categories": [
+      "madness"
+    ],
+    "type": "condition",
+    "expansion": "fl",
+    "front": "Cuando realices una accion de descansar, puedes tirar 1 dado. Si sacas un 5 o un 6, descarta esta carta",
+    "retribution": "Realiza una prueba de voluntad. Si fallas, dale la vuelta a esta carta",
+    "back": "Dudas Internas"
+  },
+  {
+    "name": "Cabeza herida",
+    "categories": [
+      "injury"
+    ],
+    "type": "condition",
+    "expansion": "sr",
+    "front": "Cuando realices una accion de descansar, no puedes recuperar Cordura; tira 1 dado. Si sacas un 4, 5 o 6, descarta esta carta",
+    "retribution": "Realiza una prueba de fuerza. Si fallas, dale la vuelta a esta carta",
+    "back": "Dolor de cabeza infernal"
+  },
+  {
+    "name": "Cabeza herida",
+    "categories": [
+      "injury"
+    ],
+    "type": "condition",
+    "expansion": "sr",
+    "front": "Cuando realices una accion de descansar, no puedes recuperar Cordura; tira 1 dado. Si sacas un 4, 5 o 6, descarta esta carta",
+    "retribution": "Realiza una prueba de fuerza. Si fallas, dale la vuelta a esta carta",
+    "back": "Conmoción"
+  },
+  {
+    "name": "Cabeza herida",
+    "categories": [
+      "injury"
+    ],
+    "type": "condition",
+    "expansion": "sr",
+    "front": "Cuando realices una accion de descansar, no puedes recuperar Cordura; tira 1 dado. Si sacas un 4, 5 o 6, descarta esta carta",
+    "retribution": "Realiza una prueba de fuerza. Si fallas, dale la vuelta a esta carta",
+    "back": "Aneurisma cerebral"
+  },
+  {
+    "name": "Cabeza herida",
+    "categories": [
+      "injury"
+    ],
+    "type": "condition",
+    "expansion": "sr",
+    "front": "Cuando realices una accion de descansar, no puedes recuperar Cordura; tira 1 dado. Si sacas un 4, 5 o 6, descarta esta carta",
+    "retribution": "Realiza una prueba de fuerza. Si fallas, dale la vuelta a esta carta",
+    "back": "Daño cerebral"
+  },
+  {
+    "name": "Pierna herida",
+    "categories": [
+      "injury"
+    ],
+    "type": "condition",
+    "expansion": "base",
+    "front": "Cuando realices una accion de descansar, puedes tirar 1 dado. Si sacas un 5 o un 6, descarta esta carta",
+    "retribution": "Realiza una prueba de fuerza. Si fallas, dale la vuelta a esta carta",
+    "back": "Dolor punzante"
+  },
+  {
+    "name": "Pierna herida",
+    "categories": [
+      "injury"
+    ],
+    "type": "condition",
+    "expansion": "base",
+    "front": "Cuando realices una accion de descansar, puedes tirar 1 dado. Si sacas un 5 o un 6, descarta esta carta",
+    "retribution": "Realiza una prueba de fuerza. Si fallas, dale la vuelta a esta carta",
+    "back": "Remedio extraño"
+  },
+  {
+    "name": "Pierna herida",
+    "categories": [
+      "injury"
+    ],
+    "type": "condition",
+    "expansion": "base",
+    "front": "Cuando realices una accion de descansar, puedes tirar 1 dado. Si sacas un 5 o un 6, descarta esta carta",
+    "retribution": "Realiza una prueba de fuerza. Si fallas, dale la vuelta a esta carta",
+    "back": "Rodilla dislocada"
+  },
+  {
+    "name": "Pierna herida",
+    "categories": [
+      "injury"
+    ],
+    "type": "condition",
+    "expansion": "sr",
+    "front": "Cuando realices una accion de descansar, puedes tirar 1 dado. Si sacas un 5 o un 6, descarta esta carta",
+    "retribution": "Realiza una prueba de fuerza. Si fallas, dale la vuelta a esta carta",
+    "back": "Herida infectada"
+  },
+  {
+    "name": "Espalda herida",
+    "categories": [
+      "injury"
+    ],
+    "type": "condition",
+    "expansion": "base",
+    "front": "Cuando realices una accion de descansar, puedes tirar 1 dado. Si sacas un 5 o un 6, descarta esta carta",
+    "retribution": "Realiza una prueba de fuerza. Si fallas, dale la vuelta a esta carta",
+    "back": "Vertebra fracturada"
+  },
+  {
+    "name": "Espalda herida",
+    "categories": [
+      "injury"
+    ],
+    "type": "condition",
+    "expansion": "base",
+    "front": "Cuando realices una accion de descansar, puedes tirar 1 dado. Si sacas un 5 o un 6, descarta esta carta",
+    "retribution": "Realiza una prueba de fuerza. Si fallas, dale la vuelta a esta carta",
+    "back": "Espasmos musculares"
+  },
+  {
+    "name": "Espalda herida",
+    "categories": [
+      "injury"
+    ],
+    "type": "condition",
+    "expansion": "base",
+    "front": "Cuando realices una accion de descansar, puedes tirar 1 dado. Si sacas un 5 o un 6, descarta esta carta",
+    "retribution": "Realiza una prueba de fuerza. Si fallas, dale la vuelta a esta carta",
+    "back": "Daño neural"
+  },
+  {
+    "name": "Heridas internas",
+    "categories": [
+      "injury"
+    ],
+    "type": "condition",
+    "expansion": "base",
+    "front": "Cuando realices una accion de descansar, puedes tirar 1 dado. Si sacas un 5 o un 6, descarta esta carta",
+    "retribution": "Realiza una prueba de fuerza. Si fallas, dale la vuelta a esta carta",
+    "back": "Dolor insoportable"
+  },
+  {
+    "name": "Heridas internas",
+    "categories": [
+      "injury"
+    ],
+    "type": "condition",
+    "expansion": "mom",
+    "front": "Cuando realices una accion de descansar, puedes tirar 1 dado. Si sacas un 5 o un 6, descarta esta carta",
+    "retribution": "Realiza una prueba de fuerza. Si fallas, dale la vuelta a esta carta",
+    "back": "Perdida de sangre"
+  },
+  {
+    "name": "Heridas internas",
+    "categories": [
+      "injury"
+    ],
+    "type": "condition",
+    "expansion": "fl",
+    "front": "Cuando realices una accion de descansar, puedes tirar 1 dado. Si sacas un 5 o un 6, descarta esta carta",
+    "retribution": "Realiza una prueba de fuerza. Si fallas, dale la vuelta a esta carta",
+    "back": "Salud deteriorada"
+  },
+  {
+    "name": "Heridas internas",
+    "categories": [
+      "injury"
+    ],
+    "type": "condition",
+    "expansion": "base",
+    "front": "Cuando realices una accion de descansar, puedes tirar 1 dado. Si sacas un 5 o un 6, descarta esta carta",
+    "retribution": "Realiza una prueba de fuerza. Si fallas, dale la vuelta a esta carta",
+    "back": "Costilla rota"
+  },
+  {
+    "name": "Voz de Ra",
+    "categories": [
+      "glamour"
+    ],
+    "type": "spell",
+    "expansion": "sr",
+    "front": "Una vez por ronda, durante la fase de Acción, puedes gastar 1 punto de Salud y 1 punto de Cordura para realizar 1 acción adicional",
+    "retribution": "Realiza una prueba de saber y dale la vuelta a esta carta",
+    "number": 1
+  },
+  {
+    "name": "Voz de Ra",
+    "categories": [
+      "glamour"
+    ],
+    "type": "spell",
+    "expansion": "sr",
+    "front": "Una vez por ronda, durante la fase de Acción, puedes gastar 1 punto de Salud y 1 punto de Cordura para realizar 1 acción adicional",
+    "retribution": "Realiza una prueba de saber y dale la vuelta a esta carta",
+    "number": 2
+  },
+  {
+    "name": "Voz de Ra",
+    "categories": [
+      "glamour"
+    ],
+    "type": "spell",
+    "expansion": "sr",
+    "front": "Una vez por ronda, durante la fase de Acción, puedes gastar 1 punto de Salud y 1 punto de Cordura para realizar 1 acción adicional",
+    "retribution": "Realiza una prueba de saber y dale la vuelta a esta carta",
+    "number": 3
+  },
+  {
+    "name": "Voz de Ra",
+    "categories": [
+      "glamour"
+    ],
+    "type": "spell",
+    "expansion": "sr",
+    "front": "Una vez por ronda, durante la fase de Acción, puedes gastar 1 punto de Salud y 1 punto de Cordura para realizar 1 acción adicional",
+    "retribution": "Realiza una prueba de saber y dale la vuelta a esta carta",
+    "number": 4
+  },
+  {
+    "name": "Marcas de Isis",
+    "categories": [
+      "glamour"
+    ],
+    "type": "spell",
+    "expansion": "sr",
+    "front": "Obten +1 a todas las habilidades. Una vez por ronda, puedes volver a tirar 1 dado para resolver una prueba",
+    "retribution": "Realiza una prueba de saber -1 y dale la vuelta a esta carta",
+    "number": 1
+  },
+  {
+    "name": "Marcas de Isis",
+    "categories": [
+      "glamour"
+    ],
+    "type": "spell",
+    "expansion": "sr",
+    "front": "Obten +1 a todas las habilidades. Una vez por ronda, puedes volver a tirar 1 dado para resolver una prueba",
+    "retribution": "Realiza una prueba de saber -1 y dale la vuelta a esta carta",
+    "number": 2
+  },
+  {
+    "name": "Marcas de Isis",
+    "categories": [
+      "glamour"
+    ],
+    "type": "spell",
+    "expansion": "sr",
+    "front": "Obten +1 a todas las habilidades. Una vez por ronda, puedes volver a tirar 1 dado para resolver una prueba",
+    "retribution": "Realiza una prueba de saber -1 y dale la vuelta a esta carta",
+    "number": 3
+  },
+  {
+    "name": "Marcas de Isis",
+    "categories": [
+      "glamour"
+    ],
+    "type": "spell",
+    "expansion": "sr",
+    "front": "Obten +1 a todas las habilidades. Una vez por ronda, puedes volver a tirar 1 dado para resolver una prueba",
+    "retribution": "Realiza una prueba de saber -1 y dale la vuelta a esta carta",
+    "number": 4
+  },
+  {
+    "name": "Percepción mental",
+    "categories": [
+      "glamour"
+    ],
+    "type": "spell",
+    "expansion": "soc",
+    "front": "Puedes volver a tirar 1 dado al resolver una prueba de influencia o de voluntad",
+    "retribution": "Realiza una prueba de saber y dale la vuelta a esta carta",
+    "number": 1
+  },
+  {
+    "name": "Percepción mental",
+    "categories": [
+      "glamour"
+    ],
+    "type": "spell",
+    "expansion": "soc",
+    "front": "Puedes volver a tirar 1 dado al resolver una prueba de influencia o de voluntad",
+    "retribution": "Realiza una prueba de saber y dale la vuelta a esta carta",
+    "number": 2
+  },
+  {
+    "name": "Percepción mental",
+    "categories": [
+      "glamour"
+    ],
+    "type": "spell",
+    "expansion": "soc",
+    "front": "Puedes volver a tirar 1 dado al resolver una prueba de influencia o de voluntad",
+    "retribution": "Realiza una prueba de saber y dale la vuelta a esta carta",
+    "number": 3
+  },
+  {
+    "name": "Percepción mental",
+    "categories": [
+      "glamour"
+    ],
+    "type": "spell",
+    "expansion": "soc",
+    "front": "Puedes volver a tirar 1 dado al resolver una prueba de influencia o de voluntad",
+    "retribution": "Realiza una prueba de saber y dale la vuelta a esta carta",
+    "number": 4
+  },
+  {
+    "name": "Viaje astral",
+    "categories": [
+      "glamour"
+    ],
+    "type": "spell",
+    "expansion": "sr",
+    "front": "Cuando realices una accion de viajar, puedes gastar 1 punto de Cordura para moverte 1 casilla adicional por cualquier ruta",
+    "retribution": "Realiza una prueba de saber y dale la vuelta a esta carta",
+    "number": 1
+  },
+  {
+    "name": "Viaje astral",
+    "categories": [
+      "glamour"
+    ],
+    "type": "spell",
+    "expansion": "sr",
+    "front": "Cuando realices una accion de viajar, puedes gastar 1 punto de Cordura para moverte 1 casilla adicional por cualquier ruta",
+    "retribution": "Realiza una prueba de saber y dale la vuelta a esta carta",
+    "number": 2
+  },
+  {
+    "name": "Viaje astral",
+    "categories": [
+      "glamour"
+    ],
+    "type": "spell",
+    "expansion": "sr",
+    "front": "Cuando realices una accion de viajar, puedes gastar 1 punto de Cordura para moverte 1 casilla adicional por cualquier ruta",
+    "retribution": "Realiza una prueba de saber y dale la vuelta a esta carta",
+    "number": 3
+  },
+  {
+    "name": "Viaje astral",
+    "categories": [
+      "glamour"
+    ],
+    "type": "spell",
+    "expansion": "sr",
+    "front": "Cuando realices una accion de viajar, puedes gastar 1 punto de Cordura para moverte 1 casilla adicional por cualquier ruta",
+    "retribution": "Realiza una prueba de saber y dale la vuelta a esta carta",
+    "number": 4
+  },
+  {
+    "name": "Llama azul",
+    "categories": [
+      "glamour"
+    ],
+    "type": "spell",
+    "expansion": "sr",
+    "front": "Cada 6 que saques al resolver una prueba de fuerza durante un Encuentro de Combate cuenta como 2 exitos",
+    "retribution": "Realiza una prueba de saber y dale la vuelta a esta carta",
+    "number": 1
+  },
+  {
+    "name": "Llama azul",
+    "categories": [
+      "glamour"
+    ],
+    "type": "spell",
+    "expansion": "sr",
+    "front": "Cada 6 que saques al resolver una prueba de fuerza durante un Encuentro de Combate cuenta como 2 exitos",
+    "retribution": "Realiza una prueba de saber y dale la vuelta a esta carta",
+    "number": 2
+  },
+  {
+    "name": "Llama azul",
+    "categories": [
+      "glamour"
+    ],
+    "type": "spell",
+    "expansion": "sr",
+    "front": "Cada 6 que saques al resolver una prueba de fuerza durante un Encuentro de Combate cuenta como 2 exitos",
+    "retribution": "Realiza una prueba de saber y dale la vuelta a esta carta",
+    "number": 3
+  },
+  {
+    "name": "Llama azul",
+    "categories": [
+      "glamour"
+    ],
+    "type": "spell",
+    "expansion": "sr",
+    "front": "Cada 6 que saques al resolver una prueba de fuerza durante un Encuentro de Combate cuenta como 2 exitos",
+    "retribution": "Realiza una prueba de saber y dale la vuelta a esta carta",
+    "number": 4
+  },
+  {
+    "name": "Atadura",
+    "categories": [
+      "incantation"
+    ],
+    "type": "spell",
+    "expansion": "soc",
+    "front": "Cuando tú u otro investigador que esté en cualquier casilla resolváis un Encuentro de Combate, puedes realizar una prueba de saber. Si la superas, reduce el daño de ese Monstruo a 1 durante ese encuentro. A continuación, dale la vuelta a esta carta",
+    "number": 1
+  },
+  {
+    "name": "Atadura",
+    "categories": [
+      "incantation"
+    ],
+    "type": "spell",
+    "expansion": "soc",
+    "front": "Cuando tú u otro investigador que esté en cualquier casilla resolváis un Encuentro de Combate, puedes realizar una prueba de saber. Si la superas, reduce el daño de ese Monstruo a 1 durante ese encuentro. A continuación, dale la vuelta a esta carta",
+    "number": 2
+  },
+  {
+    "name": "Atadura",
+    "categories": [
+      "incantation"
+    ],
+    "type": "spell",
+    "expansion": "soc",
+    "front": "Cuando tú u otro investigador que esté en cualquier casilla resolváis un Encuentro de Combate, puedes realizar una prueba de saber. Si la superas, reduce el daño de ese Monstruo a 1 durante ese encuentro. A continuación, dale la vuelta a esta carta",
+    "number": 3
+  },
+  {
+    "name": "Atadura",
+    "categories": [
+      "incantation"
+    ],
+    "type": "spell",
+    "expansion": "soc",
+    "front": "Cuando tú u otro investigador que esté en cualquier casilla resolváis un Encuentro de Combate, puedes realizar una prueba de saber. Si la superas, reduce el daño de ese Monstruo a 1 durante ese encuentro. A continuación, dale la vuelta a esta carta",
+    "number": 4
+  },
+  {
+    "name": "Intervención",
     "categories": [
       "incantation",
-      "ritual"
+      "teamwork"
     ],
-    "type": "Spell",
-    "expansion": "forsaken-lore"
+    "type": "spell",
+    "expansion": "mom",
+    "front": "Cuando otro investigador resuelva un Encuentro de Combate, puedes realizar una prueba de saber. Si superas la prueba, ese investigador obtiene +3 fuerza durante ese encuentro. A continuación, dale la vuelta a esta carta",
+    "number": 1
   },
   {
-    "name": "Asset 1",
+    "name": "Intervención",
+    "categories": [
+      "incantation",
+      "teamwork"
+    ],
+    "type": "spell",
+    "expansion": "mom",
+    "front": "Cuando otro investigador resuelva un Encuentro de Combate, puedes realizar una prueba de saber. Si superas la prueba, ese investigador obtiene +3 fuerza durante ese encuentro. A continuación, dale la vuelta a esta carta",
+    "number": 2
+  },
+  {
+    "name": "Intervención",
+    "categories": [
+      "incantation",
+      "teamwork"
+    ],
+    "type": "spell",
+    "expansion": "mom",
+    "front": "Cuando otro investigador resuelva un Encuentro de Combate, puedes realizar una prueba de saber. Si superas la prueba, ese investigador obtiene +3 fuerza durante ese encuentro. A continuación, dale la vuelta a esta carta",
+    "number": 3
+  },
+  {
+    "name": "Intervención",
+    "categories": [
+      "incantation",
+      "teamwork"
+    ],
+    "type": "spell",
+    "expansion": "mom",
+    "front": "Cuando otro investigador resuelva un Encuentro de Combate, puedes realizar una prueba de saber. Si superas la prueba, ese investigador obtiene +3 fuerza durante ese encuentro. A continuación, dale la vuelta a esta carta",
+    "number": 4
+  },
+  {
+    "name": "Protección corporal",
+    "categories": [
+      "incantation"
+    ],
+    "type": "spell",
+    "expansion": "base",
+    "front": "Una vez por ronda, cuando un investigador fuese a perder Salud, puedes realizar una prueba de saber. Si superas la prue ba, previenes que ese investigador pierda un máximo de 2 puntos de Salud. A continuación, dale la vuelta a esta carta",
+    "number": 1
+  },
+  {
+    "name": "Protección corporal",
+    "categories": [
+      "incantation"
+    ],
+    "type": "spell",
+    "expansion": "base",
+    "front": "Una vez por ronda, cuando un investigador fuese a perder Salud, puedes realizar una prueba de saber. Si superas la prue ba, previenes que ese investigador pierda un máximo de 2 puntos de Salud. A continuación, dale la vuelta a esta carta",
+    "number": 2
+  },
+  {
+    "name": "Protección corporal",
+    "categories": [
+      "incantation"
+    ],
+    "type": "spell",
+    "expansion": "fl",
+    "front": "Una vez por ronda, cuando un investigador fuese a perder Salud, puedes realizar una prueba de saber. Si superas la prue ba, previenes que ese investigador pierda un máximo de 2 puntos de Salud. A continuación, dale la vuelta a esta carta",
+    "number": 3
+  },
+  {
+    "name": "Protección corporal",
+    "categories": [
+      "incantation"
+    ],
+    "type": "spell",
+    "expansion": "fl",
+    "front": "Una vez por ronda, cuando un investigador fuese a perder Salud, puedes realizar una prueba de saber. Si superas la prue ba, previenes que ese investigador pierda un máximo de 2 puntos de Salud. A continuación, dale la vuelta a esta carta",
+    "number": 4
+  },
+  {
+    "name": "Niebla de Releh",
+    "categories": [
+      "incantation"
+    ],
+    "type": "spell",
+    "expansion": "base",
+    "front": "Durante la fase de Encuentros, puedes realizar una prueba de saber. Si superas la prueba, puedes elegir resolver un encuentro como si no hubiera Monstruos en esta casilla. A continuación, dale la vuelta a esta carta",
+    "number": 1
+  },
+  {
+    "name": "Niebla de Releh",
+    "categories": [
+      "incantation"
+    ],
+    "type": "spell",
+    "expansion": "base",
+    "front": "Durante la fase de Encuentros, puedes realizar una prueba de saber. Si superas la prueba, puedes elegir resolver un encuentro como si no hubiera Monstruos en esta casilla. A continuación, dale la vuelta a esta carta",
+    "number": 2
+  },
+  {
+    "name": "Niebla de Releh",
+    "categories": [
+      "incantation"
+    ],
+    "type": "spell",
+    "expansion": "fl",
+    "front": "Durante la fase de Encuentros, puedes realizar una prueba de saber. Si superas la prueba, puedes elegir resolver un encuentro como si no hubiera Monstruos en esta casilla. A continuación, dale la vuelta a esta carta",
+    "number": 3
+  },
+  {
+    "name": "Niebla de Releh",
+    "categories": [
+      "incantation"
+    ],
+    "type": "spell",
+    "expansion": "fl",
+    "front": "Durante la fase de Encuentros, puedes realizar una prueba de saber. Si superas la prueba, puedes elegir resolver un encuentro como si no hubiera Monstruos en esta casilla. A continuación, dale la vuelta a esta carta",
+    "number": 4
+  },
+  {
+    "name": "Clarividencia",
+    "categories": [
+      "incantation"
+    ],
+    "type": "spell",
+    "expansion": "base",
+    "front": "Durante la fase de Encuentros, puedes realizar una prueba de saber. Si superas la prueba, puedes elegir resolver un encuentro con una Pista como si estuvieras en esa casilla, ignorando cualquier Monstruo que haya en ella. A continuación, dale la vuelta a esta carta",
+    "number": 1
+  },
+  {
+    "name": "Clarividencia",
+    "categories": [
+      "incantation"
+    ],
+    "type": "spell",
+    "expansion": "base",
+    "front": "Durante la fase de Encuentros, puedes realizar una prueba de saber. Si superas la prueba, puedes elegir resolver un encuentro con una Pista como si estuvieras en esa casilla, ignorando cualquier Monstruo que haya en ella. A continuación, dale la vuelta a esta carta",
+    "number": 2
+  },
+  {
+    "name": "Clarividencia",
+    "categories": [
+      "incantation"
+    ],
+    "type": "spell",
+    "expansion": "fl",
+    "front": "Durante la fase de Encuentros, puedes realizar una prueba de saber. Si superas la prueba, puedes elegir resolver un encuentro con una Pista como si estuvieras en esa casilla, ignorando cualquier Monstruo que haya en ella. A continuación, dale la vuelta a esta carta",
+    "number": 3
+  },
+  {
+    "name": "Clarividencia",
+    "categories": [
+      "incantation"
+    ],
+    "type": "spell",
+    "expansion": "fl",
+    "front": "Durante la fase de Encuentros, puedes realizar una prueba de saber. Si superas la prueba, puedes elegir resolver un encuentro con una Pista como si estuvieras en esa casilla, ignorando cualquier Monstruo que haya en ella. A continuación, dale la vuelta a esta carta",
+    "number": 4
+  },
+  {
+    "name": "Tormenta de espiritus",
+    "categories": [
+      "incantation"
+    ],
+    "type": "spell",
+    "expansion": "mom",
+    "front": "Al resolver un Encuentro de Combate, puedes resolver una prueba de sab er en lugar de la prueba de fuerza, usando el mismo modificador de la prueba. Si lo haces, dale la vuelta a esta carta",
+    "number": 1
+  },
+  {
+    "name": "Tormenta de espiritus",
+    "categories": [
+      "incantation"
+    ],
+    "type": "spell",
+    "expansion": "mom",
+    "front": "Al resolver un Encuentro de Combate, puedes resolver una prueba de sab er en lugar de la prueba de fuerza, usando el mismo modificador de la prueba. Si lo haces, dale la vuelta a esta carta",
+    "number": 2
+  },
+  {
+    "name": "Tormenta de espiritus",
+    "categories": [
+      "incantation"
+    ],
+    "type": "spell",
+    "expansion": "mom",
+    "front": "Al resolver un Encuentro de Combate, puedes resolver una prueba de sab er en lugar de la prueba de fuerza, usando el mismo modificador de la prueba. Si lo haces, dale la vuelta a esta carta",
+    "number": 3
+  },
+  {
+    "name": "Tormenta de espiritus",
+    "categories": [
+      "incantation"
+    ],
+    "type": "spell",
+    "expansion": "mom",
+    "front": "Al resolver un Encuentro de Combate, puedes resolver una prueba de sab er en lugar de la prueba de fuerza, usando el mismo modificador de la prueba. Si lo haces, dale la vuelta a esta carta",
+    "number": 4
+  },
+  {
+    "name": "Palabras curativas",
+    "categories": [
+      "incantation"
+    ],
+    "type": "spell",
+    "expansion": "fl",
+    "front": "Cuando un investigador que esté en tu casilla realice una acción de descansar, puedes realizar una prueba de saber. Si superas la prueba, este investigador recupera 1 punto adicional de Salud y 1 punto adicional de Cordura. A continuación, dale la vuelta a esta carta",
+    "number": 1
+  },
+  {
+    "name": "Palabras curativas",
+    "categories": [
+      "incantation"
+    ],
+    "type": "spell",
+    "expansion": "fl",
+    "front": "Cuando un investigador que esté en tu casilla realice una acción de descansar, puedes realizar una prueba de saber. Si superas la prueba, este investigador recupera 1 punto adicional de Salud y 1 punto adicional de Cordura. A continuación, dale la vuelta a esta carta",
+    "number": 2
+  },
+  {
+    "name": "Palabras curativas",
+    "categories": [
+      "incantation"
+    ],
+    "type": "spell",
+    "expansion": "fl",
+    "front": "Cuando un investigador que esté en tu casilla realice una acción de descansar, puedes realizar una prueba de saber. Si superas la prueba, este investigador recupera 1 punto adicional de Salud y 1 punto adicional de Cordura. A continuación, dale la vuelta a esta carta",
+    "number": 3
+  },
+  {
+    "name": "Palabras curativas",
+    "categories": [
+      "incantation"
+    ],
+    "type": "spell",
+    "expansion": "fl",
+    "front": "Cuando un investigador que esté en tu casilla realice una acción de descansar, puedes realizar una prueba de saber. Si superas la prueba, este investigador recupera 1 punto adicional de Salud y 1 punto adicional de Cordura. A continuación, dale la vuelta a esta carta",
+    "number": 4
+  },
+  {
+    "name": "Inspirar valor",
+    "categories": [
+      "incantation"
+    ],
+    "type": "spell",
+    "expansion": "base",
+    "front": "Una vez por ronda, cuando un investigador fuese a perder Cordura, puedes realizar una prueba de saber. Si superas la prueba, previenes que ese investigador pierda un máximo de 2 puntos de Cordura. A continuación, dale la vuelta a esta carta",
+    "number": 1
+  },
+  {
+    "name": "Inspirar valor",
+    "categories": [
+      "incantation"
+    ],
+    "type": "spell",
+    "expansion": "base",
+    "front": "Una vez por ronda, cuando un investigador fuese a perder Cordura, puedes realizar una prueba de saber. Si superas la prueba, previenes que ese investigador pierda un máximo de 2 puntos de Cordura. A continuación, dale la vuelta a esta carta",
+    "number": 2
+  },
+  {
+    "name": "Inspirar valor",
+    "categories": [
+      "incantation"
+    ],
+    "type": "spell",
+    "expansion": "base",
+    "front": "Una vez por ronda, cuando un investigador fuese a perder Cordura, puedes realizar una prueba de saber. Si superas la prueba, previenes que ese investigador pierda un máximo de 2 puntos de Cordura. A continuación, dale la vuelta a esta carta",
+    "number": 3
+  },
+  {
+    "name": "Inspirar valor",
+    "categories": [
+      "incantation"
+    ],
+    "type": "spell",
+    "expansion": "base",
+    "front": "Una vez por ronda, cuando un investigador fuese a perder Cordura, puedes realizar una prueba de saber. Si superas la prueba, previenes que ese investigador pierda un máximo de 2 puntos de Cordura. A continuación, dale la vuelta a esta carta",
+    "number": 4
+  },
+  {
+    "name": "Ajar",
+    "categories": [
+      "incantation"
+    ],
+    "type": "spell",
+    "expansion": "base",
+    "front": "Cuando resuelvas un Encuentro de Combate, puedes realizar una prueba de saber. Si superas la prueba, obtén +3 fuerza durante ese encuentro. A continuación, dale la vuelta a esta carta",
+    "number": 1
+  },
+  {
+    "name": "Ajar",
+    "categories": [
+      "incantation"
+    ],
+    "type": "spell",
+    "expansion": "base",
+    "front": "Cuando resuelvas un Encuentro de Combate, puedes realizar una prueba de saber. Si superas la prueba, obtén +3 fuerza durante ese encuentro. A continuación, dale la vuelta a esta carta",
+    "number": 2
+  },
+  {
+    "name": "Ajar",
+    "categories": [
+      "incantation"
+    ],
+    "type": "spell",
+    "expansion": "fl",
+    "front": "Cuando resuelvas un Encuentro de Combate, puedes realizar una prueba de saber. Si superas la prueba, obtén +3 fuerza durante ese encuentro. A continuación, dale la vuelta a esta carta",
+    "number": 3
+  },
+  {
+    "name": "Ajar",
+    "categories": [
+      "incantation"
+    ],
+    "type": "spell",
+    "expansion": "fl",
+    "front": "Cuando resuelvas un Encuentro de Combate, puedes realizar una prueba de saber. Si superas la prueba, obtén +3 fuerza durante ese encuentro. A continuación, dale la vuelta a esta carta",
+    "number": 4
+  },
+  {
+    "name": "Destierro",
+    "categories": [
+      "ritual"
+    ],
+    "type": "spell",
+    "expansion": "mom",
+    "front": "Acción: Realiza una prueba de saber +2. Si superas la prueba, descarta 1 Monstruo que esté en la casilla más cercana que contenga un Portal y que tenga fortaliza igual o menor a tu resultado de la prueba. A continuación, dale la vuelta a esta carta",
+    "number": 1
+  },
+  {
+    "name": "Destierro",
+    "categories": [
+      "ritual"
+    ],
+    "type": "spell",
+    "expansion": "mom",
+    "front": "Acción: Realiza una prueba de saber +2. Si superas la prueba, descarta 1 Monstruo que esté en la casilla más cercana que contenga un Portal y que tenga fortaliza igual o menor a tu resultado de la prueba. A continuación, dale la vuelta a esta carta",
+    "number": 2
+  },
+  {
+    "name": "Destierro",
+    "categories": [
+      "ritual"
+    ],
+    "type": "spell",
+    "expansion": "mom",
+    "front": "Acción: Realiza una prueba de saber +2. Si superas la prueba, descarta 1 Monstruo que esté en la casilla más cercana que contenga un Portal y que tenga fortaliza igual o menor a tu resultado de la prueba. A continuación, dale la vuelta a esta carta",
+    "number": 3
+  },
+  {
+    "name": "Destierro",
+    "categories": [
+      "ritual"
+    ],
+    "type": "spell",
+    "expansion": "mom",
+    "front": "Acción: Realiza una prueba de saber +2. Si superas la prueba, descarta 1 Monstruo que esté en la casilla más cercana que contenga un Portal y que tenga fortaliza igual o menor a tu resultado de la prueba. A continuación, dale la vuelta a esta carta",
+    "number": 4
+  },
+  {
+    "name": "Convocar byakhee",
+    "categories": [
+      "ritual"
+    ],
+    "type": "spell",
+    "expansion": "soc",
+    "front": "Acción: Realiza una prueba de saber. Si superas la prueba, muévete a una casilla de tu elección que esté a 2 casillas o menos. A continuación, dale la vuelta a esta carta",
+    "number": 1
+  },
+  {
+    "name": "Convocar byakhee",
+    "categories": [
+      "ritual"
+    ],
+    "type": "spell",
+    "expansion": "soc",
+    "front": "Acción: Realiza una prueba de saber. Si superas la prueba, muévete a una casilla de tu elección que esté a 2 casillas o menos. A continuación, dale la vuelta a esta carta",
+    "number": 2
+  },
+  {
+    "name": "Convocar byakhee",
+    "categories": [
+      "ritual"
+    ],
+    "type": "spell",
+    "expansion": "soc",
+    "front": "Acción: Realiza una prueba de saber. Si superas la prueba, muévete a una casilla de tu elección que esté a 2 casillas o menos. A continuación, dale la vuelta a esta carta",
+    "number": 3
+  },
+  {
+    "name": "Convocar byakhee",
+    "categories": [
+      "ritual"
+    ],
+    "type": "spell",
+    "expansion": "soc",
+    "front": "Acción: Realiza una prueba de saber. Si superas la prueba, muévete a una casilla de tu elección que esté a 2 casillas o menos. A continuación, dale la vuelta a esta carta",
+    "number": 4
+  },
+  {
+    "name": "Bendición de Isis",
+    "categories": [
+      "ritual"
+    ],
+    "type": "spell",
+    "expansion": "base",
+    "front": "Acción: Elige un investigador que esté en tu casilla y que no tenga el Estado Bendecido. Realiza una prueba de saber -1. Si superas la prueba, el investigador elegido obtiene el Estado Bendecido. A continuación, dale la vuelta a esta carta",
+    "number": 1
+  },
+  {
+    "name": "Bendición de Isis",
+    "categories": [
+      "ritual"
+    ],
+    "type": "spell",
+    "expansion": "base",
+    "front": "Acción: Elige un investigador que esté en tu casilla y que no tenga el Estado Bendecido. Realiza una prueba de saber -1. Si superas la prueba, el investigador elegido obtiene el Estado Bendecido. A continuación, dale la vuelta a esta carta",
+    "number": 2
+  },
+  {
+    "name": "Bendición de Isis",
+    "categories": [
+      "ritual"
+    ],
+    "type": "spell",
+    "expansion": "fl",
+    "front": "Acción: Elige un investigador que esté en tu casilla y que no tenga el Estado Bendecido. Realiza una prueba de saber -1. Si superas la prueba, el investigador elegido obtiene el Estado Bendecido. A continuación, dale la vuelta a esta carta",
+    "number": 3
+  },
+  {
+    "name": "Bendición de Isis",
+    "categories": [
+      "ritual"
+    ],
+    "type": "spell",
+    "expansion": "fl",
+    "front": "Acción: Elige un investigador que esté en tu casilla y que no tenga el Estado Bendecido. Realiza una prueba de saber -1. Si superas la prueba, el investigador elegido obtiene el Estado Bendecido. A continuación, dale la vuelta a esta carta",
+    "number": 4
+  },
+  {
+    "name": "Inspiración arcana",
+    "categories": [
+      "ritual"
+    ],
+    "type": "spell",
+    "expansion": "mom",
+    "front": "Acción: Eligete a ti mismo o a otro investigador que esté en cualquier casilla y realiza una prueba de saber -2; lanza 1 dado adicional por cada pertenencia Tomo que tengas. Si superas la prueba, ese investigador obtiene 1 Pista. A continuación, dale la vuelta a esta carta",
+    "number": 1
+  },
+  {
+    "name": "Inspiración arcana",
+    "categories": [
+      "ritual"
+    ],
+    "type": "spell",
+    "expansion": "mom",
+    "front": "Acción: Eligete a ti mismo o a otro investigador que esté en cualquier casilla y realiza una prueba de saber -2; lanza 1 dado adicional por cada pertenencia Tomo que tengas. Si superas la prueba, ese investigador obtiene 1 Pista. A continuación, dale la vuelta a esta carta",
+    "number": 2
+  },
+  {
+    "name": "Inspiración arcana",
+    "categories": [
+      "ritual"
+    ],
+    "type": "spell",
+    "expansion": "mom",
+    "front": "Acción: Eligete a ti mismo o a otro investigador que esté en cualquier casilla y realiza una prueba de saber -2; lanza 1 dado adicional por cada pertenencia Tomo que tengas. Si superas la prueba, ese investigador obtiene 1 Pista. A continuación, dale la vuelta a esta carta",
+    "number": 3
+  },
+  {
+    "name": "Inspiración arcana",
+    "categories": [
+      "ritual"
+    ],
+    "type": "spell",
+    "expansion": "mom",
+    "front": "Acción: Eligete a ti mismo o a otro investigador que esté en cualquier casilla y realiza una prueba de saber -2; lanza 1 dado adicional por cada pertenencia Tomo que tengas. Si superas la prueba, ese investigador obtiene 1 Pista. A continuación, dale la vuelta a esta carta",
+    "number": 4
+  },
+  {
+    "name": "Surcar el vacio",
+    "categories": [
+      "ritual"
+    ],
+    "type": "spell",
+    "expansion": "base",
+    "front": "Acción: Elige un investigador que esté en cualquier casilla y realiza una prueba de saber -1. Si superas la prueba, el investigador elegido puede moverse a una casilla de su elección. A continuación, dale la vuelta a esta carta",
+    "number": 1
+  },
+  {
+    "name": "Surcar el vacio",
+    "categories": [
+      "ritual"
+    ],
+    "type": "spell",
+    "expansion": "base",
+    "front": "Acción: Elige un investigador que esté en cualquier casilla y realiza una prueba de saber -1. Si superas la prueba, el investigador elegido puede moverse a una casilla de su elección. A continuación, dale la vuelta a esta carta",
+    "number": 2
+  },
+  {
+    "name": "Surcar el vacio",
+    "categories": [
+      "ritual"
+    ],
+    "type": "spell",
+    "expansion": "fl",
+    "front": "Acción: Elige un investigador que esté en cualquier casilla y realiza una prueba de saber -1. Si superas la prueba, el investigador elegido puede moverse a una casilla de su elección. A continuación, dale la vuelta a esta carta",
+    "number": 3
+  },
+  {
+    "name": "Surcar el vacio",
+    "categories": [
+      "ritual"
+    ],
+    "type": "spell",
+    "expansion": "fl",
+    "front": "Acción: Elige un investigador que esté en cualquier casilla y realiza una prueba de saber -1. Si superas la prueba, el investigador elegido puede moverse a una casilla de su elección. A continuación, dale la vuelta a esta carta",
+    "number": 4
+  },
+  {
+    "name": "Conjuración",
+    "categories": [
+      "ritual"
+    ],
+    "type": "spell",
+    "expansion": "base",
+    "front": "Acción: Realiza una prueba de saber +1. Si superas la prueba, puedes obtner 1 Apoyo Objeto o Baratija de la reserva con un valor igual o menor que tu resultado de la prueba. A continuación, dale la vuelta a esta carta",
+    "number": 1
+  },
+  {
+    "name": "Conjuración",
+    "categories": [
+      "ritual"
+    ],
+    "type": "spell",
+    "expansion": "base",
+    "front": "Acción: Realiza una prueba de saber +1. Si superas la prueba, puedes obtner 1 Apoyo Objeto o Baratija de la reserva con un valor igual o menor que tu resultado de la prueba. A continuación, dale la vuelta a esta carta",
+    "number": 2
+  },
+  {
+    "name": "Conjuración",
+    "categories": [
+      "ritual"
+    ],
+    "type": "spell",
+    "expansion": "fl",
+    "front": "Acción: Realiza una prueba de saber +1. Si superas la prueba, puedes obtner 1 Apoyo Objeto o Baratija de la reserva con un valor igual o menor que tu resultado de la prueba. A continuación, dale la vuelta a esta carta",
+    "number": 3
+  },
+  {
+    "name": "Conjuración",
+    "categories": [
+      "ritual"
+    ],
+    "type": "spell",
+    "expansion": "fl",
+    "front": "Acción: Realiza una prueba de saber +1. Si superas la prueba, puedes obtner 1 Apoyo Objeto o Baratija de la reserva con un valor igual o menor que tu resultado de la prueba. A continuación, dale la vuelta a esta carta",
+    "number": 4
+  },
+  {
+    "name": "Alimentar la mente",
+    "categories": [
+      "ritual"
+    ],
+    "type": "spell",
+    "expansion": "base",
+    "front": "Acción: Realiza una prueba de saber -1. Si superas la prueba, elige un investigador que esté en tu casilla para que mejore 1 habilidad de su elección. A continuación, dale la vuelta a esta carta",
+    "number": 1
+  },
+  {
+    "name": "Alimentar la mente",
+    "categories": [
+      "ritual"
+    ],
+    "type": "spell",
+    "expansion": "base",
+    "front": "Acción: Realiza una prueba de saber -1. Si superas la prueba, elige un investigador que esté en tu casilla para que mejore 1 habilidad de su elección. A continuación, dale la vuelta a esta carta",
+    "number": 2
+  },
+  {
+    "name": "Alimentar la mente",
+    "categories": [
+      "ritual"
+    ],
+    "type": "spell",
+    "expansion": "fl",
+    "front": "Acción: Realiza una prueba de saber -1. Si superas la prueba, elige un investigador que esté en tu casilla para que mejore 1 habilidad de su elección. A continuación, dale la vuelta a esta carta",
+    "number": 3
+  },
+  {
+    "name": "Alimentar la mente",
+    "categories": [
+      "ritual"
+    ],
+    "type": "spell",
+    "expansion": "fl",
+    "front": "Acción: Realiza una prueba de saber -1. Si superas la prueba, elige un investigador que esté en tu casilla para que mejore 1 habilidad de su elección. A continuación, dale la vuelta a esta carta",
+    "number": 4
+  },
+  {
+    "name": "Niebla venenosa",
+    "categories": [
+      "ritual"
+    ],
+    "type": "spell",
+    "expansion": "fl",
+    "front": "Acción: Realiza una prueba de saber +1. Si superas la prueba, descarta Monstruos de tu casilla cuya fortaleza total sea igual o menor que el resultado de la prueba. A continuación, dale la vuelta a esta carta",
+    "number": 1
+  },
+  {
+    "name": "Niebla venenosa",
+    "categories": [
+      "ritual"
+    ],
+    "type": "spell",
+    "expansion": "fl",
+    "front": "Acción: Realiza una prueba de saber +1. Si superas la prueba, descarta Monstruos de tu casilla cuya fortaleza total sea igual o menor que el resultado de la prueba. A continuación, dale la vuelta a esta carta",
+    "number": 2
+  },
+  {
+    "name": "Niebla venenosa",
+    "categories": [
+      "ritual"
+    ],
+    "type": "spell",
+    "expansion": "fl",
+    "front": "Acción: Realiza una prueba de saber +1. Si superas la prueba, descarta Monstruos de tu casilla cuya fortaleza total sea igual o menor que el resultado de la prueba. A continuación, dale la vuelta a esta carta",
+    "number": 3
+  },
+  {
+    "name": "Niebla venenosa",
+    "categories": [
+      "ritual"
+    ],
+    "type": "spell",
+    "expansion": "fl",
+    "front": "Acción: Realiza una prueba de saber +1. Si superas la prueba, descarta Monstruos de tu casilla cuya fortaleza total sea igual o menor que el resultado de la prueba. A continuación, dale la vuelta a esta carta",
+    "number": 4
+  },
+  {
+    "name": "Consumición",
+    "categories": [
+      "ritual"
+    ],
+    "type": "spell",
+    "expansion": "base",
+    "front": "Acción: Realiza una prueba de saber. Si superas la prueba, elige un Monstruo que esté en tu casilla para que pierda 2 puntos de Salud. A continuación, dale la vuelta a esta carta",
+    "number": 1
+  },
+  {
+    "name": "Consumición",
+    "categories": [
+      "ritual"
+    ],
+    "type": "spell",
+    "expansion": "base",
+    "front": "Acción: Realiza una prueba de saber. Si superas la prueba, elige un Monstruo que esté en tu casilla para que pierda 2 puntos de Salud. A continuación, dale la vuelta a esta carta",
+    "number": 2
+  },
+  {
+    "name": "Consumición",
+    "categories": [
+      "ritual"
+    ],
+    "type": "spell",
+    "expansion": "fl",
+    "front": "Acción: Realiza una prueba de saber. Si superas la prueba, elige un Monstruo que esté en tu casilla para que pierda 2 puntos de Salud. A continuación, dale la vuelta a esta carta",
+    "number": 3
+  },
+  {
+    "name": "Consumición",
+    "categories": [
+      "ritual"
+    ],
+    "type": "spell",
+    "expansion": "fl",
+    "front": "Acción: Realiza una prueba de saber. Si superas la prueba, elige un Monstruo que esté en tu casilla para que pierda 2 puntos de Salud. A continuación, dale la vuelta a esta carta",
+    "number": 4
+  },
+  {
+    "name": "Guia de la Antartida",
+    "categories": [
+      "ally"
+    ],
+    "type": "unique-asset",
+    "expansion": "mom",
+    "front": "Una vez por ronda, si estás en una casilla del tablero secundario de la Antártida, puedes volver a tirar 1 dado al resolver una prueba, excepto al resolver un Encuentro de Otros Mundos"
+  },
+  {
+    "name": "Guia de la Antartida",
+    "categories": [
+      "ally"
+    ],
+    "type": "unique-asset",
+    "expansion": "mom",
+    "front": "Una vez por ronda, si estás en una casilla del tablero secundario de la Antártida, puedes volver a tirar 1 dado al resolver una prueba, excepto al resolver un Encuentro de Otros Mundos"
+  },
+  {
+    "name": "Trineo de perros",
+    "categories": [
+      "ally"
+    ],
+    "type": "unique-asset",
+    "expansion": "mom",
+    "front": "Acción: Muévete a una casilla adyacente del tablero secundario de la Antartida. A continuacion realiza 1 acción adicional"
+  },
+  {
+    "name": "Profesor Rice",
+    "categories": [
+      "ally",
+      "character"
+    ],
+    "type": "unique-asset",
+    "expansion": "sr",
+    "front": "Cuando obtengas esta carta desde el mazo, obtén 1 Apoyo único Reliquia. Tras resolver un Encuentro de Expedición o un Encuentro de Ruinas místicas, obtén 1 Pista"
+  },
+  {
+    "name": "Kid O'Brien",
+    "categories": [
+      "ally",
+      "character"
+    ],
+    "type": "unique-asset",
+    "expansion": "mom",
+    "front": "Una vez por ronda, puedes sumar 1 éxito al resultado de tu prueba al resolver una prueba de fuerza durante un Encuentro de Combate. Reduce el daño de los Monstruos con los que resuelvas encuentros en 1 hasta un mínimo de 1"
+  },
+  {
+    "name": "Profesor Armitage",
+    "categories": [
+      "ally",
+      "character"
+    ],
+    "type": "unique-asset",
+    "expansion": "mom",
+    "front": "Cuando obtengas esta carta del mazo, obtén 1 Hechizo. Una vez por ronda, puedes sumar 1 exito al resultado de tu prueba al resolver una prueba de saber como parte del efecto de un Hechizo"
+  },
+  {
+    "name": "Dr. Hiram Upham",
+    "categories": [
+      "ally",
+      "character"
+    ],
+    "type": "unique-asset",
+    "expansion": "mom",
+    "front": "Cuando obtengas esta carta del mazo, obtén 2 pistas. Acción: Puedes gastar 2 Pistas para descartar 1 Monstruo de tu elección que esté en una casilla que contenga un Portal"
+  },
+  {
+    "name": "Padre Merluzzo",
+    "categories": [
+      "ally",
+      "character"
+    ],
+    "type": "unique-asset",
+    "expansion": "mom",
+    "front": "Una vez por ronda, puedes sumar 1 éxito al resultado de tu prueba al resolver una prueba de voluntad durante un encuentro de combate",
+    "retribution": "Tira 1 dado. Si sacas 4, 5 o 6, obtén el Estado Bendecido"
+  },
+  {
+    "name": "Abuelita Orne",
+    "categories": [
+      "ally",
+      "character"
+    ],
+    "type": "unique-asset",
+    "expansion": "soc",
+    "front": "Puedes sumar 1 al resultado de 1 dado al resolver una prueba durante un Encuentro de Investigación. Una vez por ronda, puedes gastar 1 Pista menos para cubrir el coste de un efecto"
+  },
+  {
+    "name": "Albert Wilmarth",
+    "categories": [
+      "ally",
+      "character"
+    ],
+    "type": "unique-asset",
+    "expansion": "soc",
+    "front": "Cuando obtengas esta carta desde el mazo, obtén 1 Apoyo Tomo aleatorio del mazo",
+    "retribution": "Tira 1 dado. Si el resultado es 4-6, obtén 1 Pista y recupera 1 punto de Cordura"
+  },
+  {
+    "name": "Henry Wilcox",
+    "categories": [
+      "ally",
+      "character"
+    ],
+    "type": "unique-asset",
+    "expansion": "mom",
+    "front": "Otros investigadores de tu casilla y tú tiráis 1 dado adicional al resolver pruebas durante Encuentros de Otros Mundos. Tras resolver un Encuentro de Otros Mundos, obtén 1 Pista si no cerraste ese Portal"
+  },
+  {
+    "name": "Sir William Brinton",
+    "categories": [
+      "ally",
+      "character"
+    ],
+    "type": "unique-asset",
+    "expansion": "mom",
+    "front": "Después de resolver un Encuentro de In vestigación, recupera 1 punto de Cordura",
+    "retribution": "Genera 1 Pista"
+  },
+  {
+    "name": "Corinna Jones",
+    "categories": [
+      "ally",
+      "character"
+    ],
+    "type": "unique-asset",
+    "expansion": "soc",
+    "front": "Tira 1 dado adicional al resolver una prueba de influencia o de observación. Cuando obtengas esta carta desde el mazo, obtén 1 Estado Talento"
+  },
+  {
+    "name": "Danforth",
+    "categories": [
+      "ally",
+      "character"
+    ],
+    "type": "unique-asset",
+    "expansion": "mom",
+    "front": "Cuando obtengas esta carta del mazo, mejora tu voluntad. Una vez por ronda, puedes gastar 1 ficha de Concentracion para prevenirte la perdida de hasta 2 puntos de Cordura"
+  },
+  {
+    "name": "William Dyer",
+    "categories": [
+      "ally",
+      "character"
+    ],
+    "type": "unique-asset",
+    "expansion": "mom",
+    "front": "Cuando obtengas esta carta del mazo, obtén 2 Pistas. Puedes gastar 1 Pista para sumar 1 éxito al resultado de tu prueba al resolver una prueba en el tablero secundario de la Antartida"
+  },
+  {
+    "name": "Hildred Castaigne",
+    "categories": [
+      "ally",
+      "character"
+    ],
+    "type": "unique-asset",
+    "expansion": "soc",
+    "front": "Cuando obtengas esta carta desde el mazo, obten 5 Pistas",
+    "retribution": "El comportamiento de Castaigne se vuelve errático. Dale la vuelta a esta carta",
+    "number": 1
+  },
+  {
+    "name": "Etienne Laurent",
+    "categories": [
+      "ally",
+      "character"
+    ],
+    "type": "unique-asset",
+    "expansion": "sr",
+    "front": "Puedes sumar 1 éxito a tu resultado de la prueba al resolver una prueba de influencia durante una acción de adquirir Apoyos. Una vez por ronda, durante la fase de Acción, puedes descartar 1 carta de la reserva"
+  },
+  {
+    "name": "Anna Tilton",
+    "categories": [
+      "ally",
+      "character"
+    ],
+    "type": "unique-asset",
+    "expansion": "mom",
+    "front": "Cuando obtengas esta carta del mazo, mejora tu saber. Otros investigadores de tu casilla y tú tirais 1 dado adicional al resolver pruebas durante Encuentros de Investigación"
+  },
+  {
+    "name": "Constance Hawberk",
+    "categories": [
+      "ally",
+      "character"
+    ],
+    "type": "unique-asset",
+    "expansion": "mom",
+    "front": "Cuando obtengas esta carta del mazo, mejora tu influencia",
+    "retribution": "Obtén 1 Apoyo Arma aleatorio del mazo"
+  },
+  {
+    "name": "Asenath Waite",
+    "categories": [
+      "ally",
+      "character"
+    ],
+    "type": "unique-asset",
+    "expansion": "sr",
+    "front": "Cuando obtengas esta carta desde el mazo, obtén 1 Hechizo. Cuando se genere un Portal, puedes descartar 2 Hechizos para descartar ese Portal y todos los Monstruos que haya en esa casilla"
+  },
+  {
+    "name": "Esteban Herrero",
+    "categories": [
+      "ally",
+      "character"
+    ],
+    "type": "unique-asset",
+    "expansion": "mom",
+    "front": "Cuando obtengas esta carta del mazo mejora tu observación. Una vez por ronda, durante la fase de Acción, puedes intercambiar pertenencias con cada uno de los demas investigadores de tu casilla"
+  },
+  {
+    "name": "Viejo diario",
+    "categories": [
+      "object",
+      "tome"
+    ],
+    "type": "unique-asset",
+    "expansion": "mom",
+    "front": "Acción: Realiza una prueba de observacion. Si superas la prueba, descubres información que podría resultarte útil en tu misión; dale la vuelta a esta carta",
+    "number": 1
+  },
+  {
+    "name": "Viejo diario",
+    "categories": [
+      "object",
+      "tome"
+    ],
+    "type": "unique-asset",
+    "expansion": "mom",
+    "front": "Acción: Realiza una prueba de observacion. Si superas la prueba, descubres información que podría resultarte útil en tu misión; dale la vuelta a esta carta",
+    "number": 2
+  },
+  {
+    "name": "Viejo diario",
+    "categories": [
+      "object",
+      "tome"
+    ],
+    "type": "unique-asset",
+    "expansion": "mom",
+    "front": "Acción: Realiza una prueba de observacion. Si superas la prueba, descubres información que podría resultarte útil en tu misión; dale la vuelta a esta carta",
+    "number": 3
+  },
+  {
+    "name": "Viejo diario",
+    "categories": [
+      "object",
+      "tome"
+    ],
+    "type": "unique-asset",
+    "expansion": "mom",
+    "front": "Acción: Realiza una prueba de observacion. Si superas la prueba, descubres información que podría resultarte útil en tu misión; dale la vuelta a esta carta",
+    "number": 4
+  },
+  {
+    "name": "Calendario de piedra",
+    "categories": [
+      "object",
+      "relic",
+      "magical"
+    ],
+    "type": "unique-asset",
+    "expansion": "sr",
+    "front": "Cuando obtengas esta carta desde el mazo, puedes mover el Augurio 1 casilla en dirección contraria a las agujas del reloj sin hacer avanzar la Perdición",
+    "retribution": "El alineamiento de las estrellas es el adecuado. Dale la vuelta a esta carta",
+    "number": 1
+  },
+  {
+    "name": "Tesoro perdido",
+    "categories": [
+      "object",
+      "relic",
+      "magical"
+    ],
+    "type": "unique-asset",
+    "expansion": "sr",
+    "front": "Puedes descartar esta carta para sumar 3 éxitos a tu resultado de la prueba durante una acción de adquirir Apoyos. Cuando realices una acción de descansar, puedes examinar las intrincadas marcas (observación -1). Si superas la prueba, dale la vuelta a esta carta",
+    "number": 1
+  },
+  {
+    "name": "Tabilla de piedra",
+    "categories": [
+      "object",
+      "relic"
+    ],
+    "type": "unique-asset",
+    "expansion": "sr",
+    "front": "Cuando realices una acción de descansar, puedes intentar descifrar las inscripciones de la tablilla (saber -1). Si superas la prueba, dale la vuelta a esta carta",
+    "number": 1
+  },
+  {
+    "name": "Tabilla de piedra",
+    "categories": [
+      "object",
+      "relic"
+    ],
+    "type": "unique-asset",
+    "expansion": "sr",
+    "front": "Cuando realices una acción de descansar, puedes intentar descifrar las inscripciones de la tablilla (saber -1). Si superas la prueba, dale la vuelta a esta carta",
+    "number": 2
+  },
+  {
+    "name": "Tabilla de piedra",
+    "categories": [
+      "object",
+      "relic"
+    ],
+    "type": "unique-asset",
+    "expansion": "sr",
+    "front": "Cuando realices una acción de descansar, puedes intentar descifrar las inscripciones de la tablilla (saber -1). Si superas la prueba, dale la vuelta a esta carta",
+    "number": 3
+  },
+  {
+    "name": "Cofre de piedra",
+    "categories": [
+      "object",
+      "relic"
+    ],
+    "type": "unique-asset",
+    "expansion": "sr",
+    "front": "Cuando realices una acción de descansar, puedes intentar forzar el cobre para abrirlo (fuerza). Si superas la prueba, dale la vuelta a esta carta",
+    "number": 1
+  },
+  {
+    "name": "Cofre de piedra",
+    "categories": [
+      "object",
+      "relic"
+    ],
+    "type": "unique-asset",
+    "expansion": "sr",
+    "front": "Cuando realices una acción de descansar, puedes intentar forzar el cobre para abrirlo (fuerza). Si superas la prueba, dale la vuelta a esta carta",
+    "number": 2
+  },
+  {
+    "name": "Cofre de piedra",
+    "categories": [
+      "object",
+      "relic"
+    ],
+    "type": "unique-asset",
+    "expansion": "sr",
+    "front": "Cuando realices una acción de descansar, puedes intentar forzar el cobre para abrirlo (fuerza). Si superas la prueba, dale la vuelta a esta carta",
+    "number": 3
+  },
+  {
+    "name": "Ídolo misterioso",
+    "categories": [
+      "object",
+      "relic",
+      "magical"
+    ],
+    "type": "unique-asset",
+    "expansion": "sr",
+    "front": "Cuando obtengas esta carta desde el mazo, obtén 1 Pista",
+    "retribution": "El ídolo te revela su verdadero propósito. Dale la vuelta a esta carta",
+    "number": 1
+  },
+  {
+    "name": "Ídolo misterioso",
+    "categories": [
+      "object",
+      "relic",
+      "magical"
+    ],
+    "type": "unique-asset",
+    "expansion": "sr",
+    "front": "Cuando obtengas esta carta desde el mazo, obtén 1 Pista",
+    "retribution": "El ídolo te revela su verdadero propósito. Dale la vuelta a esta carta",
+    "number": 2
+  },
+  {
+    "name": "Ídolo misterioso",
+    "categories": [
+      "object",
+      "relic",
+      "magical"
+    ],
+    "type": "unique-asset",
+    "expansion": "sr",
+    "front": "Cuando obtengas esta carta desde el mazo, obtén 1 Pista",
+    "retribution": "El ídolo te revela su verdadero propósito. Dale la vuelta a esta carta",
+    "number": 3
+  },
+  {
+    "name": "Espada antigua",
+    "categories": [
+      "object",
+      "relic",
+      "magical",
+      "weapon"
+    ],
+    "type": "unique-asset",
+    "expansion": "sr",
+    "front": "Obten +3 fuerza durante Encuentros de Combate. Cuando derrotes a un Monstruo durante un Encuentro de Combate, dale la vuelta a esta carta",
+    "number": 1
+  },
+  {
+    "name": "Provisiones",
     "categories": [
       "object"
     ],
-    "type": "Asset",
+    "type": "unique-asset",
+    "expansion": "mom",
+    "front": "Cuando realices una acción de descansar, puedes descartar esta carta para recuperar 1 punto de Salud adicional y un punto de Cordura adicional"
+  },
+  {
+    "name": "Provisiones",
+    "categories": [
+      "object"
+    ],
+    "type": "unique-asset",
+    "expansion": "mom",
+    "front": "Cuando realices una acción de descansar, puedes descartar esta carta para recuperar 1 punto de Salud adicional y un punto de Cordura adicional"
+  },
+  {
+    "name": "Provisiones",
+    "categories": [
+      "object"
+    ],
+    "type": "unique-asset",
+    "expansion": "mom",
+    "front": "Cuando realices una acción de descansar, puedes descartar esta carta para recuperar 1 punto de Salud adicional y un punto de Cordura adicional"
+  },
+  {
+    "name": "Provisiones",
+    "categories": [
+      "object"
+    ],
+    "type": "unique-asset",
+    "expansion": "mom",
+    "front": "Cuando realices una acción de descansar, puedes descartar esta carta para recuperar 1 punto de Salud adicional y un punto de Cordura adicional"
+  },
+  {
+    "name": "Purificar el mundo",
+    "categories": [
+      "task"
+    ],
+    "type": "unique-asset",
+    "expansion": "mom",
+    "front": "Cuando derrotes a un Monstruo no épico durante un Encuentro de Combate, coloca ese Monstruo sobre esta carta. A continuación puedes darle la vuelta a esta carta",
+    "number": 1
+  },
+  {
+    "name": "Purificar el mundo",
+    "categories": [
+      "task"
+    ],
+    "type": "unique-asset",
+    "expansion": "mom",
+    "front": "Cuando derrotes a un Monstruo no épico durante un Encuentro de Combate, coloca ese Monstruo sobre esta carta. A continuación puedes darle la vuelta a esta carta",
+    "number": 2
+  },
+  {
+    "name": "Purificar el mundo",
+    "categories": [
+      "task"
+    ],
+    "type": "unique-asset",
+    "expansion": "mom",
+    "front": "Cuando derrotes a un Monstruo no épico durante un Encuentro de Combate, coloca ese Monstruo sobre esta carta. A continuación puedes darle la vuelta a esta carta",
+    "number": 3
+  },
+  {
+    "name": "Sacrificios necesarios",
+    "categories": [
+      "task"
+    ],
+    "type": "unique-asset",
+    "expansion": "mom",
+    "front": "Cuando realices una acción de concentrarse, puedes gastar 1 punto de Salud para colocar 1 punto de Salud sobre esta carta. A continuación puedes darle la vuelta a esta carta",
+    "number": 1
+  },
+  {
+    "name": "Sacrificios necesarios",
+    "categories": [
+      "task"
+    ],
+    "type": "unique-asset",
+    "expansion": "mom",
+    "front": "Cuando realices una acción de concentrarse, puedes gastar 1 punto de Salud para colocar 1 punto de Salud sobre esta carta. A continuación puedes darle la vuelta a esta carta",
+    "number": 2
+  },
+  {
+    "name": "Sacrificios necesarios",
+    "categories": [
+      "task"
+    ],
+    "type": "unique-asset",
+    "expansion": "mom",
+    "front": "Cuando realices una acción de concentrarse, puedes gastar 1 punto de Salud para colocar 1 punto de Salud sobre esta carta. A continuación puedes darle la vuelta a esta carta",
+    "number": 3
+  },
+  {
+    "name": "Recorriendo las lineas ley",
+    "categories": [
+      "task"
+    ],
+    "type": "unique-asset",
+    "expansion": "mom",
+    "front": "Cuando cierres un Portal durante un Encuentro de Otros Mundos, coloca ese Portal sobre esta carta. A continuación puedes darle la vuelta a esta carta",
+    "number": 1
+  },
+  {
+    "name": "Recorriendo las lineas ley",
+    "categories": [
+      "task"
+    ],
+    "type": "unique-asset",
+    "expansion": "mom",
+    "front": "Cuando cierres un Portal durante un Encuentro de Otros Mundos, coloca ese Portal sobre esta carta. A continuación puedes darle la vuelta a esta carta",
+    "number": 2
+  },
+  {
+    "name": "Recorriendo las lineas ley",
+    "categories": [
+      "task"
+    ],
+    "type": "unique-asset",
+    "expansion": "mom",
+    "front": "Cuando cierres un Portal durante un Encuentro de Otros Mundos, coloca ese Portal sobre esta carta. A continuación puedes darle la vuelta a esta carta",
+    "number": 3
+  },
+  {
+    "name": "Cambiar el curso",
+    "categories": [
+      "task"
+    ],
+    "type": "unique-asset",
+    "expansion": "soc",
+    "front": "Al final de la fase de Mitos, si la Perdición avanzó en esta rondo o si el Primigenio ha despertado, puedes gastar una cantidad de Pistas igual a la mitad del número de investigadores para darle la vuelta a esta carta",
+    "number": 1
+  },
+  {
+    "name": "Cambiar el curso",
+    "categories": [
+      "task"
+    ],
+    "type": "unique-asset",
+    "expansion": "soc",
+    "front": "Al final de la fase de Mitos, si la Perdición avanzó en esta rondo o si el Primigenio ha despertado, puedes gastar una cantidad de Pistas igual a la mitad del número de investigadores para darle la vuelta a esta carta",
+    "number": 2
+  },
+  {
+    "name": "Cambiar el curso",
+    "categories": [
+      "task"
+    ],
+    "type": "unique-asset",
+    "expansion": "soc",
+    "front": "Al final de la fase de Mitos, si la Perdición avanzó en esta rondo o si el Primigenio ha despertado, puedes gastar una cantidad de Pistas igual a la mitad del número de investigadores para darle la vuelta a esta carta",
+    "number": 3
+  },
+  {
+    "name": "Financiar la causa",
+    "categories": [
+      "task"
+    ],
+    "type": "unique-asset",
+    "expansion": "soc",
+    "front": "Cuando realices una acción de adquirir Apoyos, puedes gastar una cantidad de éxitos mayor que la cantidad de fichas de Arcano que haya sobre esta carta para colocar 1 ficha de Arcano sobre esta carta. A continuación, puedes darle la vuelta a esta carta",
+    "number": 1
+  },
+  {
+    "name": "Financiar la causa",
+    "categories": [
+      "task"
+    ],
+    "type": "unique-asset",
+    "expansion": "soc",
+    "front": "Cuando realices una acción de adquirir Apoyos, puedes gastar una cantidad de éxitos mayor que la cantidad de fichas de Arcano que haya sobre esta carta para colocar 1 ficha de Arcano sobre esta carta. A continuación, puedes darle la vuelta a esta carta",
+    "number": 2
+  },
+  {
+    "name": "Financiar la causa",
+    "categories": [
+      "task"
+    ],
+    "type": "unique-asset",
+    "expansion": "soc",
+    "front": "Cuando realices una acción de adquirir Apoyos, puedes gastar una cantidad de éxitos mayor que la cantidad de fichas de Arcano que haya sobre esta carta para colocar 1 ficha de Arcano sobre esta carta. A continuación, puedes darle la vuelta a esta carta",
+    "number": 3
+  },
+  {
+    "name": "Sellar a los Primigenios",
+    "categories": [
+      "task"
+    ],
+    "type": "unique-asset",
+    "expansion": "mom",
+    "front": "Cuando superes una prueba de saber al resolver el efecto de un Hechizo, puedes descartar ese Hechizo después de resolver sus efectos para colocar 1 ficha de Arcano sobre esta carta. A continuación, puedes darle la vuelta a esta carta",
+    "number": 1
+  },
+  {
+    "name": "Sellar a los Primigenios",
+    "categories": [
+      "task"
+    ],
+    "type": "unique-asset",
+    "expansion": "mom",
+    "front": "Cuando superes una prueba de saber al resolver el efecto de un Hechizo, puedes descartar ese Hechizo después de resolver sus efectos para colocar 1 ficha de Arcano sobre esta carta. A continuación, puedes darle la vuelta a esta carta",
+    "number": 2
+  },
+  {
+    "name": "Sellar a los Primigenios",
+    "categories": [
+      "task"
+    ],
+    "type": "unique-asset",
+    "expansion": "mom",
+    "front": "Cuando superes una prueba de saber al resolver el efecto de un Hechizo, puedes descartar ese Hechizo después de resolver sus efectos para colocar 1 ficha de Arcano sobre esta carta. A continuación, puedes darle la vuelta a esta carta",
+    "number": 3
+  },
+  {
+    "name": "Sellar a los Primigenios",
+    "categories": [
+      "task"
+    ],
+    "type": "unique-asset",
+    "expansion": "sr",
+    "front": "Cuando superes una prueba de saber al resolver el efecto de un Hechizo, puedes descartar ese Hechizo después de resolver sus efectos para colocar 1 ficha de Arcano sobre esta carta. A continuación, puedes darle la vuelta a esta carta",
+    "number": 4
+  },
+  {
+    "name": "Sellar a los Primigenios",
+    "categories": [
+      "task"
+    ],
+    "type": "unique-asset",
+    "expansion": "sr",
+    "front": "Cuando superes una prueba de saber al resolver el efecto de un Hechizo, puedes descartar ese Hechizo después de resolver sus efectos para colocar 1 ficha de Arcano sobre esta carta. A continuación, puedes darle la vuelta a esta carta",
+    "number": 5
+  },
+  {
+    "name": "Sellar a los Primigenios",
+    "categories": [
+      "task"
+    ],
+    "type": "unique-asset",
+    "expansion": "sr",
+    "front": "Cuando superes una prueba de saber al resolver el efecto de un Hechizo, puedes descartar ese Hechizo después de resolver sus efectos para colocar 1 ficha de Arcano sobre esta carta. A continuación, puedes darle la vuelta a esta carta",
+    "number": 6
+  },
+  {
+    "name": "Captar a las masas",
+    "categories": [
+      "task"
+    ],
+    "type": "unique-asset",
+    "expansion": "soc",
+    "front": "Cuando realices una acción de descansar, puedes intentar atraer a gente a tu causa (influencia). Si superas la prueba, coloca 1 ficha de Arcano sobre la carta; a continuación, puedes darle la vuelta a esta carta",
+    "number": 1
+  },
+  {
+    "name": "Captar a las masas",
+    "categories": [
+      "task"
+    ],
+    "type": "unique-asset",
+    "expansion": "soc",
+    "front": "Cuando realices una acción de descansar, puedes intentar atraer a gente a tu causa (influencia). Si superas la prueba, coloca 1 ficha de Arcano sobre la carta; a continuación, puedes darle la vuelta a esta carta",
+    "number": 2
+  },
+  {
+    "name": "Captar a las masas",
+    "categories": [
+      "task"
+    ],
+    "type": "unique-asset",
+    "expansion": "soc",
+    "front": "Cuando realices una acción de descansar, puedes intentar atraer a gente a tu causa (influencia). Si superas la prueba, coloca 1 ficha de Arcano sobre la carta; a continuación, puedes darle la vuelta a esta carta",
+    "number": 3
+  },
+  {
+    "name": "Plegaria",
+    "categories": [
+      "task"
+    ],
+    "type": "unique-asset",
+    "expansion": "sr",
+    "front": "Cuando realices una acción de descansar, puedes suplicar a un poder superior que te ayude (voluntad). Si superas la prueba, coloca 1 ficha de Arcano sobre esta carta; a continuación, puedes darle la vuelta a esta carta",
+    "number": 1
+  },
+  {
+    "name": "Plegaria",
+    "categories": [
+      "task"
+    ],
+    "type": "unique-asset",
+    "expansion": "sr",
+    "front": "Cuando realices una acción de descansar, puedes suplicar a un poder superior que te ayude (voluntad). Si superas la prueba, coloca 1 ficha de Arcano sobre esta carta; a continuación, puedes darle la vuelta a esta carta",
+    "number": 2
+  },
+  {
+    "name": "Plegaria",
+    "categories": [
+      "task"
+    ],
+    "type": "unique-asset",
+    "expansion": "sr",
+    "front": "Cuando realices una acción de descansar, puedes suplicar a un poder superior que te ayude (voluntad). Si superas la prueba, coloca 1 ficha de Arcano sobre esta carta; a continuación, puedes darle la vuelta a esta carta",
+    "number": 3
+  },
+  {
+    "name": "Explorar las ruinas",
+    "categories": [
+      "task"
+    ],
+    "type": "unique-asset",
+    "expansion": "sr",
+    "front": "Después de resolver un Encuentro de Expedición o un Encuentro de Ruinas místicas, puedes gastar 1 ficha de Concentración para colocar 1 ficha de Concentración sobre esta carta. A continuación, puedes darle la vuelta a esta carta",
+    "number": 1
+  },
+  {
+    "name": "Explorar las ruinas",
+    "categories": [
+      "task"
+    ],
+    "type": "unique-asset",
+    "expansion": "sr",
+    "front": "Después de resolver un Encuentro de Expedición o un Encuentro de Ruinas místicas, puedes gastar 1 ficha de Concentración para colocar 1 ficha de Concentración sobre esta carta. A continuación, puedes darle la vuelta a esta carta",
+    "number": 2
+  },
+  {
+    "name": "Explorar las ruinas",
+    "categories": [
+      "task"
+    ],
+    "type": "unique-asset",
+    "expansion": "sr",
+    "front": "Después de resolver un Encuentro de Expedición o un Encuentro de Ruinas místicas, puedes gastar 1 ficha de Concentración para colocar 1 ficha de Concentración sobre esta carta. A continuación, puedes darle la vuelta a esta carta",
+    "number": 3
+  },
+  {
+    "name": "Dominar el arte",
+    "categories": [
+      "task"
+    ],
+    "type": "unique-asset",
+    "expansion": "soc",
+    "front": "Una vez por ronda, cuando mejores iuna habilidad, coloca 1 ficha de Arcano sobre esta carta. A continuación, puedes darle la vuelta a esta carta",
+    "number": 1
+  },
+  {
+    "name": "Dominar el arte",
+    "categories": [
+      "task"
+    ],
+    "type": "unique-asset",
+    "expansion": "soc",
+    "front": "Una vez por ronda, cuando mejores iuna habilidad, coloca 1 ficha de Arcano sobre esta carta. A continuación, puedes darle la vuelta a esta carta",
+    "number": 2
+  },
+  {
+    "name": "Dominar el arte",
+    "categories": [
+      "task"
+    ],
+    "type": "unique-asset",
+    "expansion": "soc",
+    "front": "Una vez por ronda, cuando mejores iuna habilidad, coloca 1 ficha de Arcano sobre esta carta. A continuación, puedes darle la vuelta a esta carta",
+    "number": 3
+  },
+  {
+    "name": "Por el bien común",
+    "categories": [
+      "task"
+    ],
+    "type": "unique-asset",
+    "expansion": "mom",
+    "front": "Al final de la fase de Mitos, puedes gastar una cantidad de Pistas igual al número de investigadores para sacrificarte por el bien de toda la humanidad; dale la vuelta a esta carta",
+    "number": 1
+  },
+  {
+    "name": "Por el bien común",
+    "categories": [
+      "task"
+    ],
+    "type": "unique-asset",
+    "expansion": "mom",
+    "front": "Al final de la fase de Mitos, puedes gastar una cantidad de Pistas igual al número de investigadores para sacrificarte por el bien de toda la humanidad; dale la vuelta a esta carta",
+    "number": 2
+  },
+  {
+    "name": "Por el bien común",
+    "categories": [
+      "task"
+    ],
+    "type": "unique-asset",
+    "expansion": "mom",
+    "front": "Al final de la fase de Mitos, puedes gastar una cantidad de Pistas igual al número de investigadores para sacrificarte por el bien de toda la humanidad; dale la vuelta a esta carta",
+    "number": 3
+  },
+  {
+    "name": "Servicio de entrega",
+    "categories": [
+      "task"
+    ],
+    "type": "unique-asset",
+    "expansion": "mom",
+    "front": "Cuando obtengas esta carta del mazo, coloca 1 Pista aleatoria que se corresponda con una casilla de Ciudad boca arriba sobre esta carta. Después de resolver un encuentro de lugar en esa casilla, dale la vuelta a esta carta",
+    "number": 1
+  },
+  {
+    "name": "Servicio de entrega",
+    "categories": [
+      "task"
+    ],
+    "type": "unique-asset",
+    "expansion": "mom",
+    "front": "Cuando obtengas esta carta del mazo, coloca 1 Pista aleatoria que se corresponda con una casilla de Ciudad boca arriba sobre esta carta. Después de resolver un encuentro de lugar en esa casilla, dale la vuelta a esta carta",
+    "number": 2
+  },
+  {
+    "name": "Servicio de entrega",
+    "categories": [
+      "task"
+    ],
+    "type": "unique-asset",
+    "expansion": "mom",
+    "front": "Cuando obtengas esta carta del mazo, coloca 1 Pista aleatoria que se corresponda con una casilla de Ciudad boca arriba sobre esta carta. Después de resolver un encuentro de lugar en esa casilla, dale la vuelta a esta carta",
+    "number": 3
+  },
+  {
+    "name": "Servicio de entrega",
+    "categories": [
+      "task"
+    ],
+    "type": "unique-asset",
+    "expansion": "mom",
+    "front": "Cuando obtengas esta carta del mazo, coloca 1 Pista aleatoria que se corresponda con una casilla de Ciudad boca arriba sobre esta carta. Después de resolver un encuentro de lugar en esa casilla, dale la vuelta a esta carta",
+    "number": 4
+  },
+  {
+    "name": "Daga ritual",
+    "categories": [
+      "object",
+      "magical",
+      "weapon"
+    ],
+    "type": "asset",
+    "expansion": "sr",
+    "front": "Una vez por ronda, puedes obtener +1 saber al resolver un efecto de Hechizo, o +2 fuerza al resolver un Encuentro de Combate",
+    "cost": 1
+  },
+  {
+    "name": "Hoja encantada",
+    "categories": [
+      "object",
+      "magical",
+      "weapon"
+    ],
+    "type": "asset",
+    "expansion": "fl",
+    "front": "Obten +1 voluntad y +3 fuerza durante Encuentros de Combate",
+    "cost": 3
+  },
+  {
+    "name": "Informe de inteligencia",
+    "categories": [
+      "service"
+    ],
+    "type": "asset",
+    "expansion": "fl",
+    "front": "Cuando obtengas esta carta, obtén inmediatamente 2 Pistas. A continuación, descarta esta carta",
+    "cost": 3
+  },
+  {
+    "name": "Cazarrecompensas mística",
+    "categories": [
+      "ally"
+    ],
+    "type": "asset",
+    "expansion": "fl",
+    "front": "Obtén +1 fuerza durante Encuentros de Combate. Obtén +2 saber cuando resuelvas efectos de Hechizos",
+    "cost": 2
+  },
+  {
+    "name": "Guardaespaldas",
+    "categories": [
+      "ally"
+    ],
+    "type": "asset",
+    "expansion": "fl",
+    "front": "Obtén +1 fuerza. Reduce en 1 hasta un mínimo de 1 el daño de los Monstruos con los que resuelvas encuentros",
+    "cost": 2
+  },
+  {
+    "name": "Consagración",
+    "categories": [
+      "service"
+    ],
+    "type": "asset",
+    "expansion": "sr",
+    "front": "Cuando obtengas esta carta, obten inmediatamente 1 Estado Ayuda. A continuación descarta esta carta",
+    "cost": 2
+  },
+  {
+    "name": "Simbolo arcano",
+    "categories": [
+      "trinket",
+      "magical"
+    ],
+    "type": "asset",
+    "expansion": "fl",
+    "front": "Puedes volver a tirar 1 dado cuando resuelvas una prueba de voluntad durante un Encuentro de Combate. Reduce en 1 hasta un minimo de 1 el horror de los Monstruos con los que resuelvas encuentros",
+    "cost": 2
+  },
+  {
+    "name": "Asistencia policial",
+    "categories": [
+      "service"
+    ],
+    "type": "asset",
+    "expansion": "fl",
+    "front": "Cuando obtengas esta carta, descarta inmediatamente 1 Monstruo de tu elección que tenga una fortaleza de 2 o menos en cualquier casilla. A continuación, descarta esta carta",
+    "cost": 1
+  },
+  {
+    "name": "Texto de ocultismo",
+    "categories": [
+      "object",
+      "tome"
+    ],
+    "type": "asset",
+    "expansion": "soc",
+    "front": "Obtén +1 voluntad durante Encuentros de Combate. Los Monstruos con los que resuelvas encuentros pierden su capacidad Resistencia física",
+    "cost": 2
+  },
+  {
+    "name": "Apelación al Consejo",
+    "categories": [
+      "service"
+    ],
+    "type": "asset",
+    "expansion": "fl",
+    "front": "Cuando obtengas esta carta, puedes gastar inmediatamente 2 Pistas para hacer retroceder la Perdición 1 casilla. A continuación, descarta esta carta",
+    "cost": 1
+  },
+  {
+    "name": "Daga ritualEstudiante de investigación",
+    "categories": [
+      "ally"
+    ],
+    "type": "asset",
+    "expansion": "fl",
+    "front": "Acción: Tira 1 dado. Si sacas un 5 o un 6, obtén 1 Pista. Si sacas un 1, descarta la Pista más cercana del tablero de juego",
+    "cost": 1
+  },
+  {
+    "name": "Gas lacrimogeno",
+    "categories": [
+      "object",
+      "weapon"
+    ],
+    "type": "asset",
+    "expansion": "fl",
+    "front": "Puedes descartar esta carta para volver a tirar hasta 2 dados cuando resuelvas una prueba de fuerza durante un Encuentro de Combate. Además, recude el daño del Monstruo en 2 hasta un mínimo de 1",
+    "cost": 1
+  },
+  {
+    "name": "Trabuco",
+    "categories": [
+      "object",
+      "weapon"
+    ],
+    "type": "asset",
+    "expansion": "mom",
+    "front": "Al resolver un Encuentro de Combate, puedes obtener +2 fuerza. Si lo haces, cada 6 que saques al resolver una prueba de fuerza durante un Encuentro de Combate cuenta como 2 éxitos y cada 1 niega 1 éxito",
+    "cost": 2
+  },
+  {
+    "name": "Ladrón",
+    "categories": [
+      "ally"
+    ],
+    "type": "asset",
+    "expansion": "base",
+    "front": "Acción: Tira 1 dado. Si sacas un 5 o un 6, obtén 1 Apoyo Objeto o Baratija de la reserva. Si sacas un 1, descarta esta carta",
+    "cost": 1
+  },
+  {
+    "name": "Whisky",
+    "categories": [
+      "object"
+    ],
+    "type": "asset",
+    "expansion": "base",
+    "front": "Puedes descartar esta carta para evitar que un investigador que esté en tu casilla pierda un máximo de 2 puntos de Cordura",
+    "cost": 1
+  },
+  {
+    "name": "Libro de cuentas de la policia",
+    "categories": [
+      "object"
+    ],
+    "type": "asset",
+    "expansion": "fl",
+    "front": "Cuando realices una acción de descansar, puedes intentar descifrar el libro de cuentas (observación). Si superas la prueba, puedes descartar esta carta para obtener 1 Pista",
+    "cost": 1
+  },
+  {
+    "name": "Farol",
+    "categories": [
+      "object"
+    ],
+    "type": "asset",
+    "expansion": "fl",
+    "front": "Una vez por ronda, puedes tirar 1 dado adicional cuando resuelvas una prueba",
+    "cost": 1
+  },
+  {
+    "name": "Fruta fresca",
+    "categories": [
+      "object"
+    ],
+    "type": "asset",
+    "expansion": "fl",
+    "front": "Cuando realices una acción de descansar, puedes descartar esta carta para recuperar 1 punto de Salud adicional y 1 punto de Cordura adicional",
+    "cost": 1
+  },
+  {
+    "name": "Revolver del .45",
+    "categories": [
+      "object",
+      "weapon"
+    ],
+    "type": "asset",
+    "expansion": "fl",
+    "front": "Una vez por ronda, puedes obtener +3 fuerza durante un Encuentro de Combate",
+    "cost": 1
+  },
+  {
+    "name": "Cruz sagrada",
+    "categories": [
+      "object"
+    ],
+    "type": "asset",
+    "expansion": "base",
+    "front": "Obtén +2 voluntad durante Encuentros de Combate",
+    "cost": 2
+  },
+  {
+    "name": "Ritual del Crepúsculo de Plata",
+    "categories": [
+      "service"
+    ],
+    "type": "asset",
+    "expansion": "base",
+    "front": "Cuando obtengas esta carta, haz retroceder inmediatamente la Perdición 1 casilla. A continuación, descarta esta carta",
+    "cost": 3
+  },
+  {
+    "name": "Automática del .45",
+    "categories": [
+      "object",
+      "weapon"
+    ],
+    "type": "asset",
+    "expansion": "base",
+    "front": "Obtén +3 fuerza durante Encuentros de Combate",
+    "cost": 2
+  },
+  {
+    "name": "Agua bendita",
+    "categories": [
+      "object",
+      "magical"
+    ],
+    "type": "asset",
+    "expansion": "base",
+    "front": "Puedes descartar esta carta para obtener +5 voluntad y fuerza durante un Encuentro de Combate. Acción: Puedes descartar eseta carta para elegir un investigador que este en tu casilla. Ese investigador obtiene el Estado Bendecido",
+    "cost": 2
+  },
+  {
+    "name": "Patrullar las calles",
+    "categories": [
+      "task"
+    ],
+    "type": "asset",
+    "expansion": "mom",
+    "front": "Cuando derrotes un Monstruo con fortaleza 3 o más durante un Encuentro de Combate, puedes descartar esta carta para hacer retirarse la Perdición 1 casilla",
+    "cost": 1
+  },
+  {
+    "name": "Erudito arcano",
+    "categories": [
+      "ally"
+    ],
+    "type": "asset",
+    "expansion": "base",
+    "front": "Obten +1 saber. Puedes volver a tirar 1 dado cuando resuelvas una prueba de saber",
+    "cost": 2
+  },
+  {
+    "name": "Servicio de mensajería",
+    "categories": [
+      "service",
+      "teamwork"
+    ],
+    "type": "asset",
+    "expansion": "base",
+    "front": "Cuando obtengas esta carta, da inmediatamente cualquier cantidad de pertenencias Objeto a otro investigador que esté en cualquier casilla. A continuación, descarta esta carta",
+    "cost": 1
+  },
+  {
+    "name": "Escopeta de doble cañón",
+    "categories": [
+      "object",
+      "weapon"
+    ],
+    "type": "asset",
+    "expansion": "base",
+    "front": "Obtén +4 fuerza durante Encuentros de Combate. Cada 6 que saques cuando resuelvas una prueba de fuerza durante un Encuentro de Combate cuenta como 2 éxitos",
+    "cost": 4
+  },
+  {
+    "name": "Agente de secretos",
+    "categories": [
+      "ally"
+    ],
+    "type": "asset",
+    "expansion": "sr",
+    "front": "Obtén +1 saber y +1 observación. Puedes volver a tirar 1 dado al resolver una prueba de saver o observación",
+    "cost": 4
+  },
+  {
+    "name": "Investigador privado",
+    "categories": [
+      "ally"
+    ],
+    "type": "asset",
+    "expansion": "base",
+    "front": "Obtén +1 observación. Puedes vovler a tirar 1 dado cuando resuelvas una prueba de observación",
+    "cost": 2
+  },
+  {
+    "name": "Talismán horripilante",
+    "categories": [
+      "trinket"
+    ],
+    "type": "asset",
+    "expansion": "sr",
+    "front": "Puedes sumar 1 al resultado de 1 dado al resolver una prueba de voluntad durante un Encuentro de Combate",
+    "cost": 1
+  },
+  {
+    "name": "Hoja arcana",
+    "categories": [
+      "object",
+      "magical",
+      "weapon"
+    ],
+    "type": "asset",
+    "expansion": "sr",
+    "front": "Obtén +2 fuerza al resolver Encuentros de Combate. Obtén +2 saber al resolver efectos de Hechizos",
+    "cost": 3
+  },
+  {
+    "name": "Queroseno",
+    "categories": [
+      "object"
+    ],
+    "type": "asset",
+    "expansion": "base",
+    "front": "Puedes descartar esta carta para obtener +5 fuerza durante un Encuentro de Combate",
+    "cost": 1
+  },
+  {
+    "name": "Hacha",
+    "categories": [
+      "object",
+      "weapon"
+    ],
+    "type": "asset",
+    "expansion": "base",
+    "front": "Obtén +2 fuerza durante Encuentros de Combate. Puedes gastar 2 puntos de Cordura para volver a tirar cualquier cantidad de dados cuando resuelvas una prueba de fuerza durante un Encuentro de Combate",
+    "cost": 2
+  },
+  {
+    "name": "Guia de astronomia",
+    "categories": [
+      "object",
+      "tome"
+    ],
+    "type": "asset",
+    "expansion": "mom",
+    "front": "Cuando cierres un Portal durante un Encuentro de Otros Mundos, recupera 1 putno de Cordura y obtén 1 Pista",
+    "cost": 2
+  },
+  {
+    "name": "Guia de expedición",
+    "categories": [
+      "ally"
+    ],
+    "type": "asset",
+    "expansion": "sr",
+    "front": "Cuando gastes una ficha de Concrentración para volver a tirar un dado al resolver una prueba de observacion o fuerza, en lugar de eso puedes volver a tirar hasta 2 dados",
+    "cost": 2
+  },
+  {
+    "name": "Dinamita",
+    "categories": [
+      "object",
+      "weapon"
+    ],
+    "type": "asset",
+    "expansion": "base",
+    "front": "Acción: Puedes descartar esta carta para que cada Monstruo que esté en tu casilla pierda 3 puntos de Salud",
+    "cost": 3
+  },
+  {
+    "name": "Derringer del .18",
+    "categories": [
+      "trinket"
+    ],
+    "type": "asset",
+    "expansion": "base",
+    "front": "Puedes sumar 1 al resultado de 1 dado cuando resuelvas una prueba de fuerza furante Encuentros de Combate",
+    "cost": 1
+  },
+  {
+    "name": "Informe periodistico",
+    "categories": [
+      "task"
+    ],
+    "type": "asset",
+    "expansion": "mom",
+    "front": "Después de resolver un Encuentro de Investigación, puedes gastar 1 Pista obtenida de ese encuentro y descartar esta carta para hacer retirarse la Perdicion 1 casilla",
+    "cost": 1
+  },
+  {
+    "name": "Diario médico",
+    "categories": [
+      "object",
+      "tome"
+    ],
+    "type": "asset",
+    "expansion": "sr",
+    "front": "Puedes volver a tirar 1 dado al resolver una prueba de fuerza como parte de un efecto de Estado Enfermedad o Herida. Cuando realices una acción de descansar, recupera 1 punto de Salud adicional",
+    "cost": 2
+  },
+  {
+    "name": "Mapa de expedición",
+    "categories": [
+      "trinket",
+      "tome"
+    ],
+    "type": "asset",
+    "expansion": "sr",
+    "front": "Una ver por ronda, puedes sumar 1 al resultado de 1 dado al resolver una prueba durante un Encuentro de Expedición o un Encuentro de Ruinas místicas",
+    "cost": 1
+  },
+  {
+    "name": "Santuario",
+    "categories": [
+      "service"
+    ],
+    "type": "asset",
+    "expansion": "base",
+    "front": "Cuando obtengas esta carta, puedes descartar inmediatamente 1 Estado. A continuación, descarta esta carta",
+    "cost": 2
+  },
+  {
+    "name": "Lanza sagrada",
+    "categories": [
+      "object",
+      "magical",
+      "relic",
+      "weapon"
+    ],
+    "type": "asset",
+    "expansion": "sr",
+    "front": "Obten +4 fuerza durante Encuentros de Combate",
+    "cost": 3
+  },
+  {
+    "name": "Curandero",
+    "categories": [
+      "ally"
+    ],
+    "type": "asset",
+    "expansion": "base",
+    "front": "Los investigadores que estén en tu casilla pueden recuperar 1 punto de Salud adicional o descartar el Estado Maldito cuando realicen una acción de descansar",
+    "cost": 3
+  },
+  {
+    "name": "Conservador de museo",
+    "categories": [
+      "ally"
+    ],
+    "type": "asset",
+    "expansion": "sr",
+    "front": "Puedes volver a tirar 1 dado al resolver una prueba durante un Encuentro de Expedición o un Encuentro de Ruinas místicas. Cuando obtengas esta carta del mazo o de la reserva, obtén 1 Apoyo único Reliquia",
+    "cost": 3
+  },
+  {
+    "name": "Tomo misterioso",
+    "categories": [
+      "object",
+      "tome"
+    ],
+    "type": "asset",
+    "expansion": "sr",
+    "front": "Cuando gastes una ficah de Concentración para volver a tirar un dado al resolver una prueba de saber o voluntad, en lugar de eso puedes volver a tirar hasta 2 dados.",
+    "cost": 2
+  },
+  {
+    "name": "Metralleta",
+    "categories": [
+      "object",
+      "weapon"
+    ],
+    "type": "asset",
+    "expansion": "soc",
+    "front": "Obtén +4 fuerza durante Encuentros de Combate",
+    "cost": 3
+  },
+  {
+    "name": "Especialista",
+    "categories": [
+      "ally"
+    ],
+    "type": "asset",
+    "expansion": "soc",
+    "front": "Una vez por ronda, puedes volver a tirar 1 dado al resolver una prueba. Cuando obtengas esta carta del mazo o de la reserva, obtén 1 Estado Talento",
+    "cost": 3
+  },
+  {
+    "name": "Médico de la Logia",
+    "categories": [
+      "ally"
+    ],
+    "type": "asset",
+    "expansion": "soc",
+    "front": "Otros investigadores que estén en tu casilla y tú podéis recuperar 1 punto de Salud adicional o descartar 1 Estado Enfermedad o Herida al realizar una acción de descansar",
+    "cost": 3
+  },
+  {
+    "name": "Autor estimado",
+    "categories": [
+      "ally"
+    ],
+    "type": "asset",
+    "expansion": "soc",
+    "front": "Puedes volver a tirar 1 dado al resolver una prueba de influencia. Cuando obtengas esta carta del mazo o de la reserva, obtén 1 Apoyo Tomo aleatorio del mazo",
+    "cost": 3
+  },
+  {
+    "name": "Tomo de los horrores",
+    "categories": [
+      "object",
+      "tome"
+    ],
+    "type": "asset",
+    "expansion": "mom",
+    "front": "Obten +2 voluntad durante Encuentros de Combate. Reduce en 1 el horror de los Monstruos con los que resuelvas encuentros, hasta un mínimo de 1",
+    "cost": 3
+  },
+  {
+    "name": "Pitillera de la suerte",
+    "categories": [
+      "trinket"
+    ],
+    "type": "asset",
+    "expansion": "base",
+    "front": "Una vez por ronda, puedes sumar 1 al resultado de 1 dado cuando resuelvas una prueba",
+    "cost": 2
+  },
+  {
+    "name": "Ropa elegante",
+    "categories": [
+      "object"
+    ],
+    "type": "asset",
+    "expansion": "base",
+    "front": "Cada 6 que saques cuando realices una accion de aquirir apoyos cuenta como 2 éxitos",
+    "cost": 2
+  },
+  {
+    "name": "Cuarentena de la Agencia",
+    "categories": [
+      "service"
+    ],
+    "type": "asset",
+    "expansion": "base",
+    "front": "Cuando obtengas esta carta, elige inmediatamente una casilla. Cada Monstruo que esté en la casilla elegida pierde 4 puntos de Salud. A continuación, descarta esta carta",
+    "cost": 4
+  },
+  {
+    "name": "Registrar los archivos",
+    "categories": [
+      "service"
+    ],
+    "type": "asset",
+    "expansion": "mom",
+    "front": "Cuando obtengas esta carta, obtén inmediatamente 1 Apoyo Tomo aleatorio del mazo. A continuación descarta esta carta",
+    "cost": 2
+  },
+  {
+    "name": "Vendajes",
+    "categories": [
+      "objeto"
+    ],
+    "type": "asset",
+    "expansion": "base",
+    "front": "Puedes descartar esta carta para evitar que un investigador que esté en tu casilla pierda un máximo de 2 puntos de Salud",
+    "cost": 1
+  },
+  {
+    "name": "Caja misteriosa",
+    "categories": [
+      "trinket"
+    ],
+    "type": "asset",
+    "expansion": "base",
+    "front": "Cuando realices una acción de descansar, puedes intentar abrir la caja misteriosa (observación -2). Si superas la prueba, puedes descartar esta carta para obtener 1 Artefacto",
+    "cost": 3
+  },
+  {
+    "name": "El tomo de los secretos",
+    "categories": [
+      "object",
+      "tome"
+    ],
+    "type": "asset",
+    "expansion": "sr",
+    "front": "Una vez por ronda, puedes gastar 1 ficha de Concentración en lugar de gastar 1 Pista. Cuando realices una acción de concentrarse, recupera 1 punto de Cordura",
+    "cost": 3
+  },
+  {
+    "name": "Entrenamiento especializado",
+    "categories": [
+      "task"
+    ],
+    "type": "asset",
+    "expansion": "sr",
+    "front": "Cuando realices una acción de concentrarse, puedes consultar con expertos para que te entrenen (voluntad). Si superas la prueba, descarta esta carta y mejora 1 habilidad de tu elección",
+    "cost": 1
+  },
+  {
+    "name": "Inspector jefe",
+    "categories": [
+      "ally"
+    ],
+    "type": "asset",
+    "expansion": "soc",
+    "front": "Obten +1 observación. Obten +2 observación durante Encuentros de Investigación",
+    "cost": 2
+  },
+  {
+    "name": "Asesinato",
+    "categories": [
+      "service"
+    ],
+    "type": "asset",
+    "expansion": "soc",
+    "front": "Cuando obtengas esta carta, elige inmediatamente un Monstruo que esté en cualquier casilla. El Monstruo elegido pierde 2 puntos de Salud. A continuación, descarta esta carta",
+    "cost": 2
+  },
+  {
+    "name": "Misionero del Vaticano",
+    "categories": [
+      "ally"
+    ],
+    "type": "asset",
+    "expansion": "base",
+    "front": "Obtén +1 voluntad. Puedes volver a tirar 1 dado cuando resuelvas una prueba de voluntad",
+    "cost": 2
+  },
+  {
+    "name": "Amuleto protector",
+    "categories": [
+      "object"
+    ],
+    "type": "asset",
+    "expansion": "base",
+    "front": "Obtén +1 voluntad durante Encuentros de Combate",
+    "cost": 1
+  },
+  {
+    "name": "Investigación genealogica",
+    "categories": [
+      "task"
+    ],
+    "type": "asset",
+    "expansion": "mom",
+    "front": "Cuando derrotes un Monstruo con fortaleza 2 o más durante un Encuentro de Combate, puedes examinar los restos de la criatura (observación). Si superas la prueba, obtén 2 Pistas y descarta esta carta",
+    "cost": 1
+  },
+  {
+    "name": "Investigador de la Logia",
+    "categories": [
+      "ally"
+    ],
+    "type": "asset",
+    "expansion": "base",
+    "front": "Si derrotas a un Monstruo durante un Encuentro de Combate, recupera 1 punto de Cordura y obtén 1 Pista",
+    "cost": 3
+  },
+  {
+    "name": "Cazador de monstruos",
+    "categories": [
+      "ally"
+    ],
+    "type": "asset",
+    "expansion": "mom",
+    "front": "Obtén +2 fuerza durante Encuentros de Combate. Acción: Un Monstruo de tu elección que esté en tu casilla pierde 1 punto de Salud",
+    "cost": 3
+  },
+  {
+    "name": "Trile de cartas",
+    "categories": [
+      "service"
+    ],
+    "type": "asset",
+    "expansion": "soc",
+    "front": "Cuando obtengas esta carta, tira 1 dado inmediatamente. Si sacas un 5 o un 6, obtén 1 Apoyo de tu elección de la reserva o 1 Apoyo aleatorio del mazo que tenga un valor de 3 o más. A continuación, descarta esta carta",
+    "cost": 1
+  },
+  {
+    "name": "Fabrica de rumores",
+    "categories": [
+      "service"
+    ],
+    "type": "asset",
+    "expansion": "soc",
+    "front": "Cuando obtengas esta carta obtén 1 Pista inmediatamente. A continuación, descarta esta carta",
+    "cost": 1
+  },
+  {
+    "name": "Informe por radio",
+    "categories": [
+      "service",
+      "teamwork"
+    ],
+    "type": "asset",
+    "expansion": "base",
+    "front": "Cuando obtengas esta carta, da inmediatamente cualquier cantidad de Pistas a otro investigador que esté en cualquier casilla. A continuación, descarta esta carta",
+    "cost": 1
+  },
+  {
+    "name": "Joyas de lujo",
+    "categories": [
+      "trinket"
+    ],
+    "type": "asset",
+    "expansion": "soc",
+    "front": "Puedes sumar 1 al resultado de 1 dado al realizar una prueba de influencia durante una acción de adquirir Apoyos",
+    "cost": 1
+  },
+  {
+    "name": "Vuelo charter",
+    "categories": [
+      "service"
+    ],
+    "type": "asset",
+    "expansion": "base",
+    "front": "Cuando obtengas esta carta, muévete inmediatamente un máximo de 2 casillas. A continuación, descarta esta carta",
+    "cost": 1
+  },
+  {
+    "name": "Tomo arcano",
+    "categories": [
+      "object",
+      "tome"
+    ],
+    "type": "asset",
+    "expansion": "base",
+    "front": "Obten +2 saber cuando resuelvas efectos de Hechizo. Cuando realices una acción de descansar, puedes realizar una prueba de saber. Si la superas, obtén 1 Hechizo",
+    "cost": 3
+  },
+  {
+    "name": "Automatica del .25",
+    "categories": [
+      "object",
+      "weapon"
+    ],
+    "type": "asset",
+    "expansion": "soc",
+    "front": "Tira 1 dado adicional al resolver una prueba de fuerza durante un Encuentro de Combate",
+    "cost": 1
+  },
+  {
+    "name": "Discipulo de la Logia",
+    "categories": [
+      "ally"
+    ],
+    "type": "asset",
+    "expansion": "soc",
+    "front": "Obtén +1 saber y +1 influencia. Puedes volver a tirar 1 dado al resolver una prueba de saber o de influencia",
+    "cost": 4
+  },
+  {
+    "name": "Lanzallamas",
+    "categories": [
+      "object",
+      "weapon"
+    ],
+    "type": "asset",
+    "expansion": "soc",
+    "front": "Obtén +5 fuerza durante Encuentros de Combate. Reduce el daño de los Monstruos con los que resuelvas Encuentros en 1, hasta un mínimo de 1",
+    "cost": 4
+  },
+  {
+    "name": "Ayudante arcana",
+    "categories": [
+      "ally"
+    ],
+    "type": "asset",
+    "expansion": "soc",
+    "front": "Tira 1 dado adicional al resolver una prueba de saber como parte del efecto de un Hechizo",
+    "cost": 1
+  },
+  {
+    "name": "Revolver del .38",
+    "categories": [
+      "object",
+      "weapon"
+    ],
+    "type": "asset",
+    "expansion": "base",
+    "front": "Obtén +2 fuerza durante Encuentros de Combate",
+    "cost": 1
+  },
+  {
+    "name": "Biblia del Rey Jaime",
+    "categories": [
+      "object",
+      "tome"
+    ],
+    "type": "asset",
+    "expansion": "base",
+    "front": "Puedes volver a tirar 1 dado cuando resuelvas una prueba de voluntado durante un Encuentro de Combate. Cuando realices una acción de descansar, recupera 1 punto de Cordura adicional",
+    "cost": 2
+  },
+  {
+    "name": "Seguro privado",
+    "categories": [
+      "service"
+    ],
+    "type": "asset",
+    "expansion": "base",
+    "front": "Cuando obtentas esta carta, recupera inmediatamente toda tu Salud y Cordura. A continuación, descarta esta carta",
+    "cost": 2
+  },
+  {
+    "name": "Investigación mineralogica",
+    "categories": [
+      "task"
+    ],
+    "type": "asset",
+    "expansion": "mom",
+    "front": "Después de resolver un Encuentro General o un Encuentro de Expedicion en una casilla de Naturaleza, puedes examinar el suelo de la zona (observación). Si superas la prueba, obten 2 Pistas y descarta esta carta.",
+    "cost": 1
+  },
+  {
+    "name": "Daga espiritual",
+    "categories": [
+      "object",
+      "weapon",
+      "magical"
+    ],
+    "type": "asset",
+    "expansion": "base",
+    "front": "Obtén +1 voluntad y +2 fuerza durante Encuentros de Combate",
+    "cost": 2
+  },
+  {
+    "name": "Diario de sectario",
+    "categories": [
+      "object",
+      "tome",
+      "magical"
+    ],
+    "type": "asset",
+    "expansion": "mom",
+    "front": "Obtén +2 voluntad y +2 fuerza durante Encuentros de Combate",
+    "cost": 3
+  },
+  {
+    "name": "Tomo profano",
+    "categories": [
+      "object",
+      "tome"
+    ],
+    "type": "asset",
+    "expansion": "mom",
+    "front": "Puedes volver a tirar 1 dado al resolver una prueba de voluntad durante un Encuentro de Combate",
+    "cost": 1
+  },
+  {
+    "name": "Guia urbano",
+    "categories": [
+      "ally"
+    ],
+    "type": "asset",
+    "expansion": "base",
+    "front": "Si estás en una casilla de Ciudad, los investigadores que estén en tu casilla tiran 1 dado adicional cuando resuelvan pruebas, excepto cuando resuelvan Encuentros de Otros Mundos",
+    "cost": 4
+  },
+  {
+    "name": "¡Se necesita mensajero!",
+    "categories": [
+      "service"
+    ],
+    "type": "asset",
+    "expansion": "mom",
+    "front": "Cuando obtengas esta carta, obtén inmediatamente un Apoyo único Servicio de entrega. A continuación, descarta esta carta",
+    "cost": 1
+  },
+  {
+    "name": "Informe periodisticoAgente del Sindicato",
+    "categories": [
+      "ally"
+    ],
+    "type": "asset",
+    "expansion": "fl",
+    "front": "Obtén +2 fuerza durante Encuentros de Combate. Puedes volver a tirar 1 dado cuando resuelvas una prueba de fuerza durante un Encuentro de Combate",
+    "cost": 2
+  },
+  {
+    "name": "Reloj de bolsillo",
+    "categories": [
+      "trinket"
+    ],
+    "type": "asset",
+    "expansion": "base",
+    "front": "No puedes quedar Retrasado a menos que elijas hacerlo",
+    "cost": 1
+  },
+  {
+    "name": "Menuscritos arcanos",
+    "categories": [
+      "object",
+      "tome"
+    ],
+    "type": "asset",
+    "expansion": "mom",
+    "front": "Obtén +1 saber cuando resuelvas efectos de Hechizo",
+    "cost": 1
+  },
+  {
+    "name": "Pata de conejo",
+    "categories": [
+      "trinket"
+    ],
+    "type": "asset",
+    "expansion": "base",
+    "front": "Una vez por ronda, puedes volver a tirar 1 dado cuando resuelvas una prueba",
+    "cost": 1
+  },
+  {
+    "name": "Página secreta",
+    "categories": [
+      "object",
+      "tome"
+    ],
+    "type": "asset",
+    "expansion": "mom",
+    "front": "Obtén +1 saber al resolver efectos de Hechizo. Cuando obtengas esta carta del mazo o de la reserva, obtén 1 Hechizo",
+    "cost": 2
+  },
+  {
+    "name": "Inversión",
+    "categories": [
+      "task"
+    ],
+    "type": "asset",
+    "expansion": "mom",
+    "front": "",
+    "retribution": "Tu inversión ha dado beneficios. Puedes descartar esta carta para obtener el estado Financiación",
+    "cost": 1
+  },
+  {
+    "name": "Escuadron de seguridad",
+    "categories": [
+      "ally"
+    ],
+    "type": "asset",
+    "expansion": "soc",
+    "front": "Al resolver un Encuentro de Combate, puedes resolver una prueba de influencia en lugar de la prueba de fuerza, usando el mismo modificador de la prueba",
+    "cost": 2
+  },
+  {
+    "name": "Esposas",
+    "categories": [
+      "object"
+    ],
+    "type": "asset",
+    "expansion": "sr",
+    "front": "Antes de resolver la prueba de fuerza durante un Encuentro de Combate, puedes gastar 1 ficha de Concentración para derrotar a ese Monstruo si tiene una fortaleza de 2 o menos",
+    "cost": 2
+  },
+  {
+    "name": "Carabina",
+    "categories": [
+      "object",
+      "weapon"
+    ],
+    "type": "asset",
+    "expansion": "base",
+    "front": "Una vez por ronda, puedes obtener +5 fuerza durante un encuentro de Combate",
+    "cost": 3
+  },
+  {
+    "name": "Anillo de la suerte",
+    "categories": [
+      "trinket"
+    ],
+    "type": "asset",
+    "expansion": "fl",
+    "front": "Puedes volver a tirar 1 dado cuando resuelvas una prueba",
+    "cost": 3
+  },
+  {
+    "name": "Matón a sueldo",
+    "categories": [
+      "ally"
+    ],
+    "type": "asset",
+    "expansion": "base",
+    "front": "Obtén +1 fuerza. Puedes volver a tirar 1 dado cuando resuelvas una prueba de fuerza",
+    "cost": 2
+  },
+  {
+    "name": "Bastón encantado",
+    "categories": [
+      "object",
+      "magical",
+      "weapon"
+    ],
+    "type": "asset",
+    "expansion": "soc",
+    "front": "Obten +3 fuerza durante Encuentros de Combate",
+    "cost": 2
+  },
+  {
+    "name": "Red de pesca",
+    "categories": [
+      "object"
+    ],
+    "type": "asset",
+    "expansion": "base",
+    "front": "Puedes volver a tirar 1 dado cuando resuelvas una prueba de fuerza durante un Encuentro de Combate. Reduce en 1 (hasta un mínimo de 1) el daño de los Monstruos con los que resuelvas encuentros",
+    "cost": 2
+  },
+  {
+    "name": "Opus Arcana",
+    "categories": [
+      "object",
+      "tome"
+    ],
+    "type": "asset",
+    "expansion": "sr",
+    "front": "Obtén +1 saber. Obtén +2 saber al resolver efectos de Hechizos",
+    "cost": 2
+  },
+  {
+    "name": "Mapa de lineas ley",
+    "categories": [
+      "object",
+      "tome"
+    ],
+    "type": "asset",
+    "expansion": "mom",
+    "front": "Obtén +1 saber y +1 voluntad. Una vez por ronda, peudes volver a tirar 1 dado al resolver una prueba durante un Encuentro de Otros Mundos",
+    "cost": 4
+  },
+  {
+    "name": "Festin opulento",
+    "categories": [
+      "service"
+    ],
+    "type": "asset",
+    "expansion": "sr",
+    "front": "Cuando obtengas esta carta, recupera inmeditamente 2 puntos de Salud y 2 puntos de Cordura. A continuación, descarta esta carta",
+    "cost": 1
+  },
+  {
+    "name": "Teórico de la conspiración",
+    "categories": [
+      "ally"
+    ],
+    "type": "asset",
+    "expansion": "fl",
+    "front": "Obtén +2 observación durante Encuentros de Investigación",
+    "retribution": "Tira 1 dado. Si sacas un 4, un 5 o un 6, obtén 1 Pista",
+    "cost": 3
+  },
+  {
+    "name": "Látigo",
+    "categories": [
+      "object",
+      "weapon"
+    ],
+    "type": "asset",
+    "expansion": "base",
+    "front": "Obtén +1 fuerza durante Encuentros de Combate. Puedes vovler a tirar 1 dado cuando resuelvas una prueba de fuerza durante un Encuentro de Combate",
+    "cost": 1
+  },
+  {
+    "name": "Dados de tahur",
+    "categories": [
+      "trinket"
+    ],
+    "type": "asset",
+    "expansion": "mom",
+    "front": "Tiras un mínimo de 2 dados al resolver pruebas. Una vez por ronda, puedes volver a tirar 2 dados con el mismo resultado al resolver una prueba",
+    "cost": 3
+  },
+  {
+    "name": "Asistente personal",
+    "categories": [
+      "ally"
+    ],
+    "type": "asset",
+    "expansion": "base",
+    "front": "Obtén +1 influencia. Puedes volver a tirar 1 dado cuando resuelvas una prueba de influencia",
+    "cost": 2
+  },
+  {
+    "name": "Llave de Carcosa",
+    "categories": [
+      "trinket",
+      "magical"
+    ],
+    "type": "artifact",
+    "expansion": "soc",
+    "front": "Una vez por ronda, puedes gastar 1 punto de Cordura para volver a tirar cualquier cantidad de dados al resolver una prueba"
+  },
+  {
+    "name": "El Rey Amarillo",
+    "categories": [
+      "object",
+      "tome"
+    ],
+    "type": "artifact",
+    "expansion": "soc",
+    "front": "Obten +2 a todas las habilidades si tienes el Estado Aflicción",
+    "retribution": "Obtén el estado Aflicción"
+  },
+  {
+    "name": "Cristal de los Antiguos",
+    "categories": [
+      "object"
+    ],
+    "type": "artifact",
+    "expansion": "mom",
+    "front": "Los efectos del texto de reglas de las cartas de Mitos no pueden hacer que pierdas Salud ni Cordura"
+  },
+  {
+    "name": "Artefacto alienigena",
+    "categories": [
+      "object"
+    ],
+    "type": "artifact",
+    "expansion": "mom",
+    "front": "Obtén +3 saber al resolver efectos de Hechizos. Puedes gastar 1 punto de Cordura para volver a tirar cualquier cantidad de dados al resolver una prueba de saber como parte del efecto de un Hechizo"
+  },
+  {
+    "name": "Arcillas de Eltdown",
+    "categories": [
+      "object",
+      "tome"
+    ],
+    "type": "artifact",
+    "expansion": "mom",
+    "front": "Acción: Realiza una prueba de saber. Si superas la prueba, puedes gastar 1 punto de Cordura para descartar 1 Monstruo de tu elección que tenga fortaleza 3 o menos en cualquier casilla."
+  },
+  {
+    "name": "De Vermis Mysteriis",
+    "categories": [
+      "object",
+      "tome"
+    ],
+    "type": "artifact",
+    "expansion": "base",
+    "front": "Acción: Realiza una prueba de saber. Si superas la prueba, puedes gastar 1 punto de Cordura para mejorar 1 habilidad de tu elección"
+  },
+  {
+    "name": "Culte des Goules",
+    "categories": [
+      "object",
+      "tome"
+    ],
+    "type": "artifact",
+    "expansion": "base",
+    "front": "Acción: Realiza una prueba de saber. Si superas la prueba, puedes gastar 1 punto de Cordura para obtener 2 Pistas"
+  },
+  {
+    "name": "Esttua grotesca",
+    "categories": [
+      "object"
+    ],
+    "type": "artifact",
+    "expansion": "base",
+    "front": "Cuando obtengas esta carta desde el mazo, obtén 5 Pistas. Una vez por ronda, puedes gastar 1 Pista para prevenir toda la perdida de Cordura de un único efecto"
+  },
+  {
+    "name": "Cristal de Mortlan",
+    "categories": [
+      "object",
+      "magical"
+    ],
+    "type": "artifact",
+    "expansion": "base",
+    "front": "Cada 6 que saques cuando resuelvas el efecto de un Hechizo cuenta como 2 éxitos. Puedes prevenir la pérdida de 1 punto de Cordura cuando resuelvas efectos de tus Hechizos"
+  },
+  {
+    "name": "Rube de R´lyeh",
+    "categories": [
+      "object",
+      "magical"
+    ],
+    "type": "artifact",
+    "expansion": "base",
+    "front": "Una vez por ronda, durante la fase de Acción, puedes gastar 1 punto de Cordura y realizar 1 acción adicional"
+  },
+  {
+    "name": "Cánticos de Dhol",
+    "categories": [
+      "object",
+      "tome"
+    ],
+    "type": "artifact",
+    "expansion": "mom",
+    "front": "Al resolver un Encuentro de Combate, puedes realizar una prueba de saber. Si superas la prueba, puedes gastar 1 punto de Cordura para tirar 3 dados adicionales al resolver la prueba de fuerza durante ese encuentro"
+  },
+  {
+    "name": "Corazon del invierno",
+    "categories": [
+      "object"
+    ],
+    "type": "artifact",
+    "expansion": "mom",
+    "front": "No puedes obtener el Estado Hipotermia a menos que elijas hacerlo. Obtén +2 a todas las habilidades si tienes el Estado Hipotermia"
+  },
+  {
+    "name": "La llave de plata",
+    "categories": [
+      "object",
+      "magical"
+    ],
+    "type": "artifact",
+    "expansion": "base",
+    "front": "Una vez por ronda, puedes gastar 1 Pista menos para pagar el coste de un efecto. Puedes volver a tirar 1 dado cuando resuelvas una prueba durante un Encuentro de Otros Mundos"
+  },
+  {
+    "name": "Caja portal",
+    "categories": [
+      "object",
+      "magical"
+    ],
+    "type": "artifact",
+    "expansion": "base",
+    "front": "Los investigadores que estén en tu casilla tiran 1 dado adicional cuando resuelvan pruebas durante Encuentros de Otros Mundos. Si cierras un Portal durante un Encuentro de Otros Mundos, obtén 1 Pista"
+  },
+  {
+    "name": "Manuscritos pnakóticos",
+    "categories": [
+      "object",
+      "tome"
+    ],
+    "type": "artifact",
+    "expansion": "mom",
+    "front": "Acción: Si estas en una casilla que contenga un Portal, obtén 1 Pista"
+  },
+  {
+    "name": "Cristal hiperbóreo",
+    "categories": [
+      "object",
+      "magical"
+    ],
+    "type": "artifact",
+    "expansion": "mom",
+    "front": "Puedes descartar 1 Hechizo para volver a tirar cualquier cantidad de dados al resolver una prueba, excepto al resolver el efecto de un Hechizo",
+    "retribution": "Obtén 1 Hechizo"
+  },
+  {
+    "name": "Mascara del Vigia",
+    "categories": [
+      "object",
+      "magical"
+    ],
+    "type": "artifact",
+    "expansion": "sr",
+    "front": "Reduce en 1 el horror de los Monstruos con los que resuelvas encuentros. Cuando superes una prueba de voluntad durante un Encuentro de Combate, obtén 1 ficha de Concentración"
+  },
+  {
+    "name": "Livre d'Ivon",
+    "categories": [
+      "object",
+      "tome"
+    ],
+    "type": "artifact",
+    "expansion": "mom",
+    "front": "Acción: Realiza una prueba de saber -1. Si superas la prueba, puedes gastar 1 punto de Cordura para moverte a cualquier casilla de tu elección"
+  },
+  {
+    "name": "El Manto Andrajoso",
+    "categories": [
+      "object",
+      "magical"
+    ],
+    "type": "artifact",
+    "expansion": "soc",
+    "front": "Puedes gastar 1 punto menos de Cordura para cubrir el coste de un efecto. Si un efecto fuese a hacer que perdieras Cordura, en lugar de eso pierde 1 punto menos de Cordura"
+  },
+  {
+    "name": "Recipiento para cerebros de los Mi-Go",
+    "categories": [
+      "object",
+      "magical",
+      "teamwork"
+    ],
+    "type": "artifact",
+    "expansion": "base",
+    "front": "Acción: Tú y otro investigador podéis intercambiar pertenencias. Ademas, él puede moverse a tu casilla; si lo hace, muévete a su casilla anterior"
+  },
+  {
+    "name": "Arma lanzarrayos",
+    "categories": [
+      "object",
+      "weapon",
+      "magical"
+    ],
+    "type": "artifact",
+    "expansion": "base",
+    "front": "Obtén +6 fuerza cuando resuelvas Encuentros de combate. Acción: Tú y cada Monstruo que haya en tu casilla perdéis 1 punto de Salud"
+  },
+  {
+    "name": "Flauta de los Dioses Exteriores",
+    "categories": [
+      "object",
+      "magical"
+    ],
+    "type": "artifact",
+    "expansion": "base",
+    "front": "Acción: Gsta 2 puntos de Salud y 2 puntos de Cordura para derrotar a todos los Monstruos que haya en tu casilla"
+  },
+  {
+    "name": "T'tka Halot",
+    "categories": [
+      "object",
+      "tome"
+    ],
+    "type": "artifact",
+    "expansion": "base",
+    "front": "Acción: Realiza una prueba de saber. Si superas la prueba, puedes gastar 1 punto de Cordura para elegir 1 Monstruo que esté en tu casilla para que pierda 3 puntos de Salud"
+  },
+  {
+    "name": "Mascara palida",
+    "categories": [
+      "object",
+      "magical"
+    ],
+    "type": "artifact",
+    "expansion": "base",
+    "front": "Durante la fase de Encuentors, puedes elegir un encuentro como si no hubiera Monstruos en tu casilla"
+  },
+  {
+    "name": "Necronomicón",
+    "categories": [
+      "object",
+      "tome"
+    ],
+    "type": "artifact",
+    "expansion": "base",
+    "front": "Acción: Realiza una prueba de saber. Si suepras la prueba, puedes gastar 1 punto de Cordura para obtener 2 Hechizos"
+  },
+  {
+    "name": "Khopesh del Abismo",
+    "categories": [
+      "Object",
+      "magical",
+      "relic",
+      "weapon"
+    ],
+    "type": "artifact",
+    "expansion": "sr",
+    "front": "Obtén +5 fuerza durante Encuentros de Combate. Una vez por ronda, cuando derrotes a un Monstruo durante un Encuentro de Combate, puedes moverte a la casilla más cercana que contenga un Monstruo"
+  },
+  {
+    "name": "Idolo del dragón",
+    "categories": [
+      "object",
+      "magical",
+      "relic"
+    ],
+    "type": "artifact",
+    "expansion": "sr",
+    "front": "Acción: Pierde 1 punto de Cordura y 1 Monstruo en tu casilla o en una casilla adyacente pierde 2 puntos de Salud. Puedes gastar 1 punto de Cordura para volver a tirar cualquier cantidad de dados al resolver una prueba de fuerza durante un Encuentro de Combate"
+  },
+  {
+    "name": "Flautas de hueso",
+    "categories": [
+      "object",
+      "magical"
+    ],
+    "type": "artifact",
+    "expansion": "sr",
+    "front": "Acción: Realiza una prueba de saber. Si la superas, puedes gastar 1 punto de Corudra para elegir 1 Monstruo en tu casilla o en una casilla adyacente. El Monstruo elegido pierde 2 puntos de Salud o se mueve 1 casilla"
+  },
+  {
+    "name": "Mascara de Estenelo",
+    "categories": [
+      "object",
+      "magical",
+      "relic"
+    ],
+    "type": "artifact",
+    "expansion": "soc",
+    "front": "Acción: Puedes gastar 1 ficha de Mejora o de Discapacidad para mejorar 1 habilidad de tu eleccion u obtener 1 Estado Talento"
+  },
+  {
+    "name": "Tablillas de Zanthu",
+    "categories": [
+      "object",
+      "tome"
+    ],
+    "type": "artifact",
+    "expansion": "fl",
+    "front": "Obtén +3 saber cuando resuelvas efectos de Hechizos. Acción: Realiza una prueba de saber. Si la suepras, puedes gastar 1 punto de corudra para obtener 2 Hechizos y luego descartar 1 Hechizo"
+  },
+  {
+    "name": "Espada de Y'ha-Talla",
+    "categories": [
+      "object",
+      "weapon",
+      "magical"
+    ],
+    "type": "artifact",
+    "expansion": "fl",
+    "front": "Obtén +2 voluntad y +3 fuerza durante Encuentros de Combate. Si derrotas a un Monstruo durante un Encuentro de Combate, obtén 1 Pista"
+  },
+  {
+    "name": "Bolsa de vacio",
+    "categories": [
+      "object",
+      "magical"
+    ],
+    "type": "artifact",
+    "expansion": "fl",
+    "front": "No puedes obtener el Estado Perdido en el tiempo y el espacio a menos que elijas hacerlo. Acción: Mira el primer Portal del montón de Portales. obtén 1 Pista si ese Portal coincide con el Augurio actual"
+  },
+  {
+    "name": "Leche de shub-Niggurath",
+    "categories": [
+      "object",
+      "elixir"
+    ],
+    "type": "artifact",
+    "expansion": "fl",
+    "front": "Acción: Realiza una prueba de voluntad. Si superas la prueba, puedes gastar 1 punto de Cordura para recuperar toda la Salud y mejorar tu fuerza dos veces, a continuacion, ¡un Monstruo te tiende uan emboscada!"
+  },
+  {
+    "name": "Massa di Requiem per Shuggay",
+    "categories": [
+      "object",
+      "tome"
+    ],
+    "type": "artifact",
+    "expansion": "fl",
+    "front": "Acción: Realiza una prueba de saber -1. Si superas la prueba, puedes gastar 1 punto de Cordura para descartar 1 Monstruo que esté en una casilla de tu eleccion que contenga un Portal",
+    "retribution": "Tira 1 dado. Si sacas un 1, haz avanzar la Perdición 1 casilla"
+  },
+  {
+    "name": "Elixir de la vida",
+    "categories": [
+      "object",
+      "elixir"
+    ],
+    "type": "artifact",
+    "expansion": "fl",
+    "front": "Acción: Realiza una prueba de voluntad. Si la suepras, puedes gastar 1 punto de Cordura para recuperar toda la Salud y descartar todos los Estados Enfermedad, Herida y Locura"
+  },
+  {
+    "name": "Esfera maldita",
+    "categories": [
+      "object",
+      "magical"
+    ],
+    "type": "artifact",
+    "expansion": "fl",
+    "front": "Obtén +2 a todas tus habilidades",
+    "retribution": "Tira 1 dado. Si sacas un 1 o un 2, obtén el Estado Maldito"
+  },
+  {
+    "name": "Corona de la Serpiente",
+    "categories": [
+      "object",
+      "magical"
+    ],
+    "type": "artifact",
+    "expansion": "fl",
+    "front": "Acción: Realiza una prueba de voluntad -1. Si superas la preuba, puedes gastar 1 punto de Cordura para obtner 1 Apoyo Aliado aleatorio del mazo",
+    "retribution": "Descarta 1 Apoyo Aliado"
+  },
+  {
+    "name": "Espada de San Jerónimo",
+    "categories": [
+      "object",
+      "weapon",
+      "magical"
+    ],
+    "type": "artifact",
+    "expansion": "base",
+    "front": "Obtén +2 voluntad y +5 fuerza cuando resuelvas Encuentros de Combate. Si derrotas un Monstruo durante un Encuentro de Combate, recupera 1 punto de Cordura"
+  },
+  {
+    "id": 1,
+    "name": "Costa de Alaska",
+    "categories": [
+      "world"
+    ],
+    "type": "location",
+    "locationType": "city",
+    "connections": [
+      "SF",
+      4,
+      19
+    ],
     "expansion": "base"
+  },
+  {
+    "id": 2,
+    "name": "Oceano Pacifico Norte",
+    "categories": [
+      "world"
+    ],
+    "type": "location",
+    "locationType": "sea",
+    "connections": [
+      "SF",
+      "TK"
+    ],
+    "expansion": "base"
+  },
+  {
+    "id": 3,
+    "name": "Oceano Pacifico Sur",
+    "categories": [
+      "world"
+    ],
+    "type": "location",
+    "locationType": "sea",
+    "connections": [
+      "BA",
+      "SY"
+    ],
+    "expansion": "base"
+  },
+  {
+    "id": 4,
+    "name": "Zonas salvages Canadienses",
+    "categories": [
+      "world"
+    ],
+    "type": "location",
+    "locationType": "wilderness",
+    "connections": [
+      1,
+      5
+    ],
+    "expansion": "base"
+  },
+  {
+    "id": 5,
+    "name": "El corazón de America/La metropolis Americana",
+    "categories": [
+      "world"
+    ],
+    "type": "location",
+    "locationType": "city",
+    "connections": [
+      "SF",
+      "AR",
+      4
+    ],
+    "expansion": "base"
+  },
+  {
+    "id": 6,
+    "name": "El Sur Profundo",
+    "categories": [
+      "world"
+    ],
+    "type": "location",
+    "locationType": "city",
+    "connections": [
+      "SR",
+      "AR",
+      7
+    ],
+    "expansion": "base"
+  },
+  {
+    "id": 7,
+    "name": "Centro America",
+    "categories": [
+      "world"
+    ],
+    "type": "location",
+    "locationType": "city",
+    "connections": [
+      "SF",
+      "AM",
+      "BA",
+      6,
+      8
+    ],
+    "expansion": "base"
+  },
+  {
+    "id": 8,
+    "name": "Triangulo de las Bermudas",
+    "categories": [
+      "world"
+    ],
+    "type": "location",
+    "locationType": "sea",
+    "connections": [
+      "AR",
+      "BA",
+      7,
+      10
+    ],
+    "expansion": "base"
+  },
+  {
+    "id": 9,
+    "name": "Groenlandia",
+    "categories": [
+      "world"
+    ],
+    "type": "location",
+    "locationType": "wilderness",
+    "connections": [
+      "AR"
+    ],
+    "expansion": "base"
+  },
+  {
+    "id": 10,
+    "name": "Oeste de Africa",
+    "categories": [
+      "world"
+    ],
+    "type": "location",
+    "locationType": "wilderness",
+    "connections": [
+      "RM",
+      "PY",
+      8,
+      15
+    ],
+    "expansion": "base"
+  },
+  {
+    "id": 11,
+    "name": "Oceano Atlantico Sur",
+    "categories": [
+      "world"
+    ],
+    "type": "location",
+    "locationType": "sea",
+    "connections": [
+      "BA",
+      15
+    ],
+    "expansion": "base"
+  },
+  {
+    "id": 12,
+    "name": "Oceano del Sur",
+    "categories": [
+      "world"
+    ],
+    "type": "location",
+    "locationType": "sea",
+    "connections": [
+      "BA",
+      "AN"
+    ],
+    "expansion": "base"
+  },
+  {
+    "id": 13,
+    "name": "Oceano Artico",
+    "categories": [
+      "world"
+    ],
+    "type": "location",
+    "locationType": "sea",
+    "connections": [
+      "LN"
+    ],
+    "expansion": "base"
+  },
+  {
+    "id": 14,
+    "name": "Europa del Norte",
+    "categories": [
+      "world"
+    ],
+    "type": "location",
+    "locationType": "city",
+    "connections": [
+      "RM",
+      16
+    ],
+    "expansion": "base"
+  },
+  {
+    "id": 4,
+    "name": "Sur de Africa",
+    "categories": [
+      "world"
+    ],
+    "type": "location",
+    "locationType": "city",
+    "connections": [
+      "HA",
+      10,
+      11,
+      17,
+      18
+    ],
+    "expansion": "base"
+  },
+  {
+    "id": 16,
+    "name": "Rusia central",
+    "categories": [
+      "world"
+    ],
+    "type": "location",
+    "locationType": "city",
+    "connections": [
+      "IS",
+      "TG",
+      14
+    ],
+    "expansion": "base"
+  },
+  {
+    "id": 17,
+    "name": "India Urbana",
+    "categories": [
+      "world"
+    ],
+    "type": "location",
+    "locationType": "city",
+    "connections": [
+      "IS",
+      "HM",
+      "SH",
+      15,
+      20
+    ],
+    "expansion": "base"
+  },
+  {
+    "id": 18,
+    "name": "Oceano Indico",
+    "categories": [
+      "world"
+    ],
+    "type": "location",
+    "locationType": "sea",
+    "connections": [
+      "SY",
+      15
+    ],
+    "expansion": "base"
+  },
+  {
+    "id": 19,
+    "name": "Siberia del Este",
+    "categories": [
+      "world"
+    ],
+    "type": "location",
+    "locationType": "wilderness",
+    "connections": [
+      "TG",
+      "SH",
+      "TK",
+      1
+    ],
+    "expansion": "base"
+  },
+  {
+    "id": 20,
+    "name": "Sudeste Asiatico",
+    "categories": [
+      "world"
+    ],
+    "type": "location",
+    "locationType": "city",
+    "connections": [
+      "SH",
+      "TK",
+      "SY",
+      17
+    ],
+    "expansion": "base"
+  },
+  {
+    "id": 21,
+    "name": "Territorios del Norte",
+    "categories": [
+      "world"
+    ],
+    "type": "location",
+    "locationType": "wilderness",
+    "connections": [
+      "SY"
+    ],
+    "expansion": "base"
+  },
+  {
+    "id": "AM",
+    "name": "El Amazonas",
+    "categories": [
+      "world"
+    ],
+    "type": "location",
+    "locationType": "wilderness",
+    "connections": [
+      "BA", 7
+    ],
+    "expansion": "base"
+  },
+  {
+    "id": "PY",
+    "name": "Las Piramides",
+    "categories": [
+      "world"
+    ],
+    "type": "location",
+    "locationType": "wilderness",
+    "connections": [
+      "IS", "RM", "HA", 10
+    ],
+    "expansion": "base"
+  },
+  {
+    "id": "HA",
+    "name": "El Corazón de Africa",
+    "categories": [
+      "world"
+    ],
+    "type": "location",
+    "locationType": "wilderness",
+    "connections": [
+      "PY", 15
+    ],
+    "expansion": "base"
+  },
+  {
+    "id": "HM",
+    "name": "El Himalaya",
+    "categories": [
+      "world"
+    ],
+    "type": "location",
+    "locationType": "wilderness",
+    "connections": [
+      "SH", 1
+    ],
+    "expansion": "base"
+  },
+  {
+    "id": "TG",
+    "name": "Tunguska",
+    "categories": [
+      "world"
+    ],
+    "type": "location",
+    "locationType": "wilderness",
+    "connections": [
+      16, 19
+    ],
+    "expansion": "base"
+  },
+  {
+    "id": "AN",
+    "name": "Antarctica",
+    "categories": [
+      "world"
+    ],
+    "type": "location",
+    "locationType": "sea",
+    "connections": [
+      "SY", 12
+    ],
+    "expansion": "base"
+  },
+  {
+    "id": "SF",
+    "name": "San Francisco",
+    "categories": [
+      "world"
+    ],
+    "type": "location",
+    "locationType": "city",
+    "connections": [
+      1, 2, 5, 6
+    ],
+    "expansion": "base"
+  },
+  {
+    "id": "AR",
+    "name": "Arkham",
+    "categories": [
+      "world"
+    ],
+    "type": "location",
+    "locationType": "city",
+    "connections": [
+      5, 6, 8, 9, "LN"
+    ],
+    "expansion": "base"
+  },
+  {
+    "id": "BA",
+    "name": "Buenos Aires",
+    "categories": [
+      "world"
+    ],
+    "type": "location",
+    "locationType": "city",
+    "connections": [
+      3, 7, "AM", 8, 11, 12
+    ],
+    "expansion": "base"
+  },
+  {
+    "id": "LN",
+    "name": "Londres",
+    "categories": [
+      "world"
+    ],
+    "type": "location",
+    "locationType": "city",
+    "connections": [
+      13, "AR", "RM"
+    ],
+    "expansion": "base"
+  },
+  {
+    "id": "RM",
+    "name": "Roma",
+    "categories": [
+      "world"
+    ],
+    "type": "location",
+    "locationType": "city",
+    "connections": [
+      "LN", 10, "PY", "IS", 14
+    ],
+    "expansion": "base"
+  },
+  {
+    "id": "IS",
+    "name": "Estambul",
+    "categories": [
+      "world"
+    ],
+    "type": "location",
+    "locationType": "city",
+    "connections": [
+      16, 17, "RM", "PY"
+    ],
+    "expansion": "base"
+  },
+  {
+    "id": "TK",
+    "name": "Tokyo",
+    "categories": [
+      "world"
+    ],
+    "type": "location",
+    "locationType": "city",
+    "connections": [
+      19, "SH", 3, 20
+    ],
+    "expansion": "base"
+  },
+  {
+    "id": "SH",
+    "name": "Shanghai",
+    "categories": [
+      "world"
+    ],
+    "type": "location",
+    "locationType": "city",
+    "connections": [
+      20, "TK", 17, "HM"
+    ],
+    "expansion": "base"
+  },
+  {
+    "id": "SY",
+    "name": "Sidney",
+    "categories": [
+      "world"
+    ],
+    "type": "location",
+    "locationType": "city",
+    "connections": [
+      "AN", 3, 19, 21
+    ],
+    "expansion": "base"
+  },
+  {
+    "id": "MO",
+    "name": "Puesto avanzado Miskatonic",
+    "categories": [
+      "antarctica"
+    ],
+    "type": "location",
+    "locationType": 1,
+    "connections": [
+      "AN", "LC", "SM"
+    ],
+    "expansion": "mom"
+  },
+  {
+    "id": "LC",
+    "name": "Lake Camp",
+    "categories": [
+      "antarctica"
+    ],
+    "type": "location",
+    "locationType": 1,
+    "connections": [
+      "MO", "FW"
+    ],
+    "expansion": "mom"
+  },
+  {
+    "id": "FW",
+    "name": "Frozen Waste",
+    "categories": [
+      "antarctica"
+    ],
+    "type": "location",
+    "locationType": 1,
+    "connections": [
+      "LC", "CET"
+    ],
+    "expansion": "mom"
+  },
+  {
+    "id": "CET",
+    "name": "City of the Elder Things",
+    "categories": [
+      "antarctica"
+    ],
+    "type": "location",
+    "locationType": 2,
+    "connections": [
+      "FW", "PL"
+    ],
+    "expansion": "mom"
+  },
+  {
+    "id": "PL",
+    "name": "Plateau of Leng",
+    "categories": [
+      "antarctica"
+    ],
+    "type": "location",
+    "locationType": 2,
+    "connections": [
+      "CET"
+    ],
+    "expansion": "mom"
+  },
+  {
+    "id": "SM",
+    "name": "Snowy Mountains",
+    "categories": [
+      "antarctica"
+    ],
+    "type": "location",
+    "locationType": 2,
+    "connections": [
+      "MO"
+    ],
+    "expansion": "mom"
+  },
+  {
+    "id": "AX",
+    "name": "Alexandria",
+    "categories": [
+      "pyramids"
+    ],
+    "type": "location",
+    "locationType": 1,
+    "connections": [
+      "PY", "SD"
+    ],
+    "expansion": "utp"
+  },
+  {
+    "id": "BP",
+    "name": "The Bent Pyramid",
+    "categories": [
+      "pyramids"
+    ],
+    "type": "location",
+    "locationType": 1,
+    "connections": [
+      "PY"
+    ],
+    "expansion": "utp"
+  },
+  {
+    "id": "CA",
+    "name": "Cairo",
+    "categories": [
+      "pyramids"
+    ],
+    "type": "location",
+    "locationType": 1,
+    "connections": [
+      "PY", 17
+    ],
+    "expansion": "utp"
+  },
+  {
+    "id": "SD",
+    "name": "The Sahara Desert",
+    "categories": [
+      "pyramids"
+    ],
+    "type": "location",
+    "locationType": 2,
+    "connections": [
+      "AX", 10
+    ],
+    "expansion": "utp"
+  },
+  {
+    "id": "TA",
+    "name": "Tel el-Amarna",
+    "categories": [
+      "pyramids"
+    ],
+    "type": "location",
+    "locationType": 2,
+    "connections": [
+      "PY", "NR"
+    ],
+    "expansion": "utp"
+  },
+  {
+    "id": "NR",
+    "name": "The Nile River",
+    "categories": [
+      "pyramids"
+    ],
+    "type": "location",
+    "locationType": 2,
+    "connections": [
+      "TA", "HA"
+    ],
+    "expansion": "utp"
+  },
+  {
+    "id": "CL",
+    "name": "Celephaïs",
+    "categories": [
+      "dreamlands"
+    ],
+    "type": "location",
+    "locationType": "city",
+    "connections": [
+      "KD", "DY"
+    ],
+    "expansion": "td"
+  },
+  {
+    "id": "DY",
+    "name": "Dylath-Leen",
+    "categories": [
+      "dreamlands"
+    ],
+    "type": "location",
+    "locationType": "city",
+    "connections": [
+      "CL", "MN", "UL"
+    ],
+    "expansion": "td"
+  },
+  {
+    "id": "EW",
+    "name": "The Enchanted Wood",
+    "categories": [
+      "dreamlands"
+    ],
+    "type": "location",
+    "locationType": "wilderness",
+    "connections": [
+      "UL"
+    ],
+    "expansion": "td"
+  },
+  {
+    "id": "MN",
+    "name": "The Moon",
+    "categories": [
+      "dreamlands"
+    ],
+    "type": "location",
+    "locationType": "wilderness",
+    "connections": [
+      "DY"
+    ],
+    "expansion": "td"
+  },
+  {
+    "id": "UW",
+    "name": "The Underworld",
+    "categories": [
+      "dreamlands"
+    ],
+    "type": "location",
+    "locationType": "wilderness",
+    "connections": [
+      "UL"
+    ],
+    "expansion": "td"
+  },
+  {
+    "id": "UL",
+    "name": "Ulthar",
+    "categories": [
+      "dreamlands"
+    ],
+    "type": "location",
+    "locationType": "city",
+    "connections": [
+      "EW", "DY", "UW"
+    ],
+    "expansion": "td"
+  },
+  {
+    "id": "KD",
+    "name": "Unknown Kadath",
+    "categories": [
+      "dreamlands"
+    ],
+    "type": "location",
+    "locationType": "wilderness",
+    "connections": [
+      "CL"
+    ],
+    "expansion": "td"
   }
 ]

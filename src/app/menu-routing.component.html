@@ -3,22 +3,22 @@
     <md-list>
       <md-list-item routerLink="/components" (click)="sidenav.toggle()">
         <i class="material-icons">search</i>
-        Main Menu
+        <span i18n>Main Menu</span>
       </md-list-item>
       <md-list-item routerLink="/configuration" (click)="sidenav.toggle()">
         <i class="material-icons">settings</i>
-        Settings
+        <span i18n>Settings</span>
       </md-list-item>
       <md-list-item routerLink="/about" (click)="sidenav.toggle()">
         <i class="material-icons">person</i>
-        About
+        <span i18n>About</span>
       </md-list-item>
     </md-list>
   </md-sidenav>
 
   <md-toolbar color="primary">
     <i class="material-icons" (click)="sidenav.toggle()">more_vert</i>
-    <span>Eldritch Horror Companion App</span>
+    <span i18n>Eldritch Horror Companion App</span>
   </md-toolbar>
   <router-outlet class="main-container"></router-outlet>
 </md-sidenav-container>

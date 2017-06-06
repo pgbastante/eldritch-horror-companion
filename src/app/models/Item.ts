@@ -7,6 +7,13 @@ import { expansionType } from './Expansion';
 export class Item {
   name: string;
   type: string;
-  categories: spellCategory[] | assetCategory[] | conditionCategory[] | locationCategory[];
+  categories: spellCategory[] | assetCategory[] | conditionCategory[] | locationCategory[] | commonCategoy[];
   expansion: expansionType;
 }
+
+export type commonCategoy =
+  'common'
+  | 'teamwork'
+  | 'character'
+  | 'object'
+  | 'elixir';

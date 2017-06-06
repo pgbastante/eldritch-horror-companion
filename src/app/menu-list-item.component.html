@@ -1,13 +1,14 @@
 <md-list-item>
   <h3 md-line (click)="toggleDisplay()">
-    {{item.type}}
+    <span>{{item.type}}</span>
     <i md-list-avatar class="material-icons" *ngIf="!displayCategories">arrow_drop_down</i>
     <i md-list-avatar class="material-icons" *ngIf="displayCategories">arrow_drop_up</i>
   </h3>
   <p md-line *ngFor="let category of item.categories">
-    <md-checkbox *ngIf="displayCategories" [(ngModel)]="categories[category]">{{category}}</md-checkbox>
+    <md-checkbox *ngIf="displayCategories" [(ngModel)]="categories[category]">{{category}}
+    </md-checkbox>
   </p>
   <p md-line>
-    <button (click)="navigateToRandomGenerator()" md-button *ngIf="displayCategories">Find</button>
+    <button (click)="navigateToRandomGenerator()" md-button *ngIf="displayCategories" i18n>Find</button>
   </p>
 </md-list-item>

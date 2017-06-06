@@ -164,6 +164,13 @@ class Loaders {
     }
   }
 
+  static xlf(){
+    return {
+      test: /\.xlf$/,
+      use: 'raw-loader'
+    }
+  }
+
   /**
    * Get all the common loaders for all environments
    * @returns []
@@ -177,8 +184,8 @@ class Loaders {
       this.html(),
       this.json(),
       this.fonts(),
-      this.image()
-
+      this.image(),
+      this.xlf()
     ]
   }
 

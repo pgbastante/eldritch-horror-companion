@@ -1,26 +1,26 @@
 [
   {
     "name": "Forsaken Lore",
-    "key": "forsaken-lore"
+    "key": "fl"
   },
   {
     "name": "Mountains of Madness",
-    "key": "mountains-of-madness"
+    "key": "mom"
   },
   {
     "name": "Strange Remnants",
-    "key": "strange-remnants"
+    "key": "sr"
   },
   {
     "name": "Under the Pyramids",
-    "key": "under-the-pyramids"
+    "key": "utp"
   },
   {
     "name": "Signs of Carcosa",
-    "key": "signs-of-carcosa"
+    "key": "soc"
   },
   {
     "name": "The Dreamlands",
-    "key": "the-dreamlands"
+    "key": "td"
   }
 ]

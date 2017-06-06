@@ -4,24 +4,24 @@
   </md-card-header>
   <md-card-content>
     <p md-line>
-      Name: {{generatedItem.name}}
+      <span i18n>Name</span>: {{generatedItem.name}}
     </p>
     <p md-line>
-      Categories: {{generatedItem.categories}}
+      <span i18n>Categories</span>: {{generatedItem.categories}}
     </p>
     <p md-line>
-      Expansion: {{generatedItem.expansion}}
+      <span i18n>Expansion</span>: {{generatedItem.expansion}}
     </p>
   </md-card-content>
   <md-card-actions>
-    <button (click)="generateRandomCard()" md-button>DRAW AGAIN</button>
-    <button (click)="back()" md-button>BACK</button>
+    <button (click)="generateRandomCard()" md-button i18n>DRAW AGAIN</button>
+    <button (click)="back()" md-button i18n>BACK</button>
   </md-card-actions>
 </md-card>
 <ng-container *ngIf="!generatedItem">
   <p md-line>
-    No Items found with the selected categories
+    <span i18n>No Items found with the selected categories</span>
   </p>
-  <button (click)="back()" md-button>BACK</button>
+  <button (click)="back()" md-button i18n>BACK</button>
 </ng-container>
 

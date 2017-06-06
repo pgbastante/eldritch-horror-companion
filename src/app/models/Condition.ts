@@ -1,7 +1,7 @@
 import { Item } from './Item';
 
 export class Condition extends Item {
-  type = 'Condition';
+  type = 'condition';
   categories: conditionCategory[] = [
     'bane',
     'boon',
@@ -11,7 +11,8 @@ export class Condition extends Item {
     'madness',
     'pursuit',
     'restriction',
-    'talent'
+    'talent',
+    'injury'
   ];
 }
 
@@ -24,4 +25,5 @@ export type conditionCategory =
   | 'madness'
   | 'pursuit'
   | 'restriction'
-  | 'talent';
+  | 'talent'
+  | 'injury';

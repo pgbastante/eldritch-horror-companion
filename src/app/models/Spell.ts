@@ -1,7 +1,7 @@
 import { Item } from './Item';
 
 export class Spell extends Item {
-  type = 'Spell';
+  type = 'spell';
   categories: spellCategory[] = ['incantation', 'glamour', 'ritual'];
 }
 

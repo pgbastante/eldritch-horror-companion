@@ -19,7 +19,9 @@ Hope this helps, any ideas and help are welcome.
 * Spanish translation
 * Language selector
 * Show the correct text for each of the categories, expansions...
-* Add all items to the database (spanish and english)
+* Add all items to the database (english)
 * Make the location randomizer or tune the existing one to work with locations
 * Main menu smooth transitions
 * General styling
+* Refactor gulpfile to ecmascript 6
+* Add a gulp task to set the target value of the english translation as the source

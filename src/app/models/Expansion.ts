@@ -6,18 +6,18 @@ export class Expansion {
 
 export type expansionType =
   'base'
-  | 'forsaken-lore'
-  | 'mountains-of-madness'
-  | 'strange-remnants'
-  | 'under-the-piramids'
-  | 'signs-of-carcosa'
-  | 'the-dreamlands';
+  | 'fl'
+  | 'mom'
+  | 'sr'
+  | 'utp'
+  | 'soc'
+  | 'td';
 
 export let expansionTypes = [
-  'forsaken-lore'
-  , 'mountains-of-madness'
-  , 'strange-remnants'
-  , 'under-the-piramids'
-  , 'signs-of-carcosa'
-  , 'the-dreamlands'
+  'fl'
+  , 'mom'
+  , 'sr'
+  , 'utp'
+  , 'soc'
+  , 'td'
 ];

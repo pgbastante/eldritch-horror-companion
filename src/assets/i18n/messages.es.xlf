@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<xliff 
+  xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="cff1428d10d59d14e45edec3c735a27b5482db59" datatype="html">
+        <source>Name</source>
+        <target>Nombre</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/random-item-generator.component.ts</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="04201f9d27abd7d6f58a4328ab98063ce1072006" datatype="html">
+        <source>Categories</source>
+        <target>Categorias</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/random-item-generator.component.ts</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="eec6d20b24dc91cd933722348bd6a7c88f902a93" datatype="html">
+        <source>Expansion</source>
+        <target>Expansion</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/random-item-generator.component.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="42bfc073f728ef312ac527cc1fc634acb60fd48b" datatype="html">
+        <source>DRAW AGAIN</source>
+        <target>DRAW AGAIN</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/random-item-generator.component.ts</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="b0ff926f8a9440093ff25f43f53692c4b90d0d26" datatype="html">
+        <source>BACK</source>
+        <target>BACK</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/random-item-generator.component.ts</context>
+          <context context-type="linenumber">18</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/random-item-generator.component.ts</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="790325faad611fbf247669bc5e76ff63f6a2e45d" datatype="html">
+        <source>No Items found with the selected categories</source>
+        <target>No Items found with the selected categories</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/random-item-generator.component.ts</context>
+          <context context-type="linenumber">23</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ef23c80eff6cdcec7c7e905ed1dab0da51bb5e56" datatype="html">
+        <source>Find</source>
+        <target>Find</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/menu-list-item.component.ts</context>
+          <context context-type="linenumber">18</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9c27666f25b547427db4969640222357559f98c6" datatype="html">
+        <source>Main Menu</source>
+        <target>Menu Principal</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/menu-routing.component.ts</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="121cc5391cd2a5115bc2b3160379ee5b36cd7716" datatype="html">
+        <source>Settings</source>
+        <target>Configuracion</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/menu-routing.component.ts</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="004b222ff9ef9dd4771b777950ca1d0e4cd4348a" datatype="html">
+        <source>About</source>
+        <target>Acerca de</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/menu-routing.component.ts</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2a2bd10d78ef3d08b91127ec2d597f30af06a41a" datatype="html">
+        <source>Eldritch Horror Companion App</source>
+        <target>Eldritch Horror Companion App</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/menu-routing.component.ts</context>
+          <context context-type="linenumber">21</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
