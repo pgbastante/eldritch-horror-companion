@@ -1,0 +1,809 @@
+[
+  {
+    "id": 1,
+    "name": "Costa de Alaska",
+    "categories": [
+      "world"
+    ],
+    "type": "location",
+    "locationType": "city",
+    "connections": [
+      "SF",
+      4,
+      19
+    ],
+    "expansion": "base"
+  },
+  {
+    "id": 2,
+    "name": "Oceano Pacifico Norte",
+    "categories": [
+      "world"
+    ],
+    "type": "location",
+    "locationType": "sea",
+    "connections": [
+      "SF",
+      "TK"
+    ],
+    "expansion": "base"
+  },
+  {
+    "id": 3,
+    "name": "Oceano Pacifico Sur",
+    "categories": [
+      "world"
+    ],
+    "type": "location",
+    "locationType": "sea",
+    "connections": [
+      "BA",
+      "SY"
+    ],
+    "expansion": "base"
+  },
+  {
+    "id": 4,
+    "name": "Zonas salvages Canadienses",
+    "categories": [
+      "world"
+    ],
+    "type": "location",
+    "locationType": "wilderness",
+    "connections": [
+      1,
+      5
+    ],
+    "expansion": "base"
+  },
+  {
+    "id": 5,
+    "name": "El corazón de America/La metropolis Americana",
+    "categories": [
+      "world"
+    ],
+    "type": "location",
+    "locationType": "city",
+    "connections": [
+      "SF",
+      "AR",
+      4
+    ],
+    "expansion": "base"
+  },
+  {
+    "id": 6,
+    "name": "El Sur Profundo",
+    "categories": [
+      "world"
+    ],
+    "type": "location",
+    "locationType": "city",
+    "connections": [
+      "SR",
+      "AR",
+      7
+    ],
+    "expansion": "base"
+  },
+  {
+    "id": 7,
+    "name": "Centro America",
+    "categories": [
+      "world"
+    ],
+    "type": "location",
+    "locationType": "city",
+    "connections": [
+      "SF",
+      "AM",
+      "BA",
+      6,
+      8
+    ],
+    "expansion": "base"
+  },
+  {
+    "id": 8,
+    "name": "Triangulo de las Bermudas",
+    "categories": [
+      "world"
+    ],
+    "type": "location",
+    "locationType": "sea",
+    "connections": [
+      "AR",
+      "BA",
+      7,
+      10
+    ],
+    "expansion": "base"
+  },
+  {
+    "id": 9,
+    "name": "Groenlandia",
+    "categories": [
+      "world"
+    ],
+    "type": "location",
+    "locationType": "wilderness",
+    "connections": [
+      "AR"
+    ],
+    "expansion": "base"
+  },
+  {
+    "id": 10,
+    "name": "Oeste de Africa",
+    "categories": [
+      "world"
+    ],
+    "type": "location",
+    "locationType": "wilderness",
+    "connections": [
+      "RM",
+      "PY",
+      8,
+      15
+    ],
+    "expansion": "base"
+  },
+  {
+    "id": 11,
+    "name": "Oceano Atlantico Sur",
+    "categories": [
+      "world"
+    ],
+    "type": "location",
+    "locationType": "sea",
+    "connections": [
+      "BA",
+      15
+    ],
+    "expansion": "base"
+  },
+  {
+    "id": 12,
+    "name": "Oceano del Sur",
+    "categories": [
+      "world"
+    ],
+    "type": "location",
+    "locationType": "sea",
+    "connections": [
+      "BA",
+      "AN"
+    ],
+    "expansion": "base"
+  },
+  {
+    "id": 13,
+    "name": "Oceano Artico",
+    "categories": [
+      "world"
+    ],
+    "type": "location",
+    "locationType": "sea",
+    "connections": [
+      "LN"
+    ],
+    "expansion": "base"
+  },
+  {
+    "id": 14,
+    "name": "Europa del Norte",
+    "categories": [
+      "world"
+    ],
+    "type": "location",
+    "locationType": "city",
+    "connections": [
+      "RM",
+      16
+    ],
+    "expansion": "base"
+  },
+  {
+    "id": 4,
+    "name": "Sur de Africa",
+    "categories": [
+      "world"
+    ],
+    "type": "location",
+    "locationType": "city",
+    "connections": [
+      "HA",
+      10,
+      11,
+      17,
+      18
+    ],
+    "expansion": "base"
+  },
+  {
+    "id": 16,
+    "name": "Rusia central",
+    "categories": [
+      "world"
+    ],
+    "type": "location",
+    "locationType": "city",
+    "connections": [
+      "IS",
+      "TG",
+      14
+    ],
+    "expansion": "base"
+  },
+  {
+    "id": 17,
+    "name": "India Urbana",
+    "categories": [
+      "world"
+    ],
+    "type": "location",
+    "locationType": "city",
+    "connections": [
+      "IS",
+      "HM",
+      "SH",
+      15,
+      20
+    ],
+    "expansion": "base"
+  },
+  {
+    "id": 18,
+    "name": "Oceano Indico",
+    "categories": [
+      "world"
+    ],
+    "type": "location",
+    "locationType": "sea",
+    "connections": [
+      "SY",
+      15
+    ],
+    "expansion": "base"
+  },
+  {
+    "id": 19,
+    "name": "Siberia del Este",
+    "categories": [
+      "world"
+    ],
+    "type": "location",
+    "locationType": "wilderness",
+    "connections": [
+      "TG",
+      "SH",
+      "TK",
+      1
+    ],
+    "expansion": "base"
+  },
+  {
+    "id": 20,
+    "name": "Sudeste Asiatico",
+    "categories": [
+      "world"
+    ],
+    "type": "location",
+    "locationType": "city",
+    "connections": [
+      "SH",
+      "TK",
+      "SY",
+      17
+    ],
+    "expansion": "base"
+  },
+  {
+    "id": 21,
+    "name": "Territorios del Norte",
+    "categories": [
+      "world"
+    ],
+    "type": "location",
+    "locationType": "wilderness",
+    "connections": [
+      "SY"
+    ],
+    "expansion": "base"
+  },
+  {
+    "id": "AM",
+    "name": "El Amazonas",
+    "categories": [
+      "world"
+    ],
+    "type": "location",
+    "locationType": "wilderness",
+    "connections": [
+      "BA",
+      7
+    ],
+    "expansion": "base"
+  },
+  {
+    "id": "PY",
+    "name": "Las Piramides",
+    "categories": [
+      "world"
+    ],
+    "type": "location",
+    "locationType": "wilderness",
+    "connections": [
+      "IS",
+      "RM",
+      "HA",
+      10
+    ],
+    "expansion": "base"
+  },
+  {
+    "id": "HA",
+    "name": "El Corazón de Africa",
+    "categories": [
+      "world"
+    ],
+    "type": "location",
+    "locationType": "wilderness",
+    "connections": [
+      "PY",
+      15
+    ],
+    "expansion": "base"
+  },
+  {
+    "id": "HM",
+    "name": "El Himalaya",
+    "categories": [
+      "world"
+    ],
+    "type": "location",
+    "locationType": "wilderness",
+    "connections": [
+      "SH",
+      1
+    ],
+    "expansion": "base"
+  },
+  {
+    "id": "TG",
+    "name": "Tunguska",
+    "categories": [
+      "world"
+    ],
+    "type": "location",
+    "locationType": "wilderness",
+    "connections": [
+      16,
+      19
+    ],
+    "expansion": "base"
+  },
+  {
+    "id": "AN",
+    "name": "Antarctica",
+    "categories": [
+      "world"
+    ],
+    "type": "location",
+    "locationType": "sea",
+    "connections": [
+      "SY",
+      12
+    ],
+    "expansion": "base"
+  },
+  {
+    "id": "SF",
+    "name": "San Francisco",
+    "categories": [
+      "world"
+    ],
+    "type": "location",
+    "locationType": "city",
+    "connections": [
+      1,
+      2,
+      5,
+      6
+    ],
+    "expansion": "base"
+  },
+  {
+    "id": "AR",
+    "name": "Arkham",
+    "categories": [
+      "world"
+    ],
+    "type": "location",
+    "locationType": "city",
+    "connections": [
+      5,
+      6,
+      8,
+      9,
+      "LN"
+    ],
+    "expansion": "base"
+  },
+  {
+    "id": "BA",
+    "name": "Buenos Aires",
+    "categories": [
+      "world"
+    ],
+    "type": "location",
+    "locationType": "city",
+    "connections": [
+      3,
+      7,
+      "AM",
+      8,
+      11,
+      12
+    ],
+    "expansion": "base"
+  },
+  {
+    "id": "LN",
+    "name": "Londres",
+    "categories": [
+      "world"
+    ],
+    "type": "location",
+    "locationType": "city",
+    "connections": [
+      13,
+      "AR",
+      "RM"
+    ],
+    "expansion": "base"
+  },
+  {
+    "id": "RM",
+    "name": "Roma",
+    "categories": [
+      "world"
+    ],
+    "type": "location",
+    "locationType": "city",
+    "connections": [
+      "LN",
+      10,
+      "PY",
+      "IS",
+      14
+    ],
+    "expansion": "base"
+  },
+  {
+    "id": "IS",
+    "name": "Estambul",
+    "categories": [
+      "world"
+    ],
+    "type": "location",
+    "locationType": "city",
+    "connections": [
+      16,
+      17,
+      "RM",
+      "PY"
+    ],
+    "expansion": "base"
+  },
+  {
+    "id": "TK",
+    "name": "Tokyo",
+    "categories": [
+      "world"
+    ],
+    "type": "location",
+    "locationType": "city",
+    "connections": [
+      19,
+      "SH",
+      3,
+      20
+    ],
+    "expansion": "base"
+  },
+  {
+    "id": "SH",
+    "name": "Shanghai",
+    "categories": [
+      "world"
+    ],
+    "type": "location",
+    "locationType": "city",
+    "connections": [
+      20,
+      "TK",
+      17,
+      "HM"
+    ],
+    "expansion": "base"
+  },
+  {
+    "id": "SY",
+    "name": "Sidney",
+    "categories": [
+      "world"
+    ],
+    "type": "location",
+    "locationType": "city",
+    "connections": [
+      "AN",
+      3,
+      19,
+      21
+    ],
+    "expansion": "base"
+  },
+  {
+    "id": "MO",
+    "name": "Puesto avanzado Miskatonic",
+    "categories": [
+      "antarctica"
+    ],
+    "type": "location",
+    "locationType": 1,
+    "connections": [
+      "AN",
+      "LC",
+      "SM"
+    ],
+    "expansion": "mom"
+  },
+  {
+    "id": "LC",
+    "name": "Lake Camp",
+    "categories": [
+      "antarctica"
+    ],
+    "type": "location",
+    "locationType": 1,
+    "connections": [
+      "MO",
+      "FW"
+    ],
+    "expansion": "mom"
+  },
+  {
+    "id": "FW",
+    "name": "Frozen Waste",
+    "categories": [
+      "antarctica"
+    ],
+    "type": "location",
+    "locationType": 1,
+    "connections": [
+      "LC",
+      "CET"
+    ],
+    "expansion": "mom"
+  },
+  {
+    "id": "CET",
+    "name": "City of the Elder Things",
+    "categories": [
+      "antarctica"
+    ],
+    "type": "location",
+    "locationType": 2,
+    "connections": [
+      "FW",
+      "PL"
+    ],
+    "expansion": "mom"
+  },
+  {
+    "id": "PL",
+    "name": "Plateau of Leng",
+    "categories": [
+      "antarctica"
+    ],
+    "type": "location",
+    "locationType": 2,
+    "connections": [
+      "CET"
+    ],
+    "expansion": "mom"
+  },
+  {
+    "id": "SM",
+    "name": "Snowy Mountains",
+    "categories": [
+      "antarctica"
+    ],
+    "type": "location",
+    "locationType": 2,
+    "connections": [
+      "MO"
+    ],
+    "expansion": "mom"
+  },
+  {
+    "id": "AX",
+    "name": "Alexandria",
+    "categories": [
+      "pyramids"
+    ],
+    "type": "location",
+    "locationType": 1,
+    "connections": [
+      "PY",
+      "SD"
+    ],
+    "expansion": "utp"
+  },
+  {
+    "id": "BP",
+    "name": "The Bent Pyramid",
+    "categories": [
+      "pyramids"
+    ],
+    "type": "location",
+    "locationType": 1,
+    "connections": [
+      "PY"
+    ],
+    "expansion": "utp"
+  },
+  {
+    "id": "CA",
+    "name": "Cairo",
+    "categories": [
+      "pyramids"
+    ],
+    "type": "location",
+    "locationType": 1,
+    "connections": [
+      "PY",
+      17
+    ],
+    "expansion": "utp"
+  },
+  {
+    "id": "SD",
+    "name": "The Sahara Desert",
+    "categories": [
+      "pyramids"
+    ],
+    "type": "location",
+    "locationType": 2,
+    "connections": [
+      "AX",
+      10
+    ],
+    "expansion": "utp"
+  },
+  {
+    "id": "TA",
+    "name": "Tel el-Amarna",
+    "categories": [
+      "pyramids"
+    ],
+    "type": "location",
+    "locationType": 2,
+    "connections": [
+      "PY",
+      "NR"
+    ],
+    "expansion": "utp"
+  },
+  {
+    "id": "NR",
+    "name": "The Nile River",
+    "categories": [
+      "pyramids"
+    ],
+    "type": "location",
+    "locationType": 2,
+    "connections": [
+      "TA",
+      "HA"
+    ],
+    "expansion": "utp"
+  },
+  {
+    "id": "CL",
+    "name": "Celephaïs",
+    "categories": [
+      "dreamlands"
+    ],
+    "type": "location",
+    "locationType": "city",
+    "connections": [
+      "KD",
+      "DY"
+    ],
+    "expansion": "td"
+  },
+  {
+    "id": "DY",
+    "name": "Dylath-Leen",
+    "categories": [
+      "dreamlands"
+    ],
+    "type": "location",
+    "locationType": "city",
+    "connections": [
+      "CL",
+      "MN",
+      "UL"
+    ],
+    "expansion": "td"
+  },
+  {
+    "id": "EW",
+    "name": "The Enchanted Wood",
+    "categories": [
+      "dreamlands"
+    ],
+    "type": "location",
+    "locationType": "wilderness",
+    "connections": [
+      "UL"
+    ],
+    "expansion": "td"
+  },
+  {
+    "id": "MN",
+    "name": "The Moon",
+    "categories": [
+      "dreamlands"
+    ],
+    "type": "location",
+    "locationType": "wilderness",
+    "connections": [
+      "DY"
+    ],
+    "expansion": "td"
+  },
+  {
+    "id": "UW",
+    "name": "The Underworld",
+    "categories": [
+      "dreamlands"
+    ],
+    "type": "location",
+    "locationType": "wilderness",
+    "connections": [
+      "UL"
+    ],
+    "expansion": "td"
+  },
+  {
+    "id": "UL",
+    "name": "Ulthar",
+    "categories": [
+      "dreamlands"
+    ],
+    "type": "location",
+    "locationType": "city",
+    "connections": [
+      "EW",
+      "DY",
+      "UW"
+    ],
+    "expansion": "td"
+  },
+  {
+    "id": "KD",
+    "name": "Unknown Kadath",
+    "categories": [
+      "dreamlands"
+    ],
+    "type": "location",
+    "locationType": "wilderness",
+    "connections": [
+      "CL"
+    ],
+    "expansion": "td"
+  }
+]

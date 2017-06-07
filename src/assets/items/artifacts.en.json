@@ -1,0 +1,391 @@
+[
+  {
+    "name": "Llave de Carcosa",
+    "categories": [
+      "trinket",
+      "magical"
+    ],
+    "type": "artifact",
+    "expansion": "soc",
+    "front": "Una vez por ronda, puedes gastar 1 punto de Cordura para volver a tirar cualquier cantidad de dados al resolver una prueba"
+  },
+  {
+    "name": "El Rey Amarillo",
+    "categories": [
+      "object",
+      "tome"
+    ],
+    "type": "artifact",
+    "expansion": "soc",
+    "front": "Obten +2 a todas las habilidades si tienes el Estado Aflicción",
+    "reckoning": "Obtén el estado Aflicción"
+  },
+  {
+    "name": "Cristal de los Antiguos",
+    "categories": [
+      "object"
+    ],
+    "type": "artifact",
+    "expansion": "mom",
+    "front": "Los efectos del texto de reglas de las cartas de Mitos no pueden hacer que pierdas Salud ni Cordura"
+  },
+  {
+    "name": "Artefacto alienigena",
+    "categories": [
+      "object"
+    ],
+    "type": "artifact",
+    "expansion": "mom",
+    "front": "Obtén +3 saber al resolver efectos de Hechizos. Puedes gastar 1 punto de Cordura para volver a tirar cualquier cantidad de dados al resolver una prueba de saber como parte del efecto de un Hechizo"
+  },
+  {
+    "name": "Arcillas de Eltdown",
+    "categories": [
+      "object",
+      "tome"
+    ],
+    "type": "artifact",
+    "expansion": "mom",
+    "front": "Acción: Realiza una prueba de saber. Si superas la prueba, puedes gastar 1 punto de Cordura para descartar 1 Monstruo de tu elección que tenga fortaleza 3 o menos en cualquier casilla."
+  },
+  {
+    "name": "De Vermis Mysteriis",
+    "categories": [
+      "object",
+      "tome"
+    ],
+    "type": "artifact",
+    "expansion": "base",
+    "front": "Acción: Realiza una prueba de saber. Si superas la prueba, puedes gastar 1 punto de Cordura para mejorar 1 habilidad de tu elección"
+  },
+  {
+    "name": "Culte des Goules",
+    "categories": [
+      "object",
+      "tome"
+    ],
+    "type": "artifact",
+    "expansion": "base",
+    "front": "Acción: Realiza una prueba de saber. Si superas la prueba, puedes gastar 1 punto de Cordura para obtener 2 Pistas"
+  },
+  {
+    "name": "Esttua grotesca",
+    "categories": [
+      "object"
+    ],
+    "type": "artifact",
+    "expansion": "base",
+    "front": "Cuando obtengas esta carta desde el mazo, obtén 5 Pistas. Una vez por ronda, puedes gastar 1 Pista para prevenir toda la perdida de Cordura de un único efecto"
+  },
+  {
+    "name": "Cristal de Mortlan",
+    "categories": [
+      "object",
+      "magical"
+    ],
+    "type": "artifact",
+    "expansion": "base",
+    "front": "Cada 6 que saques cuando resuelvas el efecto de un Hechizo cuenta como 2 éxitos. Puedes prevenir la pérdida de 1 punto de Cordura cuando resuelvas efectos de tus Hechizos"
+  },
+  {
+    "name": "Rube de R´lyeh",
+    "categories": [
+      "object",
+      "magical"
+    ],
+    "type": "artifact",
+    "expansion": "base",
+    "front": "Una vez por ronda, durante la fase de Acción, puedes gastar 1 punto de Cordura y realizar 1 acción adicional"
+  },
+  {
+    "name": "Cánticos de Dhol",
+    "categories": [
+      "object",
+      "tome"
+    ],
+    "type": "artifact",
+    "expansion": "mom",
+    "front": "Al resolver un Encuentro de Combate, puedes realizar una prueba de saber. Si superas la prueba, puedes gastar 1 punto de Cordura para tirar 3 dados adicionales al resolver la prueba de fuerza durante ese encuentro"
+  },
+  {
+    "name": "Corazon del invierno",
+    "categories": [
+      "object"
+    ],
+    "type": "artifact",
+    "expansion": "mom",
+    "front": "No puedes obtener el Estado Hipotermia a menos que elijas hacerlo. Obtén +2 a todas las habilidades si tienes el Estado Hipotermia"
+  },
+  {
+    "name": "La llave de plata",
+    "categories": [
+      "object",
+      "magical"
+    ],
+    "type": "artifact",
+    "expansion": "base",
+    "front": "Una vez por ronda, puedes gastar 1 Pista menos para pagar el coste de un efecto. Puedes volver a tirar 1 dado cuando resuelvas una prueba durante un Encuentro de Otros Mundos"
+  },
+  {
+    "name": "Caja portal",
+    "categories": [
+      "object",
+      "magical"
+    ],
+    "type": "artifact",
+    "expansion": "base",
+    "front": "Los investigadores que estén en tu casilla tiran 1 dado adicional cuando resuelvan pruebas durante Encuentros de Otros Mundos. Si cierras un Portal durante un Encuentro de Otros Mundos, obtén 1 Pista"
+  },
+  {
+    "name": "Manuscritos pnakóticos",
+    "categories": [
+      "object",
+      "tome"
+    ],
+    "type": "artifact",
+    "expansion": "mom",
+    "front": "Acción: Si estas en una casilla que contenga un Portal, obtén 1 Pista"
+  },
+  {
+    "name": "Cristal hiperbóreo",
+    "categories": [
+      "object",
+      "magical"
+    ],
+    "type": "artifact",
+    "expansion": "mom",
+    "front": "Puedes descartar 1 Hechizo para volver a tirar cualquier cantidad de dados al resolver una prueba, excepto al resolver el efecto de un Hechizo",
+    "reckoning": "Obtén 1 Hechizo"
+  },
+  {
+    "name": "Mascara del Vigia",
+    "categories": [
+      "object",
+      "magical"
+    ],
+    "type": "artifact",
+    "expansion": "sr",
+    "front": "Reduce en 1 el horror de los Monstruos con los que resuelvas encuentros. Cuando superes una prueba de voluntad durante un Encuentro de Combate, obtén 1 ficha de Concentración"
+  },
+  {
+    "name": "Livre d'Ivon",
+    "categories": [
+      "object",
+      "tome"
+    ],
+    "type": "artifact",
+    "expansion": "mom",
+    "front": "Acción: Realiza una prueba de saber -1. Si superas la prueba, puedes gastar 1 punto de Cordura para moverte a cualquier casilla de tu elección"
+  },
+  {
+    "name": "El Manto Andrajoso",
+    "categories": [
+      "object",
+      "magical"
+    ],
+    "type": "artifact",
+    "expansion": "soc",
+    "front": "Puedes gastar 1 punto menos de Cordura para cubrir el coste de un efecto. Si un efecto fuese a hacer que perdieras Cordura, en lugar de eso pierde 1 punto menos de Cordura"
+  },
+  {
+    "name": "Recipiento para cerebros de los Mi-Go",
+    "categories": [
+      "object",
+      "magical",
+      "teamwork"
+    ],
+    "type": "artifact",
+    "expansion": "base",
+    "front": "Acción: Tú y otro investigador podéis intercambiar pertenencias. Ademas, él puede moverse a tu casilla; si lo hace, muévete a su casilla anterior"
+  },
+  {
+    "name": "Arma lanzarrayos",
+    "categories": [
+      "object",
+      "weapon",
+      "magical"
+    ],
+    "type": "artifact",
+    "expansion": "base",
+    "front": "Obtén +6 fuerza cuando resuelvas Encuentros de combate. Acción: Tú y cada Monstruo que haya en tu casilla perdéis 1 punto de Salud"
+  },
+  {
+    "name": "Flauta de los Dioses Exteriores",
+    "categories": [
+      "object",
+      "magical"
+    ],
+    "type": "artifact",
+    "expansion": "base",
+    "front": "Acción: Gsta 2 puntos de Salud y 2 puntos de Cordura para derrotar a todos los Monstruos que haya en tu casilla"
+  },
+  {
+    "name": "T'tka Halot",
+    "categories": [
+      "object",
+      "tome"
+    ],
+    "type": "artifact",
+    "expansion": "base",
+    "front": "Acción: Realiza una prueba de saber. Si superas la prueba, puedes gastar 1 punto de Cordura para elegir 1 Monstruo que esté en tu casilla para que pierda 3 puntos de Salud"
+  },
+  {
+    "name": "Mascara palida",
+    "categories": [
+      "object",
+      "magical"
+    ],
+    "type": "artifact",
+    "expansion": "base",
+    "front": "Durante la fase de Encuentors, puedes elegir un encuentro como si no hubiera Monstruos en tu casilla"
+  },
+  {
+    "name": "Necronomicón",
+    "categories": [
+      "object",
+      "tome"
+    ],
+    "type": "artifact",
+    "expansion": "base",
+    "front": "Acción: Realiza una prueba de saber. Si suepras la prueba, puedes gastar 1 punto de Cordura para obtener 2 Hechizos"
+  },
+  {
+    "name": "Khopesh del Abismo",
+    "categories": [
+      "Object",
+      "magical",
+      "relic",
+      "weapon"
+    ],
+    "type": "artifact",
+    "expansion": "sr",
+    "front": "Obtén +5 fuerza durante Encuentros de Combate. Una vez por ronda, cuando derrotes a un Monstruo durante un Encuentro de Combate, puedes moverte a la casilla más cercana que contenga un Monstruo"
+  },
+  {
+    "name": "Idolo del dragón",
+    "categories": [
+      "object",
+      "magical",
+      "relic"
+    ],
+    "type": "artifact",
+    "expansion": "sr",
+    "front": "Acción: Pierde 1 punto de Cordura y 1 Monstruo en tu casilla o en una casilla adyacente pierde 2 puntos de Salud. Puedes gastar 1 punto de Cordura para volver a tirar cualquier cantidad de dados al resolver una prueba de fuerza durante un Encuentro de Combate"
+  },
+  {
+    "name": "Flautas de hueso",
+    "categories": [
+      "object",
+      "magical"
+    ],
+    "type": "artifact",
+    "expansion": "sr",
+    "front": "Acción: Realiza una prueba de saber. Si la superas, puedes gastar 1 punto de Corudra para elegir 1 Monstruo en tu casilla o en una casilla adyacente. El Monstruo elegido pierde 2 puntos de Salud o se mueve 1 casilla"
+  },
+  {
+    "name": "Mascara de Estenelo",
+    "categories": [
+      "object",
+      "magical",
+      "relic"
+    ],
+    "type": "artifact",
+    "expansion": "soc",
+    "front": "Acción: Puedes gastar 1 ficha de Mejora o de Discapacidad para mejorar 1 habilidad de tu eleccion u obtener 1 Estado Talento"
+  },
+  {
+    "name": "Tablillas de Zanthu",
+    "categories": [
+      "object",
+      "tome"
+    ],
+    "type": "artifact",
+    "expansion": "fl",
+    "front": "Obtén +3 saber cuando resuelvas efectos de Hechizos. Acción: Realiza una prueba de saber. Si la suepras, puedes gastar 1 punto de corudra para obtener 2 Hechizos y luego descartar 1 Hechizo"
+  },
+  {
+    "name": "Espada de Y'ha-Talla",
+    "categories": [
+      "object",
+      "weapon",
+      "magical"
+    ],
+    "type": "artifact",
+    "expansion": "fl",
+    "front": "Obtén +2 voluntad y +3 fuerza durante Encuentros de Combate. Si derrotas a un Monstruo durante un Encuentro de Combate, obtén 1 Pista"
+  },
+  {
+    "name": "Bolsa de vacio",
+    "categories": [
+      "object",
+      "magical"
+    ],
+    "type": "artifact",
+    "expansion": "fl",
+    "front": "No puedes obtener el Estado Perdido en el tiempo y el espacio a menos que elijas hacerlo. Acción: Mira el primer Portal del montón de Portales. obtén 1 Pista si ese Portal coincide con el Augurio actual"
+  },
+  {
+    "name": "Leche de shub-Niggurath",
+    "categories": [
+      "object",
+      "elixir"
+    ],
+    "type": "artifact",
+    "expansion": "fl",
+    "front": "Acción: Realiza una prueba de voluntad. Si superas la prueba, puedes gastar 1 punto de Cordura para recuperar toda la Salud y mejorar tu fuerza dos veces, a continuacion, ¡un Monstruo te tiende uan emboscada!"
+  },
+  {
+    "name": "Massa di Requiem per Shuggay",
+    "categories": [
+      "object",
+      "tome"
+    ],
+    "type": "artifact",
+    "expansion": "fl",
+    "front": "Acción: Realiza una prueba de saber -1. Si superas la prueba, puedes gastar 1 punto de Cordura para descartar 1 Monstruo que esté en una casilla de tu eleccion que contenga un Portal",
+    "reckoning": "Tira 1 dado. Si sacas un 1, haz avanzar la Perdición 1 casilla"
+  },
+  {
+    "name": "Elixir de la vida",
+    "categories": [
+      "object",
+      "elixir"
+    ],
+    "type": "artifact",
+    "expansion": "fl",
+    "front": "Acción: Realiza una prueba de voluntad. Si la suepras, puedes gastar 1 punto de Cordura para recuperar toda la Salud y descartar todos los Estados Enfermedad, Herida y Locura"
+  },
+  {
+    "name": "Esfera maldita",
+    "categories": [
+      "object",
+      "magical"
+    ],
+    "type": "artifact",
+    "expansion": "fl",
+    "front": "Obtén +2 a todas tus habilidades",
+    "reckoning": "Tira 1 dado. Si sacas un 1 o un 2, obtén el Estado Maldito"
+  },
+  {
+    "name": "Corona de la Serpiente",
+    "categories": [
+      "object",
+      "magical"
+    ],
+    "type": "artifact",
+    "expansion": "fl",
+    "front": "Acción: Realiza una prueba de voluntad -1. Si superas la preuba, puedes gastar 1 punto de Cordura para obtner 1 Apoyo Aliado aleatorio del mazo",
+    "reckoning": "Descarta 1 Apoyo Aliado"
+  },
+  {
+    "name": "Espada de San Jerónimo",
+    "categories": [
+      "object",
+      "weapon",
+      "magical"
+    ],
+    "type": "artifact",
+    "expansion": "base",
+    "front": "Obtén +2 voluntad y +5 fuerza cuando resuelvas Encuentros de Combate. Si derrotas un Monstruo durante un Encuentro de Combate, recupera 1 punto de Cordura"
+  }
+]

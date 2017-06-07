@@ -1,0 +1,1459 @@
+[
+  {
+    "name": "Financiación",
+    "categories": [
+      "deal"
+    ],
+    "type": "condition",
+    "expansion": "mom",
+    "front": "Puedes descartar esta carta en lugar de obtener el Estado Deuda o para descartar el Estado Deuda",
+    "reckoning": "Si estás en una casilla de Ciudad, puedes darle la vuelta a esta carta",
+    "back": "No va más"
+  },
+  {
+    "name": "Financiación",
+    "categories": [
+      "deal"
+    ],
+    "type": "condition",
+    "expansion": "mom",
+    "front": "Puedes descartar esta carta en lugar de obtener el Estado Deuda o para descartar el Estado Deuda",
+    "reckoning": "Si estás en una casilla de Ciudad, puedes darle la vuelta a esta carta",
+    "back": "Subasta Misteriosa"
+  },
+  {
+    "name": "Financiación",
+    "categories": [
+      "deal"
+    ],
+    "type": "condition",
+    "expansion": "mom",
+    "front": "Puedes descartar esta carta en lugar de obtener el Estado Deuda o para descartar el Estado Deuda",
+    "reckoning": "Si estás en una casilla de Ciudad, puedes darle la vuelta a esta carta",
+    "back": "Pago"
+  },
+  {
+    "name": "Financiación",
+    "categories": [
+      "deal"
+    ],
+    "type": "condition",
+    "expansion": "mom",
+    "front": "Puedes descartar esta carta en lugar de obtener el Estado Deuda o para descartar el Estado Deuda",
+    "reckoning": "Si estás en una casilla de Ciudad, puedes darle la vuelta a esta carta",
+    "back": "Sicario a sueldo"
+  },
+  {
+    "name": "Deuda",
+    "categories": [
+      "deal",
+      "common"
+    ],
+    "type": "condition",
+    "expansion": "fl",
+    "front": "Acción local: Realiza una prueba de influencia. Si superas la prueba, descarta esta carta",
+    "reckoning": "Unos hombres han venido a cobrar la deuda. Dale la vuelta a esta carta",
+    "back": "Recaudación"
+  },
+  {
+    "name": "Deuda",
+    "categories": [
+      "deal",
+      "common"
+    ],
+    "type": "condition",
+    "expansion": "base",
+    "front": "Acción local: Realiza una prueba de influencia. Si superas la prueba, descarta esta carta",
+    "reckoning": "Unos hombres han venido a cobrar la deuda. Dale la vuelta a esta carta",
+    "back": "Por encima de las riquezas"
+  },
+  {
+    "name": "Deuda",
+    "categories": [
+      "deal",
+      "common"
+    ],
+    "type": "condition",
+    "expansion": "base",
+    "front": "Acción local: Realiza una prueba de influencia. Si superas la prueba, descarta esta carta",
+    "reckoning": "Unos hombres han venido a cobrar la deuda. Dale la vuelta a esta carta",
+    "back": "Sirviente reticente"
+  },
+  {
+    "name": "Deuda",
+    "categories": [
+      "deal",
+      "common"
+    ],
+    "type": "condition",
+    "expansion": "base",
+    "front": "Acción local: Realiza una prueba de influencia. Si superas la prueba, descarta esta carta",
+    "reckoning": "Unos hombres han venido a cobrar la deuda. Dale la vuelta a esta carta",
+    "back": "Sicarios"
+  },
+  {
+    "name": "Deuda",
+    "categories": [
+      "deal",
+      "common"
+    ],
+    "type": "condition",
+    "expansion": "base",
+    "front": "Acción local: Realiza una prueba de influencia. Si superas la prueba, descarta esta carta",
+    "reckoning": "Unos hombres han venido a cobrar la deuda. Dale la vuelta a esta carta",
+    "back": "Autoridades locales"
+  },
+  {
+    "name": "Deuda",
+    "categories": [
+      "deal",
+      "common"
+    ],
+    "type": "condition",
+    "expansion": "base",
+    "front": "Acción local: Realiza una prueba de influencia. Si superas la prueba, descarta esta carta",
+    "reckoning": "Unos hombres han venido a cobrar la deuda. Dale la vuelta a esta carta",
+    "back": "Cobrador"
+  },
+  {
+    "name": "Deuda",
+    "categories": [
+      "deal",
+      "common"
+    ],
+    "type": "condition",
+    "expansion": "sr",
+    "front": "Acción local: Realiza una prueba de influencia. Si superas la prueba, descarta esta carta",
+    "reckoning": "Unos hombres han venido a cobrar la deuda. Dale la vuelta a esta carta",
+    "back": "Deuda transferida"
+  },
+  {
+    "name": "Deuda",
+    "categories": [
+      "deal",
+      "common"
+    ],
+    "type": "condition",
+    "expansion": "mom",
+    "front": "Acción local: Realiza una prueba de influencia. Si superas la prueba, descarta esta carta",
+    "reckoning": "Unos hombres han venido a cobrar la deuda. Dale la vuelta a esta carta",
+    "back": "Deuda con los gules"
+  },
+  {
+    "name": "Deuda",
+    "categories": [
+      "deal",
+      "common"
+    ],
+    "type": "condition",
+    "expansion": "soc",
+    "front": "Acción local: Realiza una prueba de influencia. Si superas la prueba, descarta esta carta",
+    "reckoning": "Unos hombres han venido a cobrar la deuda. Dale la vuelta a esta carta",
+    "back": "Precio por tu cabeza"
+  },
+  {
+    "name": "Deuda",
+    "categories": [
+      "deal",
+      "common"
+    ],
+    "type": "condition",
+    "expansion": "mom",
+    "front": "Acción local: Realiza una prueba de influencia. Si superas la prueba, descarta esta carta",
+    "reckoning": "Unos hombres han venido a cobrar la deuda. Dale la vuelta a esta carta",
+    "back": "Un desafortunado accidente"
+  },
+  {
+    "name": "Deuda",
+    "categories": [
+      "deal",
+      "common"
+    ],
+    "type": "condition",
+    "expansion": "fl",
+    "front": "Acción local: Realiza una prueba de influencia. Si superas la prueba, descarta esta carta",
+    "reckoning": "Unos hombres han venido a cobrar la deuda. Dale la vuelta a esta carta",
+    "back": "Comida envenenada"
+  },
+  {
+    "name": "Deuda",
+    "categories": [
+      "deal",
+      "common"
+    ],
+    "type": "condition",
+    "expansion": "base",
+    "front": "Acción local: Realiza una prueba de influencia. Si superas la prueba, descarta esta carta",
+    "reckoning": "Unos hombres han venido a cobrar la deuda. Dale la vuelta a esta carta",
+    "back": "Hacer un trato"
+  },
+  {
+    "name": "Acuerdo",
+    "categories": [
+      "deal"
+    ],
+    "type": "condition",
+    "expansion": "er",
+    "front": "Acción local: Realiza una prueba de influencia - 1. Si superas la prueba, puedes gastar 2 pistas para descartar esta carta",
+    "reckoning": "Tira 1 dado. Si sacas un 1 ó 2, ha llegado el momento de que cumplas tu parte; dale la vuelta a esta carta",
+    "back": "Transacciones siniestras"
+  },
+  {
+    "name": "Acuerdo",
+    "categories": [
+      "deal"
+    ],
+    "type": "condition",
+    "expansion": "er",
+    "front": "Acción local: Realiza una prueba de influencia - 1. Si superas la prueba, puedes gastar 2 pistas para descartar esta carta",
+    "reckoning": "Tira 1 dado. Si sacas un 1 ó 2, ha llegado el momento de que cumplas tu parte; dale la vuelta a esta carta",
+    "back": "Trato roto"
+  },
+  {
+    "name": "Acuerdo",
+    "categories": [
+      "deal"
+    ],
+    "type": "condition",
+    "expansion": "er",
+    "front": "Acción local: Realiza una prueba de influencia - 1. Si superas la prueba, puedes gastar 2 pistas para descartar esta carta",
+    "reckoning": "Tira 1 dado. Si sacas un 1 ó 2, ha llegado el momento de que cumplas tu parte; dale la vuelta a esta carta",
+    "back": "Contrato oscuro"
+  },
+  {
+    "name": "Acuerdo",
+    "categories": [
+      "deal"
+    ],
+    "type": "condition",
+    "expansion": "er",
+    "front": "Acción local: Realiza una prueba de influencia - 1. Si superas la prueba, puedes gastar 2 pistas para descartar esta carta",
+    "reckoning": "Tira 1 dado. Si sacas un 1 ó 2, ha llegado el momento de que cumplas tu parte; dale la vuelta a esta carta",
+    "back": "Consciencia fragmentada"
+  },
+  {
+    "name": "Promesa de poder",
+    "categories": [
+      "deal"
+    ],
+    "type": "condition",
+    "expansion": "soc",
+    "front": "Puedes descartar esta carta para volver a tirar cualquier cantidad de dados al resolver una prueba",
+    "reckoning": "Tira 1 dado. Si sacas un 6, tu paciencia por fin se ve recompensada; dale la vuelta a esta carta",
+    "back": "Destierro mayor"
+  },
+  {
+    "name": "Promesa de poder",
+    "categories": [
+      "deal"
+    ],
+    "type": "condition",
+    "expansion": "soc",
+    "front": "Puedes descartar esta carta para volver a tirar cualquier cantidad de dados al resolver una prueba",
+    "reckoning": "Tira 1 dado. Si sacas un 6, tu paciencia por fin se ve recompensada; dale la vuelta a esta carta",
+    "back": "Potencial despertado"
+  },
+  {
+    "name": "Promesa de poder",
+    "categories": [
+      "deal"
+    ],
+    "type": "condition",
+    "expansion": "soc",
+    "front": "Puedes descartar esta carta para volver a tirar cualquier cantidad de dados al resolver una prueba",
+    "reckoning": "Tira 1 dado. Si sacas un 6, tu paciencia por fin se ve recompensada; dale la vuelta a esta carta",
+    "back": "Solidificar la barrera"
+  },
+  {
+    "name": "Promesa de poder",
+    "categories": [
+      "deal"
+    ],
+    "type": "condition",
+    "expansion": "soc",
+    "front": "Puedes descartar esta carta para volver a tirar cualquier cantidad de dados al resolver una prueba",
+    "reckoning": "Tira 1 dado. Si sacas un 6, tu paciencia por fin se ve recompensada; dale la vuelta a esta carta",
+    "back": "Apoyo de la orden"
+  },
+  {
+    "name": "Pacto oscuro",
+    "categories": [
+      "deal"
+    ],
+    "type": "condition",
+    "expansion": "mom",
+    "front": "",
+    "reckoning": "Tira 1 dado. Si sacas un 1, es hora de cumplir tu parte del trato; dale la vuelta a esta carta",
+    "back": "Pacto con Eibon"
+  },
+  {
+    "name": "Pacto oscuro",
+    "categories": [
+      "deal"
+    ],
+    "type": "condition",
+    "expansion": "er",
+    "front": "",
+    "reckoning": "Tira 1 dado. Si sacas un 1, es hora de cumplir tu parte del trato; dale la vuelta a esta carta",
+    "back": "Encuentro de pesadilla"
+  },
+  {
+    "name": "Pacto oscuro",
+    "categories": [
+      "deal"
+    ],
+    "type": "condition",
+    "expansion": "fl",
+    "front": "",
+    "reckoning": "Tira 1 dado. Si sacas un 1, es hora de cumplir tu parte del trato; dale la vuelta a esta carta",
+    "back": "Todo está perdido"
+  },
+  {
+    "name": "Pacto oscuro",
+    "categories": [
+      "deal"
+    ],
+    "type": "condition",
+    "expansion": "base",
+    "front": "",
+    "reckoning": "Tira 1 dado. Si sacas un 1, es hora de cumplir tu parte del trato; dale la vuelta a esta carta",
+    "back": "Pacto con el Hombre de Negro"
+  },
+  {
+    "name": "Pacto oscuro",
+    "categories": [
+      "deal"
+    ],
+    "type": "condition",
+    "expansion": "base",
+    "front": "",
+    "reckoning": "Tira 1 dado. Si sacas un 1, es hora de cumplir tu parte del trato; dale la vuelta a esta carta",
+    "back": "Uno del millar"
+  },
+  {
+    "name": "Pacto oscuro",
+    "categories": [
+      "deal"
+    ],
+    "type": "condition",
+    "expansion": "base",
+    "front": "",
+    "reckoning": "Tira 1 dado. Si sacas un 1, es hora de cumplir tu parte del trato; dale la vuelta a esta carta",
+    "back": "Pacto con Yog-Sothoth"
+  },
+  {
+    "name": "Pacto oscuro",
+    "categories": [
+      "deal"
+    ],
+    "type": "condition",
+    "expansion": "soc",
+    "front": "",
+    "reckoning": "Tira 1 dado. Si sacas un 1, es hora de cumplir tu parte del trato; dale la vuelta a esta carta",
+    "back": "Juramento inquebrantable"
+  },
+  {
+    "name": "Aflicción",
+    "categories": [
+      "bane"
+    ],
+    "type": "condition",
+    "expansion": "soc",
+    "front": "Cuando obtengas esta carta descarta 1 Apoyo Aliado",
+    "reckoning": "Los aliados de los que te rodeas actúan de forma errática y sin motivo. Dale la vuelta a esta carta",
+    "back": "Mirada demoníaca"
+  },
+  {
+    "name": "Aflicción",
+    "categories": [
+      "bane"
+    ],
+    "type": "condition",
+    "expansion": "soc",
+    "front": "Cuando obtengas esta carta descarta 1 Apoyo Aliado",
+    "reckoning": "Los aliados de los que te rodeas actúan de forma errática y sin motivo. Dale la vuelta a esta carta",
+    "back": "Destrucción indiscriminada"
+  },
+  {
+    "name": "Aflicción",
+    "categories": [
+      "bane"
+    ],
+    "type": "condition",
+    "expansion": "soc",
+    "front": "Cuando obtengas esta carta descarta 1 Apoyo Aliado",
+    "reckoning": "Los aliados de los que te rodeas actúan de forma errática y sin motivo. Dale la vuelta a esta carta",
+    "back": "Brote psicótico"
+  },
+  {
+    "name": "Aflicción",
+    "categories": [
+      "bane"
+    ],
+    "type": "condition",
+    "expansion": "soc",
+    "front": "Cuando obtengas esta carta descarta 1 Apoyo Aliado",
+    "reckoning": "Los aliados de los que te rodeas actúan de forma errática y sin motivo. Dale la vuelta a esta carta",
+    "back": "Codicia obsesiva"
+  },
+  {
+    "name": "Maldito",
+    "categories": [
+      "bane"
+    ],
+    "type": "condition",
+    "expansion": "base",
+    "front": "En tus pruebas sólo cuenta un 6 como éxito sacar un 6. Si fueses a obtener otro Estado Maldito, en lugar de eso dale la vuelta a esta carta. Si fueses a obtener el Estado Bendecido, en lugar de eso descarta esta carta",
+    "reckoning": "Lanza 1 dado. Si sacas un 4, 5 o 6, descarta esta carta",
+    "back": "Justicia kármica"
+  },
+  {
+    "name": "Maldito",
+    "categories": [
+      "bane"
+    ],
+    "type": "condition",
+    "expansion": "mom",
+    "front": "En tus pruebas sólo cuenta un 6 como éxito sacar un 6. Si fueses a obtener otro Estado Maldito, en lugar de eso dale la vuelta a esta carta. Si fueses a obtener el Estado Bendecido, en lugar de eso descarta esta carta",
+    "reckoning": "Lanza 1 dado. Si sacas un 4, 5 o 6, descarta esta carta",
+    "back": "Hambre animal"
+  },
+  {
+    "name": "Maldito",
+    "categories": [
+      "bane"
+    ],
+    "type": "condition",
+    "expansion": "base",
+    "front": "En tus pruebas sólo cuenta un 6 como éxito sacar un 6. Si fueses a obtener otro Estado Maldito, en lugar de eso dale la vuelta a esta carta. Si fueses a obtener el Estado Bendecido, en lugar de eso descarta esta carta",
+    "reckoning": "Lanza 1 dado. Si sacas un 4, 5 o 6, descarta esta carta",
+    "back": "Pinta de Innsmouth"
+  },
+  {
+    "name": "Maldito",
+    "categories": [
+      "bane"
+    ],
+    "type": "condition",
+    "expansion": "base",
+    "front": "En tus pruebas sólo cuenta un 6 como éxito sacar un 6. Si fueses a obtener otro Estado Maldito, en lugar de eso dale la vuelta a esta carta. Si fueses a obtener el Estado Bendecido, en lugar de eso descarta esta carta",
+    "reckoning": "Lanza 1 dado. Si sacas un 4, 5 o 6, descarta esta carta",
+    "back": "Atormentado"
+  },
+  {
+    "name": "Maldito",
+    "categories": [
+      "bane"
+    ],
+    "type": "condition",
+    "expansion": "sr",
+    "front": "En tus pruebas sólo cuenta un 6 como éxito sacar un 6. Si fueses a obtener otro Estado Maldito, en lugar de eso dale la vuelta a esta carta. Si fueses a obtener el Estado Bendecido, en lugar de eso descarta esta carta",
+    "reckoning": "Lanza 1 dado. Si sacas un 4, 5 o 6, descarta esta carta",
+    "back": "Inestabilidad cósmica"
+  },
+  {
+    "name": "Maldito",
+    "categories": [
+      "bane"
+    ],
+    "type": "condition",
+    "expansion": "fl",
+    "front": "En tus pruebas sólo cuenta un 6 como éxito sacar un 6. Si fueses a obtener otro Estado Maldito, en lugar de eso dale la vuelta a esta carta. Si fueses a obtener el Estado Bendecido, en lugar de eso descarta esta carta",
+    "reckoning": "Lanza 1 dado. Si sacas un 4, 5 o 6, descarta esta carta",
+    "back": "Mancillado"
+  },
+  {
+    "name": "Maldito",
+    "categories": [
+      "bane"
+    ],
+    "type": "condition",
+    "expansion": "fl",
+    "front": "En tus pruebas sólo cuenta un 6 como éxito sacar un 6. Si fueses a obtener otro Estado Maldito, en lugar de eso dale la vuelta a esta carta. Si fueses a obtener el Estado Bendecido, en lugar de eso descarta esta carta",
+    "reckoning": "Lanza 1 dado. Si sacas un 4, 5 o 6, descarta esta carta",
+    "back": "Maldición de la serpiente"
+  },
+  {
+    "name": "Maldito",
+    "categories": [
+      "bane"
+    ],
+    "type": "condition",
+    "expansion": "fl",
+    "front": "En tus pruebas sólo cuenta un 6 como éxito sacar un 6. Si fueses a obtener otro Estado Maldito, en lugar de eso dale la vuelta a esta carta. Si fueses a obtener el Estado Bendecido, en lugar de eso descarta esta carta",
+    "reckoning": "Lanza 1 dado. Si sacas un 4, 5 o 6, descarta esta carta",
+    "back": "Una oscura traición"
+  },
+  {
+    "name": "Maldito",
+    "categories": [
+      "bane"
+    ],
+    "type": "condition",
+    "expansion": "soc",
+    "front": "En tus pruebas sólo cuenta un 6 como éxito sacar un 6. Si fueses a obtener otro Estado Maldito, en lugar de eso dale la vuelta a esta carta. Si fueses a obtener el Estado Bendecido, en lugar de eso descarta esta carta",
+    "reckoning": "Lanza 1 dado. Si sacas un 4, 5 o 6, descarta esta carta",
+    "back": "El Signo Amarillo"
+  },
+  {
+    "name": "Justa ira",
+    "categories": [
+      "boon"
+    ],
+    "type": "condition",
+    "expansion": "sr",
+    "front": "Cuando realices una acción de concentrarse o una acción de descansar, obten 1 ficha de Concentración o recupera 1 punto de cordura",
+    "reckoning": "Puedes darle la vuelta a esta carta",
+    "back": "Rescate osado"
+  },
+  {
+    "name": "Justa ira",
+    "categories": [
+      "boon"
+    ],
+    "type": "condition",
+    "expansion": "sr",
+    "front": "Cuando realices una acción de concentrarse o una acción de descansar, obten 1 ficha de Concentración o recupera 1 punto de cordura",
+    "reckoning": "Puedes darle la vuelta a esta carta",
+    "back": "Pasar a la ofensiva"
+  },
+  {
+    "name": "Justa ira",
+    "categories": [
+      "boon"
+    ],
+    "type": "condition",
+    "expansion": "sr",
+    "front": "Cuando realices una acción de concentrarse o una acción de descansar, obten 1 ficha de Concentración o recupera 1 punto de cordura",
+    "reckoning": "Puedes darle la vuelta a esta carta",
+    "back": "Alianza con el Crepúsculo de Plata"
+  },
+  {
+    "name": "Justa ira",
+    "categories": [
+      "boon"
+    ],
+    "type": "condition",
+    "expansion": "sr",
+    "front": "Cuando realices una acción de concentrarse o una acción de descansar, obten 1 ficha de Concentración o recupera 1 punto de cordura",
+    "reckoning": "Puedes darle la vuelta a esta carta",
+    "back": "Lo que no nos mata"
+  },
+  {
+    "name": "Bendecido",
+    "categories": [
+      "boon"
+    ],
+    "type": "condition",
+    "expansion": "base",
+    "front": "En tus pruebas cuenta como exito sacar 4, 5 o 6. Si fueses a obtener otro Estado Bendecido, en lugar de eso dale la vuelta a esta carta. Si fueses a obtener el Estado Maldito, en lugar de eso descarta esta carta",
+    "reckoning": "Lanza 1 dado. Si sacas un 1 o un 2 descarta esta carta",
+    "back": "Visiones de Hipnos"
+  },
+  {
+    "name": "Bendecido",
+    "categories": [
+      "boon"
+    ],
+    "type": "condition",
+    "expansion": "mom",
+    "front": "En tus pruebas cuenta como exito sacar 4, 5 o 6. Si fueses a obtener otro Estado Bendecido, en lugar de eso dale la vuelta a esta carta. Si fueses a obtener el Estado Maldito, en lugar de eso descarta esta carta",
+    "reckoning": "Lanza 1 dado. Si sacas un 1 o un 2 descarta esta carta",
+    "back": "Suerte bendecida"
+  },
+  {
+    "name": "Bendecido",
+    "categories": [
+      "boon"
+    ],
+    "type": "condition",
+    "expansion": "sr",
+    "front": "En tus pruebas cuenta como exito sacar 4, 5 o 6. Si fueses a obtener otro Estado Bendecido, en lugar de eso dale la vuelta a esta carta. Si fueses a obtener el Estado Maldito, en lugar de eso descarta esta carta",
+    "reckoning": "Lanza 1 dado. Si sacas un 1 o un 2 descarta esta carta",
+    "back": "Favorecido"
+  },
+  {
+    "name": "Bendecido",
+    "categories": [
+      "boon"
+    ],
+    "type": "condition",
+    "expansion": "base",
+    "front": "En tus pruebas cuenta como exito sacar 4, 5 o 6. Si fueses a obtener otro Estado Bendecido, en lugar de eso dale la vuelta a esta carta. Si fueses a obtener el Estado Maldito, en lugar de eso descarta esta carta",
+    "reckoning": "Lanza 1 dado. Si sacas un 1 o un 2 descarta esta carta",
+    "back": "Amado por Bast"
+  },
+  {
+    "name": "Bendecido",
+    "categories": [
+      "boon"
+    ],
+    "type": "condition",
+    "expansion": "base",
+    "front": "En tus pruebas cuenta como exito sacar 4, 5 o 6. Si fueses a obtener otro Estado Bendecido, en lugar de eso dale la vuelta a esta carta. Si fueses a obtener el Estado Maldito, en lugar de eso descarta esta carta",
+    "reckoning": "Lanza 1 dado. Si sacas un 1 o un 2 descarta esta carta",
+    "back": "Bendición de Nodess"
+  },
+  {
+    "name": "Bendecido",
+    "categories": [
+      "boon"
+    ],
+    "type": "condition",
+    "expansion": "soc",
+    "front": "En tus pruebas cuenta como exito sacar 4, 5 o 6. Si fueses a obtener otro Estado Bendecido, en lugar de eso dale la vuelta a esta carta. Si fueses a obtener el Estado Maldito, en lugar de eso descarta esta carta",
+    "reckoning": "Lanza 1 dado. Si sacas un 1 o un 2 descarta esta carta",
+    "back": "Talento bendecido"
+  },
+  {
+    "name": "Bendecido",
+    "categories": [
+      "boon"
+    ],
+    "type": "condition",
+    "expansion": "fl",
+    "front": "En tus pruebas cuenta como exito sacar 4, 5 o 6. Si fueses a obtener otro Estado Bendecido, en lugar de eso dale la vuelta a esta carta. Si fueses a obtener el Estado Maldito, en lugar de eso descarta esta carta",
+    "reckoning": "Lanza 1 dado. Si sacas un 1 o un 2 descarta esta carta",
+    "back": "Ungido"
+  },
+  {
+    "name": "Bendecido",
+    "categories": [
+      "boon"
+    ],
+    "type": "condition",
+    "expansion": "fl",
+    "front": "En tus pruebas cuenta como exito sacar 4, 5 o 6. Si fueses a obtener otro Estado Bendecido, en lugar de eso dale la vuelta a esta carta. Si fueses a obtener el Estado Maldito, en lugar de eso descarta esta carta",
+    "reckoning": "Lanza 1 dado. Si sacas un 1 o un 2 descarta esta carta",
+    "back": "Luz de Kthanid"
+  },
+  {
+    "name": "Bendecido",
+    "categories": [
+      "boon"
+    ],
+    "type": "condition",
+    "expansion": "fl",
+    "front": "En tus pruebas cuenta como exito sacar 4, 5 o 6. Si fueses a obtener otro Estado Bendecido, en lugar de eso dale la vuelta a esta carta. Si fueses a obtener el Estado Maldito, en lugar de eso descarta esta carta",
+    "reckoning": "Lanza 1 dado. Si sacas un 1 o un 2 descarta esta carta",
+    "back": "Leyendas de las estrellas"
+  },
+  {
+    "name": "Destreza de lucha",
+    "categories": [
+      "talent"
+    ],
+    "type": "condition",
+    "expansion": "soc",
+    "front": "Al resolver un Encuentro de Combate, puedes obtner +3 fuerza durante ese encuentro. Si lo haces, dale la vuelta a esta carta antes de resolver la prueba.",
+    "number": 1
+  },
+  {
+    "name": "Destreza de lucha",
+    "categories": [
+      "talent"
+    ],
+    "type": "condition",
+    "expansion": "soc",
+    "front": "Al resolver un Encuentro de Combate, puedes obtner +3 fuerza durante ese encuentro. Si lo haces, dale la vuelta a esta carta antes de resolver la prueba.",
+    "number": 2
+  },
+  {
+    "name": "Estudioso",
+    "categories": [
+      "talent"
+    ],
+    "type": "condition",
+    "expansion": "soc",
+    "front": "Acción: Realiza una prueba de voluntad -1. Si la superas, mejora 1 habilidad de tu elección. A continuación, dale la vuelta a esta carta",
+    "number": 1
+  },
+  {
+    "name": "Estudioso",
+    "categories": [
+      "talent"
+    ],
+    "type": "condition",
+    "expansion": "soc",
+    "front": "Acción: Realiza una prueba de voluntad -1. Si la superas, mejora 1 habilidad de tu elección. A continuación, dale la vuelta a esta carta",
+    "number": 2
+  },
+  {
+    "name": "Artimañas",
+    "categories": [
+      "talent"
+    ],
+    "type": "condition",
+    "expansion": "soc",
+    "front": "Acción: Realiza una prueba de observacion +2. Si la superas, puedes obtner 1 Apoyo Objeto o Baratija de la reserva que tenga un valor igual o menor a tu resultado de la prueba. A continuación, dale la vuelta a esta carta",
+    "number": 1
+  },
+  {
+    "name": "Artimañas",
+    "categories": [
+      "talent"
+    ],
+    "type": "condition",
+    "expansion": "soc",
+    "front": "Acción: Realiza una prueba de observacion +2. Si la superas, puedes obtner 1 Apoyo Objeto o Baratija de la reserva que tenga un valor igual o menor a tu resultado de la prueba. A continuación, dale la vuelta a esta carta",
+    "number": 2
+  },
+  {
+    "name": "Obstinado",
+    "categories": [
+      "talent"
+    ],
+    "type": "condition",
+    "expansion": "soc",
+    "front": "Una vez por ronda, cuando fueses a perder Cordura, puedes realizar una prueba de voluntad. Si la superas, prevén la pérdida de hasta 2 puntos de Cordura. A continuación, dale la vuelta a esta carta",
+    "number": 1
+  },
+  {
+    "name": "Obstinado",
+    "categories": [
+      "talent"
+    ],
+    "type": "condition",
+    "expansion": "soc",
+    "front": "Una vez por ronda, cuando fueses a perder Cordura, puedes realizar una prueba de voluntad. Si la superas, prevén la pérdida de hasta 2 puntos de Cordura. A continuación, dale la vuelta a esta carta",
+    "number": 2
+  },
+  {
+    "name": "Escurridizo",
+    "categories": [
+      "talent"
+    ],
+    "type": "condition",
+    "expansion": "soc",
+    "front": "Durante la fase de Encuentros, puedes realizar una prueba de observación. Si la superas, puedes elegir un encuentro como si no hubiese un monstruo en tu casilla. A continuación, dale la vuelta a esta carta",
+    "number": 1
+  },
+  {
+    "name": "Escurridizo",
+    "categories": [
+      "talent"
+    ],
+    "type": "condition",
+    "expansion": "soc",
+    "front": "Durante la fase de Encuentros, puedes realizar una prueba de observación. Si la superas, puedes elegir un encuentro como si no hubiese un monstruo en tu casilla. A continuación, dale la vuelta a esta carta",
+    "number": 2
+  },
+  {
+    "name": "Resistente",
+    "categories": [
+      "talent"
+    ],
+    "type": "condition",
+    "expansion": "soc",
+    "front": "Una vez por ronda, cuando fueses a perder Salud, puedes realizar una prueba de fuerza. Si la superas, prevén la perdida de hasta 2 puntos de Salud. A continuación, dale la vuelta a esta carta",
+    "number": 1
+  },
+  {
+    "name": "Resistente",
+    "categories": [
+      "talent"
+    ],
+    "type": "condition",
+    "expansion": "soc",
+    "front": "Una vez por ronda, cuando fueses a perder Salud, puedes realizar una prueba de fuerza. Si la superas, prevén la perdida de hasta 2 puntos de Salud. A continuación, dale la vuelta a esta carta",
+    "number": 2
+  },
+  {
+    "name": "Hipotermia",
+    "categories": [
+      "exposure"
+    ],
+    "type": "condition",
+    "expansion": "mom",
+    "front": "Cuando realices una accuón de descansar, no puedes recuperar Salud; tira 1 dado. Si sacas 4, 5 o 6, descarta esta carta. Si fueses a obtener otro Estado Hipotermia, en lugar de eso dale la vuelta a esta carta.",
+    "back": "Aparición escalofriante"
+  },
+  {
+    "name": "Hipotermia",
+    "categories": [
+      "exposure"
+    ],
+    "type": "condition",
+    "expansion": "mom",
+    "front": "Cuando realices una accuón de descansar, no puedes recuperar Salud; tira 1 dado. Si sacas 4, 5 o 6, descarta esta carta. Si fueses a obtener otro Estado Hipotermia, en lugar de eso dale la vuelta a esta carta.",
+    "back": "Shock térmico"
+  },
+  {
+    "name": "Hipotermia",
+    "categories": [
+      "exposure"
+    ],
+    "type": "condition",
+    "expansion": "mom",
+    "front": "Cuando realices una accuón de descansar, no puedes recuperar Salud; tira 1 dado. Si sacas 4, 5 o 6, descarta esta carta. Si fueses a obtener otro Estado Hipotermia, en lugar de eso dale la vuelta a esta carta.",
+    "back": "Ceguera helada"
+  },
+  {
+    "name": "Hipotermia",
+    "categories": [
+      "exposure"
+    ],
+    "type": "condition",
+    "expansion": "mom",
+    "front": "Cuando realices una accuón de descansar, no puedes recuperar Salud; tira 1 dado. Si sacas 4, 5 o 6, descarta esta carta. Si fueses a obtener otro Estado Hipotermia, en lugar de eso dale la vuelta a esta carta.",
+    "back": "Atrapado por el frío"
+  },
+  {
+    "name": "Hipotermia",
+    "categories": [
+      "exposure"
+    ],
+    "type": "condition",
+    "expansion": "mom",
+    "front": "Cuando realices una accuón de descansar, no puedes recuperar Salud; tira 1 dado. Si sacas 4, 5 o 6, descarta esta carta. Si fueses a obtener otro Estado Hipotermia, en lugar de eso dale la vuelta a esta carta.",
+    "back": "Congelamiento"
+  },
+  {
+    "name": "Hipotermia",
+    "categories": [
+      "exposure"
+    ],
+    "type": "condition",
+    "expansion": "mom",
+    "front": "Cuando realices una accuón de descansar, no puedes recuperar Salud; tira 1 dado. Si sacas 4, 5 o 6, descarta esta carta. Si fueses a obtener otro Estado Hipotermia, en lugar de eso dale la vuelta a esta carta.",
+    "back": "Helado hasta los huesos"
+  },
+  {
+    "name": "Hipotermia",
+    "categories": [
+      "exposure"
+    ],
+    "type": "condition",
+    "expansion": "mom",
+    "front": "Cuando realices una accuón de descansar, no puedes recuperar Salud; tira 1 dado. Si sacas 4, 5 o 6, descarta esta carta. Si fueses a obtener otro Estado Hipotermia, en lugar de eso dale la vuelta a esta carta.",
+    "back": "Prisionero del frío"
+  },
+  {
+    "name": "Hipotermia",
+    "categories": [
+      "exposure"
+    ],
+    "type": "condition",
+    "expansion": "mom",
+    "front": "Cuando realices una accuón de descansar, no puedes recuperar Salud; tira 1 dado. Si sacas 4, 5 o 6, descarta esta carta. Si fueses a obtener otro Estado Hipotermia, en lugar de eso dale la vuelta a esta carta.",
+    "back": "Entumecimiento"
+  },
+  {
+    "name": "Infección",
+    "categories": [
+      "illness"
+    ],
+    "type": "condition",
+    "expansion": "mom",
+    "front": "Cuando realices una acción de descansar, no puedes recuperar Salud; tira 1 dado. Si sacas un 4, 5, o 6, descarta esta carta",
+    "reckoning": "Realiza una prueba de fuerza. Si fallas, dale la vuelta a esta carta",
+    "back": "Lesiones e hinchazón"
+  },
+  {
+    "name": "Infección",
+    "categories": [
+      "illness"
+    ],
+    "type": "condition",
+    "expansion": "mom",
+    "front": "Cuando realices una acción de descansar, no puedes recuperar Salud; tira 1 dado. Si sacas un 4, 5, o 6, descarta esta carta",
+    "reckoning": "Realiza una prueba de fuerza. Si fallas, dale la vuelta a esta carta",
+    "back": "Shock séptico"
+  },
+  {
+    "name": "Infección",
+    "categories": [
+      "illness"
+    ],
+    "type": "condition",
+    "expansion": "mom",
+    "front": "Cuando realices una acción de descansar, no puedes recuperar Salud; tira 1 dado. Si sacas un 4, 5, o 6, descarta esta carta",
+    "reckoning": "Realiza una prueba de fuerza. Si fallas, dale la vuelta a esta carta",
+    "back": "Fiebre hemorrágica"
+  },
+  {
+    "name": "Infección",
+    "categories": [
+      "illness"
+    ],
+    "type": "condition",
+    "expansion": "mom",
+    "front": "Cuando realices una acción de descansar, no puedes recuperar Salud; tira 1 dado. Si sacas un 4, 5, o 6, descarta esta carta",
+    "reckoning": "Realiza una prueba de fuerza. Si fallas, dale la vuelta a esta carta",
+    "back": "Envenenamiento de la sangre"
+  },
+  {
+    "name": "Envenenado",
+    "categories": [
+      "illness"
+    ],
+    "type": "condition",
+    "expansion": "fl",
+    "front": "Cuando realices una acción de descansar, no puedes recuperar Salud ni Cordura; dale la vuelta a esta carta",
+    "reckoning": "Pierde 1 punto de Salud",
+    "back": "Sueños febriles"
+  },
+  {
+    "name": "Envenenado",
+    "categories": [
+      "illness"
+    ],
+    "type": "condition",
+    "expansion": "fl",
+    "front": "Cuando realices una acción de descansar, no puedes recuperar Salud ni Cordura; dale la vuelta a esta carta",
+    "reckoning": "Pierde 1 punto de Salud",
+    "back": "Enfermedad persistente"
+  },
+  {
+    "name": "Envenenado",
+    "categories": [
+      "illness"
+    ],
+    "type": "condition",
+    "expansion": "fl",
+    "front": "Cuando realices una acción de descansar, no puedes recuperar Salud ni Cordura; dale la vuelta a esta carta",
+    "reckoning": "Pierde 1 punto de Salud",
+    "back": "Infección arcana"
+  },
+  {
+    "name": "Envenenado",
+    "categories": [
+      "illness"
+    ],
+    "type": "condition",
+    "expansion": "fl",
+    "front": "Cuando realices una acción de descansar, no puedes recuperar Salud ni Cordura; dale la vuelta a esta carta",
+    "reckoning": "Pierde 1 punto de Salud",
+    "back": "Asistencia médica"
+  },
+  {
+    "name": "Perseguido",
+    "categories": [
+      "pursuit"
+    ],
+    "type": "condition",
+    "expansion": "mom",
+    "front": "Cuando realices una acción de viajar, puedes tirar 1 dado. Si sacas un 5 o un 6, descarta esta carta",
+    "reckoning": "Realiza una prueba de observación. Si fallas, dale la vuelta a esta carta",
+    "back": "Marcado por Yig"
+  },
+  {
+    "name": "Perseguido",
+    "categories": [
+      "pursuit"
+    ],
+    "type": "condition",
+    "expansion": "mom",
+    "front": "Cuando realices una acción de viajar, puedes tirar 1 dado. Si sacas un 5 o un 6, descarta esta carta",
+    "reckoning": "Realiza una prueba de observación. Si fallas, dale la vuelta a esta carta",
+    "back": "Bestias de caza"
+  },
+  {
+    "name": "Perseguido",
+    "categories": [
+      "pursuit"
+    ],
+    "type": "condition",
+    "expansion": "mom",
+    "front": "Cuando realices una acción de viajar, puedes tirar 1 dado. Si sacas un 5 o un 6, descarta esta carta",
+    "reckoning": "Realiza una prueba de observación. Si fallas, dale la vuelta a esta carta",
+    "back": "Horrores indescriptibles"
+  },
+  {
+    "name": "Perseguido",
+    "categories": [
+      "pursuit"
+    ],
+    "type": "condition",
+    "expansion": "mom",
+    "front": "Cuando realices una acción de viajar, puedes tirar 1 dado. Si sacas un 5 o un 6, descarta esta carta",
+    "reckoning": "Realiza una prueba de observación. Si fallas, dale la vuelta a esta carta",
+    "back": "Depredadores por todas partes"
+  },
+  {
+    "name": "Buscado por la ley",
+    "categories": [
+      "pursuit"
+    ],
+    "type": "condition",
+    "expansion": "soc",
+    "front": "No puedes realizar acciones de adquirir Apoyos. Cuando realices una acción de viajar, puedes tirar 1 dado. Si sacas un 4, 5 o 6, descarta esta carta",
+    "reckoning": "Realiza una prueba de observación. Si fallas, dale la vuelta a esta carta",
+    "back": "Redada policial"
+  },
+  {
+    "name": "Buscado por la ley",
+    "categories": [
+      "pursuit"
+    ],
+    "type": "condition",
+    "expansion": "soc",
+    "front": "No puedes realizar acciones de adquirir Apoyos. Cuando realices una acción de viajar, puedes tirar 1 dado. Si sacas un 4, 5 o 6, descarta esta carta",
+    "reckoning": "Realiza una prueba de observación. Si fallas, dale la vuelta a esta carta",
+    "back": "Muchedumbre airada"
+  },
+  {
+    "name": "Buscado por la ley",
+    "categories": [
+      "pursuit"
+    ],
+    "type": "condition",
+    "expansion": "soc",
+    "front": "No puedes realizar acciones de adquirir Apoyos. Cuando realices una acción de viajar, puedes tirar 1 dado. Si sacas un 4, 5 o 6, descarta esta carta",
+    "reckoning": "Realiza una prueba de observación. Si fallas, dale la vuelta a esta carta",
+    "back": "Profugo"
+  },
+  {
+    "name": "Buscado por la ley",
+    "categories": [
+      "pursuit"
+    ],
+    "type": "condition",
+    "expansion": "soc",
+    "front": "No puedes realizar acciones de adquirir Apoyos. Cuando realices una acción de viajar, puedes tirar 1 dado. Si sacas un 4, 5 o 6, descarta esta carta",
+    "reckoning": "Realiza una prueba de observación. Si fallas, dale la vuelta a esta carta",
+    "back": "Registro"
+  },
+  {
+    "name": "Detenido",
+    "categories": [
+      "restriction"
+    ],
+    "type": "condition",
+    "expansion": "base",
+    "front": "No puedes moverte ni realizar acciones que no sean la accion de esta carta. En lugar de resolver un encuentro, dale la vuelta a esta carta. Acción local: Realiza una prueba de influencia. Si superas la prueba, descarta esta carta",
+    "back": "Calabozo"
+  },
+  {
+    "name": "Detenido",
+    "categories": [
+      "restriction"
+    ],
+    "type": "condition",
+    "expansion": "base",
+    "front": "No puedes moverte ni realizar acciones que no sean la accion de esta carta. En lugar de resolver un encuentro, dale la vuelta a esta carta. Acción local: Realiza una prueba de influencia. Si superas la prueba, descarta esta carta",
+    "back": "Inanición"
+  },
+  {
+    "name": "Detenido",
+    "categories": [
+      "restriction"
+    ],
+    "type": "condition",
+    "expansion": "mom",
+    "front": "No puedes moverte ni realizar acciones que no sean la accion de esta carta. En lugar de resolver un encuentro, dale la vuelta a esta carta. Acción local: Realiza una prueba de influencia. Si superas la prueba, descarta esta carta",
+    "back": "Semanas sin comer"
+  },
+  {
+    "name": "Detenido",
+    "categories": [
+      "restriction"
+    ],
+    "type": "condition",
+    "expansion": "base",
+    "front": "No puedes moverte ni realizar acciones que no sean la accion de esta carta. En lugar de resolver un encuentro, dale la vuelta a esta carta. Acción local: Realiza una prueba de influencia. Si superas la prueba, descarta esta carta",
+    "back": "Cruel e inusual"
+  },
+  {
+    "name": "Detenido",
+    "categories": [
+      "restriction"
+    ],
+    "type": "condition",
+    "expansion": "fl",
+    "front": "No puedes moverte ni realizar acciones que no sean la accion de esta carta. En lugar de resolver un encuentro, dale la vuelta a esta carta. Acción local: Realiza una prueba de influencia. Si superas la prueba, descarta esta carta",
+    "back": "Agua contaminada"
+  },
+  {
+    "name": "Perdido en el tiempo y el espacio",
+    "categories": [
+      "restriction"
+    ],
+    "type": "condition",
+    "expansion": "fl",
+    "front": "Retira tu ficha de Investigador del tablero de juego. No te ves afectado por otros efectos de juego y no puedes moverte ni realizar acciones. En lugar de resolver un encuentro dale la vuelta a esta carta",
+    "back": "Mundos extraños"
+  },
+  {
+    "name": "Perdido en el tiempo y el espacio",
+    "categories": [
+      "restriction"
+    ],
+    "type": "condition",
+    "expansion": "fl",
+    "front": "Retira tu ficha de Investigador del tablero de juego. No te ves afectado por otros efectos de juego y no puedes moverte ni realizar acciones. En lugar de resolver un encuentro dale la vuelta a esta carta",
+    "back": "Sustituido por otro"
+  },
+  {
+    "name": "Perdido en el tiempo y el espacio",
+    "categories": [
+      "restriction"
+    ],
+    "type": "condition",
+    "expansion": "fl",
+    "front": "Retira tu ficha de Investigador del tablero de juego. No te ves afectado por otros efectos de juego y no puedes moverte ni realizar acciones. En lugar de resolver un encuentro dale la vuelta a esta carta",
+    "back": "Guía desde el vacío"
+  },
+  {
+    "name": "Perdido en el tiempo y el espacio",
+    "categories": [
+      "restriction"
+    ],
+    "type": "condition",
+    "expansion": "fl",
+    "front": "Retira tu ficha de Investigador del tablero de juego. No te ves afectado por otros efectos de juego y no puedes moverte ni realizar acciones. En lugar de resolver un encuentro dale la vuelta a esta carta",
+    "back": "Masas de enjambres"
+  },
+  {
+    "name": "Hambre",
+    "categories": [
+      "madness"
+    ],
+    "type": "condition",
+    "expansion": "mom",
+    "front": "Cuando realices una accion de descansar, no puedes recuperar Cordura; tira 1 dado. Si sacas un 4, 5 o 6, descarta esta carta",
+    "reckoning": "Realiza una prueba de voluntad. Si fallas, dale la vuelta a esta carta",
+    "back": "Sed de sangre"
+  },
+  {
+    "name": "Hambre",
+    "categories": [
+      "madness"
+    ],
+    "type": "condition",
+    "expansion": "mom",
+    "front": "Cuando realices una accion de descansar, no puedes recuperar Cordura; tira 1 dado. Si sacas un 4, 5 o 6, descarta esta carta",
+    "reckoning": "Realiza una prueba de voluntad. Si fallas, dale la vuelta a esta carta",
+    "back": "Acaparamiento"
+  },
+  {
+    "name": "Hambre",
+    "categories": [
+      "madness"
+    ],
+    "type": "condition",
+    "expansion": "mom",
+    "front": "Cuando realices una accion de descansar, no puedes recuperar Cordura; tira 1 dado. Si sacas un 4, 5 o 6, descarta esta carta",
+    "reckoning": "Realiza una prueba de voluntad. Si fallas, dale la vuelta a esta carta",
+    "back": "Sed"
+  },
+  {
+    "name": "Hambre",
+    "categories": [
+      "madness"
+    ],
+    "type": "condition",
+    "expansion": "mom",
+    "front": "Cuando realices una accion de descansar, no puedes recuperar Cordura; tira 1 dado. Si sacas un 4, 5 o 6, descarta esta carta",
+    "reckoning": "Realiza una prueba de voluntad. Si fallas, dale la vuelta a esta carta",
+    "back": "Excesos"
+  },
+  {
+    "name": "Amnesia",
+    "categories": [
+      "madness"
+    ],
+    "type": "condition",
+    "expansion": "mom",
+    "front": "Cuando realices una accion de descansar, puedes tirar 1 dado. Si sacas un 5 o un 6, descarta esta carta",
+    "reckoning": "Realiza una prueba de voluntad. Si fallas, dale la vuelta a esta carta",
+    "back": "Peligro olvidado"
+  },
+  {
+    "name": "Amnesia",
+    "categories": [
+      "madness"
+    ],
+    "type": "condition",
+    "expansion": "base",
+    "front": "Cuando realices una accion de descansar, puedes tirar 1 dado. Si sacas un 5 o un 6, descarta esta carta",
+    "reckoning": "Realiza una prueba de voluntad. Si fallas, dale la vuelta a esta carta",
+    "back": "Deudas inexplicables"
+  },
+  {
+    "name": "Amnesia",
+    "categories": [
+      "madness"
+    ],
+    "type": "condition",
+    "expansion": "base",
+    "front": "Cuando realices una accion de descansar, puedes tirar 1 dado. Si sacas un 5 o un 6, descarta esta carta",
+    "reckoning": "Realiza una prueba de voluntad. Si fallas, dale la vuelta a esta carta",
+    "back": "Delitos olvidados"
+  },
+  {
+    "name": "Amnesia",
+    "categories": [
+      "madness"
+    ],
+    "type": "condition",
+    "expansion": "base",
+    "front": "Cuando realices una accion de descansar, puedes tirar 1 dado. Si sacas un 5 o un 6, descarta esta carta",
+    "reckoning": "Realiza una prueba de voluntad. Si fallas, dale la vuelta a esta carta",
+    "back": "La terrible verdad"
+  },
+  {
+    "name": "Amnesia",
+    "categories": [
+      "madness"
+    ],
+    "type": "condition",
+    "expansion": "fl",
+    "front": "Cuando realices una accion de descansar, puedes tirar 1 dado. Si sacas un 5 o un 6, descarta esta carta",
+    "reckoning": "Realiza una prueba de voluntad. Si fallas, dale la vuelta a esta carta",
+    "back": "Palabras prohibidas"
+  },
+  {
+    "name": "Alucinaciones",
+    "categories": [
+      "madness"
+    ],
+    "type": "condition",
+    "expansion": "base",
+    "front": "Cuando realices una accion de descansar, puedes tirar 1 dado. Si sacas un 5 o un 6, descarta esta carta",
+    "reckoning": "Realiza una prueba de voluntad. Si fallas, dale la vuelta a esta carta",
+    "back": "Las voces"
+  },
+  {
+    "name": "Alucinaciones",
+    "categories": [
+      "madness"
+    ],
+    "type": "condition",
+    "expansion": "fl",
+    "front": "Cuando realices una accion de descansar, puedes tirar 1 dado. Si sacas un 5 o un 6, descarta esta carta",
+    "reckoning": "Realiza una prueba de voluntad. Si fallas, dale la vuelta a esta carta",
+    "back": "Abducido"
+  },
+  {
+    "name": "Alucinaciones",
+    "categories": [
+      "madness"
+    ],
+    "type": "condition",
+    "expansion": "base",
+    "front": "Cuando realices una accion de descansar, puedes tirar 1 dado. Si sacas un 5 o un 6, descarta esta carta",
+    "reckoning": "Realiza una prueba de voluntad. Si fallas, dale la vuelta a esta carta",
+    "back": "Enjambre"
+  },
+  {
+    "name": "Alucinaciones",
+    "categories": [
+      "madness"
+    ],
+    "type": "condition",
+    "expansion": "base",
+    "front": "Cuando realices una accion de descansar, puedes tirar 1 dado. Si sacas un 5 o un 6, descarta esta carta",
+    "reckoning": "Realiza una prueba de voluntad. Si fallas, dale la vuelta a esta carta",
+    "back": "Delirios"
+  },
+  {
+    "name": "Paranoia",
+    "categories": [
+      "madness"
+    ],
+    "type": "condition",
+    "expansion": "base",
+    "front": "Cuando realices una accion de descansar, puedes tirar 1 dado. Si sacas un 5 o un 6, descarta esta carta",
+    "reckoning": "Realiza una prueba de voluntad. Si fallas, dale la vuelta a esta carta",
+    "back": "Estallidos violentos"
+  },
+  {
+    "name": "Paranoia",
+    "categories": [
+      "madness"
+    ],
+    "type": "condition",
+    "expansion": "base",
+    "front": "Cuando realices una accion de descansar, puedes tirar 1 dado. Si sacas un 5 o un 6, descarta esta carta",
+    "reckoning": "Realiza una prueba de voluntad. Si fallas, dale la vuelta a esta carta",
+    "back": "Agorafobia"
+  },
+  {
+    "name": "Paranoia",
+    "categories": [
+      "madness"
+    ],
+    "type": "condition",
+    "expansion": "base",
+    "front": "Cuando realices una accion de descansar, puedes tirar 1 dado. Si sacas un 5 o un 6, descarta esta carta",
+    "reckoning": "Realiza una prueba de voluntad. Si fallas, dale la vuelta a esta carta",
+    "back": "Cleptomania"
+  },
+  {
+    "name": "Paranoia",
+    "categories": [
+      "madness"
+    ],
+    "type": "condition",
+    "expansion": "fl",
+    "front": "Cuando realices una accion de descansar, puedes tirar 1 dado. Si sacas un 5 o un 6, descarta esta carta",
+    "reckoning": "Realiza una prueba de voluntad. Si fallas, dale la vuelta a esta carta",
+    "back": "Dudas Internas"
+  },
+  {
+    "name": "Cabeza herida",
+    "categories": [
+      "injury"
+    ],
+    "type": "condition",
+    "expansion": "sr",
+    "front": "Cuando realices una accion de descansar, no puedes recuperar Cordura; tira 1 dado. Si sacas un 4, 5 o 6, descarta esta carta",
+    "reckoning": "Realiza una prueba de fuerza. Si fallas, dale la vuelta a esta carta",
+    "back": "Dolor de cabeza infernal"
+  },
+  {
+    "name": "Cabeza herida",
+    "categories": [
+      "injury"
+    ],
+    "type": "condition",
+    "expansion": "sr",
+    "front": "Cuando realices una accion de descansar, no puedes recuperar Cordura; tira 1 dado. Si sacas un 4, 5 o 6, descarta esta carta",
+    "reckoning": "Realiza una prueba de fuerza. Si fallas, dale la vuelta a esta carta",
+    "back": "Conmoción"
+  },
+  {
+    "name": "Cabeza herida",
+    "categories": [
+      "injury"
+    ],
+    "type": "condition",
+    "expansion": "sr",
+    "front": "Cuando realices una accion de descansar, no puedes recuperar Cordura; tira 1 dado. Si sacas un 4, 5 o 6, descarta esta carta",
+    "reckoning": "Realiza una prueba de fuerza. Si fallas, dale la vuelta a esta carta",
+    "back": "Aneurisma cerebral"
+  },
+  {
+    "name": "Cabeza herida",
+    "categories": [
+      "injury"
+    ],
+    "type": "condition",
+    "expansion": "sr",
+    "front": "Cuando realices una accion de descansar, no puedes recuperar Cordura; tira 1 dado. Si sacas un 4, 5 o 6, descarta esta carta",
+    "reckoning": "Realiza una prueba de fuerza. Si fallas, dale la vuelta a esta carta",
+    "back": "Daño cerebral"
+  },
+  {
+    "name": "Pierna herida",
+    "categories": [
+      "injury"
+    ],
+    "type": "condition",
+    "expansion": "base",
+    "front": "Cuando realices una accion de descansar, puedes tirar 1 dado. Si sacas un 5 o un 6, descarta esta carta",
+    "reckoning": "Realiza una prueba de fuerza. Si fallas, dale la vuelta a esta carta",
+    "back": "Dolor punzante"
+  },
+  {
+    "name": "Pierna herida",
+    "categories": [
+      "injury"
+    ],
+    "type": "condition",
+    "expansion": "base",
+    "front": "Cuando realices una accion de descansar, puedes tirar 1 dado. Si sacas un 5 o un 6, descarta esta carta",
+    "reckoning": "Realiza una prueba de fuerza. Si fallas, dale la vuelta a esta carta",
+    "back": "Remedio extraño"
+  },
+  {
+    "name": "Pierna herida",
+    "categories": [
+      "injury"
+    ],
+    "type": "condition",
+    "expansion": "base",
+    "front": "Cuando realices una accion de descansar, puedes tirar 1 dado. Si sacas un 5 o un 6, descarta esta carta",
+    "reckoning": "Realiza una prueba de fuerza. Si fallas, dale la vuelta a esta carta",
+    "back": "Rodilla dislocada"
+  },
+  {
+    "name": "Pierna herida",
+    "categories": [
+      "injury"
+    ],
+    "type": "condition",
+    "expansion": "sr",
+    "front": "Cuando realices una accion de descansar, puedes tirar 1 dado. Si sacas un 5 o un 6, descarta esta carta",
+    "reckoning": "Realiza una prueba de fuerza. Si fallas, dale la vuelta a esta carta",
+    "back": "Herida infectada"
+  },
+  {
+    "name": "Espalda herida",
+    "categories": [
+      "injury"
+    ],
+    "type": "condition",
+    "expansion": "base",
+    "front": "Cuando realices una accion de descansar, puedes tirar 1 dado. Si sacas un 5 o un 6, descarta esta carta",
+    "reckoning": "Realiza una prueba de fuerza. Si fallas, dale la vuelta a esta carta",
+    "back": "Vertebra fracturada"
+  },
+  {
+    "name": "Espalda herida",
+    "categories": [
+      "injury"
+    ],
+    "type": "condition",
+    "expansion": "base",
+    "front": "Cuando realices una accion de descansar, puedes tirar 1 dado. Si sacas un 5 o un 6, descarta esta carta",
+    "reckoning": "Realiza una prueba de fuerza. Si fallas, dale la vuelta a esta carta",
+    "back": "Espasmos musculares"
+  },
+  {
+    "name": "Espalda herida",
+    "categories": [
+      "injury"
+    ],
+    "type": "condition",
+    "expansion": "base",
+    "front": "Cuando realices una accion de descansar, puedes tirar 1 dado. Si sacas un 5 o un 6, descarta esta carta",
+    "reckoning": "Realiza una prueba de fuerza. Si fallas, dale la vuelta a esta carta",
+    "back": "Daño neural"
+  },
+  {
+    "name": "Heridas internas",
+    "categories": [
+      "injury"
+    ],
+    "type": "condition",
+    "expansion": "base",
+    "front": "Cuando realices una accion de descansar, puedes tirar 1 dado. Si sacas un 5 o un 6, descarta esta carta",
+    "reckoning": "Realiza una prueba de fuerza. Si fallas, dale la vuelta a esta carta",
+    "back": "Dolor insoportable"
+  },
+  {
+    "name": "Heridas internas",
+    "categories": [
+      "injury"
+    ],
+    "type": "condition",
+    "expansion": "mom",
+    "front": "Cuando realices una accion de descansar, puedes tirar 1 dado. Si sacas un 5 o un 6, descarta esta carta",
+    "reckoning": "Realiza una prueba de fuerza. Si fallas, dale la vuelta a esta carta",
+    "back": "Perdida de sangre"
+  },
+  {
+    "name": "Heridas internas",
+    "categories": [
+      "injury"
+    ],
+    "type": "condition",
+    "expansion": "fl",
+    "front": "Cuando realices una accion de descansar, puedes tirar 1 dado. Si sacas un 5 o un 6, descarta esta carta",
+    "reckoning": "Realiza una prueba de fuerza. Si fallas, dale la vuelta a esta carta",
+    "back": "Salud deteriorada"
+  },
+  {
+    "name": "Heridas internas",
+    "categories": [
+      "injury"
+    ],
+    "type": "condition",
+    "expansion": "base",
+    "front": "Cuando realices una accion de descansar, puedes tirar 1 dado. Si sacas un 5 o un 6, descarta esta carta",
+    "reckoning": "Realiza una prueba de fuerza. Si fallas, dale la vuelta a esta carta",
+    "back": "Costilla rota"
+  }
+]

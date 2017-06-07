@@ -1,0 +1,946 @@
+[
+  {
+    "name": "Voz de Ra",
+    "categories": [
+      "glamour"
+    ],
+    "type": "spell",
+    "expansion": "sr",
+    "front": "Una vez por ronda, durante la fase de Acción, puedes gastar 1 punto de Salud y 1 punto de Cordura para realizar 1 acción adicional",
+    "reckoning": "Realiza una prueba de saber y dale la vuelta a esta carta",
+    "number": 1
+  },
+  {
+    "name": "Voz de Ra",
+    "categories": [
+      "glamour"
+    ],
+    "type": "spell",
+    "expansion": "sr",
+    "front": "Una vez por ronda, durante la fase de Acción, puedes gastar 1 punto de Salud y 1 punto de Cordura para realizar 1 acción adicional",
+    "reckoning": "Realiza una prueba de saber y dale la vuelta a esta carta",
+    "number": 2
+  },
+  {
+    "name": "Voz de Ra",
+    "categories": [
+      "glamour"
+    ],
+    "type": "spell",
+    "expansion": "sr",
+    "front": "Una vez por ronda, durante la fase de Acción, puedes gastar 1 punto de Salud y 1 punto de Cordura para realizar 1 acción adicional",
+    "reckoning": "Realiza una prueba de saber y dale la vuelta a esta carta",
+    "number": 3
+  },
+  {
+    "name": "Voz de Ra",
+    "categories": [
+      "glamour"
+    ],
+    "type": "spell",
+    "expansion": "sr",
+    "front": "Una vez por ronda, durante la fase de Acción, puedes gastar 1 punto de Salud y 1 punto de Cordura para realizar 1 acción adicional",
+    "reckoning": "Realiza una prueba de saber y dale la vuelta a esta carta",
+    "number": 4
+  },
+  {
+    "name": "Marcas de Isis",
+    "categories": [
+      "glamour"
+    ],
+    "type": "spell",
+    "expansion": "sr",
+    "front": "Obten +1 a todas las habilidades. Una vez por ronda, puedes volver a tirar 1 dado para resolver una prueba",
+    "reckoning": "Realiza una prueba de saber -1 y dale la vuelta a esta carta",
+    "number": 1
+  },
+  {
+    "name": "Marcas de Isis",
+    "categories": [
+      "glamour"
+    ],
+    "type": "spell",
+    "expansion": "sr",
+    "front": "Obten +1 a todas las habilidades. Una vez por ronda, puedes volver a tirar 1 dado para resolver una prueba",
+    "reckoning": "Realiza una prueba de saber -1 y dale la vuelta a esta carta",
+    "number": 2
+  },
+  {
+    "name": "Marcas de Isis",
+    "categories": [
+      "glamour"
+    ],
+    "type": "spell",
+    "expansion": "sr",
+    "front": "Obten +1 a todas las habilidades. Una vez por ronda, puedes volver a tirar 1 dado para resolver una prueba",
+    "reckoning": "Realiza una prueba de saber -1 y dale la vuelta a esta carta",
+    "number": 3
+  },
+  {
+    "name": "Marcas de Isis",
+    "categories": [
+      "glamour"
+    ],
+    "type": "spell",
+    "expansion": "sr",
+    "front": "Obten +1 a todas las habilidades. Una vez por ronda, puedes volver a tirar 1 dado para resolver una prueba",
+    "reckoning": "Realiza una prueba de saber -1 y dale la vuelta a esta carta",
+    "number": 4
+  },
+  {
+    "name": "Percepción mental",
+    "categories": [
+      "glamour"
+    ],
+    "type": "spell",
+    "expansion": "soc",
+    "front": "Puedes volver a tirar 1 dado al resolver una prueba de influencia o de voluntad",
+    "reckoning": "Realiza una prueba de saber y dale la vuelta a esta carta",
+    "number": 1
+  },
+  {
+    "name": "Percepción mental",
+    "categories": [
+      "glamour"
+    ],
+    "type": "spell",
+    "expansion": "soc",
+    "front": "Puedes volver a tirar 1 dado al resolver una prueba de influencia o de voluntad",
+    "reckoning": "Realiza una prueba de saber y dale la vuelta a esta carta",
+    "number": 2
+  },
+  {
+    "name": "Percepción mental",
+    "categories": [
+      "glamour"
+    ],
+    "type": "spell",
+    "expansion": "soc",
+    "front": "Puedes volver a tirar 1 dado al resolver una prueba de influencia o de voluntad",
+    "reckoning": "Realiza una prueba de saber y dale la vuelta a esta carta",
+    "number": 3
+  },
+  {
+    "name": "Percepción mental",
+    "categories": [
+      "glamour"
+    ],
+    "type": "spell",
+    "expansion": "soc",
+    "front": "Puedes volver a tirar 1 dado al resolver una prueba de influencia o de voluntad",
+    "reckoning": "Realiza una prueba de saber y dale la vuelta a esta carta",
+    "number": 4
+  },
+  {
+    "name": "Viaje astral",
+    "categories": [
+      "glamour"
+    ],
+    "type": "spell",
+    "expansion": "sr",
+    "front": "Cuando realices una accion de viajar, puedes gastar 1 punto de Cordura para moverte 1 casilla adicional por cualquier ruta",
+    "reckoning": "Realiza una prueba de saber y dale la vuelta a esta carta",
+    "number": 1
+  },
+  {
+    "name": "Viaje astral",
+    "categories": [
+      "glamour"
+    ],
+    "type": "spell",
+    "expansion": "sr",
+    "front": "Cuando realices una accion de viajar, puedes gastar 1 punto de Cordura para moverte 1 casilla adicional por cualquier ruta",
+    "reckoning": "Realiza una prueba de saber y dale la vuelta a esta carta",
+    "number": 2
+  },
+  {
+    "name": "Viaje astral",
+    "categories": [
+      "glamour"
+    ],
+    "type": "spell",
+    "expansion": "sr",
+    "front": "Cuando realices una accion de viajar, puedes gastar 1 punto de Cordura para moverte 1 casilla adicional por cualquier ruta",
+    "reckoning": "Realiza una prueba de saber y dale la vuelta a esta carta",
+    "number": 3
+  },
+  {
+    "name": "Viaje astral",
+    "categories": [
+      "glamour"
+    ],
+    "type": "spell",
+    "expansion": "sr",
+    "front": "Cuando realices una accion de viajar, puedes gastar 1 punto de Cordura para moverte 1 casilla adicional por cualquier ruta",
+    "reckoning": "Realiza una prueba de saber y dale la vuelta a esta carta",
+    "number": 4
+  },
+  {
+    "name": "Llama azul",
+    "categories": [
+      "glamour"
+    ],
+    "type": "spell",
+    "expansion": "sr",
+    "front": "Cada 6 que saques al resolver una prueba de fuerza durante un Encuentro de Combate cuenta como 2 exitos",
+    "reckoning": "Realiza una prueba de saber y dale la vuelta a esta carta",
+    "number": 1
+  },
+  {
+    "name": "Llama azul",
+    "categories": [
+      "glamour"
+    ],
+    "type": "spell",
+    "expansion": "sr",
+    "front": "Cada 6 que saques al resolver una prueba de fuerza durante un Encuentro de Combate cuenta como 2 exitos",
+    "reckoning": "Realiza una prueba de saber y dale la vuelta a esta carta",
+    "number": 2
+  },
+  {
+    "name": "Llama azul",
+    "categories": [
+      "glamour"
+    ],
+    "type": "spell",
+    "expansion": "sr",
+    "front": "Cada 6 que saques al resolver una prueba de fuerza durante un Encuentro de Combate cuenta como 2 exitos",
+    "reckoning": "Realiza una prueba de saber y dale la vuelta a esta carta",
+    "number": 3
+  },
+  {
+    "name": "Llama azul",
+    "categories": [
+      "glamour"
+    ],
+    "type": "spell",
+    "expansion": "sr",
+    "front": "Cada 6 que saques al resolver una prueba de fuerza durante un Encuentro de Combate cuenta como 2 exitos",
+    "reckoning": "Realiza una prueba de saber y dale la vuelta a esta carta",
+    "number": 4
+  },
+  {
+    "name": "Atadura",
+    "categories": [
+      "incantation"
+    ],
+    "type": "spell",
+    "expansion": "soc",
+    "front": "Cuando tú u otro investigador que esté en cualquier casilla resolváis un Encuentro de Combate, puedes realizar una prueba de saber. Si la superas, reduce el daño de ese Monstruo a 1 durante ese encuentro. A continuación, dale la vuelta a esta carta",
+    "number": 1
+  },
+  {
+    "name": "Atadura",
+    "categories": [
+      "incantation"
+    ],
+    "type": "spell",
+    "expansion": "soc",
+    "front": "Cuando tú u otro investigador que esté en cualquier casilla resolváis un Encuentro de Combate, puedes realizar una prueba de saber. Si la superas, reduce el daño de ese Monstruo a 1 durante ese encuentro. A continuación, dale la vuelta a esta carta",
+    "number": 2
+  },
+  {
+    "name": "Atadura",
+    "categories": [
+      "incantation"
+    ],
+    "type": "spell",
+    "expansion": "soc",
+    "front": "Cuando tú u otro investigador que esté en cualquier casilla resolváis un Encuentro de Combate, puedes realizar una prueba de saber. Si la superas, reduce el daño de ese Monstruo a 1 durante ese encuentro. A continuación, dale la vuelta a esta carta",
+    "number": 3
+  },
+  {
+    "name": "Atadura",
+    "categories": [
+      "incantation"
+    ],
+    "type": "spell",
+    "expansion": "soc",
+    "front": "Cuando tú u otro investigador que esté en cualquier casilla resolváis un Encuentro de Combate, puedes realizar una prueba de saber. Si la superas, reduce el daño de ese Monstruo a 1 durante ese encuentro. A continuación, dale la vuelta a esta carta",
+    "number": 4
+  },
+  {
+    "name": "Intervención",
+    "categories": [
+      "incantation",
+      "teamwork"
+    ],
+    "type": "spell",
+    "expansion": "mom",
+    "front": "Cuando otro investigador resuelva un Encuentro de Combate, puedes realizar una prueba de saber. Si superas la prueba, ese investigador obtiene +3 fuerza durante ese encuentro. A continuación, dale la vuelta a esta carta",
+    "number": 1
+  },
+  {
+    "name": "Intervención",
+    "categories": [
+      "incantation",
+      "teamwork"
+    ],
+    "type": "spell",
+    "expansion": "mom",
+    "front": "Cuando otro investigador resuelva un Encuentro de Combate, puedes realizar una prueba de saber. Si superas la prueba, ese investigador obtiene +3 fuerza durante ese encuentro. A continuación, dale la vuelta a esta carta",
+    "number": 2
+  },
+  {
+    "name": "Intervención",
+    "categories": [
+      "incantation",
+      "teamwork"
+    ],
+    "type": "spell",
+    "expansion": "mom",
+    "front": "Cuando otro investigador resuelva un Encuentro de Combate, puedes realizar una prueba de saber. Si superas la prueba, ese investigador obtiene +3 fuerza durante ese encuentro. A continuación, dale la vuelta a esta carta",
+    "number": 3
+  },
+  {
+    "name": "Intervención",
+    "categories": [
+      "incantation",
+      "teamwork"
+    ],
+    "type": "spell",
+    "expansion": "mom",
+    "front": "Cuando otro investigador resuelva un Encuentro de Combate, puedes realizar una prueba de saber. Si superas la prueba, ese investigador obtiene +3 fuerza durante ese encuentro. A continuación, dale la vuelta a esta carta",
+    "number": 4
+  },
+  {
+    "name": "Protección corporal",
+    "categories": [
+      "incantation"
+    ],
+    "type": "spell",
+    "expansion": "base",
+    "front": "Una vez por ronda, cuando un investigador fuese a perder Salud, puedes realizar una prueba de saber. Si superas la prue ba, previenes que ese investigador pierda un máximo de 2 puntos de Salud. A continuación, dale la vuelta a esta carta",
+    "number": 1
+  },
+  {
+    "name": "Protección corporal",
+    "categories": [
+      "incantation"
+    ],
+    "type": "spell",
+    "expansion": "base",
+    "front": "Una vez por ronda, cuando un investigador fuese a perder Salud, puedes realizar una prueba de saber. Si superas la prue ba, previenes que ese investigador pierda un máximo de 2 puntos de Salud. A continuación, dale la vuelta a esta carta",
+    "number": 2
+  },
+  {
+    "name": "Protección corporal",
+    "categories": [
+      "incantation"
+    ],
+    "type": "spell",
+    "expansion": "fl",
+    "front": "Una vez por ronda, cuando un investigador fuese a perder Salud, puedes realizar una prueba de saber. Si superas la prue ba, previenes que ese investigador pierda un máximo de 2 puntos de Salud. A continuación, dale la vuelta a esta carta",
+    "number": 3
+  },
+  {
+    "name": "Protección corporal",
+    "categories": [
+      "incantation"
+    ],
+    "type": "spell",
+    "expansion": "fl",
+    "front": "Una vez por ronda, cuando un investigador fuese a perder Salud, puedes realizar una prueba de saber. Si superas la prue ba, previenes que ese investigador pierda un máximo de 2 puntos de Salud. A continuación, dale la vuelta a esta carta",
+    "number": 4
+  },
+  {
+    "name": "Niebla de Releh",
+    "categories": [
+      "incantation"
+    ],
+    "type": "spell",
+    "expansion": "base",
+    "front": "Durante la fase de Encuentros, puedes realizar una prueba de saber. Si superas la prueba, puedes elegir resolver un encuentro como si no hubiera Monstruos en esta casilla. A continuación, dale la vuelta a esta carta",
+    "number": 1
+  },
+  {
+    "name": "Niebla de Releh",
+    "categories": [
+      "incantation"
+    ],
+    "type": "spell",
+    "expansion": "base",
+    "front": "Durante la fase de Encuentros, puedes realizar una prueba de saber. Si superas la prueba, puedes elegir resolver un encuentro como si no hubiera Monstruos en esta casilla. A continuación, dale la vuelta a esta carta",
+    "number": 2
+  },
+  {
+    "name": "Niebla de Releh",
+    "categories": [
+      "incantation"
+    ],
+    "type": "spell",
+    "expansion": "fl",
+    "front": "Durante la fase de Encuentros, puedes realizar una prueba de saber. Si superas la prueba, puedes elegir resolver un encuentro como si no hubiera Monstruos en esta casilla. A continuación, dale la vuelta a esta carta",
+    "number": 3
+  },
+  {
+    "name": "Niebla de Releh",
+    "categories": [
+      "incantation"
+    ],
+    "type": "spell",
+    "expansion": "fl",
+    "front": "Durante la fase de Encuentros, puedes realizar una prueba de saber. Si superas la prueba, puedes elegir resolver un encuentro como si no hubiera Monstruos en esta casilla. A continuación, dale la vuelta a esta carta",
+    "number": 4
+  },
+  {
+    "name": "Clarividencia",
+    "categories": [
+      "incantation"
+    ],
+    "type": "spell",
+    "expansion": "base",
+    "front": "Durante la fase de Encuentros, puedes realizar una prueba de saber. Si superas la prueba, puedes elegir resolver un encuentro con una Pista como si estuvieras en esa casilla, ignorando cualquier Monstruo que haya en ella. A continuación, dale la vuelta a esta carta",
+    "number": 1
+  },
+  {
+    "name": "Clarividencia",
+    "categories": [
+      "incantation"
+    ],
+    "type": "spell",
+    "expansion": "base",
+    "front": "Durante la fase de Encuentros, puedes realizar una prueba de saber. Si superas la prueba, puedes elegir resolver un encuentro con una Pista como si estuvieras en esa casilla, ignorando cualquier Monstruo que haya en ella. A continuación, dale la vuelta a esta carta",
+    "number": 2
+  },
+  {
+    "name": "Clarividencia",
+    "categories": [
+      "incantation"
+    ],
+    "type": "spell",
+    "expansion": "fl",
+    "front": "Durante la fase de Encuentros, puedes realizar una prueba de saber. Si superas la prueba, puedes elegir resolver un encuentro con una Pista como si estuvieras en esa casilla, ignorando cualquier Monstruo que haya en ella. A continuación, dale la vuelta a esta carta",
+    "number": 3
+  },
+  {
+    "name": "Clarividencia",
+    "categories": [
+      "incantation"
+    ],
+    "type": "spell",
+    "expansion": "fl",
+    "front": "Durante la fase de Encuentros, puedes realizar una prueba de saber. Si superas la prueba, puedes elegir resolver un encuentro con una Pista como si estuvieras en esa casilla, ignorando cualquier Monstruo que haya en ella. A continuación, dale la vuelta a esta carta",
+    "number": 4
+  },
+  {
+    "name": "Tormenta de espiritus",
+    "categories": [
+      "incantation"
+    ],
+    "type": "spell",
+    "expansion": "mom",
+    "front": "Al resolver un Encuentro de Combate, puedes resolver una prueba de sab er en lugar de la prueba de fuerza, usando el mismo modificador de la prueba. Si lo haces, dale la vuelta a esta carta",
+    "number": 1
+  },
+  {
+    "name": "Tormenta de espiritus",
+    "categories": [
+      "incantation"
+    ],
+    "type": "spell",
+    "expansion": "mom",
+    "front": "Al resolver un Encuentro de Combate, puedes resolver una prueba de sab er en lugar de la prueba de fuerza, usando el mismo modificador de la prueba. Si lo haces, dale la vuelta a esta carta",
+    "number": 2
+  },
+  {
+    "name": "Tormenta de espiritus",
+    "categories": [
+      "incantation"
+    ],
+    "type": "spell",
+    "expansion": "mom",
+    "front": "Al resolver un Encuentro de Combate, puedes resolver una prueba de sab er en lugar de la prueba de fuerza, usando el mismo modificador de la prueba. Si lo haces, dale la vuelta a esta carta",
+    "number": 3
+  },
+  {
+    "name": "Tormenta de espiritus",
+    "categories": [
+      "incantation"
+    ],
+    "type": "spell",
+    "expansion": "mom",
+    "front": "Al resolver un Encuentro de Combate, puedes resolver una prueba de sab er en lugar de la prueba de fuerza, usando el mismo modificador de la prueba. Si lo haces, dale la vuelta a esta carta",
+    "number": 4
+  },
+  {
+    "name": "Palabras curativas",
+    "categories": [
+      "incantation"
+    ],
+    "type": "spell",
+    "expansion": "fl",
+    "front": "Cuando un investigador que esté en tu casilla realice una acción de descansar, puedes realizar una prueba de saber. Si superas la prueba, este investigador recupera 1 punto adicional de Salud y 1 punto adicional de Cordura. A continuación, dale la vuelta a esta carta",
+    "number": 1
+  },
+  {
+    "name": "Palabras curativas",
+    "categories": [
+      "incantation"
+    ],
+    "type": "spell",
+    "expansion": "fl",
+    "front": "Cuando un investigador que esté en tu casilla realice una acción de descansar, puedes realizar una prueba de saber. Si superas la prueba, este investigador recupera 1 punto adicional de Salud y 1 punto adicional de Cordura. A continuación, dale la vuelta a esta carta",
+    "number": 2
+  },
+  {
+    "name": "Palabras curativas",
+    "categories": [
+      "incantation"
+    ],
+    "type": "spell",
+    "expansion": "fl",
+    "front": "Cuando un investigador que esté en tu casilla realice una acción de descansar, puedes realizar una prueba de saber. Si superas la prueba, este investigador recupera 1 punto adicional de Salud y 1 punto adicional de Cordura. A continuación, dale la vuelta a esta carta",
+    "number": 3
+  },
+  {
+    "name": "Palabras curativas",
+    "categories": [
+      "incantation"
+    ],
+    "type": "spell",
+    "expansion": "fl",
+    "front": "Cuando un investigador que esté en tu casilla realice una acción de descansar, puedes realizar una prueba de saber. Si superas la prueba, este investigador recupera 1 punto adicional de Salud y 1 punto adicional de Cordura. A continuación, dale la vuelta a esta carta",
+    "number": 4
+  },
+  {
+    "name": "Inspirar valor",
+    "categories": [
+      "incantation"
+    ],
+    "type": "spell",
+    "expansion": "base",
+    "front": "Una vez por ronda, cuando un investigador fuese a perder Cordura, puedes realizar una prueba de saber. Si superas la prueba, previenes que ese investigador pierda un máximo de 2 puntos de Cordura. A continuación, dale la vuelta a esta carta",
+    "number": 1
+  },
+  {
+    "name": "Inspirar valor",
+    "categories": [
+      "incantation"
+    ],
+    "type": "spell",
+    "expansion": "base",
+    "front": "Una vez por ronda, cuando un investigador fuese a perder Cordura, puedes realizar una prueba de saber. Si superas la prueba, previenes que ese investigador pierda un máximo de 2 puntos de Cordura. A continuación, dale la vuelta a esta carta",
+    "number": 2
+  },
+  {
+    "name": "Inspirar valor",
+    "categories": [
+      "incantation"
+    ],
+    "type": "spell",
+    "expansion": "base",
+    "front": "Una vez por ronda, cuando un investigador fuese a perder Cordura, puedes realizar una prueba de saber. Si superas la prueba, previenes que ese investigador pierda un máximo de 2 puntos de Cordura. A continuación, dale la vuelta a esta carta",
+    "number": 3
+  },
+  {
+    "name": "Inspirar valor",
+    "categories": [
+      "incantation"
+    ],
+    "type": "spell",
+    "expansion": "base",
+    "front": "Una vez por ronda, cuando un investigador fuese a perder Cordura, puedes realizar una prueba de saber. Si superas la prueba, previenes que ese investigador pierda un máximo de 2 puntos de Cordura. A continuación, dale la vuelta a esta carta",
+    "number": 4
+  },
+  {
+    "name": "Ajar",
+    "categories": [
+      "incantation"
+    ],
+    "type": "spell",
+    "expansion": "base",
+    "front": "Cuando resuelvas un Encuentro de Combate, puedes realizar una prueba de saber. Si superas la prueba, obtén +3 fuerza durante ese encuentro. A continuación, dale la vuelta a esta carta",
+    "number": 1
+  },
+  {
+    "name": "Ajar",
+    "categories": [
+      "incantation"
+    ],
+    "type": "spell",
+    "expansion": "base",
+    "front": "Cuando resuelvas un Encuentro de Combate, puedes realizar una prueba de saber. Si superas la prueba, obtén +3 fuerza durante ese encuentro. A continuación, dale la vuelta a esta carta",
+    "number": 2
+  },
+  {
+    "name": "Ajar",
+    "categories": [
+      "incantation"
+    ],
+    "type": "spell",
+    "expansion": "fl",
+    "front": "Cuando resuelvas un Encuentro de Combate, puedes realizar una prueba de saber. Si superas la prueba, obtén +3 fuerza durante ese encuentro. A continuación, dale la vuelta a esta carta",
+    "number": 3
+  },
+  {
+    "name": "Ajar",
+    "categories": [
+      "incantation"
+    ],
+    "type": "spell",
+    "expansion": "fl",
+    "front": "Cuando resuelvas un Encuentro de Combate, puedes realizar una prueba de saber. Si superas la prueba, obtén +3 fuerza durante ese encuentro. A continuación, dale la vuelta a esta carta",
+    "number": 4
+  },
+  {
+    "name": "Destierro",
+    "categories": [
+      "ritual"
+    ],
+    "type": "spell",
+    "expansion": "mom",
+    "front": "Acción: Realiza una prueba de saber +2. Si superas la prueba, descarta 1 Monstruo que esté en la casilla más cercana que contenga un Portal y que tenga fortaliza igual o menor a tu resultado de la prueba. A continuación, dale la vuelta a esta carta",
+    "number": 1
+  },
+  {
+    "name": "Destierro",
+    "categories": [
+      "ritual"
+    ],
+    "type": "spell",
+    "expansion": "mom",
+    "front": "Acción: Realiza una prueba de saber +2. Si superas la prueba, descarta 1 Monstruo que esté en la casilla más cercana que contenga un Portal y que tenga fortaliza igual o menor a tu resultado de la prueba. A continuación, dale la vuelta a esta carta",
+    "number": 2
+  },
+  {
+    "name": "Destierro",
+    "categories": [
+      "ritual"
+    ],
+    "type": "spell",
+    "expansion": "mom",
+    "front": "Acción: Realiza una prueba de saber +2. Si superas la prueba, descarta 1 Monstruo que esté en la casilla más cercana que contenga un Portal y que tenga fortaliza igual o menor a tu resultado de la prueba. A continuación, dale la vuelta a esta carta",
+    "number": 3
+  },
+  {
+    "name": "Destierro",
+    "categories": [
+      "ritual"
+    ],
+    "type": "spell",
+    "expansion": "mom",
+    "front": "Acción: Realiza una prueba de saber +2. Si superas la prueba, descarta 1 Monstruo que esté en la casilla más cercana que contenga un Portal y que tenga fortaliza igual o menor a tu resultado de la prueba. A continuación, dale la vuelta a esta carta",
+    "number": 4
+  },
+  {
+    "name": "Convocar byakhee",
+    "categories": [
+      "ritual"
+    ],
+    "type": "spell",
+    "expansion": "soc",
+    "front": "Acción: Realiza una prueba de saber. Si superas la prueba, muévete a una casilla de tu elección que esté a 2 casillas o menos. A continuación, dale la vuelta a esta carta",
+    "number": 1
+  },
+  {
+    "name": "Convocar byakhee",
+    "categories": [
+      "ritual"
+    ],
+    "type": "spell",
+    "expansion": "soc",
+    "front": "Acción: Realiza una prueba de saber. Si superas la prueba, muévete a una casilla de tu elección que esté a 2 casillas o menos. A continuación, dale la vuelta a esta carta",
+    "number": 2
+  },
+  {
+    "name": "Convocar byakhee",
+    "categories": [
+      "ritual"
+    ],
+    "type": "spell",
+    "expansion": "soc",
+    "front": "Acción: Realiza una prueba de saber. Si superas la prueba, muévete a una casilla de tu elección que esté a 2 casillas o menos. A continuación, dale la vuelta a esta carta",
+    "number": 3
+  },
+  {
+    "name": "Convocar byakhee",
+    "categories": [
+      "ritual"
+    ],
+    "type": "spell",
+    "expansion": "soc",
+    "front": "Acción: Realiza una prueba de saber. Si superas la prueba, muévete a una casilla de tu elección que esté a 2 casillas o menos. A continuación, dale la vuelta a esta carta",
+    "number": 4
+  },
+  {
+    "name": "Bendición de Isis",
+    "categories": [
+      "ritual"
+    ],
+    "type": "spell",
+    "expansion": "base",
+    "front": "Acción: Elige un investigador que esté en tu casilla y que no tenga el Estado Bendecido. Realiza una prueba de saber -1. Si superas la prueba, el investigador elegido obtiene el Estado Bendecido. A continuación, dale la vuelta a esta carta",
+    "number": 1
+  },
+  {
+    "name": "Bendición de Isis",
+    "categories": [
+      "ritual"
+    ],
+    "type": "spell",
+    "expansion": "base",
+    "front": "Acción: Elige un investigador que esté en tu casilla y que no tenga el Estado Bendecido. Realiza una prueba de saber -1. Si superas la prueba, el investigador elegido obtiene el Estado Bendecido. A continuación, dale la vuelta a esta carta",
+    "number": 2
+  },
+  {
+    "name": "Bendición de Isis",
+    "categories": [
+      "ritual"
+    ],
+    "type": "spell",
+    "expansion": "fl",
+    "front": "Acción: Elige un investigador que esté en tu casilla y que no tenga el Estado Bendecido. Realiza una prueba de saber -1. Si superas la prueba, el investigador elegido obtiene el Estado Bendecido. A continuación, dale la vuelta a esta carta",
+    "number": 3
+  },
+  {
+    "name": "Bendición de Isis",
+    "categories": [
+      "ritual"
+    ],
+    "type": "spell",
+    "expansion": "fl",
+    "front": "Acción: Elige un investigador que esté en tu casilla y que no tenga el Estado Bendecido. Realiza una prueba de saber -1. Si superas la prueba, el investigador elegido obtiene el Estado Bendecido. A continuación, dale la vuelta a esta carta",
+    "number": 4
+  },
+  {
+    "name": "Inspiración arcana",
+    "categories": [
+      "ritual"
+    ],
+    "type": "spell",
+    "expansion": "mom",
+    "front": "Acción: Eligete a ti mismo o a otro investigador que esté en cualquier casilla y realiza una prueba de saber -2; lanza 1 dado adicional por cada pertenencia Tomo que tengas. Si superas la prueba, ese investigador obtiene 1 Pista. A continuación, dale la vuelta a esta carta",
+    "number": 1
+  },
+  {
+    "name": "Inspiración arcana",
+    "categories": [
+      "ritual"
+    ],
+    "type": "spell",
+    "expansion": "mom",
+    "front": "Acción: Eligete a ti mismo o a otro investigador que esté en cualquier casilla y realiza una prueba de saber -2; lanza 1 dado adicional por cada pertenencia Tomo que tengas. Si superas la prueba, ese investigador obtiene 1 Pista. A continuación, dale la vuelta a esta carta",
+    "number": 2
+  },
+  {
+    "name": "Inspiración arcana",
+    "categories": [
+      "ritual"
+    ],
+    "type": "spell",
+    "expansion": "mom",
+    "front": "Acción: Eligete a ti mismo o a otro investigador que esté en cualquier casilla y realiza una prueba de saber -2; lanza 1 dado adicional por cada pertenencia Tomo que tengas. Si superas la prueba, ese investigador obtiene 1 Pista. A continuación, dale la vuelta a esta carta",
+    "number": 3
+  },
+  {
+    "name": "Inspiración arcana",
+    "categories": [
+      "ritual"
+    ],
+    "type": "spell",
+    "expansion": "mom",
+    "front": "Acción: Eligete a ti mismo o a otro investigador que esté en cualquier casilla y realiza una prueba de saber -2; lanza 1 dado adicional por cada pertenencia Tomo que tengas. Si superas la prueba, ese investigador obtiene 1 Pista. A continuación, dale la vuelta a esta carta",
+    "number": 4
+  },
+  {
+    "name": "Surcar el vacio",
+    "categories": [
+      "ritual"
+    ],
+    "type": "spell",
+    "expansion": "base",
+    "front": "Acción: Elige un investigador que esté en cualquier casilla y realiza una prueba de saber -1. Si superas la prueba, el investigador elegido puede moverse a una casilla de su elección. A continuación, dale la vuelta a esta carta",
+    "number": 1
+  },
+  {
+    "name": "Surcar el vacio",
+    "categories": [
+      "ritual"
+    ],
+    "type": "spell",
+    "expansion": "base",
+    "front": "Acción: Elige un investigador que esté en cualquier casilla y realiza una prueba de saber -1. Si superas la prueba, el investigador elegido puede moverse a una casilla de su elección. A continuación, dale la vuelta a esta carta",
+    "number": 2
+  },
+  {
+    "name": "Surcar el vacio",
+    "categories": [
+      "ritual"
+    ],
+    "type": "spell",
+    "expansion": "fl",
+    "front": "Acción: Elige un investigador que esté en cualquier casilla y realiza una prueba de saber -1. Si superas la prueba, el investigador elegido puede moverse a una casilla de su elección. A continuación, dale la vuelta a esta carta",
+    "number": 3
+  },
+  {
+    "name": "Surcar el vacio",
+    "categories": [
+      "ritual"
+    ],
+    "type": "spell",
+    "expansion": "fl",
+    "front": "Acción: Elige un investigador que esté en cualquier casilla y realiza una prueba de saber -1. Si superas la prueba, el investigador elegido puede moverse a una casilla de su elección. A continuación, dale la vuelta a esta carta",
+    "number": 4
+  },
+  {
+    "name": "Conjuración",
+    "categories": [
+      "ritual"
+    ],
+    "type": "spell",
+    "expansion": "base",
+    "front": "Acción: Realiza una prueba de saber +1. Si superas la prueba, puedes obtner 1 Apoyo Objeto o Baratija de la reserva con un valor igual o menor que tu resultado de la prueba. A continuación, dale la vuelta a esta carta",
+    "number": 1
+  },
+  {
+    "name": "Conjuración",
+    "categories": [
+      "ritual"
+    ],
+    "type": "spell",
+    "expansion": "base",
+    "front": "Acción: Realiza una prueba de saber +1. Si superas la prueba, puedes obtner 1 Apoyo Objeto o Baratija de la reserva con un valor igual o menor que tu resultado de la prueba. A continuación, dale la vuelta a esta carta",
+    "number": 2
+  },
+  {
+    "name": "Conjuración",
+    "categories": [
+      "ritual"
+    ],
+    "type": "spell",
+    "expansion": "fl",
+    "front": "Acción: Realiza una prueba de saber +1. Si superas la prueba, puedes obtner 1 Apoyo Objeto o Baratija de la reserva con un valor igual o menor que tu resultado de la prueba. A continuación, dale la vuelta a esta carta",
+    "number": 3
+  },
+  {
+    "name": "Conjuración",
+    "categories": [
+      "ritual"
+    ],
+    "type": "spell",
+    "expansion": "fl",
+    "front": "Acción: Realiza una prueba de saber +1. Si superas la prueba, puedes obtner 1 Apoyo Objeto o Baratija de la reserva con un valor igual o menor que tu resultado de la prueba. A continuación, dale la vuelta a esta carta",
+    "number": 4
+  },
+  {
+    "name": "Alimentar la mente",
+    "categories": [
+      "ritual"
+    ],
+    "type": "spell",
+    "expansion": "base",
+    "front": "Acción: Realiza una prueba de saber -1. Si superas la prueba, elige un investigador que esté en tu casilla para que mejore 1 habilidad de su elección. A continuación, dale la vuelta a esta carta",
+    "number": 1
+  },
+  {
+    "name": "Alimentar la mente",
+    "categories": [
+      "ritual"
+    ],
+    "type": "spell",
+    "expansion": "base",
+    "front": "Acción: Realiza una prueba de saber -1. Si superas la prueba, elige un investigador que esté en tu casilla para que mejore 1 habilidad de su elección. A continuación, dale la vuelta a esta carta",
+    "number": 2
+  },
+  {
+    "name": "Alimentar la mente",
+    "categories": [
+      "ritual"
+    ],
+    "type": "spell",
+    "expansion": "fl",
+    "front": "Acción: Realiza una prueba de saber -1. Si superas la prueba, elige un investigador que esté en tu casilla para que mejore 1 habilidad de su elección. A continuación, dale la vuelta a esta carta",
+    "number": 3
+  },
+  {
+    "name": "Alimentar la mente",
+    "categories": [
+      "ritual"
+    ],
+    "type": "spell",
+    "expansion": "fl",
+    "front": "Acción: Realiza una prueba de saber -1. Si superas la prueba, elige un investigador que esté en tu casilla para que mejore 1 habilidad de su elección. A continuación, dale la vuelta a esta carta",
+    "number": 4
+  },
+  {
+    "name": "Niebla venenosa",
+    "categories": [
+      "ritual"
+    ],
+    "type": "spell",
+    "expansion": "fl",
+    "front": "Acción: Realiza una prueba de saber +1. Si superas la prueba, descarta Monstruos de tu casilla cuya fortaleza total sea igual o menor que el resultado de la prueba. A continuación, dale la vuelta a esta carta",
+    "number": 1
+  },
+  {
+    "name": "Niebla venenosa",
+    "categories": [
+      "ritual"
+    ],
+    "type": "spell",
+    "expansion": "fl",
+    "front": "Acción: Realiza una prueba de saber +1. Si superas la prueba, descarta Monstruos de tu casilla cuya fortaleza total sea igual o menor que el resultado de la prueba. A continuación, dale la vuelta a esta carta",
+    "number": 2
+  },
+  {
+    "name": "Niebla venenosa",
+    "categories": [
+      "ritual"
+    ],
+    "type": "spell",
+    "expansion": "fl",
+    "front": "Acción: Realiza una prueba de saber +1. Si superas la prueba, descarta Monstruos de tu casilla cuya fortaleza total sea igual o menor que el resultado de la prueba. A continuación, dale la vuelta a esta carta",
+    "number": 3
+  },
+  {
+    "name": "Niebla venenosa",
+    "categories": [
+      "ritual"
+    ],
+    "type": "spell",
+    "expansion": "fl",
+    "front": "Acción: Realiza una prueba de saber +1. Si superas la prueba, descarta Monstruos de tu casilla cuya fortaleza total sea igual o menor que el resultado de la prueba. A continuación, dale la vuelta a esta carta",
+    "number": 4
+  },
+  {
+    "name": "Consumición",
+    "categories": [
+      "ritual"
+    ],
+    "type": "spell",
+    "expansion": "base",
+    "front": "Acción: Realiza una prueba de saber. Si superas la prueba, elige un Monstruo que esté en tu casilla para que pierda 2 puntos de Salud. A continuación, dale la vuelta a esta carta",
+    "number": 1
+  },
+  {
+    "name": "Consumición",
+    "categories": [
+      "ritual"
+    ],
+    "type": "spell",
+    "expansion": "base",
+    "front": "Acción: Realiza una prueba de saber. Si superas la prueba, elige un Monstruo que esté en tu casilla para que pierda 2 puntos de Salud. A continuación, dale la vuelta a esta carta",
+    "number": 2
+  },
+  {
+    "name": "Consumición",
+    "categories": [
+      "ritual"
+    ],
+    "type": "spell",
+    "expansion": "fl",
+    "front": "Acción: Realiza una prueba de saber. Si superas la prueba, elige un Monstruo que esté en tu casilla para que pierda 2 puntos de Salud. A continuación, dale la vuelta a esta carta",
+    "number": 3
+  },
+  {
+    "name": "Consumición",
+    "categories": [
+      "ritual"
+    ],
+    "type": "spell",
+    "expansion": "fl",
+    "front": "Acción: Realiza una prueba de saber. Si superas la prueba, elige un Monstruo que esté en tu casilla para que pierda 2 puntos de Salud. A continuación, dale la vuelta a esta carta",
+    "number": 4
+  }
+]

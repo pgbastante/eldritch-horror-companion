@@ -1,0 +1,1090 @@
+[
+  {
+    "name": "Daga ritual",
+    "categories": [
+      "object",
+      "magical",
+      "weapon"
+    ],
+    "type": "asset",
+    "expansion": "sr",
+    "front": "Una vez por ronda, puedes obtener +1 saber al resolver un efecto de Hechizo, o +2 fuerza al resolver un Encuentro de Combate",
+    "cost": 1
+  },
+  {
+    "name": "Hoja encantada",
+    "categories": [
+      "object",
+      "magical",
+      "weapon"
+    ],
+    "type": "asset",
+    "expansion": "fl",
+    "front": "Obten +1 voluntad y +3 fuerza durante Encuentros de Combate",
+    "cost": 3
+  },
+  {
+    "name": "Informe de inteligencia",
+    "categories": [
+      "service"
+    ],
+    "type": "asset",
+    "expansion": "fl",
+    "front": "Cuando obtengas esta carta, obtén inmediatamente 2 Pistas. A continuación, descarta esta carta",
+    "cost": 3
+  },
+  {
+    "name": "Cazarrecompensas mística",
+    "categories": [
+      "ally"
+    ],
+    "type": "asset",
+    "expansion": "fl",
+    "front": "Obtén +1 fuerza durante Encuentros de Combate. Obtén +2 saber cuando resuelvas efectos de Hechizos",
+    "cost": 2
+  },
+  {
+    "name": "Guardaespaldas",
+    "categories": [
+      "ally"
+    ],
+    "type": "asset",
+    "expansion": "fl",
+    "front": "Obtén +1 fuerza. Reduce en 1 hasta un mínimo de 1 el daño de los Monstruos con los que resuelvas encuentros",
+    "cost": 2
+  },
+  {
+    "name": "Consagración",
+    "categories": [
+      "service"
+    ],
+    "type": "asset",
+    "expansion": "sr",
+    "front": "Cuando obtengas esta carta, obten inmediatamente 1 Estado Ayuda. A continuación descarta esta carta",
+    "cost": 2
+  },
+  {
+    "name": "Simbolo arcano",
+    "categories": [
+      "trinket",
+      "magical"
+    ],
+    "type": "asset",
+    "expansion": "fl",
+    "front": "Puedes volver a tirar 1 dado cuando resuelvas una prueba de voluntad durante un Encuentro de Combate. Reduce en 1 hasta un minimo de 1 el horror de los Monstruos con los que resuelvas encuentros",
+    "cost": 2
+  },
+  {
+    "name": "Asistencia policial",
+    "categories": [
+      "service"
+    ],
+    "type": "asset",
+    "expansion": "fl",
+    "front": "Cuando obtengas esta carta, descarta inmediatamente 1 Monstruo de tu elección que tenga una fortaleza de 2 o menos en cualquier casilla. A continuación, descarta esta carta",
+    "cost": 1
+  },
+  {
+    "name": "Texto de ocultismo",
+    "categories": [
+      "object",
+      "tome"
+    ],
+    "type": "asset",
+    "expansion": "soc",
+    "front": "Obtén +1 voluntad durante Encuentros de Combate. Los Monstruos con los que resuelvas encuentros pierden su capacidad Resistencia física",
+    "cost": 2
+  },
+  {
+    "name": "Apelación al Consejo",
+    "categories": [
+      "service"
+    ],
+    "type": "asset",
+    "expansion": "fl",
+    "front": "Cuando obtengas esta carta, puedes gastar inmediatamente 2 Pistas para hacer retroceder la Perdición 1 casilla. A continuación, descarta esta carta",
+    "cost": 1
+  },
+  {
+    "name": "Daga ritualEstudiante de investigación",
+    "categories": [
+      "ally"
+    ],
+    "type": "asset",
+    "expansion": "fl",
+    "front": "Acción: Tira 1 dado. Si sacas un 5 o un 6, obtén 1 Pista. Si sacas un 1, descarta la Pista más cercana del tablero de juego",
+    "cost": 1
+  },
+  {
+    "name": "Gas lacrimogeno",
+    "categories": [
+      "object",
+      "weapon"
+    ],
+    "type": "asset",
+    "expansion": "fl",
+    "front": "Puedes descartar esta carta para volver a tirar hasta 2 dados cuando resuelvas una prueba de fuerza durante un Encuentro de Combate. Además, recude el daño del Monstruo en 2 hasta un mínimo de 1",
+    "cost": 1
+  },
+  {
+    "name": "Trabuco",
+    "categories": [
+      "object",
+      "weapon"
+    ],
+    "type": "asset",
+    "expansion": "mom",
+    "front": "Al resolver un Encuentro de Combate, puedes obtener +2 fuerza. Si lo haces, cada 6 que saques al resolver una prueba de fuerza durante un Encuentro de Combate cuenta como 2 éxitos y cada 1 niega 1 éxito",
+    "cost": 2
+  },
+  {
+    "name": "Ladrón",
+    "categories": [
+      "ally"
+    ],
+    "type": "asset",
+    "expansion": "base",
+    "front": "Acción: Tira 1 dado. Si sacas un 5 o un 6, obtén 1 Apoyo Objeto o Baratija de la reserva. Si sacas un 1, descarta esta carta",
+    "cost": 1
+  },
+  {
+    "name": "Whisky",
+    "categories": [
+      "object"
+    ],
+    "type": "asset",
+    "expansion": "base",
+    "front": "Puedes descartar esta carta para evitar que un investigador que esté en tu casilla pierda un máximo de 2 puntos de Cordura",
+    "cost": 1
+  },
+  {
+    "name": "Libro de cuentas de la policia",
+    "categories": [
+      "object"
+    ],
+    "type": "asset",
+    "expansion": "fl",
+    "front": "Cuando realices una acción de descansar, puedes intentar descifrar el libro de cuentas (observación). Si superas la prueba, puedes descartar esta carta para obtener 1 Pista",
+    "cost": 1
+  },
+  {
+    "name": "Farol",
+    "categories": [
+      "object"
+    ],
+    "type": "asset",
+    "expansion": "fl",
+    "front": "Una vez por ronda, puedes tirar 1 dado adicional cuando resuelvas una prueba",
+    "cost": 1
+  },
+  {
+    "name": "Fruta fresca",
+    "categories": [
+      "object"
+    ],
+    "type": "asset",
+    "expansion": "fl",
+    "front": "Cuando realices una acción de descansar, puedes descartar esta carta para recuperar 1 punto de Salud adicional y 1 punto de Cordura adicional",
+    "cost": 1
+  },
+  {
+    "name": "Revolver del .45",
+    "categories": [
+      "object",
+      "weapon"
+    ],
+    "type": "asset",
+    "expansion": "fl",
+    "front": "Una vez por ronda, puedes obtener +3 fuerza durante un Encuentro de Combate",
+    "cost": 1
+  },
+  {
+    "name": "Cruz sagrada",
+    "categories": [
+      "object"
+    ],
+    "type": "asset",
+    "expansion": "base",
+    "front": "Obtén +2 voluntad durante Encuentros de Combate",
+    "cost": 2
+  },
+  {
+    "name": "Ritual del Crepúsculo de Plata",
+    "categories": [
+      "service"
+    ],
+    "type": "asset",
+    "expansion": "base",
+    "front": "Cuando obtengas esta carta, haz retroceder inmediatamente la Perdición 1 casilla. A continuación, descarta esta carta",
+    "cost": 3
+  },
+  {
+    "name": "Automática del .45",
+    "categories": [
+      "object",
+      "weapon"
+    ],
+    "type": "asset",
+    "expansion": "base",
+    "front": "Obtén +3 fuerza durante Encuentros de Combate",
+    "cost": 2
+  },
+  {
+    "name": "Agua bendita",
+    "categories": [
+      "object",
+      "magical"
+    ],
+    "type": "asset",
+    "expansion": "base",
+    "front": "Puedes descartar esta carta para obtener +5 voluntad y fuerza durante un Encuentro de Combate. Acción: Puedes descartar eseta carta para elegir un investigador que este en tu casilla. Ese investigador obtiene el Estado Bendecido",
+    "cost": 2
+  },
+  {
+    "name": "Patrullar las calles",
+    "categories": [
+      "task"
+    ],
+    "type": "asset",
+    "expansion": "mom",
+    "front": "Cuando derrotes un Monstruo con fortaleza 3 o más durante un Encuentro de Combate, puedes descartar esta carta para hacer retirarse la Perdición 1 casilla",
+    "cost": 1
+  },
+  {
+    "name": "Erudito arcano",
+    "categories": [
+      "ally"
+    ],
+    "type": "asset",
+    "expansion": "base",
+    "front": "Obten +1 saber. Puedes volver a tirar 1 dado cuando resuelvas una prueba de saber",
+    "cost": 2
+  },
+  {
+    "name": "Servicio de mensajería",
+    "categories": [
+      "service",
+      "teamwork"
+    ],
+    "type": "asset",
+    "expansion": "base",
+    "front": "Cuando obtengas esta carta, da inmediatamente cualquier cantidad de pertenencias Objeto a otro investigador que esté en cualquier casilla. A continuación, descarta esta carta",
+    "cost": 1
+  },
+  {
+    "name": "Escopeta de doble cañón",
+    "categories": [
+      "object",
+      "weapon"
+    ],
+    "type": "asset",
+    "expansion": "base",
+    "front": "Obtén +4 fuerza durante Encuentros de Combate. Cada 6 que saques cuando resuelvas una prueba de fuerza durante un Encuentro de Combate cuenta como 2 éxitos",
+    "cost": 4
+  },
+  {
+    "name": "Agente de secretos",
+    "categories": [
+      "ally"
+    ],
+    "type": "asset",
+    "expansion": "sr",
+    "front": "Obtén +1 saber y +1 observación. Puedes volver a tirar 1 dado al resolver una prueba de saver o observación",
+    "cost": 4
+  },
+  {
+    "name": "Investigador privado",
+    "categories": [
+      "ally"
+    ],
+    "type": "asset",
+    "expansion": "base",
+    "front": "Obtén +1 observación. Puedes vovler a tirar 1 dado cuando resuelvas una prueba de observación",
+    "cost": 2
+  },
+  {
+    "name": "Talismán horripilante",
+    "categories": [
+      "trinket"
+    ],
+    "type": "asset",
+    "expansion": "sr",
+    "front": "Puedes sumar 1 al resultado de 1 dado al resolver una prueba de voluntad durante un Encuentro de Combate",
+    "cost": 1
+  },
+  {
+    "name": "Hoja arcana",
+    "categories": [
+      "object",
+      "magical",
+      "weapon"
+    ],
+    "type": "asset",
+    "expansion": "sr",
+    "front": "Obtén +2 fuerza al resolver Encuentros de Combate. Obtén +2 saber al resolver efectos de Hechizos",
+    "cost": 3
+  },
+  {
+    "name": "Queroseno",
+    "categories": [
+      "object"
+    ],
+    "type": "asset",
+    "expansion": "base",
+    "front": "Puedes descartar esta carta para obtener +5 fuerza durante un Encuentro de Combate",
+    "cost": 1
+  },
+  {
+    "name": "Hacha",
+    "categories": [
+      "object",
+      "weapon"
+    ],
+    "type": "asset",
+    "expansion": "base",
+    "front": "Obtén +2 fuerza durante Encuentros de Combate. Puedes gastar 2 puntos de Cordura para volver a tirar cualquier cantidad de dados cuando resuelvas una prueba de fuerza durante un Encuentro de Combate",
+    "cost": 2
+  },
+  {
+    "name": "Guia de astronomia",
+    "categories": [
+      "object",
+      "tome"
+    ],
+    "type": "asset",
+    "expansion": "mom",
+    "front": "Cuando cierres un Portal durante un Encuentro de Otros Mundos, recupera 1 putno de Cordura y obtén 1 Pista",
+    "cost": 2
+  },
+  {
+    "name": "Guia de expedición",
+    "categories": [
+      "ally"
+    ],
+    "type": "asset",
+    "expansion": "sr",
+    "front": "Cuando gastes una ficha de Concrentración para volver a tirar un dado al resolver una prueba de observacion o fuerza, en lugar de eso puedes volver a tirar hasta 2 dados",
+    "cost": 2
+  },
+  {
+    "name": "Dinamita",
+    "categories": [
+      "object",
+      "weapon"
+    ],
+    "type": "asset",
+    "expansion": "base",
+    "front": "Acción: Puedes descartar esta carta para que cada Monstruo que esté en tu casilla pierda 3 puntos de Salud",
+    "cost": 3
+  },
+  {
+    "name": "Derringer del .18",
+    "categories": [
+      "trinket"
+    ],
+    "type": "asset",
+    "expansion": "base",
+    "front": "Puedes sumar 1 al resultado de 1 dado cuando resuelvas una prueba de fuerza furante Encuentros de Combate",
+    "cost": 1
+  },
+  {
+    "name": "Informe periodistico",
+    "categories": [
+      "task"
+    ],
+    "type": "asset",
+    "expansion": "mom",
+    "front": "Después de resolver un Encuentro de Investigación, puedes gastar 1 Pista obtenida de ese encuentro y descartar esta carta para hacer retirarse la Perdicion 1 casilla",
+    "cost": 1
+  },
+  {
+    "name": "Diario médico",
+    "categories": [
+      "object",
+      "tome"
+    ],
+    "type": "asset",
+    "expansion": "sr",
+    "front": "Puedes volver a tirar 1 dado al resolver una prueba de fuerza como parte de un efecto de Estado Enfermedad o Herida. Cuando realices una acción de descansar, recupera 1 punto de Salud adicional",
+    "cost": 2
+  },
+  {
+    "name": "Mapa de expedición",
+    "categories": [
+      "trinket",
+      "tome"
+    ],
+    "type": "asset",
+    "expansion": "sr",
+    "front": "Una ver por ronda, puedes sumar 1 al resultado de 1 dado al resolver una prueba durante un Encuentro de Expedición o un Encuentro de Ruinas místicas",
+    "cost": 1
+  },
+  {
+    "name": "Santuario",
+    "categories": [
+      "service"
+    ],
+    "type": "asset",
+    "expansion": "base",
+    "front": "Cuando obtengas esta carta, puedes descartar inmediatamente 1 Estado. A continuación, descarta esta carta",
+    "cost": 2
+  },
+  {
+    "name": "Lanza sagrada",
+    "categories": [
+      "object",
+      "magical",
+      "relic",
+      "weapon"
+    ],
+    "type": "asset",
+    "expansion": "sr",
+    "front": "Obten +4 fuerza durante Encuentros de Combate",
+    "cost": 3
+  },
+  {
+    "name": "Curandero",
+    "categories": [
+      "ally"
+    ],
+    "type": "asset",
+    "expansion": "base",
+    "front": "Los investigadores que estén en tu casilla pueden recuperar 1 punto de Salud adicional o descartar el Estado Maldito cuando realicen una acción de descansar",
+    "cost": 3
+  },
+  {
+    "name": "Conservador de museo",
+    "categories": [
+      "ally"
+    ],
+    "type": "asset",
+    "expansion": "sr",
+    "front": "Puedes volver a tirar 1 dado al resolver una prueba durante un Encuentro de Expedición o un Encuentro de Ruinas místicas. Cuando obtengas esta carta del mazo o de la reserva, obtén 1 Apoyo único Reliquia",
+    "cost": 3
+  },
+  {
+    "name": "Tomo misterioso",
+    "categories": [
+      "object",
+      "tome"
+    ],
+    "type": "asset",
+    "expansion": "sr",
+    "front": "Cuando gastes una ficah de Concentración para volver a tirar un dado al resolver una prueba de saber o voluntad, en lugar de eso puedes volver a tirar hasta 2 dados.",
+    "cost": 2
+  },
+  {
+    "name": "Metralleta",
+    "categories": [
+      "object",
+      "weapon"
+    ],
+    "type": "asset",
+    "expansion": "soc",
+    "front": "Obtén +4 fuerza durante Encuentros de Combate",
+    "cost": 3
+  },
+  {
+    "name": "Especialista",
+    "categories": [
+      "ally"
+    ],
+    "type": "asset",
+    "expansion": "soc",
+    "front": "Una vez por ronda, puedes volver a tirar 1 dado al resolver una prueba. Cuando obtengas esta carta del mazo o de la reserva, obtén 1 Estado Talento",
+    "cost": 3
+  },
+  {
+    "name": "Médico de la Logia",
+    "categories": [
+      "ally"
+    ],
+    "type": "asset",
+    "expansion": "soc",
+    "front": "Otros investigadores que estén en tu casilla y tú podéis recuperar 1 punto de Salud adicional o descartar 1 Estado Enfermedad o Herida al realizar una acción de descansar",
+    "cost": 3
+  },
+  {
+    "name": "Autor estimado",
+    "categories": [
+      "ally"
+    ],
+    "type": "asset",
+    "expansion": "soc",
+    "front": "Puedes volver a tirar 1 dado al resolver una prueba de influencia. Cuando obtengas esta carta del mazo o de la reserva, obtén 1 Apoyo Tomo aleatorio del mazo",
+    "cost": 3
+  },
+  {
+    "name": "Tomo de los horrores",
+    "categories": [
+      "object",
+      "tome"
+    ],
+    "type": "asset",
+    "expansion": "mom",
+    "front": "Obten +2 voluntad durante Encuentros de Combate. Reduce en 1 el horror de los Monstruos con los que resuelvas encuentros, hasta un mínimo de 1",
+    "cost": 3
+  },
+  {
+    "name": "Pitillera de la suerte",
+    "categories": [
+      "trinket"
+    ],
+    "type": "asset",
+    "expansion": "base",
+    "front": "Una vez por ronda, puedes sumar 1 al resultado de 1 dado cuando resuelvas una prueba",
+    "cost": 2
+  },
+  {
+    "name": "Ropa elegante",
+    "categories": [
+      "object"
+    ],
+    "type": "asset",
+    "expansion": "base",
+    "front": "Cada 6 que saques cuando realices una accion de aquirir apoyos cuenta como 2 éxitos",
+    "cost": 2
+  },
+  {
+    "name": "Cuarentena de la Agencia",
+    "categories": [
+      "service"
+    ],
+    "type": "asset",
+    "expansion": "base",
+    "front": "Cuando obtengas esta carta, elige inmediatamente una casilla. Cada Monstruo que esté en la casilla elegida pierde 4 puntos de Salud. A continuación, descarta esta carta",
+    "cost": 4
+  },
+  {
+    "name": "Registrar los archivos",
+    "categories": [
+      "service"
+    ],
+    "type": "asset",
+    "expansion": "mom",
+    "front": "Cuando obtengas esta carta, obtén inmediatamente 1 Apoyo Tomo aleatorio del mazo. A continuación descarta esta carta",
+    "cost": 2
+  },
+  {
+    "name": "Vendajes",
+    "categories": [
+      "objeto"
+    ],
+    "type": "asset",
+    "expansion": "base",
+    "front": "Puedes descartar esta carta para evitar que un investigador que esté en tu casilla pierda un máximo de 2 puntos de Salud",
+    "cost": 1
+  },
+  {
+    "name": "Caja misteriosa",
+    "categories": [
+      "trinket"
+    ],
+    "type": "asset",
+    "expansion": "base",
+    "front": "Cuando realices una acción de descansar, puedes intentar abrir la caja misteriosa (observación -2). Si superas la prueba, puedes descartar esta carta para obtener 1 Artefacto",
+    "cost": 3
+  },
+  {
+    "name": "El tomo de los secretos",
+    "categories": [
+      "object",
+      "tome"
+    ],
+    "type": "asset",
+    "expansion": "sr",
+    "front": "Una vez por ronda, puedes gastar 1 ficha de Concentración en lugar de gastar 1 Pista. Cuando realices una acción de concentrarse, recupera 1 punto de Cordura",
+    "cost": 3
+  },
+  {
+    "name": "Entrenamiento especializado",
+    "categories": [
+      "task"
+    ],
+    "type": "asset",
+    "expansion": "sr",
+    "front": "Cuando realices una acción de concentrarse, puedes consultar con expertos para que te entrenen (voluntad). Si superas la prueba, descarta esta carta y mejora 1 habilidad de tu elección",
+    "cost": 1
+  },
+  {
+    "name": "Inspector jefe",
+    "categories": [
+      "ally"
+    ],
+    "type": "asset",
+    "expansion": "soc",
+    "front": "Obten +1 observación. Obten +2 observación durante Encuentros de Investigación",
+    "cost": 2
+  },
+  {
+    "name": "Asesinato",
+    "categories": [
+      "service"
+    ],
+    "type": "asset",
+    "expansion": "soc",
+    "front": "Cuando obtengas esta carta, elige inmediatamente un Monstruo que esté en cualquier casilla. El Monstruo elegido pierde 2 puntos de Salud. A continuación, descarta esta carta",
+    "cost": 2
+  },
+  {
+    "name": "Misionero del Vaticano",
+    "categories": [
+      "ally"
+    ],
+    "type": "asset",
+    "expansion": "base",
+    "front": "Obtén +1 voluntad. Puedes volver a tirar 1 dado cuando resuelvas una prueba de voluntad",
+    "cost": 2
+  },
+  {
+    "name": "Amuleto protector",
+    "categories": [
+      "object"
+    ],
+    "type": "asset",
+    "expansion": "base",
+    "front": "Obtén +1 voluntad durante Encuentros de Combate",
+    "cost": 1
+  },
+  {
+    "name": "Investigación genealogica",
+    "categories": [
+      "task"
+    ],
+    "type": "asset",
+    "expansion": "mom",
+    "front": "Cuando derrotes un Monstruo con fortaleza 2 o más durante un Encuentro de Combate, puedes examinar los restos de la criatura (observación). Si superas la prueba, obtén 2 Pistas y descarta esta carta",
+    "cost": 1
+  },
+  {
+    "name": "Investigador de la Logia",
+    "categories": [
+      "ally"
+    ],
+    "type": "asset",
+    "expansion": "base",
+    "front": "Si derrotas a un Monstruo durante un Encuentro de Combate, recupera 1 punto de Cordura y obtén 1 Pista",
+    "cost": 3
+  },
+  {
+    "name": "Cazador de monstruos",
+    "categories": [
+      "ally"
+    ],
+    "type": "asset",
+    "expansion": "mom",
+    "front": "Obtén +2 fuerza durante Encuentros de Combate. Acción: Un Monstruo de tu elección que esté en tu casilla pierde 1 punto de Salud",
+    "cost": 3
+  },
+  {
+    "name": "Trile de cartas",
+    "categories": [
+      "service"
+    ],
+    "type": "asset",
+    "expansion": "soc",
+    "front": "Cuando obtengas esta carta, tira 1 dado inmediatamente. Si sacas un 5 o un 6, obtén 1 Apoyo de tu elección de la reserva o 1 Apoyo aleatorio del mazo que tenga un valor de 3 o más. A continuación, descarta esta carta",
+    "cost": 1
+  },
+  {
+    "name": "Fabrica de rumores",
+    "categories": [
+      "service"
+    ],
+    "type": "asset",
+    "expansion": "soc",
+    "front": "Cuando obtengas esta carta obtén 1 Pista inmediatamente. A continuación, descarta esta carta",
+    "cost": 1
+  },
+  {
+    "name": "Informe por radio",
+    "categories": [
+      "service",
+      "teamwork"
+    ],
+    "type": "asset",
+    "expansion": "base",
+    "front": "Cuando obtengas esta carta, da inmediatamente cualquier cantidad de Pistas a otro investigador que esté en cualquier casilla. A continuación, descarta esta carta",
+    "cost": 1
+  },
+  {
+    "name": "Joyas de lujo",
+    "categories": [
+      "trinket"
+    ],
+    "type": "asset",
+    "expansion": "soc",
+    "front": "Puedes sumar 1 al resultado de 1 dado al realizar una prueba de influencia durante una acción de adquirir Apoyos",
+    "cost": 1
+  },
+  {
+    "name": "Vuelo charter",
+    "categories": [
+      "service"
+    ],
+    "type": "asset",
+    "expansion": "base",
+    "front": "Cuando obtengas esta carta, muévete inmediatamente un máximo de 2 casillas. A continuación, descarta esta carta",
+    "cost": 1
+  },
+  {
+    "name": "Tomo arcano",
+    "categories": [
+      "object",
+      "tome"
+    ],
+    "type": "asset",
+    "expansion": "base",
+    "front": "Obten +2 saber cuando resuelvas efectos de Hechizo. Cuando realices una acción de descansar, puedes realizar una prueba de saber. Si la superas, obtén 1 Hechizo",
+    "cost": 3
+  },
+  {
+    "name": "Automatica del .25",
+    "categories": [
+      "object",
+      "weapon"
+    ],
+    "type": "asset",
+    "expansion": "soc",
+    "front": "Tira 1 dado adicional al resolver una prueba de fuerza durante un Encuentro de Combate",
+    "cost": 1
+  },
+  {
+    "name": "Discipulo de la Logia",
+    "categories": [
+      "ally"
+    ],
+    "type": "asset",
+    "expansion": "soc",
+    "front": "Obtén +1 saber y +1 influencia. Puedes volver a tirar 1 dado al resolver una prueba de saber o de influencia",
+    "cost": 4
+  },
+  {
+    "name": "Lanzallamas",
+    "categories": [
+      "object",
+      "weapon"
+    ],
+    "type": "asset",
+    "expansion": "soc",
+    "front": "Obtén +5 fuerza durante Encuentros de Combate. Reduce el daño de los Monstruos con los que resuelvas Encuentros en 1, hasta un mínimo de 1",
+    "cost": 4
+  },
+  {
+    "name": "Ayudante arcana",
+    "categories": [
+      "ally"
+    ],
+    "type": "asset",
+    "expansion": "soc",
+    "front": "Tira 1 dado adicional al resolver una prueba de saber como parte del efecto de un Hechizo",
+    "cost": 1
+  },
+  {
+    "name": "Revolver del .38",
+    "categories": [
+      "object",
+      "weapon"
+    ],
+    "type": "asset",
+    "expansion": "base",
+    "front": "Obtén +2 fuerza durante Encuentros de Combate",
+    "cost": 1
+  },
+  {
+    "name": "Biblia del Rey Jaime",
+    "categories": [
+      "object",
+      "tome"
+    ],
+    "type": "asset",
+    "expansion": "base",
+    "front": "Puedes volver a tirar 1 dado cuando resuelvas una prueba de voluntado durante un Encuentro de Combate. Cuando realices una acción de descansar, recupera 1 punto de Cordura adicional",
+    "cost": 2
+  },
+  {
+    "name": "Seguro privado",
+    "categories": [
+      "service"
+    ],
+    "type": "asset",
+    "expansion": "base",
+    "front": "Cuando obtentas esta carta, recupera inmediatamente toda tu Salud y Cordura. A continuación, descarta esta carta",
+    "cost": 2
+  },
+  {
+    "name": "Investigación mineralogica",
+    "categories": [
+      "task"
+    ],
+    "type": "asset",
+    "expansion": "mom",
+    "front": "Después de resolver un Encuentro General o un Encuentro de Expedicion en una casilla de Naturaleza, puedes examinar el suelo de la zona (observación). Si superas la prueba, obten 2 Pistas y descarta esta carta.",
+    "cost": 1
+  },
+  {
+    "name": "Daga espiritual",
+    "categories": [
+      "object",
+      "weapon",
+      "magical"
+    ],
+    "type": "asset",
+    "expansion": "base",
+    "front": "Obtén +1 voluntad y +2 fuerza durante Encuentros de Combate",
+    "cost": 2
+  },
+  {
+    "name": "Diario de sectario",
+    "categories": [
+      "object",
+      "tome",
+      "magical"
+    ],
+    "type": "asset",
+    "expansion": "mom",
+    "front": "Obtén +2 voluntad y +2 fuerza durante Encuentros de Combate",
+    "cost": 3
+  },
+  {
+    "name": "Tomo profano",
+    "categories": [
+      "object",
+      "tome"
+    ],
+    "type": "asset",
+    "expansion": "mom",
+    "front": "Puedes volver a tirar 1 dado al resolver una prueba de voluntad durante un Encuentro de Combate",
+    "cost": 1
+  },
+  {
+    "name": "Guia urbano",
+    "categories": [
+      "ally"
+    ],
+    "type": "asset",
+    "expansion": "base",
+    "front": "Si estás en una casilla de Ciudad, los investigadores que estén en tu casilla tiran 1 dado adicional cuando resuelvan pruebas, excepto cuando resuelvan Encuentros de Otros Mundos",
+    "cost": 4
+  },
+  {
+    "name": "¡Se necesita mensajero!",
+    "categories": [
+      "service"
+    ],
+    "type": "asset",
+    "expansion": "mom",
+    "front": "Cuando obtengas esta carta, obtén inmediatamente un Apoyo único Servicio de entrega. A continuación, descarta esta carta",
+    "cost": 1
+  },
+  {
+    "name": "Informe periodisticoAgente del Sindicato",
+    "categories": [
+      "ally"
+    ],
+    "type": "asset",
+    "expansion": "fl",
+    "front": "Obtén +2 fuerza durante Encuentros de Combate. Puedes volver a tirar 1 dado cuando resuelvas una prueba de fuerza durante un Encuentro de Combate",
+    "cost": 2
+  },
+  {
+    "name": "Reloj de bolsillo",
+    "categories": [
+      "trinket"
+    ],
+    "type": "asset",
+    "expansion": "base",
+    "front": "No puedes quedar Retrasado a menos que elijas hacerlo",
+    "cost": 1
+  },
+  {
+    "name": "Menuscritos arcanos",
+    "categories": [
+      "object",
+      "tome"
+    ],
+    "type": "asset",
+    "expansion": "mom",
+    "front": "Obtén +1 saber cuando resuelvas efectos de Hechizo",
+    "cost": 1
+  },
+  {
+    "name": "Pata de conejo",
+    "categories": [
+      "trinket"
+    ],
+    "type": "asset",
+    "expansion": "base",
+    "front": "Una vez por ronda, puedes volver a tirar 1 dado cuando resuelvas una prueba",
+    "cost": 1
+  },
+  {
+    "name": "Página secreta",
+    "categories": [
+      "object",
+      "tome"
+    ],
+    "type": "asset",
+    "expansion": "mom",
+    "front": "Obtén +1 saber al resolver efectos de Hechizo. Cuando obtengas esta carta del mazo o de la reserva, obtén 1 Hechizo",
+    "cost": 2
+  },
+  {
+    "name": "Inversión",
+    "categories": [
+      "task"
+    ],
+    "type": "asset",
+    "expansion": "mom",
+    "front": "",
+    "reckoning": "Tu inversión ha dado beneficios. Puedes descartar esta carta para obtener el estado Financiación",
+    "cost": 1
+  },
+  {
+    "name": "Escuadron de seguridad",
+    "categories": [
+      "ally"
+    ],
+    "type": "asset",
+    "expansion": "soc",
+    "front": "Al resolver un Encuentro de Combate, puedes resolver una prueba de influencia en lugar de la prueba de fuerza, usando el mismo modificador de la prueba",
+    "cost": 2
+  },
+  {
+    "name": "Esposas",
+    "categories": [
+      "object"
+    ],
+    "type": "asset",
+    "expansion": "sr",
+    "front": "Antes de resolver la prueba de fuerza durante un Encuentro de Combate, puedes gastar 1 ficha de Concentración para derrotar a ese Monstruo si tiene una fortaleza de 2 o menos",
+    "cost": 2
+  },
+  {
+    "name": "Carabina",
+    "categories": [
+      "object",
+      "weapon"
+    ],
+    "type": "asset",
+    "expansion": "base",
+    "front": "Una vez por ronda, puedes obtener +5 fuerza durante un encuentro de Combate",
+    "cost": 3
+  },
+  {
+    "name": "Anillo de la suerte",
+    "categories": [
+      "trinket"
+    ],
+    "type": "asset",
+    "expansion": "fl",
+    "front": "Puedes volver a tirar 1 dado cuando resuelvas una prueba",
+    "cost": 3
+  },
+  {
+    "name": "Matón a sueldo",
+    "categories": [
+      "ally"
+    ],
+    "type": "asset",
+    "expansion": "base",
+    "front": "Obtén +1 fuerza. Puedes volver a tirar 1 dado cuando resuelvas una prueba de fuerza",
+    "cost": 2
+  },
+  {
+    "name": "Bastón encantado",
+    "categories": [
+      "object",
+      "magical",
+      "weapon"
+    ],
+    "type": "asset",
+    "expansion": "soc",
+    "front": "Obten +3 fuerza durante Encuentros de Combate",
+    "cost": 2
+  },
+  {
+    "name": "Red de pesca",
+    "categories": [
+      "object"
+    ],
+    "type": "asset",
+    "expansion": "base",
+    "front": "Puedes volver a tirar 1 dado cuando resuelvas una prueba de fuerza durante un Encuentro de Combate. Reduce en 1 (hasta un mínimo de 1) el daño de los Monstruos con los que resuelvas encuentros",
+    "cost": 2
+  },
+  {
+    "name": "Opus Arcana",
+    "categories": [
+      "object",
+      "tome"
+    ],
+    "type": "asset",
+    "expansion": "sr",
+    "front": "Obtén +1 saber. Obtén +2 saber al resolver efectos de Hechizos",
+    "cost": 2
+  },
+  {
+    "name": "Mapa de lineas ley",
+    "categories": [
+      "object",
+      "tome"
+    ],
+    "type": "asset",
+    "expansion": "mom",
+    "front": "Obtén +1 saber y +1 voluntad. Una vez por ronda, peudes volver a tirar 1 dado al resolver una prueba durante un Encuentro de Otros Mundos",
+    "cost": 4
+  },
+  {
+    "name": "Festin opulento",
+    "categories": [
+      "service"
+    ],
+    "type": "asset",
+    "expansion": "sr",
+    "front": "Cuando obtengas esta carta, recupera inmeditamente 2 puntos de Salud y 2 puntos de Cordura. A continuación, descarta esta carta",
+    "cost": 1
+  },
+  {
+    "name": "Teórico de la conspiración",
+    "categories": [
+      "ally"
+    ],
+    "type": "asset",
+    "expansion": "fl",
+    "front": "Obtén +2 observación durante Encuentros de Investigación",
+    "reckoning": "Tira 1 dado. Si sacas un 4, un 5 o un 6, obtén 1 Pista",
+    "cost": 3
+  },
+  {
+    "name": "Látigo",
+    "categories": [
+      "object",
+      "weapon"
+    ],
+    "type": "asset",
+    "expansion": "base",
+    "front": "Obtén +1 fuerza durante Encuentros de Combate. Puedes vovler a tirar 1 dado cuando resuelvas una prueba de fuerza durante un Encuentro de Combate",
+    "cost": 1
+  },
+  {
+    "name": "Dados de tahur",
+    "categories": [
+      "trinket"
+    ],
+    "type": "asset",
+    "expansion": "mom",
+    "front": "Tiras un mínimo de 2 dados al resolver pruebas. Una vez por ronda, puedes volver a tirar 2 dados con el mismo resultado al resolver una prueba",
+    "cost": 3
+  },
+  {
+    "name": "Asistente personal",
+    "categories": [
+      "ally"
+    ],
+    "type": "asset",
+    "expansion": "base",
+    "front": "Obtén +1 influencia. Puedes volver a tirar 1 dado cuando resuelvas una prueba de influencia",
+    "cost": 2
+  }
+]
