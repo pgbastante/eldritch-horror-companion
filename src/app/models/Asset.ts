@@ -34,6 +34,23 @@ export class UniqueAsset extends Item {
   ];
 }
 
+export class Artifact extends Item {
+  type = 'artifact';
+  categories: assetCategory[] = [
+    'trinket',
+    'weapon',
+    'item',
+    'ally',
+    'service',
+    'magical',
+    'relic',
+    'tome',
+    'other',
+    'reckoning',
+    'teamwork'
+  ];
+}
+
 export type assetCategory =
   'trinket'
   | 'weapon'
