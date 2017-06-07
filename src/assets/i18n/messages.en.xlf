@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<xliff 
-  xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
   <file source-language="en" datatype="plaintext" original="ng2.template">
     <body>
       <trans-unit id="cff1428d10d59d14e45edec3c735a27b5482db59" datatype="html">
@@ -93,6 +91,14 @@
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/menu-routing.component.ts</context>
           <context context-type="linenumber">21</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="578fb5cf5c5e6a9e25e5870fc892eed2f2c37ae0" datatype="html">
+        <source>{VAR_SELECT, select, spell {Spell} asset {Asset} unique-asset {Unique Asset} artifact {Artifact} condition {Condition} location {Location} }</source>
+        <target>{VAR_SELECT, select, spell {Spell} asset {Asset} unique-asset {Unique Asset} artifact {Artifact} condition {Condition} location {Location} }</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/menu-list-item.component.ts</context>
+          <context context-type="linenumber">3</context>
         </context-group>
       </trans-unit>
     </body>

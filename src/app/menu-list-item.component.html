@@ -1,6 +1,6 @@
 <md-list-item>
   <h3 md-line (click)="toggleDisplay()">
-    <span>{{item.type}}</span>
+    <span i18n>{item.type, select, spell {Spell} asset {Asset} unique-asset {Unique Asset} artifact {Artifact} condition {Condition} location {Location}}</span>
     <i md-list-avatar class="material-icons" *ngIf="!displayCategories">arrow_drop_down</i>
     <i md-list-avatar class="material-icons" *ngIf="displayCategories">arrow_drop_up</i>
   </h3>
