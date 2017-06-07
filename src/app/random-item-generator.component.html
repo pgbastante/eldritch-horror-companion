@@ -1,16 +1,20 @@
 <md-card class="card" *ngIf="generatedItem">
   <md-card-header>
-    <md-card-title><item-type [type]="generatedItem.type"></item-type></md-card-title>
+    <md-card-title>
+      <item-type [type]="generatedItem.type"></item-type>
+    </md-card-title>
   </md-card-header>
   <md-card-content>
     <p md-line>
       <span i18n>Name</span>: {{generatedItem.name}}
     </p>
     <p md-line>
-      <span i18n>Categories</span>: <item-category [category]="generatedItem.categories"></item-category>
+      <span i18n>Categories</span>:
+      <item-category *ngFor="let category of generatedItem.categories" [category]="category"></item-category>
     </p>
     <p md-line>
-      <span i18n>Expansion</span>: <expansion-name [expansion]="generatedItem.expansion"></expansion-name>
+      <span i18n>Expansion</span>:
+      <expansion-name [expansion]="generatedItem.expansion"></expansion-name>
     </p>
   </md-card-content>
   <md-card-actions>

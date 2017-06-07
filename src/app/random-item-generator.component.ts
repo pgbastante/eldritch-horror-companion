@@ -1,8 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { Item } from './models/Item';
 import { ActivatedRoute, Router } from '@angular/router';
-import { ItemService } from './item.service';
 import { ExpansionService } from './configuration/expansion.service';
+import { RandomItemGeneratorProvider } from './random-item-generator.provider';
 
 @Component({
   selector: 'random-item-generator',
@@ -16,7 +16,8 @@ export class RandomItemGeneratorComponent implements OnInit {
   items: Item[];
 
   constructor(private router: Router,
-              private route: ActivatedRoute) {
+              private route: ActivatedRoute,
+              private provider: RandomItemGeneratorProvider) {
   }
 
   back = function () {
@@ -27,8 +28,7 @@ export class RandomItemGeneratorComponent implements OnInit {
     this.route.params.subscribe(params => {
       this.itemType = params['type'];
       this.selectedCategories = JSON.parse(params['categories']);
-
-      this.items = ItemService.getDataStatic();
+      this.items = this.provider.getItems(this.itemType);
       this.generateRandomCard();
     });
   }
@@ -43,9 +43,6 @@ export class RandomItemGeneratorComponent implements OnInit {
     return this.items.filter((item: any) => {
 
       if (this.isOnTheAvailableExpansions(availableExpansions, item)) {
-        return false;
-      }
-      if (this.isTheCorrectType(item)) {
         return false;
       }
       if (this.noCategoriesSelected()) {
@@ -69,10 +66,6 @@ export class RandomItemGeneratorComponent implements OnInit {
 
   private noCategoriesSelected() {
     return this.selectedCategories.length === 0;
-  }
-
-  private isTheCorrectType(item: any) {
-    return this.itemType.toLowerCase() !== item.type.toLowerCase();
   }
 
   private isOnTheAvailableExpansions(availableExpansions: Array<string>, item: any) {

@@ -16,13 +16,13 @@ import { HttpModule } from '@angular/http';
 import { RandomItemGeneratorComponent } from './random-item-generator.component';
 import { MenuListItemComponent } from './menu-list-item.component';
 import { MenuRoutingComponent } from './menu-routing.component';
-import { ItemService } from './item.service';
 import { ConfigurationModule } from './configuration/configuration.module';
 import '../styles/core.less';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { ItemTypeComponent } from './item-type.component';
 import { ItemCategoryComponent } from './item-category.component';
 import { ExpansionModule } from './expansion.module';
+import { RandomItemGeneratorProvider } from './random-item-generator.provider';
 
 const appRoutes: Routes = [
   {path: 'components', component: MenuListComponent},
@@ -60,7 +60,7 @@ const appRoutes: Routes = [
     ItemCategoryComponent
   ],
   bootstrap: [MenuRoutingComponent],
-  providers: [ItemService]
+  providers: [RandomItemGeneratorProvider]
 })
 export class AppModule {
 }

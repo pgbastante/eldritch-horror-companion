@@ -16,9 +16,8 @@ Hope this helps, any ideas and help are welcome.
 
 #TODO
 
-* Spanish translation
-* Language selector
-* Show the correct text for each of the categories, expansions...
+* Change RandomItemGeneratorProvider to a Factory provider
+* Language selector styling
 * Add all items to the database (english)
 * Make the location randomizer or tune the existing one to work with locations
 * Main menu smooth transitions
