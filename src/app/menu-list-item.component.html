@@ -5,10 +5,11 @@
     <i md-list-avatar class="material-icons" *ngIf="displayCategories">arrow_drop_up</i>
   </h3>
   <p md-line *ngFor="let category of item.categories">
-    <md-checkbox *ngIf="displayCategories" [(ngModel)]="categories[category]">{{category}}
+    <md-checkbox *ngIf="displayCategories" [(ngModel)]="categories[category]">
+      <span i18n>{category, select, incantation {Incantation} glamour {Glamour} ritual {Ritual} trinket {Trinket} weapon {Weapon} ally {Ally} service {Service} magical {Magical} relic {Relic} tome {Tome} other {Other} teamwork {Teamwork} bane {Bane} boon {Boon} deal {Deal} exposure {Exposure} illness {Illness} madness {Madness} pursuit {Pursuit} restriction {Restriction} talent {Talent} injury {Injury} world {World} antarctica {Antarctica} pyramids {Pyramids} dreamlands {Dreamlands}}</span>
     </md-checkbox>
   </p>
   <p md-line>
-    <button (click)="navigateToRandomGenerator()" md-button *ngIf="displayCategories" i18n>Find</button>
+    <button (click)="navigateToRandomGenerator()" md-button *ngIf="displayCategories"><span i18n>Find</span></button>
   </p>
 </md-list-item>

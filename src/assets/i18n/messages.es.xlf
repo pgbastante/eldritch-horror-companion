@@ -27,7 +27,7 @@
       </trans-unit>
       <trans-unit id="42bfc073f728ef312ac527cc1fc634acb60fd48b" datatype="html">
         <source>DRAW AGAIN</source>
-        <target>DRAW AGAIN</target>
+        <target>VOLVER A ROBAR</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/random-item-generator.component.ts</context>
           <context context-type="linenumber">17</context>
@@ -35,7 +35,7 @@
       </trans-unit>
       <trans-unit id="b0ff926f8a9440093ff25f43f53692c4b90d0d26" datatype="html">
         <source>BACK</source>
-        <target>BACK</target>
+        <target>ATRÁS</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/random-item-generator.component.ts</context>
           <context context-type="linenumber">18</context>
@@ -47,7 +47,7 @@
       </trans-unit>
       <trans-unit id="790325faad611fbf247669bc5e76ff63f6a2e45d" datatype="html">
         <source>No Items found with the selected categories</source>
-        <target>No Items found with the selected categories</target>
+        <target>No se encontraron ítems en las categorías seleccionadas</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/random-item-generator.component.ts</context>
           <context context-type="linenumber">23</context>
@@ -55,7 +55,7 @@
       </trans-unit>
       <trans-unit id="ef23c80eff6cdcec7c7e905ed1dab0da51bb5e56" datatype="html">
         <source>Find</source>
-        <target>Find</target>
+        <target>Buscar</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/menu-list-item.component.ts</context>
           <context context-type="linenumber">18</context>
@@ -101,22 +101,20 @@
           <context context-type="linenumber">3</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="07679655365b5789749e9e05bf216092eeb08575" datatype="html">
-        <source>
-          <x id="ICU"/>
-        </source>
-        <target/>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/configuration/configuration-item.component.ts</context>
-          <context context-type="linenumber">4</context>
-        </context-group>
-      </trans-unit>
       <trans-unit id="295082bb145669832f17cbabbe328432c95d9a24" datatype="html">
         <source>{VAR_SELECT, select, fl {Forsaken Lore} mom {Mountains of Madness} sr {Strange Remnants} utp {Under the Pyramids} soc {Signs of Carcosa} td {The Dreamlands} }</source>
         <target>{VAR_SELECT, select, fl {Saber Olvidado} mom {Las Montañas de la Locura} sr {Vestigios Extraños} utp {Bajo las Piramides} soc {Señales de Carcosa} td {Las Tierras del Sueño} }</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/configuration/configuration-item.component.ts</context>
           <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="d4f8fe819f13af2cb935d80d2f259df52538d1a4" datatype="html">
+        <source>{VAR_SELECT, select, incantation {Incantation} glamour {Glamour} ritual {Ritual} trinket {Trinket} weapon {Weapon} ally {Ally} service {Service} magical {Magical} relic {Relic} tome {Tome} other {Other} teamwork {Teamwork} bane {Bane} boon {Boon} deal {Deal} exposure {Exposure} illness {Illness} madness {Madness} pursuit {Pursuit} restriction {Restriction} talent {Talent} injury {Injury} world {World} antarctica {Antarctica} pyramids {Pyramids} dreamlands {Dreamlands} }</source>
+        <target>{VAR_SELECT, select, incantation {Ensalmo} glamour {Encanto} ritual {Ritual} trinket {Baratija} weapon {Arma} ally {Aliado} service {Servicio} magical {Mágico} relic {Reliquia} tome {Tomo} other {Otro} teamwork {Trabajo en Equipo} bane {Ruina} boon {Ayuda} deal {Trato} exposure {Congelación} illness {Enfermedad} madness {Locura} pursuit {Persecución} restriction {Restricción} talent {Talento} injury {Herida} world {Mapa del Mundo} antarctica {Antártida} pyramids {Pirámides} dreamlands {Tierras del Sueño} }</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/menu-list-item.component.ts</context>
+          <context context-type="linenumber">9</context>
         </context-group>
       </trans-unit>
     </body>

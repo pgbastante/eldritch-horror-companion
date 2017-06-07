@@ -5,14 +5,12 @@ export class Asset extends Item {
   categories: assetCategory[] = [
     'trinket',
     'weapon',
-    'item',
     'ally',
     'service',
     'magical',
     'relic',
     'tome',
     'other',
-    'reckoning',
     'teamwork'
   ];
 }
@@ -22,14 +20,12 @@ export class UniqueAsset extends Item {
   categories: assetCategory[] = [
     'trinket',
     'weapon',
-    'item',
     'ally',
     'service',
     'magical',
     'relic',
     'tome',
     'other',
-    'reckoning',
     'teamwork'
   ];
 }
@@ -39,14 +35,12 @@ export class Artifact extends Item {
   categories: assetCategory[] = [
     'trinket',
     'weapon',
-    'item',
     'ally',
     'service',
     'magical',
     'relic',
     'tome',
     'other',
-    'reckoning',
     'teamwork'
   ];
 }
@@ -54,12 +48,10 @@ export class Artifact extends Item {
 export type assetCategory =
   'trinket'
   | 'weapon'
-  | 'item'
   | 'ally'
   | 'service'
   | 'magical'
   | 'relic'
   | 'tome'
   | 'other'
-  | 'reckoning'
   | 'teamwork' ;

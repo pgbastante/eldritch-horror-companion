@@ -103,22 +103,20 @@
           <context context-type="linenumber">3</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="07679655365b5789749e9e05bf216092eeb08575" datatype="html">
-        <source>
-          <x id="ICU"/>
-        </source>
-        <target/>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/configuration/configuration-item.component.ts</context>
-          <context context-type="linenumber">4</context>
-        </context-group>
-      </trans-unit>
       <trans-unit id="295082bb145669832f17cbabbe328432c95d9a24" datatype="html">
         <source>{VAR_SELECT, select, fl {Forsaken Lore} mom {Mountains of Madness} sr {Strange Remnants} utp {Under the Pyramids} soc {Signs of Carcosa} td {The Dreamlands} }</source>
         <target>{VAR_SELECT, select, fl {Forsaken Lore} mom {Mountains of Madness} sr {Strange Remnants} utp {Under the Pyramids} soc {Signs of Carcosa} td {The Dreamlands} }</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/configuration/configuration-item.component.ts</context>
           <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="d4f8fe819f13af2cb935d80d2f259df52538d1a4" datatype="html">
+        <source>{VAR_SELECT, select, incantation {Incantation} glamour {Glamour} ritual {Ritual} trinket {Trinket} weapon {Weapon} ally {Ally} service {Service} magical {Magical} relic {Relic} tome {Tome} other {Other} teamwork {Teamwork} bane {Bane} boon {Boon} deal {Deal} exposure {Exposure} illness {Illness} madness {Madness} pursuit {Pursuit} restriction {Restriction} talent {Talent} injury {Injury} world {World} antarctica {Antarctica} pyramids {Pyramids} dreamlands {Dreamlands} }</source>
+        <target>{VAR_SELECT, select, incantation {Incantation} glamour {Glamour} ritual {Ritual} trinket {Trinket} weapon {Weapon} ally {Ally} service {Service} magical {Magical} relic {Relic} tome {Tome} other {Other} teamwork {Teamwork} bane {Bane} boon {Boon} deal {Deal} exposure {Exposure} illness {Illness} madness {Madness} pursuit {Pursuit} restriction {Restriction} talent {Talent} injury {Injury} world {World} antarctica {Antarctica} pyramids {Pyramids} dreamlands {Dreamlands} }</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/menu-list-item.component.ts</context>
+          <context context-type="linenumber">9</context>
         </context-group>
       </trans-unit>
     </body>
