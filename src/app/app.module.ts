@@ -12,6 +12,7 @@ import { MenuRoutingComponent } from './menu-routing.component';
 import { ItemService } from './item.service';
 import { ConfigurationModule } from './configuration/configuration.module';
 import '../styles/core.less';
+import { FlexLayoutModule } from '@angular/flex-layout';
 
 const appRoutes: Routes = [
   {path: 'components', component: MenuListComponent},
@@ -36,7 +37,8 @@ const appRoutes: Routes = [
     MdCardModule,
     ConfigurationModule,
     MdToolbarModule,
-    MdSidenavModule
+    MdSidenavModule,
+    FlexLayoutModule
   ],
   declarations: [MenuListComponent, MenuListItemComponent, MenuRoutingComponent, RandomItemGeneratorComponent],
   bootstrap: [MenuRoutingComponent],

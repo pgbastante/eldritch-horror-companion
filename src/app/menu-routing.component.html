@@ -1,5 +1,5 @@
 <md-sidenav-container fullscreen>
-  <md-sidenav #sidenav mode="over">
+  <md-sidenav #sidenav mode="over" fxLayout="column" fxLayoutAlign="space-between">
     <md-list>
       <md-list-item routerLink="/components" (click)="sidenav.toggle()">
         <i class="material-icons">search</i>
@@ -14,6 +14,14 @@
         <span i18n>About</span>
       </md-list-item>
     </md-list>
+    <div fxLayout="row">
+      <div>
+        <span id="es" (click)="languageChange($event)" class="flag-icon flag-icon-es"></span>
+      </div>
+      <div>
+        <span id="en" (click)="languageChange($event)" class="flag-icon flag-icon-us"></span>
+      </div>
+    </div>
   </md-sidenav>
 
   <md-toolbar color="primary">
