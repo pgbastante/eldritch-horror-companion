@@ -22,6 +22,7 @@ import '../styles/core.less';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { ItemTypeComponent } from './item-type.component';
 import { ItemCategoryComponent } from './item-category.component';
+import { ExpansionModule } from './expansion.module';
 
 const appRoutes: Routes = [
   {path: 'components', component: MenuListComponent},
@@ -47,7 +48,8 @@ const appRoutes: Routes = [
     ConfigurationModule,
     MdToolbarModule,
     MdSidenavModule,
-    FlexLayoutModule
+    FlexLayoutModule,
+    ExpansionModule
   ],
   declarations: [
     MenuListComponent,
