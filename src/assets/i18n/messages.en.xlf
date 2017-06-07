@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<xliff 
-  xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
   <file source-language="en" datatype="plaintext" original="ng2.template">
     <body>
       <trans-unit id="cff1428d10d59d14e45edec3c735a27b5482db59" datatype="html">
@@ -95,12 +93,20 @@
           <context context-type="linenumber">21</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="578fb5cf5c5e6a9e25e5870fc892eed2f2c37ae0" datatype="html">
+      <trans-unit id="d4f8fe819f13af2cb935d80d2f259df52538d1a4" datatype="html">
+        <source>{VAR_SELECT, select, incantation {Incantation} glamour {Glamour} ritual {Ritual} trinket {Trinket} weapon {Weapon} ally {Ally} service {Service} magical {Magical} relic {Relic} tome {Tome} other {Other} teamwork {Teamwork} bane {Bane} boon {Boon} deal {Deal} exposure {Exposure} illness {Illness} madness {Madness} pursuit {Pursuit} restriction {Restriction} talent {Talent} injury {Injury} world {World} antarctica {Antarctica} pyramids {Pyramids} dreamlands {Dreamlands} }</source>
+        <target>{VAR_SELECT, select, incantation {Incantation} glamour {Glamour} ritual {Ritual} trinket {Trinket} weapon {Weapon} ally {Ally} service {Service} magical {Magical} relic {Relic} tome {Tome} other {Other} teamwork {Teamwork} bane {Bane} boon {Boon} deal {Deal} exposure {Exposure} illness {Illness} madness {Madness} pursuit {Pursuit} restriction {Restriction} talent {Talent} injury {Injury} world {World} antarctica {Antarctica} pyramids {Pyramids} dreamlands {Dreamlands} }</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/menu-list-item.component.ts</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="46fcc8f46692b7d7dec4924805a447ca774089b2" datatype="html">
         <source>{VAR_SELECT, select, spell {Spell} asset {Asset} unique-asset {Unique Asset} artifact {Artifact} condition {Condition} location {Location} }</source>
         <target>{VAR_SELECT, select, spell {Spell} asset {Asset} unique-asset {Unique Asset} artifact {Artifact} condition {Condition} location {Location} }</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/menu-list-item.component.ts</context>
-          <context context-type="linenumber">3</context>
+          <context context-type="sourcefile">src/app/item-type.component.ts</context>
+          <context context-type="linenumber">1</context>
         </context-group>
       </trans-unit>
       <trans-unit id="295082bb145669832f17cbabbe328432c95d9a24" datatype="html">
@@ -109,14 +115,6 @@
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/configuration/configuration-item.component.ts</context>
           <context context-type="linenumber">5</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="d4f8fe819f13af2cb935d80d2f259df52538d1a4" datatype="html">
-        <source>{VAR_SELECT, select, incantation {Incantation} glamour {Glamour} ritual {Ritual} trinket {Trinket} weapon {Weapon} ally {Ally} service {Service} magical {Magical} relic {Relic} tome {Tome} other {Other} teamwork {Teamwork} bane {Bane} boon {Boon} deal {Deal} exposure {Exposure} illness {Illness} madness {Madness} pursuit {Pursuit} restriction {Restriction} talent {Talent} injury {Injury} world {World} antarctica {Antarctica} pyramids {Pyramids} dreamlands {Dreamlands} }</source>
-        <target>{VAR_SELECT, select, incantation {Incantation} glamour {Glamour} ritual {Ritual} trinket {Trinket} weapon {Weapon} ally {Ally} service {Service} magical {Magical} relic {Relic} tome {Tome} other {Other} teamwork {Teamwork} bane {Bane} boon {Boon} deal {Deal} exposure {Exposure} illness {Illness} madness {Madness} pursuit {Pursuit} restriction {Restriction} talent {Talent} injury {Injury} world {World} antarctica {Antarctica} pyramids {Pyramids} dreamlands {Dreamlands} }</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/menu-list-item.component.ts</context>
-          <context context-type="linenumber">9</context>
         </context-group>
       </trans-unit>
     </body>
