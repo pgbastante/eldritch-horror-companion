@@ -2,7 +2,7 @@
   <div md-line>
     <div class="configuration-item-image {{expansion.key}}">
       <md-slide-toggle class="configuration-item-slider" [checked]="expansion.available" (change)="onChange($event)">
-        {{expansion.name}}
+        <span i18n>{expansion.key, select, fl {Forsaken Lore} mom {Mountains of Madness} sr {Strange Remnants} utp {Under the Pyramids} soc {Signs of Carcosa} td {The Dreamlands}}</span>
       </md-slide-toggle>
     </div>
   </div>
