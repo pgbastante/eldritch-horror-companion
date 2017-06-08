@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { ExpansionService } from './expansion.service';
+import { ExpansionService } from '../services/expansion.service';
 import { Expansion } from '@angular/compiler';
 
 @Component({

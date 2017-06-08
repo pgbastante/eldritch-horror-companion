@@ -1,6 +1,6 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { Expansion } from '../models/Expansion';
-import { ExpansionService } from './expansion.service';
+import { ExpansionService } from '../services/expansion.service';
 import { MdSlideToggleChange } from '@angular/material';
 
 @Component({

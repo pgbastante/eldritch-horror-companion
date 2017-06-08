@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { Item } from './models/Item';
+import { Item } from '../models/Item';
 import { ActivatedRoute, Router } from '@angular/router';
-import { ExpansionService } from './configuration/expansion.service';
+import { ExpansionService } from '../services/expansion.service';
 import { RandomItemGeneratorProvider } from './random-item-generator.provider';
 
 @Component({

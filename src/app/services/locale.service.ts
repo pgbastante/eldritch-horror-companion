@@ -17,7 +17,7 @@ export class LocaleService {
 
   static getTranslation() {
     let localeId = this.getLocale();
-    return require(`../assets/i18n/messages.${localeId}.xlf`);
+    return require(`Assets/i18n/messages.${localeId}.xlf`);
   }
 
   static getProvider() {

@@ -2,9 +2,9 @@ import { Injectable } from '@angular/core';
 import { LocaleService } from './locale.service';
 
 @Injectable()
-export class SpellService {
+export class UniqueAssetService {
   static getDataStatic() {
     let locale = LocaleService.getLocale();
-    return require(`../assets/items/spells.${locale}.json`);
+    return require(`Assets/items/unique-assets.${locale}.json`);
   }
 }

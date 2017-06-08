@@ -10,19 +10,19 @@ import {
   MdToolbarModule
 } from '@angular/material';
 import { FormsModule } from '@angular/forms';
-import { MenuListComponent } from './menu-list.component';
+import { MenuListComponent } from './menu/menu-list.component';
 import { RouterModule, Routes } from '@angular/router';
 import { HttpModule } from '@angular/http';
-import { RandomItemGeneratorComponent } from './random-item-generator.component';
-import { MenuListItemComponent } from './menu-list-item.component';
+import { RandomItemGeneratorComponent } from './generator/random-item-generator.component';
+import { MenuListItemComponent } from './menu/menu-list-item.component';
 import { MenuRoutingComponent } from './menu-routing.component';
 import { ConfigurationModule } from './configuration/configuration.module';
 import '../styles/core.less';
 import { FlexLayoutModule } from '@angular/flex-layout';
-import { ItemTypeComponent } from './item-type.component';
-import { ItemCategoryComponent } from './item-category.component';
-import { ExpansionModule } from './expansion.module';
-import { RandomItemGeneratorProvider } from './random-item-generator.provider';
+import { ItemTypeComponent } from './item/item-type.component';
+import { ItemCategoryComponent } from './item/item-category.component';
+import { ExpansionModule } from './expansions/expansion.module';
+import { RandomItemGeneratorProvider } from './generator/random-item-generator.provider';
 
 const appRoutes: Routes = [
   {path: 'components', component: MenuListComponent},

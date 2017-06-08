@@ -4,7 +4,7 @@ import { ConfigurationListComponent } from './configuration-list.component';
 import { RouterModule, Routes } from '@angular/router';
 import { MdSlideToggleModule } from '@angular/material';
 import { BrowserModule } from '@angular/platform-browser';
-import { ExpansionModule } from '../expansion.module';
+import { ExpansionModule } from '../expansions/expansion.module';
 
 const appRoutes: Routes = [
   {path: 'configuration', component: ConfigurationListComponent},

@@ -1,10 +1,10 @@
 import { Injectable } from '@angular/core';
-import { ArtifactService } from './artifact.service';
-import { AssetService } from './asset.service';
-import { ConditionService } from './condition.service';
-import { SpellService } from './spell.service';
-import { LocationService } from './location.service';
-import { UniqueAssetService } from './unique-asset.service';
+import { ArtifactService } from '../services/artifact.service';
+import { AssetService } from '../services/asset.service';
+import { ConditionService } from '../services/condition.service';
+import { SpellService } from '../services/spell.service';
+import { LocationService } from '../services/location.service';
+import { UniqueAssetService } from '../services/unique-asset.service';
 @Injectable()
 export class RandomItemGeneratorProvider {
   map = {

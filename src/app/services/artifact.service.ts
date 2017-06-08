@@ -5,6 +5,6 @@ import { LocaleService } from './locale.service';
 export class ArtifactService {
   getDataStatic() {
     let locale = LocaleService.getLocale();
-    return require(`../assets/items/artifacts.${locale}.json`);
+    return require(`Assets/items/artifacts.${locale}.json`);
   }
 }

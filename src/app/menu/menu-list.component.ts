@@ -1,9 +1,9 @@
 import { Component } from '@angular/core';
-import { Item } from './models/Item';
-import { Spell } from './models/Spell';
-import { Artifact, Asset, UniqueAsset } from './models/Asset';
-import { Condition } from './models/Condition';
-import { Location } from './models/Location';
+import { Item } from '../models/Item';
+import { Spell } from '../models/Spell';
+import { Artifact, Asset, UniqueAsset } from '../models/Asset';
+import { Condition } from '../models/Condition';
+import { Location } from '../models/Location';
 
 @Component({
   selector: 'main-menu-list',

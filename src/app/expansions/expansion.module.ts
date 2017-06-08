@@ -1,5 +1,5 @@
 import { NgModule } from '@angular/core';
-import { ExpansionNameComponent } from './configuration/expansion-name.component';
+import { ExpansionNameComponent } from './expansion-name.component';
 import { BrowserModule } from '@angular/platform-browser';
 
 @NgModule({

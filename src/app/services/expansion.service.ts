@@ -4,7 +4,7 @@ import { expansionTypes } from '../models/Expansion';
 @Injectable()
 export class ExpansionService {
   static getDataStatic() {
-    return require('../../assets/expansions.json');
+    return require('Assets/expansions.json');
   }
 
   static setAvailability(key: string, value: boolean) {
