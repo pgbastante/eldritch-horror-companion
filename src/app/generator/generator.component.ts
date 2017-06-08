@@ -2,12 +2,12 @@ import { Component, OnInit } from '@angular/core';
 import { Item } from '../models/Item';
 import { ActivatedRoute, Router } from '@angular/router';
 import { ExpansionService } from '../services/expansion.service';
-import { RandomItemGeneratorProvider } from './random-item-generator.provider';
+import { RandomItemGeneratorProvider } from './generator.provider';
 
 @Component({
   selector: 'random-item-generator',
-  templateUrl: 'random-item-generator.component.html',
-  styleUrls: ['random-item-generator.component.css']
+  templateUrl: 'generator.component.html',
+  styleUrls: ['generator.component.css']
 })
 export class RandomItemGeneratorComponent implements OnInit {
   itemType: string;

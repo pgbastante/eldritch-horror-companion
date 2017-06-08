@@ -4,8 +4,8 @@ import { Router } from '@angular/router';
 
 @Component({
   selector: 'menu-item',
-  templateUrl: 'menu-list-item.component.html',
-  styleUrls: ['menu-list-item.component.css']
+  templateUrl: 'generator-list-item.component.html',
+  styleUrls: ['generator-list-item.component.css']
 })
 export class MenuListItemComponent {
   @Input()
