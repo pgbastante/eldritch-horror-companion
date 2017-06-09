@@ -7,22 +7,14 @@ import {
   MdSidenavModule,
   MdToolbarModule
 } from '@angular/material';
-import { RouterModule, Routes } from '@angular/router';
 import { MenuRoutingComponent } from './menu-routing.component';
-import { ConfigurationModule } from './configuration/configuration.module';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { GeneratorModule } from './generator/generator.module';
 import { ItemModule } from './item/item.module';
 
 import '../styles/core.less';
+import { appRoutes } from './app.routes';
 
-const appRoutes: Routes = [
-  {
-    path: '**',
-    redirectTo: '/components',
-    pathMatch: 'full'
-  }
-];
 
 @NgModule({
   imports: [
@@ -30,8 +22,7 @@ const appRoutes: Routes = [
     BrowserAnimationsModule,
     MdListModule,
     MdButtonModule,
-    RouterModule.forRoot(appRoutes),
-    ConfigurationModule,
+    appRoutes,
     MdToolbarModule,
     MdSidenavModule,
     FlexLayoutModule,

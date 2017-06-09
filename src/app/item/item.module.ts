@@ -1,10 +1,10 @@
 import { NgModule } from '@angular/core';
-import { BrowserModule } from '@angular/platform-browser';
 import { ItemTypeComponent } from './item-type.component';
 import { ItemCategoryComponent } from './item-category.component';
+import { CommonModule } from '@angular/common';
 
 @NgModule({
-  imports: [BrowserModule],
+  imports: [CommonModule],
   declarations: [ItemCategoryComponent, ItemTypeComponent],
   exports: [ItemCategoryComponent, ItemTypeComponent]
 })

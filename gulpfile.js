@@ -151,21 +151,3 @@ gulp.task("i18n-update:merge", ["i18n-update:init"], function () {
  * Task pipe to init & merge i18n translation files
  */
 gulp.task("i18n-update", ["i18n-update:merge", "i18n-update:init"]);
-
-/**
- * Transpile language translation XLIFF files to TS
- */
-gulp.task("i18n-xlf2ts", function () {
-  console.log("Transpiling XLF translation files to TS...");
-
-  gulp.src(PATH_I18N_LANGUAGES + XLF_MASK)
-    .pipe(rename(function (path) {
-      path.extname = ".ts";
-      console.log("==>", PATH_I18N_LANGUAGES + "/" + path.basename + path.extname);
-    }))
-    .pipe(modifyFile(function (content, path) {
-      var language = path.split(".")[1].toUpperCase();
-      return "export const TRANSLATION_" + language + " = `" + content + "`;";
-    }))
-    .pipe(gulp.dest(PATH_I18N_LANGUAGES));
-});

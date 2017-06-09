@@ -1,9 +1,9 @@
 import { NgModule } from '@angular/core';
 import { ExpansionNameComponent } from './expansion-name.component';
-import { BrowserModule } from '@angular/platform-browser';
+import { CommonModule } from '@angular/common';
 
 @NgModule({
-  imports: [BrowserModule],
+  imports: [CommonModule],
   declarations: [ExpansionNameComponent],
   exports: [ExpansionNameComponent]
 })
