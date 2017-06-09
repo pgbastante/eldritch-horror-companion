@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { LocaleService } from './services/locale.service';
-require('../../node_modules/flag-icon-css/less/flag-icon.less');
+require('../styles/flags.less');
 
 @Component({
   selector: 'menu-routing',

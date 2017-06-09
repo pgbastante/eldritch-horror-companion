@@ -1,10 +1,17 @@
 import { Injectable } from '@angular/core';
-import { expansionTypes } from '../models/Expansion';
+import { Expansion, expansionTypes } from '../models/Expansion';
 
 @Injectable()
 export class ExpansionService {
   static getDataStatic() {
-    return require('Assets/expansions.json');
+    let expansions: Array<Expansion> = [];
+    for (let type of expansionTypes) {
+      let expansionConfiguration = new Expansion();
+      expansionConfiguration.key = type;
+      expansionConfiguration.available = this.getAvailability(type);
+      expansions.push(expansionConfiguration);
+    }
+    return expansions;
   }
 
   static setAvailability(key: string, value: boolean) {

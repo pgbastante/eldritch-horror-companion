@@ -1,5 +1,4 @@
 export class Expansion {
-  name: string;
   key: expansionType;
   available: boolean;
 }
@@ -13,7 +12,7 @@ export type expansionType =
   | 'soc'
   | 'td';
 
-export let expansionTypes = [
+export let expansionTypes:Array<expansionType> = [
   'fl'
   , 'mom'
   , 'sr'

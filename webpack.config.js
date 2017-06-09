@@ -51,7 +51,7 @@ module.exports = (options) => {
      * Configure how modules are resolved.
      */
     resolve: {
-      extensions: ['.webpack.js', '.ts', '.js', '.html', 'json'],
+      extensions: ['.ts', '.js', '.html', 'json'],
       alias:{
         Assets: helpers.root('src','assets')
       }
