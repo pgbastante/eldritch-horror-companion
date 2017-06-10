@@ -5,7 +5,7 @@
     <i md-list-avatar class="material-icons" *ngIf="displayCategories">arrow_drop_up</i>
   </h3>
   <p md-line *ngFor="let category of item.categories">
-    <md-checkbox *ngIf="displayCategories" [(ngModel)]="categories[category]">
+    <md-checkbox class="item-category-checkbox" *ngIf="displayCategories" [(ngModel)]="categories[category]">
       <item-category [category]="category"></item-category>
     </md-checkbox>
   </p>

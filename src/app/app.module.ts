@@ -9,7 +9,6 @@ import {
 } from '@angular/material';
 import { MenuRoutingComponent } from './menu-routing.component';
 import { FlexLayoutModule } from '@angular/flex-layout';
-import { GeneratorModule } from './generator/generator.module';
 import { ItemModule } from './item/item.module';
 
 import '../styles/core.less';
@@ -26,7 +25,6 @@ import { appRoutes } from './app.routes';
     MdToolbarModule,
     MdSidenavModule,
     FlexLayoutModule,
-    GeneratorModule,
     ItemModule
   ],
   declarations: [

@@ -3,11 +3,11 @@ import { Item } from '../models/Item';
 import { Router } from '@angular/router';
 
 @Component({
-  selector: 'menu-item',
-  templateUrl: 'generator-list-item.component.html',
-  styleUrls: ['generator-list-item.component.css']
+  selector: 'generator-menu-list-item',
+  templateUrl: 'generator-menu-list-item.component.html',
+  styleUrls: ['generator-menu-list-item.component.css']
 })
-export class MenuListItemComponent {
+export class GeneratorMenuListItemComponent {
   @Input()
   item: Item;
   displayCategories: boolean = false;
@@ -23,6 +23,6 @@ export class MenuListItemComponent {
     this.toggleDisplayEvent.emit(this.type);
   };
   navigateToRandomGenerator = function () {
-    this.router.navigate(['/randomize', {categories: JSON.stringify(this.categories), type: this.item.type}]);
+    this.router.navigate(['/generator/randomize', {categories: JSON.stringify(this.categories), type: this.item.type}]);
   };
 }

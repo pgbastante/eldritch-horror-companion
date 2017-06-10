@@ -3,11 +3,8 @@ import { ModuleWithProviders } from '@angular/core';
 
 const routes: Routes = [
   {path: 'configuration', loadChildren: './configuration/configuration.module#ConfigurationModule'},
-  {
-    path: '**',
-    redirectTo: '/components',
-    pathMatch: 'full'
-  }
+  {path: 'home', loadChildren: './menu/home-menu.module#HomeMenuModule'},
+  {path: 'generator', loadChildren: './generator/generator.module#GeneratorModule'}
 ];
 
 export const appRoutes: ModuleWithProviders = RouterModule.forRoot(routes);

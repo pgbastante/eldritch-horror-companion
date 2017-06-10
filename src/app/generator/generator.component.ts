@@ -1,8 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { Item } from '../models/Item';
 import { ActivatedRoute, Router } from '@angular/router';
-import { ExpansionService } from '../services/expansion.service';
 import { RandomItemGeneratorProvider } from './generator.provider';
+import { ItemFilterProvider } from '../item/item-filter.provider';
 
 @Component({
   selector: 'random-item-generator',
@@ -17,11 +17,12 @@ export class RandomItemGeneratorComponent implements OnInit {
 
   constructor(private router: Router,
               private route: ActivatedRoute,
-              private provider: RandomItemGeneratorProvider) {
+              private provider: RandomItemGeneratorProvider,
+              private itemFilterProvider: ItemFilterProvider) {
   }
 
   back = function () {
-    this.router.navigate(['/']);
+    this.router.navigate(['/generator']);
   };
 
   ngOnInit() {
@@ -29,47 +30,14 @@ export class RandomItemGeneratorComponent implements OnInit {
       this.itemType = params['type'];
       this.selectedCategories = JSON.parse(params['categories']);
       this.items = this.provider.getItems(this.itemType);
-      this.generateRandomCard();
+      this.generateRandomItem();
     });
   }
 
-  generateRandomCard() {
-    this.generatedItem = this.randomItem(this.filterCards());
-  }
-
-  private filterCards() {
-    let availableExpansions: Array<string> = ExpansionService.getAvailableExpansions();
-
-    return this.items.filter((item: any) => {
-
-      if (this.isOnTheAvailableExpansions(availableExpansions, item)) {
-        return false;
-      }
-      if (this.noCategoriesSelected()) {
-        return true;
-      }
-
-      return this.itemMatchesAllSelectedCategories(item);
-    });
-  }
-
-  private itemMatchesAllSelectedCategories(card: any) {
-    let matchAll = true;
-    for (let category in this.selectedCategories) {
-      let cardCategories = card.categories.map((category: string) => category.toLowerCase());
-      if (this.selectedCategories[category] && !cardCategories.includes(category)) {
-        matchAll = false;
-      }
-    }
-    return matchAll;
-  }
-
-  private noCategoriesSelected() {
-    return this.selectedCategories.length === 0;
-  }
-
-  private isOnTheAvailableExpansions(availableExpansions: Array<string>, item: any) {
-    return !availableExpansions.includes(item.expansion);
+  generateRandomItem() {
+    let itemFilterClass = this.itemFilterProvider.getInstance(this.itemType),
+      itemFilterInstance = new itemFilterClass(this.items, this.selectedCategories);
+    this.generatedItem = this.randomItem(itemFilterInstance.filterItems());
   }
 
   private randomItem = function (items: Array<any>) {

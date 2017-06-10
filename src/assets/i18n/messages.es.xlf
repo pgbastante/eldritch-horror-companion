@@ -45,14 +45,6 @@
           <context context-type="linenumber">18</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="9c27666f25b547427db4969640222357559f98c6" datatype="html">
-        <source>Main Menu</source>
-        <target>Menu Principal</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/menu-routing.component.ts</context>
-          <context context-type="linenumber">6</context>
-        </context-group>
-      </trans-unit>
       <trans-unit id="121cc5391cd2a5115bc2b3160379ee5b36cd7716" datatype="html">
         <source>Settings</source>
         <target>Configuracion</target>
@@ -67,14 +59,6 @@
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/menu-routing.component.ts</context>
           <context context-type="linenumber">14</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="2a2bd10d78ef3d08b91127ec2d597f30af06a41a" datatype="html">
-        <source>Eldritch Horror Companion App</source>
-        <target>Eldritch Horror Companion App</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/menu-routing.component.ts</context>
-          <context context-type="linenumber">21</context>
         </context-group>
       </trans-unit>
       <trans-unit id="46fcc8f46692b7d7dec4924805a447ca774089b2" datatype="html">
@@ -93,12 +77,28 @@
           <context context-type="linenumber">1</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="d6e019b8b232e5ece1dc92bf06443afe08a13eab" datatype="html">
-        <source>{VAR_SELECT, select, incantation {Incantation} glamour {Glamour} ritual {Ritual} trinket {Trinket} weapon {Weapon} ally {Ally} service {Service} magical {Magical} relic {Relic} tome {Tome} other {Other} teamwork {Teamwork} bane {Bane} boon {Boon} deal {Deal} exposure {Exposure} illness {Illness} madness {Madness} pursuit {Pursuit} restriction {Restriction} talent {Talent} injury {Injury} world {World} antarctica {Antarctica} pyramids {Pyramids} dreamlands {Dreamlands} task {Task} }</source>
-        <target>{VAR_SELECT, select, incantation {Ensalmo} glamour {Encanto} ritual {Ritual} trinket {Baratija} weapon {Arma} ally {Aliado} service {Servicio} magical {Mágico} relic {Reliquia} tome {Tomo} other {Otro} teamwork {Trabajo en Equipo} bane {Ruina} boon {Ayuda} deal {Trato} exposure {Congelación} illness {Enfermedad} madness {Locura} pursuit {Persecución} restriction {Restricción} talent {Talento} injury {Herida} world {Mapa del Mundo} antarctica {Antártida} pyramids {Pirámides} dreamlands {Tierras del Sueño} task {Tarea}}</target>
+      <trans-unit id="92bcf0d87141ad66de5e36dcabafbcd75e02989e" datatype="html">
+        <source>{VAR_SELECT, select, incantation {Incantation} glamour {Glamour} ritual {Ritual} trinket {Trinket} weapon {Weapon} ally {Ally} service {Service} magical {Magical} relic {Relic} tome {Tome} other {Other} teamwork {Teamwork} bane {Bane} boon {Boon} deal {Deal} exposure {Exposure} illness {Illness} madness {Madness} pursuit {Pursuit} restriction {Restriction} talent {Talent} injury {Injury} world {World} antarctica {Antarctica} pyramids {Pyramids} dreamlands {Dreamlands} task {Task} object {Object} character {Character} }</source>
+        <target>{VAR_SELECT, select, incantation {Ensalmo} glamour {Encanto} ritual {Ritual} trinket {Baratija} weapon {Arma} ally {Aliado} service {Servicio} magical {Mágico} relic {Reliquia} tome {Tomo} other {Otro} teamwork {Trabajo en Equipo} bane {Ruina} boon {Ayuda} deal {Trato} exposure {Congelación} illness {Enfermedad} madness {Locura} pursuit {Persecución} restriction {Restricción} talent {Talento} injury {Herida} world {Mapa del Mundo} antarctica {Antártida} pyramids {Pirámides} dreamlands {Tierras del Sueño} task {Tarea} object {Objeto} character {Personaje}}</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/item/item-category.component.ts</context>
           <context context-type="linenumber">1</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="92eee6be6de0b11c924e3ab27db30257159c0a7c" datatype="html">
+        <source>Home</source>
+        <target>Home</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/menu-routing.component.ts</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2bdcb4e60ceef3889ee9130ab941b24dfd6a72c6" datatype="html">
+        <source>Random Generator</source>
+        <target>Generador Aleatorio</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/menu-routing.component.ts</context>
+          <context context-type="linenumber">10</context>
         </context-group>
       </trans-unit>
     </body>

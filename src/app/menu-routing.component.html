@@ -1,9 +1,13 @@
 <md-sidenav-container fullscreen>
   <md-sidenav #sidenav mode="over" fxLayout="column" fxLayoutAlign="space-between">
     <md-list>
-      <md-list-item routerLink="/components" (click)="sidenav.toggle()">
+      <md-list-item routerLink="/home" (click)="sidenav.toggle()">
+        <i class="material-icons">home</i>
+        <span i18n>Home</span>
+      </md-list-item>
+      <md-list-item routerLink="/generator" (click)="sidenav.toggle()">
         <i class="material-icons">search</i>
-        <span i18n>Main Menu</span>
+        <span i18n>Random Generator</span>
       </md-list-item>
       <md-list-item routerLink="/configuration" (click)="sidenav.toggle()">
         <i class="material-icons">settings</i>

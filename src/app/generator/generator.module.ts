@@ -4,12 +4,13 @@ import { MdButtonModule, MdCardModule, MdCheckboxModule, MdListModule } from '@a
 import { RandomItemGeneratorProvider } from './generator.provider';
 import { ItemModule } from '../item/item.module';
 import { ExpansionModule } from '../expansions/expansion.module';
-import { MenuListComponent } from './generator-list.component';
-import { MenuListItemComponent } from './generator-list-item.component';
+import { GeneratorMenuListComponent } from './generator-menu-list.component';
+import { GeneratorMenuListItemComponent } from './generator-menu-list-item.component';
 import { FormsModule } from '@angular/forms';
 import { CommonModule } from '@angular/common';
 import { generatorRoutes } from './generator.routes';
 import { IconsPipe } from '../pipes/icons.pipe';
+import { ItemFilterProvider } from '../item/item-filter.provider';
 
 @NgModule({
   imports: [
@@ -23,9 +24,9 @@ import { IconsPipe } from '../pipes/icons.pipe';
     FormsModule,
     MdListModule
   ],
-  declarations: [MenuListComponent, MenuListItemComponent, RandomItemGeneratorComponent, IconsPipe],
+  declarations: [GeneratorMenuListComponent, GeneratorMenuListItemComponent, RandomItemGeneratorComponent, IconsPipe],
   bootstrap: [],
-  providers: [RandomItemGeneratorProvider]
+  providers: [RandomItemGeneratorProvider, ItemFilterProvider]
 })
 export class GeneratorModule {
 }
