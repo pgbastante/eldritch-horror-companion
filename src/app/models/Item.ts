@@ -9,6 +9,8 @@ export class Item {
   type: string;
   categories: spellCategory[] | assetCategory[] | conditionCategory[] | locationCategory[] | commonCategoy[];
   expansion: expansionType;
+  front: string;
+  reckoning: string;
 }
 
 export type commonCategoy =

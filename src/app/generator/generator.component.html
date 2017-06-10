@@ -14,10 +14,10 @@
     <p class="item-category">
       <item-category *ngFor="let category of generatedItem.categories" [category]="category"></item-category>
     </p>
-    <div [innerHtml] = "generatedItem.front | icons">
+    <div [innerHtml]="generatedItem.front | icons">
     </div>
     <div *ngIf="generatedItem.reckoning">
-      <span class="icon icon-reckoning"></span>: <span [innerHtml] = "generatedItem.reckoning | icons"></span>
+      <span class="icon icon-reckoning"></span>: <span [innerHtml]="generatedItem.reckoning | icons"></span>
     </div>
     <p>
       <span i18n>Expansion</span>:
@@ -35,4 +35,3 @@
   </p>
   <button (click)="back()" md-button i18n>BACK</button>
 </ng-container>
-
