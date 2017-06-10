@@ -1,22 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?><xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
   <file source-language="en" datatype="plaintext" original="ng2.template">
     <body>
-      <trans-unit id="cff1428d10d59d14e45edec3c735a27b5482db59" datatype="html">
-        <source>Name</source>
-        <target>Name</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/random-item-generator.component.ts</context>
-          <context context-type="linenumber">7</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="04201f9d27abd7d6f58a4328ab98063ce1072006" datatype="html">
-        <source>Categories</source>
-        <target>Categories</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/random-item-generator.component.ts</context>
-          <context context-type="linenumber">10</context>
-        </context-group>
-      </trans-unit>
       <trans-unit id="eec6d20b24dc91cd933722348bd6a7c88f902a93" datatype="html">
         <source>Expansion</source>
         <target>Expansion</target>
@@ -93,14 +77,6 @@
           <context context-type="linenumber">21</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="d4f8fe819f13af2cb935d80d2f259df52538d1a4" datatype="html">
-        <source>{VAR_SELECT, select, incantation {Incantation} glamour {Glamour} ritual {Ritual} trinket {Trinket} weapon {Weapon} ally {Ally} service {Service} magical {Magical} relic {Relic} tome {Tome} other {Other} teamwork {Teamwork} bane {Bane} boon {Boon} deal {Deal} exposure {Exposure} illness {Illness} madness {Madness} pursuit {Pursuit} restriction {Restriction} talent {Talent} injury {Injury} world {World} antarctica {Antarctica} pyramids {Pyramids} dreamlands {Dreamlands} }</source>
-        <target>{VAR_SELECT, select, incantation {Incantation} glamour {Glamour} ritual {Ritual} trinket {Trinket} weapon {Weapon} ally {Ally} service {Service} magical {Magical} relic {Relic} tome {Tome} other {Other} teamwork {Teamwork} bane {Bane} boon {Boon} deal {Deal} exposure {Exposure} illness {Illness} madness {Madness} pursuit {Pursuit} restriction {Restriction} talent {Talent} injury {Injury} world {World} antarctica {Antarctica} pyramids {Pyramids} dreamlands {Dreamlands} }</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/menu-list-item.component.ts</context>
-          <context context-type="linenumber">9</context>
-        </context-group>
-      </trans-unit>
       <trans-unit id="46fcc8f46692b7d7dec4924805a447ca774089b2" datatype="html">
         <source>{VAR_SELECT, select, spell {Spell} asset {Asset} unique-asset {Unique Asset} artifact {Artifact} condition {Condition} location {Location} }</source>
         <target>{VAR_SELECT, select, spell {Spell} asset {Asset} unique-asset {Unique Asset} artifact {Artifact} condition {Condition} location {Location} }</target>
@@ -114,6 +90,14 @@
         <target>{VAR_SELECT, select, base {Eldritch Horror} fl {Forsaken Lore} mom {Mountains of Madness} sr {Strange Remnants} utp {Under the Pyramids} soc {Signs of Carcosa} td {The Dreamlands} }</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/configuration/expansion-name.component.ts</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="d6e019b8b232e5ece1dc92bf06443afe08a13eab" datatype="html">
+        <source>{VAR_SELECT, select, incantation {Incantation} glamour {Glamour} ritual {Ritual} trinket {Trinket} weapon {Weapon} ally {Ally} service {Service} magical {Magical} relic {Relic} tome {Tome} other {Other} teamwork {Teamwork} bane {Bane} boon {Boon} deal {Deal} exposure {Exposure} illness {Illness} madness {Madness} pursuit {Pursuit} restriction {Restriction} talent {Talent} injury {Injury} world {World} antarctica {Antarctica} pyramids {Pyramids} dreamlands {Dreamlands} task {Task} }</source>
+        <target>{VAR_SELECT, select, incantation {Incantation} glamour {Glamour} ritual {Ritual} trinket {Trinket} weapon {Weapon} ally {Ally} service {Service} magical {Magical} relic {Relic} tome {Tome} other {Other} teamwork {Teamwork} bane {Bane} boon {Boon} deal {Deal} exposure {Exposure} illness {Illness} madness {Madness} pursuit {Pursuit} restriction {Restriction} talent {Talent} injury {Injury} world {World} antarctica {Antarctica} pyramids {Pyramids} dreamlands {Dreamlands} task {Task} }</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/item/item-category.component.ts</context>
           <context context-type="linenumber">1</context>
         </context-group>
       </trans-unit>

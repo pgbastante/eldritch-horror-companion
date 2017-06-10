@@ -44,7 +44,7 @@
     ],
     "type": "unique-asset",
     "expansion": "mom",
-    "front": "Una vez por ronda, puedes sumar 1 éxito al resultado de tu prueba al resolver una prueba de fuerza durante un Encuentro de Combate. Reduce el daño de los Monstruos con los que resuelvas encuentros en 1 hasta un mínimo de 1"
+    "front": "Una vez por ronda, puedes sumar 1 éxito al resultado de tu prueba al resolver una prueba de <strength> durante un Encuentro de Combate. Reduce el daño de los Monstruos con los que resuelvas encuentros en 1 hasta un mínimo de 1"
   },
   {
     "name": "Profesor Armitage",
@@ -54,7 +54,7 @@
     ],
     "type": "unique-asset",
     "expansion": "mom",
-    "front": "Cuando obtengas esta carta del mazo, obtén 1 Hechizo. Una vez por ronda, puedes sumar 1 exito al resultado de tu prueba al resolver una prueba de saber como parte del efecto de un Hechizo"
+    "front": "Cuando obtengas esta carta del mazo, obtén 1 Hechizo. Una vez por ronda, puedes sumar 1 exito al resultado de tu prueba al resolver una prueba de <lore> como parte del efecto de un Hechizo"
   },
   {
     "name": "Dr. Hiram Upham",
@@ -74,7 +74,7 @@
     ],
     "type": "unique-asset",
     "expansion": "mom",
-    "front": "Una vez por ronda, puedes sumar 1 éxito al resultado de tu prueba al resolver una prueba de voluntad durante un encuentro de combate",
+    "front": "Una vez por ronda, puedes sumar 1 éxito al resultado de tu prueba al resolver una prueba de <will> durante un encuentro de combate",
     "reckoning": "Tira 1 dado. Si sacas 4, 5 o 6, obtén el Estado Bendecido"
   },
   {
@@ -127,7 +127,7 @@
     ],
     "type": "unique-asset",
     "expansion": "soc",
-    "front": "Tira 1 dado adicional al resolver una prueba de influencia o de observación. Cuando obtengas esta carta desde el mazo, obtén 1 Estado Talento"
+    "front": "Tira 1 dado adicional al resolver una prueba de <influence> o de <observation>. Cuando obtengas esta carta desde el mazo, obtén 1 Estado Talento"
   },
   {
     "name": "Danforth",
@@ -137,7 +137,7 @@
     ],
     "type": "unique-asset",
     "expansion": "mom",
-    "front": "Cuando obtengas esta carta del mazo, mejora tu voluntad. Una vez por ronda, puedes gastar 1 ficha de Concentracion para prevenirte la perdida de hasta 2 puntos de Cordura"
+    "front": "Cuando obtengas esta carta del mazo, mejora tu <will>. Una vez por ronda, puedes gastar 1 ficha de Concentracion para prevenirte la perdida de hasta 2 puntos de Cordura"
   },
   {
     "name": "William Dyer",
@@ -169,7 +169,7 @@
     ],
     "type": "unique-asset",
     "expansion": "sr",
-    "front": "Puedes sumar 1 éxito a tu resultado de la prueba al resolver una prueba de influencia durante una acción de adquirir Apoyos. Una vez por ronda, durante la fase de Acción, puedes descartar 1 carta de la reserva"
+    "front": "Puedes sumar 1 éxito a tu resultado de la prueba al resolver una prueba de <influence> durante una acción de adquirir Apoyos. Una vez por ronda, durante la fase de Acción, puedes descartar 1 carta de la reserva"
   },
   {
     "name": "Anna Tilton",
@@ -179,7 +179,7 @@
     ],
     "type": "unique-asset",
     "expansion": "mom",
-    "front": "Cuando obtengas esta carta del mazo, mejora tu saber. Otros investigadores de tu casilla y tú tirais 1 dado adicional al resolver pruebas durante Encuentros de Investigación"
+    "front": "Cuando obtengas esta carta del mazo, mejora tu <lore>. Otros investigadores de tu casilla y tú tirais 1 dado adicional al resolver pruebas durante Encuentros de Investigación"
   },
   {
     "name": "Constance Hawberk",
@@ -189,7 +189,7 @@
     ],
     "type": "unique-asset",
     "expansion": "mom",
-    "front": "Cuando obtengas esta carta del mazo, mejora tu influencia",
+    "front": "Cuando obtengas esta carta del mazo, mejora tu <influence>",
     "reckoning": "Obtén 1 Apoyo Arma aleatorio del mazo"
   },
   {
@@ -210,7 +210,7 @@
     ],
     "type": "unique-asset",
     "expansion": "mom",
-    "front": "Cuando obtengas esta carta del mazo mejora tu observación. Una vez por ronda, durante la fase de Acción, puedes intercambiar pertenencias con cada uno de los demas investigadores de tu casilla"
+    "front": "Cuando obtengas esta carta del mazo mejora tu <observation>. Una vez por ronda, durante la fase de Acción, puedes intercambiar pertenencias con cada uno de los demas investigadores de tu casilla"
   },
   {
     "name": "Viejo diario",
@@ -220,7 +220,7 @@
     ],
     "type": "unique-asset",
     "expansion": "mom",
-    "front": "Acción: Realiza una prueba de observacion. Si superas la prueba, descubres información que podría resultarte útil en tu misión; dale la vuelta a esta carta",
+    "front": "Acción: Realiza una prueba de <observation>. Si superas la prueba, descubres información que podría resultarte útil en tu misión; dale la vuelta a esta carta",
     "number": 1
   },
   {
@@ -231,7 +231,7 @@
     ],
     "type": "unique-asset",
     "expansion": "mom",
-    "front": "Acción: Realiza una prueba de observacion. Si superas la prueba, descubres información que podría resultarte útil en tu misión; dale la vuelta a esta carta",
+    "front": "Acción: Realiza una prueba de <observation>. Si superas la prueba, descubres información que podría resultarte útil en tu misión; dale la vuelta a esta carta",
     "number": 2
   },
   {
@@ -242,7 +242,7 @@
     ],
     "type": "unique-asset",
     "expansion": "mom",
-    "front": "Acción: Realiza una prueba de observacion. Si superas la prueba, descubres información que podría resultarte útil en tu misión; dale la vuelta a esta carta",
+    "front": "Acción: Realiza una prueba de <observation>. Si superas la prueba, descubres información que podría resultarte útil en tu misión; dale la vuelta a esta carta",
     "number": 3
   },
   {
@@ -253,7 +253,7 @@
     ],
     "type": "unique-asset",
     "expansion": "mom",
-    "front": "Acción: Realiza una prueba de observacion. Si superas la prueba, descubres información que podría resultarte útil en tu misión; dale la vuelta a esta carta",
+    "front": "Acción: Realiza una prueba de <observation>. Si superas la prueba, descubres información que podría resultarte útil en tu misión; dale la vuelta a esta carta",
     "number": 4
   },
   {
@@ -278,7 +278,7 @@
     ],
     "type": "unique-asset",
     "expansion": "sr",
-    "front": "Puedes descartar esta carta para sumar 3 éxitos a tu resultado de la prueba durante una acción de adquirir Apoyos. Cuando realices una acción de descansar, puedes examinar las intrincadas marcas (observación -1). Si superas la prueba, dale la vuelta a esta carta",
+    "front": "Puedes descartar esta carta para sumar 3 éxitos a tu resultado de la prueba durante una acción de adquirir Apoyos. Cuando realices una acción de descansar, puedes examinar las intrincadas marcas (<observation> -1). Si superas la prueba, dale la vuelta a esta carta",
     "number": 1
   },
   {
@@ -289,7 +289,7 @@
     ],
     "type": "unique-asset",
     "expansion": "sr",
-    "front": "Cuando realices una acción de descansar, puedes intentar descifrar las inscripciones de la tablilla (saber -1). Si superas la prueba, dale la vuelta a esta carta",
+    "front": "Cuando realices una acción de descansar, puedes intentar descifrar las inscripciones de la tablilla (<lore> -1). Si superas la prueba, dale la vuelta a esta carta",
     "number": 1
   },
   {
@@ -300,7 +300,7 @@
     ],
     "type": "unique-asset",
     "expansion": "sr",
-    "front": "Cuando realices una acción de descansar, puedes intentar descifrar las inscripciones de la tablilla (saber -1). Si superas la prueba, dale la vuelta a esta carta",
+    "front": "Cuando realices una acción de descansar, puedes intentar descifrar las inscripciones de la tablilla (<lore> -1). Si superas la prueba, dale la vuelta a esta carta",
     "number": 2
   },
   {
@@ -311,7 +311,7 @@
     ],
     "type": "unique-asset",
     "expansion": "sr",
-    "front": "Cuando realices una acción de descansar, puedes intentar descifrar las inscripciones de la tablilla (saber -1). Si superas la prueba, dale la vuelta a esta carta",
+    "front": "Cuando realices una acción de descansar, puedes intentar descifrar las inscripciones de la tablilla (<lore> -1). Si superas la prueba, dale la vuelta a esta carta",
     "number": 3
   },
   {
@@ -322,7 +322,7 @@
     ],
     "type": "unique-asset",
     "expansion": "sr",
-    "front": "Cuando realices una acción de descansar, puedes intentar forzar el cobre para abrirlo (fuerza). Si superas la prueba, dale la vuelta a esta carta",
+    "front": "Cuando realices una acción de descansar, puedes intentar forzar el cobre para abrirlo (<strength>). Si superas la prueba, dale la vuelta a esta carta",
     "number": 1
   },
   {
@@ -333,7 +333,7 @@
     ],
     "type": "unique-asset",
     "expansion": "sr",
-    "front": "Cuando realices una acción de descansar, puedes intentar forzar el cobre para abrirlo (fuerza). Si superas la prueba, dale la vuelta a esta carta",
+    "front": "Cuando realices una acción de descansar, puedes intentar forzar el cobre para abrirlo (<strength>). Si superas la prueba, dale la vuelta a esta carta",
     "number": 2
   },
   {
@@ -344,7 +344,7 @@
     ],
     "type": "unique-asset",
     "expansion": "sr",
-    "front": "Cuando realices una acción de descansar, puedes intentar forzar el cobre para abrirlo (fuerza). Si superas la prueba, dale la vuelta a esta carta",
+    "front": "Cuando realices una acción de descansar, puedes intentar forzar el cobre para abrirlo (<strength>). Si superas la prueba, dale la vuelta a esta carta",
     "number": 3
   },
   {
@@ -396,7 +396,7 @@
     ],
     "type": "unique-asset",
     "expansion": "sr",
-    "front": "Obten +3 fuerza durante Encuentros de Combate. Cuando derrotes a un Monstruo durante un Encuentro de Combate, dale la vuelta a esta carta",
+    "front": "Obten +3 <strength> durante Encuentros de Combate. Cuando derrotes a un Monstruo durante un Encuentro de Combate, dale la vuelta a esta carta",
     "number": 1
   },
   {
@@ -532,7 +532,7 @@
     ],
     "type": "unique-asset",
     "expansion": "soc",
-    "front": "Al final de la fase de Mitos, si la Perdición avanzó en esta rondo o si el Primigenio ha despertado, puedes gastar una cantidad de Pistas igual a la mitad del número de investigadores para darle la vuelta a esta carta",
+    "front": "Al final de la fase de Mitos, si la Perdición avanzó en esta rondo o si el Primigenio ha despertado, puedes gastar una cantidad de Pistas igual a la mitad del <investigators> para darle la vuelta a esta carta",
     "number": 1
   },
   {
@@ -542,7 +542,7 @@
     ],
     "type": "unique-asset",
     "expansion": "soc",
-    "front": "Al final de la fase de Mitos, si la Perdición avanzó en esta rondo o si el Primigenio ha despertado, puedes gastar una cantidad de Pistas igual a la mitad del número de investigadores para darle la vuelta a esta carta",
+    "front": "Al final de la fase de Mitos, si la Perdición avanzó en esta rondo o si el Primigenio ha despertado, puedes gastar una cantidad de Pistas igual a la mitad del <investigators> para darle la vuelta a esta carta",
     "number": 2
   },
   {
@@ -552,7 +552,7 @@
     ],
     "type": "unique-asset",
     "expansion": "soc",
-    "front": "Al final de la fase de Mitos, si la Perdición avanzó en esta rondo o si el Primigenio ha despertado, puedes gastar una cantidad de Pistas igual a la mitad del número de investigadores para darle la vuelta a esta carta",
+    "front": "Al final de la fase de Mitos, si la Perdición avanzó en esta rondo o si el Primigenio ha despertado, puedes gastar una cantidad de Pistas igual a la mitad del <investigators> para darle la vuelta a esta carta",
     "number": 3
   },
   {
@@ -592,7 +592,7 @@
     ],
     "type": "unique-asset",
     "expansion": "mom",
-    "front": "Cuando superes una prueba de saber al resolver el efecto de un Hechizo, puedes descartar ese Hechizo después de resolver sus efectos para colocar 1 ficha de Arcano sobre esta carta. A continuación, puedes darle la vuelta a esta carta",
+    "front": "Cuando superes una prueba de <lore> al resolver el efecto de un Hechizo, puedes descartar ese Hechizo después de resolver sus efectos para colocar 1 ficha de Arcano sobre esta carta. A continuación, puedes darle la vuelta a esta carta",
     "number": 1
   },
   {
@@ -602,7 +602,7 @@
     ],
     "type": "unique-asset",
     "expansion": "mom",
-    "front": "Cuando superes una prueba de saber al resolver el efecto de un Hechizo, puedes descartar ese Hechizo después de resolver sus efectos para colocar 1 ficha de Arcano sobre esta carta. A continuación, puedes darle la vuelta a esta carta",
+    "front": "Cuando superes una prueba de <lore> al resolver el efecto de un Hechizo, puedes descartar ese Hechizo después de resolver sus efectos para colocar 1 ficha de Arcano sobre esta carta. A continuación, puedes darle la vuelta a esta carta",
     "number": 2
   },
   {
@@ -612,7 +612,7 @@
     ],
     "type": "unique-asset",
     "expansion": "mom",
-    "front": "Cuando superes una prueba de saber al resolver el efecto de un Hechizo, puedes descartar ese Hechizo después de resolver sus efectos para colocar 1 ficha de Arcano sobre esta carta. A continuación, puedes darle la vuelta a esta carta",
+    "front": "Cuando superes una prueba de <lore> al resolver el efecto de un Hechizo, puedes descartar ese Hechizo después de resolver sus efectos para colocar 1 ficha de Arcano sobre esta carta. A continuación, puedes darle la vuelta a esta carta",
     "number": 3
   },
   {
@@ -622,7 +622,7 @@
     ],
     "type": "unique-asset",
     "expansion": "sr",
-    "front": "Cuando superes una prueba de saber al resolver el efecto de un Hechizo, puedes descartar ese Hechizo después de resolver sus efectos para colocar 1 ficha de Arcano sobre esta carta. A continuación, puedes darle la vuelta a esta carta",
+    "front": "Cuando superes una prueba de <lore> al resolver el efecto de un Hechizo, puedes descartar ese Hechizo después de resolver sus efectos para colocar 1 ficha de Arcano sobre esta carta. A continuación, puedes darle la vuelta a esta carta",
     "number": 4
   },
   {
@@ -632,7 +632,7 @@
     ],
     "type": "unique-asset",
     "expansion": "sr",
-    "front": "Cuando superes una prueba de saber al resolver el efecto de un Hechizo, puedes descartar ese Hechizo después de resolver sus efectos para colocar 1 ficha de Arcano sobre esta carta. A continuación, puedes darle la vuelta a esta carta",
+    "front": "Cuando superes una prueba de <lore> al resolver el efecto de un Hechizo, puedes descartar ese Hechizo después de resolver sus efectos para colocar 1 ficha de Arcano sobre esta carta. A continuación, puedes darle la vuelta a esta carta",
     "number": 5
   },
   {
@@ -642,7 +642,7 @@
     ],
     "type": "unique-asset",
     "expansion": "sr",
-    "front": "Cuando superes una prueba de saber al resolver el efecto de un Hechizo, puedes descartar ese Hechizo después de resolver sus efectos para colocar 1 ficha de Arcano sobre esta carta. A continuación, puedes darle la vuelta a esta carta",
+    "front": "Cuando superes una prueba de <lore> al resolver el efecto de un Hechizo, puedes descartar ese Hechizo después de resolver sus efectos para colocar 1 ficha de Arcano sobre esta carta. A continuación, puedes darle la vuelta a esta carta",
     "number": 6
   },
   {
@@ -652,7 +652,7 @@
     ],
     "type": "unique-asset",
     "expansion": "soc",
-    "front": "Cuando realices una acción de descansar, puedes intentar atraer a gente a tu causa (influencia). Si superas la prueba, coloca 1 ficha de Arcano sobre la carta; a continuación, puedes darle la vuelta a esta carta",
+    "front": "Cuando realices una acción de descansar, puedes intentar atraer a gente a tu causa (<influence>). Si superas la prueba, coloca 1 ficha de Arcano sobre la carta; a continuación, puedes darle la vuelta a esta carta",
     "number": 1
   },
   {
@@ -662,7 +662,7 @@
     ],
     "type": "unique-asset",
     "expansion": "soc",
-    "front": "Cuando realices una acción de descansar, puedes intentar atraer a gente a tu causa (influencia). Si superas la prueba, coloca 1 ficha de Arcano sobre la carta; a continuación, puedes darle la vuelta a esta carta",
+    "front": "Cuando realices una acción de descansar, puedes intentar atraer a gente a tu causa (<influence>). Si superas la prueba, coloca 1 ficha de Arcano sobre la carta; a continuación, puedes darle la vuelta a esta carta",
     "number": 2
   },
   {
@@ -672,7 +672,7 @@
     ],
     "type": "unique-asset",
     "expansion": "soc",
-    "front": "Cuando realices una acción de descansar, puedes intentar atraer a gente a tu causa (influencia). Si superas la prueba, coloca 1 ficha de Arcano sobre la carta; a continuación, puedes darle la vuelta a esta carta",
+    "front": "Cuando realices una acción de descansar, puedes intentar atraer a gente a tu causa (<influence>). Si superas la prueba, coloca 1 ficha de Arcano sobre la carta; a continuación, puedes darle la vuelta a esta carta",
     "number": 3
   },
   {
@@ -682,7 +682,7 @@
     ],
     "type": "unique-asset",
     "expansion": "sr",
-    "front": "Cuando realices una acción de descansar, puedes suplicar a un poder superior que te ayude (voluntad). Si superas la prueba, coloca 1 ficha de Arcano sobre esta carta; a continuación, puedes darle la vuelta a esta carta",
+    "front": "Cuando realices una acción de descansar, puedes suplicar a un poder superior que te ayude (<will>). Si superas la prueba, coloca 1 ficha de Arcano sobre esta carta; a continuación, puedes darle la vuelta a esta carta",
     "number": 1
   },
   {
@@ -692,7 +692,7 @@
     ],
     "type": "unique-asset",
     "expansion": "sr",
-    "front": "Cuando realices una acción de descansar, puedes suplicar a un poder superior que te ayude (voluntad). Si superas la prueba, coloca 1 ficha de Arcano sobre esta carta; a continuación, puedes darle la vuelta a esta carta",
+    "front": "Cuando realices una acción de descansar, puedes suplicar a un poder superior que te ayude (<will>). Si superas la prueba, coloca 1 ficha de Arcano sobre esta carta; a continuación, puedes darle la vuelta a esta carta",
     "number": 2
   },
   {
@@ -702,7 +702,7 @@
     ],
     "type": "unique-asset",
     "expansion": "sr",
-    "front": "Cuando realices una acción de descansar, puedes suplicar a un poder superior que te ayude (voluntad). Si superas la prueba, coloca 1 ficha de Arcano sobre esta carta; a continuación, puedes darle la vuelta a esta carta",
+    "front": "Cuando realices una acción de descansar, puedes suplicar a un poder superior que te ayude (<will>). Si superas la prueba, coloca 1 ficha de Arcano sobre esta carta; a continuación, puedes darle la vuelta a esta carta",
     "number": 3
   },
   {
@@ -772,7 +772,7 @@
     ],
     "type": "unique-asset",
     "expansion": "mom",
-    "front": "Al final de la fase de Mitos, puedes gastar una cantidad de Pistas igual al número de investigadores para sacrificarte por el bien de toda la humanidad; dale la vuelta a esta carta",
+    "front": "Al final de la fase de Mitos, puedes gastar una cantidad de Pistas igual al <investigators> para sacrificarte por el bien de toda la humanidad; dale la vuelta a esta carta",
     "number": 1
   },
   {
@@ -782,7 +782,7 @@
     ],
     "type": "unique-asset",
     "expansion": "mom",
-    "front": "Al final de la fase de Mitos, puedes gastar una cantidad de Pistas igual al número de investigadores para sacrificarte por el bien de toda la humanidad; dale la vuelta a esta carta",
+    "front": "Al final de la fase de Mitos, puedes gastar una cantidad de Pistas igual al <investigators> para sacrificarte por el bien de toda la humanidad; dale la vuelta a esta carta",
     "number": 2
   },
   {
@@ -792,7 +792,7 @@
     ],
     "type": "unique-asset",
     "expansion": "mom",
-    "front": "Al final de la fase de Mitos, puedes gastar una cantidad de Pistas igual al número de investigadores para sacrificarte por el bien de toda la humanidad; dale la vuelta a esta carta",
+    "front": "Al final de la fase de Mitos, puedes gastar una cantidad de Pistas igual al <investigators> para sacrificarte por el bien de toda la humanidad; dale la vuelta a esta carta",
     "number": 3
   },
   {

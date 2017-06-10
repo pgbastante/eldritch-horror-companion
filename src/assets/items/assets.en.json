@@ -8,7 +8,7 @@
     ],
     "type": "asset",
     "expansion": "sr",
-    "front": "Una vez por ronda, puedes obtener +1 saber al resolver un efecto de Hechizo, o +2 fuerza al resolver un Encuentro de Combate",
+    "front": "Una vez por ronda, puedes obtener +1 <lore> al resolver un efecto de Hechizo, o +2 <strength> al resolver un Encuentro de Combate",
     "cost": 1
   },
   {
@@ -20,7 +20,7 @@
     ],
     "type": "asset",
     "expansion": "fl",
-    "front": "Obten +1 voluntad y +3 fuerza durante Encuentros de Combate",
+    "front": "Obten +1 <will> y +3 <strength> durante Encuentros de Combate",
     "cost": 3
   },
   {
@@ -40,7 +40,7 @@
     ],
     "type": "asset",
     "expansion": "fl",
-    "front": "Obtén +1 fuerza durante Encuentros de Combate. Obtén +2 saber cuando resuelvas efectos de Hechizos",
+    "front": "Obtén +1 <strength> durante Encuentros de Combate. Obtén +2 <lore> cuando resuelvas efectos de Hechizos",
     "cost": 2
   },
   {
@@ -50,7 +50,7 @@
     ],
     "type": "asset",
     "expansion": "fl",
-    "front": "Obtén +1 fuerza. Reduce en 1 hasta un mínimo de 1 el daño de los Monstruos con los que resuelvas encuentros",
+    "front": "Obtén +1 <strength>. Reduce en 1 hasta un mínimo de 1 el daño de los Monstruos con los que resuelvas encuentros",
     "cost": 2
   },
   {
@@ -71,7 +71,7 @@
     ],
     "type": "asset",
     "expansion": "fl",
-    "front": "Puedes volver a tirar 1 dado cuando resuelvas una prueba de voluntad durante un Encuentro de Combate. Reduce en 1 hasta un minimo de 1 el horror de los Monstruos con los que resuelvas encuentros",
+    "front": "Puedes volver a tirar 1 dado cuando resuelvas una prueba de <will> durante un Encuentro de Combate. Reduce en 1 hasta un minimo de 1 el horror de los Monstruos con los que resuelvas encuentros",
     "cost": 2
   },
   {
@@ -92,7 +92,7 @@
     ],
     "type": "asset",
     "expansion": "soc",
-    "front": "Obtén +1 voluntad durante Encuentros de Combate. Los Monstruos con los que resuelvas encuentros pierden su capacidad Resistencia física",
+    "front": "Obtén +1 <will> durante Encuentros de Combate. Los Monstruos con los que resuelvas encuentros pierden su capacidad Resistencia física",
     "cost": 2
   },
   {
@@ -123,7 +123,7 @@
     ],
     "type": "asset",
     "expansion": "fl",
-    "front": "Puedes descartar esta carta para volver a tirar hasta 2 dados cuando resuelvas una prueba de fuerza durante un Encuentro de Combate. Además, recude el daño del Monstruo en 2 hasta un mínimo de 1",
+    "front": "Puedes descartar esta carta para volver a tirar hasta 2 dados cuando resuelvas una prueba de <strength> durante un Encuentro de Combate. Además, recude el daño del Monstruo en 2 hasta un mínimo de 1",
     "cost": 1
   },
   {
@@ -134,7 +134,7 @@
     ],
     "type": "asset",
     "expansion": "mom",
-    "front": "Al resolver un Encuentro de Combate, puedes obtener +2 fuerza. Si lo haces, cada 6 que saques al resolver una prueba de fuerza durante un Encuentro de Combate cuenta como 2 éxitos y cada 1 niega 1 éxito",
+    "front": "Al resolver un Encuentro de Combate, puedes obtener +2 <strength>. Si lo haces, cada 6 que saques al resolver una prueba de <strength> durante un Encuentro de Combate cuenta como 2 éxitos y cada 1 niega 1 éxito",
     "cost": 2
   },
   {
@@ -164,7 +164,7 @@
     ],
     "type": "asset",
     "expansion": "fl",
-    "front": "Cuando realices una acción de descansar, puedes intentar descifrar el libro de cuentas (observación). Si superas la prueba, puedes descartar esta carta para obtener 1 Pista",
+    "front": "Cuando realices una acción de descansar, puedes intentar descifrar el libro de cuentas (<observation>). Si superas la prueba, puedes descartar esta carta para obtener 1 Pista",
     "cost": 1
   },
   {
@@ -195,7 +195,7 @@
     ],
     "type": "asset",
     "expansion": "fl",
-    "front": "Una vez por ronda, puedes obtener +3 fuerza durante un Encuentro de Combate",
+    "front": "Una vez por ronda, puedes obtener +3 <strength> durante un Encuentro de Combate",
     "cost": 1
   },
   {
@@ -205,7 +205,7 @@
     ],
     "type": "asset",
     "expansion": "base",
-    "front": "Obtén +2 voluntad durante Encuentros de Combate",
+    "front": "Obtén +2 <will> durante Encuentros de Combate",
     "cost": 2
   },
   {
@@ -226,7 +226,7 @@
     ],
     "type": "asset",
     "expansion": "base",
-    "front": "Obtén +3 fuerza durante Encuentros de Combate",
+    "front": "Obtén +3 <strength> durante Encuentros de Combate",
     "cost": 2
   },
   {
@@ -237,7 +237,7 @@
     ],
     "type": "asset",
     "expansion": "base",
-    "front": "Puedes descartar esta carta para obtener +5 voluntad y fuerza durante un Encuentro de Combate. Acción: Puedes descartar eseta carta para elegir un investigador que este en tu casilla. Ese investigador obtiene el Estado Bendecido",
+    "front": "Puedes descartar esta carta para obtener +5 <will> y <strength> durante un Encuentro de Combate. Acción: Puedes descartar eseta carta para elegir un investigador que este en tu casilla. Ese investigador obtiene el Estado Bendecido",
     "cost": 2
   },
   {
@@ -257,7 +257,7 @@
     ],
     "type": "asset",
     "expansion": "base",
-    "front": "Obten +1 saber. Puedes volver a tirar 1 dado cuando resuelvas una prueba de saber",
+    "front": "Obten +1 <lore>. Puedes volver a tirar 1 dado cuando resuelvas una prueba de <lore>",
     "cost": 2
   },
   {
@@ -279,7 +279,7 @@
     ],
     "type": "asset",
     "expansion": "base",
-    "front": "Obtén +4 fuerza durante Encuentros de Combate. Cada 6 que saques cuando resuelvas una prueba de fuerza durante un Encuentro de Combate cuenta como 2 éxitos",
+    "front": "Obtén +4 <strength> durante Encuentros de Combate. Cada 6 que saques cuando resuelvas una prueba de <strength> durante un Encuentro de Combate cuenta como 2 éxitos",
     "cost": 4
   },
   {
@@ -289,7 +289,7 @@
     ],
     "type": "asset",
     "expansion": "sr",
-    "front": "Obtén +1 saber y +1 observación. Puedes volver a tirar 1 dado al resolver una prueba de saver o observación",
+    "front": "Obtén +1 <lore> y +1 <observation>. Puedes volver a tirar 1 dado al resolver una prueba de saver o <observation>",
     "cost": 4
   },
   {
@@ -299,7 +299,7 @@
     ],
     "type": "asset",
     "expansion": "base",
-    "front": "Obtén +1 observación. Puedes vovler a tirar 1 dado cuando resuelvas una prueba de observación",
+    "front": "Obtén +1 <observation>. Puedes vovler a tirar 1 dado cuando resuelvas una prueba de <observation>",
     "cost": 2
   },
   {
@@ -309,7 +309,7 @@
     ],
     "type": "asset",
     "expansion": "sr",
-    "front": "Puedes sumar 1 al resultado de 1 dado al resolver una prueba de voluntad durante un Encuentro de Combate",
+    "front": "Puedes sumar 1 al resultado de 1 dado al resolver una prueba de <will> durante un Encuentro de Combate",
     "cost": 1
   },
   {
@@ -321,7 +321,7 @@
     ],
     "type": "asset",
     "expansion": "sr",
-    "front": "Obtén +2 fuerza al resolver Encuentros de Combate. Obtén +2 saber al resolver efectos de Hechizos",
+    "front": "Obtén +2 <strength> al resolver Encuentros de Combate. Obtén +2 <lore> al resolver efectos de Hechizos",
     "cost": 3
   },
   {
@@ -331,7 +331,7 @@
     ],
     "type": "asset",
     "expansion": "base",
-    "front": "Puedes descartar esta carta para obtener +5 fuerza durante un Encuentro de Combate",
+    "front": "Puedes descartar esta carta para obtener +5 <strength> durante un Encuentro de Combate",
     "cost": 1
   },
   {
@@ -342,7 +342,7 @@
     ],
     "type": "asset",
     "expansion": "base",
-    "front": "Obtén +2 fuerza durante Encuentros de Combate. Puedes gastar 2 puntos de Cordura para volver a tirar cualquier cantidad de dados cuando resuelvas una prueba de fuerza durante un Encuentro de Combate",
+    "front": "Obtén +2 <strength> durante Encuentros de Combate. Puedes gastar 2 puntos de Cordura para volver a tirar cualquier cantidad de dados cuando resuelvas una prueba de <strength> durante un Encuentro de Combate",
     "cost": 2
   },
   {
@@ -363,7 +363,7 @@
     ],
     "type": "asset",
     "expansion": "sr",
-    "front": "Cuando gastes una ficha de Concrentración para volver a tirar un dado al resolver una prueba de observacion o fuerza, en lugar de eso puedes volver a tirar hasta 2 dados",
+    "front": "Cuando gastes una ficha de Concrentración para volver a tirar un dado al resolver una prueba de <observation> o <strength>, en lugar de eso puedes volver a tirar hasta 2 dados",
     "cost": 2
   },
   {
@@ -384,7 +384,7 @@
     ],
     "type": "asset",
     "expansion": "base",
-    "front": "Puedes sumar 1 al resultado de 1 dado cuando resuelvas una prueba de fuerza furante Encuentros de Combate",
+    "front": "Puedes sumar 1 al resultado de 1 dado cuando resuelvas una prueba de <strength> furante Encuentros de Combate",
     "cost": 1
   },
   {
@@ -405,7 +405,7 @@
     ],
     "type": "asset",
     "expansion": "sr",
-    "front": "Puedes volver a tirar 1 dado al resolver una prueba de fuerza como parte de un efecto de Estado Enfermedad o Herida. Cuando realices una acción de descansar, recupera 1 punto de Salud adicional",
+    "front": "Puedes volver a tirar 1 dado al resolver una prueba de <strength> como parte de un efecto de Estado Enfermedad o Herida. Cuando realices una acción de descansar, recupera 1 punto de Salud adicional",
     "cost": 2
   },
   {
@@ -439,7 +439,7 @@
     ],
     "type": "asset",
     "expansion": "sr",
-    "front": "Obten +4 fuerza durante Encuentros de Combate",
+    "front": "Obten +4 <strength> durante Encuentros de Combate",
     "cost": 3
   },
   {
@@ -470,7 +470,7 @@
     ],
     "type": "asset",
     "expansion": "sr",
-    "front": "Cuando gastes una ficah de Concentración para volver a tirar un dado al resolver una prueba de saber o voluntad, en lugar de eso puedes volver a tirar hasta 2 dados.",
+    "front": "Cuando gastes una ficah de Concentración para volver a tirar un dado al resolver una prueba de <lore> o <will>, en lugar de eso puedes volver a tirar hasta 2 dados.",
     "cost": 2
   },
   {
@@ -481,7 +481,7 @@
     ],
     "type": "asset",
     "expansion": "soc",
-    "front": "Obtén +4 fuerza durante Encuentros de Combate",
+    "front": "Obtén +4 <strength> durante Encuentros de Combate",
     "cost": 3
   },
   {
@@ -511,7 +511,7 @@
     ],
     "type": "asset",
     "expansion": "soc",
-    "front": "Puedes volver a tirar 1 dado al resolver una prueba de influencia. Cuando obtengas esta carta del mazo o de la reserva, obtén 1 Apoyo Tomo aleatorio del mazo",
+    "front": "Puedes volver a tirar 1 dado al resolver una prueba de <influence>. Cuando obtengas esta carta del mazo o de la reserva, obtén 1 Apoyo Tomo aleatorio del mazo",
     "cost": 3
   },
   {
@@ -522,7 +522,7 @@
     ],
     "type": "asset",
     "expansion": "mom",
-    "front": "Obten +2 voluntad durante Encuentros de Combate. Reduce en 1 el horror de los Monstruos con los que resuelvas encuentros, hasta un mínimo de 1",
+    "front": "Obten +2 <will> durante Encuentros de Combate. Reduce en 1 el horror de los Monstruos con los que resuelvas encuentros, hasta un mínimo de 1",
     "cost": 3
   },
   {
@@ -582,7 +582,7 @@
     ],
     "type": "asset",
     "expansion": "base",
-    "front": "Cuando realices una acción de descansar, puedes intentar abrir la caja misteriosa (observación -2). Si superas la prueba, puedes descartar esta carta para obtener 1 Artefacto",
+    "front": "Cuando realices una acción de descansar, puedes intentar abrir la caja misteriosa (<observation> -2). Si superas la prueba, puedes descartar esta carta para obtener 1 Artefacto",
     "cost": 3
   },
   {
@@ -603,7 +603,7 @@
     ],
     "type": "asset",
     "expansion": "sr",
-    "front": "Cuando realices una acción de concentrarse, puedes consultar con expertos para que te entrenen (voluntad). Si superas la prueba, descarta esta carta y mejora 1 habilidad de tu elección",
+    "front": "Cuando realices una acción de concentrarse, puedes consultar con expertos para que te entrenen (<will>). Si superas la prueba, descarta esta carta y mejora 1 habilidad de tu elección",
     "cost": 1
   },
   {
@@ -613,7 +613,7 @@
     ],
     "type": "asset",
     "expansion": "soc",
-    "front": "Obten +1 observación. Obten +2 observación durante Encuentros de Investigación",
+    "front": "Obten +1 <observation>. Obten +2 <observation> durante Encuentros de Investigación",
     "cost": 2
   },
   {
@@ -633,7 +633,7 @@
     ],
     "type": "asset",
     "expansion": "base",
-    "front": "Obtén +1 voluntad. Puedes volver a tirar 1 dado cuando resuelvas una prueba de voluntad",
+    "front": "Obtén +1 <will>. Puedes volver a tirar 1 dado cuando resuelvas una prueba de <will>",
     "cost": 2
   },
   {
@@ -643,7 +643,7 @@
     ],
     "type": "asset",
     "expansion": "base",
-    "front": "Obtén +1 voluntad durante Encuentros de Combate",
+    "front": "Obtén +1 <will> durante Encuentros de Combate",
     "cost": 1
   },
   {
@@ -653,7 +653,7 @@
     ],
     "type": "asset",
     "expansion": "mom",
-    "front": "Cuando derrotes un Monstruo con fortaleza 2 o más durante un Encuentro de Combate, puedes examinar los restos de la criatura (observación). Si superas la prueba, obtén 2 Pistas y descarta esta carta",
+    "front": "Cuando derrotes un Monstruo con fortaleza 2 o más durante un Encuentro de Combate, puedes examinar los restos de la criatura (<observation>). Si superas la prueba, obtén 2 Pistas y descarta esta carta",
     "cost": 1
   },
   {
@@ -673,7 +673,7 @@
     ],
     "type": "asset",
     "expansion": "mom",
-    "front": "Obtén +2 fuerza durante Encuentros de Combate. Acción: Un Monstruo de tu elección que esté en tu casilla pierde 1 punto de Salud",
+    "front": "Obtén +2 <strength> durante Encuentros de Combate. Acción: Un Monstruo de tu elección que esté en tu casilla pierde 1 punto de Salud",
     "cost": 3
   },
   {
@@ -714,7 +714,7 @@
     ],
     "type": "asset",
     "expansion": "soc",
-    "front": "Puedes sumar 1 al resultado de 1 dado al realizar una prueba de influencia durante una acción de adquirir Apoyos",
+    "front": "Puedes sumar 1 al resultado de 1 dado al realizar una prueba de <influence> durante una acción de adquirir Apoyos",
     "cost": 1
   },
   {
@@ -735,7 +735,7 @@
     ],
     "type": "asset",
     "expansion": "base",
-    "front": "Obten +2 saber cuando resuelvas efectos de Hechizo. Cuando realices una acción de descansar, puedes realizar una prueba de saber. Si la superas, obtén 1 Hechizo",
+    "front": "Obten +2 <lore> cuando resuelvas efectos de Hechizo. Cuando realices una acción de descansar, puedes realizar una prueba de <lore>. Si la superas, obtén 1 Hechizo",
     "cost": 3
   },
   {
@@ -746,7 +746,7 @@
     ],
     "type": "asset",
     "expansion": "soc",
-    "front": "Tira 1 dado adicional al resolver una prueba de fuerza durante un Encuentro de Combate",
+    "front": "Tira 1 dado adicional al resolver una prueba de <strength> durante un Encuentro de Combate",
     "cost": 1
   },
   {
@@ -756,7 +756,7 @@
     ],
     "type": "asset",
     "expansion": "soc",
-    "front": "Obtén +1 saber y +1 influencia. Puedes volver a tirar 1 dado al resolver una prueba de saber o de influencia",
+    "front": "Obtén +1 <lore> y +1 <influence>. Puedes volver a tirar 1 dado al resolver una prueba de <lore> o de <influence>",
     "cost": 4
   },
   {
@@ -767,7 +767,7 @@
     ],
     "type": "asset",
     "expansion": "soc",
-    "front": "Obtén +5 fuerza durante Encuentros de Combate. Reduce el daño de los Monstruos con los que resuelvas Encuentros en 1, hasta un mínimo de 1",
+    "front": "Obtén +5 <strength> durante Encuentros de Combate. Reduce el daño de los Monstruos con los que resuelvas Encuentros en 1, hasta un mínimo de 1",
     "cost": 4
   },
   {
@@ -777,7 +777,7 @@
     ],
     "type": "asset",
     "expansion": "soc",
-    "front": "Tira 1 dado adicional al resolver una prueba de saber como parte del efecto de un Hechizo",
+    "front": "Tira 1 dado adicional al resolver una prueba de <lore> como parte del efecto de un Hechizo",
     "cost": 1
   },
   {
@@ -788,7 +788,7 @@
     ],
     "type": "asset",
     "expansion": "base",
-    "front": "Obtén +2 fuerza durante Encuentros de Combate",
+    "front": "Obtén +2 <strength> durante Encuentros de Combate",
     "cost": 1
   },
   {
@@ -799,7 +799,7 @@
     ],
     "type": "asset",
     "expansion": "base",
-    "front": "Puedes volver a tirar 1 dado cuando resuelvas una prueba de voluntado durante un Encuentro de Combate. Cuando realices una acción de descansar, recupera 1 punto de Cordura adicional",
+    "front": "Puedes volver a tirar 1 dado cuando resuelvas una prueba de <will>o durante un Encuentro de Combate. Cuando realices una acción de descansar, recupera 1 punto de Cordura adicional",
     "cost": 2
   },
   {
@@ -819,7 +819,7 @@
     ],
     "type": "asset",
     "expansion": "mom",
-    "front": "Después de resolver un Encuentro General o un Encuentro de Expedicion en una casilla de Naturaleza, puedes examinar el suelo de la zona (observación). Si superas la prueba, obten 2 Pistas y descarta esta carta.",
+    "front": "Después de resolver un Encuentro General o un Encuentro de Expedicion en una casilla de Naturaleza, puedes examinar el suelo de la zona (<observation>). Si superas la prueba, obten 2 Pistas y descarta esta carta.",
     "cost": 1
   },
   {
@@ -831,7 +831,7 @@
     ],
     "type": "asset",
     "expansion": "base",
-    "front": "Obtén +1 voluntad y +2 fuerza durante Encuentros de Combate",
+    "front": "Obtén +1 <will> y +2 <strength> durante Encuentros de Combate",
     "cost": 2
   },
   {
@@ -843,7 +843,7 @@
     ],
     "type": "asset",
     "expansion": "mom",
-    "front": "Obtén +2 voluntad y +2 fuerza durante Encuentros de Combate",
+    "front": "Obtén +2 <will> y +2 <strength> durante Encuentros de Combate",
     "cost": 3
   },
   {
@@ -854,7 +854,7 @@
     ],
     "type": "asset",
     "expansion": "mom",
-    "front": "Puedes volver a tirar 1 dado al resolver una prueba de voluntad durante un Encuentro de Combate",
+    "front": "Puedes volver a tirar 1 dado al resolver una prueba de <will> durante un Encuentro de Combate",
     "cost": 1
   },
   {
@@ -884,7 +884,7 @@
     ],
     "type": "asset",
     "expansion": "fl",
-    "front": "Obtén +2 fuerza durante Encuentros de Combate. Puedes volver a tirar 1 dado cuando resuelvas una prueba de fuerza durante un Encuentro de Combate",
+    "front": "Obtén +2 <strength> durante Encuentros de Combate. Puedes volver a tirar 1 dado cuando resuelvas una prueba de <strength> durante un Encuentro de Combate",
     "cost": 2
   },
   {
@@ -905,7 +905,7 @@
     ],
     "type": "asset",
     "expansion": "mom",
-    "front": "Obtén +1 saber cuando resuelvas efectos de Hechizo",
+    "front": "Obtén +1 <lore> cuando resuelvas efectos de Hechizo",
     "cost": 1
   },
   {
@@ -926,7 +926,7 @@
     ],
     "type": "asset",
     "expansion": "mom",
-    "front": "Obtén +1 saber al resolver efectos de Hechizo. Cuando obtengas esta carta del mazo o de la reserva, obtén 1 Hechizo",
+    "front": "Obtén +1 <lore> al resolver efectos de Hechizo. Cuando obtengas esta carta del mazo o de la reserva, obtén 1 Hechizo",
     "cost": 2
   },
   {
@@ -947,7 +947,7 @@
     ],
     "type": "asset",
     "expansion": "soc",
-    "front": "Al resolver un Encuentro de Combate, puedes resolver una prueba de influencia en lugar de la prueba de fuerza, usando el mismo modificador de la prueba",
+    "front": "Al resolver un Encuentro de Combate, puedes resolver una prueba de <influence> en lugar de la prueba de <strength>, usando el mismo modificador de la prueba",
     "cost": 2
   },
   {
@@ -957,7 +957,7 @@
     ],
     "type": "asset",
     "expansion": "sr",
-    "front": "Antes de resolver la prueba de fuerza durante un Encuentro de Combate, puedes gastar 1 ficha de Concentración para derrotar a ese Monstruo si tiene una fortaleza de 2 o menos",
+    "front": "Antes de resolver la prueba de <strength> durante un Encuentro de Combate, puedes gastar 1 ficha de Concentración para derrotar a ese Monstruo si tiene una fortaleza de 2 o menos",
     "cost": 2
   },
   {
@@ -968,7 +968,7 @@
     ],
     "type": "asset",
     "expansion": "base",
-    "front": "Una vez por ronda, puedes obtener +5 fuerza durante un encuentro de Combate",
+    "front": "Una vez por ronda, puedes obtener +5 <strength> durante un encuentro de Combate",
     "cost": 3
   },
   {
@@ -988,7 +988,7 @@
     ],
     "type": "asset",
     "expansion": "base",
-    "front": "Obtén +1 fuerza. Puedes volver a tirar 1 dado cuando resuelvas una prueba de fuerza",
+    "front": "Obtén +1 <strength>. Puedes volver a tirar 1 dado cuando resuelvas una prueba de <strength>",
     "cost": 2
   },
   {
@@ -1000,7 +1000,7 @@
     ],
     "type": "asset",
     "expansion": "soc",
-    "front": "Obten +3 fuerza durante Encuentros de Combate",
+    "front": "Obten +3 <strength> durante Encuentros de Combate",
     "cost": 2
   },
   {
@@ -1010,7 +1010,7 @@
     ],
     "type": "asset",
     "expansion": "base",
-    "front": "Puedes volver a tirar 1 dado cuando resuelvas una prueba de fuerza durante un Encuentro de Combate. Reduce en 1 (hasta un mínimo de 1) el daño de los Monstruos con los que resuelvas encuentros",
+    "front": "Puedes volver a tirar 1 dado cuando resuelvas una prueba de <strength> durante un Encuentro de Combate. Reduce en 1 (hasta un mínimo de 1) el daño de los Monstruos con los que resuelvas encuentros",
     "cost": 2
   },
   {
@@ -1021,7 +1021,7 @@
     ],
     "type": "asset",
     "expansion": "sr",
-    "front": "Obtén +1 saber. Obtén +2 saber al resolver efectos de Hechizos",
+    "front": "Obtén +1 <lore>. Obtén +2 <lore> al resolver efectos de Hechizos",
     "cost": 2
   },
   {
@@ -1032,7 +1032,7 @@
     ],
     "type": "asset",
     "expansion": "mom",
-    "front": "Obtén +1 saber y +1 voluntad. Una vez por ronda, peudes volver a tirar 1 dado al resolver una prueba durante un Encuentro de Otros Mundos",
+    "front": "Obtén +1 <lore> y +1 <will>. Una vez por ronda, peudes volver a tirar 1 dado al resolver una prueba durante un Encuentro de Otros Mundos",
     "cost": 4
   },
   {
@@ -1052,7 +1052,7 @@
     ],
     "type": "asset",
     "expansion": "fl",
-    "front": "Obtén +2 observación durante Encuentros de Investigación",
+    "front": "Obtén +2 <observation> durante Encuentros de Investigación",
     "reckoning": "Tira 1 dado. Si sacas un 4, un 5 o un 6, obtén 1 Pista",
     "cost": 3
   },
@@ -1064,7 +1064,7 @@
     ],
     "type": "asset",
     "expansion": "base",
-    "front": "Obtén +1 fuerza durante Encuentros de Combate. Puedes vovler a tirar 1 dado cuando resuelvas una prueba de fuerza durante un Encuentro de Combate",
+    "front": "Obtén +1 <strength> durante Encuentros de Combate. Puedes vovler a tirar 1 dado cuando resuelvas una prueba de <strength> durante un Encuentro de Combate",
     "cost": 1
   },
   {
@@ -1084,7 +1084,7 @@
     ],
     "type": "asset",
     "expansion": "base",
-    "front": "Obtén +1 influencia. Puedes volver a tirar 1 dado cuando resuelvas una prueba de influencia",
+    "front": "Obtén +1 <influence>. Puedes volver a tirar 1 dado cuando resuelvas una prueba de <influence>",
     "cost": 2
   }
 ]

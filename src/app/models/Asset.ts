@@ -11,7 +11,8 @@ export class Asset extends Item {
     'relic',
     'tome',
     'other',
-    'teamwork'
+    'teamwork',
+    'task'
   ];
 }
 
@@ -26,7 +27,8 @@ export class UniqueAsset extends Item {
     'relic',
     'tome',
     'other',
-    'teamwork'
+    'teamwork',
+    'task'
   ];
 }
 
@@ -41,7 +43,8 @@ export class Artifact extends Item {
     'relic',
     'tome',
     'other',
-    'teamwork'
+    'teamwork',
+    'task'
   ];
 }
 
@@ -54,4 +57,5 @@ export type assetCategory =
   | 'relic'
   | 'tome'
   | 'other'
-  | 'teamwork' ;
+  | 'teamwork'
+  | 'task';

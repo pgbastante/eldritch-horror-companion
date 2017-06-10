@@ -76,6 +76,10 @@ module.exports = (options) => {
      * the CommonsChunkPlugin could be useful to extract those dependencies into a shared bundle to avoid duplication
      */
     plugins: require('./config/webpack/plugins'),
+
+    watchOptions: {
+      ignored: /node_modules/
+    },
     /**
      * Include polyfills or mocks for various node stuff
      * Description: Node configuration

@@ -9,6 +9,7 @@ import { MenuListItemComponent } from './generator-list-item.component';
 import { FormsModule } from '@angular/forms';
 import { CommonModule } from '@angular/common';
 import { generatorRoutes } from './generator.routes';
+import { IconsPipe } from '../pipes/icons.pipe';
 
 @NgModule({
   imports: [
@@ -22,7 +23,7 @@ import { generatorRoutes } from './generator.routes';
     FormsModule,
     MdListModule
   ],
-  declarations: [MenuListComponent, MenuListItemComponent, RandomItemGeneratorComponent],
+  declarations: [MenuListComponent, MenuListItemComponent, RandomItemGeneratorComponent, IconsPipe],
   bootstrap: [],
   providers: [RandomItemGeneratorProvider]
 })

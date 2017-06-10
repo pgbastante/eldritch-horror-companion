@@ -1,18 +1,25 @@
 <md-card class="card" *ngIf="generatedItem">
   <md-card-header>
     <md-card-title>
-      <item-type [type]="generatedItem.type"></item-type>
+      {{generatedItem.name}}
     </md-card-title>
+    <md-card-subtitle>
+      <item-type [type]="generatedItem.type"></item-type>
+    </md-card-subtitle>
   </md-card-header>
+  <div md-card-image class="elder-sign">
+    <img src="../../assets/images/elder-sign.svg">
+  </div>
   <md-card-content>
-    <p md-line>
-      <span i18n>Name</span>: {{generatedItem.name}}
-    </p>
-    <p md-line>
-      <span i18n>Categories</span>:
+    <p class="item-category">
       <item-category *ngFor="let category of generatedItem.categories" [category]="category"></item-category>
     </p>
-    <p md-line>
+    <div [innerHtml] = "generatedItem.front | icons">
+    </div>
+    <div *ngIf="generatedItem.reckoning">
+      <span class="icon icon-reckoning"></span>: <span [innerHtml] = "generatedItem.reckoning | icons"></span>
+    </div>
+    <p>
       <span i18n>Expansion</span>:
       <expansion-name [expansion]="generatedItem.expansion"></expansion-name>
     </p>

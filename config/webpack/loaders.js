@@ -60,7 +60,7 @@ class Loaders {
   static html() {
     return {
       test: /\.html$/,
-      loader: 'raw-loader',
+      loader: 'html-loader',
       exclude: [/node_modules/, helpers.root('src/index.html')]
     }
   }

@@ -55,6 +55,7 @@
     "gulp-modify-file": "^0.1.0",
     "gulp-remove-empty-lines": "0.0.8",
     "gulp-rename": "^1.2.2",
+    "html-loader": "^0.4.5",
     "html-webpack-plugin": "^2.28.0",
     "ignore-loader": "^0.1.2",
     "istanbul-instrumenter-loader": "^2.0.0",

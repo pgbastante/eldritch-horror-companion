@@ -36,7 +36,7 @@
     ],
     "type": "artifact",
     "expansion": "mom",
-    "front": "Obtén +3 saber al resolver efectos de Hechizos. Puedes gastar 1 punto de Cordura para volver a tirar cualquier cantidad de dados al resolver una prueba de saber como parte del efecto de un Hechizo"
+    "front": "Obtén +3 <lore> al resolver efectos de Hechizos. Puedes gastar 1 punto de Cordura para volver a tirar cualquier cantidad de dados al resolver una prueba de <lore> como parte del efecto de un Hechizo"
   },
   {
     "name": "Arcillas de Eltdown",
@@ -46,7 +46,7 @@
     ],
     "type": "artifact",
     "expansion": "mom",
-    "front": "Acción: Realiza una prueba de saber. Si superas la prueba, puedes gastar 1 punto de Cordura para descartar 1 Monstruo de tu elección que tenga fortaleza 3 o menos en cualquier casilla."
+    "front": "Acción: Realiza una prueba de <lore>. Si superas la prueba, puedes gastar 1 punto de Cordura para descartar 1 Monstruo de tu elección que tenga fortaleza 3 o menos en cualquier casilla."
   },
   {
     "name": "De Vermis Mysteriis",
@@ -56,7 +56,7 @@
     ],
     "type": "artifact",
     "expansion": "base",
-    "front": "Acción: Realiza una prueba de saber. Si superas la prueba, puedes gastar 1 punto de Cordura para mejorar 1 habilidad de tu elección"
+    "front": "Acción: Realiza una prueba de <lore>. Si superas la prueba, puedes gastar 1 punto de Cordura para mejorar 1 habilidad de tu elección"
   },
   {
     "name": "Culte des Goules",
@@ -66,7 +66,7 @@
     ],
     "type": "artifact",
     "expansion": "base",
-    "front": "Acción: Realiza una prueba de saber. Si superas la prueba, puedes gastar 1 punto de Cordura para obtener 2 Pistas"
+    "front": "Acción: Realiza una prueba de <lore>. Si superas la prueba, puedes gastar 1 punto de Cordura para obtener 2 Pistas"
   },
   {
     "name": "Esttua grotesca",
@@ -105,7 +105,7 @@
     ],
     "type": "artifact",
     "expansion": "mom",
-    "front": "Al resolver un Encuentro de Combate, puedes realizar una prueba de saber. Si superas la prueba, puedes gastar 1 punto de Cordura para tirar 3 dados adicionales al resolver la prueba de fuerza durante ese encuentro"
+    "front": "Al resolver un Encuentro de Combate, puedes realizar una prueba de <lore>. Si superas la prueba, puedes gastar 1 punto de Cordura para tirar 3 dados adicionales al resolver la prueba de <strength> durante ese encuentro"
   },
   {
     "name": "Corazon del invierno",
@@ -165,7 +165,7 @@
     ],
     "type": "artifact",
     "expansion": "sr",
-    "front": "Reduce en 1 el horror de los Monstruos con los que resuelvas encuentros. Cuando superes una prueba de voluntad durante un Encuentro de Combate, obtén 1 ficha de Concentración"
+    "front": "Reduce en 1 el horror de los Monstruos con los que resuelvas encuentros. Cuando superes una prueba de <will> durante un Encuentro de Combate, obtén 1 ficha de Concentración"
   },
   {
     "name": "Livre d'Ivon",
@@ -175,7 +175,7 @@
     ],
     "type": "artifact",
     "expansion": "mom",
-    "front": "Acción: Realiza una prueba de saber -1. Si superas la prueba, puedes gastar 1 punto de Cordura para moverte a cualquier casilla de tu elección"
+    "front": "Acción: Realiza una prueba de <lore> -1. Si superas la prueba, puedes gastar 1 punto de Cordura para moverte a cualquier casilla de tu elección"
   },
   {
     "name": "El Manto Andrajoso",
@@ -207,7 +207,7 @@
     ],
     "type": "artifact",
     "expansion": "base",
-    "front": "Obtén +6 fuerza cuando resuelvas Encuentros de combate. Acción: Tú y cada Monstruo que haya en tu casilla perdéis 1 punto de Salud"
+    "front": "Obtén +6 <strength> cuando resuelvas Encuentros de combate. Acción: Tú y cada Monstruo que haya en tu casilla perdéis 1 punto de Salud"
   },
   {
     "name": "Flauta de los Dioses Exteriores",
@@ -227,7 +227,7 @@
     ],
     "type": "artifact",
     "expansion": "base",
-    "front": "Acción: Realiza una prueba de saber. Si superas la prueba, puedes gastar 1 punto de Cordura para elegir 1 Monstruo que esté en tu casilla para que pierda 3 puntos de Salud"
+    "front": "Acción: Realiza una prueba de <lore>. Si superas la prueba, puedes gastar 1 punto de Cordura para elegir 1 Monstruo que esté en tu casilla para que pierda 3 puntos de Salud"
   },
   {
     "name": "Mascara palida",
@@ -247,7 +247,7 @@
     ],
     "type": "artifact",
     "expansion": "base",
-    "front": "Acción: Realiza una prueba de saber. Si suepras la prueba, puedes gastar 1 punto de Cordura para obtener 2 Hechizos"
+    "front": "Acción: Realiza una prueba de <lore>. Si suepras la prueba, puedes gastar 1 punto de Cordura para obtener 2 Hechizos"
   },
   {
     "name": "Khopesh del Abismo",
@@ -259,7 +259,7 @@
     ],
     "type": "artifact",
     "expansion": "sr",
-    "front": "Obtén +5 fuerza durante Encuentros de Combate. Una vez por ronda, cuando derrotes a un Monstruo durante un Encuentro de Combate, puedes moverte a la casilla más cercana que contenga un Monstruo"
+    "front": "Obtén +5 <strength> durante Encuentros de Combate. Una vez por ronda, cuando derrotes a un Monstruo durante un Encuentro de Combate, puedes moverte a la casilla más cercana que contenga un Monstruo"
   },
   {
     "name": "Idolo del dragón",
@@ -270,7 +270,7 @@
     ],
     "type": "artifact",
     "expansion": "sr",
-    "front": "Acción: Pierde 1 punto de Cordura y 1 Monstruo en tu casilla o en una casilla adyacente pierde 2 puntos de Salud. Puedes gastar 1 punto de Cordura para volver a tirar cualquier cantidad de dados al resolver una prueba de fuerza durante un Encuentro de Combate"
+    "front": "Acción: Pierde 1 punto de Cordura y 1 Monstruo en tu casilla o en una casilla adyacente pierde 2 puntos de Salud. Puedes gastar 1 punto de Cordura para volver a tirar cualquier cantidad de dados al resolver una prueba de <strength> durante un Encuentro de Combate"
   },
   {
     "name": "Flautas de hueso",
@@ -280,7 +280,7 @@
     ],
     "type": "artifact",
     "expansion": "sr",
-    "front": "Acción: Realiza una prueba de saber. Si la superas, puedes gastar 1 punto de Corudra para elegir 1 Monstruo en tu casilla o en una casilla adyacente. El Monstruo elegido pierde 2 puntos de Salud o se mueve 1 casilla"
+    "front": "Acción: Realiza una prueba de <lore>. Si la superas, puedes gastar 1 punto de Corudra para elegir 1 Monstruo en tu casilla o en una casilla adyacente. El Monstruo elegido pierde 2 puntos de Salud o se mueve 1 casilla"
   },
   {
     "name": "Mascara de Estenelo",
@@ -301,7 +301,7 @@
     ],
     "type": "artifact",
     "expansion": "fl",
-    "front": "Obtén +3 saber cuando resuelvas efectos de Hechizos. Acción: Realiza una prueba de saber. Si la suepras, puedes gastar 1 punto de corudra para obtener 2 Hechizos y luego descartar 1 Hechizo"
+    "front": "Obtén +3 <lore> cuando resuelvas efectos de Hechizos. Acción: Realiza una prueba de <lore>. Si la suepras, puedes gastar 1 punto de corudra para obtener 2 Hechizos y luego descartar 1 Hechizo"
   },
   {
     "name": "Espada de Y'ha-Talla",
@@ -312,7 +312,7 @@
     ],
     "type": "artifact",
     "expansion": "fl",
-    "front": "Obtén +2 voluntad y +3 fuerza durante Encuentros de Combate. Si derrotas a un Monstruo durante un Encuentro de Combate, obtén 1 Pista"
+    "front": "Obtén +2 <will> y +3 <strength> durante Encuentros de Combate. Si derrotas a un Monstruo durante un Encuentro de Combate, obtén 1 Pista"
   },
   {
     "name": "Bolsa de vacio",
@@ -332,7 +332,7 @@
     ],
     "type": "artifact",
     "expansion": "fl",
-    "front": "Acción: Realiza una prueba de voluntad. Si superas la prueba, puedes gastar 1 punto de Cordura para recuperar toda la Salud y mejorar tu fuerza dos veces, a continuacion, ¡un Monstruo te tiende uan emboscada!"
+    "front": "Acción: Realiza una prueba de <will>. Si superas la prueba, puedes gastar 1 punto de Cordura para recuperar toda la Salud y mejorar tu <strength> dos veces, a continuacion, ¡un Monstruo te tiende uan emboscada!"
   },
   {
     "name": "Massa di Requiem per Shuggay",
@@ -342,7 +342,7 @@
     ],
     "type": "artifact",
     "expansion": "fl",
-    "front": "Acción: Realiza una prueba de saber -1. Si superas la prueba, puedes gastar 1 punto de Cordura para descartar 1 Monstruo que esté en una casilla de tu eleccion que contenga un Portal",
+    "front": "Acción: Realiza una prueba de <lore> -1. Si superas la prueba, puedes gastar 1 punto de Cordura para descartar 1 Monstruo que esté en una casilla de tu eleccion que contenga un Portal",
     "reckoning": "Tira 1 dado. Si sacas un 1, haz avanzar la Perdición 1 casilla"
   },
   {
@@ -353,7 +353,7 @@
     ],
     "type": "artifact",
     "expansion": "fl",
-    "front": "Acción: Realiza una prueba de voluntad. Si la suepras, puedes gastar 1 punto de Cordura para recuperar toda la Salud y descartar todos los Estados Enfermedad, Herida y Locura"
+    "front": "Acción: Realiza una prueba de <will>. Si la suepras, puedes gastar 1 punto de Cordura para recuperar toda la Salud y descartar todos los Estados Enfermedad, Herida y Locura"
   },
   {
     "name": "Esfera maldita",
@@ -374,7 +374,7 @@
     ],
     "type": "artifact",
     "expansion": "fl",
-    "front": "Acción: Realiza una prueba de voluntad -1. Si superas la preuba, puedes gastar 1 punto de Cordura para obtner 1 Apoyo Aliado aleatorio del mazo",
+    "front": "Acción: Realiza una prueba de <will> -1. Si superas la preuba, puedes gastar 1 punto de Cordura para obtner 1 Apoyo Aliado aleatorio del mazo",
     "reckoning": "Descarta 1 Apoyo Aliado"
   },
   {
@@ -386,6 +386,6 @@
     ],
     "type": "artifact",
     "expansion": "base",
-    "front": "Obtén +2 voluntad y +5 fuerza cuando resuelvas Encuentros de Combate. Si derrotas un Monstruo durante un Encuentro de Combate, recupera 1 punto de Cordura"
+    "front": "Obtén +2 <will> y +5 <strength> cuando resuelvas Encuentros de Combate. Si derrotas un Monstruo durante un Encuentro de Combate, recupera 1 punto de Cordura"
   }
 ]
