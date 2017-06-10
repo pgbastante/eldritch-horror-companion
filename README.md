@@ -19,8 +19,15 @@ Hope this helps, any ideas and help are welcome.
 * Change RandomItemGeneratorProvider to a Factory provider
 * Language selector styling
 * Add all items to the database (english)
-* Make the location randomizer or tune the existing one to work with locations
 * Main menu smooth transitions
 * General styling
 * Refactor gulpfile to ecmascript 6
 * Add a gulp task to set the target value of the english translation as the source
+* Add option to randomly setup a game (select the number of players, with or without prelude...) and returns the number
+selected investigators, an elder god and a prelude card. It will also tell you if you need to prepare a special deck or
+game board depending on the result
+* Compile a database of the game rules and faqs, with the ability to search anywhere 
+* Add images for all locations
+* Add images for all cards
+* Find or make better images for the skills icons
+* MAKE TEST!!!
