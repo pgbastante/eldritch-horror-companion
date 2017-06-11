@@ -18,14 +18,7 @@
         <span i18n>About</span>
       </md-list-item>
     </md-list>
-    <div fxLayout="row">
-      <div>
-        <span id="es" (click)="languageChange($event)" class="flag-icon flag-icon-es"></span>
-      </div>
-      <div>
-        <span id="en" (click)="languageChange($event)" class="flag-icon flag-icon-us"></span>
-      </div>
-    </div>
+    <language-selector></language-selector>
   </md-sidenav>
 
   <md-toolbar color="primary">
