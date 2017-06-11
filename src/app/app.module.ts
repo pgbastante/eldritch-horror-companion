@@ -5,7 +5,8 @@ import {
   MdButtonModule,
   MdListModule,
   MdSidenavModule,
-  MdToolbarModule
+  MdToolbarModule,
+  MdSelectModule
 } from '@angular/material';
 import { MenuRoutingComponent } from './menu-routing.component';
 import { FlexLayoutModule } from '@angular/flex-layout';
@@ -13,6 +14,8 @@ import { ItemModule } from './item/item.module';
 
 import '../styles/core.less';
 import { appRoutes } from './app.routes';
+import { FormsModule } from '@angular/forms';
+import { LanguageSelectorComponent } from './language-selector.component';
 
 
 @NgModule({
@@ -25,10 +28,12 @@ import { appRoutes } from './app.routes';
     MdToolbarModule,
     MdSidenavModule,
     FlexLayoutModule,
-    ItemModule
+    ItemModule,
+    MdSelectModule,
+    FormsModule
   ],
   declarations: [
-    MenuRoutingComponent
+    MenuRoutingComponent, LanguageSelectorComponent
   ],
   bootstrap: [MenuRoutingComponent],
   providers: []

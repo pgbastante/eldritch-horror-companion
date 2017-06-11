@@ -1,0 +1,8 @@
+<md-select class="language-selector" [(ngModel)]="selectedLanguage" i18n-placeholder placeholder="Language Select"
+           (change)="latestChangeEvent = languageChange($event)">
+  <md-option *ngFor="let language of availableLanguages" [value]="language.key">
+    <div>
+      <span class="flag-icon flag-icon-{{language.flag}}"></span><span i18n>{language.key, select, es {Spanish} en {English}}</span>
+    </div>
+  </md-option>
+</md-select>

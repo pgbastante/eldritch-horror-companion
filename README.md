@@ -17,7 +17,6 @@ Hope this helps, any ideas and help are welcome.
 #TODO
 
 * Change RandomItemGeneratorProvider to a Factory provider
-* Language selector styling
 * Add all items to the database (english)
 * Main menu smooth transitions
 * General styling

@@ -101,6 +101,22 @@
           <context context-type="linenumber">10</context>
         </context-group>
       </trans-unit>
+      <trans-unit id="f9511095a46fb07e2f63db63a2ea976ec79d9327" datatype="html">
+        <source>{VAR_SELECT, select, es {Spanish} en {English} }</source>
+        <target>{VAR_SELECT, select, es {Spanish} en {English} }</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/menu-routing.component.ts</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3ef658a3bc4a3c94521f7aabdf92adba879d33c9" datatype="html">
+        <source>Language Select</source>
+        <target>Language Select</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/menu-routing.component.ts</context>
+          <context context-type="linenumber">21</context>
+        </context-group>
+      </trans-unit>
     </body>
   </file>
 </xliff>
