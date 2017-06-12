@@ -5,6 +5,7 @@ import { ConditionService } from '../services/condition.service';
 import { SpellService } from '../services/spell.service';
 import { LocationService } from '../services/location.service';
 import { UniqueAssetService } from '../services/unique-asset.service';
+import { InvestigatorService } from '../services/investigator.service';
 @Injectable()
 export class RandomItemGeneratorProvider {
   map = {
@@ -13,7 +14,8 @@ export class RandomItemGeneratorProvider {
     condition: ConditionService,
     location: LocationService,
     spell: SpellService,
-    'unique-asset': UniqueAssetService
+    'unique-asset': UniqueAssetService,
+    investigator: InvestigatorService
   };
 
   getItems(type: string) {

@@ -9,7 +9,8 @@ export class ItemFilterProvider {
     condition: ItemFilterAllCategories,
     location: ItemFilterOneCategory,
     spell: ItemFilterAllCategories,
-    'unique-asset': ItemFilterAllCategories
+    'unique-asset': ItemFilterAllCategories,
+    investigator: ItemFilterAllCategories
   };
 
   getInstance(type: string) {

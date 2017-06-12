@@ -1,0 +1,1184 @@
+[
+  {
+    "name": "Agnes Baker",
+    "profession": "The Waitress",
+    "abilities": [
+      "Action: Test <lore> -1. If you pass, gain 1 Spell.",
+      "You may spend 1 Health to roll 2 additional dice when resolving a Lore test as part of a Spell effect"
+    ],
+    "location": "LN",
+    "equipment": [
+      "Profane Tome",
+      "Storm of Spirits"
+    ],
+    "stats": {
+      "health": 7,
+      "sanity": 5,
+      "lore": 4,
+      "influence": 3,
+      "observation": 2,
+      "strength": 2,
+      "will": 2
+    },
+    "expansion": "mom",
+    "role": "magic",
+    "quote": "I remember another life, one of sorcery and conquest.",
+    "bio": "Once, Agnes lived quietly, taking orders and serving up food at a diner in Arkham, but one night, she fell from a ladder, striking her head. After that, she could recall a past life as a sorceress in the ancient world of Hyperborea. Her mind flooded with memories of arcane lore. Amazed by this new magical knowledge, Agnes has traveled to London, to learn more about Hyperborea, but is she driven by her own curiosity or compelled by the will of her former self?",
+    "team": "Agnes's role centers around casting Spells of all kinds. It is very easy for her to gain spells, so, depending upon the luck of the draw, she can easily turn into a combat-heavy character, or a more supporting type with spells like Flesh Ward or Instill Bravery. If she gains combat spells, bulk up her Will and Strength.\nAgnes has a decent influence, so she can try to gain extra assets to help her needs.\nBecause it is very easy for Agnes to gain spells, she partners well for Ancient Ones or a Mystery that requires the discarding of spells, such as Syzygy."
+  },
+  {
+    "name": "Akachi Onyele",
+    "profession": "The Shaman",
+    "abilities": [
+      "Action: Look at the top 2 Gates in the Gate stack. Put 1 Gate on the top of the Gate stack, and the other on the bottom.",
+      "When you close a Gate during an Other World Encounter, you may move to any space containing a Clue or a Gate."
+    ],
+    "location": "15",
+    "equipment": [
+      "Mists of Releh",
+      "1 Clue"
+    ],
+    "stats": {
+      "health": 5,
+      "sanity": 7,
+      "lore": 3,
+      "influence": 2,
+      "observation": 2,
+      "strength": 2,
+      "will": 4
+    },
+    "expansion": "base",
+    "role": "gate-closer",
+    "quote": "I will journey to the lands beyond. I do not fear them.",
+    "bio": "As a young girl in Nigeria, Akachi stayed apart from other children, preferring the company of imaginary friends. Her elders feared madness, but the village dibia believed that she had been chosen by the gods. The wise old man taught her how to travel between worlds and how to marshal spirits. Now, she has become a wise leader herself, traveling across Africa and teaching others to protect themselves. She's recently arrived in Cape Town and from here, she will track down the dark forces that threaten humanity.",
+    "team": "Akachi centers around the closing of gates. Her special power allows her to know which Gates could be opening, and denying the opening of problematic Gates. She partners well with Kate as a result.\nAkachi has a decent Lore, so she may wish to gain Spells as well. Her high Will can help her against Monsters with high horror checks, so she can very easily be built for combat encounters."
+  },
+  {
+    "name": "Amanda Sharpe",
+    "profession": "The Student",
+    "abilities": [
+      "Action: You may discard any number of Talent Conditions to improve 1 skill of your choice for each Talent Condition discarded.",
+      "If you would improve a skill, you may gain 1 Talent Condition instead."
+    ],
+    "location": "IS",
+    "equipment": [
+      "Unspeakable Research Unique Asset",
+      "Quick Study Condition"
+    ],
+    "stats": {
+      "health": 6,
+      "sanity": 6,
+      "lore": 2,
+      "influence": 3,
+      "observation": 4,
+      "strength": 1,
+      "will": 3
+    },
+    "expansion": "td",
+    "role": "research",
+    "quote": "The truth of reason tempers even the wildest delusions. I will not fall prey to such madness.",
+    "bio": "Ever since she laid eyes upon that painting, Amanda Sharpe has been hearing voices in her head and seeing emerald cities deep beneath the ocean in her dreams. Once a student at Arkham's Miskatonic University, Amanda Sharpe opted to take some time away from school, hoping that the strange voices and visions would subside. Unfortunately, they have been getting worse, not better, and hardly a day goes by that she does not suffer from her unusual visions. Something terrible is coming, she is sure of it. The sea wakes.",
+    "team": "Amanda has a high Observation, and her starting Task allows her to gain Clues very quickly. As such, she's useful for dealing with powerful Rumors, or Mysteries that require the spending of Clues.\nIt is very easy for Amanda to gain Talents. She may, if she chooses, discard these Talents for straight improvements to skills, which can help her fill any gaps the rest of the team may be missing."
+  },
+  {
+    "name": "Carolyn Fern",
+    "profession": "The Psychologist",
+    "abilities": [
+      "Action: You or another investigator on your space may discard 1 Madness Condition and/or perform a Rest Action",
+      "When another investigator performs a Rest Action on your space, they may gain 1 additional Sanity. "
+    ],
+    "location": "RM",
+    "equipment": [
+      "1 Dream Diary Asset",
+      "1 Death XIII Unique Asset"
+    ],
+    "stats": {
+      "health": 5,
+      "sanity": 7,
+      "lore": 2,
+      "influence": 3,
+      "observation": 3,
+      "strength": 2,
+      "will": 4
+    },
+    "expansion": "td",
+    "role": "support",
+    "quote": "The mad deserve peace of mind, not death of the spirit.",
+    "bio": "When Carolyn Fern's latest patient, Malachi, told her of his troubled nightmares, she never expected that he would turn up dead the very next day, murdered by the very weapon of which he dreamed. A gifted psychologist and skilled in the art of hypnosis, Carolyn has been following clues Malachi left in his diary across two continents. Convinced that Malachi's death is in some way connected to the growing unrest in the world, she is determined to uncover the truth that lies behind the murder of her former patient.",
+    "team": "Carolyn has a great Will and a decent Observation and Influence, making her well suited for most encounters she'll undertake. Her Dream Diary allows her to spawn Clues whenever she rests, so she can populate the board with Clues.\nHer other starting asset allows her to retreat Doom when a Mystery is solved, making her helpful when dealing with an Ancient One that has a low Doom, like Atlach-Nacha or Yig.\nCarolyn can help recover additional Sanity to investigators on her space, so Ancient Ones who deal Sanity damage, like Hastur, Hypnos, or Nephren-Ka are much easier with her in play."
+  },
+  {
+    "name": "Charlie Kane",
+    "profession": "The Politician",
+    "abilities": [
+      "Action: Another investigator of your choice may immediately perform 1 additional action.",
+      "When you perform an Acquire Assets action, you may allow other investigators to gain any cards you purchase."
+    ],
+    "location": "LN",
+    "equipment": [
+      "1 Personal Assistant Asset"
+    ],
+    "stats": {
+      "health": 4,
+      "sanity": 8,
+      "lore": 2,
+      "influence": 4,
+      "observation": 3,
+      "strength": 2,
+      "will": 2
+    },
+    "expansion": "base",
+    "role": "support",
+    "quote": "It can be arranged. It's just a matter of acceptable terms.",
+    "bio": "When the press asks if Charlie is planning a run for national office, he smiles and says that he's focused on the important issues. The truth is that he would love to launch his campaign, but right now the most important issue is preventing the end of the world without causing a panic. To do this, he's been calling in favors across the country. Most recently, Charlie's stopped in San Francisco to visit Hearst Castle. With the help of his friends and his finances, Charlies believes he can fix this problem without sacrificing a single vote.",
+    "team": "Charlie Kane's abilities make him a very strong addition to any team. Although his abilities are both support oriented, making the other investigators better, they are extremely powerful, especially given his high influence score (making obtaining assets easier) and worth saving a spot on the team for him.",
+    "info": [
+      "Charlie can't give an additional action to a Delayed investigator.",
+      "While the Supplying the North Mystery is in play, Charlie can't purchase a Provisions Unique Asset for another investigator. The effect that allows an investigator to gain a Provisions Unique Asset triggers when the investigator perform the Acquire Assets action, but it is not a part of that action. For the same reason, Charlie cannot spend two successes during an Acquire Assets action to move another investigator to Miskatonic Outpost.",
+      "Gaining an additional action doesn't allow the investigator to perform an action he has already performed in that round."
+    ]
+  },
+  {
+    "name": "Daisy Walker",
+    "profession": "The Librarian",
+    "abilities": [
+      "Action: If you are on a City space, test Observation. If you pass, gain 1 Tome Asset from the reserve or 1 random Tome Asset from the deck.",
+      "When you perform a Rest action, you may perform 1 additional action on a Ritual or Tome possession you have."
+    ],
+    "location": "IS",
+    "equipment": [
+      "1 Old Journal Unique Asset",
+      "1 Arcane Insight Spell"
+    ],
+    "stats": {
+      "health": 5,
+      "sanity": 7,
+      "lore": 4,
+      "influence": 3,
+      "observation": 2,
+      "strength": 1,
+      "will": 3
+    },
+    "expansion": "mom",
+    "role": "magic",
+    "quote": "I know of books so powerful, they can rewrite reality",
+    "bio": "Daisy worked in the library of Miskatonic University, overseen by the noted scholar Henry Armitage. She quickly became an expert on the school's collection of strange and occult texts, mastering the obscure subject matter and archaic languages. Through her studies, she came to believe that humanity was facing an impending threat. Armitage believes in her conclusions and has sent her to Istanbul to continue her investigation. It is their hope to discover some means of rescuing humanity from this inevitable doom.",
+    "team": "With her starting spells and high Lore skill, Daisy is a great character to gain Clues, which can make her useful in dealing with Rumors. Because her Observation is low, it is wise to train that up if you plan on using her skill to gain unique Tomes.\nNaturally, Daisy is a great character to use Tomes with, as she gets a third action every round, provided she is using a Ritual or Tome.\nDaisy can also use spells to great effect once she gets some."
+  },
+  {
+    "name": "Darrell Simmons",
+    "profession": "The Photographer",
+    "abilities": [
+      "Action: Look at the top 5 cards of the Asset deck and put them back in any order. Then, discard any number of cards from the reserve. ",
+      "Roll 1 additional die when resolving a test during a location encounter or a Research Encounter if you are on a City space. "
+    ],
+    "location": "20",
+    "equipment": [
+      "1 Camera Asset",
+      "1 Seek the Truth Asset"
+    ],
+    "stats": {
+      "health": 7,
+      "sanity": 5,
+      "lore": 1,
+      "influence": 3,
+      "observation": 4,
+      "strength": 2,
+      "will": 3
+    },
+    "expansion": "td",
+    "role": "research",
+    "quote": "The truth is darker than any of us know.",
+    "bio": "Darrell Simmons will never forget the night he saw an indescribable horror emerge from the shadows in his hometown of Arkham. Since that fateful night, the horror of what he saw permeates his every dream. Resolved to capture photographic evidence to prove what he saw, he has dedicated his life to pursuing rumors of supernatural sightings, the latest of which has brought him to an ancient burial ground in Indonesia. One good shot is all he needs, and there is no way he will let it slip through his fingers. ",
+    "team": "With his starting assets and high Observation, Darrell is a great character for Research Encounters and gaining Clues, making him invaluable for Mysteries or Rumors that require them.\nDarrell is good at recycling the assets deck for more useful items, so he'll partner well on a team with Charlie or Jenny.\nBecause he rolls an extra die in a City space, he can do very well if the Ancient One is Hastur, as many of his spaces involve cities."
+  },
+  {
+    "name": "Dexter Drake",
+    "profession": "The Magician",
+    "abilities": [
+      "Action: Move 1 Monster from your space to another space containing a Gate.",
+      "Once per round, when you gain a Spell, you may gain 1 additional spell."
+    ],
+    "location": "TK",
+    "equipment": [
+      "1 Binding Spell",
+      "1 Arcane Assistant Asset"
+    ],
+    "stats": {
+      "health": 5,
+      "sanity": 7,
+      "lore": 4,
+      "influence": 2,
+      "observation": 2,
+      "strength": 2,
+      "will": 3
+    },
+    "expansion": "soc",
+    "role": "magic",
+    "quote": "Do not be afraid. I have spent my entire life doing the impossible.",
+    "bio": "When the Great War ended, Dexter went from being a soldier to a stage magician. His charm and unparalleled skills quickly drew praise from around the world. As he toured the exotic corners of the world, he amassed a collection of genuine occult knowledge. Soon Drake became as much a master of real magic as he is of staged illusions. Eventually, his arcane studies revealed a dark power that is growing in strength. Now in Tokyo, Drake spends his nights performing and his days stopping the end of the world.",
+    "team": "Dexter is all about magic. He gains spells very quickly, and his starting assets make him even more powerful than most.\nWith his higher Will, he does well with Combat oriented magic and can slay monsters."
+  },
+  {
+    "name": "Diana Stanley",
+    "profession": "The Redeemed Cultist",
+    "abilities": [
+      "Action: If there is a Cultist Monster on your space, discard all Monsters on your space or move the Cultist Monster to any other space.",
+      "Reduce the horror of Monsters you encounter to 1"
+    ],
+    "location": "7",
+    "equipment": [
+      "1 Arcane Manuscripts Asset",
+      "1 Wither Spell"
+    ],
+    "stats": {
+      "health": 7,
+      "sanity": 5,
+      "lore": 4,
+      "influence": 2,
+      "observation": 3,
+      "strength": 3,
+      "will": 1
+    },
+    "expansion": "base",
+    "role": "magic",
+    "quote": "The Lodge is not as innocent as they pretend. I have learned that nothing is ever as it seems, myself included.",
+    "bio": "When Diana was initiated into the Order of the Silver Twilight, she believed it to be nothing more than a community organization. But as she has learned more of it's true nature, she has become convinced that a growing evil threatens the world, and that the Silver Twilight will play a role in that threat. She believes her best chance to prevent this is to use her position to sabotage the organization from within. Carl Sanford, the head of the Order, has recognized her skills and recently sent her to Panama for additional training.",
+    "team": "The high lore and observation ratings are useful. Diana's will rating of 1 is somewhat offset by the passive ability to reduce the horror of monsters to 1. "
+  },
+  {
+    "name": "Finn Edwards",
+    "profession": "The Bootlegger",
+    "abilities": [
+      "Action: You and/or another investigator on your space may move 1 space along a Ship or Train path.",
+      "Effects cannot cause you to discard your Item, Trinket, or Ally possessions unless you choose to."
+    ],
+    "location": "5",
+    "equipment": [
+      "1 Cat Burglar Asset",
+      "1 Whiskey Asset",
+      "1 Courier Run Unique Asset"
+    ],
+    "stats": {
+      "health": 6,
+      "sanity": 6,
+      "lore": 2,
+      "influence": 3,
+      "observation": 3,
+      "strength": 2,
+      "will": 3
+    },
+    "expansion": "mom",
+    "role": "all-rounder",
+    "quote": "Never lose track of the exit or the merchandise.",
+    "bio": "Finn was making a good living, running liquor from Canada to cities all along the East Coast. He never got caught and never lost a delivery. Now he has taken a job in Chicago and gave his word that he could get it done. This time it won't be alcohol he's delivering, and it won't be the local sheriff trying to catch him. Finn's caught up in some supernatural conspiracy, but in the end, he adheres to the same principles. Deliver the goods. Don't get caught.",
+    "team": "Finn Edwards has well rounded stats, and a fantastic supporting ability that lets him move himself or other investigators down most paths, making him excellent in a supporting role. Since he can never lose Assets by choice, it is very easy to bulk him up into whatever role the team needs.",
+    "info": [
+      "When Finn Edwards uses his active ability, if Finn chooses both himself and another investigator on his space, Finn moves to an adjacent space connected by a Ship or Train path, and the chosen investigator may choose to move to that space as well. Finn and the chosen investigator cannot move to separate spaces.",
+      "If Finn Edwards uses his passive ability to not discard a flipped Unique Asset when instructed, the Unique Asset will be shuffled into the Unique Asset deck anyway."
+    ]
+  },
+  {
+    "name": "George Barnaby",
+    "profession": "The Lawyer",
+    "abilities": [
+      "Action: Test <influence>. For each success, another investigator of your choice on any space may discard a Debt or Detained Condition. ",
+      "Once per round, you may spend 1 Focus to add 1 to the result of 1 die when resolving a test. "
+    ],
+    "location": "17",
+    "equipment": [
+      "1 Investment Asset",
+      "1 Pocket Watch Asset"
+    ],
+    "stats": {
+      "health": 4,
+      "sanity": 8,
+      "lore": 3,
+      "influence": 4,
+      "observation": 2,
+      "strength": 1,
+      "will": 3
+    },
+    "expansion": "mom",
+    "role": "support",
+    "quote": "I believe in a higher law. In believe in true justice.",
+    "bio": "As a lawyer, George had a long career holding those who deal in human suffering accountable to the law. Recently, George retired and bought a boat to travel the world with his beloved wife Maria, but everything changed one morning in Bombay. George left the boat to get breakfast. On his way back, he passed Westerners dressed in black suits, all wearing silver rings that bore the image of a skull. Inside the boat, he found Maria's body surrounded by occult symbols. His sole reason for living now is the pursuit of justice for Maria.",
+    "team": ""
+  },
+  {
+    "name": "Gloria Goldberg",
+    "profession": "The Author",
+    "abilities": [
+      "Action: If you are on a City space, gain 1 Tome Asset of your choice from the reserve or discard pile.",
+      "You and other investigators on your space roll 1 additional die when resolving a test during an Other World Encounter."
+    ],
+    "location": "AR",
+    "equipment": [
+      "1 Mythos Codex Unique Asset",
+      "1 Find Gate Spell"
+    ],
+    "stats": {
+      "health": 4,
+      "sanity": 8,
+      "lore": 3,
+      "influence": 3,
+      "observation": 3,
+      "strength": 1,
+      "will": 3
+    },
+    "expansion": "td",
+    "role": [
+      "support",
+      "ressearch"
+    ],
+    "quote": "Never underestimate the power of the written word.",
+    "bio": "For most of her life, Gloria has experienced vivid, lifelike dreams of horrifying abominations emerging from the dark places of the universe to destroy humanity. As she became older, she learned to channel these horrible visions into her writing and is widely lauded for the imaginative and detailed descriptions of the terrors she encounters in her nightmares. Her most recent nightmare ended with the destruction of not only Arkham but the entire world. If nothing else, it is going to make one hell of a book.",
+    "team": ""
+  },
+  {
+    "name": "Hank Samson",
+    "profession": "The Farmhand",
+    "abilities": [
+      "Action: Test <strength>. If you pass, discard 1 Monster on your space with toughness less than or equal to your test result.",
+      "You do not resolve the <will> test during a Combat Encounter unless you lose Health from the <strength> test."
+    ],
+    "location": "6",
+    "equipment": [
+      "1 Sledgehammer Asset"
+    ],
+    "stats": {
+      "health": 8,
+      "sanity": 4,
+      "lore": 1,
+      "influence": 2,
+      "observation": 3,
+      "strength": 4,
+      "will": 3
+    },
+    "expansion": "utp",
+    "role": "combat",
+    "quote": "Folks are in trouble. I don't gotta be a genius to help out.",
+    "bio": "Since he was a kid, Hank has crossed the country working on farms and ranches. In Texas, he saw a giant bird-like creature tear cattle to pieces. Everyone else ran, but Hank cracked that creature's skull open with his maul. Thinking nothing of it, he included the story in a letter to his father. Now his pa is missing and folks in Dallas say someone's looking for Hank. If they thought they were going to scare him, they were wrong. Hank Samson ain't afraid of anything, and he aims to find his pa.",
+    "team": "Hank Samson is best used for physical combat. "
+  },
+  {
+    "name": "Harvey Walters",
+    "profession": "The Professor",
+    "abilities": [
+      "Action: Another investigator on your space improves 1 skill of his choice if your value for that skill is equal to or higher than his.",
+      "After resolving a Research Encounter, you may spend 1 Clue you gained from that encounter to improve 1 skill of your choice."
+    ],
+    "location": "AR",
+    "equipment": [
+      "1 Ancient Tome Asset"
+    ],
+    "stats": {
+      "health": 4,
+      "sanity": 8,
+      "lore": 3,
+      "influence": 2,
+      "observation": 3,
+      "strength": 2,
+      "will": 3
+    },
+    "expansion": "utp",
+    "role": "support",
+    "quote": "I have experience dealing with these sorts of horrors.",
+    "bio": "In the time since Harvey Walters earned his master's degree in journalism from Miskatonic University, a lot has happened to him. His journalistic career took him into the roles of mystic and psychic investigator, which in turn led him to earn doctorates in History and Archaeology. There is perhaps no sane man alive who knows more about the occult than Harvey. Now his ongoing struggle against the darkness has brought him back to his alma mater here in Arkham.",
+    "team": ""
+  },
+  {
+    "name": "Jacqueline Fine",
+    "profession": "The Psychic",
+    "abilities": [
+      "Action: You may trade any number of clues with an investigator on any space.",
+      "Once per round, when another investigator gains a non-Common Condition, you may look at the back of that card and gain 1 Clue."
+    ],
+    "location": "5",
+    "equipment": [
+      "1 Flesh Ward Spell",
+      "1 Clue"
+    ],
+    "stats": {
+      "health": 4,
+      "sanity": 8,
+      "lore": 4,
+      "influence": 2,
+      "observation": 3,
+      "strength": 1,
+      "will": 3
+    },
+    "expansion": "base",
+    "role": "support",
+    "quote": "The visions are a warning. The future can be rewritten.",
+    "bio": "At first, Jacqueline's dreams of fire and destruction seemed like a curse. Monsters ran rampant through city streets and some greater darkness loomed on the horizon. However, she has recently learned to control her visions and observe events in detail. Yesterday, she traveled from Boston to Minneapolis to explore an abandoned warehouse she'd seen in her dreams. Inside, she found evidence of a terrible cult that had practiced unspeakable rituals there. Jacqueline hopes to use what she's learned to prevent the terrible future that haunts her sleep.",
+    "team": "With her high starting Lore and decent Will, Jacqueline is great for casting spells of all kinds. She has a lower strength, so a lesser base for Strength to be boosted for Combat Encounters, so a player who wants to use her to fight might want to increase that first.\nHer high observation and special ability allow her to funnel clues to investigators, or to retrieve them from an investigator if she's better suited for the Mystery, so an investigator like Darrell or Daisy might make a good partner for her.\nSince Jacqueline may look at the back of Condition cards that are not deals, the players can work around what might be some debilitating or deadly conditions."
+  },
+  {
+    "name": "Jenny Barnes",
+    "profession": "The Dilettante",
+    "abilities": [
+      "Action: You or another investigator on a City space may perform an Acquire Assets action and gain +2 <influence> during that action.",
+      "Once per round, when you or another investigator gains a Debt Condition, that investigator may discard that Condition."
+    ],
+    "location": "8",
+    "equipment": [
+      "1 .25 Automatic Asset",
+      "1 Fine Jewelry Asset",
+      "1 Ship Ticket"
+    ],
+    "stats": {
+      "health": 7,
+      "sanity": 5,
+      "lore": 1,
+      "influence": 4,
+      "observation": 2,
+      "strength": 3,
+      "will": 3
+    },
+    "expansion": "soc",
+    "role": "support",
+    "quote": "My sister was taken. I will pay any amount to save her.",
+    "bio": "Born to wealth and privilege, Jenny has spent most of her young life in the most fashionable nightclubs around the world. But her life of decadence came to an abrupt halt when she received an ominous letter from her sister Isabelle. In the letter, Isabelle reported being followed by mysterious men wearing hoods and robes. When Jenny investigated, she learned that her sister had been kidnapped to an island in the Caribbean. Jenny will use her wealth and international connections to find Isabelle and punish the men who took her.",
+    "team": ""
+  },
+  {
+    "name": "Jim Culver",
+    "profession": "The Musician",
+    "abilities": [
+      "Action: Each investigator on your space recovers 1 sanity.",
+      "Investigators on your space roll 1 additional die when resolving tests during Combat Encounters."
+    ],
+    "location": "LN",
+    "equipment": [],
+    "stats": {
+      "health": 7,
+      "sanity": 5,
+      "lore": 3,
+      "influence": 3,
+      "observation": 2,
+      "strength": 2,
+      "will": 3
+    },
+    "expansion": "base",
+    "role": [
+      "magic",
+      "support"
+    ],
+    "quote": "No, not quiet at all. Dead folks get downright rambunctious when I play my horn.",
+    "bio": "Old Jim Culver's music gives sweet comfort to the soul, and it doesn't matter if that soul belongs to the living or the dead. Folks in their graves, they love their little chats with Jim. It used to bother him, but now he's happy for the company. Lately, some departed souls in San Antonio have been all riled up about something. They're downright terrified. And anything that scares the dead deserves old Jim's undivided attention.",
+    "team": ""
+  },
+  {
+    "name": "Joe Diamond",
+    "profession": "The Private Eye",
+    "abilities": [
+      "Action: Choose Ally, Service, or Weapon. Then discard 1 Asset from the reserve and replace it with 1 random Asset from the deck that has the chosen trait. ",
+      "Once per round, when you improve a skill, also improve 1 other skill of your choice. "
+    ],
+    "location": "SF",
+    "equipment": [
+      "1 .32 Colt Pocket Asset"
+    ],
+    "stats": {
+      "health": 7,
+      "sanity": 5,
+      "lore": 2,
+      "influence": 3,
+      "observation": 4,
+      "strength": 2,
+      "will": 2
+    },
+    "expansion": "utp",
+    "role": "research",
+    "quote": "I was hired for a job. Evil gods or no, I aim to finish it",
+    "bio": "The dame who hired Joe was square, and the job seemed easy on the surface. She paid in advance to have Joe find some codger and deliver a crate, but Joe does not walk into situations without knowing the score. This codger was a member of the Silver Twilight Lodge, and that crate had been stolen from a museum in Istanbul. Like a sucker, Joe went to the cops. For his trouble, he got a broken nose and a dead client, and somebody stole his cargo. Now Joe is ready for a little payback.",
+    "team": "With his high Observation, Joe is quite good at getting Clues, as well as using Talents like Skulduggery in order to gain more powerful items. Research encounters are something Joe does well, so he can solve many mysteries that require the spending of Clues.\nSince he starts with a gun, he is decent with fighting, although a player who plans on using him to close gates might want to improve his Will, to deal with the monsters spawned from them. "
+  },
+  {
+    "name": "Kate Winthrop",
+    "profession": "The Scientist",
+    "abilities": [
+      "Action: If you are on a space containing a Gate, discard 1 Monster on your space with toughness less than your <observation>",
+      "If a Gate would spawn on your space, discard that Gate and gain 1 Clue instead."
+    ],
+    "location": "BA",
+    "equipment": [
+      "1 Dimensional Study Unique Asset",
+      "1 Clue"
+    ],
+    "stats": {
+      "health": 5,
+      "sanity": 7,
+      "lore": 3,
+      "influence": 2,
+      "observation": 4,
+      "strength": 2,
+      "will": 2
+    },
+    "expansion": "td",
+    "role": [
+      "research",
+      "gate-closer"
+    ],
+    "quote": "Professor Young taught me that everything is simpler than it seems. The connection is there if you look for it.",
+    "bio": "Quiet and resourceful, Kate Winthrop has been obsessed with studying dimensional instability ever since her friend and mentor Professor Young was devoured by a beast from another world. Following a peculiar dream and a string of mysterious disappearances, Kate has come to the University of Buenos Aires to continue her research. Now that preliminary testing has been completed on her flux stabilizer, Kate is no longer content to sit idly by. She is determined to seek revenge for the death of her colleague.",
+    "team": "Kate is well suited for research. However, her abilities are oriented around preventing gates from opening and removing Monsters on Gate spaces, making her useful in dealing with gates. "
+  },
+  {
+    "name": "Leo Anderson",
+    "profession": "The Expedition Leader",
+    "abilities": [
+      "Action: Test Influence. If you pass, gain 1 Ally Asset of your choice from the reserve or the discard pile ",
+      "If you are on a Wilderness space, investigators on your space roll 1 additional die when resolving tests. "
+    ],
+    "location": "BA",
+    "equipment": [
+      "1 Hired Muscle Asset"
+    ],
+    "stats": {
+      "health": 6,
+      "sanity": 6,
+      "lore": 2,
+      "influence": 2,
+      "observation": 3,
+      "strength": 3,
+      "will": 3
+    },
+    "expansion": "base",
+    "role": "expedition",
+    "quote": "Keep moving. You can die on your own time.",
+    "bio": "Leo Anderson has spent his whole life getting into the deadliest and most obscure corners of the globe. Along the way, he's lost good people. Fever takes some; others are claimed by wild beasts. After a recent, disastrous venture in the Yucatan, Leo barely made it back to Buenos Aires alive. He's sick of burying the people who trusted him. But the job's not done yet. The world is in danger, and crying in his drink won't fix that. He's picked up a little hired help here, and in the morning, he'll head back out into the wild.",
+    "team": "Leo's well-rounded stats, starting asset and ability to easily gain allies makes him a strong investigator and an excellent choice for first time players"
+  },
+  {
+    "name": "Lily Chen",
+    "profession": "The Martial Artist",
+    "abilities": [
+      "Action: Spend any number of Health or Sanity, then recover an equal number of Health or Sanity. ",
+      "When you improve a skill, you may immediately improve that skill again. "
+    ],
+    "location": "SH",
+    "equipment": [
+      "1 Protective Amulet Asset",
+      "1 Lucky Rabbit's Foot Asset"
+    ],
+    "stats": {
+      "health": 6,
+      "sanity": 6,
+      "lore": 2,
+      "influence": 2,
+      "observation": 2,
+      "strength": 4,
+      "will": 3
+    },
+    "expansion": "base",
+    "role": "combat",
+    "quote": "I have been preparing to confront this evil for my entire life. My focus must be absolute.",
+    "bio": "Lily speaks rarely and when she does, her words are measured and wise. After a lifetime of disciplined training, every gesture is graceful, uncluttered by hesitation. When she was an infant, an obscure sect of monks believed that she was born for a special purpose, to face a great evil. Now, the monks believe that the great evil is at hand, and they have brought Lily to Shanghai to begin fulfilling her destiny.",
+    "team": "",
+    "info": [
+      "If Lily gets to improve a skill before the first round of the game starts, her passive ability does apply.",
+      "Lily Chen’s passive ability does not trigger itself. If she gets to improve a skill that is impaired, she'll still only get one extra improvement."
+    ]
+  },
+  {
+    "name": "Lola Hayes",
+    "profession": "The Actress",
+    "abilities": [
+      "Action: Spend any number of Improvement tokens, then improve 1 skill of your choice for each token spent (a '+2' token counts as 2 tokens).",
+      "Once per round, an investigator on your space may roll 1 additional die when resolving a test."
+    ],
+    "location": "TK",
+    "equipment": [
+      "1 .18 Derringer Asset",
+      "Improve 1 skill of your choice"
+    ],
+    "stats": {
+      "health": 5,
+      "sanity": 7,
+      "lore": 2,
+      "influence": 4,
+      "observation": 2,
+      "strength": 2,
+      "will": 3
+    },
+    "expansion": "base",
+    "role": "all-rounder",
+    "quote": "I've played so many roles. Madness is to be expected.",
+    "bio": "Around the world, Lola has performed dramatic roles for sold-out houses. However, after being cast in the controversial play, The King in Yellow, Lola needed to 'take some time' to recover for her 'exhaustion'. Now that she has checked herself out of the asylum, she's ready for her big comeback. But this time she'll play a different role in the fight against the horrors that threaten this world. She's started by traveling to Tokyo to track down the other surviving cast member of her previous theatrical endeavor. ",
+    "team": "Lola's ability to use an action to change her skills (and improve one right off the bat) enables her to adapt to whatever task the group might be lacking in. With her high Influence, she does well with acquiring assets. Since an investigator can roll an extra die if she is with them, she's a great support-type character. "
+  },
+  {
+    "name": "Luke Robinson",
+    "profession": "The Dreamer",
+    "abilities": [
+      "Action: Move to a space containing a Gate that corresponds to the current Omen. ",
+      "During the Encounter Phase, you may spend 1 Focus or 1 Sanity to encounter a Gate on your space as if there are no Monsters on your space."
+    ],
+    "location": "A space containing a Gate",
+    "equipment": [
+      "1 Dream Box Asset",
+      "1 Clue"
+    ],
+    "stats": {
+      "health": 4,
+      "sanity": 8,
+      "lore": 4,
+      "influence": 2,
+      "observation": 1,
+      "strength": 2,
+      "will": 4
+    },
+    "expansion": "td",
+    "role": "gate-closer",
+    "quote": "The key to the Dreamlands lies within us all.",
+    "bio": "Luke Robinson, through the gift of an unusual puzzle box from his uncle, discovered the entrance to the Dreamlands many years ago, and has since then spent the majority of his days wandering the land of dreams in search of adventure. From the streets of Celephaïs to the endless mysteries of the Enchanted Wood he wanders, unraveling the secrets of both the land and the myriad dreamers who reside there. Now an ancient chaos threatens to annihilate not only the waking world but the world of his dreams as well. ",
+    "team": "Luke Robinson's abilities clearly are suited towards closing gates. His ability to avoid fighting monsters to close gates is especially useful in the late game. ",
+    "info": [
+      "The player controlling Luke chooses to start Luke on any space containing an open Gate. If, for any reason, there are no gates on the board, the player may choose any space to place Luke. "
+    ]
+  },
+  {
+    "name": "Mandy Thompson",
+    "profession": "The Researcher",
+    "abilities": [
+      "Action: Draw 2 Clues from the Clue pool. Spawn 1 of them and discard the other. ",
+      "After resolving a Research Encounter, if you gained exactly 1 Clue from that encounter, gain 1 additional Clue."
+    ],
+    "location": "SH",
+    "equipment": [
+      "1 Magnifying Glass Asset",
+      "1 Know Thy Enemy Unique Asset"
+    ],
+    "stats": {
+      "health": 5,
+      "sanity": 7,
+      "lore": 3,
+      "influence": 3,
+      "observation": 4,
+      "strength": 1,
+      "will": 2
+    },
+    "expansion": "utp",
+    "role": "research",
+    "quote": "I will find a way to end this horror. I will not stop searching.",
+    "bio": "Ever since she was a child, Mandy would read when she could not sleep. Such has been the case on many nights. Her remarkable memory and ability to correlate facts have made her a highly sought-after researcher around the world. Over time, her work has required her to read strange occult texts. These bizarre tomes have slowly caused her to suspect that an ancient being will arise to destroy humanity. Recently, the scrolls she has been reading in Shanghai have made it clear that the world is in immediate danger.",
+    "team": ""
+  },
+  {
+    "name": "Marie Lambeau",
+    "profession": "The Entertainer",
+    "abilities": [
+      "Action: Perform an action you have already performed this round. ",
+      "If you would spend or lose Sanity as part of a Spell effect, you may spend or lose 1 fewer Sanity as part of that effect. "
+    ],
+    "location": "20",
+    "equipment": [
+      "1 Ritual Dagger Asset",
+      "1 Voice of Ra Spell"
+    ],
+    "stats": {
+      "health": 6,
+      "sanity": 6,
+      "lore": 3,
+      "influence": 4,
+      "observation": 2,
+      "strength": 2,
+      "will": 2
+    },
+    "expansion": "sr",
+    "role": "magic",
+    "quote": "I used to sing as grand-mère made potions and charms.",
+    "bio": "Marie has come a long way from the Louisiana marshes of her youth. These days, 'The Smoky Velvet' sings the blues in elegant nightclubs around the world, but it was grand-mère's dying wish that sent Marie to the Kingdom of Sarawak, where an old evil had returned. Marie doesn't believe she can help, but only a fool didn't listen to grand-mère. Now memories of strange nursery rhymes she used to recite have begun flooding back. People called grand-mère a witch. Maybe Marie's got some witchcraft in her blood, too.",
+    "team": "With her high Influence, Marie is good at Acquiring Assets to assist in her endeavors, such as weapons. Her decent Lore also makes her a great person to get spells to destroy monsters or seal Gates.",
+    "info": [
+      "Marie Lambeau's passive ability allow her to pay only 1 health to activate the Voice of Ra."
+    ]
+  },
+  {
+    "name": "Mark Harrigan",
+    "profession": "The Soldier",
+    "abilities": [
+      "Action: You and 1 Monster on your space each lose 1 Health.",
+      "You cannot become Delayed or gain a Detained Condition unless you choose to."
+    ],
+    "location": "14",
+    "equipment": [
+      "1 .38 Revolver Asset",
+      "1 Kerosene Asset"
+    ],
+    "stats": {
+      "health": 8,
+      "sanity": 4,
+      "lore": 1,
+      "influence": 2,
+      "observation": 2,
+      "strength": 4,
+      "will": 4
+    },
+    "expansion": "base",
+    "role": "combat",
+    "quote": "I'm walking out that door, and I'm taking this book. Anyone who wants to stop me is welcome to try.",
+    "bio": "During the war, Mark witnessed horrors he could not explain, and he wrote of what he saw in letters to his beloved wife, Sophie. When Mark returned home, he discovered that Sophie was no longer human. One of the beasts that Mark had seen overseas had taken over her body, killing her in the process. Afterward, Mark's thirst for vengeance lead him to Helsinki, where some of these creatures had posed as German soldiers during the Great War.",
+    "team": "Mark Harrigan is very good at fighting monsters, but not much else. Perfect for the distracted or disinterested player who just wants the basics, as long as the rest of the team can pick up the slack. "
+  },
+  {
+    "name": "Michael McGlen",
+    "profession": "The Gangster",
+    "abilities": [
+      "Action: If you are on a City space, you may gain 1 Item or Service Asset of your choice from the reserve. If you do, gain a Wanted Condition. ",
+      "Once per round, you may reroll 1 die when resolving a Deal or Pursuit Condition. "
+    ],
+    "location": "LN",
+    "equipment": [
+      "1 Tommy Gun Asset"
+    ],
+    "stats": {
+      "health": 8,
+      "sanity": 4,
+      "lore": 2,
+      "influence": 3,
+      "observation": 1,
+      "strength": 4,
+      "will": 3
+    },
+    "expansion": "soc",
+    "role": "combat",
+    "quote": "Don't care if it's a god. If it crosses me, it's gonna regret it.",
+    "bio": "When the O'Bannion gang needs to send a message, they send the big man, Michael McGlen. Not long ago, his friend Fast Louie Farrell was attacked by a bunch of inhuman things with ugly, fish-like faces. They sliced him up and dragged him under the water. McGlen took it personally. The word has spread: McGlen has loaded up his Thompson and everyone else had best get out of the way. His first stop is London where he intends to find out what those creatures are called and where he has to go to kill every last one of them.",
+    "team": "With his high starting Strength, decent Will, and starting Weapon, Michael is excellent for taking out Monsters, making him a good fit for Ancient Ones like Shub-Niggurath. The ability to gain items or services from the reserve in exchange for a Wanted Condition can be useful in a pinch. Because his effect works for any deal, Dark Pacts may be less of a hindrance for him, because it is unlikely he will roll two 1's in a row. "
+  },
+  {
+    "name": "Minh Thi Phan",
+    "profession": "The Secretary",
+    "abilities": [
+      "Action: You and another investigator on your space each gain 1 travel ticket of your choice. ",
+      "You and other investigators on your space each gain +1 to all skills if there is another investigator on your space or you have one or more Ally assets. "
+    ],
+    "location": "TK",
+    "equipment": [
+      "1 Cryptic Text Unique Asset",
+      "1 Clue"
+    ],
+    "stats": {
+      "health": 6,
+      "sanity": 6,
+      "lore": 3,
+      "influence": 3,
+      "observation": 3,
+      "strength": 2,
+      "will": 2
+    },
+    "expansion": "utp",
+    "role": "support",
+    "quote": "You can depend on me to guide you through the unknown.",
+    "bio": "Phan Thi Minh's father came to Seoul from Cochinchina to use his diplomatic savvy in dealing with foreign business interests. Once grown, Minh proved to be just as adept in business. She reordered her name in the style of Westerners and took a job in Tokyo as a secretary to an importer of strange antiquities. More than just an employer, Mr.Thomas was Minh's friend, but now he has been murdered. Armed with only the strange text Mr. Thomas left for her and her own keen mind, Minh has vowed to find out why.",
+    "team": "Minh is very useful as an 'escort', providing free tickets to an ally and boosting the skills of all Investigators at her location. Her skill bonuses as well as well rounded stats makes her fairly capable herself as well. "
+  },
+  {
+    "name": "Monterey Jack",
+    "profession": "The Archaeologist",
+    "abilities": [
+      "Action: You may discard 1 Artifact to retreat Doom by 1; or discard the top card of the Expedition Encounter deck and perform 1 additional action. ",
+      "After resolving an Expedition Encounter, gain 1 Relic Unique Asset. "
+    ],
+    "location": "PY",
+    "equipment": [
+      "1 Bull Whip Asset",
+      "1 Treasure Map Unique Asset"
+    ],
+    "stats": {
+      "health": 7,
+      "sanity": 5,
+      "lore": 2,
+      "influence": 2,
+      "observation": 3,
+      "strength": 4,
+      "will": 2
+    },
+    "expansion": "utp",
+    "role": "expedition",
+    "quote": "To find a treasure like that, I'll risk a few poison darts.",
+    "bio": "Young Jack traveled the world with his father's archaeological expeditions. He acquired the nickname 'Monterey' after a bout of quinine-induced jaundice turned his skin yellow. Once grown, Jack became an accomplished archaeologist in his own right. Now he must explore his own past. His father was found murdered with an arcane sigil carved into the old man's forehead. Here in Cairo, he has seen men wearing this sigil on pendants around their neck. It is time for Jack to start digging.",
+    "team": ""
+  },
+  {
+    "name": "Norman Withers",
+    "profession": "The Astronomer",
+    "abilities": [
+      "Action: Spend 2 Clues to discard 1 Monster on a space containing a Gate. ",
+      "Once per round, you may spend 1 Sanity in place of spending 1 Clue. "
+    ],
+    "location": "AR",
+    "equipment": [
+      "1 Feed the Mind Spell"
+    ],
+    "stats": {
+      "health": 5,
+      "sanity": 7,
+      "lore": 3,
+      "influence": 1,
+      "observation": 3,
+      "strength": 2,
+      "will": 4
+    },
+    "expansion": "base",
+    "role": "magic",
+    "quote": "Let them call me a crackpot! Something is happening to the stars, and I am not imagining it.",
+    "bio": "The scientific community ridiculed Norman for his claim that six stars disappeared from the sky. After exhausting every plausible astronomical explanation for answers, he took a position at Miskatonic University and began exploring more improbable possibilities in the restricted section of their library. While reading an ancient text of dark prophecies, Norman found an exact description of the phenomenon he'd observed. If the tome is to be believed, a terrible incursion into our world is imminent.",
+    "team": ""
+  },
+  {
+    "name": "Patrice Hathaway",
+    "profession": "The Violinist",
+    "abilities": [
+      "Action: You may spend 1 Clue and 1 Focus to improve 1 skill of your choice. ",
+      "When you close a Gate during an Other World Encounter, gain 1 Clue and 1 Focus. "
+    ],
+    "location": "SY",
+    "equipment": [
+      "1 Banishment Spell",
+      "1 Clue"
+    ],
+    "stats": {
+      "health": 5,
+      "sanity": 7,
+      "lore": 3,
+      "influence": 2,
+      "observation": 3,
+      "strength": 1,
+      "will": 4
+    },
+    "expansion": "mom",
+    "role": "gate-closer",
+    "quote": "When I play the violin, the music echoes in other worlds.",
+    "bio": "Hailed as a musical prodigy from her youth, Patrice has performed for royalty and society's brightest minds all around the world. For years she thought that her consciousness simply drifted as she played, but she's come to believe that an intelligence exists behind her visions. Somehow the notes form a bridge between her own mind and another. The more she grasps what her music exposes her to, the more afraid she becomes. After last night's concert in Sydney, she's finally decided to take action.",
+    "team": ""
+  },
+  {
+    "name": "Rex Murphy",
+    "profession": "The Reporter",
+    "abilities": [
+      "Action: Gain any number of Assets of your choice from the reserve with total value less than your <influence>. ",
+      "If you do not have a Cursed Condition, gain 1 Clue, improve 1 skill of your choice, and gain a Cursed Condition. "
+    ],
+    "location": "1",
+    "equipment": [
+      "1 Lucky Talisman Asset",
+      "1 Cursed Condition",
+      "Improve 1 Skill of your choice"
+    ],
+    "stats": {
+      "health": 7,
+      "sanity": 7,
+      "lore": 2,
+      "influence": 3,
+      "observation": 2,
+      "strength": 3,
+      "will": 3
+    },
+    "expansion": "utp",
+    "role": "all-rounder",
+    "quote": "My sources tell me that the world is ending. Just my luck.",
+    "bio": "When disaster strikes, Rex Murphy is usually on hand, suffering the consequences. After spending a day with Rex, even the most hardened skeptic will concede that the man is cursed. To survive, Rex has developed an inquisitive mind, trying to keep one step ahead of the next disaster. His terrible fortune has more than once exposed him to the monstrous forces that threaten this world. He hopes he can get some writing done in Alaska, far away from anything that might go too wrong.",
+    "team": ""
+  },
+  {
+    "name": "Silas Marsh",
+    "profession": "The Sailor",
+    "abilities": [
+      "Action: Move 1 space along a Ship path, then perform 1 additional action. ",
+      "If you are on a Sea space, investigators on your space roll 1 additional die when resolving tests. "
+    ],
+    "location": "SY",
+    "equipment": [
+      "1 Fishing Net Asset"
+    ],
+    "stats": {
+      "health": 8,
+      "sanity": 4,
+      "lore": 1,
+      "influence": 3,
+      "observation": 3,
+      "strength": 3,
+      "will": 3
+    },
+    "expansion": "base",
+    "role": "all-rounder",
+    "quote": "Leave your fears on the docks, lads. I'll not carry that cargo. The wind is up! Full sail!",
+    "bio": "Even as a child in Innsmouth, Silas had a special connection to the sea. He's an able and well-reasoned man on land, but on the ocean he possesses a singular strengthand wit. It's earned him a sterling reputation in every port across the globe, particularly in Sydney, where Silas set ashore last night. But this morning, the smell of the briny air carries dread as well as joy. There is something in his past, something in Innsmouth, that he knows will some day catch up to him.",
+    "team": ""
+  },
+  {
+    "name": "Sister Mary",
+    "profession": "The Nun",
+    "abilities": [
+      "Action: Test <will>. For each success, you or another investigator on any space may discard 1 Madness Condition. ",
+      "You and other investigators on your space add 1 to the result of each die rolled as part of a Bane or Boon Condition effect."
+    ],
+    "location": "15",
+    "equipment": [
+      "1 Holy Water Asset",
+      "1 Ship Ticket",
+      "1 Clue"
+    ],
+    "stats": {
+      "health":5,
+      "sanity":7,
+      "lore":2,
+      "influence":2,
+      "observation":3,
+      "strength":2,
+      "will":4
+    },
+    "expansion": "utp",
+    "role": "support",
+    "quote": "The Lord watches over my path. I am armored in faith.",
+    "bio": "Sister Mary speaks very little of her life before taking her vows. Like so many other young girls, she came from a small town and dreamed of something greater than a small life. The Lord provided. Through His path, she has become a lion of compassion and virtue. She has a natural ability and people are often surprised how driven she is to serve God’s will. The church has sent her to South Africa to investigate a possibly demonic presence. Mary plans to approach the question as she always does, with a clear mind and an unshakable faith.",
+    "team": ""
+  },
+  {
+    "name": "'Skids' O'Toole",
+    "profession": "The Ex-Convict",
+    "abilities": [
+      "Action: You may discard 1 Item or Trinket Asset to gain 1 Item or Trinket Asset of your choice from the reserve with value equal to or less than 1 + the value of the discarded Asset. ",
+      "Whenever you roll a 1 during a test, you may reroll that die. "
+    ],
+    "location": "BA",
+    "equipment": ["1 Axe Asset"],
+    "stats": {
+      "health":6,
+      "sanity":6,
+      "lore":2,
+      "influence":1,
+      "observation":3,
+      "strength":4,
+      "will":3
+    },
+    "expansion": "sr",
+    "role": "combat",
+    "quote": "I didn't get out of the joint just to watch the world end.",
+    "bio": "Skids got put away on two counts of bank robbery, but he never hurt anybody. His cellmate, Brad Hollins, killed nine people. Hollins said that an alien creature made him do it. Over the years, Hollins said a lot of strange things about the 'Ancient Ones'. He said that he needed to get to Argentina to stop them. Skids didn't give it much thought until the night Hollins burst into flames. When Skids got paroled, he couldn't shake the thought of these 'Ancient Ones'.",
+    "team": "",
+    "info": ["If Skids wants to trade a Unique Asset using his active ability, he will be able to gain an Item or Trinket Asset from the reserve with value equal to one plus no value (effectively value zero), a total of value one. ",
+    "Effects that require Skids to roll a die not as part of a test are not affected by his passive ability. Example: The roll on a Dark Pact Condition. ",
+    "Skids may reroll each 1 he rolls during a test, even if it was the result of a reroll. The result of a reroll is treated as if that is what that die had originally rolled. In effect, Skids will almost never roll a 1 during a test"]
+  },
+  {
+    "name": "Tommy Muldoon",
+    "profession": "The Rookie Cop",
+    "abilities": [
+      "Action: Move 1 Monster of your choice with toughness 3 or less from an adjacent space to your space. ",
+      "During the Encounter Phase, other investigators on your space may choose an encounter as if there are no Monsters on your space. "
+    ],
+    "location": "1",
+    "equipment": ["1 Carbine Rifle Asset", "Improve Will"],
+    "stats": {
+      "health":7,
+      "sanity":5,
+      "lore":2,
+      "influence":3,
+      "observation":3,
+      "strength":3,
+      "will":2
+    },
+    "expansion": "mom",
+    "role": "combat",
+    "quote": "I took an oath to enforce the law. That's what I'm doing.",
+    "bio": "Most members of the Muldoon family are part of the Boston police force in some way or another. Not long ago, the youngest brother Tommy got his badge. Armed with an eye for detail, fierce courage, and his trusty rifle Becky, young Muldoon is dedicated to law enforcement. Now he finds himself in Anchorage at the request of his cousin, the local sheriff. Something has been killing people, and off the record, his cousin says it's a wendigo. Tommy's not sure he believes any of that, but catching klillers is in his blood.",
+    "team": "Tommy's extra stat point makes gives him one more than almost all other characters at the start, and his ability to draw monsters away from gates or let other investigators ignore them can come in extremely handy. "
+  },
+  {
+    "name": "Tony Morgan",
+    "profession": "The Bounty Hunter",
+    "abilities": [
+      "Action: Test <influence>. If you pass, you may spend up to 2 Focus to gain 1 Clue for each Focus spent. ",
+      "When you defeat a Monster during a Combat Encounter, gain 1 Focus. "
+    ],
+    "location": "7",
+    "equipment": ["1 Handcuffs Asset"],
+    "stats": {
+      "health":7,
+      "sanity":5,
+      "lore":2,
+      "influence":2,
+      "observation":4,
+      "strength":3,
+      "will":2
+    },
+    "expansion": "sr",
+    "role": "research",
+    "quote": "When I find the beast, I'll trap it or put it down for good.",
+    "bio": "Tony's tracked down low-life scum in every lousy corner of the world, but nothing was quite as bad as Innsmouth. Some creep in Boston skipped bail and tried to hide with family in the small fishing village. It turned out 'family' meant vicious fish-like monstrosities that left Tony bloody and half-drowned. Ever since, he's found a new kind of dirtbag to hunt. Ordinary mobster or otherworldly monster, Tony will take it down and find someone willing to pay him for it. Now he's got a lead in Bogotá. Easy money.",
+    "team": "Between his Handcuffs and his special ability, it is very easy for Tony to gain clues. Coupled with his high Observation, he is very good at dispelling nasty Rumor Mythos cards. Bulking up his Influence, however, would also be a smart investment.\nWith his high Strength, he also does a good job at fighting monsters, although a player may wish to invest in some time bulking up his Influence and Will.\nA few items and skills, like the Old Journal or Skulduggery, are useful to Tony. "
+  },
+  {
+    "name": "Trish Scarborough",
+    "profession": "The Spy",
+    "abilities": [
+      "Action: If you do not have any Clues, gain 1 Clue. ",
+      "If an investigator on your space spends a Clue to reroll a die, he may reroll up to 2 dice instead. "
+    ],
+    "location": "16",
+    "equipment": [" 1 .45 Automatic Asset"],
+    "stats": {
+      "health":7,
+      "sanity":5,
+      "lore":1,
+      "influence":3,
+      "observation":4,
+      "strength":3,
+      "will":2
+    },
+    "expansion": "base",
+    "role": "research",
+    "quote": "We lie all the time. But the truth is in there. You just have to know how to decode people.",
+    "bio": "Everyone expected great things from Trish when she was young. In school, she excelled in athletics and the sciences, but she surprised everyone after graduation by settling into a humble position at a commercial code company. What almost no one knows is that this particular company is a front for the Bureau's code-breaking agency, the Black Chamber. Now she finds herself in the city of Krasnoyarsk meeting another agent who has important information about an impending threat from a world beyond our own.",
+    "team": ""
+  },
+  {
+    "name": "Ursula Downs",
+    "profession": "The Explorer",
+    "abilities": [
+      "Action: Move 1 space along an Uncharted path, then perform 1 additional action. ",
+      "Once per round, you or another investigator on your space may spend 1 less Focus to pay for an effect. "
+    ],
+    "location": "HA",
+    "equipment": ["1 Mineralogy Research Asset", "Improve 1 skill of your choice"],
+    "stats": {
+      "health":6,
+      "sanity":6,
+      "lore":3,
+      "influence":2,
+      "observation":3,
+      "strength":3,
+      "will":2
+    },
+    "expansion": "mom",
+    "role": "expedition",
+    "quote": "Discovery isn't easy, but it's the only worthwhile path.",
+    "bio": "As a young girl, Ursula constantly climbed trees, scaled rock walls, and explored caves. When it came to her studies, she excelled in history and the sciences. After getting a degree in Archaeology in Boston, she began traveling the world searching for forgotten civilizations. She's an expert in both ancient and contemporary languages, and is capable of enduring the harsh environments she encounters during her expeditions. Recently, Ursula has traveled to Africa to oversee the excavation of a lost city's ruins.",
+    "team": ""
+  },
+  {
+    "name": "Vincent Lee",
+    "profession": "The Doctor",
+    "abilities": [
+      "Action: You or another investigator on you space may discard 1 Injury or Illness Condition and/or perform a Rest action. ",
+      "When you or another investigator on your space performs a Rest action, that investigator may recover 1 additional Health. "
+    ],
+    "location": "17",
+    "equipment": ["1 Bandages Asset", "1 Composed Condition"],
+    "stats": {
+      "health":6,
+      "sanity":6,
+      "lore":1,
+      "influence":3,
+      "observation":3,
+      "strength":2,
+      "will":4
+    },
+    "expansion": "td",
+    "role": "support",
+    "quote": "I will find the answers, even if it kills me.",
+    "bio": "After the third or fourth mutilated body showed up during his time at St. Mary's Hospital in Arkham, Vincent Lee began to suspect that this was no simple case of wild animal attacks. When a young man died screaming in his sleep from a burst heart, Vincent knew for a fact that dark times were ahead. Taking a leave of absence from his position at the hospital, he has set out to ease the suffering of those afflicted by the spreading chaos, hoping that the trail of bodies will lead him to the answers he craves. ",
+    "team": ""
+  },
+  {
+    "name": "Wendy Adams",
+    "profession": "The Urchin",
+    "abilities": [
+      "Action: Gain 1 Trinket Asset of your choice from the reserve or discard pile. ",
+      "Once per round, if you would gain a non-Deal condition or an Impairment token, you may choose to not gain that Condition or Impairment token instead. "
+    ],
+    "location": "16",
+    "equipment": ["1 Elusive Condition", "1 Clue"],
+    "stats": {
+      "health":5,
+      "sanity":7,
+      "lore":3,
+      "influence":1,
+      "observation":4,
+      "strength":2,
+      "will":3
+    },
+    "expansion": "soc",
+    "role": "research",
+    "quote": "The little things are important. Grown-ups don't see that.",
+    "bio": "As far as the state was concerned, Wendy had to be placed in an orphanage. Her father was gone and her mother was insane. But Wendy knew that her mother drew sigils and chanted to hide from the nightmares that took Wendy's father. So long as she was in an orphanage, Wendy knew she was vulnerable. The only way to find her father and keep herself safe was to escape. She has one photo of her father, taken in a factory where the signs are in Russian. On the back is the message, 'Soon the Red Tide rises. Stay safe, my little girl.'",
+    "team": ""
+  },
+  {
+    "name": "William Yorick",
+    "profession": "Gravedigger",
+    "abilities": [
+      "Action: Discard up to two cards from the reserve. Then perform 1 additional action. ",
+      "When you defeat a Monster with toughness 2 or greater during a Combat Encounter, you may gain 1 non-Service Asset of your choice from the reserve. "
+    ],
+    "location": "SY",
+    "equipment": [],
+    "stats": {
+      "health":7,
+      "sanity":5,
+      "lore":3,
+      "influence":2,
+      "observation":2,
+      "strength":3,
+      "will":3
+    },
+    "expansion": "td",
+    "role": "combat",
+    "quote": "Though this be madness, yet there is method in't",
+    "bio": "William Yorick always dreamed of becoming an actor. But alas, poor Yorick, it was not meant to be. As a gravedigger, Yorick saw corpses every day, so when inhuman, monstrous corpses started turning up in Arkham, he took the bodies to Miskatonic University for study. Unfortunately for Yorick, this drew some unwanted attention, and fearing for his life, he took a grave-digging job in Sydney, far from Arkham and far from trouble—at least until the corpses started clawing their way from the ground.",
+    "team": ""
+  },
+  {
+    "name": "Wilson Richards",
+    "profession": "The Handyman",
+    "abilities": [
+      "Action: Gain 1 Asset of your choice with value 1 from the reserve; or discard 1 card from the reserve and perform 1 additional action. ",
+      "When you or another investigator on your space spend a Focus to reroll a die, that investigator may reroll up to 2 dice instead. "
+    ],
+    "location": "AR",
+    "equipment": ["1 Blunderbuss Asset"],
+    "stats": {
+      "health":8,
+      "sanity":4,
+      "lore":1,
+      "influence":3,
+      "observation":2,
+      "strength":4,
+      "will":3
+    },
+    "expansion": "mom",
+    "role": "combat",
+    "quote": "It's nothing a good plan and some hard work can't fix.",
+    "bio": "Wilson's a practical man. He goes where there's work. When it's gone, he moves on. Wilson finds that offering an honest deal gets him treated honestly, but since he took a job rebuilding a church in Arkham, he's had a hard time being honest with himself. Things that used to hide in the deepest pits of the earth have crawled to the surface. He cannot unsee all the things he's seen, but he can get to work on fixing the problem.",
+    "team": ""
+  },
+  {
+    "name": "Zoey Samaras",
+    "profession": "The Chef",
+    "abilities": [
+      "Action: If you have fewer than 2 Task Assets, gain 1 Task Unique Asset ",
+      "If you have not lost Sanity during a Combat Encounter, roll 2 additional dice when resolving the Strength test during that encounter. "
+    ],
+    "location": "RM",
+    "equipment": ["1 Holy Cross Asset"],
+    "stats": {
+      "health":5,
+      "sanity":7,
+      "lore":3,
+      "influence":2,
+      "observation":1,
+      "strength":3,
+      "will":5
+    },
+    "expansion": "sr",
+    "role": "combat",
+    "quote": "God has spoken. I will do His work without hesitation.",
+    "bio": "When Zoey was six years old, her parents were killed in a fire. As the flames consumed her home, God spoke to her. He told Zoey that she was special and that He was giving her a special task. As an adult, she now travels from city to city, taking work as a chef to support herself. When she isn't working, she stalks the night, guided by the Lord's voice. Wherever she finds wickedness, she strikes it down without remorse or hesitation. Most recently, God has called her to Rome, to dispense His righteous fury. ",
+    "team": ""
+  }
+]
