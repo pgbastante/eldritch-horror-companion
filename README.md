@@ -18,6 +18,7 @@ Hope this helps, any ideas and help are welcome.
 
 * Change RandomItemGeneratorProvider to a Factory provider
 * Add all items to the database (english)
+* Add investigators and ancient-ones to the database (spanish)
 * Main menu smooth transitions
 * General styling
 * Refactor gulpfile to ecmascript 6
@@ -32,4 +33,5 @@ game board depending on the result
 * Create a list of items
 * Create a discard pile function. When a card is randomly generated you can choose to take it to the discard pile. In that case, that card would not be drawn again by the generator.
 * Create specific views for each of the items (cards, investigators and ancient-ones)
+* Change the initial items 
 * MAKE TEST!!!

@@ -1,5 +1,6 @@
 [
   {
+    "id": 1,
     "name": "Agnes Baker",
     "profession": "The Waitress",
     "abilities": [
@@ -27,6 +28,7 @@
     "team": "Agnes's role centers around casting Spells of all kinds. It is very easy for her to gain spells, so, depending upon the luck of the draw, she can easily turn into a combat-heavy character, or a more supporting type with spells like Flesh Ward or Instill Bravery. If she gains combat spells, bulk up her Will and Strength.\nAgnes has a decent influence, so she can try to gain extra assets to help her needs.\nBecause it is very easy for Agnes to gain spells, she partners well for Ancient Ones or a Mystery that requires the discarding of spells, such as Syzygy."
   },
   {
+    "id": 2,
     "name": "Akachi Onyele",
     "profession": "The Shaman",
     "abilities": [
@@ -54,6 +56,7 @@
     "team": "Akachi centers around the closing of gates. Her special power allows her to know which Gates could be opening, and denying the opening of problematic Gates. She partners well with Kate as a result.\nAkachi has a decent Lore, so she may wish to gain Spells as well. Her high Will can help her against Monsters with high horror checks, so she can very easily be built for combat encounters."
   },
   {
+    "id": 3,
     "name": "Amanda Sharpe",
     "profession": "The Student",
     "abilities": [
@@ -81,6 +84,7 @@
     "team": "Amanda has a high Observation, and her starting Task allows her to gain Clues very quickly. As such, she's useful for dealing with powerful Rumors, or Mysteries that require the spending of Clues.\nIt is very easy for Amanda to gain Talents. She may, if she chooses, discard these Talents for straight improvements to skills, which can help her fill any gaps the rest of the team may be missing."
   },
   {
+    "id": 4,
     "name": "Carolyn Fern",
     "profession": "The Psychologist",
     "abilities": [
@@ -108,6 +112,7 @@
     "team": "Carolyn has a great Will and a decent Observation and Influence, making her well suited for most encounters she'll undertake. Her Dream Diary allows her to spawn Clues whenever she rests, so she can populate the board with Clues.\nHer other starting asset allows her to retreat Doom when a Mystery is solved, making her helpful when dealing with an Ancient One that has a low Doom, like Atlach-Nacha or Yig.\nCarolyn can help recover additional Sanity to investigators on her space, so Ancient Ones who deal Sanity damage, like Hastur, Hypnos, or Nephren-Ka are much easier with her in play."
   },
   {
+    "id": 5,
     "name": "Charlie Kane",
     "profession": "The Politician",
     "abilities": [
@@ -139,6 +144,7 @@
     ]
   },
   {
+    "id": 6,
     "name": "Daisy Walker",
     "profession": "The Librarian",
     "abilities": [
@@ -166,6 +172,7 @@
     "team": "With her starting spells and high Lore skill, Daisy is a great character to gain Clues, which can make her useful in dealing with Rumors. Because her Observation is low, it is wise to train that up if you plan on using her skill to gain unique Tomes.\nNaturally, Daisy is a great character to use Tomes with, as she gets a third action every round, provided she is using a Ritual or Tome.\nDaisy can also use spells to great effect once she gets some."
   },
   {
+    "id": 7,
     "name": "Darrell Simmons",
     "profession": "The Photographer",
     "abilities": [
@@ -193,6 +200,7 @@
     "team": "With his starting assets and high Observation, Darrell is a great character for Research Encounters and gaining Clues, making him invaluable for Mysteries or Rumors that require them.\nDarrell is good at recycling the assets deck for more useful items, so he'll partner well on a team with Charlie or Jenny.\nBecause he rolls an extra die in a City space, he can do very well if the Ancient One is Hastur, as many of his spaces involve cities."
   },
   {
+    "id": 8,
     "name": "Dexter Drake",
     "profession": "The Magician",
     "abilities": [
@@ -220,6 +228,7 @@
     "team": "Dexter is all about magic. He gains spells very quickly, and his starting assets make him even more powerful than most.\nWith his higher Will, he does well with Combat oriented magic and can slay monsters."
   },
   {
+    "id": 9,
     "name": "Diana Stanley",
     "profession": "The Redeemed Cultist",
     "abilities": [
@@ -247,6 +256,7 @@
     "team": "The high lore and observation ratings are useful. Diana's will rating of 1 is somewhat offset by the passive ability to reduce the horror of monsters to 1. "
   },
   {
+    "id": 10,
     "name": "Finn Edwards",
     "profession": "The Bootlegger",
     "abilities": [
@@ -279,6 +289,7 @@
     ]
   },
   {
+    "id": 11,
     "name": "George Barnaby",
     "profession": "The Lawyer",
     "abilities": [
@@ -306,6 +317,7 @@
     "team": ""
   },
   {
+    "id": 12,
     "name": "Gloria Goldberg",
     "profession": "The Author",
     "abilities": [
@@ -336,6 +348,7 @@
     "team": ""
   },
   {
+    "id": 13,
     "name": "Hank Samson",
     "profession": "The Farmhand",
     "abilities": [
@@ -362,6 +375,7 @@
     "team": "Hank Samson is best used for physical combat. "
   },
   {
+    "id": 14,
     "name": "Harvey Walters",
     "profession": "The Professor",
     "abilities": [
@@ -388,6 +402,7 @@
     "team": ""
   },
   {
+    "id": 15,
     "name": "Jacqueline Fine",
     "profession": "The Psychic",
     "abilities": [
@@ -415,6 +430,7 @@
     "team": "With her high starting Lore and decent Will, Jacqueline is great for casting spells of all kinds. She has a lower strength, so a lesser base for Strength to be boosted for Combat Encounters, so a player who wants to use her to fight might want to increase that first.\nHer high observation and special ability allow her to funnel clues to investigators, or to retrieve them from an investigator if she's better suited for the Mystery, so an investigator like Darrell or Daisy might make a good partner for her.\nSince Jacqueline may look at the back of Condition cards that are not deals, the players can work around what might be some debilitating or deadly conditions."
   },
   {
+    "id": 16,
     "name": "Jenny Barnes",
     "profession": "The Dilettante",
     "abilities": [
@@ -443,6 +459,7 @@
     "team": ""
   },
   {
+    "id": 17,
     "name": "Jim Culver",
     "profession": "The Musician",
     "abilities": [
@@ -470,6 +487,7 @@
     "team": ""
   },
   {
+    "id": 18,
     "name": "Joe Diamond",
     "profession": "The Private Eye",
     "abilities": [
@@ -496,6 +514,7 @@
     "team": "With his high Observation, Joe is quite good at getting Clues, as well as using Talents like Skulduggery in order to gain more powerful items. Research encounters are something Joe does well, so he can solve many mysteries that require the spending of Clues.\nSince he starts with a gun, he is decent with fighting, although a player who plans on using him to close gates might want to improve his Will, to deal with the monsters spawned from them. "
   },
   {
+    "id": 19,
     "name": "Kate Winthrop",
     "profession": "The Scientist",
     "abilities": [
@@ -526,6 +545,7 @@
     "team": "Kate is well suited for research. However, her abilities are oriented around preventing gates from opening and removing Monsters on Gate spaces, making her useful in dealing with gates. "
   },
   {
+    "id": 20,
     "name": "Leo Anderson",
     "profession": "The Expedition Leader",
     "abilities": [
@@ -552,6 +572,7 @@
     "team": "Leo's well-rounded stats, starting asset and ability to easily gain allies makes him a strong investigator and an excellent choice for first time players"
   },
   {
+    "id": 21,
     "name": "Lily Chen",
     "profession": "The Martial Artist",
     "abilities": [
@@ -583,6 +604,7 @@
     ]
   },
   {
+    "id": 22,
     "name": "Lola Hayes",
     "profession": "The Actress",
     "abilities": [
@@ -610,6 +632,7 @@
     "team": "Lola's ability to use an action to change her skills (and improve one right off the bat) enables her to adapt to whatever task the group might be lacking in. With her high Influence, she does well with acquiring assets. Since an investigator can roll an extra die if she is with them, she's a great support-type character. "
   },
   {
+    "id": 23,
     "name": "Luke Robinson",
     "profession": "The Dreamer",
     "abilities": [
@@ -640,6 +663,7 @@
     ]
   },
   {
+    "id": 24,
     "name": "Mandy Thompson",
     "profession": "The Researcher",
     "abilities": [
@@ -667,6 +691,7 @@
     "team": ""
   },
   {
+    "id": 25,
     "name": "Marie Lambeau",
     "profession": "The Entertainer",
     "abilities": [
@@ -697,6 +722,7 @@
     ]
   },
   {
+    "id": 26,
     "name": "Mark Harrigan",
     "profession": "The Soldier",
     "abilities": [
@@ -724,6 +750,7 @@
     "team": "Mark Harrigan is very good at fighting monsters, but not much else. Perfect for the distracted or disinterested player who just wants the basics, as long as the rest of the team can pick up the slack. "
   },
   {
+    "id": 27,
     "name": "Michael McGlen",
     "profession": "The Gangster",
     "abilities": [
@@ -750,6 +777,7 @@
     "team": "With his high starting Strength, decent Will, and starting Weapon, Michael is excellent for taking out Monsters, making him a good fit for Ancient Ones like Shub-Niggurath. The ability to gain items or services from the reserve in exchange for a Wanted Condition can be useful in a pinch. Because his effect works for any deal, Dark Pacts may be less of a hindrance for him, because it is unlikely he will roll two 1's in a row. "
   },
   {
+    "id": 28,
     "name": "Minh Thi Phan",
     "profession": "The Secretary",
     "abilities": [
@@ -777,6 +805,7 @@
     "team": "Minh is very useful as an 'escort', providing free tickets to an ally and boosting the skills of all Investigators at her location. Her skill bonuses as well as well rounded stats makes her fairly capable herself as well. "
   },
   {
+    "id": 29,
     "name": "Monterey Jack",
     "profession": "The Archaeologist",
     "abilities": [
@@ -804,6 +833,7 @@
     "team": ""
   },
   {
+    "id": 30,
     "name": "Norman Withers",
     "profession": "The Astronomer",
     "abilities": [
@@ -830,6 +860,7 @@
     "team": ""
   },
   {
+    "id": 31,
     "name": "Patrice Hathaway",
     "profession": "The Violinist",
     "abilities": [
@@ -857,6 +888,7 @@
     "team": ""
   },
   {
+    "id": 32,
     "name": "Rex Murphy",
     "profession": "The Reporter",
     "abilities": [
@@ -885,6 +917,7 @@
     "team": ""
   },
   {
+    "id": 33,
     "name": "Silas Marsh",
     "profession": "The Sailor",
     "abilities": [
@@ -911,6 +944,7 @@
     "team": ""
   },
   {
+    "id": 34,
     "name": "Sister Mary",
     "profession": "The Nun",
     "abilities": [
@@ -924,13 +958,13 @@
       "1 Clue"
     ],
     "stats": {
-      "health":5,
-      "sanity":7,
-      "lore":2,
-      "influence":2,
-      "observation":3,
-      "strength":2,
-      "will":4
+      "health": 5,
+      "sanity": 7,
+      "lore": 2,
+      "influence": 2,
+      "observation": 3,
+      "strength": 2,
+      "will": 4
     },
     "expansion": "utp",
     "role": "support",
@@ -939,6 +973,7 @@
     "team": ""
   },
   {
+    "id": 35,
     "name": "'Skids' O'Toole",
     "profession": "The Ex-Convict",
     "abilities": [
@@ -946,26 +981,31 @@
       "Whenever you roll a 1 during a test, you may reroll that die. "
     ],
     "location": "BA",
-    "equipment": ["1 Axe Asset"],
+    "equipment": [
+      "1 Axe Asset"
+    ],
     "stats": {
-      "health":6,
-      "sanity":6,
-      "lore":2,
-      "influence":1,
-      "observation":3,
-      "strength":4,
-      "will":3
+      "health": 6,
+      "sanity": 6,
+      "lore": 2,
+      "influence": 1,
+      "observation": 3,
+      "strength": 4,
+      "will": 3
     },
     "expansion": "sr",
     "role": "combat",
     "quote": "I didn't get out of the joint just to watch the world end.",
     "bio": "Skids got put away on two counts of bank robbery, but he never hurt anybody. His cellmate, Brad Hollins, killed nine people. Hollins said that an alien creature made him do it. Over the years, Hollins said a lot of strange things about the 'Ancient Ones'. He said that he needed to get to Argentina to stop them. Skids didn't give it much thought until the night Hollins burst into flames. When Skids got paroled, he couldn't shake the thought of these 'Ancient Ones'.",
     "team": "",
-    "info": ["If Skids wants to trade a Unique Asset using his active ability, he will be able to gain an Item or Trinket Asset from the reserve with value equal to one plus no value (effectively value zero), a total of value one. ",
-    "Effects that require Skids to roll a die not as part of a test are not affected by his passive ability. Example: The roll on a Dark Pact Condition. ",
-    "Skids may reroll each 1 he rolls during a test, even if it was the result of a reroll. The result of a reroll is treated as if that is what that die had originally rolled. In effect, Skids will almost never roll a 1 during a test"]
+    "info": [
+      "If Skids wants to trade a Unique Asset using his active ability, he will be able to gain an Item or Trinket Asset from the reserve with value equal to one plus no value (effectively value zero), a total of value one. ",
+      "Effects that require Skids to roll a die not as part of a test are not affected by his passive ability. Example: The roll on a Dark Pact Condition. ",
+      "Skids may reroll each 1 he rolls during a test, even if it was the result of a reroll. The result of a reroll is treated as if that is what that die had originally rolled. In effect, Skids will almost never roll a 1 during a test"
+    ]
   },
   {
+    "id": 36,
     "name": "Tommy Muldoon",
     "profession": "The Rookie Cop",
     "abilities": [
@@ -973,15 +1013,18 @@
       "During the Encounter Phase, other investigators on your space may choose an encounter as if there are no Monsters on your space. "
     ],
     "location": "1",
-    "equipment": ["1 Carbine Rifle Asset", "Improve Will"],
+    "equipment": [
+      "1 Carbine Rifle Asset",
+      "Improve Will"
+    ],
     "stats": {
-      "health":7,
-      "sanity":5,
-      "lore":2,
-      "influence":3,
-      "observation":3,
-      "strength":3,
-      "will":2
+      "health": 7,
+      "sanity": 5,
+      "lore": 2,
+      "influence": 3,
+      "observation": 3,
+      "strength": 3,
+      "will": 2
     },
     "expansion": "mom",
     "role": "combat",
@@ -990,6 +1033,7 @@
     "team": "Tommy's extra stat point makes gives him one more than almost all other characters at the start, and his ability to draw monsters away from gates or let other investigators ignore them can come in extremely handy. "
   },
   {
+    "id": 37,
     "name": "Tony Morgan",
     "profession": "The Bounty Hunter",
     "abilities": [
@@ -997,15 +1041,17 @@
       "When you defeat a Monster during a Combat Encounter, gain 1 Focus. "
     ],
     "location": "7",
-    "equipment": ["1 Handcuffs Asset"],
+    "equipment": [
+      "1 Handcuffs Asset"
+    ],
     "stats": {
-      "health":7,
-      "sanity":5,
-      "lore":2,
-      "influence":2,
-      "observation":4,
-      "strength":3,
-      "will":2
+      "health": 7,
+      "sanity": 5,
+      "lore": 2,
+      "influence": 2,
+      "observation": 4,
+      "strength": 3,
+      "will": 2
     },
     "expansion": "sr",
     "role": "research",
@@ -1014,6 +1060,7 @@
     "team": "Between his Handcuffs and his special ability, it is very easy for Tony to gain clues. Coupled with his high Observation, he is very good at dispelling nasty Rumor Mythos cards. Bulking up his Influence, however, would also be a smart investment.\nWith his high Strength, he also does a good job at fighting monsters, although a player may wish to invest in some time bulking up his Influence and Will.\nA few items and skills, like the Old Journal or Skulduggery, are useful to Tony. "
   },
   {
+    "id": 38,
     "name": "Trish Scarborough",
     "profession": "The Spy",
     "abilities": [
@@ -1021,15 +1068,17 @@
       "If an investigator on your space spends a Clue to reroll a die, he may reroll up to 2 dice instead. "
     ],
     "location": "16",
-    "equipment": [" 1 .45 Automatic Asset"],
+    "equipment": [
+      " 1 .45 Automatic Asset"
+    ],
     "stats": {
-      "health":7,
-      "sanity":5,
-      "lore":1,
-      "influence":3,
-      "observation":4,
-      "strength":3,
-      "will":2
+      "health": 7,
+      "sanity": 5,
+      "lore": 1,
+      "influence": 3,
+      "observation": 4,
+      "strength": 3,
+      "will": 2
     },
     "expansion": "base",
     "role": "research",
@@ -1038,6 +1087,7 @@
     "team": ""
   },
   {
+    "id": 39,
     "name": "Ursula Downs",
     "profession": "The Explorer",
     "abilities": [
@@ -1045,15 +1095,18 @@
       "Once per round, you or another investigator on your space may spend 1 less Focus to pay for an effect. "
     ],
     "location": "HA",
-    "equipment": ["1 Mineralogy Research Asset", "Improve 1 skill of your choice"],
+    "equipment": [
+      "1 Mineralogy Research Asset",
+      "Improve 1 skill of your choice"
+    ],
     "stats": {
-      "health":6,
-      "sanity":6,
-      "lore":3,
-      "influence":2,
-      "observation":3,
-      "strength":3,
-      "will":2
+      "health": 6,
+      "sanity": 6,
+      "lore": 3,
+      "influence": 2,
+      "observation": 3,
+      "strength": 3,
+      "will": 2
     },
     "expansion": "mom",
     "role": "expedition",
@@ -1062,6 +1115,7 @@
     "team": ""
   },
   {
+    "id": 40,
     "name": "Vincent Lee",
     "profession": "The Doctor",
     "abilities": [
@@ -1069,15 +1123,18 @@
       "When you or another investigator on your space performs a Rest action, that investigator may recover 1 additional Health. "
     ],
     "location": "17",
-    "equipment": ["1 Bandages Asset", "1 Composed Condition"],
+    "equipment": [
+      "1 Bandages Asset",
+      "1 Composed Condition"
+    ],
     "stats": {
-      "health":6,
-      "sanity":6,
-      "lore":1,
-      "influence":3,
-      "observation":3,
-      "strength":2,
-      "will":4
+      "health": 6,
+      "sanity": 6,
+      "lore": 1,
+      "influence": 3,
+      "observation": 3,
+      "strength": 2,
+      "will": 4
     },
     "expansion": "td",
     "role": "support",
@@ -1086,6 +1143,7 @@
     "team": ""
   },
   {
+    "id": 41,
     "name": "Wendy Adams",
     "profession": "The Urchin",
     "abilities": [
@@ -1093,15 +1151,18 @@
       "Once per round, if you would gain a non-Deal condition or an Impairment token, you may choose to not gain that Condition or Impairment token instead. "
     ],
     "location": "16",
-    "equipment": ["1 Elusive Condition", "1 Clue"],
+    "equipment": [
+      "1 Elusive Condition",
+      "1 Clue"
+    ],
     "stats": {
-      "health":5,
-      "sanity":7,
-      "lore":3,
-      "influence":1,
-      "observation":4,
-      "strength":2,
-      "will":3
+      "health": 5,
+      "sanity": 7,
+      "lore": 3,
+      "influence": 1,
+      "observation": 4,
+      "strength": 2,
+      "will": 3
     },
     "expansion": "soc",
     "role": "research",
@@ -1110,6 +1171,7 @@
     "team": ""
   },
   {
+    "id": 42,
     "name": "William Yorick",
     "profession": "Gravedigger",
     "abilities": [
@@ -1119,13 +1181,13 @@
     "location": "SY",
     "equipment": [],
     "stats": {
-      "health":7,
-      "sanity":5,
-      "lore":3,
-      "influence":2,
-      "observation":2,
-      "strength":3,
-      "will":3
+      "health": 7,
+      "sanity": 5,
+      "lore": 3,
+      "influence": 2,
+      "observation": 2,
+      "strength": 3,
+      "will": 3
     },
     "expansion": "td",
     "role": "combat",
@@ -1134,6 +1196,7 @@
     "team": ""
   },
   {
+    "id": 43,
     "name": "Wilson Richards",
     "profession": "The Handyman",
     "abilities": [
@@ -1141,15 +1204,17 @@
       "When you or another investigator on your space spend a Focus to reroll a die, that investigator may reroll up to 2 dice instead. "
     ],
     "location": "AR",
-    "equipment": ["1 Blunderbuss Asset"],
+    "equipment": [
+      "1 Blunderbuss Asset"
+    ],
     "stats": {
-      "health":8,
-      "sanity":4,
-      "lore":1,
-      "influence":3,
-      "observation":2,
-      "strength":4,
-      "will":3
+      "health": 8,
+      "sanity": 4,
+      "lore": 1,
+      "influence": 3,
+      "observation": 2,
+      "strength": 4,
+      "will": 3
     },
     "expansion": "mom",
     "role": "combat",
@@ -1158,6 +1223,7 @@
     "team": ""
   },
   {
+    "id": 44,
     "name": "Zoey Samaras",
     "profession": "The Chef",
     "abilities": [
@@ -1165,15 +1231,17 @@
       "If you have not lost Sanity during a Combat Encounter, roll 2 additional dice when resolving the Strength test during that encounter. "
     ],
     "location": "RM",
-    "equipment": ["1 Holy Cross Asset"],
+    "equipment": [
+      "1 Holy Cross Asset"
+    ],
     "stats": {
-      "health":5,
-      "sanity":7,
-      "lore":3,
-      "influence":2,
-      "observation":1,
-      "strength":3,
-      "will":5
+      "health": 5,
+      "sanity": 7,
+      "lore": 3,
+      "influence": 2,
+      "observation": 1,
+      "strength": 3,
+      "will": 5
     },
     "expansion": "sr",
     "role": "combat",

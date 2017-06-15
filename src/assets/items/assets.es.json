@@ -9,7 +9,8 @@
     "type": "asset",
     "expansion": "sr",
     "front": "Una vez por ronda, puedes obtener +1 <lore> al resolver un efecto de Hechizo, o +2 <strength> al resolver un Encuentro de Combate",
-    "cost": 1
+    "cost": 1,
+    "id": 1
   },
   {
     "name": "Hoja encantada",
@@ -21,7 +22,8 @@
     "type": "asset",
     "expansion": "fl",
     "front": "Obten +1 <will> y +3 <strength> durante Encuentros de Combate",
-    "cost": 3
+    "cost": 3,
+    "id": 2
   },
   {
     "name": "Informe de inteligencia",
@@ -31,7 +33,8 @@
     "type": "asset",
     "expansion": "fl",
     "front": "Cuando obtengas esta carta, obtén inmediatamente 2 Pistas. A continuación, descarta esta carta",
-    "cost": 3
+    "cost": 3,
+    "id": 3
   },
   {
     "name": "Cazarrecompensas mística",
@@ -41,7 +44,8 @@
     "type": "asset",
     "expansion": "fl",
     "front": "Obtén +1 <strength> durante Encuentros de Combate. Obtén +2 <lore> cuando resuelvas efectos de Hechizos",
-    "cost": 2
+    "cost": 2,
+    "id": 4
   },
   {
     "name": "Guardaespaldas",
@@ -51,7 +55,8 @@
     "type": "asset",
     "expansion": "fl",
     "front": "Obtén +1 <strength>. Reduce en 1 hasta un mínimo de 1 el daño de los Monstruos con los que resuelvas encuentros",
-    "cost": 2
+    "cost": 2,
+    "id": 5
   },
   {
     "name": "Consagración",
@@ -61,7 +66,8 @@
     "type": "asset",
     "expansion": "sr",
     "front": "Cuando obtengas esta carta, obten inmediatamente 1 Estado Ayuda. A continuación descarta esta carta",
-    "cost": 2
+    "cost": 2,
+    "id": 6
   },
   {
     "name": "Simbolo arcano",
@@ -72,7 +78,8 @@
     "type": "asset",
     "expansion": "fl",
     "front": "Puedes volver a tirar 1 dado cuando resuelvas una prueba de <will> durante un Encuentro de Combate. Reduce en 1 hasta un minimo de 1 el horror de los Monstruos con los que resuelvas encuentros",
-    "cost": 2
+    "cost": 2,
+    "id": 7
   },
   {
     "name": "Asistencia policial",
@@ -82,7 +89,8 @@
     "type": "asset",
     "expansion": "fl",
     "front": "Cuando obtengas esta carta, descarta inmediatamente 1 Monstruo de tu elección que tenga una fortaleza de 2 o menos en cualquier casilla. A continuación, descarta esta carta",
-    "cost": 1
+    "cost": 1,
+    "id": 8
   },
   {
     "name": "Texto de ocultismo",
@@ -93,7 +101,8 @@
     "type": "asset",
     "expansion": "soc",
     "front": "Obtén +1 <will> durante Encuentros de Combate. Los Monstruos con los que resuelvas encuentros pierden su capacidad Resistencia física",
-    "cost": 2
+    "cost": 2,
+    "id": 9
   },
   {
     "name": "Apelación al Consejo",
@@ -103,7 +112,8 @@
     "type": "asset",
     "expansion": "fl",
     "front": "Cuando obtengas esta carta, puedes gastar inmediatamente 2 Pistas para hacer retroceder la Perdición 1 casilla. A continuación, descarta esta carta",
-    "cost": 1
+    "cost": 1,
+    "id": 10
   },
   {
     "name": "Daga ritualEstudiante de investigación",
@@ -113,7 +123,8 @@
     "type": "asset",
     "expansion": "fl",
     "front": "Acción: Tira 1 dado. Si sacas un 5 o un 6, obtén 1 Pista. Si sacas un 1, descarta la Pista más cercana del tablero de juego",
-    "cost": 1
+    "cost": 1,
+    "id": 11
   },
   {
     "name": "Gas lacrimogeno",
@@ -124,7 +135,8 @@
     "type": "asset",
     "expansion": "fl",
     "front": "Puedes descartar esta carta para volver a tirar hasta 2 dados cuando resuelvas una prueba de <strength> durante un Encuentro de Combate. Además, recude el daño del Monstruo en 2 hasta un mínimo de 1",
-    "cost": 1
+    "cost": 1,
+    "id": 12
   },
   {
     "name": "Trabuco",
@@ -135,7 +147,8 @@
     "type": "asset",
     "expansion": "mom",
     "front": "Al resolver un Encuentro de Combate, puedes obtener +2 <strength>. Si lo haces, cada 6 que saques al resolver una prueba de <strength> durante un Encuentro de Combate cuenta como 2 éxitos y cada 1 niega 1 éxito",
-    "cost": 2
+    "cost": 2,
+    "id": 13
   },
   {
     "name": "Ladrón",
@@ -145,7 +158,8 @@
     "type": "asset",
     "expansion": "base",
     "front": "Acción: Tira 1 dado. Si sacas un 5 o un 6, obtén 1 Apoyo Objeto o Baratija de la reserva. Si sacas un 1, descarta esta carta",
-    "cost": 1
+    "cost": 1,
+    "id": 14
   },
   {
     "name": "Whisky",
@@ -155,7 +169,8 @@
     "type": "asset",
     "expansion": "base",
     "front": "Puedes descartar esta carta para evitar que un investigador que esté en tu casilla pierda un máximo de 2 puntos de Cordura",
-    "cost": 1
+    "cost": 1,
+    "id": 15
   },
   {
     "name": "Libro de cuentas de la policia",
@@ -165,7 +180,8 @@
     "type": "asset",
     "expansion": "fl",
     "front": "Cuando realices una acción de descansar, puedes intentar descifrar el libro de cuentas (<observation>). Si superas la prueba, puedes descartar esta carta para obtener 1 Pista",
-    "cost": 1
+    "cost": 1,
+    "id": 16
   },
   {
     "name": "Farol",
@@ -175,7 +191,8 @@
     "type": "asset",
     "expansion": "fl",
     "front": "Una vez por ronda, puedes tirar 1 dado adicional cuando resuelvas una prueba",
-    "cost": 1
+    "cost": 1,
+    "id": 17
   },
   {
     "name": "Fruta fresca",
@@ -185,7 +202,8 @@
     "type": "asset",
     "expansion": "fl",
     "front": "Cuando realices una acción de descansar, puedes descartar esta carta para recuperar 1 punto de Salud adicional y 1 punto de Cordura adicional",
-    "cost": 1
+    "cost": 1,
+    "id": 18
   },
   {
     "name": "Revolver del .45",
@@ -196,7 +214,8 @@
     "type": "asset",
     "expansion": "fl",
     "front": "Una vez por ronda, puedes obtener +3 <strength> durante un Encuentro de Combate",
-    "cost": 1
+    "cost": 1,
+    "id": 19
   },
   {
     "name": "Cruz sagrada",
@@ -206,7 +225,8 @@
     "type": "asset",
     "expansion": "base",
     "front": "Obtén +2 <will> durante Encuentros de Combate",
-    "cost": 2
+    "cost": 2,
+    "id": 20
   },
   {
     "name": "Ritual del Crepúsculo de Plata",
@@ -216,7 +236,8 @@
     "type": "asset",
     "expansion": "base",
     "front": "Cuando obtengas esta carta, haz retroceder inmediatamente la Perdición 1 casilla. A continuación, descarta esta carta",
-    "cost": 3
+    "cost": 3,
+    "id": 21
   },
   {
     "name": "Automática del .45",
@@ -227,7 +248,8 @@
     "type": "asset",
     "expansion": "base",
     "front": "Obtén +3 <strength> durante Encuentros de Combate",
-    "cost": 2
+    "cost": 2,
+    "id": 22
   },
   {
     "name": "Agua bendita",
@@ -238,7 +260,8 @@
     "type": "asset",
     "expansion": "base",
     "front": "Puedes descartar esta carta para obtener +5 <will> y <strength> durante un Encuentro de Combate. Acción: Puedes descartar eseta carta para elegir un investigador que este en tu casilla. Ese investigador obtiene el Estado Bendecido",
-    "cost": 2
+    "cost": 2,
+    "id": 23
   },
   {
     "name": "Patrullar las calles",
@@ -248,7 +271,8 @@
     "type": "asset",
     "expansion": "mom",
     "front": "Cuando derrotes un Monstruo con fortaleza 3 o más durante un Encuentro de Combate, puedes descartar esta carta para hacer retirarse la Perdición 1 casilla",
-    "cost": 1
+    "cost": 1,
+    "id": 24
   },
   {
     "name": "Erudito arcano",
@@ -258,7 +282,8 @@
     "type": "asset",
     "expansion": "base",
     "front": "Obten +1 <lore>. Puedes volver a tirar 1 dado cuando resuelvas una prueba de <lore>",
-    "cost": 2
+    "cost": 2,
+    "id": 25
   },
   {
     "name": "Servicio de mensajería",
@@ -269,7 +294,8 @@
     "type": "asset",
     "expansion": "base",
     "front": "Cuando obtengas esta carta, da inmediatamente cualquier cantidad de pertenencias Objeto a otro investigador que esté en cualquier casilla. A continuación, descarta esta carta",
-    "cost": 1
+    "cost": 1,
+    "id": 26
   },
   {
     "name": "Escopeta de doble cañón",
@@ -280,7 +306,8 @@
     "type": "asset",
     "expansion": "base",
     "front": "Obtén +4 <strength> durante Encuentros de Combate. Cada 6 que saques cuando resuelvas una prueba de <strength> durante un Encuentro de Combate cuenta como 2 éxitos",
-    "cost": 4
+    "cost": 4,
+    "id": 27
   },
   {
     "name": "Agente de secretos",
@@ -290,7 +317,8 @@
     "type": "asset",
     "expansion": "sr",
     "front": "Obtén +1 <lore> y +1 <observation>. Puedes volver a tirar 1 dado al resolver una prueba de saver o <observation>",
-    "cost": 4
+    "cost": 4,
+    "id": 28
   },
   {
     "name": "Investigador privado",
@@ -300,7 +328,8 @@
     "type": "asset",
     "expansion": "base",
     "front": "Obtén +1 <observation>. Puedes vovler a tirar 1 dado cuando resuelvas una prueba de <observation>",
-    "cost": 2
+    "cost": 2,
+    "id": 29
   },
   {
     "name": "Talismán horripilante",
@@ -310,7 +339,8 @@
     "type": "asset",
     "expansion": "sr",
     "front": "Puedes sumar 1 al resultado de 1 dado al resolver una prueba de <will> durante un Encuentro de Combate",
-    "cost": 1
+    "cost": 1,
+    "id": 30
   },
   {
     "name": "Hoja arcana",
@@ -322,7 +352,8 @@
     "type": "asset",
     "expansion": "sr",
     "front": "Obtén +2 <strength> al resolver Encuentros de Combate. Obtén +2 <lore> al resolver efectos de Hechizos",
-    "cost": 3
+    "cost": 3,
+    "id": 31
   },
   {
     "name": "Queroseno",
@@ -332,7 +363,8 @@
     "type": "asset",
     "expansion": "base",
     "front": "Puedes descartar esta carta para obtener +5 <strength> durante un Encuentro de Combate",
-    "cost": 1
+    "cost": 1,
+    "id": 32
   },
   {
     "name": "Hacha",
@@ -343,7 +375,8 @@
     "type": "asset",
     "expansion": "base",
     "front": "Obtén +2 <strength> durante Encuentros de Combate. Puedes gastar 2 puntos de Cordura para volver a tirar cualquier cantidad de dados cuando resuelvas una prueba de <strength> durante un Encuentro de Combate",
-    "cost": 2
+    "cost": 2,
+    "id": 33
   },
   {
     "name": "Guia de astronomia",
@@ -354,7 +387,8 @@
     "type": "asset",
     "expansion": "mom",
     "front": "Cuando cierres un Portal durante un Encuentro de Otros Mundos, recupera 1 putno de Cordura y obtén 1 Pista",
-    "cost": 2
+    "cost": 2,
+    "id": 34
   },
   {
     "name": "Guia de expedición",
@@ -364,7 +398,8 @@
     "type": "asset",
     "expansion": "sr",
     "front": "Cuando gastes una ficha de Concrentración para volver a tirar un dado al resolver una prueba de <observation> o <strength>, en lugar de eso puedes volver a tirar hasta 2 dados",
-    "cost": 2
+    "cost": 2,
+    "id": 35
   },
   {
     "name": "Dinamita",
@@ -375,7 +410,8 @@
     "type": "asset",
     "expansion": "base",
     "front": "Acción: Puedes descartar esta carta para que cada Monstruo que esté en tu casilla pierda 3 puntos de Salud",
-    "cost": 3
+    "cost": 3,
+    "id": 36
   },
   {
     "name": "Derringer del .18",
@@ -385,7 +421,8 @@
     "type": "asset",
     "expansion": "base",
     "front": "Puedes sumar 1 al resultado de 1 dado cuando resuelvas una prueba de <strength> furante Encuentros de Combate",
-    "cost": 1
+    "cost": 1,
+    "id": 37
   },
   {
     "name": "Informe periodistico",
@@ -395,7 +432,8 @@
     "type": "asset",
     "expansion": "mom",
     "front": "Después de resolver un Encuentro de Investigación, puedes gastar 1 Pista obtenida de ese encuentro y descartar esta carta para hacer retirarse la Perdicion 1 casilla",
-    "cost": 1
+    "cost": 1,
+    "id": 38
   },
   {
     "name": "Diario médico",
@@ -406,7 +444,8 @@
     "type": "asset",
     "expansion": "sr",
     "front": "Puedes volver a tirar 1 dado al resolver una prueba de <strength> como parte de un efecto de Estado Enfermedad o Herida. Cuando realices una acción de descansar, recupera 1 punto de Salud adicional",
-    "cost": 2
+    "cost": 2,
+    "id": 39
   },
   {
     "name": "Mapa de expedición",
@@ -417,7 +456,8 @@
     "type": "asset",
     "expansion": "sr",
     "front": "Una ver por ronda, puedes sumar 1 al resultado de 1 dado al resolver una prueba durante un Encuentro de Expedición o un Encuentro de Ruinas místicas",
-    "cost": 1
+    "cost": 1,
+    "id": 40
   },
   {
     "name": "Santuario",
@@ -427,7 +467,8 @@
     "type": "asset",
     "expansion": "base",
     "front": "Cuando obtengas esta carta, puedes descartar inmediatamente 1 Estado. A continuación, descarta esta carta",
-    "cost": 2
+    "cost": 2,
+    "id": 41
   },
   {
     "name": "Lanza sagrada",
@@ -440,7 +481,8 @@
     "type": "asset",
     "expansion": "sr",
     "front": "Obten +4 <strength> durante Encuentros de Combate",
-    "cost": 3
+    "cost": 3,
+    "id": 42
   },
   {
     "name": "Curandero",
@@ -450,7 +492,8 @@
     "type": "asset",
     "expansion": "base",
     "front": "Los investigadores que estén en tu casilla pueden recuperar 1 punto de Salud adicional o descartar el Estado Maldito cuando realicen una acción de descansar",
-    "cost": 3
+    "cost": 3,
+    "id": 43
   },
   {
     "name": "Conservador de museo",
@@ -460,7 +503,8 @@
     "type": "asset",
     "expansion": "sr",
     "front": "Puedes volver a tirar 1 dado al resolver una prueba durante un Encuentro de Expedición o un Encuentro de Ruinas místicas. Cuando obtengas esta carta del mazo o de la reserva, obtén 1 Apoyo único Reliquia",
-    "cost": 3
+    "cost": 3,
+    "id": 44
   },
   {
     "name": "Tomo misterioso",
@@ -471,7 +515,8 @@
     "type": "asset",
     "expansion": "sr",
     "front": "Cuando gastes una ficah de Concentración para volver a tirar un dado al resolver una prueba de <lore> o <will>, en lugar de eso puedes volver a tirar hasta 2 dados.",
-    "cost": 2
+    "cost": 2,
+    "id": 45
   },
   {
     "name": "Metralleta",
@@ -482,7 +527,8 @@
     "type": "asset",
     "expansion": "soc",
     "front": "Obtén +4 <strength> durante Encuentros de Combate",
-    "cost": 3
+    "cost": 3,
+    "id": 46
   },
   {
     "name": "Especialista",
@@ -492,7 +538,8 @@
     "type": "asset",
     "expansion": "soc",
     "front": "Una vez por ronda, puedes volver a tirar 1 dado al resolver una prueba. Cuando obtengas esta carta del mazo o de la reserva, obtén 1 Estado Talento",
-    "cost": 3
+    "cost": 3,
+    "id": 47
   },
   {
     "name": "Médico de la Logia",
@@ -502,7 +549,8 @@
     "type": "asset",
     "expansion": "soc",
     "front": "Otros investigadores que estén en tu casilla y tú podéis recuperar 1 punto de Salud adicional o descartar 1 Estado Enfermedad o Herida al realizar una acción de descansar",
-    "cost": 3
+    "cost": 3,
+    "id": 48
   },
   {
     "name": "Autor estimado",
@@ -512,7 +560,8 @@
     "type": "asset",
     "expansion": "soc",
     "front": "Puedes volver a tirar 1 dado al resolver una prueba de <influence>. Cuando obtengas esta carta del mazo o de la reserva, obtén 1 Apoyo Tomo aleatorio del mazo",
-    "cost": 3
+    "cost": 3,
+    "id": 49
   },
   {
     "name": "Tomo de los horrores",
@@ -523,7 +572,8 @@
     "type": "asset",
     "expansion": "mom",
     "front": "Obten +2 <will> durante Encuentros de Combate. Reduce en 1 el horror de los Monstruos con los que resuelvas encuentros, hasta un mínimo de 1",
-    "cost": 3
+    "cost": 3,
+    "id": 50
   },
   {
     "name": "Pitillera de la suerte",
@@ -533,7 +583,8 @@
     "type": "asset",
     "expansion": "base",
     "front": "Una vez por ronda, puedes sumar 1 al resultado de 1 dado cuando resuelvas una prueba",
-    "cost": 2
+    "cost": 2,
+    "id": 51
   },
   {
     "name": "Ropa elegante",
@@ -543,7 +594,8 @@
     "type": "asset",
     "expansion": "base",
     "front": "Cada 6 que saques cuando realices una accion de aquirir apoyos cuenta como 2 éxitos",
-    "cost": 2
+    "cost": 2,
+    "id": 52
   },
   {
     "name": "Cuarentena de la Agencia",
@@ -553,7 +605,8 @@
     "type": "asset",
     "expansion": "base",
     "front": "Cuando obtengas esta carta, elige inmediatamente una casilla. Cada Monstruo que esté en la casilla elegida pierde 4 puntos de Salud. A continuación, descarta esta carta",
-    "cost": 4
+    "cost": 4,
+    "id": 53
   },
   {
     "name": "Registrar los archivos",
@@ -563,7 +616,8 @@
     "type": "asset",
     "expansion": "mom",
     "front": "Cuando obtengas esta carta, obtén inmediatamente 1 Apoyo Tomo aleatorio del mazo. A continuación descarta esta carta",
-    "cost": 2
+    "cost": 2,
+    "id": 54
   },
   {
     "name": "Vendajes",
@@ -573,7 +627,8 @@
     "type": "asset",
     "expansion": "base",
     "front": "Puedes descartar esta carta para evitar que un investigador que esté en tu casilla pierda un máximo de 2 puntos de Salud",
-    "cost": 1
+    "cost": 1,
+    "id": 55
   },
   {
     "name": "Caja misteriosa",
@@ -583,7 +638,8 @@
     "type": "asset",
     "expansion": "base",
     "front": "Cuando realices una acción de descansar, puedes intentar abrir la caja misteriosa (<observation> -2). Si superas la prueba, puedes descartar esta carta para obtener 1 Artefacto",
-    "cost": 3
+    "cost": 3,
+    "id": 56
   },
   {
     "name": "El tomo de los secretos",
@@ -594,7 +650,8 @@
     "type": "asset",
     "expansion": "sr",
     "front": "Una vez por ronda, puedes gastar 1 ficha de Concentración en lugar de gastar 1 Pista. Cuando realices una acción de concentrarse, recupera 1 punto de Cordura",
-    "cost": 3
+    "cost": 3,
+    "id": 57
   },
   {
     "name": "Entrenamiento especializado",
@@ -604,7 +661,8 @@
     "type": "asset",
     "expansion": "sr",
     "front": "Cuando realices una acción de concentrarse, puedes consultar con expertos para que te entrenen (<will>). Si superas la prueba, descarta esta carta y mejora 1 habilidad de tu elección",
-    "cost": 1
+    "cost": 1,
+    "id": 58
   },
   {
     "name": "Inspector jefe",
@@ -614,7 +672,8 @@
     "type": "asset",
     "expansion": "soc",
     "front": "Obten +1 <observation>. Obten +2 <observation> durante Encuentros de Investigación",
-    "cost": 2
+    "cost": 2,
+    "id": 59
   },
   {
     "name": "Asesinato",
@@ -624,7 +683,8 @@
     "type": "asset",
     "expansion": "soc",
     "front": "Cuando obtengas esta carta, elige inmediatamente un Monstruo que esté en cualquier casilla. El Monstruo elegido pierde 2 puntos de Salud. A continuación, descarta esta carta",
-    "cost": 2
+    "cost": 2,
+    "id": 60
   },
   {
     "name": "Misionero del Vaticano",
@@ -634,7 +694,8 @@
     "type": "asset",
     "expansion": "base",
     "front": "Obtén +1 <will>. Puedes volver a tirar 1 dado cuando resuelvas una prueba de <will>",
-    "cost": 2
+    "cost": 2,
+    "id": 61
   },
   {
     "name": "Amuleto protector",
@@ -644,7 +705,8 @@
     "type": "asset",
     "expansion": "base",
     "front": "Obtén +1 <will> durante Encuentros de Combate",
-    "cost": 1
+    "cost": 1,
+    "id": 62
   },
   {
     "name": "Investigación genealogica",
@@ -654,7 +716,8 @@
     "type": "asset",
     "expansion": "mom",
     "front": "Cuando derrotes un Monstruo con fortaleza 2 o más durante un Encuentro de Combate, puedes examinar los restos de la criatura (<observation>). Si superas la prueba, obtén 2 Pistas y descarta esta carta",
-    "cost": 1
+    "cost": 1,
+    "id": 63
   },
   {
     "name": "Investigador de la Logia",
@@ -664,7 +727,8 @@
     "type": "asset",
     "expansion": "base",
     "front": "Si derrotas a un Monstruo durante un Encuentro de Combate, recupera 1 punto de Cordura y obtén 1 Pista",
-    "cost": 3
+    "cost": 3,
+    "id": 64
   },
   {
     "name": "Cazador de monstruos",
@@ -674,7 +738,8 @@
     "type": "asset",
     "expansion": "mom",
     "front": "Obtén +2 <strength> durante Encuentros de Combate. Acción: Un Monstruo de tu elección que esté en tu casilla pierde 1 punto de Salud",
-    "cost": 3
+    "cost": 3,
+    "id": 65
   },
   {
     "name": "Trile de cartas",
@@ -684,7 +749,8 @@
     "type": "asset",
     "expansion": "soc",
     "front": "Cuando obtengas esta carta, tira 1 dado inmediatamente. Si sacas un 5 o un 6, obtén 1 Apoyo de tu elección de la reserva o 1 Apoyo aleatorio del mazo que tenga un valor de 3 o más. A continuación, descarta esta carta",
-    "cost": 1
+    "cost": 1,
+    "id": 66
   },
   {
     "name": "Fabrica de rumores",
@@ -694,7 +760,8 @@
     "type": "asset",
     "expansion": "soc",
     "front": "Cuando obtengas esta carta obtén 1 Pista inmediatamente. A continuación, descarta esta carta",
-    "cost": 1
+    "cost": 1,
+    "id": 67
   },
   {
     "name": "Informe por radio",
@@ -705,7 +772,8 @@
     "type": "asset",
     "expansion": "base",
     "front": "Cuando obtengas esta carta, da inmediatamente cualquier cantidad de Pistas a otro investigador que esté en cualquier casilla. A continuación, descarta esta carta",
-    "cost": 1
+    "cost": 1,
+    "id": 68
   },
   {
     "name": "Joyas de lujo",
@@ -715,7 +783,8 @@
     "type": "asset",
     "expansion": "soc",
     "front": "Puedes sumar 1 al resultado de 1 dado al realizar una prueba de <influence> durante una acción de adquirir Apoyos",
-    "cost": 1
+    "cost": 1,
+    "id": 69
   },
   {
     "name": "Vuelo charter",
@@ -725,7 +794,8 @@
     "type": "asset",
     "expansion": "base",
     "front": "Cuando obtengas esta carta, muévete inmediatamente un máximo de 2 casillas. A continuación, descarta esta carta",
-    "cost": 1
+    "cost": 1,
+    "id": 70
   },
   {
     "name": "Tomo arcano",
@@ -736,7 +806,8 @@
     "type": "asset",
     "expansion": "base",
     "front": "Obten +2 <lore> cuando resuelvas efectos de Hechizo. Cuando realices una acción de descansar, puedes realizar una prueba de <lore>. Si la superas, obtén 1 Hechizo",
-    "cost": 3
+    "cost": 3,
+    "id": 71
   },
   {
     "name": "Automatica del .25",
@@ -747,7 +818,8 @@
     "type": "asset",
     "expansion": "soc",
     "front": "Tira 1 dado adicional al resolver una prueba de <strength> durante un Encuentro de Combate",
-    "cost": 1
+    "cost": 1,
+    "id": 72
   },
   {
     "name": "Discipulo de la Logia",
@@ -757,7 +829,8 @@
     "type": "asset",
     "expansion": "soc",
     "front": "Obtén +1 <lore> y +1 <influence>. Puedes volver a tirar 1 dado al resolver una prueba de <lore> o de <influence>",
-    "cost": 4
+    "cost": 4,
+    "id": 73
   },
   {
     "name": "Lanzallamas",
@@ -768,7 +841,8 @@
     "type": "asset",
     "expansion": "soc",
     "front": "Obtén +5 <strength> durante Encuentros de Combate. Reduce el daño de los Monstruos con los que resuelvas Encuentros en 1, hasta un mínimo de 1",
-    "cost": 4
+    "cost": 4,
+    "id": 74
   },
   {
     "name": "Ayudante arcana",
@@ -778,7 +852,8 @@
     "type": "asset",
     "expansion": "soc",
     "front": "Tira 1 dado adicional al resolver una prueba de <lore> como parte del efecto de un Hechizo",
-    "cost": 1
+    "cost": 1,
+    "id": 75
   },
   {
     "name": "Revolver del .38",
@@ -789,7 +864,8 @@
     "type": "asset",
     "expansion": "base",
     "front": "Obtén +2 <strength> durante Encuentros de Combate",
-    "cost": 1
+    "cost": 1,
+    "id": 76
   },
   {
     "name": "Biblia del Rey Jaime",
@@ -800,7 +876,8 @@
     "type": "asset",
     "expansion": "base",
     "front": "Puedes volver a tirar 1 dado cuando resuelvas una prueba de <will>o durante un Encuentro de Combate. Cuando realices una acción de descansar, recupera 1 punto de Cordura adicional",
-    "cost": 2
+    "cost": 2,
+    "id": 77
   },
   {
     "name": "Seguro privado",
@@ -810,7 +887,8 @@
     "type": "asset",
     "expansion": "base",
     "front": "Cuando obtentas esta carta, recupera inmediatamente toda tu Salud y Cordura. A continuación, descarta esta carta",
-    "cost": 2
+    "cost": 2,
+    "id": 78
   },
   {
     "name": "Investigación mineralogica",
@@ -820,7 +898,8 @@
     "type": "asset",
     "expansion": "mom",
     "front": "Después de resolver un Encuentro General o un Encuentro de Expedicion en una casilla de Naturaleza, puedes examinar el suelo de la zona (<observation>). Si superas la prueba, obten 2 Pistas y descarta esta carta.",
-    "cost": 1
+    "cost": 1,
+    "id": 79
   },
   {
     "name": "Daga espiritual",
@@ -832,7 +911,8 @@
     "type": "asset",
     "expansion": "base",
     "front": "Obtén +1 <will> y +2 <strength> durante Encuentros de Combate",
-    "cost": 2
+    "cost": 2,
+    "id": 80
   },
   {
     "name": "Diario de sectario",
@@ -844,7 +924,8 @@
     "type": "asset",
     "expansion": "mom",
     "front": "Obtén +2 <will> y +2 <strength> durante Encuentros de Combate",
-    "cost": 3
+    "cost": 3,
+    "id": 81
   },
   {
     "name": "Tomo profano",
@@ -855,7 +936,8 @@
     "type": "asset",
     "expansion": "mom",
     "front": "Puedes volver a tirar 1 dado al resolver una prueba de <will> durante un Encuentro de Combate",
-    "cost": 1
+    "cost": 1,
+    "id": 82
   },
   {
     "name": "Guia urbano",
@@ -865,7 +947,8 @@
     "type": "asset",
     "expansion": "base",
     "front": "Si estás en una casilla de Ciudad, los investigadores que estén en tu casilla tiran 1 dado adicional cuando resuelvan pruebas, excepto cuando resuelvan Encuentros de Otros Mundos",
-    "cost": 4
+    "cost": 4,
+    "id": 83
   },
   {
     "name": "¡Se necesita mensajero!",
@@ -875,7 +958,8 @@
     "type": "asset",
     "expansion": "mom",
     "front": "Cuando obtengas esta carta, obtén inmediatamente un Apoyo único Servicio de entrega. A continuación, descarta esta carta",
-    "cost": 1
+    "cost": 1,
+    "id": 84
   },
   {
     "name": "Informe periodisticoAgente del Sindicato",
@@ -885,7 +969,8 @@
     "type": "asset",
     "expansion": "fl",
     "front": "Obtén +2 <strength> durante Encuentros de Combate. Puedes volver a tirar 1 dado cuando resuelvas una prueba de <strength> durante un Encuentro de Combate",
-    "cost": 2
+    "cost": 2,
+    "id": 85
   },
   {
     "name": "Reloj de bolsillo",
@@ -895,7 +980,8 @@
     "type": "asset",
     "expansion": "base",
     "front": "No puedes quedar Retrasado a menos que elijas hacerlo",
-    "cost": 1
+    "cost": 1,
+    "id": 86
   },
   {
     "name": "Menuscritos arcanos",
@@ -906,7 +992,8 @@
     "type": "asset",
     "expansion": "mom",
     "front": "Obtén +1 <lore> cuando resuelvas efectos de Hechizo",
-    "cost": 1
+    "cost": 1,
+    "id": 87
   },
   {
     "name": "Pata de conejo",
@@ -916,7 +1003,8 @@
     "type": "asset",
     "expansion": "base",
     "front": "Una vez por ronda, puedes volver a tirar 1 dado cuando resuelvas una prueba",
-    "cost": 1
+    "cost": 1,
+    "id": 88
   },
   {
     "name": "Página secreta",
@@ -927,7 +1015,8 @@
     "type": "asset",
     "expansion": "mom",
     "front": "Obtén +1 <lore> al resolver efectos de Hechizo. Cuando obtengas esta carta del mazo o de la reserva, obtén 1 Hechizo",
-    "cost": 2
+    "cost": 2,
+    "id": 89
   },
   {
     "name": "Inversión",
@@ -938,7 +1027,8 @@
     "expansion": "mom",
     "front": "",
     "reckoning": "Tu inversión ha dado beneficios. Puedes descartar esta carta para obtener el estado Financiación",
-    "cost": 1
+    "cost": 1,
+    "id": 90
   },
   {
     "name": "Escuadron de seguridad",
@@ -948,7 +1038,8 @@
     "type": "asset",
     "expansion": "soc",
     "front": "Al resolver un Encuentro de Combate, puedes resolver una prueba de <influence> en lugar de la prueba de <strength>, usando el mismo modificador de la prueba",
-    "cost": 2
+    "cost": 2,
+    "id": 91
   },
   {
     "name": "Esposas",
@@ -958,7 +1049,8 @@
     "type": "asset",
     "expansion": "sr",
     "front": "Antes de resolver la prueba de <strength> durante un Encuentro de Combate, puedes gastar 1 ficha de Concentración para derrotar a ese Monstruo si tiene una fortaleza de 2 o menos",
-    "cost": 2
+    "cost": 2,
+    "id": 92
   },
   {
     "name": "Carabina",
@@ -969,7 +1061,8 @@
     "type": "asset",
     "expansion": "base",
     "front": "Una vez por ronda, puedes obtener +5 <strength> durante un encuentro de Combate",
-    "cost": 3
+    "cost": 3,
+    "id": 93
   },
   {
     "name": "Anillo de la suerte",
@@ -979,7 +1072,8 @@
     "type": "asset",
     "expansion": "fl",
     "front": "Puedes volver a tirar 1 dado cuando resuelvas una prueba",
-    "cost": 3
+    "cost": 3,
+    "id": 94
   },
   {
     "name": "Matón a sueldo",
@@ -989,7 +1083,8 @@
     "type": "asset",
     "expansion": "base",
     "front": "Obtén +1 <strength>. Puedes volver a tirar 1 dado cuando resuelvas una prueba de <strength>",
-    "cost": 2
+    "cost": 2,
+    "id": 95
   },
   {
     "name": "Bastón encantado",
@@ -1001,7 +1096,8 @@
     "type": "asset",
     "expansion": "soc",
     "front": "Obten +3 <strength> durante Encuentros de Combate",
-    "cost": 2
+    "cost": 2,
+    "id": 96
   },
   {
     "name": "Red de pesca",
@@ -1011,7 +1107,8 @@
     "type": "asset",
     "expansion": "base",
     "front": "Puedes volver a tirar 1 dado cuando resuelvas una prueba de <strength> durante un Encuentro de Combate. Reduce en 1 (hasta un mínimo de 1) el daño de los Monstruos con los que resuelvas encuentros",
-    "cost": 2
+    "cost": 2,
+    "id": 97
   },
   {
     "name": "Opus Arcana",
@@ -1022,7 +1119,8 @@
     "type": "asset",
     "expansion": "sr",
     "front": "Obtén +1 <lore>. Obtén +2 <lore> al resolver efectos de Hechizos",
-    "cost": 2
+    "cost": 2,
+    "id": 98
   },
   {
     "name": "Mapa de lineas ley",
@@ -1033,7 +1131,8 @@
     "type": "asset",
     "expansion": "mom",
     "front": "Obtén +1 <lore> y +1 <will>. Una vez por ronda, peudes volver a tirar 1 dado al resolver una prueba durante un Encuentro de Otros Mundos",
-    "cost": 4
+    "cost": 4,
+    "id": 99
   },
   {
     "name": "Festin opulento",
@@ -1043,7 +1142,8 @@
     "type": "asset",
     "expansion": "sr",
     "front": "Cuando obtengas esta carta, recupera inmeditamente 2 puntos de Salud y 2 puntos de Cordura. A continuación, descarta esta carta",
-    "cost": 1
+    "cost": 1,
+    "id": 100
   },
   {
     "name": "Teórico de la conspiración",
@@ -1054,7 +1154,8 @@
     "expansion": "fl",
     "front": "Obtén +2 <observation> durante Encuentros de Investigación",
     "reckoning": "Tira 1 dado. Si sacas un 4, un 5 o un 6, obtén 1 Pista",
-    "cost": 3
+    "cost": 3,
+    "id": 101
   },
   {
     "name": "Látigo",
@@ -1065,7 +1166,8 @@
     "type": "asset",
     "expansion": "base",
     "front": "Obtén +1 <strength> durante Encuentros de Combate. Puedes vovler a tirar 1 dado cuando resuelvas una prueba de <strength> durante un Encuentro de Combate",
-    "cost": 1
+    "cost": 1,
+    "id": 102
   },
   {
     "name": "Dados de tahur",
@@ -1075,7 +1177,8 @@
     "type": "asset",
     "expansion": "mom",
     "front": "Tiras un mínimo de 2 dados al resolver pruebas. Una vez por ronda, puedes volver a tirar 2 dados con el mismo resultado al resolver una prueba",
-    "cost": 3
+    "cost": 3,
+    "id": 103
   },
   {
     "name": "Asistente personal",
@@ -1085,6 +1188,7 @@
     "type": "asset",
     "expansion": "base",
     "front": "Obtén +1 <influence>. Puedes volver a tirar 1 dado cuando resuelvas una prueba de <influence>",
-    "cost": 2
+    "cost": 2,
+    "id": 104
   }
 ]

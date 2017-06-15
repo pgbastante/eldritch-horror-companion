@@ -6,7 +6,8 @@
     ],
     "type": "unique-asset",
     "expansion": "mom",
-    "front": "Una vez por ronda, si estás en una casilla del tablero secundario de la Antártida, puedes volver a tirar 1 dado al resolver una prueba, excepto al resolver un Encuentro de Otros Mundos"
+    "front": "Una vez por ronda, si estás en una casilla del tablero secundario de la Antártida, puedes volver a tirar 1 dado al resolver una prueba, excepto al resolver un Encuentro de Otros Mundos",
+    "id": 1
   },
   {
     "name": "Guia de la Antartida",
@@ -15,7 +16,8 @@
     ],
     "type": "unique-asset",
     "expansion": "mom",
-    "front": "Una vez por ronda, si estás en una casilla del tablero secundario de la Antártida, puedes volver a tirar 1 dado al resolver una prueba, excepto al resolver un Encuentro de Otros Mundos"
+    "front": "Una vez por ronda, si estás en una casilla del tablero secundario de la Antártida, puedes volver a tirar 1 dado al resolver una prueba, excepto al resolver un Encuentro de Otros Mundos",
+    "id": 2
   },
   {
     "name": "Trineo de perros",
@@ -24,7 +26,8 @@
     ],
     "type": "unique-asset",
     "expansion": "mom",
-    "front": "Acción: Muévete a una casilla adyacente del tablero secundario de la Antartida. A continuacion realiza 1 acción adicional"
+    "front": "Acción: Muévete a una casilla adyacente del tablero secundario de la Antartida. A continuacion realiza 1 acción adicional",
+    "id": 3
   },
   {
     "name": "Profesor Rice",
@@ -34,7 +37,8 @@
     ],
     "type": "unique-asset",
     "expansion": "sr",
-    "front": "Cuando obtengas esta carta desde el mazo, obtén 1 Apoyo único Reliquia. Tras resolver un Encuentro de Expedición o un Encuentro de Ruinas místicas, obtén 1 Pista"
+    "front": "Cuando obtengas esta carta desde el mazo, obtén 1 Apoyo único Reliquia. Tras resolver un Encuentro de Expedición o un Encuentro de Ruinas místicas, obtén 1 Pista",
+    "id": 4
   },
   {
     "name": "Kid O'Brien",
@@ -44,7 +48,8 @@
     ],
     "type": "unique-asset",
     "expansion": "mom",
-    "front": "Una vez por ronda, puedes sumar 1 éxito al resultado de tu prueba al resolver una prueba de <strength> durante un Encuentro de Combate. Reduce el daño de los Monstruos con los que resuelvas encuentros en 1 hasta un mínimo de 1"
+    "front": "Una vez por ronda, puedes sumar 1 éxito al resultado de tu prueba al resolver una prueba de <strength> durante un Encuentro de Combate. Reduce el daño de los Monstruos con los que resuelvas encuentros en 1 hasta un mínimo de 1",
+    "id": 5
   },
   {
     "name": "Profesor Armitage",
@@ -54,7 +59,8 @@
     ],
     "type": "unique-asset",
     "expansion": "mom",
-    "front": "Cuando obtengas esta carta del mazo, obtén 1 Hechizo. Una vez por ronda, puedes sumar 1 exito al resultado de tu prueba al resolver una prueba de <lore> como parte del efecto de un Hechizo"
+    "front": "Cuando obtengas esta carta del mazo, obtén 1 Hechizo. Una vez por ronda, puedes sumar 1 exito al resultado de tu prueba al resolver una prueba de <lore> como parte del efecto de un Hechizo",
+    "id": 6
   },
   {
     "name": "Dr. Hiram Upham",
@@ -64,7 +70,8 @@
     ],
     "type": "unique-asset",
     "expansion": "mom",
-    "front": "Cuando obtengas esta carta del mazo, obtén 2 pistas. Acción: Puedes gastar 2 Pistas para descartar 1 Monstruo de tu elección que esté en una casilla que contenga un Portal"
+    "front": "Cuando obtengas esta carta del mazo, obtén 2 pistas. Acción: Puedes gastar 2 Pistas para descartar 1 Monstruo de tu elección que esté en una casilla que contenga un Portal",
+    "id": 7
   },
   {
     "name": "Padre Merluzzo",
@@ -75,7 +82,8 @@
     "type": "unique-asset",
     "expansion": "mom",
     "front": "Una vez por ronda, puedes sumar 1 éxito al resultado de tu prueba al resolver una prueba de <will> durante un encuentro de combate",
-    "reckoning": "Tira 1 dado. Si sacas 4, 5 o 6, obtén el Estado Bendecido"
+    "reckoning": "Tira 1 dado. Si sacas 4, 5 o 6, obtén el Estado Bendecido",
+    "id": 8
   },
   {
     "name": "Abuelita Orne",
@@ -85,7 +93,8 @@
     ],
     "type": "unique-asset",
     "expansion": "soc",
-    "front": "Puedes sumar 1 al resultado de 1 dado al resolver una prueba durante un Encuentro de Investigación. Una vez por ronda, puedes gastar 1 Pista menos para cubrir el coste de un efecto"
+    "front": "Puedes sumar 1 al resultado de 1 dado al resolver una prueba durante un Encuentro de Investigación. Una vez por ronda, puedes gastar 1 Pista menos para cubrir el coste de un efecto",
+    "id": 9
   },
   {
     "name": "Albert Wilmarth",
@@ -96,7 +105,8 @@
     "type": "unique-asset",
     "expansion": "soc",
     "front": "Cuando obtengas esta carta desde el mazo, obtén 1 Apoyo Tomo aleatorio del mazo",
-    "reckoning": "Tira 1 dado. Si el resultado es 4-6, obtén 1 Pista y recupera 1 punto de Cordura"
+    "reckoning": "Tira 1 dado. Si el resultado es 4-6, obtén 1 Pista y recupera 1 punto de Cordura",
+    "id": 10
   },
   {
     "name": "Henry Wilcox",
@@ -106,7 +116,8 @@
     ],
     "type": "unique-asset",
     "expansion": "mom",
-    "front": "Otros investigadores de tu casilla y tú tiráis 1 dado adicional al resolver pruebas durante Encuentros de Otros Mundos. Tras resolver un Encuentro de Otros Mundos, obtén 1 Pista si no cerraste ese Portal"
+    "front": "Otros investigadores de tu casilla y tú tiráis 1 dado adicional al resolver pruebas durante Encuentros de Otros Mundos. Tras resolver un Encuentro de Otros Mundos, obtén 1 Pista si no cerraste ese Portal",
+    "id": 11
   },
   {
     "name": "Sir William Brinton",
@@ -117,7 +128,8 @@
     "type": "unique-asset",
     "expansion": "mom",
     "front": "Después de resolver un Encuentro de In vestigación, recupera 1 punto de Cordura",
-    "reckoning": "Genera 1 Pista"
+    "reckoning": "Genera 1 Pista",
+    "id": 12
   },
   {
     "name": "Corinna Jones",
@@ -127,7 +139,8 @@
     ],
     "type": "unique-asset",
     "expansion": "soc",
-    "front": "Tira 1 dado adicional al resolver una prueba de <influence> o de <observation>. Cuando obtengas esta carta desde el mazo, obtén 1 Estado Talento"
+    "front": "Tira 1 dado adicional al resolver una prueba de <influence> o de <observation>. Cuando obtengas esta carta desde el mazo, obtén 1 Estado Talento",
+    "id": 13
   },
   {
     "name": "Danforth",
@@ -137,7 +150,8 @@
     ],
     "type": "unique-asset",
     "expansion": "mom",
-    "front": "Cuando obtengas esta carta del mazo, mejora tu <will>. Una vez por ronda, puedes gastar 1 ficha de Concentracion para prevenirte la perdida de hasta 2 puntos de Cordura"
+    "front": "Cuando obtengas esta carta del mazo, mejora tu <will>. Una vez por ronda, puedes gastar 1 ficha de Concentracion para prevenirte la perdida de hasta 2 puntos de Cordura",
+    "id": 14
   },
   {
     "name": "William Dyer",
@@ -147,7 +161,8 @@
     ],
     "type": "unique-asset",
     "expansion": "mom",
-    "front": "Cuando obtengas esta carta del mazo, obtén 2 Pistas. Puedes gastar 1 Pista para sumar 1 éxito al resultado de tu prueba al resolver una prueba en el tablero secundario de la Antartida"
+    "front": "Cuando obtengas esta carta del mazo, obtén 2 Pistas. Puedes gastar 1 Pista para sumar 1 éxito al resultado de tu prueba al resolver una prueba en el tablero secundario de la Antartida",
+    "id": 15
   },
   {
     "name": "Hildred Castaigne",
@@ -159,7 +174,8 @@
     "expansion": "soc",
     "front": "Cuando obtengas esta carta desde el mazo, obten 5 Pistas",
     "reckoning": "El comportamiento de Castaigne se vuelve errático. Dale la vuelta a esta carta",
-    "number": 1
+    "number": 1,
+    "id": 16
   },
   {
     "name": "Etienne Laurent",
@@ -169,7 +185,8 @@
     ],
     "type": "unique-asset",
     "expansion": "sr",
-    "front": "Puedes sumar 1 éxito a tu resultado de la prueba al resolver una prueba de <influence> durante una acción de adquirir Apoyos. Una vez por ronda, durante la fase de Acción, puedes descartar 1 carta de la reserva"
+    "front": "Puedes sumar 1 éxito a tu resultado de la prueba al resolver una prueba de <influence> durante una acción de adquirir Apoyos. Una vez por ronda, durante la fase de Acción, puedes descartar 1 carta de la reserva",
+    "id": 17
   },
   {
     "name": "Anna Tilton",
@@ -179,7 +196,8 @@
     ],
     "type": "unique-asset",
     "expansion": "mom",
-    "front": "Cuando obtengas esta carta del mazo, mejora tu <lore>. Otros investigadores de tu casilla y tú tirais 1 dado adicional al resolver pruebas durante Encuentros de Investigación"
+    "front": "Cuando obtengas esta carta del mazo, mejora tu <lore>. Otros investigadores de tu casilla y tú tirais 1 dado adicional al resolver pruebas durante Encuentros de Investigación",
+    "id": 18
   },
   {
     "name": "Constance Hawberk",
@@ -190,7 +208,8 @@
     "type": "unique-asset",
     "expansion": "mom",
     "front": "Cuando obtengas esta carta del mazo, mejora tu <influence>",
-    "reckoning": "Obtén 1 Apoyo Arma aleatorio del mazo"
+    "reckoning": "Obtén 1 Apoyo Arma aleatorio del mazo",
+    "id": 19
   },
   {
     "name": "Asenath Waite",
@@ -200,7 +219,8 @@
     ],
     "type": "unique-asset",
     "expansion": "sr",
-    "front": "Cuando obtengas esta carta desde el mazo, obtén 1 Hechizo. Cuando se genere un Portal, puedes descartar 2 Hechizos para descartar ese Portal y todos los Monstruos que haya en esa casilla"
+    "front": "Cuando obtengas esta carta desde el mazo, obtén 1 Hechizo. Cuando se genere un Portal, puedes descartar 2 Hechizos para descartar ese Portal y todos los Monstruos que haya en esa casilla",
+    "id": 20
   },
   {
     "name": "Esteban Herrero",
@@ -210,7 +230,8 @@
     ],
     "type": "unique-asset",
     "expansion": "mom",
-    "front": "Cuando obtengas esta carta del mazo mejora tu <observation>. Una vez por ronda, durante la fase de Acción, puedes intercambiar pertenencias con cada uno de los demas investigadores de tu casilla"
+    "front": "Cuando obtengas esta carta del mazo mejora tu <observation>. Una vez por ronda, durante la fase de Acción, puedes intercambiar pertenencias con cada uno de los demas investigadores de tu casilla",
+    "id": 21
   },
   {
     "name": "Viejo diario",
@@ -221,7 +242,8 @@
     "type": "unique-asset",
     "expansion": "mom",
     "front": "Acción: Realiza una prueba de <observation>. Si superas la prueba, descubres información que podría resultarte útil en tu misión; dale la vuelta a esta carta",
-    "number": 1
+    "number": 1,
+    "id": 22
   },
   {
     "name": "Viejo diario",
@@ -232,7 +254,8 @@
     "type": "unique-asset",
     "expansion": "mom",
     "front": "Acción: Realiza una prueba de <observation>. Si superas la prueba, descubres información que podría resultarte útil en tu misión; dale la vuelta a esta carta",
-    "number": 2
+    "number": 2,
+    "id": 23
   },
   {
     "name": "Viejo diario",
@@ -243,7 +266,8 @@
     "type": "unique-asset",
     "expansion": "mom",
     "front": "Acción: Realiza una prueba de <observation>. Si superas la prueba, descubres información que podría resultarte útil en tu misión; dale la vuelta a esta carta",
-    "number": 3
+    "number": 3,
+    "id": 24
   },
   {
     "name": "Viejo diario",
@@ -254,7 +278,8 @@
     "type": "unique-asset",
     "expansion": "mom",
     "front": "Acción: Realiza una prueba de <observation>. Si superas la prueba, descubres información que podría resultarte útil en tu misión; dale la vuelta a esta carta",
-    "number": 4
+    "number": 4,
+    "id": 25
   },
   {
     "name": "Calendario de piedra",
@@ -267,7 +292,8 @@
     "expansion": "sr",
     "front": "Cuando obtengas esta carta desde el mazo, puedes mover el Augurio 1 casilla en dirección contraria a las agujas del reloj sin hacer avanzar la Perdición",
     "reckoning": "El alineamiento de las estrellas es el adecuado. Dale la vuelta a esta carta",
-    "number": 1
+    "number": 1,
+    "id": 26
   },
   {
     "name": "Tesoro perdido",
@@ -279,7 +305,8 @@
     "type": "unique-asset",
     "expansion": "sr",
     "front": "Puedes descartar esta carta para sumar 3 éxitos a tu resultado de la prueba durante una acción de adquirir Apoyos. Cuando realices una acción de descansar, puedes examinar las intrincadas marcas (<observation> -1). Si superas la prueba, dale la vuelta a esta carta",
-    "number": 1
+    "number": 1,
+    "id": 27
   },
   {
     "name": "Tabilla de piedra",
@@ -290,7 +317,8 @@
     "type": "unique-asset",
     "expansion": "sr",
     "front": "Cuando realices una acción de descansar, puedes intentar descifrar las inscripciones de la tablilla (<lore> -1). Si superas la prueba, dale la vuelta a esta carta",
-    "number": 1
+    "number": 1,
+    "id": 28
   },
   {
     "name": "Tabilla de piedra",
@@ -301,7 +329,8 @@
     "type": "unique-asset",
     "expansion": "sr",
     "front": "Cuando realices una acción de descansar, puedes intentar descifrar las inscripciones de la tablilla (<lore> -1). Si superas la prueba, dale la vuelta a esta carta",
-    "number": 2
+    "number": 2,
+    "id": 29
   },
   {
     "name": "Tabilla de piedra",
@@ -312,7 +341,8 @@
     "type": "unique-asset",
     "expansion": "sr",
     "front": "Cuando realices una acción de descansar, puedes intentar descifrar las inscripciones de la tablilla (<lore> -1). Si superas la prueba, dale la vuelta a esta carta",
-    "number": 3
+    "number": 3,
+    "id": 30
   },
   {
     "name": "Cofre de piedra",
@@ -323,7 +353,8 @@
     "type": "unique-asset",
     "expansion": "sr",
     "front": "Cuando realices una acción de descansar, puedes intentar forzar el cobre para abrirlo (<strength>). Si superas la prueba, dale la vuelta a esta carta",
-    "number": 1
+    "number": 1,
+    "id": 31
   },
   {
     "name": "Cofre de piedra",
@@ -334,7 +365,8 @@
     "type": "unique-asset",
     "expansion": "sr",
     "front": "Cuando realices una acción de descansar, puedes intentar forzar el cobre para abrirlo (<strength>). Si superas la prueba, dale la vuelta a esta carta",
-    "number": 2
+    "number": 2,
+    "id": 32
   },
   {
     "name": "Cofre de piedra",
@@ -345,7 +377,8 @@
     "type": "unique-asset",
     "expansion": "sr",
     "front": "Cuando realices una acción de descansar, puedes intentar forzar el cobre para abrirlo (<strength>). Si superas la prueba, dale la vuelta a esta carta",
-    "number": 3
+    "number": 3,
+    "id": 33
   },
   {
     "name": "Ídolo misterioso",
@@ -358,7 +391,8 @@
     "expansion": "sr",
     "front": "Cuando obtengas esta carta desde el mazo, obtén 1 Pista",
     "reckoning": "El ídolo te revela su verdadero propósito. Dale la vuelta a esta carta",
-    "number": 1
+    "number": 1,
+    "id": 34
   },
   {
     "name": "Ídolo misterioso",
@@ -371,7 +405,8 @@
     "expansion": "sr",
     "front": "Cuando obtengas esta carta desde el mazo, obtén 1 Pista",
     "reckoning": "El ídolo te revela su verdadero propósito. Dale la vuelta a esta carta",
-    "number": 2
+    "number": 2,
+    "id": 35
   },
   {
     "name": "Ídolo misterioso",
@@ -384,7 +419,8 @@
     "expansion": "sr",
     "front": "Cuando obtengas esta carta desde el mazo, obtén 1 Pista",
     "reckoning": "El ídolo te revela su verdadero propósito. Dale la vuelta a esta carta",
-    "number": 3
+    "number": 3,
+    "id": 36
   },
   {
     "name": "Espada antigua",
@@ -397,7 +433,8 @@
     "type": "unique-asset",
     "expansion": "sr",
     "front": "Obten +3 <strength> durante Encuentros de Combate. Cuando derrotes a un Monstruo durante un Encuentro de Combate, dale la vuelta a esta carta",
-    "number": 1
+    "number": 1,
+    "id": 37
   },
   {
     "name": "Provisiones",
@@ -406,7 +443,8 @@
     ],
     "type": "unique-asset",
     "expansion": "mom",
-    "front": "Cuando realices una acción de descansar, puedes descartar esta carta para recuperar 1 punto de Salud adicional y un punto de Cordura adicional"
+    "front": "Cuando realices una acción de descansar, puedes descartar esta carta para recuperar 1 punto de Salud adicional y un punto de Cordura adicional",
+    "id": 38
   },
   {
     "name": "Provisiones",
@@ -415,7 +453,8 @@
     ],
     "type": "unique-asset",
     "expansion": "mom",
-    "front": "Cuando realices una acción de descansar, puedes descartar esta carta para recuperar 1 punto de Salud adicional y un punto de Cordura adicional"
+    "front": "Cuando realices una acción de descansar, puedes descartar esta carta para recuperar 1 punto de Salud adicional y un punto de Cordura adicional",
+    "id": 39
   },
   {
     "name": "Provisiones",
@@ -424,7 +463,8 @@
     ],
     "type": "unique-asset",
     "expansion": "mom",
-    "front": "Cuando realices una acción de descansar, puedes descartar esta carta para recuperar 1 punto de Salud adicional y un punto de Cordura adicional"
+    "front": "Cuando realices una acción de descansar, puedes descartar esta carta para recuperar 1 punto de Salud adicional y un punto de Cordura adicional",
+    "id": 40
   },
   {
     "name": "Provisiones",
@@ -433,7 +473,8 @@
     ],
     "type": "unique-asset",
     "expansion": "mom",
-    "front": "Cuando realices una acción de descansar, puedes descartar esta carta para recuperar 1 punto de Salud adicional y un punto de Cordura adicional"
+    "front": "Cuando realices una acción de descansar, puedes descartar esta carta para recuperar 1 punto de Salud adicional y un punto de Cordura adicional",
+    "id": 41
   },
   {
     "name": "Purificar el mundo",
@@ -443,7 +484,8 @@
     "type": "unique-asset",
     "expansion": "mom",
     "front": "Cuando derrotes a un Monstruo no épico durante un Encuentro de Combate, coloca ese Monstruo sobre esta carta. A continuación puedes darle la vuelta a esta carta",
-    "number": 1
+    "number": 1,
+    "id": 42
   },
   {
     "name": "Purificar el mundo",
@@ -453,7 +495,8 @@
     "type": "unique-asset",
     "expansion": "mom",
     "front": "Cuando derrotes a un Monstruo no épico durante un Encuentro de Combate, coloca ese Monstruo sobre esta carta. A continuación puedes darle la vuelta a esta carta",
-    "number": 2
+    "number": 2,
+    "id": 43
   },
   {
     "name": "Purificar el mundo",
@@ -463,7 +506,8 @@
     "type": "unique-asset",
     "expansion": "mom",
     "front": "Cuando derrotes a un Monstruo no épico durante un Encuentro de Combate, coloca ese Monstruo sobre esta carta. A continuación puedes darle la vuelta a esta carta",
-    "number": 3
+    "number": 3,
+    "id": 44
   },
   {
     "name": "Sacrificios necesarios",
@@ -473,7 +517,8 @@
     "type": "unique-asset",
     "expansion": "mom",
     "front": "Cuando realices una acción de concentrarse, puedes gastar 1 punto de Salud para colocar 1 punto de Salud sobre esta carta. A continuación puedes darle la vuelta a esta carta",
-    "number": 1
+    "number": 1,
+    "id": 45
   },
   {
     "name": "Sacrificios necesarios",
@@ -483,7 +528,8 @@
     "type": "unique-asset",
     "expansion": "mom",
     "front": "Cuando realices una acción de concentrarse, puedes gastar 1 punto de Salud para colocar 1 punto de Salud sobre esta carta. A continuación puedes darle la vuelta a esta carta",
-    "number": 2
+    "number": 2,
+    "id": 46
   },
   {
     "name": "Sacrificios necesarios",
@@ -493,7 +539,8 @@
     "type": "unique-asset",
     "expansion": "mom",
     "front": "Cuando realices una acción de concentrarse, puedes gastar 1 punto de Salud para colocar 1 punto de Salud sobre esta carta. A continuación puedes darle la vuelta a esta carta",
-    "number": 3
+    "number": 3,
+    "id": 47
   },
   {
     "name": "Recorriendo las lineas ley",
@@ -503,7 +550,8 @@
     "type": "unique-asset",
     "expansion": "mom",
     "front": "Cuando cierres un Portal durante un Encuentro de Otros Mundos, coloca ese Portal sobre esta carta. A continuación puedes darle la vuelta a esta carta",
-    "number": 1
+    "number": 1,
+    "id": 48
   },
   {
     "name": "Recorriendo las lineas ley",
@@ -513,7 +561,8 @@
     "type": "unique-asset",
     "expansion": "mom",
     "front": "Cuando cierres un Portal durante un Encuentro de Otros Mundos, coloca ese Portal sobre esta carta. A continuación puedes darle la vuelta a esta carta",
-    "number": 2
+    "number": 2,
+    "id": 49
   },
   {
     "name": "Recorriendo las lineas ley",
@@ -523,7 +572,8 @@
     "type": "unique-asset",
     "expansion": "mom",
     "front": "Cuando cierres un Portal durante un Encuentro de Otros Mundos, coloca ese Portal sobre esta carta. A continuación puedes darle la vuelta a esta carta",
-    "number": 3
+    "number": 3,
+    "id": 50
   },
   {
     "name": "Cambiar el curso",
@@ -533,7 +583,8 @@
     "type": "unique-asset",
     "expansion": "soc",
     "front": "Al final de la fase de Mitos, si la Perdición avanzó en esta rondo o si el Primigenio ha despertado, puedes gastar una cantidad de Pistas igual a la mitad del <investigators> para darle la vuelta a esta carta",
-    "number": 1
+    "number": 1,
+    "id": 51
   },
   {
     "name": "Cambiar el curso",
@@ -543,7 +594,8 @@
     "type": "unique-asset",
     "expansion": "soc",
     "front": "Al final de la fase de Mitos, si la Perdición avanzó en esta rondo o si el Primigenio ha despertado, puedes gastar una cantidad de Pistas igual a la mitad del <investigators> para darle la vuelta a esta carta",
-    "number": 2
+    "number": 2,
+    "id": 52
   },
   {
     "name": "Cambiar el curso",
@@ -553,7 +605,8 @@
     "type": "unique-asset",
     "expansion": "soc",
     "front": "Al final de la fase de Mitos, si la Perdición avanzó en esta rondo o si el Primigenio ha despertado, puedes gastar una cantidad de Pistas igual a la mitad del <investigators> para darle la vuelta a esta carta",
-    "number": 3
+    "number": 3,
+    "id": 53
   },
   {
     "name": "Financiar la causa",
@@ -563,7 +616,8 @@
     "type": "unique-asset",
     "expansion": "soc",
     "front": "Cuando realices una acción de adquirir Apoyos, puedes gastar una cantidad de éxitos mayor que la cantidad de fichas de Arcano que haya sobre esta carta para colocar 1 ficha de Arcano sobre esta carta. A continuación, puedes darle la vuelta a esta carta",
-    "number": 1
+    "number": 1,
+    "id": 54
   },
   {
     "name": "Financiar la causa",
@@ -573,7 +627,8 @@
     "type": "unique-asset",
     "expansion": "soc",
     "front": "Cuando realices una acción de adquirir Apoyos, puedes gastar una cantidad de éxitos mayor que la cantidad de fichas de Arcano que haya sobre esta carta para colocar 1 ficha de Arcano sobre esta carta. A continuación, puedes darle la vuelta a esta carta",
-    "number": 2
+    "number": 2,
+    "id": 55
   },
   {
     "name": "Financiar la causa",
@@ -583,7 +638,8 @@
     "type": "unique-asset",
     "expansion": "soc",
     "front": "Cuando realices una acción de adquirir Apoyos, puedes gastar una cantidad de éxitos mayor que la cantidad de fichas de Arcano que haya sobre esta carta para colocar 1 ficha de Arcano sobre esta carta. A continuación, puedes darle la vuelta a esta carta",
-    "number": 3
+    "number": 3,
+    "id": 56
   },
   {
     "name": "Sellar a los Primigenios",
@@ -593,7 +649,8 @@
     "type": "unique-asset",
     "expansion": "mom",
     "front": "Cuando superes una prueba de <lore> al resolver el efecto de un Hechizo, puedes descartar ese Hechizo después de resolver sus efectos para colocar 1 ficha de Arcano sobre esta carta. A continuación, puedes darle la vuelta a esta carta",
-    "number": 1
+    "number": 1,
+    "id": 57
   },
   {
     "name": "Sellar a los Primigenios",
@@ -603,7 +660,8 @@
     "type": "unique-asset",
     "expansion": "mom",
     "front": "Cuando superes una prueba de <lore> al resolver el efecto de un Hechizo, puedes descartar ese Hechizo después de resolver sus efectos para colocar 1 ficha de Arcano sobre esta carta. A continuación, puedes darle la vuelta a esta carta",
-    "number": 2
+    "number": 2,
+    "id": 58
   },
   {
     "name": "Sellar a los Primigenios",
@@ -613,7 +671,8 @@
     "type": "unique-asset",
     "expansion": "mom",
     "front": "Cuando superes una prueba de <lore> al resolver el efecto de un Hechizo, puedes descartar ese Hechizo después de resolver sus efectos para colocar 1 ficha de Arcano sobre esta carta. A continuación, puedes darle la vuelta a esta carta",
-    "number": 3
+    "number": 3,
+    "id": 59
   },
   {
     "name": "Sellar a los Primigenios",
@@ -623,7 +682,8 @@
     "type": "unique-asset",
     "expansion": "sr",
     "front": "Cuando superes una prueba de <lore> al resolver el efecto de un Hechizo, puedes descartar ese Hechizo después de resolver sus efectos para colocar 1 ficha de Arcano sobre esta carta. A continuación, puedes darle la vuelta a esta carta",
-    "number": 4
+    "number": 4,
+    "id": 60
   },
   {
     "name": "Sellar a los Primigenios",
@@ -633,7 +693,8 @@
     "type": "unique-asset",
     "expansion": "sr",
     "front": "Cuando superes una prueba de <lore> al resolver el efecto de un Hechizo, puedes descartar ese Hechizo después de resolver sus efectos para colocar 1 ficha de Arcano sobre esta carta. A continuación, puedes darle la vuelta a esta carta",
-    "number": 5
+    "number": 5,
+    "id": 61
   },
   {
     "name": "Sellar a los Primigenios",
@@ -643,7 +704,8 @@
     "type": "unique-asset",
     "expansion": "sr",
     "front": "Cuando superes una prueba de <lore> al resolver el efecto de un Hechizo, puedes descartar ese Hechizo después de resolver sus efectos para colocar 1 ficha de Arcano sobre esta carta. A continuación, puedes darle la vuelta a esta carta",
-    "number": 6
+    "number": 6,
+    "id": 62
   },
   {
     "name": "Captar a las masas",
@@ -653,7 +715,8 @@
     "type": "unique-asset",
     "expansion": "soc",
     "front": "Cuando realices una acción de descansar, puedes intentar atraer a gente a tu causa (<influence>). Si superas la prueba, coloca 1 ficha de Arcano sobre la carta; a continuación, puedes darle la vuelta a esta carta",
-    "number": 1
+    "number": 1,
+    "id": 63
   },
   {
     "name": "Captar a las masas",
@@ -663,7 +726,8 @@
     "type": "unique-asset",
     "expansion": "soc",
     "front": "Cuando realices una acción de descansar, puedes intentar atraer a gente a tu causa (<influence>). Si superas la prueba, coloca 1 ficha de Arcano sobre la carta; a continuación, puedes darle la vuelta a esta carta",
-    "number": 2
+    "number": 2,
+    "id": 64
   },
   {
     "name": "Captar a las masas",
@@ -673,7 +737,8 @@
     "type": "unique-asset",
     "expansion": "soc",
     "front": "Cuando realices una acción de descansar, puedes intentar atraer a gente a tu causa (<influence>). Si superas la prueba, coloca 1 ficha de Arcano sobre la carta; a continuación, puedes darle la vuelta a esta carta",
-    "number": 3
+    "number": 3,
+    "id": 65
   },
   {
     "name": "Plegaria",
@@ -683,7 +748,8 @@
     "type": "unique-asset",
     "expansion": "sr",
     "front": "Cuando realices una acción de descansar, puedes suplicar a un poder superior que te ayude (<will>). Si superas la prueba, coloca 1 ficha de Arcano sobre esta carta; a continuación, puedes darle la vuelta a esta carta",
-    "number": 1
+    "number": 1,
+    "id": 66
   },
   {
     "name": "Plegaria",
@@ -693,7 +759,8 @@
     "type": "unique-asset",
     "expansion": "sr",
     "front": "Cuando realices una acción de descansar, puedes suplicar a un poder superior que te ayude (<will>). Si superas la prueba, coloca 1 ficha de Arcano sobre esta carta; a continuación, puedes darle la vuelta a esta carta",
-    "number": 2
+    "number": 2,
+    "id": 67
   },
   {
     "name": "Plegaria",
@@ -703,7 +770,8 @@
     "type": "unique-asset",
     "expansion": "sr",
     "front": "Cuando realices una acción de descansar, puedes suplicar a un poder superior que te ayude (<will>). Si superas la prueba, coloca 1 ficha de Arcano sobre esta carta; a continuación, puedes darle la vuelta a esta carta",
-    "number": 3
+    "number": 3,
+    "id": 68
   },
   {
     "name": "Explorar las ruinas",
@@ -713,7 +781,8 @@
     "type": "unique-asset",
     "expansion": "sr",
     "front": "Después de resolver un Encuentro de Expedición o un Encuentro de Ruinas místicas, puedes gastar 1 ficha de Concentración para colocar 1 ficha de Concentración sobre esta carta. A continuación, puedes darle la vuelta a esta carta",
-    "number": 1
+    "number": 1,
+    "id": 69
   },
   {
     "name": "Explorar las ruinas",
@@ -723,7 +792,8 @@
     "type": "unique-asset",
     "expansion": "sr",
     "front": "Después de resolver un Encuentro de Expedición o un Encuentro de Ruinas místicas, puedes gastar 1 ficha de Concentración para colocar 1 ficha de Concentración sobre esta carta. A continuación, puedes darle la vuelta a esta carta",
-    "number": 2
+    "number": 2,
+    "id": 70
   },
   {
     "name": "Explorar las ruinas",
@@ -733,7 +803,8 @@
     "type": "unique-asset",
     "expansion": "sr",
     "front": "Después de resolver un Encuentro de Expedición o un Encuentro de Ruinas místicas, puedes gastar 1 ficha de Concentración para colocar 1 ficha de Concentración sobre esta carta. A continuación, puedes darle la vuelta a esta carta",
-    "number": 3
+    "number": 3,
+    "id": 71
   },
   {
     "name": "Dominar el arte",
@@ -743,7 +814,8 @@
     "type": "unique-asset",
     "expansion": "soc",
     "front": "Una vez por ronda, cuando mejores iuna habilidad, coloca 1 ficha de Arcano sobre esta carta. A continuación, puedes darle la vuelta a esta carta",
-    "number": 1
+    "number": 1,
+    "id": 72
   },
   {
     "name": "Dominar el arte",
@@ -753,7 +825,8 @@
     "type": "unique-asset",
     "expansion": "soc",
     "front": "Una vez por ronda, cuando mejores iuna habilidad, coloca 1 ficha de Arcano sobre esta carta. A continuación, puedes darle la vuelta a esta carta",
-    "number": 2
+    "number": 2,
+    "id": 73
   },
   {
     "name": "Dominar el arte",
@@ -763,7 +836,8 @@
     "type": "unique-asset",
     "expansion": "soc",
     "front": "Una vez por ronda, cuando mejores iuna habilidad, coloca 1 ficha de Arcano sobre esta carta. A continuación, puedes darle la vuelta a esta carta",
-    "number": 3
+    "number": 3,
+    "id": 74
   },
   {
     "name": "Por el bien común",
@@ -773,7 +847,8 @@
     "type": "unique-asset",
     "expansion": "mom",
     "front": "Al final de la fase de Mitos, puedes gastar una cantidad de Pistas igual al <investigators> para sacrificarte por el bien de toda la humanidad; dale la vuelta a esta carta",
-    "number": 1
+    "number": 1,
+    "id": 75
   },
   {
     "name": "Por el bien común",
@@ -783,7 +858,8 @@
     "type": "unique-asset",
     "expansion": "mom",
     "front": "Al final de la fase de Mitos, puedes gastar una cantidad de Pistas igual al <investigators> para sacrificarte por el bien de toda la humanidad; dale la vuelta a esta carta",
-    "number": 2
+    "number": 2,
+    "id": 76
   },
   {
     "name": "Por el bien común",
@@ -793,7 +869,8 @@
     "type": "unique-asset",
     "expansion": "mom",
     "front": "Al final de la fase de Mitos, puedes gastar una cantidad de Pistas igual al <investigators> para sacrificarte por el bien de toda la humanidad; dale la vuelta a esta carta",
-    "number": 3
+    "number": 3,
+    "id": 77
   },
   {
     "name": "Servicio de entrega",
@@ -803,7 +880,8 @@
     "type": "unique-asset",
     "expansion": "mom",
     "front": "Cuando obtengas esta carta del mazo, coloca 1 Pista aleatoria que se corresponda con una casilla de Ciudad boca arriba sobre esta carta. Después de resolver un encuentro de lugar en esa casilla, dale la vuelta a esta carta",
-    "number": 1
+    "number": 1,
+    "id": 78
   },
   {
     "name": "Servicio de entrega",
@@ -813,7 +891,8 @@
     "type": "unique-asset",
     "expansion": "mom",
     "front": "Cuando obtengas esta carta del mazo, coloca 1 Pista aleatoria que se corresponda con una casilla de Ciudad boca arriba sobre esta carta. Después de resolver un encuentro de lugar en esa casilla, dale la vuelta a esta carta",
-    "number": 2
+    "number": 2,
+    "id": 79
   },
   {
     "name": "Servicio de entrega",
@@ -823,7 +902,8 @@
     "type": "unique-asset",
     "expansion": "mom",
     "front": "Cuando obtengas esta carta del mazo, coloca 1 Pista aleatoria que se corresponda con una casilla de Ciudad boca arriba sobre esta carta. Después de resolver un encuentro de lugar en esa casilla, dale la vuelta a esta carta",
-    "number": 3
+    "number": 3,
+    "id": 80
   },
   {
     "name": "Servicio de entrega",
@@ -833,6 +913,7 @@
     "type": "unique-asset",
     "expansion": "mom",
     "front": "Cuando obtengas esta carta del mazo, coloca 1 Pista aleatoria que se corresponda con una casilla de Ciudad boca arriba sobre esta carta. Después de resolver un encuentro de lugar en esa casilla, dale la vuelta a esta carta",
-    "number": 4
+    "number": 4,
+    "id": 81
   }
 ]
