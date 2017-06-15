@@ -29,4 +29,7 @@ game board depending on the result
 * Add images for all locations
 * Add images for all cards
 * Find or make better images for the skills icons
+* Create a list of items
+* Create a discard pile function. When a card is randomly generated you can choose to take it to the discard pile. In that case, that card would not be drawn again by the generator.
+* Create specific views for each of the items (cards, investigators and ancient-ones)
 * MAKE TEST!!!
