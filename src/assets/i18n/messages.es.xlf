@@ -69,14 +69,6 @@
           <context context-type="linenumber">1</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="92bcf0d87141ad66de5e36dcabafbcd75e02989e" datatype="html">
-        <source>{VAR_SELECT, select, incantation {Incantation} glamour {Glamour} ritual {Ritual} trinket {Trinket} weapon {Weapon} ally {Ally} service {Service} magical {Magical} relic {Relic} tome {Tome} other {Other} teamwork {Teamwork} bane {Bane} boon {Boon} deal {Deal} exposure {Exposure} illness {Illness} madness {Madness} pursuit {Pursuit} restriction {Restriction} talent {Talent} injury {Injury} world {World} antarctica {Antarctica} pyramids {Pyramids} dreamlands {Dreamlands} task {Task} object {Object} character {Character} }</source>
-        <target>{VAR_SELECT, select, incantation {Ensalmo} glamour {Encanto} ritual {Ritual} trinket {Baratija} weapon {Arma} ally {Aliado} service {Servicio} magical {Mágico} relic {Reliquia} tome {Tomo} other {Otro} teamwork {Trabajo en Equipo} bane {Ruina} boon {Ayuda} deal {Trato} exposure {Congelación} illness {Enfermedad} madness {Locura} pursuit {Persecución} restriction {Restricción} talent {Talento} injury {Herida} world {Mapa del Mundo} antarctica {Antártida} pyramids {Pirámides} dreamlands {Tierras del Sueño} task {Tarea} object {Objeto} character {Personaje}}</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/item/item-category.component.ts</context>
-          <context context-type="linenumber">1</context>
-        </context-group>
-      </trans-unit>
       <trans-unit id="92eee6be6de0b11c924e3ab27db30257159c0a7c" datatype="html">
         <source>Home</source>
         <target>Home</target>
@@ -109,11 +101,19 @@
           <context context-type="linenumber">21</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="98f8c747ed82b5632d5a18c6215f20d51af21afe" datatype="html">
-        <source>{VAR_SELECT, select, spell {Spell} asset {Asset} unique-asset {Unique Asset} artifact {Artifact} condition {Condition} location {Location} investigator {Investigator} }</source>
-        <target>{VAR_SELECT, select, spell {Hechizo} asset {Apoyo} unique-asset {Apoyo Único} artifact {Artefacto} condition {Estado} location {Localización} investigator {Investigador}}</target>
+      <trans-unit id="960c7cb1c60a5fd72df06a7fecbdbb835d4fcab8" datatype="html">
+        <source>{VAR_SELECT, select, spell {Spell} asset {Asset} unique-asset {Unique Asset} artifact {Artifact} condition {Condition} location {Location} investigator {Investigator} ancient-one {Ancient One} }</source>
+        <target>{VAR_SELECT, select, spell {Hechizo} asset {Apoyo} unique-asset {Apoyo Único} artifact {Artefacto} condition {Estado} location {Localización} investigator {Investigador} ancient-one {Primigenio} }</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/item/item-type.component.ts</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ba50736954820e4437a90a4265182b4bab0b76b8" datatype="html">
+        <source>{VAR_SELECT, select, incantation {Incantation} glamour {Glamour} ritual {Ritual} trinket {Trinket} weapon {Weapon} ally {Ally} service {Service} magical {Magical} relic {Relic} tome {Tome} other {Other} teamwork {Teamwork} bane {Bane} boon {Boon} deal {Deal} exposure {Exposure} illness {Illness} madness {Madness} pursuit {Pursuit} restriction {Restriction} talent {Talent} injury {Injury} world {World} antarctica {Antarctica} pyramids {Pyramids} dreamlands {Dreamlands} task {Task} object {Object} character {Character} combat {Combat} expedition {Expedition} gate-closer {Gate Closer} magic {Magic} support {Support} research {Research} all-rounder {All-rounder} }</source>
+        <target>{VAR_SELECT, select, incantation {Ensalmo} glamour {Encanto} ritual {Ritual} trinket {Baratija} weapon {Arma} ally {Aliado} service {Servicio} magical {Mágico} relic {Reliquia} tome {Tomo} other {Otro} teamwork {Trabajo en Equipo} bane {Ruina} boon {Ayuda} deal {Trato} exposure {Congelación} illness {Enfermedad} madness {Locura} pursuit {Persecución} restriction {Restricción} talent {Talento} injury {Herida} world {Mapa del Mundo} antarctica {Antártida} pyramids {Pirámides} dreamlands {Tierras del Sueño} task {Tarea} object {Objeto} character {Personaje} combat {Combate} expedition {Expedición} gate-closer {Cierra Portales} magic {Magia} support {Apoyo} research {Investigación} all-rounder {Equilibrado} }</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/item/item-category.component.ts</context>
           <context context-type="linenumber">1</context>
         </context-group>
       </trans-unit>

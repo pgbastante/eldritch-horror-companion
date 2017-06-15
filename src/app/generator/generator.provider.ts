@@ -6,6 +6,8 @@ import { SpellService } from '../services/spell.service';
 import { LocationService } from '../services/location.service';
 import { UniqueAssetService } from '../services/unique-asset.service';
 import { InvestigatorService } from '../services/investigator.service';
+import { AncientOneService } from '../services/ancient-one.service';
+
 @Injectable()
 export class RandomItemGeneratorProvider {
   map = {
@@ -15,7 +17,8 @@ export class RandomItemGeneratorProvider {
     location: LocationService,
     spell: SpellService,
     'unique-asset': UniqueAssetService,
-    investigator: InvestigatorService
+    investigator: InvestigatorService,
+    'ancient-one': AncientOneService
   };
 
   getItems(type: string) {

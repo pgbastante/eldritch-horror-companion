@@ -1,0 +1,566 @@
+[
+  {
+    "name": "Abhoth",
+    "title": "The Source of Uncleanliness",
+    "expansion": "utp",
+    "gameplay": "<reckoning>: The Lead Investigator spawns 1 Cultist Monster on a Wilderness space that does not contain a Cultist Monster. Then, if there are 6 or more Cultist Monsters on the game board, advance Doom by 1.",
+    "victory": "When 3 Mysteries have been solved, investigators win the game.",
+    "doom": 14,
+    "flavor": "Abhoth lies deep within the heart of Mount Voormithadreth. There, from the cesspit of Y'quaa, it sends forth its revolting children, extending its reach across the Earth.",
+    "cultist": {
+      "effect": "Whenever an investigator encounters a Cultist Monster, he draws and resolves a Spawn of Abhoth Special Encounter.",
+      "resistance": 1
+    },
+    "setup": "Set aside 8 Cultist Monsters and all Abhoth Special Encounters.",
+    "mythos": {
+      "stage-1": {
+        "green": 1,
+        "yellow": 2,
+        "blue": 1
+      },
+      "stage-2": {
+        "green": 3,
+        "yellow": 2,
+        "blue": 1
+      },
+      "stage-3": {
+        "green": 2,
+        "yellow": 4,
+        "blue": 0
+      }
+    },
+    "lore":{
+      "description": "A pool of filth from which horrible monstrosities emerge. Can communicate telepathically. In the story 'The Seven Geases', refuses to devour a supplicant out of fear of indigestion.",
+      "appearance": "'Then, in that reeky twilight... he descried a sort of pool with a margin of mud that was marled with obscene offal; and in the pool a grayish, horrid mass that nearly choked it from rim to rim.\nHere, it seemed, was the ultimate source of all miscreation and abomination. For the gray mass quobbed and quivered, and swelled perpetually; and from it, in manifold fission, were spawned the anatomies that crept away on every side through the grotto. There were things like bodiless legs or arms that flailed in the slime, or heads that rolled, or floundering bellies with fishes' fins; and all manner of things malformed and monstrous, that grew in size as they departed from the neighborhood of Abhoth. And those that swam not swiftly ashore when they fell into the pool from Abhoth, were devoured by mouths that gaped in the parent bulk.'\n—Clark Ashton Smith, The Seven Geases",
+      "residence": "Cavern of Y'quaa, beneath Mount Voormithadreth, the tallest peak in the Eiglophian Mountains, spanning the middle of Hyperborea (north of the Arctic Circle)",
+      "sources": "The Seven Geases, Clark Ashton Smith, 1934"
+    },
+    "image": "abhoth"
+  },
+  {
+    "name": "Atlach-Nacha",
+    "title": "The Dreamweaver",
+    "expansion": "td",
+    "gameplay": "<reckoning>: Spawn 1 Gate unless investigators as a group discard a total number of Clues and/or Spells equal to half Number of <investigators>",
+    "victory": "When 3 Mysteries have been solved, investigators win the game.",
+    "doom": 9,
+    "flavor": "Ever-weaving, ever watching, should Atlach-Nacha ever complete her empyrean masterpiece, it would merge the firmaments of the Dreamlands and reality into a single cosmic ingress, opening the way for the horrors of the Underworld to wage war upon the cities of humanity.",
+    "cultist": {
+      "effect": "Whenever this Monster is spawned, move it to the nearest space that does not contain a Gate or a Monster.",
+      "health": {
+        "test": "<strength>",
+        "value": 1
+      },
+      "resistance": 1
+    },
+    "setup": "Set aside the Leng Spider Monster. The Lead Investigator gains 1 Spell.",
+    "mythos": {
+      "stage-1": {
+        "green": 1,
+        "yellow": 2,
+        "blue": 1
+      },
+      "stage-2": {
+        "green": 3,
+        "yellow": 2,
+        "blue": 1
+      },
+      "stage-3": {
+        "green": 2,
+        "yellow": 4,
+        "blue": 0
+      }
+    },
+    "lore":{
+      "description": "",
+      "appearance": "",
+      "residence": "",
+      "sources": ""
+    },
+    "image": "atlach-nacha"
+  },
+  {
+    "name": "Azathoth",
+    "title": "The Daemon Sultan",
+    "expansion": "base",
+    "gameplay": "When the Omen advances to the green space of the Omen track, advance Doom by 1 for each Eldritch token on that space",
+    "victory": "When 3 Mysteries have been solved, investigators win the game.",
+    "doom": 15,
+    "flavor": "The Idiot God sits at the center of all things spreading madness and death. Its seeds descend from the stars, threatening to crack the world in half.",
+    "cultist": {
+      "effect": "After resolving the <will> test, loose 1 of health and defeat this monster",
+      "sanity": {
+        "test": "<will>",
+        "value": 1
+      },
+      "resistance": 1
+    },
+    "setup": "Place one Eldritch token on the green space of the Omen track",
+    "mythos": {
+      "stage-1": {
+        "green": 1,
+        "yellow": 2,
+        "blue": 1
+      },
+      "stage-2": {
+        "green": 2,
+        "yellow": 3,
+        "blue": 1
+      },
+      "stage-3": {
+        "green": 2,
+        "yellow": 4,
+        "blue": 0
+      }
+    },
+    "lore":{
+      "description": "",
+      "appearance": "",
+      "residence": "",
+      "sources": ""
+    },
+    "image": "azathoth"
+  },
+  {
+    "name": "Cthulhu",
+    "title": "The Madness From the Sea",
+    "expansion": "base",
+    "gameplay": "When an investigator moves onto a space containing an Eldritch token, he becomes Delayed and loses 1 Sanity\n<reckoning>: Each investigator on a Sea space that does not contain an Eldritch token places an Eldritch token on his space",
+    "victory": "When 3 Mysteries have been solved, investigators win the game.",
+    "doom": 12,
+    "flavor": "Eons ago, Cthulhu came from the stars with his Star Spawn brethren. He now sleeps in the sunken city of R'lyeh, waiting for the stars to be right to rise again.",
+    "cultist": {
+      "effect": "Before resolving the strength test, lost 1 Sanity.",
+      "health": {
+        "test": "<strength>",
+        "value": 1
+      },
+      "resistance": 1
+    },
+    "setup": "Set aside 1 Deep One Monster, 1 Star Spawn Monster, and all Cthulhu Special Encounter cards",
+    "mythos": {
+      "stage-1": {
+        "green": 0,
+        "yellow": 2,
+        "blue": 2
+      },
+      "stage-2": {
+        "green": 1,
+        "yellow": 3,
+        "blue": 0
+      },
+      "stage-3": {
+        "green": 3,
+        "yellow": 4,
+        "blue": 0
+      }
+    },
+    "lore":{
+      "description": "The Great Old One Cthulhu is arguably the most famous of H.P. Lovecraft's creations.",
+      "appearance": "He is typically described as having the head of an octopus, wings of a dragon, and a body of a man, with two arms and two legs (one of the more anthropomorphic of the old ones).",
+      "residence": "At his house in R'lyeh, dead Cthulhu waits dreaming. Eons ago, Cthulhu came to the earth with his star spawn. Together they waged a war against the Elder Things, driving them back into the Antarctic. Some time later a great cataclysm sunk many of the star spawn's great cities, including their greatest city of all, R'lyeh, where the high priest Cthulhu sat his mighty throne. This corresponds to Space 3 on the board",
+      "sources": "The Call of Cthulhu, H.P. Lovecraft, 1928."
+    }
+  },
+  {
+    "name": "Elder Things",
+    "title": "The Once Dominant Species",
+    "expansion": "mom",
+    "gameplay": "After an investigator resolves an Other World Encounter, he may move to Plateau of Leng",
+    "victory": "When 4 Mysteries have been solved, investigators win the game.",
+    "doom": 16,
+    "flavor": "Eons ago, the elder things were driven underground by the changing climate, hibernating in the cities they had built into the mountains or in the depths of the ocean. With the disturbance of the Miskatonic Expedition, they have begun to reclaim the world they once dominated.",
+    "cultist": {
+      "effect": "If you pass the <lore> test, you free the victim's mind from the alien magic; defeat this Monster and gain 1 random Ally Asset from the deck.",
+      "sanity": {
+        "test": "<lore> -1",
+        "value": 0
+      },
+      "health": {
+        "test": "<strength>",
+        "value": 1
+      },
+      "resistance": 1
+    },
+    "setup": "Set aside all Rise of the Elder Things Special Encounters. Set up the Antarctica side board.",
+    "mythos": {
+      "stage-1": {
+        "green": 2,
+        "yellow": 2,
+        "blue": 1
+      },
+      "stage-2": {
+        "green": 3,
+        "yellow": 3,
+        "blue": 1
+      },
+      "stage-3": {
+        "green": 4,
+        "yellow": 4,
+        "blue": 0
+      }
+    },
+    "lore":{
+      "description": "",
+      "appearance": "",
+      "residence": "",
+      "sources": ""
+    }
+  },
+  {
+    "name": "Hastur",
+    "title": "The Unspeakable One",
+    "expansion": "soc",
+    "gameplay": "<reckoning>: Investigators as a group lose Sanity equal to the number of Gates on the game board unless the Lead Investigator gains a Blight Condition.",
+    "victory": "When 2 Mysteries have been solved, investigators win the game.",
+    "doom": 11,
+    "flavor": "Far from Earth beneath the star of Aldebaran, the Unspeakable One sleeps imprisoned within the core of one of the dark stars of the Hyades.  Trapped there in a war long forgotten, he dreams of escaping to exact his terrible will upon the cosmos.",
+    "cultist": {
+      "effect": "<reckoning>: The cultist summons a Byakhee. A Byakhee Monster ambushes an investigator on this space or an adjacent space!",
+      "sanity": {
+        "test": "<will>",
+        "value": 1
+      },
+      "health": {
+        "test": "<strength> -1",
+        "value": 1
+      },
+      "resistance": 1
+    },
+    "setup": "Set aside 1 Byakhee Monster and all Hastur Special Encounters.",
+    "mythos": {
+      "stage-1": {
+        "green": 0,
+        "yellow": 2,
+        "blue": 2
+      },
+      "stage-2": {
+        "green": 2,
+        "yellow": 3,
+        "blue": 0
+      },
+      "stage-3": {
+        "green": 3,
+        "yellow": 5,
+        "blue": 0
+      }
+    },
+    "lore":{
+      "description": "",
+      "appearance": "The modern description of Hastur typically describes him as a tentacled vaguely humanoid shape clad in a tattered yellow robe.",
+      "residence": "The Hyades",
+      "sources": ""
+    },
+    "image": "hastur"
+  },
+  {
+    "name": "Hypnos",
+    "title": "The Lord of Sleep",
+    "expansion": "td",
+    "gameplay": "When an investigator performs a Rest action, he cannot recover both Health and Sanity.\n<reckoning>: Each investigator moves 1 space toward the nearest space on the Dreamlands side board unless he spends 1 Sanity.",
+    "victory": "When 3 Mysteries have been solved, investigators win the game.",
+    "doom": 12,
+    "flavor": "Hypnos, Lord of Sleep, whispers softly to wayward dreamers, drawing them into his realm of madness.",
+    "cultist": {
+      "effect": "If you pass the <will> test, you free the dreamer from eternal slumber; defeat the Monster. If you pass the <strength> test, gain 1 Madness Condition",
+      "sanity": {
+        "test": "<will> -1",
+        "value": 0
+      },
+      "health": {
+        "test": "<strength>",
+        "value": 1
+      },
+      "resistance": 1
+    },
+    "setup": "Set aside all Hypnos Special Encounters. Setup the Dreamlands side board.",
+    "mythos": {
+      "stage-1": {
+        "green": 0,
+        "yellow": 2,
+        "blue": 1
+      },
+      "stage-2": {
+        "green": 2,
+        "yellow": 3,
+        "blue": 1
+      },
+      "stage-3": {
+        "green": 3,
+        "yellow": 4,
+        "blue": 0
+      }
+    },
+    "lore":{
+      "description": "",
+      "appearance": "",
+      "residence": "",
+      "sources": ""
+    },
+    "image": "hypnos"
+  },
+  {
+    "name": "Ithaqua",
+    "title": "The Wind Walker",
+    "expansion": "mom",
+    "gameplay": "<reckoning>: Each investigator gains a Hypothermia Condition unless he spends 1 Focus.",
+    "victory": "When 3 Mysteries have been solved, investigators win the game.",
+    "doom": 13,
+    "flavor": "The weather has grown cold, and the aurora borealis glows bright in the northern skies, visible even during the day. A strange madness has begun affecting those around the arctic circle, and travelers returning from the north speak of visions of an ancient civilization.",
+    "cultist": {
+      "effect": "if you lose Health from the Strength test, the cold chills you to your core; gain a Hypothermia Condition.",
+      "health": {
+        "test": "<strength>",
+        "value": 2
+      },
+      "resistance": 1
+    },
+    "setup": "Set aside 1 Gnoph-keh Monster, 1 Wendigo Monster, and all Ithaqua special encounters.",
+    "mythos": {
+      "stage-1": {
+        "green": 0,
+        "yellow": 2,
+        "blue": 2
+      },
+      "stage-2": {
+        "green": 4,
+        "yellow": 2,
+        "blue": 0
+      },
+      "stage-3": {
+        "green": 2,
+        "yellow": 4,
+        "blue": 0
+      }
+    },
+    "lore":{
+      "description": "",
+      "appearance": "",
+      "residence": "",
+      "sources": ""
+    },
+    "image": "ithaqua"
+  },
+  {
+    "name": "Nephren-Ka",
+    "title": "The Dark Pharaoh",
+    "expansion": "utp",
+    "gameplay": "<reckoning>: Each investigator may move 1 space toward The Bent Pyramid. Then each investigator that did not move loses 1 Sanity.",
+    "victory": "When 3 Mysteries have been solved, investigators win the game.",
+    "doom": 12,
+    "flavor": "Evil stirs beneath the sands of Egypt as the Brotherhood of the Beast, a cult with mysterious loyalties, searches for the final resting place of the Dark Pharaoh Nephren-Ka, seeking to fulfill the prophecy of his resurrection.",
+    "cultist": {
+      "effect": "<reckoning>: An investigator on this space or an adjacent space loses 1 Health or 1 Sanity",
+      "sanity": {
+        "test": "<will>",
+        "value": 1
+      },
+      "health": {
+        "test": "<lore> -1",
+        "value": 1
+      },
+      "resistance": 1
+    },
+    "setup": "Set aside all Nephren-Ka Special Encounters. Set up the Egypt side board.",
+    "mythos": {
+      "stage-1": {
+        "green": 0,
+        "yellow": 2,
+        "blue": 2
+      },
+      "stage-2": {
+        "green": 1,
+        "yellow": 3,
+        "blue": 0
+      },
+      "stage-3": {
+        "green": 3,
+        "yellow": 4,
+        "blue": 0
+      }
+    },
+    "lore":{
+      "description": "",
+      "appearance": "",
+      "residence": "",
+      "sources": ""
+    },
+    "image": "nephren-ka"
+  },
+  {
+    "name": "Shub-Niggurath",
+    "title": "The Black Goat of the Woods",
+    "expansion": "base",
+    "gameplay": "<reckoning>: Spawn 1 Monster on a random space. Then, if there are 10 or more Monsters on the game board, advance Doom by 2",
+    "victory": "When 3 Mysteries have been solved, investigators win the game.",
+    "doom": 13,
+    "flavor": "During pagan rites, Shub-Niggurath absorbs worthy cultists into her amorphous body and transforms them into gof'nn hupadgh Shub-Niggurath, the goat spawn. From the wildest corners of the earth, her primal brood, the dark young, emerge to overwhelm humanity.",
+    "cultist": {
+      "effect": "<reckoning>: Spawn 1 Goat Spawn Monster or 1 Dark Young Monster on this space. Then, if you spawned a Monster, discard this cultist",
+      "health": {
+        "test": "<strength> -1",
+        "value": 1
+      },
+      "resistance": 1
+    },
+    "setup": "Spawn 1 Goat Spawn Monster or 1 Dark Young Monster on this space. Then, if you spawned a Monster, discard this cultist",
+    "mythos": {
+      "stage-1": {
+        "green": 1,
+        "yellow": 2,
+        "blue": 1
+      },
+      "stage-2": {
+        "green": 3,
+        "yellow": 2,
+        "blue": 1
+      },
+      "stage-3": {
+        "green": 2,
+        "yellow": 4,
+        "blue": 0
+      }
+    },
+    "lore": {
+      "description": "",
+      "appearance": "",
+      "residence": "",
+      "sources": ""
+    },
+    "image": "shub-niggurath"
+  },
+  {
+    "name": "Syzygy",
+    "title": "The Cosmic Alignment",
+    "expansion": "sr",
+    "gameplay": "When the Omen advances to the red space of the Omen track, place 1 Eldritch token on that space. If there are 3 Eldritch tokens on the red space of the Omen track, 'The Portal Opens' effect is triggered.",
+    "victory": "There is no normal victory. When 2 Mysteries have been solved, 'The Portal Opens' effect is triggered at the end of the next Mythos phase",
+    "doom": 13,
+    "flavor": "When the planets align with the center of the universe and the Earth falls under the shadow of an eclipse, that which would devour all life seeks to pierce the veil that keeps the darkness at bay.",
+    "cultist": {
+      "effect": "Horror is equal to the number of Eldritch tokens on the red space of the Omen track and toughness is equal to that number +1.",
+      "sanity": {
+        "test": "<will> +1",
+        "value": "*"
+      },
+      "health": {
+        "test": "<strength>",
+        "value": 1
+      },
+      "resistance": 1
+    },
+    "setup": "Set aside all Syzygy Special Encounters. Set up the Mystic Ruins Encounter deck.",
+    "mythos": {
+      "stage-1": {
+        "green": 0,
+        "yellow": 2,
+        "blue": 2
+      },
+      "stage-2": {
+        "green": 3,
+        "yellow": 3,
+        "blue": 0
+      },
+      "stage-3": {
+        "green": 3,
+        "yellow": 5,
+        "blue": 0
+      }
+    },
+    "lore": {
+      "description": "",
+      "appearance": "",
+      "residence": "",
+      "sources": ""
+    },
+    "image": "syzygy"
+  },
+  {
+    "name": "Yig",
+    "title": "The Father of Serpents",
+    "expansion": "fl",
+    "gameplay": "<reckoning>: Spawn 1 Cultist Monster on the Active Expedition space. Then, if there are 2 or more Monsters on that space, advance Doom by 1.",
+    "victory": "When 3 Mysteries have been solved, investigators win the game.",
+    "doom": 10,
+    "flavor": "Many know that Yig's punishment for those who harm his progeny is a terrible curse, but few know that long ago, the serpent people betrayed Yig and suffered his wrath. Now the survivors return, eager to conquer for their true master.",
+    "cultist": {
+      "effect": "If you lose Health from the Strength test, you've been bitten by the snake-like creature; gain a Poisoned Condition.",
+      "sanity": {
+        "test": "<will>",
+        "value": "1"
+      },
+      "health": {
+        "test": "<strength> -1",
+        "value": 2
+      },
+      "resistance": 1
+    },
+    "setup": "Set aside 6 Cultists, 1 Serpent People, and all Yig Special Encounter Cards.",
+    "mythos": {
+      "stage-1": {
+        "green": 1,
+        "yellow": 2,
+        "blue": 1
+      },
+      "stage-2": {
+        "green": 2,
+        "yellow": 3,
+        "blue": 1
+      },
+      "stage-3": {
+        "green": 2,
+        "yellow": 4,
+        "blue": 0
+      }
+    },
+    "lore": {
+      "description": "",
+      "appearance": "",
+      "residence": "",
+      "sources": ""
+    },
+    "image": "yig"
+  },
+  {
+    "name": "Yog-Sothoth",
+    "title": "The Lurker at the Threshold",
+    "expansion": "base",
+    "gameplay": "<reckoning>: Each investigator on a space containing a Gate advances Doom by 1 unless he discards 1 Spell.",
+    "victory": "When 3 Mysteries have been solved, investigators win the game.",
+    "doom": 14,
+    "flavor": "For eons, sorcerers have called upon the power of Yog-Sothoth to bend reality to their will. This incomprehensible Ancient One exists parallel to all places and times, but is bound to the space between dimensions. Gates between worlds continue to open with more frequency and soon, Yog-Sothoth will be free.",
+    "cultist": {
+      "effect": "If you defeat this monster during a Combat Encounter, lose 1 Sanity and gain 1 Spell.",
+      "health": {
+        "test": "<strength>",
+        "value": 1
+      },
+      "resistance": 1
+    },
+    "setup": "Set aside all Yog-Sothoth Special Encounter cards.",
+    "mythos": {
+      "stage-1": {
+        "green": 0,
+        "yellow": 2,
+        "blue": 1
+      },
+      "stage-2": {
+        "green": 2,
+        "yellow": 3,
+        "blue": 1
+      },
+      "stage-3": {
+        "green": 3,
+        "yellow": 4,
+        "blue": 0
+      }
+    },
+    "lore": {
+      "description": "",
+      "appearance": "",
+      "residence": "",
+      "sources": ""
+    },
+    "image": "yog-sothoth"
+  }
+]

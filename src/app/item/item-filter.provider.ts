@@ -10,7 +10,8 @@ export class ItemFilterProvider {
     location: ItemFilterOneCategory,
     spell: ItemFilterAllCategories,
     'unique-asset': ItemFilterAllCategories,
-    investigator: ItemFilterAllCategories
+    investigator: ItemFilterAllCategories,
+    'ancient-one': ItemFilterAllCategories
   };
 
   getInstance(type: string) {

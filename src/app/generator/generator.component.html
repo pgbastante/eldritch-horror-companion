@@ -7,8 +7,11 @@
       <item-type [type]="generatedItem.type"></item-type>
     </md-card-subtitle>
   </md-card-header>
-  <div md-card-image class="elder-sign">
+  <div md-card-image class="elder-sign" *ngIf="!generatedItem.image">
     <img src="../../assets/images/elder-sign.svg">
+  </div>
+  <div md-card-image *ngIf="generatedItem.image">
+    <span class="{{generatedItem.image}}"></span>
   </div>
   <md-card-content>
     <p class="item-category">
