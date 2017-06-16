@@ -1,6 +1,7 @@
 [
   {
     "id": 1,
+    "code": 1,
     "name": "Costa de Alaska",
     "categories": [
       "world"
@@ -8,7 +9,7 @@
     "type": "location",
     "locationType": "city",
     "connections": [
-      "SF",
+      28,
       4,
       19
     ],
@@ -16,6 +17,7 @@
   },
   {
     "id": 2,
+    "code": 2,
     "name": "Oceano Pacifico Norte",
     "categories": [
       "world"
@@ -23,13 +25,14 @@
     "type": "location",
     "locationType": "sea",
     "connections": [
-      "SF",
-      "TK"
+      28,
+      34
     ],
     "expansion": "base"
   },
   {
     "id": 3,
+    "code": 3,
     "name": "Oceano Pacifico Sur",
     "categories": [
       "world"
@@ -37,13 +40,14 @@
     "type": "location",
     "locationType": "sea",
     "connections": [
-      "BA",
-      "SY"
+      30,
+      36
     ],
     "expansion": "base"
   },
   {
     "id": 4,
+    "code": 4,
     "name": "Zonas salvages Canadienses",
     "categories": [
       "world"
@@ -58,6 +62,7 @@
   },
   {
     "id": 5,
+    "code": 5,
     "name": "El corazón de America/La metropolis Americana",
     "categories": [
       "world"
@@ -65,14 +70,15 @@
     "type": "location",
     "locationType": "city",
     "connections": [
-      "SF",
-      "AR",
+      28,
+      29,
       4
     ],
     "expansion": "base"
   },
   {
     "id": 6,
+    "code": 6,
     "name": "El Sur Profundo",
     "categories": [
       "world"
@@ -80,14 +86,15 @@
     "type": "location",
     "locationType": "city",
     "connections": [
-      "SR",
-      "AR",
+      28,
+      29,
       7
     ],
     "expansion": "base"
   },
   {
     "id": 7,
+    "code": 7,
     "name": "Centro America",
     "categories": [
       "world"
@@ -95,9 +102,9 @@
     "type": "location",
     "locationType": "city",
     "connections": [
-      "SF",
-      "AM",
-      "BA",
+      28,
+      22,
+      30,
       6,
       8
     ],
@@ -105,6 +112,7 @@
   },
   {
     "id": 8,
+    "code": 8,
     "name": "Triangulo de las Bermudas",
     "categories": [
       "world"
@@ -112,8 +120,8 @@
     "type": "location",
     "locationType": "sea",
     "connections": [
-      "AR",
-      "BA",
+      29,
+      30,
       7,
       10
     ],
@@ -121,6 +129,7 @@
   },
   {
     "id": 9,
+    "code": 9,
     "name": "Groenlandia",
     "categories": [
       "world"
@@ -128,12 +137,13 @@
     "type": "location",
     "locationType": "wilderness",
     "connections": [
-      "AR"
+      29
     ],
     "expansion": "base"
   },
   {
     "id": 10,
+    "code": 10,
     "name": "Oeste de Africa",
     "categories": [
       "world"
@@ -141,8 +151,8 @@
     "type": "location",
     "locationType": "wilderness",
     "connections": [
-      "RM",
-      "PY",
+      32,
+      23,
       8,
       15
     ],
@@ -150,6 +160,7 @@
   },
   {
     "id": 11,
+    "code": 11,
     "name": "Oceano Atlantico Sur",
     "categories": [
       "world"
@@ -157,13 +168,14 @@
     "type": "location",
     "locationType": "sea",
     "connections": [
-      "BA",
+      30,
       15
     ],
     "expansion": "base"
   },
   {
     "id": 12,
+    "code": 12,
     "name": "Oceano del Sur",
     "categories": [
       "world"
@@ -171,13 +183,14 @@
     "type": "location",
     "locationType": "sea",
     "connections": [
-      "BA",
-      "AN"
+      30,
+      27
     ],
     "expansion": "base"
   },
   {
     "id": 13,
+    "code": 13,
     "name": "Oceano Artico",
     "categories": [
       "world"
@@ -185,12 +198,13 @@
     "type": "location",
     "locationType": "sea",
     "connections": [
-      "LN"
+      31
     ],
     "expansion": "base"
   },
   {
     "id": 14,
+    "code": 14,
     "name": "Europa del Norte",
     "categories": [
       "world"
@@ -198,13 +212,14 @@
     "type": "location",
     "locationType": "city",
     "connections": [
-      "RM",
+      32,
       16
     ],
     "expansion": "base"
   },
   {
-    "id": 4,
+    "id": 15,
+    "code": 15,
     "name": "Sur de Africa",
     "categories": [
       "world"
@@ -212,7 +227,7 @@
     "type": "location",
     "locationType": "city",
     "connections": [
-      "HA",
+      24,
       10,
       11,
       17,
@@ -222,6 +237,7 @@
   },
   {
     "id": 16,
+    "code": 16,
     "name": "Rusia central",
     "categories": [
       "world"
@@ -229,14 +245,15 @@
     "type": "location",
     "locationType": "city",
     "connections": [
-      "IS",
-      "TG",
+      33,
+      26,
       14
     ],
     "expansion": "base"
   },
   {
     "id": 17,
+    "code": 17,
     "name": "India Urbana",
     "categories": [
       "world"
@@ -244,9 +261,9 @@
     "type": "location",
     "locationType": "city",
     "connections": [
-      "IS",
-      "HM",
-      "SH",
+      33,
+      25,
+      35,
       15,
       20
     ],
@@ -254,6 +271,7 @@
   },
   {
     "id": 18,
+    "code": 18,
     "name": "Oceano Indico",
     "categories": [
       "world"
@@ -261,13 +279,14 @@
     "type": "location",
     "locationType": "sea",
     "connections": [
-      "SY",
+      36,
       15
     ],
     "expansion": "base"
   },
   {
     "id": 19,
+    "code": 19,
     "name": "Siberia del Este",
     "categories": [
       "world"
@@ -275,15 +294,16 @@
     "type": "location",
     "locationType": "wilderness",
     "connections": [
-      "TG",
-      "SH",
-      "TK",
+      26,
+      35,
+      34,
       1
     ],
     "expansion": "base"
   },
   {
     "id": 20,
+    "code": 20,
     "name": "Sudeste Asiatico",
     "categories": [
       "world"
@@ -291,15 +311,16 @@
     "type": "location",
     "locationType": "city",
     "connections": [
-      "SH",
-      "TK",
-      "SY",
+      35,
+      34,
+      36,
       17
     ],
     "expansion": "base"
   },
   {
     "id": 21,
+    "code": 21,
     "name": "Territorios del Norte",
     "categories": [
       "world"
@@ -307,12 +328,13 @@
     "type": "location",
     "locationType": "wilderness",
     "connections": [
-      "SY"
+      36
     ],
     "expansion": "base"
   },
   {
-    "id": "AM",
+    "id": 22,
+    "code": "AM",
     "name": "El Amazonas",
     "categories": [
       "world"
@@ -320,13 +342,14 @@
     "type": "location",
     "locationType": "wilderness",
     "connections": [
-      "BA",
+      30,
       7
     ],
     "expansion": "base"
   },
   {
-    "id": "PY",
+    "id": 23,
+    "code": "PY",
     "name": "Las Piramides",
     "categories": [
       "world"
@@ -334,15 +357,16 @@
     "type": "location",
     "locationType": "wilderness",
     "connections": [
-      "IS",
-      "RM",
-      "HA",
+      33,
+      32,
+      24,
       10
     ],
     "expansion": "base"
   },
   {
-    "id": "HA",
+    "id": 24,
+    "code": "HA",
     "name": "El Corazón de Africa",
     "categories": [
       "world"
@@ -350,13 +374,14 @@
     "type": "location",
     "locationType": "wilderness",
     "connections": [
-      "PY",
+      23,
       15
     ],
     "expansion": "base"
   },
   {
-    "id": "HM",
+    "id": 25,
+    "code": "HM",
     "name": "El Himalaya",
     "categories": [
       "world"
@@ -364,13 +389,14 @@
     "type": "location",
     "locationType": "wilderness",
     "connections": [
-      "SH",
+      35,
       1
     ],
     "expansion": "base"
   },
   {
-    "id": "TG",
+    "id": 26,
+    "code": "TG",
     "name": "Tunguska",
     "categories": [
       "world"
@@ -384,7 +410,8 @@
     "expansion": "base"
   },
   {
-    "id": "AN",
+    "id": 27,
+    "code": "AN",
     "name": "Antarctica",
     "categories": [
       "world"
@@ -392,13 +419,14 @@
     "type": "location",
     "locationType": "sea",
     "connections": [
-      "SY",
+      36,
       12
     ],
     "expansion": "base"
   },
   {
-    "id": "SF",
+    "id": 28,
+    "code": "SF",
     "name": "San Francisco",
     "categories": [
       "world"
@@ -414,7 +442,8 @@
     "expansion": "base"
   },
   {
-    "id": "AR",
+    "id": 29,
+    "code": "AR",
     "name": "Arkham",
     "categories": [
       "world"
@@ -426,12 +455,13 @@
       6,
       8,
       9,
-      "LN"
+      31
     ],
     "expansion": "base"
   },
   {
-    "id": "BA",
+    "id": 30,
+    "code": "BA",
     "name": "Buenos Aires",
     "categories": [
       "world"
@@ -441,7 +471,7 @@
     "connections": [
       3,
       7,
-      "AM",
+      22,
       8,
       11,
       12
@@ -449,7 +479,8 @@
     "expansion": "base"
   },
   {
-    "id": "LN",
+    "id": 31,
+    "code": "LN",
     "name": "Londres",
     "categories": [
       "world"
@@ -458,13 +489,14 @@
     "locationType": "city",
     "connections": [
       13,
-      "AR",
-      "RM"
+      29,
+      32
     ],
     "expansion": "base"
   },
   {
-    "id": "RM",
+    "id": 32,
+    "code": "RM",
     "name": "Roma",
     "categories": [
       "world"
@@ -472,16 +504,17 @@
     "type": "location",
     "locationType": "city",
     "connections": [
-      "LN",
+      31,
       10,
-      "PY",
-      "IS",
+      23,
+      33,
       14
     ],
     "expansion": "base"
   },
   {
-    "id": "IS",
+    "id": 33,
+    "code": "IS",
     "name": "Estambul",
     "categories": [
       "world"
@@ -491,13 +524,14 @@
     "connections": [
       16,
       17,
-      "RM",
-      "PY"
+      32,
+      23
     ],
     "expansion": "base"
   },
   {
-    "id": "TK",
+    "id": 34,
+    "code": "TK",
     "name": "Tokyo",
     "categories": [
       "world"
@@ -506,14 +540,15 @@
     "locationType": "city",
     "connections": [
       19,
-      "SH",
+      35,
       3,
       20
     ],
     "expansion": "base"
   },
   {
-    "id": "SH",
+    "id": 35,
+    "code": "SH",
     "name": "Shanghai",
     "categories": [
       "world"
@@ -522,14 +557,15 @@
     "locationType": "city",
     "connections": [
       20,
-      "TK",
+      34,
       17,
-      "HM"
+      25
     ],
     "expansion": "base"
   },
   {
-    "id": "SY",
+    "id": 36,
+    "code": "SY",
     "name": "Sidney",
     "categories": [
       "world"
@@ -537,7 +573,7 @@
     "type": "location",
     "locationType": "city",
     "connections": [
-      "AN",
+      27,
       3,
       19,
       21
@@ -545,7 +581,8 @@
     "expansion": "base"
   },
   {
-    "id": "MO",
+    "id": 37,
+    "code": "MO",
     "name": "Puesto avanzado Miskatonic",
     "categories": [
       "antarctica"
@@ -553,14 +590,15 @@
     "type": "location",
     "locationType": 1,
     "connections": [
-      "AN",
-      "LC",
-      "SM"
+      27,
+      38,
+      42
     ],
     "expansion": "mom"
   },
   {
-    "id": "LC",
+    "id": 38,
+    "code": "LC",
     "name": "Lake Camp",
     "categories": [
       "antarctica"
@@ -568,13 +606,14 @@
     "type": "location",
     "locationType": 1,
     "connections": [
-      "MO",
-      "FW"
+      37,
+      39
     ],
     "expansion": "mom"
   },
   {
-    "id": "FW",
+    "id": 39,
+    "code": "FW",
     "name": "Frozen Waste",
     "categories": [
       "antarctica"
@@ -582,13 +621,14 @@
     "type": "location",
     "locationType": 1,
     "connections": [
-      "LC",
-      "CET"
+      38,
+      40
     ],
     "expansion": "mom"
   },
   {
-    "id": "CET",
+    "id": 40,
+    "code": "CET",
     "name": "City of the Elder Things",
     "categories": [
       "antarctica"
@@ -596,13 +636,14 @@
     "type": "location",
     "locationType": 2,
     "connections": [
-      "FW",
-      "PL"
+      39,
+      41
     ],
     "expansion": "mom"
   },
   {
-    "id": "PL",
+    "id": 41,
+    "code": "PL",
     "name": "Plateau of Leng",
     "categories": [
       "antarctica"
@@ -610,12 +651,13 @@
     "type": "location",
     "locationType": 2,
     "connections": [
-      "CET"
+      40
     ],
     "expansion": "mom"
   },
   {
-    "id": "SM",
+    "id": 42,
+    "code": "SM",
     "name": "Snowy Mountains",
     "categories": [
       "antarctica"
@@ -623,12 +665,13 @@
     "type": "location",
     "locationType": 2,
     "connections": [
-      "MO"
+      37
     ],
     "expansion": "mom"
   },
   {
-    "id": "AX",
+    "id": 43,
+    "code": "AX",
     "name": "Alexandria",
     "categories": [
       "pyramids"
@@ -636,13 +679,14 @@
     "type": "location",
     "locationType": 1,
     "connections": [
-      "PY",
-      "SD"
+      23,
+      46
     ],
     "expansion": "utp"
   },
   {
-    "id": "BP",
+    "id": 44,
+    "code": "BP",
     "name": "The Bent Pyramid",
     "categories": [
       "pyramids"
@@ -650,12 +694,13 @@
     "type": "location",
     "locationType": 1,
     "connections": [
-      "PY"
+      23
     ],
     "expansion": "utp"
   },
   {
-    "id": "CA",
+    "id": 45,
+    "code": "CA",
     "name": "Cairo",
     "categories": [
       "pyramids"
@@ -663,13 +708,14 @@
     "type": "location",
     "locationType": 1,
     "connections": [
-      "PY",
+      23,
       17
     ],
     "expansion": "utp"
   },
   {
-    "id": "SD",
+    "id": 46,
+    "code": "SD",
     "name": "The Sahara Desert",
     "categories": [
       "pyramids"
@@ -677,13 +723,14 @@
     "type": "location",
     "locationType": 2,
     "connections": [
-      "AX",
+      43,
       10
     ],
     "expansion": "utp"
   },
   {
-    "id": "TA",
+    "id": 47,
+    "code": "TA",
     "name": "Tel el-Amarna",
     "categories": [
       "pyramids"
@@ -691,13 +738,14 @@
     "type": "location",
     "locationType": 2,
     "connections": [
-      "PY",
-      "NR"
+      23,
+      48
     ],
     "expansion": "utp"
   },
   {
-    "id": "NR",
+    "id": 48,
+    "code": "NR",
     "name": "The Nile River",
     "categories": [
       "pyramids"
@@ -705,13 +753,14 @@
     "type": "location",
     "locationType": 2,
     "connections": [
-      "TA",
-      "HA"
+      47,
+      24
     ],
     "expansion": "utp"
   },
   {
-    "id": "CL",
+    "id": 49,
+    "code": "CL",
     "name": "Celephaïs",
     "categories": [
       "dreamlands"
@@ -719,13 +768,14 @@
     "type": "location",
     "locationType": "city",
     "connections": [
-      "KD",
-      "DY"
+      55,
+      50
     ],
     "expansion": "td"
   },
   {
-    "id": "DY",
+    "id": 50,
+    "code": "DY",
     "name": "Dylath-Leen",
     "categories": [
       "dreamlands"
@@ -733,14 +783,15 @@
     "type": "location",
     "locationType": "city",
     "connections": [
-      "CL",
-      "MN",
-      "UL"
+      49,
+      52,
+      54
     ],
     "expansion": "td"
   },
   {
-    "id": "EW",
+    "id": 51,
+    "code": "EW",
     "name": "The Enchanted Wood",
     "categories": [
       "dreamlands"
@@ -748,12 +799,13 @@
     "type": "location",
     "locationType": "wilderness",
     "connections": [
-      "UL"
+      54
     ],
     "expansion": "td"
   },
   {
-    "id": "MN",
+    "id": 52,
+    "code": "MN",
     "name": "The Moon",
     "categories": [
       "dreamlands"
@@ -761,12 +813,13 @@
     "type": "location",
     "locationType": "wilderness",
     "connections": [
-      "DY"
+      50
     ],
     "expansion": "td"
   },
   {
-    "id": "UW",
+    "id": 53,
+    "code": "UW",
     "name": "The Underworld",
     "categories": [
       "dreamlands"
@@ -774,12 +827,13 @@
     "type": "location",
     "locationType": "wilderness",
     "connections": [
-      "UL"
+      54
     ],
     "expansion": "td"
   },
   {
-    "id": "UL",
+    "id": 54,
+    "code": "UL",
     "name": "Ulthar",
     "categories": [
       "dreamlands"
@@ -787,14 +841,15 @@
     "type": "location",
     "locationType": "city",
     "connections": [
-      "EW",
-      "DY",
-      "UW"
+      51,
+      50,
+      53
     ],
     "expansion": "td"
   },
   {
-    "id": "KD",
+    "id": 55,
+    "code": "KD",
     "name": "Unknown Kadath",
     "categories": [
       "dreamlands"
@@ -802,7 +857,7 @@
     "type": "location",
     "locationType": "wilderness",
     "connections": [
-      "CL"
+      49
     ],
     "expansion": "td"
   }

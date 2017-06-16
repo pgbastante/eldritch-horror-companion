@@ -7,9 +7,10 @@ import { investigatorCategory } from './Investigator';
 import { ancientOneCategory } from './AncientOne';
 
 export class Item {
+  id: string | number;
   name: string;
   type: string;
-  categories: spellCategory[] | assetCategory[] | conditionCategory[] | locationCategory[] | commonCategoy[] | investigatorCategory[] | ancientOneCategory[];
+  categories: itemCategoryType[];
   expansion: expansionType;
   front: string;
   reckoning: string;
@@ -22,3 +23,12 @@ export type commonCategoy =
   | 'character'
   | 'object'
   | 'elixir';
+
+export type itemCategoryType =
+  spellCategory
+  | assetCategory
+  | conditionCategory
+  | locationCategory
+  | commonCategoy
+  | investigatorCategory
+  | ancientOneCategory;

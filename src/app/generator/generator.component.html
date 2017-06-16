@@ -1,37 +1,4 @@
-<md-card class="card" *ngIf="generatedItem">
-  <md-card-header>
-    <md-card-title>
-      {{generatedItem.name}}
-    </md-card-title>
-    <md-card-subtitle>
-      <item-type [type]="generatedItem.type"></item-type>
-    </md-card-subtitle>
-  </md-card-header>
-  <div md-card-image class="elder-sign" *ngIf="!generatedItem.image">
-    <img src="../../assets/images/elder-sign.svg">
-  </div>
-  <div md-card-image *ngIf="generatedItem.image">
-    <span class="{{generatedItem.image}}"></span>
-  </div>
-  <md-card-content>
-    <p class="item-category">
-      <item-category *ngFor="let category of generatedItem.categories" [category]="category"></item-category>
-    </p>
-    <p *ngIf="generatedItem.front" [innerHtml]="generatedItem.front | icons">
-    </p>
-    <p *ngIf="generatedItem.reckoning">
-      <span class="icon icon-reckoning"></span>: <span [innerHtml]="generatedItem.reckoning | icons"></span>
-    </p>
-    <p>
-      <span i18n>Expansion</span>:
-      <expansion-name [expansion]="generatedItem.expansion"></expansion-name>
-    </p>
-  </md-card-content>
-  <md-card-actions>
-    <button (click)="generateRandomItem()" md-button i18n>DRAW AGAIN</button>
-    <button (click)="back()" md-button i18n>BACK</button>
-  </md-card-actions>
-</md-card>
+<item-card *ngIf="generatedItem" [item]="generatedItem"></item-card>
 <ng-container *ngIf="!generatedItem">
   <p md-line class="item-category">
     <span i18n>No Items found with the selected categories</span>

@@ -1,0 +1,16 @@
+.card {
+  max-width: 400px;
+}
+
+.elder-sign {
+  text-align: center;
+}
+
+.elder-sign > img{
+  width: auto;
+  height: 80px;
+}
+
+.item-category{
+  text-align: center;
+}

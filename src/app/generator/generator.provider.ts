@@ -12,13 +12,21 @@ import { AncientOneService } from '../services/ancient-one.service';
 export class RandomItemGeneratorProvider {
   map = {
     artifact: ArtifactService,
+    artifacts: ArtifactService,
     asset: AssetService,
+    assets: AssetService,
     condition: ConditionService,
+    conditions: ConditionService,
     location: LocationService,
+    locations: LocationService,
     spell: SpellService,
+    spells: SpellService,
     'unique-asset': UniqueAssetService,
+    'unique-assets': UniqueAssetService,
     investigator: InvestigatorService,
-    'ancient-one': AncientOneService
+    investigators: InvestigatorService,
+    'ancient-one': AncientOneService,
+    'ancient-ones': AncientOneService
   };
 
   getItems(type: string) {
