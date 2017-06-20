@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { Item } from '../models/Item';
-import { RandomItemGeneratorProvider } from '../generator/generator.provider';
+import { ItemProvider } from '../item/item.provider';
 @Component({
   selector: 'list-items',
   templateUrl: 'list.component.html',
@@ -12,11 +12,12 @@ export class ListComponent implements OnInit {
   items: Item[] = [];
 
   constructor(private route: ActivatedRoute,
-              private itemProvider: RandomItemGeneratorProvider) {
+              private itemProvider: ItemProvider) {
   }
 
   ngOnInit() {
+    let itemService = this.itemProvider.getInstance(this.itemType);
     this.itemType = this.route.snapshot.url[0].path;
-    this.items = this.itemProvider.getItems(this.itemType);
+    this.items = itemService.getAll();
   }
 }

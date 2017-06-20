@@ -5,7 +5,7 @@ import { Item } from '../models/Item';
   templateUrl: 'item.component.html',
   styleUrls: ['item.component.css']
 })
-export class ItemComponent{
+export class ItemComponent {
   @Input()
   item: Item;
 }

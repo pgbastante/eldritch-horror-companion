@@ -26,5 +26,6 @@
       <span i18n>Expansion</span>:
       <expansion-name [expansion]="item.expansion"></expansion-name>
     </p>
+    <item-location *ngIf="item.type==='location'" [item]="item"></item-location>
   </md-card-content>
 </md-card>

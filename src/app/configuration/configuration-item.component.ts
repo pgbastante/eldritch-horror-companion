@@ -12,8 +12,12 @@ export class ConfigurationItemComponent {
   @Input()
   expansion: Expansion;
 
+  constructor(private service: ExpansionService) {
+
+  }
+
   onChange(event: MdSlideToggleChange) {
     this.expansion.available = event.checked;
-    ExpansionService.setAvailability(this.expansion.key, this.expansion.available);
+    this.service.setAvailability(this.expansion.key, this.expansion.available);
   }
 }

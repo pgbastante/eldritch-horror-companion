@@ -1,8 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 import { Item } from '../models/Item';
 import { ActivatedRoute, Router } from '@angular/router';
-import { RandomItemGeneratorProvider } from './generator.provider';
 import { ItemFilterProvider } from '../item/item-filter.provider';
+import { ItemProvider } from '../item/item.provider';
+import { ItemService } from '../services/item.service';
 
 @Component({
   selector: 'random-item-generator',
@@ -17,7 +18,7 @@ export class RandomItemGeneratorComponent implements OnInit {
 
   constructor(private router: Router,
               private route: ActivatedRoute,
-              private provider: RandomItemGeneratorProvider,
+              private provider: ItemProvider,
               private itemFilterProvider: ItemFilterProvider) {
   }
 
@@ -27,17 +28,20 @@ export class RandomItemGeneratorComponent implements OnInit {
 
   ngOnInit() {
     this.route.params.subscribe(params => {
+      let itemService: ItemService;
       this.itemType = params['type'];
+      itemService = this.provider.getInstance(this.itemType);
       this.selectedCategories = JSON.parse(params['categories']);
-      this.items = this.provider.getItems(this.itemType);
+      this.items = itemService.getAll();
       this.generateRandomItem();
     });
   }
 
   generateRandomItem() {
-    let itemFilterClass = this.itemFilterProvider.getInstance(this.itemType),
-      itemFilterInstance = new itemFilterClass(this.items, this.selectedCategories);
-    this.generatedItem = this.randomItem(itemFilterInstance.filterItems());
+    let itemFilter = this.itemFilterProvider.getInstance(this.itemType);
+    itemFilter.setItems(this.items);
+    itemFilter.setSelectedCategories(this.selectedCategories);
+    this.generatedItem = this.randomItem(itemFilter.filterItems());
   }
 
   private randomItem = function (items: Array<any>) {

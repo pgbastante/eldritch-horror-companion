@@ -1,10 +1,10 @@
 import { Injectable } from '@angular/core';
-import { LocaleService } from './locale.service';
+import { Item } from '../models/Item';
+import { ItemService } from './item.service';
 
 @Injectable()
-export class LocationService {
-  static getDataStatic() {
-    let locale = LocaleService.getLocale();
+export class LocationService extends ItemService {
+  requireItems(locale: string): Item[] {
     return require(`Assets/items/locations.${locale}.json`);
   }
 }

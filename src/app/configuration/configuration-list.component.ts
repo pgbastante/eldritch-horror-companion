@@ -8,7 +8,12 @@ import { Expansion } from '../models/Expansion';
 })
 export class ConfigurationListComponent implements OnInit {
   expansions: Array<Expansion>;
+
+  constructor(private service: ExpansionService) {
+
+  }
+
   ngOnInit() {
-    this.expansions = ExpansionService.getDataStatic();
+    this.expansions = this.service.getAll();
   }
 }

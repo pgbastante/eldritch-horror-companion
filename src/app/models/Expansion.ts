@@ -12,7 +12,7 @@ export type expansionType =
   | 'soc'
   | 'td';
 
-export let expansionTypes:Array<expansionType> = [
+export let expansionTypes: Array<expansionType> = [
   'fl'
   , 'mom'
   , 'sr'

@@ -1,4 +1,4 @@
-.configuration-item-image{
+.configuration-item-image {
   width: 45px;
   height: 56px;
   margin-left: 8px;
@@ -28,7 +28,7 @@
   background: url('../../assets/images/under-the-pyramids.png') no-repeat center;
 }
 
-.configuration-item-slider{
+.configuration-item-slider {
   padding-left: 50px;
   padding-top: 16px;
 }

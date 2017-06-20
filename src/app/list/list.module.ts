@@ -3,7 +3,6 @@ import { ListMenuComponent } from './list-menu.component';
 import { listRoutes } from './list.routes';
 import { ListComponent } from './list.component';
 import { CommonModule } from '@angular/common';
-import { RandomItemGeneratorProvider } from '../generator/generator.provider';
 import { ItemModule } from '../item/item.module';
 @NgModule({
   imports: [
@@ -13,7 +12,7 @@ import { ItemModule } from '../item/item.module';
   ],
   declarations: [ListMenuComponent, ListComponent],
   bootstrap: [],
-  providers: [RandomItemGeneratorProvider]
+  providers: []
 })
 export class ListModule {
 }

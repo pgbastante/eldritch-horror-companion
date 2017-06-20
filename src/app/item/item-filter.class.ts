@@ -6,13 +6,20 @@ export abstract class ItemFilter {
   items: Item[];
   selectedCategories: Item[];
 
-  constructor(items: Item[], selectedCategories: Item[]) {
-    this.items = items;
-    this.selectedCategories = selectedCategories;
+  constructor(protected service: ExpansionService) {
+
+  }
+
+  setItems(items: Item[]) {
+    this.items = items || [];
+  }
+
+  setSelectedCategories(selectedCategories: Item[]) {
+    this.selectedCategories = selectedCategories || [];
   }
 
   public filterItems() {
-    let availableExpansions: Array<string> = ExpansionService.getAvailableExpansions();
+    let availableExpansions: Array<string> = this.service.getAvailableExpansions();
 
     return this.items.filter((item: any) => {
 

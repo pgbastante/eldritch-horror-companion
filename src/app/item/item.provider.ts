@@ -1,4 +1,4 @@
-import { Injectable } from '@angular/core';
+import { Injectable, Injector } from '@angular/core';
 import { ArtifactService } from '../services/artifact.service';
 import { AssetService } from '../services/asset.service';
 import { ConditionService } from '../services/condition.service';
@@ -9,7 +9,7 @@ import { InvestigatorService } from '../services/investigator.service';
 import { AncientOneService } from '../services/ancient-one.service';
 
 @Injectable()
-export class RandomItemGeneratorProvider {
+export class ItemProvider {
   map = {
     artifact: ArtifactService,
     artifacts: ArtifactService,
@@ -29,9 +29,12 @@ export class RandomItemGeneratorProvider {
     'ancient-ones': AncientOneService
   };
 
-  getItems(type: string) {
-    let selectedFactory = this.map[type];
-    return selectedFactory.getDataStatic();
+  constructor(private injector: Injector) {
+
+  }
+
+  getInstance(type: string) {
+    return this.injector.get(this.map[type]);
   }
 }
 
