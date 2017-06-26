@@ -21,7 +21,7 @@ export abstract class ItemFilter {
   public filterItems() {
     let availableExpansions: Array<string> = this.service.getAvailableExpansions();
 
-    return this.items.filter((item: any) => {
+    return this.items.filter((item: Item) => {
 
       if (this.isOnTheAvailableExpansions(availableExpansions, item)) {
         return false;
@@ -35,13 +35,13 @@ export abstract class ItemFilter {
     });
   }
 
-  abstract matchCategories(item: any): boolean;
+  abstract matchCategories(item: Item): boolean;
 
   private noCategoriesSelected() {
     return this.selectedCategories.length === 0;
   }
 
-  private isOnTheAvailableExpansions(availableExpansions: Array<string>, item: any) {
+  private isOnTheAvailableExpansions(availableExpansions: Array<string>, item: Item) {
     return !availableExpansions.includes(item.expansion);
   }
 }

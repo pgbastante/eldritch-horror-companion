@@ -13,7 +13,7 @@ export class GeneratorMenuListItemComponent {
   displayCategories: boolean = false;
   @Output()
   toggleDisplayEvent: EventEmitter<Item> = new EventEmitter<Item>();
-  categories = {};
+  categories: object = {};
 
   constructor(private router: Router) {
   }

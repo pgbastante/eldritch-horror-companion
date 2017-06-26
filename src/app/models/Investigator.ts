@@ -1,6 +1,6 @@
-import { Item } from './Item';
+import { Item, itemType } from './Item';
 export class Investigator extends Item {
-  type = 'investigator';
+  type: itemType = 'investigator';
   categories: investigatorCategory[] = [
     'combat',
     'expedition',

@@ -1,14 +1,15 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
-import { Item } from '../models/Item';
+import { Item, itemType } from '../models/Item';
 import { ItemProvider } from '../item/item.provider';
+
 @Component({
   selector: 'list-items',
   templateUrl: 'list.component.html',
   styleUrls: ['list.component.css']
 })
 export class ListComponent implements OnInit {
-  itemType: any;
+  itemType: itemType;
   items: Item[] = [];
 
   constructor(private route: ActivatedRoute,
@@ -16,8 +17,7 @@ export class ListComponent implements OnInit {
   }
 
   ngOnInit() {
-    let itemService = this.itemProvider.getInstance(this.itemType);
-    this.itemType = this.route.snapshot.url[0].path;
-    this.items = itemService.getAll();
+    this.itemType = this.route.snapshot.url[0].path as itemType;
+    this.items = this.itemProvider.getInstance(this.itemType).getAll();
   }
 }

@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Item } from '../models/Item';
+import { Item, itemType } from '../models/Item';
 import { ActivatedRoute } from '@angular/router';
 import { ItemProvider } from './item.provider';
 import { ItemService } from '../services/item.service';
@@ -10,7 +10,7 @@ import { ItemService } from '../services/item.service';
 })
 export class ItemViewComponent implements OnInit {
   item: Item;
-  itemType: string;
+  itemType: itemType;
   id: number | string;
 
   constructor(private route: ActivatedRoute,
@@ -19,11 +19,12 @@ export class ItemViewComponent implements OnInit {
 
   ngOnInit() {
     this.route.params.subscribe(params => {
-      let itemService: ItemService = this.itemProvider.getInstance(this.itemType);
-      this.itemType = this.route.snapshot.url[0].path;
+      let itemService: ItemService, items: Array<Item>;
+      this.itemType = this.route.snapshot.url[0].path as itemType;
+      itemService = this.itemProvider.getInstance(this.itemType);
       this.id = params['id'];
-      let items = itemService.getAll();
-      this.item = items.filter((obj: any) => {
+      items = itemService.getAll();
+      this.item = items.filter((obj: Item) => {
         return ('id' in obj && obj.id === parseInt(params['id']));
       })[0];
     });

@@ -1,6 +1,6 @@
-import { Item } from './Item';
+import { Item, itemType } from './Item';
 export class AncientOne extends Item {
-  type = 'ancient-one';
+  type: itemType = 'ancient-one';
   categories: ancientOneCategory[] = [];
 }
 

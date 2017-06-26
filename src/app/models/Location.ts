@@ -1,7 +1,7 @@
-import { Item } from './Item';
+import { Item, itemType } from './Item';
 
 export class Location extends Item {
-  type = 'location';
+  type: itemType = 'location';
   categories: locationCategory[] = [
     'world',
     'antarctica',

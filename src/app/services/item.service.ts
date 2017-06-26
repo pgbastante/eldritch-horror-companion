@@ -16,7 +16,7 @@ export abstract class ItemService {
     return this.items;
   }
 
-  getById(id: number){
+  getById(id: number) {
     return this.items.find((item) => item.id === id);
   }
 

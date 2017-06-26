@@ -1,6 +1,7 @@
 import { ItemFilter } from './item-filter.class';
 import { Injectable } from '@angular/core';
 import { ExpansionService } from '../services/expansion.service';
+import { Item } from '../models/Item';
 
 @Injectable()
 export class ItemFilterOneCategory extends ItemFilter {
@@ -9,7 +10,7 @@ export class ItemFilterOneCategory extends ItemFilter {
     super(service);
   }
 
-  matchCategories(item: any) {
+  matchCategories(item: Item) {
     let matchOne = false;
     for (let category in this.selectedCategories) {
       let cardCategories = item.categories.map((category: string) => category.toLowerCase());

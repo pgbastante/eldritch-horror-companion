@@ -1,7 +1,7 @@
-import { Item } from './Item';
+import { Item, itemType } from './Item';
 
 export class Asset extends Item {
-  type = 'asset';
+  type: itemType = 'asset';
   categories: assetCategory[] = [
     'trinket',
     'weapon',
@@ -17,7 +17,7 @@ export class Asset extends Item {
 }
 
 export class UniqueAsset extends Item {
-  type = 'unique-asset';
+  type: itemType = 'unique-asset';
   categories: assetCategory[] = [
     'trinket',
     'weapon',
@@ -33,7 +33,7 @@ export class UniqueAsset extends Item {
 }
 
 export class Artifact extends Item {
-  type = 'artifact';
+  type: itemType = 'artifact';
   categories: assetCategory[] = [
     'trinket',
     'weapon',

@@ -9,7 +9,7 @@ import { ancientOneCategory } from './AncientOne';
 export class Item {
   id: string | number;
   name: string;
-  type: string;
+  type: itemType;
   categories: itemCategoryType[];
   expansion: expansionType;
   front: string;
@@ -32,3 +32,13 @@ export type itemCategoryType =
   | commonCategoy
   | investigatorCategory
   | ancientOneCategory;
+
+export type itemType =
+  'artifact'
+  | 'asset'
+  | 'condition'
+  | 'location'
+  | 'spell'
+  | 'unique-asset'
+  | 'investigator'
+  | 'ancient-one';
