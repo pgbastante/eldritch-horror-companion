@@ -9,14 +9,6 @@
           <context context-type="linenumber">13</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="42bfc073f728ef312ac527cc1fc634acb60fd48b" datatype="html">
-        <source>DRAW AGAIN</source>
-        <target>VOLVER A ROBAR</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/random-item-generator.component.ts</context>
-          <context context-type="linenumber">17</context>
-        </context-group>
-      </trans-unit>
       <trans-unit id="b0ff926f8a9440093ff25f43f53692c4b90d0d26" datatype="html">
         <source>BACK</source>
         <target>ATRÁS</target>
@@ -47,7 +39,7 @@
       </trans-unit>
       <trans-unit id="121cc5391cd2a5115bc2b3160379ee5b36cd7716" datatype="html">
         <source>Settings</source>
-        <target>Configuracion</target>
+        <target>Configuración</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/menu-routing.component.ts</context>
           <context context-type="linenumber">10</context>
@@ -115,6 +107,50 @@
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/item/item-category.component.ts</context>
           <context context-type="linenumber">1</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="b9cdd1cbad4f01e0748035f9390a274f7a0b18e9" datatype="html">
+        <source>List Items</source>
+        <target>Listar Ítems</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/menu-routing.component.ts</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/menu/home-menu-list.component.ts</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2f39c695cd3897295cdf5b59df882a5083436fc4" datatype="html">
+        <source>{VAR_SELECT, select, city {City} sea {Sea} wilderness {Wilderness} }</source>
+        <target>{VAR_SELECT, select, city {Ciudad} sea {Mar} wilderness {Naturaleza} }</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/item/item-location.component.ts</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ef9587bff4b7fed35684149df529fb38cf10b0ba" datatype="html">
+        <source>Connects with</source>
+        <target>Conecta con</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/item/item-location.component.ts</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="f61c6867295f3b53d23557021f2f4e0aa1d0b8fc" datatype="html">
+        <source>Type</source>
+        <target>Tipo</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/item/item-location.component.ts</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="fbcb0d75afbe6aec04269381598a737f4bd19db7" datatype="html">
+        <source>Number</source>
+        <target>Número</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/item/item-location.component.ts</context>
+          <context context-type="linenumber">2</context>
         </context-group>
       </trans-unit>
     </body>

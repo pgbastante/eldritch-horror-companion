@@ -1,9 +1,12 @@
 <p>
-  <span i18n>Type: {item.locationType, select, city {City} sea {Sea} wilderness {Wilderness}}</span>
+  <span i18n>Number</span>: {{item.code}}
+</p>
+<p>
+  <span i18n>Type</span>: <span i18n>{item.locationType, select, city {City} sea {Sea} wilderness {Wilderness}}</span>
 </p>
 <span i18n>Connects with</span>:
 <ul>
   <li *ngFor="let connection of item.connections">
-    <a routerLink="/list/location/{{connection}}">{{getConnection(connection)}}</a>
+    <a routerLink="/list/locations/{{connection}}">{{getConnection(connection)}}</a>
   </li>
 </ul>

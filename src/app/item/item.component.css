@@ -14,3 +14,11 @@
 .item-category {
   text-align: center;
 }
+
+.big-card {
+  display: block;
+  width: auto;
+  height: 200px;
+  -webkit-background-size: 100%;
+  background-size: 100%;
+}

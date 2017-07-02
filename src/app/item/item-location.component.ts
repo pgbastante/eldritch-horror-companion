@@ -1,6 +1,7 @@
 import { Component, Input } from '@angular/core';
-import { Item } from '../models/Item';
 import { LocationService } from '../services/location.service';
+import { Location } from '../models/Location';
+
 @Component({
   selector: 'item-location',
   templateUrl: 'item-location.component.html',
@@ -8,7 +9,7 @@ import { LocationService } from '../services/location.service';
 })
 export class ItemLocationComponent {
   @Input()
-  item: Item;
+  item: Location;
 
   constructor(private service: LocationService) {
 
