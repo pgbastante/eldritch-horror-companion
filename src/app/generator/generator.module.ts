@@ -7,11 +7,11 @@ import { GeneratorMenuListComponent } from './generator-menu-list.component';
 import { GeneratorMenuListItemComponent } from './generator-menu-list-item.component';
 import { FormsModule } from '@angular/forms';
 import { CommonModule } from '@angular/common';
-import { generatorRoutes } from './generator.routes';
+import { GeneratorRouterModule } from './generator-router.module';
 
 @NgModule({
   imports: [
-    generatorRoutes,
+    GeneratorRouterModule,
     CommonModule,
     ItemModule,
     ExpansionModule,

@@ -1,10 +1,10 @@
 import { NgModule } from '@angular/core';
-import { homeRoutes } from './home-menu.routes';
 import { HomeMenuListComponent } from './home-menu-list.component';
 import { MdGridListModule } from '@angular/material';
+import { HomeRouterModule } from './home-menu-router.module';
 
 @NgModule({
-  imports: [homeRoutes,MdGridListModule],
+  imports: [HomeRouterModule, MdGridListModule],
   declarations: [HomeMenuListComponent]
 })
 export class HomeMenuModule {

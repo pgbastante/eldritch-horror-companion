@@ -4,10 +4,10 @@ import { ConfigurationListComponent } from './configuration-list.component';
 import { MdSlideToggleModule } from '@angular/material';
 import { ExpansionModule } from '../expansions/expansion.module';
 import { CommonModule } from '@angular/common';
-import { configurationRoutes } from './configuration.routing';
+import { ConfigurationRouterModule } from './configuration-router.module';
 
 @NgModule({
-  imports: [configurationRoutes, MdSlideToggleModule, CommonModule, ExpansionModule],
+  imports: [ConfigurationRouterModule, MdSlideToggleModule, CommonModule, ExpansionModule],
   declarations: [ConfigurationItemComponent, ConfigurationListComponent],
   bootstrap: [],
   providers: []

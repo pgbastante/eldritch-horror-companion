@@ -3,7 +3,7 @@
   <div fxFlex="80%" fxLayout="row" fxLayoutWrap fxLayoutGap.gt-xs="10px" class="list-card-container">
     <md-card fxFlex.xs="100%" fxFlex.sm="0 0 calc(50% - 10px)" fxFlex.md="0 0 calc(33% - 10px)"
              fxFlex.lg="0 0 calc(25% - 10px)" fxFlex.xl="0 0 calc(20% - 10px)" class="list-card"
-             *ngFor="let item of items" routerLink="/list/{{itemType}}/{{item.id}}">
+             *ngFor="let item of items" routerLink="/{{itemType}}/{{item.id}}">
       <div md-card-image class="elder-sign" *ngIf="!item.image">
         <img src="../../assets/images/elder-sign.svg">
       </div>

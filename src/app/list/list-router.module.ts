@@ -1,10 +1,10 @@
 import { RouterModule, Routes } from '@angular/router';
-import { ModuleWithProviders } from '@angular/core';
+import { NgModule } from '@angular/core';
 import { ListMenuComponent } from './list-menu.component';
 import { ListComponent } from './list.component';
 import { ItemViewComponent } from '../item/item-view.component';
 const routes: Routes = [
-  {path: '', component: ListMenuComponent},
+  {path: 'list', component: ListMenuComponent},
   {path: 'spells', component: ListComponent},
   {path: 'ancient-ones', component: ListComponent},
   {path: 'assets', component: ListComponent},
@@ -23,4 +23,14 @@ const routes: Routes = [
   {path: 'artifacts/:id', component: ItemViewComponent}
 ];
 
-export const listRoutes: ModuleWithProviders = RouterModule.forChild(routes);
+@NgModule({
+  imports: [
+    RouterModule.forChild(routes)
+  ],
+  exports: [
+    RouterModule
+  ]
+})
+export class ListRouterModule {
+
+}
