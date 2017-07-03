@@ -1,7 +1,11 @@
-<md-tab-group>
-  <md-tab *ngFor="let link of navLinks" label="{{link.label}}" routerLink="{{link.route}}">
-  </md-tab>
-</md-tab-group>
+<nav md-tab-nav-bar>
+  <a md-tab-link
+     *ngFor="let link of navLinks"
+     [routerLink]="[{outlets: {'list-router': [link.route]}}]"
+     routerLinkActive #rla="routerLinkActive"
+     [active]="rla.isActive">
+    {{link.label}}
+  </a>
+</nav>
 
-<router-outlet name="listRouter"></router-outlet>
-
+<router-outlet name="list-router"></router-outlet>
