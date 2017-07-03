@@ -7,35 +7,35 @@ import { Component } from '@angular/core';
 export class ListMenuComponent {
   navLinks = [
     {
-      route: '/spells',
+      route: 'spells',
       label: 'Spells'
     },
     {
-      route: '/assets',
+      route: 'assets',
       label: 'Assets'
     },
     {
-      route: '/unique-assets',
+      route: 'unique-assets',
       label: 'Unique Assets'
     },
     {
-      route: '/artifacts',
+      route: 'artifacts',
       label: 'Artifacts'
     },
     {
-      route: '/conditions',
+      route: 'conditions',
       label: 'Conditions'
     },
     {
-      route: '/locations',
+      route: 'locations',
       label: 'Locations'
     },
     {
-      route: '/investigators',
+      route: 'investigators',
       label: 'Investigators'
     },
     {
-      route: '/ancient-ones',
+      route: 'ancient-ones',
       label: 'Ancient Ones'
     }
   ];

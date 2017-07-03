@@ -4,23 +4,26 @@ import { ListMenuComponent } from './list-menu.component';
 import { ListComponent } from './list.component';
 import { ItemViewComponent } from '../item/item-view.component';
 const routes: Routes = [
-  {path: 'list', component: ListMenuComponent},
-  {path: 'spells', component: ListComponent},
-  {path: 'ancient-ones', component: ListComponent},
-  {path: 'assets', component: ListComponent},
-  {path: 'unique-assets', component: ListComponent},
-  {path: 'conditions', component: ListComponent},
-  {path: 'investigators', component: ListComponent},
-  {path: 'locations', component: ListComponent},
-  {path: 'artifacts', component: ListComponent},
-  {path: 'spells/:id', component: ItemViewComponent},
-  {path: 'ancient-ones/:id', component: ItemViewComponent},
-  {path: 'assets/:id', component: ItemViewComponent},
-  {path: 'unique-assets/:id', component: ItemViewComponent},
-  {path: 'conditions/:id', component: ItemViewComponent},
-  {path: 'investigators/:id', component: ItemViewComponent},
-  {path: 'locations/:id', component: ItemViewComponent},
-  {path: 'artifacts/:id', component: ItemViewComponent}
+  {
+    path: 'list', component: ListMenuComponent, children: [
+    {path: 'spells', component: ListComponent, outlet: 'list-router'},
+    {path: 'ancient-ones', component: ListComponent, outlet: 'list-router'},
+    {path: 'assets', component: ListComponent, outlet: 'list-router'},
+    {path: 'unique-assets', component: ListComponent, outlet: 'list-router'},
+    {path: 'conditions', component: ListComponent, outlet: 'list-router'},
+    {path: 'investigators', component: ListComponent, outlet: 'list-router'},
+    {path: 'locations', component: ListComponent, outlet: 'list-router'},
+    {path: 'artifacts', component: ListComponent, outlet: 'list-router'},
+    {path: 'spells/:id', component: ItemViewComponent, outlet: 'list-router'},
+    {path: 'ancient-ones/:id', component: ItemViewComponent, outlet: 'list-router'},
+    {path: 'assets/:id', component: ItemViewComponent, outlet: 'list-router'},
+    {path: 'unique-assets/:id', component: ItemViewComponent, outlet: 'list-router'},
+    {path: 'conditions/:id', component: ItemViewComponent, outlet: 'list-router'},
+    {path: 'investigators/:id', component: ItemViewComponent, outlet: 'list-router'},
+    {path: 'locations/:id', component: ItemViewComponent, outlet: 'list-router'},
+    {path: 'artifacts/:id', component: ItemViewComponent, outlet: 'list-router'}
+  ]
+  }
 ];
 
 @NgModule({
