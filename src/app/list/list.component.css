@@ -1,26 +1,7 @@
-.elder-sign {
-  text-align: center;
-  height: 80px;
-}
-
-.elder-sign > img {
-  width: auto;
-  height: 50px;
-  padding-top: 15px;
-}
-
 .list-card {
-  height: 130px;
+  height: 180px;
   margin-top: 10px;
   min-width: 200px;
-}
-
-.list-card span {
-  width: auto;
-  height: 80px;
-  display: block;
-  -webkit-background-size: 100%;
-  background-size: 100%;
 }
 
 .list-layout > div:first-child {

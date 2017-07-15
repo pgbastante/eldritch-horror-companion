@@ -2,6 +2,8 @@
   {
     "id": 1,
     "name": "Agnes Baker",
+    "image": "agnes-baker",
+    "type": "investigator",
     "profession": "The Waitress",
     "abilities": [
       "Action: Test <lore> -1. If you pass, gain 1 Spell.",
@@ -30,6 +32,8 @@
   {
     "id": 2,
     "name": "Akachi Onyele",
+    "image": "akachi-onyele",
+    "type": "investigator",
     "profession": "The Shaman",
     "abilities": [
       "Action: Look at the top 2 Gates in the Gate stack. Put 1 Gate on the top of the Gate stack, and the other on the bottom.",
@@ -58,6 +62,8 @@
   {
     "id": 3,
     "name": "Amanda Sharpe",
+    "image": "amanda-sharpe",
+    "type": "investigator",
     "profession": "The Student",
     "abilities": [
       "Action: You may discard any number of Talent Conditions to improve 1 skill of your choice for each Talent Condition discarded.",
@@ -86,6 +92,7 @@
   {
     "id": 4,
     "name": "Carolyn Fern",
+    "type": "investigator",
     "profession": "The Psychologist",
     "abilities": [
       "Action: You or another investigator on your space may discard 1 Madness Condition and/or perform a Rest Action",
@@ -114,6 +121,8 @@
   {
     "id": 5,
     "name": "Charlie Kane",
+    "image": "charlie-kane",
+    "type": "investigator",
     "profession": "The Politician",
     "abilities": [
       "Action: Another investigator of your choice may immediately perform 1 additional action.",
@@ -146,6 +155,8 @@
   {
     "id": 6,
     "name": "Daisy Walker",
+    "image": "daisy-walker",
+    "type": "investigator",
     "profession": "The Librarian",
     "abilities": [
       "Action: If you are on a City space, test Observation. If you pass, gain 1 Tome Asset from the reserve or 1 random Tome Asset from the deck.",
@@ -174,6 +185,7 @@
   {
     "id": 7,
     "name": "Darrell Simmons",
+    "type": "investigator",
     "profession": "The Photographer",
     "abilities": [
       "Action: Look at the top 5 cards of the Asset deck and put them back in any order. Then, discard any number of cards from the reserve. ",
@@ -202,6 +214,8 @@
   {
     "id": 8,
     "name": "Dexter Drake",
+    "image": "dexter-drake",
+    "type": "investigator",
     "profession": "The Magician",
     "abilities": [
       "Action: Move 1 Monster from your space to another space containing a Gate.",
@@ -230,6 +244,8 @@
   {
     "id": 9,
     "name": "Diana Stanley",
+    "image": "diana-stanley",
+    "type": "investigator",
     "profession": "The Redeemed Cultist",
     "abilities": [
       "Action: If there is a Cultist Monster on your space, discard all Monsters on your space or move the Cultist Monster to any other space.",
@@ -258,6 +274,8 @@
   {
     "id": 10,
     "name": "Finn Edwards",
+    "image": "finn-edwards",
+    "type": "investigator",
     "profession": "The Bootlegger",
     "abilities": [
       "Action: You and/or another investigator on your space may move 1 space along a Ship or Train path.",
@@ -291,6 +309,8 @@
   {
     "id": 11,
     "name": "George Barnaby",
+    "image": "george-barnaby",
+    "type": "investigator",
     "profession": "The Lawyer",
     "abilities": [
       "Action: Test <influence>. For each success, another investigator of your choice on any space may discard a Debt or Detained Condition. ",
@@ -319,6 +339,7 @@
   {
     "id": 12,
     "name": "Gloria Goldberg",
+    "type": "investigator",
     "profession": "The Author",
     "abilities": [
       "Action: If you are on a City space, gain 1 Tome Asset of your choice from the reserve or discard pile.",
@@ -350,6 +371,8 @@
   {
     "id": 13,
     "name": "Hank Samson",
+    "image": "hank-samson",
+    "type": "investigator",
     "profession": "The Farmhand",
     "abilities": [
       "Action: Test <strength>. If you pass, discard 1 Monster on your space with toughness less than or equal to your test result.",
@@ -377,6 +400,8 @@
   {
     "id": 14,
     "name": "Harvey Walters",
+    "image": "harvey-walters",
+    "type": "investigator",
     "profession": "The Professor",
     "abilities": [
       "Action: Another investigator on your space improves 1 skill of his choice if your value for that skill is equal to or higher than his.",
@@ -404,6 +429,8 @@
   {
     "id": 15,
     "name": "Jacqueline Fine",
+    "image": "jacqueline-fine",
+    "type": "investigator",
     "profession": "The Psychic",
     "abilities": [
       "Action: You may trade any number of clues with an investigator on any space.",
@@ -432,6 +459,7 @@
   {
     "id": 16,
     "name": "Jenny Barnes",
+    "type": "investigator",
     "profession": "The Dilettante",
     "abilities": [
       "Action: You or another investigator on a City space may perform an Acquire Assets action and gain +2 <influence> during that action.",
@@ -461,6 +489,8 @@
   {
     "id": 17,
     "name": "Jim Culver",
+    "image": "jim-culver",
+    "type": "investigator",
     "profession": "The Musician",
     "abilities": [
       "Action: Each investigator on your space recovers 1 sanity.",
@@ -489,6 +519,8 @@
   {
     "id": 18,
     "name": "Joe Diamond",
+    "image": "joe-diamond",
+    "type": "investigator",
     "profession": "The Private Eye",
     "abilities": [
       "Action: Choose Ally, Service, or Weapon. Then discard 1 Asset from the reserve and replace it with 1 random Asset from the deck that has the chosen trait. ",
@@ -516,6 +548,7 @@
   {
     "id": 19,
     "name": "Kate Winthrop",
+    "type": "investigator",
     "profession": "The Scientist",
     "abilities": [
       "Action: If you are on a space containing a Gate, discard 1 Monster on your space with toughness less than your <observation>",
@@ -547,6 +580,8 @@
   {
     "id": 20,
     "name": "Leo Anderson",
+    "image": "leo-anderson",
+    "type": "investigator",
     "profession": "The Expedition Leader",
     "abilities": [
       "Action: Test Influence. If you pass, gain 1 Ally Asset of your choice from the reserve or the discard pile ",
@@ -574,6 +609,8 @@
   {
     "id": 21,
     "name": "Lily Chen",
+    "image": "lily-chen",
+    "type": "investigator",
     "profession": "The Martial Artist",
     "abilities": [
       "Action: Spend any number of Health or Sanity, then recover an equal number of Health or Sanity. ",
@@ -606,6 +643,8 @@
   {
     "id": 22,
     "name": "Lola Hayes",
+    "image": "lola-hayes",
+    "type": "investigator",
     "profession": "The Actress",
     "abilities": [
       "Action: Spend any number of Improvement tokens, then improve 1 skill of your choice for each token spent (a '+2' token counts as 2 tokens).",
@@ -634,6 +673,7 @@
   {
     "id": 23,
     "name": "Luke Robinson",
+    "type": "investigator",
     "profession": "The Dreamer",
     "abilities": [
       "Action: Move to a space containing a Gate that corresponds to the current Omen. ",
@@ -665,6 +705,8 @@
   {
     "id": 24,
     "name": "Mandy Thompson",
+    "image": "mandy-thompson",
+    "type": "investigator",
     "profession": "The Researcher",
     "abilities": [
       "Action: Draw 2 Clues from the Clue pool. Spawn 1 of them and discard the other. ",
@@ -693,6 +735,8 @@
   {
     "id": 25,
     "name": "Marie Lambeau",
+    "image": "marie-lambeau",
+    "type": "investigator",
     "profession": "The Entertainer",
     "abilities": [
       "Action: Perform an action you have already performed this round. ",
@@ -724,6 +768,8 @@
   {
     "id": 26,
     "name": "Mark Harrigan",
+    "image": "mark-harrigan",
+    "type": "investigator",
     "profession": "The Soldier",
     "abilities": [
       "Action: You and 1 Monster on your space each lose 1 Health.",
@@ -752,6 +798,8 @@
   {
     "id": 27,
     "name": "Michael McGlen",
+    "image": "michael-mcglen",
+    "type": "investigator",
     "profession": "The Gangster",
     "abilities": [
       "Action: If you are on a City space, you may gain 1 Item or Service Asset of your choice from the reserve. If you do, gain a Wanted Condition. ",
@@ -779,6 +827,8 @@
   {
     "id": 28,
     "name": "Minh Thi Phan",
+    "image": "minh-thi-phan",
+    "type": "investigator",
     "profession": "The Secretary",
     "abilities": [
       "Action: You and another investigator on your space each gain 1 travel ticket of your choice. ",
@@ -807,6 +857,8 @@
   {
     "id": 29,
     "name": "Monterey Jack",
+    "image": "monterey-jack",
+    "type": "investigator",
     "profession": "The Archaeologist",
     "abilities": [
       "Action: You may discard 1 Artifact to retreat Doom by 1; or discard the top card of the Expedition Encounter deck and perform 1 additional action. ",
@@ -835,6 +887,8 @@
   {
     "id": 30,
     "name": "Norman Withers",
+    "image": "norman-withers",
+    "type": "investigator",
     "profession": "The Astronomer",
     "abilities": [
       "Action: Spend 2 Clues to discard 1 Monster on a space containing a Gate. ",
@@ -862,6 +916,7 @@
   {
     "id": 31,
     "name": "Patrice Hathaway",
+    "type": "investigator",
     "profession": "The Violinist",
     "abilities": [
       "Action: You may spend 1 Clue and 1 Focus to improve 1 skill of your choice. ",
@@ -890,6 +945,8 @@
   {
     "id": 32,
     "name": "Rex Murphy",
+    "image": "rex-murphy",
+    "type": "investigator",
     "profession": "The Reporter",
     "abilities": [
       "Action: Gain any number of Assets of your choice from the reserve with total value less than your <influence>. ",
@@ -919,6 +976,8 @@
   {
     "id": 33,
     "name": "Silas Marsh",
+    "image": "silas-marsh",
+    "type": "investigator",
     "profession": "The Sailor",
     "abilities": [
       "Action: Move 1 space along a Ship path, then perform 1 additional action. ",
@@ -946,6 +1005,8 @@
   {
     "id": 34,
     "name": "Sister Mary",
+    "image": "sister-mary",
+    "type": "investigator",
     "profession": "The Nun",
     "abilities": [
       "Action: Test <will>. For each success, you or another investigator on any space may discard 1 Madness Condition. ",
@@ -975,6 +1036,8 @@
   {
     "id": 35,
     "name": "'Skids' O'Toole",
+    "image": "skids-otoole",
+    "type": "investigator",
     "profession": "The Ex-Convict",
     "abilities": [
       "Action: You may discard 1 Item or Trinket Asset to gain 1 Item or Trinket Asset of your choice from the reserve with value equal to or less than 1 + the value of the discarded Asset. ",
@@ -1007,6 +1070,8 @@
   {
     "id": 36,
     "name": "Tommy Muldoon",
+    "image": "tommy-muldoon",
+    "type": "investigator",
     "profession": "The Rookie Cop",
     "abilities": [
       "Action: Move 1 Monster of your choice with toughness 3 or less from an adjacent space to your space. ",
@@ -1035,6 +1100,8 @@
   {
     "id": 37,
     "name": "Tony Morgan",
+    "image": "tony-morgan",
+    "type": "investigator",
     "profession": "The Bounty Hunter",
     "abilities": [
       "Action: Test <influence>. If you pass, you may spend up to 2 Focus to gain 1 Clue for each Focus spent. ",
@@ -1062,6 +1129,8 @@
   {
     "id": 38,
     "name": "Trish Scarborough",
+    "image": "trish-scarborough",
+    "type": "investigator",
     "profession": "The Spy",
     "abilities": [
       "Action: If you do not have any Clues, gain 1 Clue. ",
@@ -1089,6 +1158,8 @@
   {
     "id": 39,
     "name": "Ursula Downs",
+    "image": "ursula-downs",
+    "type": "investigator",
     "profession": "The Explorer",
     "abilities": [
       "Action: Move 1 space along an Uncharted path, then perform 1 additional action. ",
@@ -1117,6 +1188,7 @@
   {
     "id": 40,
     "name": "Vincent Lee",
+    "type": "investigator",
     "profession": "The Doctor",
     "abilities": [
       "Action: You or another investigator on you space may discard 1 Injury or Illness Condition and/or perform a Rest action. ",
@@ -1145,6 +1217,8 @@
   {
     "id": 41,
     "name": "Wendy Adams",
+    "image": "wendy-adams",
+    "type": "investigator",
     "profession": "The Urchin",
     "abilities": [
       "Action: Gain 1 Trinket Asset of your choice from the reserve or discard pile. ",
@@ -1173,6 +1247,7 @@
   {
     "id": 42,
     "name": "William Yorick",
+    "type": "investigator",
     "profession": "Gravedigger",
     "abilities": [
       "Action: Discard up to two cards from the reserve. Then perform 1 additional action. ",
@@ -1198,6 +1273,8 @@
   {
     "id": 43,
     "name": "Wilson Richards",
+    "image": "wilson-richards",
+    "type": "investigator",
     "profession": "The Handyman",
     "abilities": [
       "Action: Gain 1 Asset of your choice with value 1 from the reserve; or discard 1 card from the reserve and perform 1 additional action. ",
@@ -1225,6 +1302,8 @@
   {
     "id": 44,
     "name": "Zoey Samaras",
+    "image": "zoey-samaras",
+    "type": "investigator",
     "profession": "The Chef",
     "abilities": [
       "Action: If you have fewer than 2 Task Assets, gain 1 Task Unique Asset ",

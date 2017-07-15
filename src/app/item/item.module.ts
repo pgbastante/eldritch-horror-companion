@@ -21,10 +21,26 @@ import { ItemFilterAllCategories } from './item-filter-all-categories.class';
 import { ItemFilterOneCategory } from './item-filter-one-category.class';
 import { ItemLocationComponent } from './item-location.component';
 import { RouterModule } from '@angular/router';
+import { ItemCommonDataComponent } from './item-common-data.component';
+import { ItemExpansionComponent } from './item-expansion.component';
+import { ItemImageComponent } from './item-image.component';
+import { ItemInvestigatorComponent } from './item-investigator.component';
+import { FlexLayoutModule } from '@angular/flex-layout';
 
 @NgModule({
-  imports: [CommonModule, MdCardModule, ExpansionModule, RouterModule],
-  declarations: [ItemCategoryComponent, ItemTypeComponent, ItemComponent, IconsPipe, ItemViewComponent, ItemLocationComponent],
+  imports: [CommonModule, MdCardModule, ExpansionModule, RouterModule, FlexLayoutModule],
+  declarations: [
+    ItemCategoryComponent,
+    ItemTypeComponent,
+    ItemComponent,
+    IconsPipe,
+    ItemViewComponent,
+    ItemLocationComponent,
+    ItemCommonDataComponent,
+    ItemExpansionComponent,
+    ItemImageComponent,
+    ItemInvestigatorComponent
+  ],
   providers: [
     ItemProvider,
     AncientOneService,
@@ -39,7 +55,7 @@ import { RouterModule } from '@angular/router';
     ItemFilterAllCategories,
     ItemFilterOneCategory
   ],
-  exports: [ItemCategoryComponent, ItemTypeComponent, ItemComponent, IconsPipe, ItemViewComponent]
+  exports: [ItemCategoryComponent, ItemTypeComponent, ItemComponent, IconsPipe, ItemViewComponent, ItemImageComponent]
 })
 export class ItemModule {
 

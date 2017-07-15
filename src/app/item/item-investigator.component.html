@@ -1,0 +1,29 @@
+<p>
+  {{item.bio}}
+</p>
+<p>
+  Starting location: {{item.location}}
+</p>
+<p>
+  Abilities
+</p>
+<ul>
+  <li *ngFor="let ability of item.abilities">
+    {{ability | icons}}
+  </li>
+</ul>
+<p>
+  Stats:
+</p>
+<ul>
+  <li *ngFor="let statKey of keys()" [innerHtml]="'<'+statKey+'>:'+item.stats[statKey] | icons">
+  </li>
+</ul>
+<p>
+  Starting Items:
+</p>
+<ul>
+  <li *ngFor="let equipment of item.equipment">
+    {{equipment}}
+  </li>
+</ul>

@@ -8,4 +8,6 @@ import { Item } from '../models/Item';
 export class ItemComponent {
   @Input()
   item: Item;
+
+  cardTypes: Array<string> = ['artifact', 'asset', 'unique-asset', 'spell', 'condition'];
 }

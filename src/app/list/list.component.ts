@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 import { Item, itemType } from '../models/Item';
 import { ItemProvider } from '../item/item.provider';
 
@@ -13,7 +13,8 @@ export class ListComponent implements OnInit {
   items: Item[] = [];
 
   constructor(private route: ActivatedRoute,
-              private itemProvider: ItemProvider) {
+              private itemProvider: ItemProvider,
+              private router: Router) {
   }
 
   ngOnInit() {
@@ -28,5 +29,9 @@ export class ListComponent implements OnInit {
         return 0;
       }
     });
+  }
+
+  routeToCard(id: number) {
+    this.router.navigateByUrl('list/(list-router:' + this.itemType + '/' + id + ')');
   }
 }

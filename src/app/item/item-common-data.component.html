@@ -1,0 +1,8 @@
+<p class="item-category">
+  <item-category *ngFor="let category of item.categories" [category]="category"></item-category>
+</p>
+<p *ngIf="item.front" [innerHtml]="item.front | icons">
+</p>
+<p *ngIf="item.reckoning">
+  <span class="icon icon-reckoning"></span>: <span [innerHtml]="item.reckoning | icons"></span>
+</p>

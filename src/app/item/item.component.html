@@ -7,25 +7,11 @@
       <item-type [type]="item.type"></item-type>
     </md-card-subtitle>
   </md-card-header>
-  <div md-card-image class="elder-sign" *ngIf="!item.image">
-    <img src="../../assets/images/elder-sign.svg">
-  </div>
-  <div md-card-image *ngIf="item.image">
-    <span class="big-card {{item.image}}"></span>
-  </div>
+  <item-image [image]="item.image" size="big"></item-image>
   <md-card-content>
-    <p class="item-category">
-      <item-category *ngFor="let category of item.categories" [category]="category"></item-category>
-    </p>
-    <p *ngIf="item.front" [innerHtml]="item.front | icons">
-    </p>
-    <p *ngIf="item.reckoning">
-      <span class="icon icon-reckoning"></span>: <span [innerHtml]="item.reckoning | icons"></span>
-    </p>
-    <p>
-      <span i18n>Expansion</span>:
-      <expansion-name [expansion]="item.expansion"></expansion-name>
-    </p>
+    <item-common-data *ngIf="cardTypes.indexOf(item.type) > -1" [item]="item"></item-common-data>
     <item-location *ngIf="item.type==='location'" [item]="item"></item-location>
+    <item-investigator *ngIf="item.type==='investigator'" [item]="item"></item-investigator>
+    <item-expansion [expansion]="item.expansion"></item-expansion>
   </md-card-content>
 </md-card>

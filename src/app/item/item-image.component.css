@@ -1,0 +1,45 @@
+.elder-sign {
+  text-align: center;
+}
+
+.elder-sign > img {
+  width: auto;
+}
+
+.big .elder-sign > img {
+  height: 200px;
+}
+
+.small .elder-sign > img {
+  height: 130px;
+}
+
+.big span{
+  display: block;
+  width: auto;
+  height: 200px;
+  -webkit-background-size: 100%;
+  background-size: 100%;
+}
+
+.small span{
+  display: block;
+  width: auto;
+  height: 130px;
+  -webkit-background-size: 100%;
+  background-size: 100%;
+}
+
+.big img {
+  width: auto;
+  height: 200px;
+}
+
+.small img {
+  width: auto;
+  height: 130px;
+}
+
+.big > div {
+  margin-top: 0;
+}

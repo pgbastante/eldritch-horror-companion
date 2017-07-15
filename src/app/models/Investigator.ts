@@ -10,6 +10,11 @@ export class Investigator extends Item {
     'research',
     'all-rounder'
   ];
+  abilities: Array<string>;
+  stats: Object;
+  equipment: Array<string>;
+  location: string;
+  bio: string;
 }
 
 export type investigatorCategory =
