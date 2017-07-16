@@ -7,6 +7,6 @@
 <span i18n>Connects with</span>:
 <ul>
   <li *ngFor="let connection of item.connections">
-    <a routerLink="/list/locations/{{connection}}">{{getConnection(connection)}}</a>
+    <a (click)="navigateToLocation(connection)">{{getConnection(connection)}}</a>
   </li>
 </ul>

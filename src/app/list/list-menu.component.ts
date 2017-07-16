@@ -1,11 +1,11 @@
-import { Component } from '@angular/core';
-import { Router } from '@angular/router';
+import { Component, OnInit } from '@angular/core';
+import { NavigationEnd, Router } from '@angular/router';
 @Component({
   selector: 'list-menu',
   templateUrl: 'list-menu.component.html',
   styleUrls: ['list-menu.component.css']
 })
-export class ListMenuComponent {
+export class ListMenuComponent implements OnInit {
   navLinks = [
     {
       id: 1,
@@ -48,13 +48,34 @@ export class ListMenuComponent {
       label: 'Ancient Ones'
     }
   ];
+  selectedIndex = 0;
 
   constructor(private router: Router) {
 
+  }
+
+  ngOnInit() {
+    this.selectedIndex = this.findTabIndex(this.router.url);
+    this.router.events.subscribe((event) => {
+      if (event instanceof NavigationEnd) {
+        this.selectedIndex = this.findTabIndex(event.url);
+      }
+    });
   }
 
   onLinkClick(event: any) {
     let link = this.navLinks[event.index];
     this.router.navigate(['/list', {outlets: {'list-router': [link.route]}}]);
   }
+
+  private findTabIndex(url: string) {
+    let route = url.match(/list-router:(locations|assets|spells|unique-assets|artifacts|conditions|investigators|ancient-ones)/),
+      index = null;
+    if (route) {
+      index = this.navLinks.findIndex((obj) => obj.route === route[1]);
+    }
+    return index;
+  }
+
+
 }

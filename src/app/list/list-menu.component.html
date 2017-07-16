@@ -1,4 +1,4 @@
-<md-tab-group (selectChange)="onLinkClick($event)" md-stretch-tabs>
+<md-tab-group (selectChange)="onLinkClick($event)" md-stretch-tabs [(selectedIndex)]="selectedIndex">
   <md-tab *ngFor="let link of navLinks">
     <ng-template md-tab-label>
       {{link.label}}

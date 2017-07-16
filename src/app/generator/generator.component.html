@@ -1,4 +1,4 @@
-<item-card *ngIf="generatedItem" [item]="generatedItem"></item-card>
+<item-view-layout *ngIf="generatedItem" [item]="generatedItem"></item-view-layout>
 <ng-container *ngIf="!generatedItem">
   <p md-line class="item-category">
     <span i18n>No Items found with the selected categories</span>

@@ -10,7 +10,7 @@ export class ItemInvestigatorComponent {
   @Input()
   item: Investigator;
 
-  keys(){
+  keys() {
     return Object.keys(this.item.stats);
   }
 }

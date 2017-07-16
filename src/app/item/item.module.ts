@@ -26,6 +26,7 @@ import { ItemExpansionComponent } from './item-expansion.component';
 import { ItemImageComponent } from './item-image.component';
 import { ItemInvestigatorComponent } from './item-investigator.component';
 import { FlexLayoutModule } from '@angular/flex-layout';
+import { ItemViewLayoutComponent } from './item-view-layout.component';
 
 @NgModule({
   imports: [CommonModule, MdCardModule, ExpansionModule, RouterModule, FlexLayoutModule],
@@ -39,7 +40,8 @@ import { FlexLayoutModule } from '@angular/flex-layout';
     ItemCommonDataComponent,
     ItemExpansionComponent,
     ItemImageComponent,
-    ItemInvestigatorComponent
+    ItemInvestigatorComponent,
+    ItemViewLayoutComponent
   ],
   providers: [
     ItemProvider,
@@ -55,7 +57,15 @@ import { FlexLayoutModule } from '@angular/flex-layout';
     ItemFilterAllCategories,
     ItemFilterOneCategory
   ],
-  exports: [ItemCategoryComponent, ItemTypeComponent, ItemComponent, IconsPipe, ItemViewComponent, ItemImageComponent]
+  exports: [
+    ItemCategoryComponent,
+    ItemTypeComponent,
+    ItemComponent,
+    IconsPipe,
+    ItemViewComponent,
+    ItemImageComponent,
+    ItemViewLayoutComponent
+  ]
 })
 export class ItemModule {
 
