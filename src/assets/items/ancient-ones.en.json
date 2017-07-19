@@ -36,7 +36,8 @@
       "residence": "Cavern of Y'quaa, beneath Mount Voormithadreth, the tallest peak in the Eiglophian Mountains, spanning the middle of Hyperborea (north of the Arctic Circle)",
       "sources": "The Seven Geases, Clark Ashton Smith, 1934"
     },
-    "image": "abhoth"
+    "image": "abhoth",
+    "type": "ancient-one"
   },
   {
     "id": 2,
@@ -79,7 +80,8 @@
       "residence": "",
       "sources": ""
     },
-    "image": "atlach-nacha"
+    "image": "atlach-nacha",
+    "type": "ancient-one"
   },
   {
     "id": 3,
@@ -122,7 +124,8 @@
       "residence": "",
       "sources": ""
     },
-    "image": "azathoth"
+    "image": "azathoth",
+    "type": "ancient-one"
   },
   {
     "id": 4,
@@ -165,7 +168,8 @@
       "residence": "At his house in R'lyeh, dead Cthulhu waits dreaming. Eons ago, Cthulhu came to the earth with his star spawn. Together they waged a war against the Elder Things, driving them back into the Antarctic. Some time later a great cataclysm sunk many of the star spawn's great cities, including their greatest city of all, R'lyeh, where the high priest Cthulhu sat his mighty throne. This corresponds to Space 3 on the board",
       "sources": "The Call of Cthulhu, H.P. Lovecraft, 1928."
     },
-    "image": "cthulhu"
+    "image": "cthulhu",
+    "type": "ancient-one"
   },
   {
     "id": 5,
@@ -212,7 +216,8 @@
       "residence": "",
       "sources": ""
     },
-    "image": "elder-things"
+    "image": "elder-things",
+    "type": "ancient-one"
   },
   {
     "id": 6,
@@ -259,7 +264,8 @@
       "residence": "The Hyades",
       "sources": ""
     },
-    "image": "hastur"
+    "image": "hastur",
+    "type": "ancient-one"
   },
   {
     "id": 7,
@@ -306,7 +312,8 @@
       "residence": "",
       "sources": ""
     },
-    "image": "hypnos"
+    "image": "hypnos",
+    "type": "ancient-one"
   },
   {
     "id": 8,
@@ -349,7 +356,8 @@
       "residence": "",
       "sources": ""
     },
-    "image": "ithaqua"
+    "image": "ithaqua",
+    "type": "ancient-one"
   },
   {
     "id": 9,
@@ -396,7 +404,8 @@
       "residence": "",
       "sources": ""
     },
-    "image": "nephren-ka"
+    "image": "nephren-ka",
+    "type": "ancient-one"
   },
   {
     "id": 10,
@@ -415,7 +424,7 @@
       },
       "resistance": 1
     },
-    "setup": "Spawn 1 Goat Spawn Monster or 1 Dark Young Monster on this space. Then, if you spawned a Monster, discard this cultist",
+    "setup": "Set aside 2 Ghoul Monsters, 2 Goat Spawn Monsters, and 1 Dark Young Monsters.",
     "mythos": {
       "stage-1": {
         "green": 1,
@@ -439,7 +448,8 @@
       "residence": "",
       "sources": ""
     },
-    "image": "shub-niggurath"
+    "image": "shub-niggurath",
+    "type": "ancient-one"
   },
   {
     "id": 11,
@@ -447,7 +457,7 @@
     "title": "The Cosmic Alignment",
     "expansion": "sr",
     "gameplay": "When the Omen advances to the red space of the Omen track, place 1 Eldritch token on that space. If there are 3 Eldritch tokens on the red space of the Omen track, 'The Portal Opens' effect is triggered.",
-    "victory": "There is no normal victory. When 2 Mysteries have been solved, 'The Portal Opens' effect is triggered at the end of the next Mythos phase",
+    "victory": "There is no normal victory. When 2 Mysteries have been solved, 'The Portal Opens' effect is triggered at the end of the next Mythos phase\nWhen Doom advances to zero, investigators loose the game",
     "doom": 13,
     "flavor": "When the planets align with the center of the universe and the Earth falls under the shadow of an eclipse, that which would devour all life seeks to pierce the veil that keeps the darkness at bay.",
     "cultist": {
@@ -486,7 +496,8 @@
       "residence": "",
       "sources": ""
     },
-    "image": "syzygy"
+    "image": "syzygy",
+    "type": "ancient-one"
   },
   {
     "id": 12,
@@ -533,7 +544,8 @@
       "residence": "",
       "sources": ""
     },
-    "image": "yig"
+    "image": "yig",
+    "type": "ancient-one"
   },
   {
     "id": 13,
@@ -576,6 +588,7 @@
       "residence": "",
       "sources": ""
     },
-    "image": "yog-sothoth"
+    "image": "yog-sothoth",
+    "type": "ancient-one"
   }
 ]

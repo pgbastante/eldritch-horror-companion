@@ -2,7 +2,7 @@
   {
     "id": 1,
     "code": 1,
-    "name": "Costa de Alaska",
+    "name": "Alaskan Coast",
     "categories": [
       "world"
     ],
@@ -18,7 +18,7 @@
   {
     "id": 2,
     "code": 2,
-    "name": "Oceano Pacifico Norte",
+    "name": "North Pacific Ocean",
     "categories": [
       "world"
     ],
@@ -33,7 +33,7 @@
   {
     "id": 3,
     "code": 3,
-    "name": "Oceano Pacifico Sur",
+    "name": "South Pacific Ocean",
     "categories": [
       "world"
     ],
@@ -48,7 +48,7 @@
   {
     "id": 4,
     "code": 4,
-    "name": "Zonas salvages Canadienses",
+    "name": "The Canadian Wilderness",
     "categories": [
       "world"
     ],
@@ -63,7 +63,7 @@
   {
     "id": 5,
     "code": 5,
-    "name": "El corazón de America/La metropolis Americana",
+    "name": "America's Heartland",
     "categories": [
       "world"
     ],
@@ -79,7 +79,7 @@
   {
     "id": 6,
     "code": 6,
-    "name": "El Sur Profundo",
+    "name": "The Deep South",
     "categories": [
       "world"
     ],
@@ -95,7 +95,7 @@
   {
     "id": 7,
     "code": 7,
-    "name": "Centro America",
+    "name": "Central America",
     "categories": [
       "world"
     ],
@@ -113,7 +113,7 @@
   {
     "id": 8,
     "code": 8,
-    "name": "Triangulo de las Bermudas",
+    "name": "Bermuda Triangle",
     "categories": [
       "world"
     ],
@@ -130,7 +130,7 @@
   {
     "id": 9,
     "code": 9,
-    "name": "Groenlandia",
+    "name": "Greenland",
     "categories": [
       "world"
     ],
@@ -144,7 +144,7 @@
   {
     "id": 10,
     "code": 10,
-    "name": "Oeste de Africa",
+    "name": "West Africa",
     "categories": [
       "world"
     ],
@@ -161,7 +161,7 @@
   {
     "id": 11,
     "code": 11,
-    "name": "Oceano Atlantico Sur",
+    "name": "The South Atlantic Ocean",
     "categories": [
       "world"
     ],
@@ -176,7 +176,7 @@
   {
     "id": 12,
     "code": 12,
-    "name": "Oceano del Sur",
+    "name": "Southern Ocean",
     "categories": [
       "world"
     ],
@@ -191,7 +191,7 @@
   {
     "id": 13,
     "code": 13,
-    "name": "Oceano Artico",
+    "name": "Artic Ocean",
     "categories": [
       "world"
     ],
@@ -205,7 +205,7 @@
   {
     "id": 14,
     "code": 14,
-    "name": "Europa del Norte",
+    "name": "Northern Europe",
     "categories": [
       "world"
     ],
@@ -220,7 +220,7 @@
   {
     "id": 15,
     "code": 15,
-    "name": "Sur de Africa",
+    "name": "South Africa",
     "categories": [
       "world"
     ],
@@ -238,7 +238,7 @@
   {
     "id": 16,
     "code": 16,
-    "name": "Rusia central",
+    "name": "Central Russia",
     "categories": [
       "world"
     ],
@@ -254,7 +254,7 @@
   {
     "id": 17,
     "code": 17,
-    "name": "India Urbana",
+    "name": "Urban India",
     "categories": [
       "world"
     ],
@@ -272,7 +272,7 @@
   {
     "id": 18,
     "code": 18,
-    "name": "Oceano Indico",
+    "name": "The Indian Ocean",
     "categories": [
       "world"
     ],
@@ -287,7 +287,7 @@
   {
     "id": 19,
     "code": 19,
-    "name": "Siberia del Este",
+    "name": "Eastern Siberia",
     "categories": [
       "world"
     ],
@@ -304,7 +304,7 @@
   {
     "id": 20,
     "code": 20,
-    "name": "Sudeste Asiatico",
+    "name": "Southeast Asia",
     "categories": [
       "world"
     ],
@@ -321,7 +321,7 @@
   {
     "id": 21,
     "code": 21,
-    "name": "Territorios del Norte",
+    "name": "The Northern Territories",
     "categories": [
       "world"
     ],
@@ -335,7 +335,7 @@
   {
     "id": 22,
     "code": "AM",
-    "name": "El Amazonas",
+    "name": "The Amazon",
     "categories": [
       "world"
     ],
@@ -350,7 +350,7 @@
   {
     "id": 23,
     "code": "PY",
-    "name": "Las Piramides",
+    "name": "The Pyramids",
     "categories": [
       "world"
     ],
@@ -367,7 +367,7 @@
   {
     "id": 24,
     "code": "HA",
-    "name": "El Corazón de Africa",
+    "name": "The Heart of Africa",
     "categories": [
       "world"
     ],
@@ -382,7 +382,7 @@
   {
     "id": 25,
     "code": "HM",
-    "name": "El Himalaya",
+    "name": "The Himalayas",
     "categories": [
       "world"
     ],
@@ -481,7 +481,7 @@
   {
     "id": 31,
     "code": "LN",
-    "name": "Londres",
+    "name": "London",
     "categories": [
       "world"
     ],
@@ -497,7 +497,7 @@
   {
     "id": 32,
     "code": "RM",
-    "name": "Roma",
+    "name": "Rome",
     "categories": [
       "world"
     ],
@@ -515,7 +515,7 @@
   {
     "id": 33,
     "code": "IS",
-    "name": "Estambul",
+    "name": "Istanbul",
     "categories": [
       "world"
     ],
@@ -566,7 +566,7 @@
   {
     "id": 36,
     "code": "SY",
-    "name": "Sidney",
+    "name": "Sydney",
     "categories": [
       "world"
     ],
@@ -583,7 +583,7 @@
   {
     "id": 37,
     "code": "MO",
-    "name": "Puesto avanzado Miskatonic",
+    "name": "Miskatonic Outpost",
     "categories": [
       "antarctica"
     ],

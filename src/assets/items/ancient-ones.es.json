@@ -36,7 +36,8 @@
       "residence": "Cavern of Y'quaa, beneath Mount Voormithadreth, the tallest peak in the Eiglophian Mountains, spanning the middle of Hyperborea (north of the Arctic Circle)",
       "sources": "The Seven Geases, Clark Ashton Smith, 1934"
     },
-    "image": "abhoth"
+    "image": "abhoth",
+    "type": "ancient-one"
   },
   {
     "id": 2,
@@ -79,26 +80,27 @@
       "residence": "",
       "sources": ""
     },
-    "image": "atlach-nacha"
+    "image": "atlach-nacha",
+    "type": "ancient-one"
   },
   {
     "id": 3,
     "name": "Azathoth",
-    "title": "The Daemon Sultan",
+    "title": "El Sultán Demoníaco",
     "expansion": "base",
-    "gameplay": "When the Omen advances to the green space of the Omen track, advance Doom by 1 for each Eldritch token on that space",
-    "victory": "When 3 Mysteries have been solved, investigators win the game.",
+    "gameplay": "Cuando el Augurio avanza a la casilla verde del medidor de Augurio, haz avanzar la Perdición 1 casilla por cada ficha de Arcano que haya en la casilla verde",
+    "victory": "Cuando se hayan resuelto 3 Misterios los investigadores ganan la partida",
     "doom": 15,
-    "flavor": "The Idiot God sits at the center of all things spreading madness and death. Its seeds descend from the stars, threatening to crack the world in half.",
+    "flavor": "El Dios Idiota se sienta en el centro de todas las cosas extendiendo muerte y locura. Su semilla desciende desde las estrellas, amenazando con partir el mundo por la mitad",
     "cultist": {
-      "effect": "After resolving the <will> test, loose 1 of health and defeat this monster",
+      "effect": "Después de resolver la prueba de <will>, pierde 1 punto de Salud y derrota a este Monstruo",
       "sanity": {
         "test": "<will>",
         "value": 1
       },
       "resistance": 1
     },
-    "setup": "Place one Eldritch token on the green space of the Omen track",
+    "setup": "Coloca una ficha de Arcano en la casilla verde del medidor de Augurio",
     "mythos": {
       "stage-1": {
         "green": 1,
@@ -122,26 +124,27 @@
       "residence": "",
       "sources": ""
     },
-    "image": "azathoth"
+    "image": "azathoth",
+    "type": "ancient-one"
   },
   {
     "id": 4,
     "name": "Cthulhu",
-    "title": "The Madness From the Sea",
+    "title": "La locura que viene del mar",
     "expansion": "base",
-    "gameplay": "When an investigator moves onto a space containing an Eldritch token, he becomes Delayed and loses 1 Sanity\n<reckoning>: Each investigator on a Sea space that does not contain an Eldritch token places an Eldritch token on his space",
-    "victory": "When 3 Mysteries have been solved, investigators win the game.",
+    "gameplay": "Cuando un investigador entre en una casilla que contenga una ficha de Arcano, queda Retrasado y pierde 1 punto de Cordura\n<reckoning>: Cada investigador que esté en una casilla de Mar que no contenga una ficha de Arcano coloca una ficha de Arcano en su casilla.",
+    "victory": "Cuando se hayan resuelto 3 Misterios, los investigadores ganan la partida",
     "doom": 12,
-    "flavor": "Eons ago, Cthulhu came from the stars with his Star Spawn brethren. He now sleeps in the sunken city of R'lyeh, waiting for the stars to be right to rise again.",
+    "flavor": "Hace eones, Cthulhu llegó de las estrellas con sus semillas estelares. Ahora duerme en la ciudad hundida de R'lyeh, esperando que las estrellas se alineen para alzarse de nuevo",
     "cultist": {
-      "effect": "Before resolving the strength test, lost 1 Sanity.",
+      "effect": "Antes de resolver la prueba de <strength>, pierde 1 punto de Cordura",
       "health": {
         "test": "<strength>",
         "value": 1
       },
       "resistance": 1
     },
-    "setup": "Set aside 1 Deep One Monster, 1 Star Spawn Monster, and all Cthulhu Special Encounter cards",
+    "setup": "Pon aparte 1 Monstruo Profundo, 1 Monstruo Semilla estelar y todas las cartas de Encuentro Especial de Cthulhu",
     "mythos": {
       "stage-1": {
         "green": 0,
@@ -165,19 +168,20 @@
       "residence": "At his house in R'lyeh, dead Cthulhu waits dreaming. Eons ago, Cthulhu came to the earth with his star spawn. Together they waged a war against the Elder Things, driving them back into the Antarctic. Some time later a great cataclysm sunk many of the star spawn's great cities, including their greatest city of all, R'lyeh, where the high priest Cthulhu sat his mighty throne. This corresponds to Space 3 on the board",
       "sources": "The Call of Cthulhu, H.P. Lovecraft, 1928."
     },
-    "image": "cthulhu"
+    "image": "cthulhu",
+    "type": "ancient-one"
   },
   {
     "id": 5,
-    "name": "Elder Things",
-    "title": "The Once Dominant Species",
+    "name": "El resurgir de los Antiguos",
+    "title": "La antigua especie dominante",
     "expansion": "mom",
-    "gameplay": "After an investigator resolves an Other World Encounter, he may move to Plateau of Leng",
-    "victory": "When 4 Mysteries have been solved, investigators win the game.",
+    "gameplay": "Después de que eun investigador resuelva un Encuentro de Otros Mundos, puede moverse a la Meseta de Leng.",
+    "victory": "Cuando se hayan resuelto 4 Misterios, los investigadores ganan la partida",
     "doom": 16,
-    "flavor": "Eons ago, the elder things were driven underground by the changing climate, hibernating in the cities they had built into the mountains or in the depths of the ocean. With the disturbance of the Miskatonic Expedition, they have begun to reclaim the world they once dominated.",
+    "flavor": "Hace eones, los Antiguos tuvieron que marcharse bajo tierra por el cambio del clima, e hibernaron en las ciudades que habian construido en las montañas o en las profundidades del océano. Con la intervención de la Expedición Miskatonic, han comenzado a reclamar el mundo que dominaron antaño",
     "cultist": {
-      "effect": "If you pass the <lore> test, you free the victim's mind from the alien magic; defeat this Monster and gain 1 random Ally Asset from the deck.",
+      "effect": "Si superas la prueba de <lore>, liberas la mente de la victima de la magia alienigena; derrota este Monstruo y obtén 1 Apoyo Aliado aleatorio del mazo",
       "sanity": {
         "test": "<lore> -1",
         "value": 0
@@ -188,7 +192,7 @@
       },
       "resistance": 1
     },
-    "setup": "Set aside all Rise of the Elder Things Special Encounters. Set up the Antarctica side board.",
+    "setup": "Pon aparte todas las cartas de Encuentro Especial de El resurgir de los Antiguos. Prepara el tablero secundario de la Antártida",
     "mythos": {
       "stage-1": {
         "green": 2,
@@ -212,19 +216,20 @@
       "residence": "",
       "sources": ""
     },
-    "image": "elder-things"
+    "image": "elder-things",
+    "type": "ancient-one"
   },
   {
     "id": 6,
     "name": "Hastur",
-    "title": "The Unspeakable One",
+    "title": "El Innombrable",
     "expansion": "soc",
-    "gameplay": "<reckoning>: Investigators as a group lose Sanity equal to the number of Gates on the game board unless the Lead Investigator gains a Blight Condition.",
-    "victory": "When 2 Mysteries have been solved, investigators win the game.",
+    "gameplay": "<reckoning>: Los investigadores, como grupo, pierden una cantidad de Cordura igual a la cantidad de Portales que haya en el tablero de juego a menos que el investigador jefe obtenga el Estado Aflicción",
+    "victory": "Cuando se hayan resuelto 2 Misterios, los investigadores ganan la partida",
     "doom": 11,
-    "flavor": "Far from Earth beneath the star of Aldebaran, the Unspeakable One sleeps imprisoned within the core of one of the dark stars of the Hyades.  Trapped there in a war long forgotten, he dreams of escaping to exact his terrible will upon the cosmos.",
+    "flavor": "Muy lejos de la Tierra, bajo la estrella de Alebarán, el Innombrable duerme aprisionado en el núcleo de una de las estrellas oscuras de Híades. Fue atrapado allí en una guerra ya olvidada, y sueña con escapar para doblegar todo el cosmos a su terrible voluntad",
     "cultist": {
-      "effect": "<reckoning>: The cultist summons a Byakhee. A Byakhee Monster ambushes an investigator on this space or an adjacent space!",
+      "effect": "<reckoning>: El sectario convoca un byakhee. ¡Un Monstruo Byakhee tiende una emboscada a un investigador que esté en esta casilla o en una casilla adyacente!",
       "sanity": {
         "test": "<will>",
         "value": 1
@@ -235,7 +240,7 @@
       },
       "resistance": 1
     },
-    "setup": "Set aside 1 Byakhee Monster and all Hastur Special Encounters.",
+    "setup": "Deja aparte 1 Monstruo Byakhee y todos los Encuentros Especiales Hastur",
     "mythos": {
       "stage-1": {
         "green": 0,
@@ -259,7 +264,8 @@
       "residence": "The Hyades",
       "sources": ""
     },
-    "image": "hastur"
+    "image": "hastur",
+    "type": "ancient-one"
   },
   {
     "id": 7,
@@ -306,26 +312,27 @@
       "residence": "",
       "sources": ""
     },
-    "image": "hypnos"
+    "image": "hypnos",
+    "type": "ancient-one"
   },
   {
     "id": 8,
     "name": "Ithaqua",
-    "title": "The Wind Walker",
+    "title": "El que camina en el viento",
     "expansion": "mom",
-    "gameplay": "<reckoning>: Each investigator gains a Hypothermia Condition unless he spends 1 Focus.",
-    "victory": "When 3 Mysteries have been solved, investigators win the game.",
+    "gameplay": "<reckoning>: Cada investigador obtiene el Estado Hipotermia a menos que gaste 1 ficha de Concentración",
+    "victory": "Cuando se hayan resuelto 3 Misterios, los investigadores ganan la partida",
     "doom": 13,
-    "flavor": "The weather has grown cold, and the aurora borealis glows bright in the northern skies, visible even during the day. A strange madness has begun affecting those around the arctic circle, and travelers returning from the north speak of visions of an ancient civilization.",
+    "flavor": "El tiempo se ha vuelto más frio, y la aurora boreal brilla con fuerza en los cielos septentrionales hasta el punto de ser visible durante el día. Una extraña locura ha comenzado a afectar a quienes viven cerca del circulo ártico, y los viajeros que regresan del norte hablan de visiones de una antigua civilización.",
     "cultist": {
-      "effect": "if you lose Health from the Strength test, the cold chills you to your core; gain a Hypothermia Condition.",
+      "effect": "Si pierdes Salud por la prueba de <strength>, el frio te hiela hasta el tuétano; obtén el Estado Hipotermia",
       "health": {
         "test": "<strength>",
         "value": 2
       },
       "resistance": 1
     },
-    "setup": "Set aside 1 Gnoph-keh Monster, 1 Wendigo Monster, and all Ithaqua special encounters.",
+    "setup": "Pon aparte 1 Monstruo Gnoph-keh, 1 Monstruo Wendigo y todas las cartas de Encuentro Especial de Ithaqua",
     "mythos": {
       "stage-1": {
         "green": 0,
@@ -349,7 +356,8 @@
       "residence": "",
       "sources": ""
     },
-    "image": "ithaqua"
+    "image": "ithaqua",
+    "type": "ancient-one"
   },
   {
     "id": 9,
@@ -396,26 +404,27 @@
       "residence": "",
       "sources": ""
     },
-    "image": "nephren-ka"
+    "image": "nephren-ka",
+    "type": "ancient-one"
   },
   {
     "id": 10,
     "name": "Shub-Niggurath",
-    "title": "The Black Goat of the Woods",
+    "title": "La Cabra Negra de los Bosques",
     "expansion": "base",
-    "gameplay": "<reckoning>: Spawn 1 Monster on a random space. Then, if there are 10 or more Monsters on the game board, advance Doom by 2",
-    "victory": "When 3 Mysteries have been solved, investigators win the game.",
+    "gameplay": "<reckoning>: Genera 1 Monstruo en una casilla aleatoria. A continuación, si hay 10 o más Monstruos en el tablero de juego, haz avanzar la Perdición 2 casillas.",
+    "victory": "Cuando se hayan resuelto 3 Misterios, los investigadores ganan la partida",
     "doom": 13,
-    "flavor": "During pagan rites, Shub-Niggurath absorbs worthy cultists into her amorphous body and transforms them into gof'nn hupadgh Shub-Niggurath, the goat spawn. From the wildest corners of the earth, her primal brood, the dark young, emerge to overwhelm humanity.",
+    "flavor": "Durante los ritos paganos.¡, Shub-Niggurath absorve a los sectarios dignos en su cuerpo amorfo y los transforma en gof'un hupadgh Shub-Niggurath, el engendro cabrío. Desde los rincones más salvajes de la tierra, su progenie primaria, los retoños oscuros, emergen para acabar con la humanidad",
     "cultist": {
-      "effect": "<reckoning>: Spawn 1 Goat Spawn Monster or 1 Dark Young Monster on this space. Then, if you spawned a Monster, discard this cultist",
+      "effect": "<reckoning>: Genera 1 Monstruo Engendro cabrío o 1 Monstruo Retoño oscuro en esta casilla. A continuación, si has generado un Monstruo, descarta este Sectario",
       "health": {
         "test": "<strength> -1",
         "value": 1
       },
       "resistance": 1
     },
-    "setup": "Spawn 1 Goat Spawn Monster or 1 Dark Young Monster on this space. Then, if you spawned a Monster, discard this cultist",
+    "setup": "Pon aparte 2 Monstruos Gul, 2 Monstruos Engendro cabrío y 1 Monstruo Retoño oscuro.",
     "mythos": {
       "stage-1": {
         "green": 1,
@@ -439,19 +448,20 @@
       "residence": "",
       "sources": ""
     },
-    "image": "shub-niggurath"
+    "image": "shub-niggurath",
+    "type": "ancient-one"
   },
   {
     "id": 11,
-    "name": "Syzygy",
-    "title": "The Cosmic Alignment",
+    "name": "Sicigia",
+    "title": "El alineamiento cósmico",
     "expansion": "sr",
-    "gameplay": "When the Omen advances to the red space of the Omen track, place 1 Eldritch token on that space. If there are 3 Eldritch tokens on the red space of the Omen track, 'The Portal Opens' effect is triggered.",
-    "victory": "There is no normal victory. When 2 Mysteries have been solved, 'The Portal Opens' effect is triggered at the end of the next Mythos phase",
+    "gameplay": "Cuando el Augurio avance a la casilla roja del medidor de Augurio, coloca 1 ficha de Arcano en esa casilla.",
+    "victory": "Al final de la fase de Mitos, si se han resuelto 2 Misterios o hay 3 fichas de Arcano en la casilla roja del medidor de Augurio, da la vuelta a esta hoja y resuelve el efecto '¡El Portal se abre!'\nCuando la Perdición avance a cero, los investigadores pierden la partida",
     "doom": 13,
-    "flavor": "When the planets align with the center of the universe and the Earth falls under the shadow of an eclipse, that which would devour all life seeks to pierce the veil that keeps the darkness at bay.",
+    "flavor": "Cuando los planetas se alinean con el centro del universo y la Tierra es cubierta por la sombra de un eclipse, aquello que devoraría toda vida busca perforar el velo que mantiene a raya la oscuridad",
     "cultist": {
-      "effect": "Horror is equal to the number of Eldritch tokens on the red space of the Omen track and toughness is equal to that number +1.",
+      "effect": "*El horror es igual a la cantidad de fichas de Arcano que haya en la casilla roja del medidor de Augurio, y la fortaleza es igual a ese número +1",
       "sanity": {
         "test": "<will> +1",
         "value": "*"
@@ -462,7 +472,7 @@
       },
       "resistance": 1
     },
-    "setup": "Set aside all Syzygy Special Encounters. Set up the Mystic Ruins Encounter deck.",
+    "setup": "Deja aparte todos los Encuentros Especiales Sicigia. Prepara el mazo de Encuentros de Ruinas místicas",
     "mythos": {
       "stage-1": {
         "green": 0,
@@ -486,19 +496,20 @@
       "residence": "",
       "sources": ""
     },
-    "image": "syzygy"
+    "image": "syzygy",
+    "type": "ancient-one"
   },
   {
     "id": 12,
     "name": "Yig",
-    "title": "The Father of Serpents",
+    "title": "El Padre de las Serpientes",
     "expansion": "fl",
-    "gameplay": "<reckoning>: Spawn 1 Cultist Monster on the Active Expedition space. Then, if there are 2 or more Monsters on that space, advance Doom by 1.",
-    "victory": "When 3 Mysteries have been solved, investigators win the game.",
+    "gameplay": "<reckoning>: Genera 1 Monstruo Sectario en la casilla de Expedición activa. A continuación, si hay 2 o más Monstruos en esa casilla, haz avanzar la Perdición 1 casilla.",
+    "victory": "Cuando se hayan resuelto 3 Misterios, los investigadores ganan la partida",
     "doom": 10,
-    "flavor": "Many know that Yig's punishment for those who harm his progeny is a terrible curse, but few know that long ago, the serpent people betrayed Yig and suffered his wrath. Now the survivors return, eager to conquer for their true master.",
+    "flavor": "Muchos saben que el castigo de Yig para quienes dañan a su progenie es una terrible maldición, pero pocos saben que hace mucho tiempo, los hombres serpiente traicionaron a Yig y sufrieron su ira. Ahora los supervivientes han regresado, y ansían conquistar en nombre de su verdadero amo.",
     "cultist": {
-      "effect": "If you lose Health from the Strength test, you've been bitten by the snake-like creature; gain a Poisoned Condition.",
+      "effect": "Si pierdes Salud por la prueba de <strength>, has sido mordido por la criatura de aspecto de serpiente, obtén el Estado Envenenado",
       "sanity": {
         "test": "<will>",
         "value": "1"
@@ -509,7 +520,7 @@
       },
       "resistance": 1
     },
-    "setup": "Set aside 6 Cultists, 1 Serpent People, and all Yig Special Encounter Cards.",
+    "setup": "Deja aparte 6 Monstruos Sectarios, 1 Monstruo Hombres serpiente y todas las cartas de Encuentro Especial de Yig.",
     "mythos": {
       "stage-1": {
         "green": 1,
@@ -533,26 +544,27 @@
       "residence": "",
       "sources": ""
     },
-    "image": "yig"
+    "image": "yig",
+    "type": "ancient-one"
   },
   {
     "id": 13,
     "name": "Yog-Sothoth",
-    "title": "The Lurker at the Threshold",
+    "title": "El que Acecha en el Umbral",
     "expansion": "base",
-    "gameplay": "<reckoning>: Each investigator on a space containing a Gate advances Doom by 1 unless he discards 1 Spell.",
-    "victory": "When 3 Mysteries have been solved, investigators win the game.",
+    "gameplay": "<reckoning>: Cada investigador que esté en una casilla que contenga un Portal hace avanzar la Perdición 1 casilla amenos que descarte 1 Hechizo",
+    "victory": "Cuando se hayan resuelto 3 misterios los investigadores ganan la partida",
     "doom": 14,
-    "flavor": "For eons, sorcerers have called upon the power of Yog-Sothoth to bend reality to their will. This incomprehensible Ancient One exists parallel to all places and times, but is bound to the space between dimensions. Gates between worlds continue to open with more frequency and soon, Yog-Sothoth will be free.",
+    "flavor": "Durante eones, los hechiceros han invocado el poder de Yog-Sothoth para plegar la realidad a su voluntad. Este incompresible Primigenio existe en paralelo a todos los lugares y tiempos, pero está atado al espacio interdimensional. Los portales entre los mundos siguen abriéndose cada vez con más frecuencia, y pronto Yog-Sothoth será libre.",
     "cultist": {
-      "effect": "If you defeat this monster during a Combat Encounter, lose 1 Sanity and gain 1 Spell.",
+      "effect": "Si derrotas a este Monstruo durante un Encuentro de Combate, pierde 1 punto de Cordura y obtén 1 Hechizo",
       "health": {
         "test": "<strength>",
         "value": 1
       },
       "resistance": 1
     },
-    "setup": "Set aside all Yog-Sothoth Special Encounter cards.",
+    "setup": "Pon aparte todas las cartas de Encuentro Especial de Yog-Sothoth",
     "mythos": {
       "stage-1": {
         "green": 0,
@@ -576,6 +588,7 @@
       "residence": "",
       "sources": ""
     },
-    "image": "yog-sothoth"
+    "image": "yog-sothoth",
+    "type": "ancient-one"
   }
 ]

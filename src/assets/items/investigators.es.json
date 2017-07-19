@@ -4,15 +4,30 @@
     "name": "Agnes Baker",
     "image": "agnes-baker",
     "type": "investigator",
-    "profession": "The Waitress",
+    "profession": "La camarera",
     "abilities": [
-      "Action: Test <lore> -1. If you pass, gain 1 Spell.",
-      "You may spend 1 Health to roll 2 additional dice when resolving a Lore test as part of a Spell effect"
+      "Acción: Realiza una prueba de <lore> -1. Si superas la prueba, obtén 1 Hechizo",
+      "Puedes gastar 1 punto de Salud para tirar 2 dados adicionales al resolver una prueba de <lore> como parte del efecto de un hechizo."
     ],
-    "location": "LN",
+    "location": 31,
     "equipment": [
-      "Profane Tome",
-      "Storm of Spirits"
+      {
+        "type": "asset",
+        "id": [
+          82
+        ],
+        "amount": 1
+      },
+      {
+        "type": "spell",
+        "id": [
+          41,
+          42,
+          43,
+          44
+        ],
+        "amount": 1
+      }
     ],
     "stats": {
       "health": 7,
@@ -25,8 +40,8 @@
     },
     "expansion": "mom",
     "role": "magic",
-    "quote": "I remember another life, one of sorcery and conquest.",
-    "bio": "Once, Agnes lived quietly, taking orders and serving up food at a diner in Arkham, but one night, she fell from a ladder, striking her head. After that, she could recall a past life as a sorceress in the ancient world of Hyperborea. Her mind flooded with memories of arcane lore. Amazed by this new magical knowledge, Agnes has traveled to London, to learn more about Hyperborea, but is she driven by her own curiosity or compelled by the will of her former self?",
+    "quote": "Recuerdo otra vida, una de hechiceria y conquista",
+    "bio": "Antes, Agnes vivia plácidamente, tomando pedidos y sirviendo comida en una cafeteria de Arkham; pero una noche, se cayó de una escalera y se golpeó la cabeza. Después de eso, empezó a recordar una vida psada como hechicera en el antiguo mundo de Hiperbórea. Su mente se llenó de recuerdos de un saber arcano. Sorprendida por este nuevo conocimiento mágico, Agnes ha viajado a Londres para aprender más sobre Hiperbórea, pero ¿está motivada por su propia curiosidad o se ve obligada por la voluntad de su antiguo yo?",
     "team": "Agnes's role centers around casting Spells of all kinds. It is very easy for her to gain spells, so, depending upon the luck of the draw, she can easily turn into a combat-heavy character, or a more supporting type with spells like Flesh Ward or Instill Bravery. If she gains combat spells, bulk up her Will and Strength.\nAgnes has a decent influence, so she can try to gain extra assets to help her needs.\nBecause it is very easy for Agnes to gain spells, she partners well for Ancient Ones or a Mystery that requires the discarding of spells, such as Syzygy."
   },
   {
@@ -34,15 +49,27 @@
     "name": "Akachi Onyele",
     "image": "akachi-onyele",
     "type": "investigator",
-    "profession": "The Shaman",
+    "profession": "La chamán",
     "abilities": [
-      "Action: Look at the top 2 Gates in the Gate stack. Put 1 Gate on the top of the Gate stack, and the other on the bottom.",
-      "When you close a Gate during an Other World Encounter, you may move to any space containing a Clue or a Gate."
+      "Acción: Mira los 2 primeros Portales del montón de Portales. Pon 1 Portal en la parte superior del montón de Portales y el otro en la parte inferior.",
+      "Cuando cierres un Portal durante un Encuentro de Otros Mundos, puedes moverte a cualquier casilla que contenga una Pista o un Portal"
     ],
-    "location": "15",
+    "location": 15,
     "equipment": [
-      "Mists of Releh",
-      "1 Clue"
+      {
+        "type": "spell",
+        "id": [
+          33,
+          34,
+          35,
+          36
+        ],
+        "amount": 1
+      },
+      {
+        "type": "clue",
+        "amount": 1
+      }
     ],
     "stats": {
       "health": 5,
@@ -55,8 +82,8 @@
     },
     "expansion": "base",
     "role": "gate-closer",
-    "quote": "I will journey to the lands beyond. I do not fear them.",
-    "bio": "As a young girl in Nigeria, Akachi stayed apart from other children, preferring the company of imaginary friends. Her elders feared madness, but the village dibia believed that she had been chosen by the gods. The wise old man taught her how to travel between worlds and how to marshal spirits. Now, she has become a wise leader herself, traveling across Africa and teaching others to protect themselves. She's recently arrived in Cape Town and from here, she will track down the dark forces that threaten humanity.",
+    "quote": "Viajaré a las tierras que hay más allá. No las temo.",
+    "bio": "Durante su infancia en Nigeria. Akachi siempre se quedaba apartada de otros niños, y prefería la compañía de amigos imaginarios. Sus mayores temían que estuviera loca, pero el dibia de la aldea creía que había sido elegida por los dioses. El sabio anciano la enseñó a viajar entre los mundos y a dar órdenes a los espíritus. Ahora se ha convertido en una sabia lider que viaja por África y enseña a otros a protegerse. Hace poco llegó a Ciudad del Cabo, y desde allí seguirá la pista de las oscuras fuerzas que amenazan a la humanidad",
     "team": "Akachi centers around the closing of gates. Her special power allows her to know which Gates could be opening, and denying the opening of problematic Gates. She partners well with Kate as a result.\nAkachi has a decent Lore, so she may wish to gain Spells as well. Her high Will can help her against Monsters with high horror checks, so she can very easily be built for combat encounters."
   },
   {
@@ -69,11 +96,8 @@
       "Action: You may discard any number of Talent Conditions to improve 1 skill of your choice for each Talent Condition discarded.",
       "If you would improve a skill, you may gain 1 Talent Condition instead."
     ],
-    "location": "IS",
-    "equipment": [
-      "Unspeakable Research Unique Asset",
-      "Quick Study Condition"
-    ],
+    "location": 33,
+    "equipment": [],
     "stats": {
       "health": 6,
       "sanity": 6,
@@ -98,11 +122,8 @@
       "Action: You or another investigator on your space may discard 1 Madness Condition and/or perform a Rest Action",
       "When another investigator performs a Rest Action on your space, they may gain 1 additional Sanity. "
     ],
-    "location": "RM",
-    "equipment": [
-      "1 Dream Diary Asset",
-      "1 Death XIII Unique Asset"
-    ],
+    "location": 32,
+    "equipment": [],
     "stats": {
       "health": 5,
       "sanity": 7,
@@ -123,14 +144,20 @@
     "name": "Charlie Kane",
     "image": "charlie-kane",
     "type": "investigator",
-    "profession": "The Politician",
+    "profession": "El político",
     "abilities": [
-      "Action: Another investigator of your choice may immediately perform 1 additional action.",
-      "When you perform an Acquire Assets action, you may allow other investigators to gain any cards you purchase."
+      "Acción: Otro investigador de tu elección puede realizar inmediatamente 1 acción adicional",
+      "Cuando realices una acción de adquirir Apoyos, puedes permitir que otros investigadores obtengan cualquier carta que compres."
     ],
-    "location": "LN",
+    "location": 31,
     "equipment": [
-      "1 Personal Assistant Asset"
+      {
+        "type": "asset",
+        "id": [
+          104
+        ],
+        "amount": 1
+      }
     ],
     "stats": {
       "health": 4,
@@ -143,8 +170,8 @@
     },
     "expansion": "base",
     "role": "support",
-    "quote": "It can be arranged. It's just a matter of acceptable terms.",
-    "bio": "When the press asks if Charlie is planning a run for national office, he smiles and says that he's focused on the important issues. The truth is that he would love to launch his campaign, but right now the most important issue is preventing the end of the world without causing a panic. To do this, he's been calling in favors across the country. Most recently, Charlie's stopped in San Francisco to visit Hearst Castle. With the help of his friends and his finances, Charlies believes he can fix this problem without sacrificing a single vote.",
+    "quote": "Puede arreglarse. Es cuestión de que las condiciones sean aceptables.",
+    "bio": "Cuando la prensa le pregunta a Charlie si está planteando hacer campaña y presentarse a un puesto a nivel nacional, él sonrie y dice que está centrado en los asustos importantes. La verdad es que le encantaria hacer campaña, pero ahora mismo lo más importante es evitar el fin del mundo sin causar el pánico. Para ello, ha estado cobrándose favores por todo el país. Su parada más reciente ha sido en San Francisco para visitar el Castillo Hearst. Con la ayuda de sus amigos y sus finanzas, Charlie cree que puede arreglar este problema sin sacrificar un solo voto.",
     "team": "Charlie Kane's abilities make him a very strong addition to any team. Although his abilities are both support oriented, making the other investigators better, they are extremely powerful, especially given his high influence score (making obtaining assets easier) and worth saving a spot on the team for him.",
     "info": [
       "Charlie can't give an additional action to a Delayed investigator.",
@@ -157,15 +184,33 @@
     "name": "Daisy Walker",
     "image": "daisy-walker",
     "type": "investigator",
-    "profession": "The Librarian",
+    "profession": "La bibliotecaria",
     "abilities": [
-      "Action: If you are on a City space, test Observation. If you pass, gain 1 Tome Asset from the reserve or 1 random Tome Asset from the deck.",
-      "When you perform a Rest action, you may perform 1 additional action on a Ritual or Tome possession you have."
+      "Acción: Si estas en una casilla de Ciudad, realiza una prueba de <observation>. Si superas la prueba, obtén 1 Apoyo Tomo de la reserva o 1 Apoyo Tomo aleatorio del mazo",
+      "Cuando realices una acción de descansar, puedes realizar 1 acción adicional con una pertenencia Ritual o Tomo que tengas"
     ],
-    "location": "IS",
+    "location": 33,
     "equipment": [
-      "1 Old Journal Unique Asset",
-      "1 Arcane Insight Spell"
+      {
+        "type": "unique-asset",
+        "id": [
+          22,
+          23,
+          24,
+          25
+        ],
+        "amount": 1
+      },
+      {
+        "type": "spell",
+        "id": [
+          69,
+          70,
+          71,
+          72
+        ],
+        "amount": 1
+      }
     ],
     "stats": {
       "health": 5,
@@ -178,8 +223,8 @@
     },
     "expansion": "mom",
     "role": "magic",
-    "quote": "I know of books so powerful, they can rewrite reality",
-    "bio": "Daisy worked in the library of Miskatonic University, overseen by the noted scholar Henry Armitage. She quickly became an expert on the school's collection of strange and occult texts, mastering the obscure subject matter and archaic languages. Through her studies, she came to believe that humanity was facing an impending threat. Armitage believes in her conclusions and has sent her to Istanbul to continue her investigation. It is their hope to discover some means of rescuing humanity from this inevitable doom.",
+    "quote": "Conozco libros tan poderosos que pueden reescribir la realidad.",
+    "bio": "Daisy trabaja en la biblioteca de la Universidad Miskatonic, bajo la supervision del reputado erudito Henry Armitage. Pronto se convirtió en una experta de la colección de textos extraños y ocultos de la facultad, dominando la oscura temática y los idiomas arcaicos. Mediante sus estudios, llegó a creer que la humanidad se enfrentaba a una amenaza inminente. Armitage cree que sus conclusiones son ciertas y la ha enviado a Estambul para que prosiga su investigación. Tiene la esperanza de descubrir algún modo de rescatar a la humanidad de su inevitable perdición",
     "team": "With her starting spells and high Lore skill, Daisy is a great character to gain Clues, which can make her useful in dealing with Rumors. Because her Observation is low, it is wise to train that up if you plan on using her skill to gain unique Tomes.\nNaturally, Daisy is a great character to use Tomes with, as she gets a third action every round, provided she is using a Ritual or Tome.\nDaisy can also use spells to great effect once she gets some."
   },
   {
@@ -191,11 +236,8 @@
       "Action: Look at the top 5 cards of the Asset deck and put them back in any order. Then, discard any number of cards from the reserve. ",
       "Roll 1 additional die when resolving a test during a location encounter or a Research Encounter if you are on a City space. "
     ],
-    "location": "20",
-    "equipment": [
-      "1 Camera Asset",
-      "1 Seek the Truth Asset"
-    ],
+    "location": 20,
+    "equipment": [],
     "stats": {
       "health": 7,
       "sanity": 5,
@@ -216,15 +258,30 @@
     "name": "Dexter Drake",
     "image": "dexter-drake",
     "type": "investigator",
-    "profession": "The Magician",
+    "profession": "El mago",
     "abilities": [
-      "Action: Move 1 Monster from your space to another space containing a Gate.",
-      "Once per round, when you gain a Spell, you may gain 1 additional spell."
+      "Acción: Mueve 1 Monstruo de tu casilla a otra casilla que contenga un Portal.",
+      "Una vez por ronda, cuando obtengas un Hechizo, puedes obtener 1 Hechizo adicional."
     ],
-    "location": "TK",
+    "location": 34,
     "equipment": [
-      "1 Binding Spell",
-      "1 Arcane Assistant Asset"
+      {
+        "type": "spell",
+        "id": [
+          20,
+          21,
+          22,
+          23
+        ],
+        "amount": 1
+      },
+      {
+        "type": "asset",
+        "id": [
+          75
+        ],
+        "amount": 1
+      }
     ],
     "stats": {
       "health": 5,
@@ -237,8 +294,8 @@
     },
     "expansion": "soc",
     "role": "magic",
-    "quote": "Do not be afraid. I have spent my entire life doing the impossible.",
-    "bio": "When the Great War ended, Dexter went from being a soldier to a stage magician. His charm and unparalleled skills quickly drew praise from around the world. As he toured the exotic corners of the world, he amassed a collection of genuine occult knowledge. Soon Drake became as much a master of real magic as he is of staged illusions. Eventually, his arcane studies revealed a dark power that is growing in strength. Now in Tokyo, Drake spends his nights performing and his days stopping the end of the world.",
+    "quote": "No tengas miedo. Me he pasado toda la vida haciendo lo imposible.",
+    "bio": "Cuando terminó la Gran Guerra, Dexter pasó de ser soldado a mago. Su encanto y sus habilidades sin parangón levantaron aplausos en todo el mundo. Mientras recorria los rincones más exóticos del mundo, reunió una gran cantidad de conocimiento ocultista de verdad. En poco tiempo, Drake se convirtió en un maestro tan hábil de la magia real como de las ilusiones de su espectáculo. Con el tiempo, sus estudios arcanos revelaron un poder oscuro cuya fuerza aumentaba cada vez más. Drake se encuentra ahora en Tokio, y pasa las noches actuando y los días evitando el fin del mundo.",
     "team": "Dexter is all about magic. He gains spells very quickly, and his starting assets make him even more powerful than most.\nWith his higher Will, he does well with Combat oriented magic and can slay monsters."
   },
   {
@@ -246,15 +303,30 @@
     "name": "Diana Stanley",
     "image": "diana-stanley",
     "type": "investigator",
-    "profession": "The Redeemed Cultist",
+    "profession": "La sectaria redimida",
     "abilities": [
-      "Action: If there is a Cultist Monster on your space, discard all Monsters on your space or move the Cultist Monster to any other space.",
-      "Reduce the horror of Monsters you encounter to 1"
+      "Acción: Si hay un Monstruo Sectario en tu casilla, descarta todos los Monstruos de tu casilla o mueve al Monstruo Sectario a cualquier otra casilla.",
+      "Reduce a 1 el horror de los Monstruos con los que resuelvas encuentros"
     ],
-    "location": "7",
+    "location": 7,
     "equipment": [
-      "1 Arcane Manuscripts Asset",
-      "1 Wither Spell"
+      {
+        "type": "asset",
+        "id": [
+          87
+        ],
+        "amount": 1
+      },
+      {
+        "type": "spell",
+        "id": [
+          53,
+          54,
+          55,
+          56
+        ],
+        "amount": 1
+      }
     ],
     "stats": {
       "health": 7,
@@ -267,8 +339,8 @@
     },
     "expansion": "base",
     "role": "magic",
-    "quote": "The Lodge is not as innocent as they pretend. I have learned that nothing is ever as it seems, myself included.",
-    "bio": "When Diana was initiated into the Order of the Silver Twilight, she believed it to be nothing more than a community organization. But as she has learned more of it's true nature, she has become convinced that a growing evil threatens the world, and that the Silver Twilight will play a role in that threat. She believes her best chance to prevent this is to use her position to sabotage the organization from within. Carl Sanford, the head of the Order, has recognized her skills and recently sent her to Panama for additional training.",
+    "quote": "La Logia no es tan inocente como pretende ser. He aprendido que nada es nunca como parece, incluida yo misma",
+    "bio": "Cuando Diana fue iniciada en la Orden del Crepúsculo de Plata, no pensaba que fuera más que una organización comunitaria. Pero a medida que ha ido sabiendo más sobre su verdadera naturaleza, ha quedado convencida de que un creciente mal amenaza al mundo, y de que el Crepúsculo de Plata jugará un papel en esa amenaza. Cree que su mejor oportunidad para evitarlo es usar su posición para sabotear la organizacion desde dentro. Carl Sanford, el jefe de la Orden, ha reconocido sus habilidades y la ha enviado a Panamá para recibir formación acdicional.",
     "team": "The high lore and observation ratings are useful. Diana's will rating of 1 is somewhat offset by the passive ability to reduce the horror of monsters to 1. "
   },
   {
@@ -276,16 +348,37 @@
     "name": "Finn Edwards",
     "image": "finn-edwards",
     "type": "investigator",
-    "profession": "The Bootlegger",
+    "profession": "El traficante de alcohol",
     "abilities": [
-      "Action: You and/or another investigator on your space may move 1 space along a Ship or Train path.",
-      "Effects cannot cause you to discard your Item, Trinket, or Ally possessions unless you choose to."
+      "Acción: Otro investigador que esté en tu casilla y/o tú podéis moveros 1 casilla por una ruta de Tren o Barco",
+      "Ningún efecto puede obligarte a descartar tus pertenencias Objeto, Baratija o Aliado a menos que elijas hacerlo"
     ],
-    "location": "5",
+    "location": 5,
     "equipment": [
-      "1 Cat Burglar Asset",
-      "1 Whiskey Asset",
-      "1 Courier Run Unique Asset"
+      {
+        "type": "asset",
+        "id": [
+          14
+        ],
+        "amount": 1
+      },
+      {
+        "type": "asset",
+        "id": [
+          15
+        ],
+        "amount": 1
+      },
+      {
+        "type": "unique-asset",
+        "id": [
+          78,
+          79,
+          80,
+          81
+        ],
+        "amount": 1
+      }
     ],
     "stats": {
       "health": 6,
@@ -298,8 +391,8 @@
     },
     "expansion": "mom",
     "role": "all-rounder",
-    "quote": "Never lose track of the exit or the merchandise.",
-    "bio": "Finn was making a good living, running liquor from Canada to cities all along the East Coast. He never got caught and never lost a delivery. Now he has taken a job in Chicago and gave his word that he could get it done. This time it won't be alcohol he's delivering, and it won't be the local sheriff trying to catch him. Finn's caught up in some supernatural conspiracy, but in the end, he adheres to the same principles. Deliver the goods. Don't get caught.",
+    "quote": "Nunca pierdas de vista la salida o la mercancia",
+    "bio": "Finn tenía una buena vida pasando licor desde Canadá a ciudades de toda la costa este. Nunca lo habían pillado y nunca había perdido una entrega. Ahora ha aceptado un trabajo en Chicago y ha dado su palabra de que podria cumplirlo. Esta vez no estará entregando alcohol, y no será el sheriff local el que intente atraparlo. Finn está involucrado en una especie de conspiracion sobrenatural, pero al final siempre sigue los mismos principios. Entrega la mercancía y que no te pillen.",
     "team": "Finn Edwards has well rounded stats, and a fantastic supporting ability that lets him move himself or other investigators down most paths, making him excellent in a supporting role. Since he can never lose Assets by choice, it is very easy to bulk him up into whatever role the team needs.",
     "info": [
       "When Finn Edwards uses his active ability, if Finn chooses both himself and another investigator on his space, Finn moves to an adjacent space connected by a Ship or Train path, and the chosen investigator may choose to move to that space as well. Finn and the chosen investigator cannot move to separate spaces.",
@@ -311,15 +404,27 @@
     "name": "George Barnaby",
     "image": "george-barnaby",
     "type": "investigator",
-    "profession": "The Lawyer",
+    "profession": "El abogado",
     "abilities": [
-      "Action: Test <influence>. For each success, another investigator of your choice on any space may discard a Debt or Detained Condition. ",
-      "Once per round, you may spend 1 Focus to add 1 to the result of 1 die when resolving a test. "
+      "Acción: Realiza una prueba de <influence>. Por cada éxito, otro investigador de tu eleccion que esté en cualquier casilla puede descartar el Estado Deuda o el Estado Detenido.",
+      "Una vez por ronda, puedes gastar 1 ficha. de Concentración para sumar 1 al resultado de 1 dado al resolver una prueba."
     ],
-    "location": "17",
+    "location": 17,
     "equipment": [
-      "1 Investment Asset",
-      "1 Pocket Watch Asset"
+      {
+        "type": "asset",
+        "id": [
+          90
+        ],
+        "amount": 1
+      },
+      {
+        "type": "asset",
+        "id": [
+          86
+        ],
+        "amount": 1
+      }
     ],
     "stats": {
       "health": 4,
@@ -332,10 +437,11 @@
     },
     "expansion": "mom",
     "role": "support",
-    "quote": "I believe in a higher law. In believe in true justice.",
-    "bio": "As a lawyer, George had a long career holding those who deal in human suffering accountable to the law. Recently, George retired and bought a boat to travel the world with his beloved wife Maria, but everything changed one morning in Bombay. George left the boat to get breakfast. On his way back, he passed Westerners dressed in black suits, all wearing silver rings that bore the image of a skull. Inside the boat, he found Maria's body surrounded by occult symbols. His sole reason for living now is the pursuit of justice for Maria.",
+    "quote": "Creo en una ley superior. Creo en la justicia verdadera",
+    "bio": "George tenía una larga carrera como abogado haciendo que quienes se lucraban con el sufrimiento humano respondiesen ante la ley. Hace poco, George se jubiló y se compró un barco para viajar por el mundo con su querida esposa Maria, pero todo cambió una mañana en Bombay. George salió del barco para ir a por el desayuno. Mientras volvia, pasó junto a unos occidentales que iban todos vestidos con trajes negros y con anillos de plata con la imagen de un cráneo. Dentro del barco, encontró el cadáver de Maria rodeado de simbolos ocultistas. Ahora, su única razón para vivir es buscar justicia para Maria.",
     "team": ""
   },
+  ,
   {
     "id": 12,
     "name": "Gloria Goldberg",
@@ -346,10 +452,7 @@
       "You and other investigators on your space roll 1 additional die when resolving a test during an Other World Encounter."
     ],
     "location": "AR",
-    "equipment": [
-      "1 Mythos Codex Unique Asset",
-      "1 Find Gate Spell"
-    ],
+    "equipment": [],
     "stats": {
       "health": 4,
       "sanity": 8,
@@ -378,10 +481,8 @@
       "Action: Test <strength>. If you pass, discard 1 Monster on your space with toughness less than or equal to your test result.",
       "You do not resolve the <will> test during a Combat Encounter unless you lose Health from the <strength> test."
     ],
-    "location": "6",
-    "equipment": [
-      "1 Sledgehammer Asset"
-    ],
+    "location": 6,
+    "equipment": [],
     "stats": {
       "health": 8,
       "sanity": 4,
@@ -408,9 +509,7 @@
       "After resolving a Research Encounter, you may spend 1 Clue you gained from that encounter to improve 1 skill of your choice."
     ],
     "location": "AR",
-    "equipment": [
-      "1 Ancient Tome Asset"
-    ],
+    "equipment": [],
     "stats": {
       "health": 4,
       "sanity": 8,
@@ -431,15 +530,27 @@
     "name": "Jacqueline Fine",
     "image": "jacqueline-fine",
     "type": "investigator",
-    "profession": "The Psychic",
+    "profession": "La psíquica",
     "abilities": [
-      "Action: You may trade any number of clues with an investigator on any space.",
-      "Once per round, when another investigator gains a non-Common Condition, you may look at the back of that card and gain 1 Clue."
+      "Acción: Puedes intercambiar cualquier cantidad de Pistas con un investigador que esté en cualquier casilla",
+      "Una vez por ronda, cuando otro investigador obtenga el Estado no Común, puedes mirar el dorso de esa carta y obtener 1 Pista"
     ],
-    "location": "5",
+    "location": 5,
     "equipment": [
-      "1 Flesh Ward Spell",
-      "1 Clue"
+      {
+        "type": "spell",
+        "id": [
+          29,
+          30,
+          31,
+          32
+        ],
+        "amount": 1
+      },
+      {
+        "type": "clue",
+        "amount": 1
+      }
     ],
     "stats": {
       "health": 4,
@@ -452,24 +563,39 @@
     },
     "expansion": "base",
     "role": "support",
-    "quote": "The visions are a warning. The future can be rewritten.",
-    "bio": "At first, Jacqueline's dreams of fire and destruction seemed like a curse. Monsters ran rampant through city streets and some greater darkness loomed on the horizon. However, she has recently learned to control her visions and observe events in detail. Yesterday, she traveled from Boston to Minneapolis to explore an abandoned warehouse she'd seen in her dreams. Inside, she found evidence of a terrible cult that had practiced unspeakable rituals there. Jacqueline hopes to use what she's learned to prevent the terrible future that haunts her sleep.",
+    "quote": "Las visiones son un aviso. El futuro se puede reescribir",
+    "bio": "Al principio, los sueños de fuego y destrucción que tenía Jacqueline parecian más bien una maldición. Había monstruos corriendo por las calles de la ciudad, y una oscuridad mayor despuntaba en el horizonte. Sin embargo, hace poco aprendió a controlar sus visiones y a observar los acontecimientos con mayor detalle. Ayer viajó de Boston a Minneapolis para explorar un almacén abandonado que había visto en sus sueños. Dentro encontró pruebas de una terrible secta que había practicado rituales innombrables allí. Jacqueline espera usar lo que ha aprendido para evitar el terrible futuro que le persigue en sus sueños",
     "team": "With her high starting Lore and decent Will, Jacqueline is great for casting spells of all kinds. She has a lower strength, so a lesser base for Strength to be boosted for Combat Encounters, so a player who wants to use her to fight might want to increase that first.\nHer high observation and special ability allow her to funnel clues to investigators, or to retrieve them from an investigator if she's better suited for the Mystery, so an investigator like Darrell or Daisy might make a good partner for her.\nSince Jacqueline may look at the back of Condition cards that are not deals, the players can work around what might be some debilitating or deadly conditions."
   },
   {
     "id": 16,
     "name": "Jenny Barnes",
     "type": "investigator",
-    "profession": "The Dilettante",
+    "profession": "La diletante",
     "abilities": [
-      "Action: You or another investigator on a City space may perform an Acquire Assets action and gain +2 <influence> during that action.",
-      "Once per round, when you or another investigator gains a Debt Condition, that investigator may discard that Condition."
+      "Acción: Otro investigador que esté en una casilla de Ciudad o tú podéis realizar una acción de adquirir Apoyos y obtener +2 <influence> durante esa acción",
+      "Una vez por ronda, cuando otro investigador o tú obtengáis el Estado Deuda, ese Investigador o tú podéis descartar ese Estado"
     ],
-    "location": "8",
+    "location": 8,
     "equipment": [
-      "1 .25 Automatic Asset",
-      "1 Fine Jewelry Asset",
-      "1 Ship Ticket"
+      {
+        "type": "asset",
+        "id": [
+          72
+        ],
+        "amount": 1
+      },
+      {
+        "type": "asset",
+        "id": [
+          69
+        ],
+        "amount": 1
+      },
+      {
+        "type": "other",
+        "text": "1 Billete de barco"
+      }
     ],
     "stats": {
       "health": 7,
@@ -482,8 +608,8 @@
     },
     "expansion": "soc",
     "role": "support",
-    "quote": "My sister was taken. I will pay any amount to save her.",
-    "bio": "Born to wealth and privilege, Jenny has spent most of her young life in the most fashionable nightclubs around the world. But her life of decadence came to an abrupt halt when she received an ominous letter from her sister Isabelle. In the letter, Isabelle reported being followed by mysterious men wearing hoods and robes. When Jenny investigated, she learned that her sister had been kidnapped to an island in the Caribbean. Jenny will use her wealth and international connections to find Isabelle and punish the men who took her.",
+    "quote": "Se llevaron a mi hermana. Pagaré lo que haga falta por salvarla",
+    "bio": "Jenny nació en un mundo de riqueza y privilegios, y pasó la mayor parte de su juventud en los clubes nocturnos más de moda de todo el mundo. Pero su decadente vida encontró un abrupto fin cuando recibió una funesta carta de su hermana Isabelle. En la carta, Isabelle le decia que la estaban siguiendo unos misteriosos encapuchados con túnicas. Cuando Jenny se puso a investigarlo, descubrió que su hermana habia sido secuestrada y llevada a una isla del Caribe. Jenny está dispuesta a usar su riqueza y constactos internacionales para encontrar a Isabelle y castigar a quienes se la llevaron.",
     "team": ""
   },
   {
@@ -491,13 +617,28 @@
     "name": "Jim Culver",
     "image": "jim-culver",
     "type": "investigator",
-    "profession": "The Musician",
+    "profession": "El músico",
     "abilities": [
-      "Action: Each investigator on your space recovers 1 sanity.",
-      "Investigators on your space roll 1 additional die when resolving tests during Combat Encounters."
+      "Acción: Cada investigador que esté en tu casilla recupera 1 punto de Cordura.",
+      "Los investigadores que estén en tu casilla tiran 1 dado adicional al resolver pruebas durante Encuentros de Combate."
     ],
-    "location": "LN",
-    "equipment": [],
+    "location": 31,
+    "equipment": [
+      {
+        "type": "spell",
+        "id": [
+          89,
+          90,
+          91,
+          92
+        ],
+        "amount": 1
+      },
+      {
+        "type": "clue",
+        "amount": 1
+      }
+    ],
     "stats": {
       "health": 7,
       "sanity": 5,
@@ -512,8 +653,8 @@
       "magic",
       "support"
     ],
-    "quote": "No, not quiet at all. Dead folks get downright rambunctious when I play my horn.",
-    "bio": "Old Jim Culver's music gives sweet comfort to the soul, and it doesn't matter if that soul belongs to the living or the dead. Folks in their graves, they love their little chats with Jim. It used to bother him, but now he's happy for the company. Lately, some departed souls in San Antonio have been all riled up about something. They're downright terrified. And anything that scares the dead deserves old Jim's undivided attention.",
+    "quote": "No, no son nada callados. Los muertos se vuelven muy revoltosos cuando toco la trompeta.",
+    "bio": "La música del buen Jim Culver da dulce consuelo al alma, y da igual que el alma pertenezca a los vivos o a los muertos. A los de las tumbas les encanta charlar con Jim. Antes le molestaba, pero ahora está contento por la compañía. Últimamente, algunas almas errantes en San Antonio están alborotadas por algo. Se encuentran aterrorizadas. Y algo que asuste a los muertos merece la atención plena del buen Jim.",
     "team": ""
   },
   {
@@ -526,10 +667,8 @@
       "Action: Choose Ally, Service, or Weapon. Then discard 1 Asset from the reserve and replace it with 1 random Asset from the deck that has the chosen trait. ",
       "Once per round, when you improve a skill, also improve 1 other skill of your choice. "
     ],
-    "location": "SF",
-    "equipment": [
-      "1 .32 Colt Pocket Asset"
-    ],
+    "location": 28,
+    "equipment": [],
     "stats": {
       "health": 7,
       "sanity": 5,
@@ -554,11 +693,8 @@
       "Action: If you are on a space containing a Gate, discard 1 Monster on your space with toughness less than your <observation>",
       "If a Gate would spawn on your space, discard that Gate and gain 1 Clue instead."
     ],
-    "location": "BA",
-    "equipment": [
-      "1 Dimensional Study Unique Asset",
-      "1 Clue"
-    ],
+    "location": 30,
+    "equipment": [],
     "stats": {
       "health": 5,
       "sanity": 7,
@@ -582,14 +718,20 @@
     "name": "Leo Anderson",
     "image": "leo-anderson",
     "type": "investigator",
-    "profession": "The Expedition Leader",
+    "profession": "El líder de expedición",
     "abilities": [
-      "Action: Test Influence. If you pass, gain 1 Ally Asset of your choice from the reserve or the discard pile ",
-      "If you are on a Wilderness space, investigators on your space roll 1 additional die when resolving tests. "
+      "Acción: Realiza una prueba de <influence>. Si superas la prueba, obtén 1 Apoyo Aliado de tu elección de la reserva o de la pila de descartes",
+      "Si estas en una casilla de Naturaleza, los investigadores que estén en tu casilla tiran 1 dado adicional al resolver pruebas."
     ],
-    "location": "BA",
+    "location": 30,
     "equipment": [
-      "1 Hired Muscle Asset"
+      {
+        "type": "asset",
+        "id": [
+          95
+        ],
+        "amount": 1
+      }
     ],
     "stats": {
       "health": 6,
@@ -602,8 +744,8 @@
     },
     "expansion": "base",
     "role": "expedition",
-    "quote": "Keep moving. You can die on your own time.",
-    "bio": "Leo Anderson has spent his whole life getting into the deadliest and most obscure corners of the globe. Along the way, he's lost good people. Fever takes some; others are claimed by wild beasts. After a recent, disastrous venture in the Yucatan, Leo barely made it back to Buenos Aires alive. He's sick of burying the people who trusted him. But the job's not done yet. The world is in danger, and crying in his drink won't fix that. He's picked up a little hired help here, and in the morning, he'll head back out into the wild.",
+    "quote": "No os paréis. Podéis morir cuando no sea asunto mío",
+    "bio": "Loe Anderson se ha pasado toda la vida entrando en los rincones más letales y desconocidos del mundo. Ha perdido a gente buena por el caminio. A algunos se los lleva la fiebre; a otros, las bestias salvajes. Tras una reciente y desastrosa empresa en el Yucatán, Leo apenas logró volver con vida a Buenos Aires. Está harto de enterrar a la gente que confió en él. Pero aún no ha terminado su trabajo. El mundo está en peligro, y llorar mientras bebe no va a arreglarlo. Ha contratado una ayuda a sueldo, y por la mañana volverá a la naturaleza",
     "team": "Leo's well-rounded stats, starting asset and ability to easily gain allies makes him a strong investigator and an excellent choice for first time players"
   },
   {
@@ -611,15 +753,27 @@
     "name": "Lily Chen",
     "image": "lily-chen",
     "type": "investigator",
-    "profession": "The Martial Artist",
+    "profession": "La artista marcial",
     "abilities": [
-      "Action: Spend any number of Health or Sanity, then recover an equal number of Health or Sanity. ",
-      "When you improve a skill, you may immediately improve that skill again. "
+      "Acción: Gasta cualquier cantidad de Salud o Cordura, a continuación, recupera una cantidad igual de Salud o Cordura.",
+      "Cuando mejoras una habilidad, puedes mejorar esta habilidad otra vez inmediatamente."
     ],
-    "location": "SH",
+    "location": 35,
     "equipment": [
-      "1 Protective Amulet Asset",
-      "1 Lucky Rabbit's Foot Asset"
+      {
+        "type": "asset",
+        "id": [
+          62
+        ],
+        "amount": 1
+      },
+      {
+        "type": "asset",
+        "id": [
+          88
+        ],
+        "amount": 1
+      }
     ],
     "stats": {
       "health": 6,
@@ -632,8 +786,8 @@
     },
     "expansion": "base",
     "role": "combat",
-    "quote": "I have been preparing to confront this evil for my entire life. My focus must be absolute.",
-    "bio": "Lily speaks rarely and when she does, her words are measured and wise. After a lifetime of disciplined training, every gesture is graceful, uncluttered by hesitation. When she was an infant, an obscure sect of monks believed that she was born for a special purpose, to face a great evil. Now, the monks believe that the great evil is at hand, and they have brought Lily to Shanghai to begin fulfilling her destiny.",
+    "quote": "Llevo toda la vida preparandome para enfrentarme a este mal. Mi concentración es absoluta.",
+    "bio": "Lily habla poco, y cuando lo hace, sus palabras están medidas y son sabias. Tras una vida de entrenamiento disciplinado, cada uno de sus gestos es grácil y libre de dudas. Cuando era niña, una oscura secta de monjes creyó que habia nacido por un propósito especial, para enfrentarse a un gran mal. Ahora, los monjes creen que el gran mal se acerca, y han llevado a Lily a Shanghai para que empiece a cumplir su destino.",
     "team": "",
     "info": [
       "If Lily gets to improve a skill before the first round of the game starts, her passive ability does apply.",
@@ -645,15 +799,24 @@
     "name": "Lola Hayes",
     "image": "lola-hayes",
     "type": "investigator",
-    "profession": "The Actress",
+    "profession": "La actriz",
     "abilities": [
-      "Action: Spend any number of Improvement tokens, then improve 1 skill of your choice for each token spent (a '+2' token counts as 2 tokens).",
-      "Once per round, an investigator on your space may roll 1 additional die when resolving a test."
+      "Acción: Gasta cualquier cantidad de fichas de Mejora, a continuación mejora 1 habilidad de tu elección por cada ficha gastada (una ficha '+2' cuanta como 2 fichas)",
+      "Una vez por ronda, un investigador que esté en tu casilla puede tirar 1 dado adicional al resolver una prueba."
     ],
-    "location": "TK",
+    "location": 34,
     "equipment": [
-      "1 .18 Derringer Asset",
-      "Improve 1 skill of your choice"
+      {
+        "type": "asset",
+        "id": [
+          37
+        ],
+        "amount": 1
+      },
+      {
+        "type": "other",
+        "text": "Mejora 1 habilidad de tu elección"
+      }
     ],
     "stats": {
       "health": 5,
@@ -666,8 +829,8 @@
     },
     "expansion": "base",
     "role": "all-rounder",
-    "quote": "I've played so many roles. Madness is to be expected.",
-    "bio": "Around the world, Lola has performed dramatic roles for sold-out houses. However, after being cast in the controversial play, The King in Yellow, Lola needed to 'take some time' to recover for her 'exhaustion'. Now that she has checked herself out of the asylum, she's ready for her big comeback. But this time she'll play a different role in the fight against the horrors that threaten this world. She's started by traveling to Tokyo to track down the other surviving cast member of her previous theatrical endeavor. ",
+    "quote": "He interpretado muchos papeles. La locura tenía que llegar",
+    "bio": "Lola ha colgado el cartel de no hay billetes interpretando papeles dramáticos en teatros de todo el mundo. Sin embargo, tras participar en la controvertida obra El Rey Amarillo, Lola necesitaba 'tomarse un tiempo' para recueprarse de su 'agotamiento'. Ahora que ha pedido el alta voluntaria del manicomio, está lista para su gran regreso. Pero esta vez tendrá un papel distinto en la lucha contra los horrores que amenazan al mundo. Su primer paso es viajar a Tokio para encontrar al único miembro del reparto de su anterior obra teatra que queda con vida.",
     "team": "Lola's ability to use an action to change her skills (and improve one right off the bat) enables her to adapt to whatever task the group might be lacking in. With her high Influence, she does well with acquiring assets. Since an investigator can roll an extra die if she is with them, she's a great support-type character. "
   },
   {
@@ -680,10 +843,7 @@
       "During the Encounter Phase, you may spend 1 Focus or 1 Sanity to encounter a Gate on your space as if there are no Monsters on your space."
     ],
     "location": "A space containing a Gate",
-    "equipment": [
-      "1 Dream Box Asset",
-      "1 Clue"
-    ],
+    "equipment": [],
     "stats": {
       "health": 4,
       "sanity": 8,
@@ -712,11 +872,8 @@
       "Action: Draw 2 Clues from the Clue pool. Spawn 1 of them and discard the other. ",
       "After resolving a Research Encounter, if you gained exactly 1 Clue from that encounter, gain 1 additional Clue."
     ],
-    "location": "SH",
-    "equipment": [
-      "1 Magnifying Glass Asset",
-      "1 Know Thy Enemy Unique Asset"
-    ],
+    "location": 35,
+    "equipment": [],
     "stats": {
       "health": 5,
       "sanity": 7,
@@ -737,15 +894,28 @@
     "name": "Marie Lambeau",
     "image": "marie-lambeau",
     "type": "investigator",
-    "profession": "The Entertainer",
+    "profession": "La intérprete",
     "abilities": [
-      "Action: Perform an action you have already performed this round. ",
-      "If you would spend or lose Sanity as part of a Spell effect, you may spend or lose 1 fewer Sanity as part of that effect. "
+      "Acción: Realiza una acción que ya hayas realizado en esta ronda.",
+      "Si fueses a gastar o perder Cordura como parte del efecto de un Hechizo, puedes gastar o perder 1 punto menos de Cordura como parte de ese efecto."
     ],
-    "location": "20",
+    "location": 20,
     "equipment": [
-      "1 Ritual Dagger Asset",
-      "1 Voice of Ra Spell"
+      {
+        "type": "asset",
+        "id": 1,
+        "amount": 1
+      },
+      {
+        "type": "spell",
+        "id": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "amount": 1
+      }
     ],
     "stats": {
       "health": 6,
@@ -758,8 +928,8 @@
     },
     "expansion": "sr",
     "role": "magic",
-    "quote": "I used to sing as grand-mère made potions and charms.",
-    "bio": "Marie has come a long way from the Louisiana marshes of her youth. These days, 'The Smoky Velvet' sings the blues in elegant nightclubs around the world, but it was grand-mère's dying wish that sent Marie to the Kingdom of Sarawak, where an old evil had returned. Marie doesn't believe she can help, but only a fool didn't listen to grand-mère. Now memories of strange nursery rhymes she used to recite have begun flooding back. People called grand-mère a witch. Maybe Marie's got some witchcraft in her blood, too.",
+    "quote": "Solía cantar mientras grand-mère preparaba pociones y amuletos.",
+    "bio": "Marie ha llegado muy lejos desde los pantanos de Luisiana de su juventud. Actualmente, 'Terciopelo ahumado' canta blues en elegantes clubes nocturnos de todo el mundo, pero lo que la ha llevado al Reino de Sarawak es la última voluntad de su grand-mère, en busca de un antiguo mal que ha regresado. Marie no cree que pueda ayudar, pero sólo una idiota no haría caso a grand-mère. Ahora, los recuerdos de las extrañas nanas que ella solia recitarle han comenzado a volver a su mente. La gente llamaba bruja a grand-mère, y puede que Marie también tenga algo de brujeria en la sangre.",
     "team": "With her high Influence, Marie is good at Acquiring Assets to assist in her endeavors, such as weapons. Her decent Lore also makes her a great person to get spells to destroy monsters or seal Gates.",
     "info": [
       "Marie Lambeau's passive ability allow her to pay only 1 health to activate the Voice of Ra."
@@ -770,15 +940,27 @@
     "name": "Mark Harrigan",
     "image": "mark-harrigan",
     "type": "investigator",
-    "profession": "The Soldier",
+    "profession": "El soldado",
     "abilities": [
-      "Action: You and 1 Monster on your space each lose 1 Health.",
-      "You cannot become Delayed or gain a Detained Condition unless you choose to."
+      "Acción: Tanto tú como 1 Monstruo que esté en tu casilla perdéis 1 punto de salud",
+      "No puedes quedar Retrasado u obtener el Estado Detenido a menos que elijas hacerlo"
     ],
-    "location": "14",
+    "location": 14,
     "equipment": [
-      "1 .38 Revolver Asset",
-      "1 Kerosene Asset"
+      {
+        "type": "asset",
+        "id": [
+          76
+        ],
+        "amount": 1
+      },
+      {
+        "type": "asset",
+        "id": [
+          32
+        ],
+        "amount": 1
+      }
     ],
     "stats": {
       "health": 8,
@@ -791,8 +973,8 @@
     },
     "expansion": "base",
     "role": "combat",
-    "quote": "I'm walking out that door, and I'm taking this book. Anyone who wants to stop me is welcome to try.",
-    "bio": "During the war, Mark witnessed horrors he could not explain, and he wrote of what he saw in letters to his beloved wife, Sophie. When Mark returned home, he discovered that Sophie was no longer human. One of the beasts that Mark had seen overseas had taken over her body, killing her in the process. Afterward, Mark's thirst for vengeance lead him to Helsinki, where some of these creatures had posed as German soldiers during the Great War.",
+    "quote": "Voy a salir por esa puerta llevándome este libro. Si alguen quiere determe, es libre de intentarlo.",
+    "bio": "Durante la guerra, Mark presenció horrores que no podía explicar, y escribió cartas a su amada esposa Sophie contándole lo que habia visto. Cuando Mark volvió a casa, descubrió que Sophie ya no era humana. Una de las bestias que Mark había visto en el extranjero se habia apoderado de su cuerpo, matándola en el proceso. Tras el suceso, la sed de venganza de Mark lo llevó a Helsinki, donde algunas de estas criaturas se habian hecho pasar por soldados alemanes durante la Gran Guerra",
     "team": "Mark Harrigan is very good at fighting monsters, but not much else. Perfect for the distracted or disinterested player who just wants the basics, as long as the rest of the team can pick up the slack. "
   },
   {
@@ -800,14 +982,20 @@
     "name": "Michael McGlen",
     "image": "michael-mcglen",
     "type": "investigator",
-    "profession": "The Gangster",
+    "profession": "El gánster",
     "abilities": [
-      "Action: If you are on a City space, you may gain 1 Item or Service Asset of your choice from the reserve. If you do, gain a Wanted Condition. ",
-      "Once per round, you may reroll 1 die when resolving a Deal or Pursuit Condition. "
+      "Acción: Si estás en una casilla de Ciudad, puedes obtener 1 Apoyo Objeto o Servicio de tu elección de la reserva. Si lo haces, obtén el Estado Buscado por la ley",
+      "Una vez por ronda, puedes volver a tirar 1 dado al resolver el efecto de un Estado Trato o Persecución"
     ],
-    "location": "LN",
+    "location": 31,
     "equipment": [
-      "1 Tommy Gun Asset"
+      {
+        "type": "asset",
+        "id": [
+          46
+        ],
+        "amount": 1
+      }
     ],
     "stats": {
       "health": 8,
@@ -820,8 +1008,8 @@
     },
     "expansion": "soc",
     "role": "combat",
-    "quote": "Don't care if it's a god. If it crosses me, it's gonna regret it.",
-    "bio": "When the O'Bannion gang needs to send a message, they send the big man, Michael McGlen. Not long ago, his friend Fast Louie Farrell was attacked by a bunch of inhuman things with ugly, fish-like faces. They sliced him up and dragged him under the water. McGlen took it personally. The word has spread: McGlen has loaded up his Thompson and everyone else had best get out of the way. His first stop is London where he intends to find out what those creatures are called and where he has to go to kill every last one of them.",
+    "quote": "Me da igual si es un dios. Si se cruza en mi camino, lo lamentará",
+    "bio": "Cuando la banda de O'Bannion quiere mandar un mensaje, envian al gran hombre, Michael McGlen. No hace mucho, su amigo Louie 'el Rápido' Farrel, fue atacado por un grupo de cosas inhumanas con unos grotescos rostros de pez. Lo rajaron y lo arrastraron bajo el agua. McGlen se lo tomó de forma personal. Ya se ha corrido la voz: McGlen ha cargado su Thompson y más vale que todo el mundo se aparte de su camino. Su primera parada es Londres, donde quiere averiguar cómo se llaman esas criaturas y adónde debe ir para matarlas a todas.",
     "team": "With his high starting Strength, decent Will, and starting Weapon, Michael is excellent for taking out Monsters, making him a good fit for Ancient Ones like Shub-Niggurath. The ability to gain items or services from the reserve in exchange for a Wanted Condition can be useful in a pinch. Because his effect works for any deal, Dark Pacts may be less of a hindrance for him, because it is unlikely he will roll two 1's in a row. "
   },
   {
@@ -834,11 +1022,8 @@
       "Action: You and another investigator on your space each gain 1 travel ticket of your choice. ",
       "You and other investigators on your space each gain +1 to all skills if there is another investigator on your space or you have one or more Ally assets. "
     ],
-    "location": "TK",
-    "equipment": [
-      "1 Cryptic Text Unique Asset",
-      "1 Clue"
-    ],
+    "location": 34,
+    "equipment": [],
     "stats": {
       "health": 6,
       "sanity": 6,
@@ -864,11 +1049,8 @@
       "Action: You may discard 1 Artifact to retreat Doom by 1; or discard the top card of the Expedition Encounter deck and perform 1 additional action. ",
       "After resolving an Expedition Encounter, gain 1 Relic Unique Asset. "
     ],
-    "location": "PY",
-    "equipment": [
-      "1 Bull Whip Asset",
-      "1 Treasure Map Unique Asset"
-    ],
+    "location": 23,
+    "equipment": [],
     "stats": {
       "health": 7,
       "sanity": 5,
@@ -889,14 +1071,23 @@
     "name": "Norman Withers",
     "image": "norman-withers",
     "type": "investigator",
-    "profession": "The Astronomer",
+    "profession": "El Astronomo",
     "abilities": [
-      "Action: Spend 2 Clues to discard 1 Monster on a space containing a Gate. ",
-      "Once per round, you may spend 1 Sanity in place of spending 1 Clue. "
+      "Acción: Gasta 2 Pistas para descartar 1 Monstruo en una casilla que contenga un Portal",
+      "Una vez por ronda, puedes gastar 1 punto de COrdura en lugar de gastar 1 Pista"
     ],
-    "location": "AR",
+    "location": 29,
     "equipment": [
-      "1 Feed the Mind Spell"
+      {
+        "type": "spell",
+        "id": [
+          81,
+          82,
+          83,
+          84
+        ],
+        "amount": 1
+      }
     ],
     "stats": {
       "health": 5,
@@ -909,23 +1100,35 @@
     },
     "expansion": "base",
     "role": "magic",
-    "quote": "Let them call me a crackpot! Something is happening to the stars, and I am not imagining it.",
-    "bio": "The scientific community ridiculed Norman for his claim that six stars disappeared from the sky. After exhausting every plausible astronomical explanation for answers, he took a position at Miskatonic University and began exploring more improbable possibilities in the restricted section of their library. While reading an ancient text of dark prophecies, Norman found an exact description of the phenomenon he'd observed. If the tome is to be believed, a terrible incursion into our world is imminent.",
+    "quote": "¡Que me llamen chalado! Algo pasa en las estrellas, ¡no me lo estoy inventando!",
+    "bio": "La comunidad cientifica ridiculizó a Norman por su afirmación de que seis estrellas habían desaparecido del cielo. Tras agotar todas las explicaciones astronómicas plausibles en busca de respuestas, aceptó un puesto en la Universidad Miskatonic y comenzó a explorar posibilidades más improbables en la sección restringida de la biblioteca. Mientras leía un antiguo texto de oscuras profecías. Norman encontró una descrición exacta del fenómeno que había observado. Si lo que dice el tomo es cierto, se avecina una terrible incursión contra nuestro mundo.",
     "team": ""
   },
   {
     "id": 31,
     "name": "Patrice Hathaway",
     "type": "investigator",
-    "profession": "The Violinist",
+    "profession": "La violinista",
     "abilities": [
-      "Action: You may spend 1 Clue and 1 Focus to improve 1 skill of your choice. ",
-      "When you close a Gate during an Other World Encounter, gain 1 Clue and 1 Focus. "
+      "Acción: Puedes gastar 1 Pista y 1 ficha de Concentración para mejorar 1 habilidad de tu elección",
+      "Cuando cierres un Portal durante un Encuentro de Otros Mundos, obtén 1 Pista y 1 ficha de Concentración"
     ],
-    "location": "SY",
+    "location": 36,
     "equipment": [
-      "1 Banishment Spell",
-      "1 Clue"
+      {
+        "type": "spell",
+        "id": [
+          57,
+          58,
+          59,
+          60
+        ],
+        "amount": 1
+      },
+      {
+        "type": "clue",
+        "amount": 1
+      }
     ],
     "stats": {
       "health": 5,
@@ -938,8 +1141,8 @@
     },
     "expansion": "mom",
     "role": "gate-closer",
-    "quote": "When I play the violin, the music echoes in other worlds.",
-    "bio": "Hailed as a musical prodigy from her youth, Patrice has performed for royalty and society's brightest minds all around the world. For years she thought that her consciousness simply drifted as she played, but she's come to believe that an intelligence exists behind her visions. Somehow the notes form a bridge between her own mind and another. The more she grasps what her music exposes her to, the more afraid she becomes. After last night's concert in Sydney, she's finally decided to take action.",
+    "quote": "Cuando toco el violin, la música resuena en otros mundos.",
+    "bio": "Considerada como un prodigio musical desde la juventud, Patrice ha tocado para la realeza y las mentes más brillantes de la sociedad por todo el mundo. Durante años, pensó que su consciencia simplemente vagaba mientras tocaba, pero ha llegado a creer que existe una inteligencia tras sus visiones. De algún modo, las notas forman un puente entre su propia mente y otra. Cuanto más entiende a lo que la expone su música, más asustada está. Tras el concierto de anoche en Sidney, ha decidido ponerse en acción de una vez.",
     "team": ""
   },
   {
@@ -952,12 +1155,8 @@
       "Action: Gain any number of Assets of your choice from the reserve with total value less than your <influence>. ",
       "If you do not have a Cursed Condition, gain 1 Clue, improve 1 skill of your choice, and gain a Cursed Condition. "
     ],
-    "location": "1",
-    "equipment": [
-      "1 Lucky Talisman Asset",
-      "1 Cursed Condition",
-      "Improve 1 Skill of your choice"
-    ],
+    "location": 1,
+    "equipment": [],
     "stats": {
       "health": 7,
       "sanity": 7,
@@ -978,14 +1177,20 @@
     "name": "Silas Marsh",
     "image": "silas-marsh",
     "type": "investigator",
-    "profession": "The Sailor",
+    "profession": "El Marinero",
     "abilities": [
-      "Action: Move 1 space along a Ship path, then perform 1 additional action. ",
-      "If you are on a Sea space, investigators on your space roll 1 additional die when resolving tests. "
+      "Acción: Muévete 1 casilla por una ruta de Barco y a continuación realiza 1 accion adicional",
+      "Si estás en una casilla de Mar, los investigadores que estén en tu casilla tiran 1 dado adicional al resolver pruebas"
     ],
-    "location": "SY",
+    "location": 36,
     "equipment": [
-      "1 Fishing Net Asset"
+      {
+        "type": "asset",
+        "id": [
+          97
+        ],
+        "amount": 1
+      }
     ],
     "stats": {
       "health": 8,
@@ -998,8 +1203,8 @@
     },
     "expansion": "base",
     "role": "all-rounder",
-    "quote": "Leave your fears on the docks, lads. I'll not carry that cargo. The wind is up! Full sail!",
-    "bio": "Even as a child in Innsmouth, Silas had a special connection to the sea. He's an able and well-reasoned man on land, but on the ocean he possesses a singular strengthand wit. It's earned him a sterling reputation in every port across the globe, particularly in Sydney, where Silas set ashore last night. But this morning, the smell of the briny air carries dread as well as joy. There is something in his past, something in Innsmouth, that he knows will some day catch up to him.",
+    "quote": "Dejad los miedos en el puerto, chicos. No voy a llevarlos en mi bodega. ¡Tenemos viento! ¡A toda vela!",
+    "bio": "Incluso durante su niñez en Innsmouth, Silas ya tenia una conexión especial con el mar. Es un hombre capaz y razonable en tierra, pero en el océano posee una fuerza e ingenio singulares. Esto le ha ganado una brillante reputación en todos los puertos del mundo, especialmente en Sidney, donde Silas atracó anoche. Pero esta mañana, el aire salobre trae temor además de alegria, Hay algo en su pasado, algo en Inssmouth, que sabe que algún día lo atrapará",
     "team": ""
   },
   {
@@ -1012,12 +1217,8 @@
       "Action: Test <will>. For each success, you or another investigator on any space may discard 1 Madness Condition. ",
       "You and other investigators on your space add 1 to the result of each die rolled as part of a Bane or Boon Condition effect."
     ],
-    "location": "15",
-    "equipment": [
-      "1 Holy Water Asset",
-      "1 Ship Ticket",
-      "1 Clue"
-    ],
+    "location": 15,
+    "equipment": [],
     "stats": {
       "health": 5,
       "sanity": 7,
@@ -1035,17 +1236,21 @@
   },
   {
     "id": 35,
-    "name": "'Skids' O'Toole",
+    "name": "'Malasombra' O'Toole",
     "image": "skids-otoole",
     "type": "investigator",
-    "profession": "The Ex-Convict",
+    "profession": "El exconvicto",
     "abilities": [
-      "Action: You may discard 1 Item or Trinket Asset to gain 1 Item or Trinket Asset of your choice from the reserve with value equal to or less than 1 + the value of the discarded Asset. ",
-      "Whenever you roll a 1 during a test, you may reroll that die. "
+      "Acción: Puedes descartar 1 Apoyo Objeto o Baratija para obtener 1 Apoyo Objeto o Baratija de tu eleccion de la reserva que tenga un valor igual o menor que 1 + el valor del Apoyo descartado",
+      "Siempre que saques un 1 durante una prueba, puedes volver a tirar ese dado"
     ],
-    "location": "BA",
+    "location": 30,
     "equipment": [
-      "1 Axe Asset"
+      {
+        "type": "asset",
+        "id": 33,
+        "amount": 1
+      }
     ],
     "stats": {
       "health": 6,
@@ -1058,8 +1263,8 @@
     },
     "expansion": "sr",
     "role": "combat",
-    "quote": "I didn't get out of the joint just to watch the world end.",
-    "bio": "Skids got put away on two counts of bank robbery, but he never hurt anybody. His cellmate, Brad Hollins, killed nine people. Hollins said that an alien creature made him do it. Over the years, Hollins said a lot of strange things about the 'Ancient Ones'. He said that he needed to get to Argentina to stop them. Skids didn't give it much thought until the night Hollins burst into flames. When Skids got paroled, he couldn't shake the thought of these 'Ancient Ones'.",
+    "quote": "No he salido del talego sólo para ver cómo se acaba el mundo.",
+    "bio": "'Malasombra' acabó entre rejas por dos acusaciones de robo a un banco, pero nunca hizo daño a nadie. Brad Hollins, su compañero de celda, mató a nueve personas. Hollins decia que una criatura alienigena le obligó a hacerlo. A lo largo de los años, Hollins dijo muchas cosas extrañas sobre los 'Primigenios'. Dijo que debia llegar a Argentina para detenerlos. 'Malasombra' no le dio mucha importancia hasta la noche en la que Hollins estalló en llamas. Cuando 'Malasombra' consiguió la condicional no pudo sacarse a esos 'Primigenios' de la cabeza.",
     "team": "",
     "info": [
       "If Skids wants to trade a Unique Asset using his active ability, he will be able to gain an Item or Trinket Asset from the reserve with value equal to one plus no value (effectively value zero), a total of value one. ",
@@ -1072,15 +1277,24 @@
     "name": "Tommy Muldoon",
     "image": "tommy-muldoon",
     "type": "investigator",
-    "profession": "The Rookie Cop",
+    "profession": "El poli novato",
     "abilities": [
-      "Action: Move 1 Monster of your choice with toughness 3 or less from an adjacent space to your space. ",
-      "During the Encounter Phase, other investigators on your space may choose an encounter as if there are no Monsters on your space. "
+      "Acción: Mueve 1 Monstruo de tu elección que tenga fortaleza 3 o menos de una casilla adyacente a tu casilla.",
+      "Durante la fase de Encuentros, otros investigadores que estén en tu casilla pueden elegir un encuentro como si no hubiera Monstruos en tu casilla."
     ],
-    "location": "1",
+    "location": 1,
     "equipment": [
-      "1 Carbine Rifle Asset",
-      "Improve Will"
+      {
+        "type": "asset",
+        "id": [
+          93
+        ],
+        "amount": 1
+      },
+      {
+        "type": "other",
+        "text": "Mejora tu <will>"
+      }
     ],
     "stats": {
       "health": 7,
@@ -1093,8 +1307,8 @@
     },
     "expansion": "mom",
     "role": "combat",
-    "quote": "I took an oath to enforce the law. That's what I'm doing.",
-    "bio": "Most members of the Muldoon family are part of the Boston police force in some way or another. Not long ago, the youngest brother Tommy got his badge. Armed with an eye for detail, fierce courage, and his trusty rifle Becky, young Muldoon is dedicated to law enforcement. Now he finds himself in Anchorage at the request of his cousin, the local sheriff. Something has been killing people, and off the record, his cousin says it's a wendigo. Tommy's not sure he believes any of that, but catching klillers is in his blood.",
+    "quote": "Hice un juramento para hacer cumplir la ley. Y eso es lo que estoy haciendo.",
+    "bio": "La mayoria de miembros de la familia Muldoon son parte de la policia de Boston de una forma u otra. Tommy, el hermano más joven, consiguió su placa hace poco. Gracias a su gran atención ante los detalles, su feroz coraje y su fiel carabina, Becky, el joven Muldoon está dedicado al servicio de la ley. Ahora se encuentra en Anchorage a petición de su primo, el sheriff local. Algo ha estado matando gente, y su primo afirma extraoficialmente que e trata de un wendigo. Tommy no esta seguro de creer en nada de eso, pero lleva en la sangre lo de atrapar asesinos.",
     "team": "Tommy's extra stat point makes gives him one more than almost all other characters at the start, and his ability to draw monsters away from gates or let other investigators ignore them can come in extremely handy. "
   },
   {
@@ -1102,14 +1316,20 @@
     "name": "Tony Morgan",
     "image": "tony-morgan",
     "type": "investigator",
-    "profession": "The Bounty Hunter",
+    "profession": "El cazarrecompensas",
     "abilities": [
-      "Action: Test <influence>. If you pass, you may spend up to 2 Focus to gain 1 Clue for each Focus spent. ",
-      "When you defeat a Monster during a Combat Encounter, gain 1 Focus. "
+      "Acción: Realiza una prueba de <influence>. Si la superas, puedes gastar hasta 2 fichas de Concentración para obtener 1 Pista por cada ficha de Concentración gastada",
+      "Cuando derrotes a un Monstruo durante un Encuentro de Combate, obtén 1 ficha de Concentración"
     ],
-    "location": "7",
+    "location": 7,
     "equipment": [
-      "1 Handcuffs Asset"
+      {
+        "type": "asset",
+        "id": [
+          92
+        ],
+        "amount": 1
+      }
     ],
     "stats": {
       "health": 7,
@@ -1122,8 +1342,8 @@
     },
     "expansion": "sr",
     "role": "research",
-    "quote": "When I find the beast, I'll trap it or put it down for good.",
-    "bio": "Tony's tracked down low-life scum in every lousy corner of the world, but nothing was quite as bad as Innsmouth. Some creep in Boston skipped bail and tried to hide with family in the small fishing village. It turned out 'family' meant vicious fish-like monstrosities that left Tony bloody and half-drowned. Ever since, he's found a new kind of dirtbag to hunt. Ordinary mobster or otherworldly monster, Tony will take it down and find someone willing to pay him for it. Now he's got a lead in Bogotá. Easy money.",
+    "quote": "Cuando encuentro a la bestia, la atrapo o acabo con su vida.",
+    "bio": "Tony ha dado caza a escoria en los peores lugares del mundo, pero ninguno tan malo como Innsmouth. Un tío raro de Boston se saltó la fianza y trató de esconderse con su familia en el pequeño pueblo pesquero. La 'familia' resultó ser un grupo de feroces monstruosidades con aspecto de pez que dejaron a Tony ensangrentado y medio ahogado. Desde entonces, ha encontrado un nuevo tipo de basura a la que cazar. Tony acabará con ellos y encontrará a alguien dispuesto a pagarle por ello. Ahora tiene una pista en Bogotá. Dinero fácil.",
     "team": "Between his Handcuffs and his special ability, it is very easy for Tony to gain clues. Coupled with his high Observation, he is very good at dispelling nasty Rumor Mythos cards. Bulking up his Influence, however, would also be a smart investment.\nWith his high Strength, he also does a good job at fighting monsters, although a player may wish to invest in some time bulking up his Influence and Will.\nA few items and skills, like the Old Journal or Skulduggery, are useful to Tony. "
   },
   {
@@ -1131,14 +1351,20 @@
     "name": "Trish Scarborough",
     "image": "trish-scarborough",
     "type": "investigator",
-    "profession": "The Spy",
+    "profession": "La espia",
     "abilities": [
-      "Action: If you do not have any Clues, gain 1 Clue. ",
-      "If an investigator on your space spends a Clue to reroll a die, he may reroll up to 2 dice instead. "
+      "Acción: Si no tienes Pistas, obtén 1 Pista",
+      "Si un investigador que esté en tu casilla gasta una Pista para volver a tirar un dado, en vez de eso puede volver a tirar un máximo de 2 dados."
     ],
-    "location": "16",
+    "location": 16,
     "equipment": [
-      " 1 .45 Automatic Asset"
+      {
+        "type": "asset",
+        "id": [
+          45
+        ],
+        "amount": 1
+      }
     ],
     "stats": {
       "health": 7,
@@ -1151,8 +1377,8 @@
     },
     "expansion": "base",
     "role": "research",
-    "quote": "We lie all the time. But the truth is in there. You just have to know how to decode people.",
-    "bio": "Everyone expected great things from Trish when she was young. In school, she excelled in athletics and the sciences, but she surprised everyone after graduation by settling into a humble position at a commercial code company. What almost no one knows is that this particular company is a front for the Bureau's code-breaking agency, the Black Chamber. Now she finds herself in the city of Krasnoyarsk meeting another agent who has important information about an impending threat from a world beyond our own.",
+    "quote": "Mentimos todo el rato. Pero la verdad está ahí. Sólo tienes que saber como descifrar a la gente",
+    "bio": "Todos esperaban grandes cosas de Trish cuando era joven. Durante los estudios destacó en gimnasia y ciencias, pero sorprendió a todo el mundo cuando tras graduarse se conformó con un humilde puesto en una empresa de Código de Comercio. Lo que casi nadie sabe es que esa empresa concreta es una tapadera para la agencia de desciframiento de códigos del FBI, la Cámara Negra. Ahora se encuentra en la ciudad de Krasnoyarsk para encontrarse con otro agente que tiene importante información sobre una inminente amenaza de un mundo más allá del nuestro",
     "team": ""
   },
   {
@@ -1160,15 +1386,24 @@
     "name": "Ursula Downs",
     "image": "ursula-downs",
     "type": "investigator",
-    "profession": "The Explorer",
+    "profession": "La exploradora",
     "abilities": [
-      "Action: Move 1 space along an Uncharted path, then perform 1 additional action. ",
-      "Once per round, you or another investigator on your space may spend 1 less Focus to pay for an effect. "
+      "Acción: Muévete 1 casilla por una ruta Inexplorada y luego realiza 1 acción adicional.",
+      "Una vez por ronda, otro investigador que esté en tu casilla o tú podéis gastar 1 ficha de Concentración menos para cubrir el coste de un efecto."
     ],
-    "location": "HA",
+    "location": 24,
     "equipment": [
-      "1 Mineralogy Research Asset",
-      "Improve 1 skill of your choice"
+      {
+        "type": "asset",
+        "id": [
+          79
+        ],
+        "amount": 1
+      },
+      {
+        "type": "other",
+        "text": "Mejora 1 habilidad de tu elección"
+      }
     ],
     "stats": {
       "health": 6,
@@ -1181,8 +1416,8 @@
     },
     "expansion": "mom",
     "role": "expedition",
-    "quote": "Discovery isn't easy, but it's the only worthwhile path.",
-    "bio": "As a young girl, Ursula constantly climbed trees, scaled rock walls, and explored caves. When it came to her studies, she excelled in history and the sciences. After getting a degree in Archaeology in Boston, she began traveling the world searching for forgotten civilizations. She's an expert in both ancient and contemporary languages, and is capable of enduring the harsh environments she encounters during her expeditions. Recently, Ursula has traveled to Africa to oversee the excavation of a lost city's ruins.",
+    "quote": "Los descubrimientos no son fáciles, pero son la única senda que merece la pena",
+    "bio": "De niña, Ursula estaba siempre trepando a los árboles, escalando rocas y explorando cuevas. En sus estudios destacaba en historia y ciencias, y tras licenciarse en Arqueologia en Boston, comenzó a viajar por el mundo en busca de civilizaciones olvidadas. Es experta en idomas antiguos y contemporáneos, y es capaz de soportar los difíciles entornos que encuentra en sus exploraciones. Hace poco, Ursula viajó a África para supervisar la excavación de las ruinas de una ciudad perdida.",
     "team": ""
   },
   {
@@ -1194,11 +1429,8 @@
       "Action: You or another investigator on you space may discard 1 Injury or Illness Condition and/or perform a Rest action. ",
       "When you or another investigator on your space performs a Rest action, that investigator may recover 1 additional Health. "
     ],
-    "location": "17",
-    "equipment": [
-      "1 Bandages Asset",
-      "1 Composed Condition"
-    ],
+    "location": 17,
+    "equipment": [],
     "stats": {
       "health": 6,
       "sanity": 6,
@@ -1219,15 +1451,25 @@
     "name": "Wendy Adams",
     "image": "wendy-adams",
     "type": "investigator",
-    "profession": "The Urchin",
+    "profession": "La pilla",
     "abilities": [
-      "Action: Gain 1 Trinket Asset of your choice from the reserve or discard pile. ",
-      "Once per round, if you would gain a non-Deal condition or an Impairment token, you may choose to not gain that Condition or Impairment token instead. "
+      "Acción: Obtén 1 Apoyo Baratija de tu elección de la reserva o la pila de descartes",
+      "Una vez por ronda, si fueses a obtener un Estado que no sea Trato o una ficha de Discapacidad, puedes elegir no obtener ese Estado o ficha de Discapacidad."
     ],
-    "location": "16",
+    "location": 16,
     "equipment": [
-      "1 Elusive Condition",
-      "1 Clue"
+      {
+        "type": "condition",
+        "id": [
+          66,
+          67
+        ],
+        "amount": 1
+      },
+      {
+        "type": "clue",
+        "amount": 1
+      }
     ],
     "stats": {
       "health": 5,
@@ -1240,8 +1482,8 @@
     },
     "expansion": "soc",
     "role": "research",
-    "quote": "The little things are important. Grown-ups don't see that.",
-    "bio": "As far as the state was concerned, Wendy had to be placed in an orphanage. Her father was gone and her mother was insane. But Wendy knew that her mother drew sigils and chanted to hide from the nightmares that took Wendy's father. So long as she was in an orphanage, Wendy knew she was vulnerable. The only way to find her father and keep herself safe was to escape. She has one photo of her father, taken in a factory where the signs are in Russian. On the back is the message, 'Soon the Red Tide rises. Stay safe, my little girl.'",
+    "quote": "Las pequeñas cosas son importantes. Los adultos no lo entienden",
+    "bio": "En lo que al estado respecta, el sitio de Wendy estaba en un orfanato. Su padre habia desaparecido, y su madre estaba loca. Pero Wendy sabia que su madre dibujaba sellos y entonaba cánticos para esconderse de las pesadillas que se llevaron al padre de Wendy. Si iba a un orfanato, sabia que seria vulnerable. La única forma de encontrar a su padre y mantenerse a salvo era huir. Tiene una foto de su padre, hecha en una fábrica en la que los carteles estaban en ruso. En el dorso, habia escrito 'Pronto se alzará la Marea Roja. Ponte a salvo, mi pequeña'.",
     "team": ""
   },
   {
@@ -1253,7 +1495,7 @@
       "Action: Discard up to two cards from the reserve. Then perform 1 additional action. ",
       "When you defeat a Monster with toughness 2 or greater during a Combat Encounter, you may gain 1 non-Service Asset of your choice from the reserve. "
     ],
-    "location": "SY",
+    "location": 36,
     "equipment": [],
     "stats": {
       "health": 7,
@@ -1275,14 +1517,20 @@
     "name": "Wilson Richards",
     "image": "wilson-richards",
     "type": "investigator",
-    "profession": "The Handyman",
+    "profession": "El manitas",
     "abilities": [
-      "Action: Gain 1 Asset of your choice with value 1 from the reserve; or discard 1 card from the reserve and perform 1 additional action. ",
-      "When you or another investigator on your space spend a Focus to reroll a die, that investigator may reroll up to 2 dice instead. "
+      "Acción: Obtén de la reserva 1 Apoyo de tu elección que sea de valor 1, o bien descarta 1 carta de la reserva y realiza 1 acción adicional.",
+      "Cuando otro investigador que esté en tu casilla o tú gastéis una ficha de Concentración para volver a tirar un dado, ese investigador puede volver a tirar un máximo de 2 dados."
     ],
-    "location": "AR",
+    "location": 29,
     "equipment": [
-      "1 Blunderbuss Asset"
+      {
+        "type": "asset",
+        "id": [
+          13
+        ],
+        "amount": 1
+      }
     ],
     "stats": {
       "health": 8,
@@ -1295,8 +1543,8 @@
     },
     "expansion": "mom",
     "role": "combat",
-    "quote": "It's nothing a good plan and some hard work can't fix.",
-    "bio": "Wilson's a practical man. He goes where there's work. When it's gone, he moves on. Wilson finds that offering an honest deal gets him treated honestly, but since he took a job rebuilding a church in Arkham, he's had a hard time being honest with himself. Things that used to hide in the deepest pits of the earth have crawled to the surface. He cannot unsee all the things he's seen, but he can get to work on fixing the problem.",
+    "quote": "No es nada que no puedan arreglar un buen plan y algo de trabajo duro",
+    "bio": "Wilson es un hombre práctico. Va allí donde hay trabajo. Cuando se acaba, se marcha. Wilson sabe que ofrecer un trato honrado hará que lo traten con honradez, pero desde que aceptó un trabajo para reconstruir una iglesia en Arkham, le ha costado mucho ser sincero consigo mismo. La gente desaparece de sus hogares durante la noche. Las cosas que antes se escondian en los pozos más profundos de la tierra han reptado hasta la superficie. No puede olvidar todas las cosas que ha visto, pero puede trabajar para arreglar el problema",
     "team": ""
   },
   {
@@ -1304,14 +1552,20 @@
     "name": "Zoey Samaras",
     "image": "zoey-samaras",
     "type": "investigator",
-    "profession": "The Chef",
+    "profession": "La chef",
     "abilities": [
-      "Action: If you have fewer than 2 Task Assets, gain 1 Task Unique Asset ",
-      "If you have not lost Sanity during a Combat Encounter, roll 2 additional dice when resolving the Strength test during that encounter. "
+      "Acción: Si tienes menos de 2 apoyos Tarea, obtén 1 Apoyo único Tarea.",
+      "Si no has perdido Cordura durante un Encuentro de Combate, lanza 2 dados adicionales al resolver la prueba de <strength> durante ese encuentro"
     ],
-    "location": "RM",
+    "location": 32,
     "equipment": [
-      "1 Holy Cross Asset"
+      {
+        "type": "asset",
+        "id": [
+          20
+        ],
+        "amount": 1
+      }
     ],
     "stats": {
       "health": 5,
@@ -1324,8 +1578,8 @@
     },
     "expansion": "sr",
     "role": "combat",
-    "quote": "God has spoken. I will do His work without hesitation.",
-    "bio": "When Zoey was six years old, her parents were killed in a fire. As the flames consumed her home, God spoke to her. He told Zoey that she was special and that He was giving her a special task. As an adult, she now travels from city to city, taking work as a chef to support herself. When she isn't working, she stalks the night, guided by the Lord's voice. Wherever she finds wickedness, she strikes it down without remorse or hesitation. Most recently, God has called her to Rome, to dispense His righteous fury. ",
+    "quote": "Dios ha hablado. Llevaré a cabo Su obra sin dudarlo",
+    "bio": "Cuando Zoey tenía seis años, sus padres murieron en un incendio. Mientras las llamas consumian su hogra, Dios la habló. Le dijo a Zoey que era especial y que iba a darle una tarea especial. Ahora que es adulta, viaja de ciudad en ciudad, trabajando como chef para ganarse la vida. Cuando no está trabajando, acecha en la noche, guiada por la voz del Señor. Alli donde encuentra maldad, la ataca sin remordimientos ni dudas. Recientemente, Dios la ha llamadao a Roma para que imparta Su justa furia.",
     "team": ""
   }
 ]

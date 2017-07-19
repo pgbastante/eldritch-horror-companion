@@ -9,10 +9,25 @@
       "Action: Test <lore> -1. If you pass, gain 1 Spell.",
       "You may spend 1 Health to roll 2 additional dice when resolving a Lore test as part of a Spell effect"
     ],
-    "location": "LN",
+    "location": 31,
     "equipment": [
-      "Profane Tome",
-      "Storm of Spirits"
+      {
+        "type": "asset",
+        "id": [
+          82
+        ],
+        "amount": 1
+      },
+      {
+        "type": "spell",
+        "id": [
+          41,
+          42,
+          43,
+          44
+        ],
+        "amount": 1
+      }
     ],
     "stats": {
       "health": 7,
@@ -39,10 +54,22 @@
       "Action: Look at the top 2 Gates in the Gate stack. Put 1 Gate on the top of the Gate stack, and the other on the bottom.",
       "When you close a Gate during an Other World Encounter, you may move to any space containing a Clue or a Gate."
     ],
-    "location": "15",
+    "location": 15,
     "equipment": [
-      "Mists of Releh",
-      "1 Clue"
+      {
+        "type": "spell",
+        "id": [
+          33,
+          34,
+          35,
+          36
+        ],
+        "amount": 1
+      },
+      {
+        "type": "clue",
+        "amount": 1
+      }
     ],
     "stats": {
       "health": 5,
@@ -69,11 +96,8 @@
       "Action: You may discard any number of Talent Conditions to improve 1 skill of your choice for each Talent Condition discarded.",
       "If you would improve a skill, you may gain 1 Talent Condition instead."
     ],
-    "location": "IS",
-    "equipment": [
-      "Unspeakable Research Unique Asset",
-      "Quick Study Condition"
-    ],
+    "location": 33,
+    "equipment": [],
     "stats": {
       "health": 6,
       "sanity": 6,
@@ -98,11 +122,8 @@
       "Action: You or another investigator on your space may discard 1 Madness Condition and/or perform a Rest Action",
       "When another investigator performs a Rest Action on your space, they may gain 1 additional Sanity. "
     ],
-    "location": "RM",
-    "equipment": [
-      "1 Dream Diary Asset",
-      "1 Death XIII Unique Asset"
-    ],
+    "location": 32,
+    "equipment": [],
     "stats": {
       "health": 5,
       "sanity": 7,
@@ -128,9 +149,15 @@
       "Action: Another investigator of your choice may immediately perform 1 additional action.",
       "When you perform an Acquire Assets action, you may allow other investigators to gain any cards you purchase."
     ],
-    "location": "LN",
+    "location": 31,
     "equipment": [
-      "1 Personal Assistant Asset"
+      {
+        "type": "asset",
+        "id": [
+          104
+        ],
+        "amount": 1
+      }
     ],
     "stats": {
       "health": 4,
@@ -162,10 +189,28 @@
       "Action: If you are on a City space, test Observation. If you pass, gain 1 Tome Asset from the reserve or 1 random Tome Asset from the deck.",
       "When you perform a Rest action, you may perform 1 additional action on a Ritual or Tome possession you have."
     ],
-    "location": "IS",
+    "location": 33,
     "equipment": [
-      "1 Old Journal Unique Asset",
-      "1 Arcane Insight Spell"
+      {
+        "type": "unique-asset",
+        "id": [
+          22,
+          23,
+          24,
+          25
+        ],
+        "amount": 1
+      },
+      {
+        "type": "spell",
+        "id": [
+          69,
+          70,
+          71,
+          72
+        ],
+        "amount": 1
+      }
     ],
     "stats": {
       "health": 5,
@@ -191,11 +236,8 @@
       "Action: Look at the top 5 cards of the Asset deck and put them back in any order. Then, discard any number of cards from the reserve. ",
       "Roll 1 additional die when resolving a test during a location encounter or a Research Encounter if you are on a City space. "
     ],
-    "location": "20",
-    "equipment": [
-      "1 Camera Asset",
-      "1 Seek the Truth Asset"
-    ],
+    "location": 20,
+    "equipment": [],
     "stats": {
       "health": 7,
       "sanity": 5,
@@ -221,10 +263,25 @@
       "Action: Move 1 Monster from your space to another space containing a Gate.",
       "Once per round, when you gain a Spell, you may gain 1 additional spell."
     ],
-    "location": "TK",
+    "location": 34,
     "equipment": [
-      "1 Binding Spell",
-      "1 Arcane Assistant Asset"
+      {
+        "type": "spell",
+        "id": [
+          20,
+          21,
+          22,
+          23
+        ],
+        "amount": 1
+      },
+      {
+        "type": "asset",
+        "id": [
+          75
+        ],
+        "amount": 1
+      }
     ],
     "stats": {
       "health": 5,
@@ -251,10 +308,25 @@
       "Action: If there is a Cultist Monster on your space, discard all Monsters on your space or move the Cultist Monster to any other space.",
       "Reduce the horror of Monsters you encounter to 1"
     ],
-    "location": "7",
+    "location": 7,
     "equipment": [
-      "1 Arcane Manuscripts Asset",
-      "1 Wither Spell"
+      {
+        "type": "asset",
+        "id": [
+          87
+        ],
+        "amount": 1
+      },
+      {
+        "type": "spell",
+        "id": [
+          53,
+          54,
+          55,
+          56
+        ],
+        "amount": 1
+      }
     ],
     "stats": {
       "health": 7,
@@ -281,11 +353,32 @@
       "Action: You and/or another investigator on your space may move 1 space along a Ship or Train path.",
       "Effects cannot cause you to discard your Item, Trinket, or Ally possessions unless you choose to."
     ],
-    "location": "5",
+    "location": 5,
     "equipment": [
-      "1 Cat Burglar Asset",
-      "1 Whiskey Asset",
-      "1 Courier Run Unique Asset"
+      {
+        "type": "asset",
+        "id": [
+          14
+        ],
+        "amount": 1
+      },
+      {
+        "type": "asset",
+        "id": [
+          15
+        ],
+        "amount": 1
+      },
+      {
+        "type": "unique-asset",
+        "id": [
+          78,
+          79,
+          80,
+          81
+        ],
+        "amount": 1
+      }
     ],
     "stats": {
       "health": 6,
@@ -311,15 +404,27 @@
     "name": "George Barnaby",
     "image": "george-barnaby",
     "type": "investigator",
-    "profession": "The Lawyer",
+    "profession": "The lawyer",
     "abilities": [
       "Action: Test <influence>. For each success, another investigator of your choice on any space may discard a Debt or Detained Condition. ",
       "Once per round, you may spend 1 Focus to add 1 to the result of 1 die when resolving a test. "
     ],
-    "location": "17",
+    "location": 17,
     "equipment": [
-      "1 Investment Asset",
-      "1 Pocket Watch Asset"
+      {
+        "type": "asset",
+        "id": [
+          90
+        ],
+        "amount": 1
+      },
+      {
+        "type": "asset",
+        "id": [
+          86
+        ],
+        "amount": 1
+      }
     ],
     "stats": {
       "health": 4,
@@ -346,10 +451,7 @@
       "You and other investigators on your space roll 1 additional die when resolving a test during an Other World Encounter."
     ],
     "location": "AR",
-    "equipment": [
-      "1 Mythos Codex Unique Asset",
-      "1 Find Gate Spell"
-    ],
+    "equipment": [],
     "stats": {
       "health": 4,
       "sanity": 8,
@@ -378,10 +480,8 @@
       "Action: Test <strength>. If you pass, discard 1 Monster on your space with toughness less than or equal to your test result.",
       "You do not resolve the <will> test during a Combat Encounter unless you lose Health from the <strength> test."
     ],
-    "location": "6",
-    "equipment": [
-      "1 Sledgehammer Asset"
-    ],
+    "location": 6,
+    "equipment": [],
     "stats": {
       "health": 8,
       "sanity": 4,
@@ -408,9 +508,7 @@
       "After resolving a Research Encounter, you may spend 1 Clue you gained from that encounter to improve 1 skill of your choice."
     ],
     "location": "AR",
-    "equipment": [
-      "1 Ancient Tome Asset"
-    ],
+    "equipment": [],
     "stats": {
       "health": 4,
       "sanity": 8,
@@ -436,10 +534,22 @@
       "Action: You may trade any number of clues with an investigator on any space.",
       "Once per round, when another investigator gains a non-Common Condition, you may look at the back of that card and gain 1 Clue."
     ],
-    "location": "5",
+    "location": 5,
     "equipment": [
-      "1 Flesh Ward Spell",
-      "1 Clue"
+      {
+        "type": "spell",
+        "id": [
+          29,
+          30,
+          31,
+          32
+        ],
+        "amount": 1
+      },
+      {
+        "type": "clue",
+        "amount": 1
+      }
     ],
     "stats": {
       "health": 4,
@@ -465,11 +575,26 @@
       "Action: You or another investigator on a City space may perform an Acquire Assets action and gain +2 <influence> during that action.",
       "Once per round, when you or another investigator gains a Debt Condition, that investigator may discard that Condition."
     ],
-    "location": "8",
+    "location": 8,
     "equipment": [
-      "1 .25 Automatic Asset",
-      "1 Fine Jewelry Asset",
-      "1 Ship Ticket"
+      {
+        "type": "asset",
+        "id": [
+          72
+        ],
+        "amount": 1
+      },
+      {
+        "type": "asset",
+        "id": [
+          69
+        ],
+        "amount": 1
+      },
+      {
+        "type": "other",
+        "text": "1 Billete de barco"
+      }
     ],
     "stats": {
       "health": 7,
@@ -496,8 +621,23 @@
       "Action: Each investigator on your space recovers 1 sanity.",
       "Investigators on your space roll 1 additional die when resolving tests during Combat Encounters."
     ],
-    "location": "LN",
-    "equipment": [],
+    "location": 31,
+    "equipment": [
+      {
+        "type": "spell",
+        "id": [
+          89,
+          90,
+          91,
+          92
+        ],
+        "amount": 1
+      },
+      {
+        "type": "clue",
+        "amount": 1
+      }
+    ],
     "stats": {
       "health": 7,
       "sanity": 5,
@@ -526,10 +666,8 @@
       "Action: Choose Ally, Service, or Weapon. Then discard 1 Asset from the reserve and replace it with 1 random Asset from the deck that has the chosen trait. ",
       "Once per round, when you improve a skill, also improve 1 other skill of your choice. "
     ],
-    "location": "SF",
-    "equipment": [
-      "1 .32 Colt Pocket Asset"
-    ],
+    "location": 28,
+    "equipment": [],
     "stats": {
       "health": 7,
       "sanity": 5,
@@ -554,11 +692,8 @@
       "Action: If you are on a space containing a Gate, discard 1 Monster on your space with toughness less than your <observation>",
       "If a Gate would spawn on your space, discard that Gate and gain 1 Clue instead."
     ],
-    "location": "BA",
-    "equipment": [
-      "1 Dimensional Study Unique Asset",
-      "1 Clue"
-    ],
+    "location": 30,
+    "equipment": [],
     "stats": {
       "health": 5,
       "sanity": 7,
@@ -587,9 +722,15 @@
       "Action: Test Influence. If you pass, gain 1 Ally Asset of your choice from the reserve or the discard pile ",
       "If you are on a Wilderness space, investigators on your space roll 1 additional die when resolving tests. "
     ],
-    "location": "BA",
+    "location": 30,
     "equipment": [
-      "1 Hired Muscle Asset"
+      {
+        "type": "asset",
+        "id": [
+          95
+        ],
+        "amount": 1
+      }
     ],
     "stats": {
       "health": 6,
@@ -616,10 +757,22 @@
       "Action: Spend any number of Health or Sanity, then recover an equal number of Health or Sanity. ",
       "When you improve a skill, you may immediately improve that skill again. "
     ],
-    "location": "SH",
+    "location": 35,
     "equipment": [
-      "1 Protective Amulet Asset",
-      "1 Lucky Rabbit's Foot Asset"
+      {
+        "type": "asset",
+        "id": [
+          62
+        ],
+        "amount": 1
+      },
+      {
+        "type": "asset",
+        "id": [
+          88
+        ],
+        "amount": 1
+      }
     ],
     "stats": {
       "health": 6,
@@ -650,10 +803,19 @@
       "Action: Spend any number of Improvement tokens, then improve 1 skill of your choice for each token spent (a '+2' token counts as 2 tokens).",
       "Once per round, an investigator on your space may roll 1 additional die when resolving a test."
     ],
-    "location": "TK",
+    "location": 34,
     "equipment": [
-      "1 .18 Derringer Asset",
-      "Improve 1 skill of your choice"
+      {
+        "type": "asset",
+        "id": [
+          37
+        ],
+        "amount": 1
+      },
+      {
+        "type": "other",
+        "text": "Improve 1 skill of your choice"
+      }
     ],
     "stats": {
       "health": 5,
@@ -680,10 +842,7 @@
       "During the Encounter Phase, you may spend 1 Focus or 1 Sanity to encounter a Gate on your space as if there are no Monsters on your space."
     ],
     "location": "A space containing a Gate",
-    "equipment": [
-      "1 Dream Box Asset",
-      "1 Clue"
-    ],
+    "equipment": [],
     "stats": {
       "health": 4,
       "sanity": 8,
@@ -712,11 +871,8 @@
       "Action: Draw 2 Clues from the Clue pool. Spawn 1 of them and discard the other. ",
       "After resolving a Research Encounter, if you gained exactly 1 Clue from that encounter, gain 1 additional Clue."
     ],
-    "location": "SH",
-    "equipment": [
-      "1 Magnifying Glass Asset",
-      "1 Know Thy Enemy Unique Asset"
-    ],
+    "location": 35,
+    "equipment": [],
     "stats": {
       "health": 5,
       "sanity": 7,
@@ -742,10 +898,23 @@
       "Action: Perform an action you have already performed this round. ",
       "If you would spend or lose Sanity as part of a Spell effect, you may spend or lose 1 fewer Sanity as part of that effect. "
     ],
-    "location": "20",
+    "location": 20,
     "equipment": [
-      "1 Ritual Dagger Asset",
-      "1 Voice of Ra Spell"
+      {
+        "type": "asset",
+        "id": 1,
+        "amount": 1
+      },
+      {
+        "type": "spell",
+        "id": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "amount": 1
+      }
     ],
     "stats": {
       "health": 6,
@@ -775,10 +944,22 @@
       "Action: You and 1 Monster on your space each lose 1 Health.",
       "You cannot become Delayed or gain a Detained Condition unless you choose to."
     ],
-    "location": "14",
+    "location": 14,
     "equipment": [
-      "1 .38 Revolver Asset",
-      "1 Kerosene Asset"
+      {
+        "type": "asset",
+        "id": [
+          76
+        ],
+        "amount": 1
+      },
+      {
+        "type": "asset",
+        "id": [
+          32
+        ],
+        "amount": 1
+      }
     ],
     "stats": {
       "health": 8,
@@ -805,9 +986,15 @@
       "Action: If you are on a City space, you may gain 1 Item or Service Asset of your choice from the reserve. If you do, gain a Wanted Condition. ",
       "Once per round, you may reroll 1 die when resolving a Deal or Pursuit Condition. "
     ],
-    "location": "LN",
+    "location": 31,
     "equipment": [
-      "1 Tommy Gun Asset"
+      {
+        "type": "asset",
+        "id": [
+          46
+        ],
+        "amount": 1
+      }
     ],
     "stats": {
       "health": 8,
@@ -834,11 +1021,8 @@
       "Action: You and another investigator on your space each gain 1 travel ticket of your choice. ",
       "You and other investigators on your space each gain +1 to all skills if there is another investigator on your space or you have one or more Ally assets. "
     ],
-    "location": "TK",
-    "equipment": [
-      "1 Cryptic Text Unique Asset",
-      "1 Clue"
-    ],
+    "location": 34,
+    "equipment": [],
     "stats": {
       "health": 6,
       "sanity": 6,
@@ -864,11 +1048,8 @@
       "Action: You may discard 1 Artifact to retreat Doom by 1; or discard the top card of the Expedition Encounter deck and perform 1 additional action. ",
       "After resolving an Expedition Encounter, gain 1 Relic Unique Asset. "
     ],
-    "location": "PY",
-    "equipment": [
-      "1 Bull Whip Asset",
-      "1 Treasure Map Unique Asset"
-    ],
+    "location": 23,
+    "equipment": [],
     "stats": {
       "health": 7,
       "sanity": 5,
@@ -894,9 +1075,18 @@
       "Action: Spend 2 Clues to discard 1 Monster on a space containing a Gate. ",
       "Once per round, you may spend 1 Sanity in place of spending 1 Clue. "
     ],
-    "location": "AR",
+    "location": 29,
     "equipment": [
-      "1 Feed the Mind Spell"
+      {
+        "type": "spell",
+        "id": [
+          81,
+          82,
+          83,
+          84
+        ],
+        "amount": 1
+      }
     ],
     "stats": {
       "health": 5,
@@ -922,10 +1112,22 @@
       "Action: You may spend 1 Clue and 1 Focus to improve 1 skill of your choice. ",
       "When you close a Gate during an Other World Encounter, gain 1 Clue and 1 Focus. "
     ],
-    "location": "SY",
+    "location": 36,
     "equipment": [
-      "1 Banishment Spell",
-      "1 Clue"
+      {
+        "type": "spell",
+        "id": [
+          57,
+          58,
+          59,
+          60
+        ],
+        "amount": 1
+      },
+      {
+        "type": "clue",
+        "amount": 1
+      }
     ],
     "stats": {
       "health": 5,
@@ -952,12 +1154,8 @@
       "Action: Gain any number of Assets of your choice from the reserve with total value less than your <influence>. ",
       "If you do not have a Cursed Condition, gain 1 Clue, improve 1 skill of your choice, and gain a Cursed Condition. "
     ],
-    "location": "1",
-    "equipment": [
-      "1 Lucky Talisman Asset",
-      "1 Cursed Condition",
-      "Improve 1 Skill of your choice"
-    ],
+    "location": 1,
+    "equipment": [],
     "stats": {
       "health": 7,
       "sanity": 7,
@@ -983,9 +1181,15 @@
       "Action: Move 1 space along a Ship path, then perform 1 additional action. ",
       "If you are on a Sea space, investigators on your space roll 1 additional die when resolving tests. "
     ],
-    "location": "SY",
+    "location": 36,
     "equipment": [
-      "1 Fishing Net Asset"
+      {
+        "type": "asset",
+        "id": [
+          97
+        ],
+        "amount": 1
+      }
     ],
     "stats": {
       "health": 8,
@@ -1012,12 +1216,8 @@
       "Action: Test <will>. For each success, you or another investigator on any space may discard 1 Madness Condition. ",
       "You and other investigators on your space add 1 to the result of each die rolled as part of a Bane or Boon Condition effect."
     ],
-    "location": "15",
-    "equipment": [
-      "1 Holy Water Asset",
-      "1 Ship Ticket",
-      "1 Clue"
-    ],
+    "location": 15,
+    "equipment": [],
     "stats": {
       "health": 5,
       "sanity": 7,
@@ -1043,9 +1243,13 @@
       "Action: You may discard 1 Item or Trinket Asset to gain 1 Item or Trinket Asset of your choice from the reserve with value equal to or less than 1 + the value of the discarded Asset. ",
       "Whenever you roll a 1 during a test, you may reroll that die. "
     ],
-    "location": "BA",
+    "location": 30,
     "equipment": [
-      "1 Axe Asset"
+      {
+        "type": "asset",
+        "id": 33,
+        "amount": 1
+      }
     ],
     "stats": {
       "health": 6,
@@ -1077,10 +1281,19 @@
       "Action: Move 1 Monster of your choice with toughness 3 or less from an adjacent space to your space. ",
       "During the Encounter Phase, other investigators on your space may choose an encounter as if there are no Monsters on your space. "
     ],
-    "location": "1",
+    "location": 1,
     "equipment": [
-      "1 Carbine Rifle Asset",
-      "Improve Will"
+      {
+        "type": "asset",
+        "id": [
+          93
+        ],
+        "amount": 1
+      },
+      {
+        "type": "other",
+        "text": "Improve <will>"
+      }
     ],
     "stats": {
       "health": 7,
@@ -1107,9 +1320,15 @@
       "Action: Test <influence>. If you pass, you may spend up to 2 Focus to gain 1 Clue for each Focus spent. ",
       "When you defeat a Monster during a Combat Encounter, gain 1 Focus. "
     ],
-    "location": "7",
+    "location": 7,
     "equipment": [
-      "1 Handcuffs Asset"
+      {
+        "type": "asset",
+        "id": [
+          92
+        ],
+        "amount": 1
+      }
     ],
     "stats": {
       "health": 7,
@@ -1136,9 +1355,15 @@
       "Action: If you do not have any Clues, gain 1 Clue. ",
       "If an investigator on your space spends a Clue to reroll a die, he may reroll up to 2 dice instead. "
     ],
-    "location": "16",
+    "location": 16,
     "equipment": [
-      " 1 .45 Automatic Asset"
+      {
+        "type": "asset",
+        "id": [
+          45
+        ],
+        "amount": 1
+      }
     ],
     "stats": {
       "health": 7,
@@ -1165,10 +1390,19 @@
       "Action: Move 1 space along an Uncharted path, then perform 1 additional action. ",
       "Once per round, you or another investigator on your space may spend 1 less Focus to pay for an effect. "
     ],
-    "location": "HA",
+    "location": 24,
     "equipment": [
-      "1 Mineralogy Research Asset",
-      "Improve 1 skill of your choice"
+      {
+        "type": "asset",
+        "id": [
+          79
+        ],
+        "amount": 1
+      },
+      {
+        "type": "other",
+        "text": "Improve 1 skill of your choice"
+      }
     ],
     "stats": {
       "health": 6,
@@ -1194,11 +1428,8 @@
       "Action: You or another investigator on you space may discard 1 Injury or Illness Condition and/or perform a Rest action. ",
       "When you or another investigator on your space performs a Rest action, that investigator may recover 1 additional Health. "
     ],
-    "location": "17",
-    "equipment": [
-      "1 Bandages Asset",
-      "1 Composed Condition"
-    ],
+    "location": 17,
+    "equipment": [],
     "stats": {
       "health": 6,
       "sanity": 6,
@@ -1224,10 +1455,20 @@
       "Action: Gain 1 Trinket Asset of your choice from the reserve or discard pile. ",
       "Once per round, if you would gain a non-Deal condition or an Impairment token, you may choose to not gain that Condition or Impairment token instead. "
     ],
-    "location": "16",
+    "location": 16,
     "equipment": [
-      "1 Elusive Condition",
-      "1 Clue"
+      {
+        "type": "condition",
+        "id": [
+          66,
+          67
+        ],
+        "amount": 1
+      },
+      {
+        "type": "clue",
+        "amount": 1
+      }
     ],
     "stats": {
       "health": 5,
@@ -1253,7 +1494,7 @@
       "Action: Discard up to two cards from the reserve. Then perform 1 additional action. ",
       "When you defeat a Monster with toughness 2 or greater during a Combat Encounter, you may gain 1 non-Service Asset of your choice from the reserve. "
     ],
-    "location": "SY",
+    "location": 36,
     "equipment": [],
     "stats": {
       "health": 7,
@@ -1280,9 +1521,15 @@
       "Action: Gain 1 Asset of your choice with value 1 from the reserve; or discard 1 card from the reserve and perform 1 additional action. ",
       "When you or another investigator on your space spend a Focus to reroll a die, that investigator may reroll up to 2 dice instead. "
     ],
-    "location": "AR",
+    "location": 29,
     "equipment": [
-      "1 Blunderbuss Asset"
+      {
+        "type": "asset",
+        "id": [
+          13
+        ],
+        "amount": 1
+      }
     ],
     "stats": {
       "health": 8,
@@ -1309,9 +1556,15 @@
       "Action: If you have fewer than 2 Task Assets, gain 1 Task Unique Asset ",
       "If you have not lost Sanity during a Combat Encounter, roll 2 additional dice when resolving the Strength test during that encounter. "
     ],
-    "location": "RM",
+    "location": 32,
     "equipment": [
-      "1 Holy Cross Asset"
+      {
+        "type": "asset",
+        "id": [
+          20
+        ],
+        "amount": 1
+      }
     ],
     "stats": {
       "health": 5,

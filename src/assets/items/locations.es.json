@@ -599,7 +599,7 @@
   {
     "id": 38,
     "code": "LC",
-    "name": "Lake Camp",
+    "name": "Campamento Lake",
     "categories": [
       "antarctica"
     ],
@@ -614,7 +614,7 @@
   {
     "id": 39,
     "code": "FW",
-    "name": "Frozen Waste",
+    "name": "Paramo Helado",
     "categories": [
       "antarctica"
     ],
@@ -629,7 +629,7 @@
   {
     "id": 40,
     "code": "CET",
-    "name": "City of the Elder Things",
+    "name": "Ciudad de los Antiguos",
     "categories": [
       "antarctica"
     ],
@@ -644,7 +644,7 @@
   {
     "id": 41,
     "code": "PL",
-    "name": "Plateau of Leng",
+    "name": "Meseta de Leng",
     "categories": [
       "antarctica"
     ],
@@ -658,7 +658,7 @@
   {
     "id": 42,
     "code": "SM",
-    "name": "Snowy Mountains",
+    "name": "Montañas nevadas",
     "categories": [
       "antarctica"
     ],
@@ -672,7 +672,7 @@
   {
     "id": 43,
     "code": "AX",
-    "name": "Alexandria",
+    "name": "Alejandría",
     "categories": [
       "pyramids"
     ],
@@ -687,7 +687,7 @@
   {
     "id": 44,
     "code": "BP",
-    "name": "The Bent Pyramid",
+    "name": "La Pirámide Torcida",
     "categories": [
       "pyramids"
     ],
@@ -701,7 +701,7 @@
   {
     "id": 45,
     "code": "CA",
-    "name": "Cairo",
+    "name": "El Cairo",
     "categories": [
       "pyramids"
     ],
@@ -716,7 +716,7 @@
   {
     "id": 46,
     "code": "SD",
-    "name": "The Sahara Desert",
+    "name": "El Desierto del Sahara",
     "categories": [
       "pyramids"
     ],
@@ -731,7 +731,7 @@
   {
     "id": 47,
     "code": "TA",
-    "name": "Tel el-Amarna",
+    "name": "Tel El-Amarna",
     "categories": [
       "pyramids"
     ],
@@ -746,7 +746,7 @@
   {
     "id": 48,
     "code": "NR",
-    "name": "The Nile River",
+    "name": "El Rio Nilo",
     "categories": [
       "pyramids"
     ],
