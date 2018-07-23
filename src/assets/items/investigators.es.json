@@ -91,13 +91,31 @@
     "name": "Amanda Sharpe",
     "image": "amanda-sharpe",
     "type": "investigator",
-    "profession": "The Student",
+    "profession": "La estudiante",
     "abilities": [
-      "Action: You may discard any number of Talent Conditions to improve 1 skill of your choice for each Talent Condition discarded.",
-      "If you would improve a skill, you may gain 1 Talent Condition instead."
+      "Acción: Puedes descartar cualquier cantidad de Estados Talento para mejorar 1 habilidad de tu elección por cada Estado Talento descartado.",
+      "Si fueses a mejorar una habilidad, en lugar de eso puedes obtener 1 Estado Talento"
     ],
     "location": 33,
-    "equipment": [],
+    "equipment": [
+      {
+        "type": "unique-asset",
+        "id": [
+          180
+        ],
+        "amount": 1
+      },
+      {
+        "type": "condition",
+        "id": [
+          187,
+          188,
+          189,
+          190
+        ],
+        "amount": 1
+      }
+    ],
     "stats": {
       "health": 6,
       "sanity": 6,
@@ -109,21 +127,36 @@
     },
     "expansion": "td",
     "role": "research",
-    "quote": "The truth of reason tempers even the wildest delusions. I will not fall prey to such madness.",
+    "quote": "La verdad de la razón templa hasta los delirios más salvajes. no seré presa de una locura así",
     "bio": "Ever since she laid eyes upon that painting, Amanda Sharpe has been hearing voices in her head and seeing emerald cities deep beneath the ocean in her dreams. Once a student at Arkham's Miskatonic University, Amanda Sharpe opted to take some time away from school, hoping that the strange voices and visions would subside. Unfortunately, they have been getting worse, not better, and hardly a day goes by that she does not suffer from her unusual visions. Something terrible is coming, she is sure of it. The sea wakes.",
-    "team": "Amanda has a high Observation, and her starting Task allows her to gain Clues very quickly. As such, she's useful for dealing with powerful Rumors, or Mysteries that require the spending of Clues.\nIt is very easy for Amanda to gain Talents. She may, if she chooses, discard these Talents for straight improvements to skills, which can help her fill any gaps the rest of the team may be missing."
+    "team": "Desde que sus ojos se posaron en ese cuadro, Amanda Sharpe ha estado oyendo voces en su cabeza y viendo en sueños ciudades esmeralda en las profundidades del océano. Aunque antes era estudiante de la Universidad Miskatonic de Arkham, Amanda Sharpe decidió tomarse un tiempo alejada de las clases, con la esperanza de que las extrañas voces y visiones desaparecieran. Por desgracia, han ido a peor en lugar de a mejor, y raro es el dia en el que no sufre inusuales visiones. Está segura de que algo terrible se aproxima. El mar despierta."
   },
   {
     "id": 4,
     "name": "Carolyn Fern",
     "type": "investigator",
-    "profession": "The Psychologist",
+    "profession": "La psicóloga",
     "abilities": [
-      "Action: You or another investigator on your space may discard 1 Madness Condition and/or perform a Rest Action",
-      "When another investigator performs a Rest Action on your space, they may gain 1 additional Sanity. "
+      "Acción: Tú u otro investigador que esté en tu casilla podéis descartar 1 Estado Locura y/o realizar una acción de descansar.",
+      "Cuando tú u otro investigador que esté en tu casilla realicéis una acción de descansar, el investigador que la realice puede recuperar 1 punto de Cordura adicional."
     ],
     "location": 32,
-    "equipment": [],
+    "equipment": [
+      {
+        "type": "asset",
+        "id": [
+          166
+        ],
+        "amount": 1
+      },
+      {
+        "type": "unique-asset",
+        "id": [
+          181
+        ],
+        "amount": 1
+      }
+    ],
     "stats": {
       "health": 5,
       "sanity": 7,
@@ -135,8 +168,8 @@
     },
     "expansion": "td",
     "role": "support",
-    "quote": "The mad deserve peace of mind, not death of the spirit.",
-    "bio": "When Carolyn Fern's latest patient, Malachi, told her of his troubled nightmares, she never expected that he would turn up dead the very next day, murdered by the very weapon of which he dreamed. A gifted psychologist and skilled in the art of hypnosis, Carolyn has been following clues Malachi left in his diary across two continents. Convinced that Malachi's death is in some way connected to the growing unrest in the world, she is determined to uncover the truth that lies behind the murder of her former patient.",
+    "quote": "Los locos se merecen tranquilidad mental, y no muerte espiritual.",
+    "bio": "Cuando Malachi, el último paciente de Carolyn Fern, le habló de sus perturbadoras pesadillas, ella nunca imaginó que aparecería muerto el día siguiente, asesinado por la misma arma con la que soñaba. Carolyn es una psicóloga de gran talento, hábil en el arte de la hipnosis, que ha estado siguiendo las pistas que Malachi dejó en su diario a lo largo y ancho de dos continentes. Convencida de que la muerte de Malachi está conectada de algún modo a la creciente agitación que hay en el mundo, está decidida a descubrir la verdad que se oculta tras el asesinato de su antiguo paciente.",
     "team": "Carolyn has a great Will and a decent Observation and Influence, making her well suited for most encounters she'll undertake. Her Dream Diary allows her to spawn Clues whenever she rests, so she can populate the board with Clues.\nHer other starting asset allows her to retreat Doom when a Mystery is solved, making her helpful when dealing with an Ancient One that has a low Doom, like Atlach-Nacha or Yig.\nCarolyn can help recover additional Sanity to investigators on her space, so Ancient Ones who deal Sanity damage, like Hastur, Hypnos, or Nephren-Ka are much easier with her in play."
   },
   {
@@ -231,13 +264,28 @@
     "id": 7,
     "name": "Darrell Simmons",
     "type": "investigator",
-    "profession": "The Photographer",
+    "profession": "El Fotógrafo",
     "abilities": [
-      "Action: Look at the top 5 cards of the Asset deck and put them back in any order. Then, discard any number of cards from the reserve. ",
-      "Roll 1 additional die when resolving a test during a location encounter or a Research Encounter if you are on a City space. "
+      "Acción: Mira las primeras 5 cartas del mazo de Apoyos y devuélvelas al mazo en cualquier orden. A continuación, descarta cualquier cantidad de cartas a la reserva.",
+      "Tira 1 dado adicional al resolver una prueba durante un Encuentro de Lugar o de Investigación si estás en una casilla de Ciudad."
     ],
     "location": 20,
-    "equipment": [],
+    "equipment": [
+      {
+        "type": "asset",
+        "id": [
+          163
+        ],
+        "amount": 1
+      },
+      {
+        "type": "asset",
+        "id": [
+          165
+        ],
+        "amount": 1
+      }
+    ],
     "stats": {
       "health": 7,
       "sanity": 5,
@@ -249,8 +297,8 @@
     },
     "expansion": "td",
     "role": "research",
-    "quote": "The truth is darker than any of us know.",
-    "bio": "Darrell Simmons will never forget the night he saw an indescribable horror emerge from the shadows in his hometown of Arkham. Since that fateful night, the horror of what he saw permeates his every dream. Resolved to capture photographic evidence to prove what he saw, he has dedicated his life to pursuing rumors of supernatural sightings, the latest of which has brought him to an ancient burial ground in Indonesia. One good shot is all he needs, and there is no way he will let it slip through his fingers. ",
+    "quote": "La verdad es más siniestra de lo que ninguno sabemos.",
+    "bio": "Darrell Simmons nunca olvidará la noche en la que vio cómo un horror indescriptible surgía de entre las sombras en su ciudad natal de Arkham. Desde esa fatidica noche, el terror de lo que vio impregna todos sus sueños. Decidido a captar pruebas fotográficas que demuestren lo que vio, ha dedicado su vida a perseguir rumores de avistamientos sobrenaturales. El más reciente de éstos lo ha llevado a un antiguo camposanto en Indonesia. Lo único que necesita es una buena instantanea, y no está dispuesto a dejar que se le escape de las manos.",
     "team": "With his starting assets and high Observation, Darrell is a great character for Research Encounters and gaining Clues, making him invaluable for Mysteries or Rumors that require them.\nDarrell is good at recycling the assets deck for more useful items, so he'll partner well on a team with Charlie or Jenny.\nBecause he rolls an extra die in a City space, he can do very well if the Ancient One is Hastur, as many of his spaces involve cities."
   },
   {
@@ -441,18 +489,38 @@
     "bio": "George tenía una larga carrera como abogado haciendo que quienes se lucraban con el sufrimiento humano respondiesen ante la ley. Hace poco, George se jubiló y se compró un barco para viajar por el mundo con su querida esposa Maria, pero todo cambió una mañana en Bombay. George salió del barco para ir a por el desayuno. Mientras volvia, pasó junto a unos occidentales que iban todos vestidos con trajes negros y con anillos de plata con la imagen de un cráneo. Dentro del barco, encontró el cadáver de Maria rodeado de simbolos ocultistas. Ahora, su única razón para vivir es buscar justicia para Maria.",
     "team": ""
   },
-  ,
   {
     "id": 12,
     "name": "Gloria Goldberg",
     "type": "investigator",
-    "profession": "The Author",
+    "profession": "La escritora",
     "abilities": [
-      "Action: If you are on a City space, gain 1 Tome Asset of your choice from the reserve or discard pile.",
-      "You and other investigators on your space roll 1 additional die when resolving a test during an Other World Encounter."
+      "Acción: Si estás en una casilla de Ciudad, obtén 1 Apoyo Tomo de tu elección de la reserva o de la pila de descartes.",
+      "Tú y los demás investigadores que estén en tu casilla tiráis 1 dado adicional al resolver una prueba durante un Encuentro de Otros mundos."
     ],
     "location": "AR",
-    "equipment": [],
+    "equipment": [
+      {
+        "type": "unique-asset",
+        "id": [
+          170,
+          171,
+          172,
+          173
+        ],
+        "amount": 1
+      },
+      {
+        "type": "spell",
+        "id": [
+          141,
+          142,
+          143,
+          144
+        ],
+        "amount": 1
+      }
+    ],
     "stats": {
       "health": 4,
       "sanity": 8,
@@ -467,8 +535,8 @@
       "support",
       "ressearch"
     ],
-    "quote": "Never underestimate the power of the written word.",
-    "bio": "For most of her life, Gloria has experienced vivid, lifelike dreams of horrifying abominations emerging from the dark places of the universe to destroy humanity. As she became older, she learned to channel these horrible visions into her writing and is widely lauded for the imaginative and detailed descriptions of the terrors she encounters in her nightmares. Her most recent nightmare ended with the destruction of not only Arkham but the entire world. If nothing else, it is going to make one hell of a book.",
+    "quote": "Nunca subestimes el poder de la palabra escrita.",
+    "bio": "Durante la mayor parte de su vida, Gloria ha experimentado vívidos sueños muy reales de horribles abominaciones que surgen de los lugares más oscuros del universo para destruir a la humanidad. Al hacerse mayor, apredió a canalizar esas horribles visiones en sus obras, y siempre ha recibido elogios por las imaginativas y detalladas descripciones de los terrores que encuentra en sus pesadillas. La más reciente de ellas terminaba con la destrucción no sólo de Arkham, sino de todo el mundo. Como minimo, dará para un libro espectacular.",
     "team": ""
   },
   {
@@ -688,13 +756,27 @@
     "id": 19,
     "name": "Kate Winthrop",
     "type": "investigator",
-    "profession": "The Scientist",
+    "profession": "La científica",
     "abilities": [
-      "Action: If you are on a space containing a Gate, discard 1 Monster on your space with toughness less than your <observation>",
-      "If a Gate would spawn on your space, discard that Gate and gain 1 Clue instead."
+      "Acción: Si estás en una casilla que contenga un Portal, descarta 1 Monstruo de tu casilla cuya fortaleza sea menor que tu <observation>",
+      "Si fuese a generarse un Portal en tu casilla, en lugar de eso descarta ese Portal y obtén 1 Pista."
     ],
     "location": 30,
-    "equipment": [],
+    "equipment": [
+      {
+        "type": "unique-asset",
+        "id": [
+          174,
+          175,
+          176
+        ],
+        "amount": 1
+      },
+      {
+        "type": "clue",
+        "amount": 1
+      }
+    ],
     "stats": {
       "health": 5,
       "sanity": 7,
@@ -709,8 +791,8 @@
       "research",
       "gate-closer"
     ],
-    "quote": "Professor Young taught me that everything is simpler than it seems. The connection is there if you look for it.",
-    "bio": "Quiet and resourceful, Kate Winthrop has been obsessed with studying dimensional instability ever since her friend and mentor Professor Young was devoured by a beast from another world. Following a peculiar dream and a string of mysterious disappearances, Kate has come to the University of Buenos Aires to continue her research. Now that preliminary testing has been completed on her flux stabilizer, Kate is no longer content to sit idly by. She is determined to seek revenge for the death of her colleague.",
+    "quote": "El profesor Young me enseñó que todo es más sencillo de lo que parece. La conexión está ahí si la buscas.",
+    "bio": "Kate Winthrop es callada e ingeniosa, y ha estado obsesionada con estudiar la inestabilidad dimensional desde que su amigo y mentor, el porfesor Young, fue devorado por una bestia de otro mundo. Siguiendo un sueño peculiar y una serie de misteriosas desapariciones, Kate ha llegado a la Universidad de Buenos Aires para proseguir su investigación. Ahora que ha completado las pruebas preliminares de su estabilizador de flujo, Kate ya no se conforma con quedarse al margen. Está decidida a buscar venganza por la muerte de su amigo.",
     "team": "Kate is well suited for research. However, her abilities are oriented around preventing gates from opening and removing Monsters on Gate spaces, making her useful in dealing with gates. "
   },
   {
@@ -837,13 +919,25 @@
     "id": 23,
     "name": "Luke Robinson",
     "type": "investigator",
-    "profession": "The Dreamer",
+    "profession": "El soñador",
     "abilities": [
-      "Action: Move to a space containing a Gate that corresponds to the current Omen. ",
-      "During the Encounter Phase, you may spend 1 Focus or 1 Sanity to encounter a Gate on your space as if there are no Monsters on your space."
+      "Acción: Muévete a una casilla que contenga un Portal que se corresponda con el Augurio actual.",
+      "Durante la fase de Encuentros, puedes gastar 1 ficha de Concentración o 1 punto de COrdura para resolver un encuentro con un Portal de tu casilla como si no hubiera Monstruos en tu casilla."
     ],
-    "location": "A space containing a Gate",
-    "equipment": [],
+    "location": "Una casilla que contenga un portal",
+    "equipment": [
+      {
+        "type": "asset",
+        "id": [
+          162
+        ],
+        "amount": 1
+      },
+      {
+        "type": "clue",
+        "amount": 1
+      }
+    ],
     "stats": {
       "health": 4,
       "sanity": 8,
@@ -855,8 +949,8 @@
     },
     "expansion": "td",
     "role": "gate-closer",
-    "quote": "The key to the Dreamlands lies within us all.",
-    "bio": "Luke Robinson, through the gift of an unusual puzzle box from his uncle, discovered the entrance to the Dreamlands many years ago, and has since then spent the majority of his days wandering the land of dreams in search of adventure. From the streets of Celephaïs to the endless mysteries of the Enchanted Wood he wanders, unraveling the secrets of both the land and the myriad dreamers who reside there. Now an ancient chaos threatens to annihilate not only the waking world but the world of his dreams as well. ",
+    "quote": "La llave a la Tierra de los Sueños se encuentra en el interior de todos nosotros.",
+    "bio": "Luke Robinson descubrió la entrada a las Tierras de los SUeños hace muchos años gracias a una extraña caja rompecabezas que le regaló su tio, y desde entonces se ha pasado la mayor parte de sus días deambulando por la tierra de los sueños en busca de aventuras. Vaga desde las calles de Celephais hasta los infinitos misterios del Bosque Encantado, desentrañando los secretos de la tierra y de las miriadas de soñadores que en ella residen. Ahora, un antiguo caos amenaza con aniquilar no sólo el mundo de la vigilia, sino también el mundo de sus sueños.",
     "team": "Luke Robinson's abilities clearly are suited towards closing gates. His ability to avoid fighting monsters to close gates is especially useful in the late game. ",
     "info": [
       "The player controlling Luke chooses to start Luke on any space containing an open Gate. If, for any reason, there are no gates on the board, the player may choose any space to place Luke. "
@@ -1424,13 +1518,29 @@
     "id": 40,
     "name": "Vincent Lee",
     "type": "investigator",
-    "profession": "The Doctor",
+    "profession": "El Doctor",
     "abilities": [
-      "Action: You or another investigator on you space may discard 1 Injury or Illness Condition and/or perform a Rest action. ",
-      "When you or another investigator on your space performs a Rest action, that investigator may recover 1 additional Health. "
+      "Acción: Tú u otro investigador que esté en tu casilla podéis descartar 1 Estado Herida o Enfermedad y/o realizar una acción de descansar.",
+      "Cuando tú u otro investigador que esté en tu casilla realicéis una acción de descansar, el investigador que realice la acción puede recuperar 1 punto de Salud adicional."
     ],
     "location": 17,
-    "equipment": [],
+    "equipment": [
+      {
+        "type": "asset",
+        "id": [
+          55
+        ],
+        "amount": 1
+      },
+      {
+        "type": "condition",
+        "id": [
+          207,
+          208
+        ],
+        "amount": 1
+      }
+    ],
     "stats": {
       "health": 6,
       "sanity": 6,
@@ -1442,8 +1552,8 @@
     },
     "expansion": "td",
     "role": "support",
-    "quote": "I will find the answers, even if it kills me.",
-    "bio": "After the third or fourth mutilated body showed up during his time at St. Mary's Hospital in Arkham, Vincent Lee began to suspect that this was no simple case of wild animal attacks. When a young man died screaming in his sleep from a burst heart, Vincent knew for a fact that dark times were ahead. Taking a leave of absence from his position at the hospital, he has set out to ease the suffering of those afflicted by the spreading chaos, hoping that the trail of bodies will lead him to the answers he craves. ",
+    "quote": "Encontraré las respuestas incluso si muero en el intento.",
+    "bio": "Despues de que apareciera el tercer o cuerta cuerpo mutilado durante el tiempo que pasó en el Hospital de Santa María, en Arkham, Vincent Lee empezó a sospechar que no se trataba de simples ataques de animales salvajes. Cuando un joven murió gritando mientras dormia tras reventarle el corazón, Vincent supo a ciencia cierta que se avecinaban tiempos siniestros. Tras pedir una excedencia de su puesto en el hospital, se ha propuesto aliviar el sufrimiento de los afectados por el caos que se extiende con la esperanza de que el rastro de cuerpos le llevará a las respuestas que tanto ansía.",
     "team": ""
   },
   {
@@ -1490,13 +1600,34 @@
     "id": 42,
     "name": "William Yorick",
     "type": "investigator",
-    "profession": "Gravedigger",
+    "profession": "El sepulturero",
     "abilities": [
-      "Action: Discard up to two cards from the reserve. Then perform 1 additional action. ",
-      "When you defeat a Monster with toughness 2 or greater during a Combat Encounter, you may gain 1 non-Service Asset of your choice from the reserve. "
+      "Acción: Descarta hasta 2 cartas de la reserva. A continuación, realiza 1 acción adicional.",
+      "Cuando derrotes a un Monstruo cuya fortaleza sea 2 o más durante un Encuentro de Combate, puedes obtener 1 Apoyo que no sea Servicio de tu elección de la reserva."
     ],
     "location": 36,
-    "equipment": [],
+    "equipment": [
+      {
+        "type": "asset",
+        "id": [
+          168
+        ],
+        "amount": 1
+      },
+      {
+        "type": "unique-asset",
+        "id": [
+          167,
+          168,
+          169
+        ],
+        "amount": 1
+      },
+      {
+        "type": "focus",
+        "amount": 1
+      }
+    ],
     "stats": {
       "health": 7,
       "sanity": 5,
@@ -1508,8 +1639,8 @@
     },
     "expansion": "td",
     "role": "combat",
-    "quote": "Though this be madness, yet there is method in't",
-    "bio": "William Yorick always dreamed of becoming an actor. But alas, poor Yorick, it was not meant to be. As a gravedigger, Yorick saw corpses every day, so when inhuman, monstrous corpses started turning up in Arkham, he took the bodies to Miskatonic University for study. Unfortunately for Yorick, this drew some unwanted attention, and fearing for his life, he took a grave-digging job in Sydney, far from Arkham and far from trouble—at least until the corpses started clawing their way from the ground.",
+    "quote": "Aunque esto sea una locura, hay un método en ella.",
+    "bio": "William Yorick siempre soñó con ser actor. Pero ¡ay, pobre Yorick!, no estaba en su destino. Como sepulturero, Yorick veía cadáveres cada día, así que cuando empezaron a aparecer cadáveres inhumanos y monstruosos en Arkham, llevó los cuerpos a la Universidad Miskatonic para que los estudiaran. Por desgracia para Yorick, esto atrajo una atencion no deaseada y, temiendo por su vida, aceptó un trabajo de sepulturero en Sidney, lejos de Arkham y de los problemas; al menos hasta que los cadáverres empezaron a abrirse paso para salir del suelo.",
     "team": ""
   },
   {
@@ -1580,6 +1711,169 @@
     "role": "combat",
     "quote": "Dios ha hablado. Llevaré a cabo Su obra sin dudarlo",
     "bio": "Cuando Zoey tenía seis años, sus padres murieron en un incendio. Mientras las llamas consumian su hogra, Dios la habló. Le dijo a Zoey que era especial y que iba a darle una tarea especial. Ahora que es adulta, viaja de ciudad en ciudad, trabajando como chef para ganarse la vida. Cuando no está trabajando, acecha en la noche, guiada por la voz del Señor. Alli donde encuentra maldad, la ataca sin remordimientos ni dudas. Recientemente, Dios la ha llamadao a Roma para que imparta Su justa furia.",
+    "team": ""
+  },
+  {
+    "id": 45,
+    "name": "Pete 'Cubo de Basura'",
+    "image": "",
+    "type": "investigator",
+    "profession": "El vagabundo",
+    "abilities": [
+      "Acción: Muévete 1 casilla por una ruta de Tren. A continuación, realiza una acción adicional.",
+      "Después de que realices una acción de adquirir Apoyos, puedes obtener 1 Apoyo Objeto o Baratija de la pila de descartes que tenga un valor menor que tu <observation>"
+    ],
+    "location": 14,
+    "equipment": [
+      {
+        "type": "unique-asset",
+        "id": [
+          165
+        ],
+        "amount": 1
+      },
+      {
+        "type": "clue",
+        "amount": 1
+      }
+    ],
+    "stats": {
+      "health": 7,
+      "sanity": 5,
+      "lore": 3,
+      "influence": 1,
+      "observation": 3,
+      "strength": 3,
+      "will": 3
+    },
+    "expansion": "cir",
+    "role": "",
+    "quote": "Aunque pueda haber peligros ahí fuera, hay almas que no pueden evitar vagabundear.",
+    "bio": "Pete lleva viajando por ferrocarril con su sabueseo Duque desde que empezó a tener sueños proféticos. Ha visto lo mejor y lo peor del mundo y sabe tomárselo con filosofia. Últimamente, parece que todas las ciudades a las que va están sufriendo. A veces es una inundación; otras, un incendio. CUando cierras los ojos, oye los gritos de todas las almas desconsoladas pidiendo ayuda. Sin embargo, cuando llegó a Oulu, vio una ciudad reconstruida tras el incendio sufrido. Pete cree que si logra descubrir el origen de toda esta destrucción, podrá ayudar a quienes más lo necesitan.",
+    "team": ""
+  },
+  {
+    "id": 46,
+    "name": "Bob Jenkins",
+    "image": "",
+    "type": "investigator",
+    "profession": "El vendedor",
+    "abilities": [
+      "Acción: Puedes intercambiar cualquier cantidad de pertenencias Objeto o Baratija con otro investigador que esté en cualquier casilla.",
+      "Cuando realices una acción de adquirir Apoyos, reduce el valor de cada carta de la reserva en 1, hasta un mínimo de 1."
+    ],
+    "location": 31,
+    "equipment": [
+      {
+        "type": "asset",
+        "id": [
+          138
+        ],
+        "amount": 1
+      },
+      {
+        "type": "clue",
+        "amount": 1
+      }
+    ],
+    "stats": {
+      "health": 7,
+      "sanity": 5,
+      "lore": 2,
+      "influence": 4,
+      "observation": 2,
+      "strength": 3,
+      "will": 2
+    },
+    "expansion": "cir",
+    "role": "",
+    "quote": "La realidad es sólo cuestion de negociación",
+    "bio": "Según Bob, el secreto del éxito de un vendedor reside en la persistencia. Sólo hay que decirle a la gente qué es lo que quieren. Una y otra vez. Hace poco, Bob se hizo con un puñado de extrañas monedas doradas, y espera que la misma persistencia que tanto promulga lo ayude a descubrir su origen y propósito. La investigación realizada le ha demostrado que las monedas son excepcionales y valiosas, pero también que llevan aparejada una especie de maldición. Los coleccionistas se niegan a tocarlas, pero Bob está más que convencido. Quiero saber más.",
+    "team": ""
+  },
+  {
+    "id": 47,
+    "name": "Rita Young",
+    "image": "",
+    "type": "investigator",
+    "profession": "La atleta",
+    "abilities": [
+      "Acción: Puedes gastar 1 punto de Salud o 1 punto de COrdura para obtener 1 Estado Talento.",
+      "Suma 1 al resultado de cada dado tirado como parte del efecto de un Estado Enfermedad, Herida o Locura."
+    ],
+    "location": 35,
+    "equipment": [
+      {
+        "type": "condition",
+        "id": [
+          183,
+          184
+        ],
+        "amount": 1
+      },
+      {
+        "type": "clue",
+        "amount": 1
+      }
+    ],
+    "stats": {
+      "health": 7,
+      "sanity": 5,
+      "lore": 3,
+      "influence": 1,
+      "observation": 2,
+      "strength": 4,
+      "will": 3
+    },
+    "expansion": "cir",
+    "role": "",
+    "quote": "¿Que tienes que ajustarme las cuentas? Por mí perfecto. Como si no te fuera a hacer morder el polvo igualmente.",
+    "bio": "Los relojes no mienten. En el pasado, la gente hacía comentarios hirientes a Rita. La amenazaban. Pero desde que empezo a correr de forma competitiva, a Rita sólo le ha importado el reloj. La mayor parte del tiempo, dice que Rita es más rápida que el resto. Dice que es más fuerte y que ha entrenado más duro. Ahora compite en todo el mundo y ha atraido la atención de gente poco deseable. Los prejuicios de algunas sectas esotéricas no pueden tolerar sus éxitos y quieren hacerla servir de ejemplo. Pero primero tendrán que atraparla, y el reloj dice que no pueden.",
+    "team": ""
+  },
+  {
+    "id": 48,
+    "name": "Roland Banks",
+    "image": "",
+    "type": "investigator",
+    "profession": "El federal",
+    "abilities": [
+      "Acción: Pon aparte cualquier candidad de Apoyos Servicio de la reserva.",
+      "Una vez por ronda, durante la fase de Acción, tú u otro investigador podéis obtener 1 Apoyo Servicio que hayas puesto aparte, descartar 1 carta de la reserva o generar 1 Pista."
+    ],
+    "location": 28,
+    "equipment": [
+      {
+        "type": "asset",
+        "id": [
+          146
+        ],
+        "amount": 1
+      },
+      {
+        "type": "unique-asset",
+        "id": [
+          146,
+          147,
+          148,
+          149
+        ],
+        "amount": 1
+      }
+    ],
+    "stats": {
+      "health": 7,
+      "sanity": 5,
+      "lore": 2,
+      "influence": 2,
+      "observation": 4,
+      "strength": 2,
+      "will": 3
+    },
+    "expansion": "cir",
+    "role": "",
+    "quote": "Seguir las reglas a rajatabla.",
+    "bio": "Hasta los que trabajan estrechamente con Roland no se atreverian a decir que lo conocen bien. Saben que es un agente incansable del FBI con mucha mano en conspiraciones y ocultismo. Saben que sigue la ley al pie de la letra, incluso cuando eso le perjudique, y que nadie supera su convicción en la justicia de la ley. Pero no lo conocen. No conocen las cosas que ha visto o las dudas que nublan sus pensamientos. Si su fe en el sistema se tambaleó en algun momento, nunca lo supieron. No dice nada. Lo ve todo",
     "team": ""
   }
 ]

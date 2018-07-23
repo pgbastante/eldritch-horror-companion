@@ -425,5 +425,189 @@
     "expansion": "base",
     "front": "Obtén +2 <will> y +5 <strength> cuando resuelvas Encuentros de Combate. Si derrotas un Monstruo durante un Encuentro de Combate, recupera 1 punto de Cordura",
     "id": 38
+  },
+  {
+    "name": "Trapezoedro brillante",
+    "categories": [
+      "object",
+      "magical"
+    ],
+    "type": "artifact",
+    "expansion": "utp",
+    "front": "Accion: Elige 1 Monstruo de cualquier casilla y tira 1 dado. Si sacas un 5 o un 6, descarta ese monstruo. Si sacas de 1 a 4, mueve ese Monstruo a tu casilla",
+    "id": 39
+  },
+  {
+    "name": "Cetros reales",
+    "categories": [
+      "object",
+      "relic",
+      "magical"
+    ],
+    "type": "artifact",
+    "expansion": "utp",
+    "front": "Obtén +4 <strength> durante Encuentros de Combate.\nObtén +4 <lore> al resolver efectos de Hechizos.",
+    "id": 40
+  },
+  {
+    "name": "Balanza de Thoth",
+    "categories": [
+      "object",
+      "relic",
+      "magical"
+    ],
+    "type": "artifact",
+    "expansion": "utp",
+    "front": "Aplica un +2 a todas las habilidades si tu Salud y Cordura son iguales.",
+    "reckoning": "Pierde 1 punto de Salud y/o 1 punto de Cordura",
+    "id": 41
+  },
+  {
+    "name": "El Libro de los Muertos",
+    "categories": [
+      "object",
+      "tome",
+      "relic"
+    ],
+    "type": "artifact",
+    "expansion": "utp",
+    "front": "Obtén +2 <observation> y +2 <will>.\nSiempre que un Monstruo sea derrotado, obtén 1 Pista.",
+    "reckoning": "Pierde 1 punto de Salud y/o 1 punto de Cordura",
+    "id": 42
+  },
+  {
+    "name": "Magia autentica",
+    "categories": [
+      "object",
+      "tome"
+    ],
+    "type": "artifact",
+    "expansion": "mon",
+    "front": "Obtén +5 <lore> al resolver efectos de Hechizos.\nSi fueses a gastar o perder Cordura como parte del efecto de un Hechizo, puedes gastar o perder 1 punto menos de Cordura como parte de ese efecto.",
+    "id": 43
+  },
+  {
+    "name": "Mapa de hemisferios",
+    "categories": [
+      "object"
+    ],
+    "type": "artifact",
+    "expansion": "mon",
+    "front": "Una vez por ronda, durante la fase de Acción, puedes moverte a una casilla adyacente",
+    "id": 44
+  },
+  {
+    "name": "Abanico Negro",
+    "categories": [
+      "object",
+      "magical"
+    ],
+    "type": "artifact",
+    "expansion": "mon",
+    "front": "Obtén +2 <influence> y +2 <will>\nPuedes añadir 2 éxitos a tu resultado de la prueba cuando realices una acción de adquirir Apoyos.",
+    "id": 45
+  },
+  {
+    "name": "Libro Negro",
+    "categories": [
+      "object",
+      "tome"
+    ],
+    "type": "artifact",
+    "expansion": "mon",
+    "front": "Obtén +2 a todas las habilidades si tienes el Estado Pacto oscuro.\nAcción: Puedes obtener el Estado Pacto oscuro para descartar cualquier cantidad de otros Estados y todas tus fichas de Arcano.",
+    "id": 46
+  },
+  {
+    "name": "Cantico Vach-Viraj",
+    "categories": [
+      "object",
+      "magical",
+      "tome"
+    ],
+    "type": "artifact",
+    "expansion": "cir",
+    "front": "Obtén +5 <strength> durante Encuentros de Combate.\nReduce el horror y el daño de los Monstruos con los que resuelvas encuentros en 1, hasta un mínimo de 1.",
+    "id": 47
+  },
+  {
+    "name": "Elixir Tikkoun",
+    "categories": [
+      "object",
+      "elixir"
+    ],
+    "type": "artifact",
+    "expansion": "cir",
+    "front": "Acción: Realiza una prueba de <will>. Si superas la prueba, puedes gastar 1 punto de Cordura para obtener 1 Estado Ayuda.",
+    "id": 48
+  },
+  {
+    "name": "Fragmentos de G'harne",
+    "categories": [
+      "object",
+      "relic",
+      "tome"
+    ],
+    "type": "artifact",
+    "expansion": "cir",
+    "front": "COmo parte de una acción de viajar, puedes gastar 1 punto de Salud para moverte 1 casilla adicional por cualquier ruta.",
+    "id": 49
+  },
+  {
+    "name": "Cayado mágico",
+    "categories": [
+      "object",
+      "magical",
+      "weapon"
+    ],
+    "type": "artifact",
+    "expansion": "cir",
+    "front": "Obten +6 <strength> durante Encuentros de Combate.\nSi derrotas un monstruo durante un Encuentro de Combate, obtén 1 Pista.",
+    "id": 50
+  },
+  {
+    "name": "Cristalizador de sueños",
+    "categories": [
+      "object",
+      "magical",
+      "teamwork"
+    ],
+    "type": "artifact",
+    "expansion": "td",
+    "front": "Una vez por ronda, durante la fase de Acción, puedes intercambiar cualquier cantidad de Estados, fichas de concentracion, de Mejora y/o de Discapacidad con otros investigador que esté en cualquier casilla.",
+    "id": 51
+  },
+  {
+    "name": "Cruz de Cykranosh",
+    "categories": [
+      "object",
+      "magical"
+    ],
+    "type": "artifact",
+    "expansion": "td",
+    "front": "Cuando superes una prueba de <strength> durante un Encuentro de Combate, mejora tu <lore>.\nCuando superes una prueba de <lore> al resolver el efecto de un Hechizo, mejora tu <strength>.",
+    "id": 52
+  },
+  {
+    "name": "Llave arquetipica",
+    "categories": [
+      "object",
+      "tome"
+    ],
+    "type": "artifact",
+    "expansion": "td",
+    "front": "Acción: Puedes gastar 1 punto de Salud para moverte a una casilla que contenga un Portal o una Puerta onírica.\nUna vez por ronda, puedes gastar 1 punto de Salud en lugar de gastar 1 Pista.",
+    "id": 53
+  },
+  {
+    "name": "Pentaculo de los planos",
+    "categories": [
+      "object",
+      "magical"
+    ],
+    "type": "artifact",
+    "expansion": "td",
+    "front": "Acción: Derrota a 1 Monstruo que esté en tu casilla. Pierdes una cantidad de Cordura igual a su fortaleza.\nReduce en 2 el daño y el horror de los Monstruos con los que resuelvas encuentros hasta un mínimo de 1.",
+    "id": 54
   }
 ]

@@ -205,7 +205,7 @@
   {
     "id": 14,
     "code": 14,
-    "name": "Europa del Norte",
+    "name": "Escandinavia",
     "categories": [
       "world"
     ],
@@ -792,7 +792,7 @@
   {
     "id": 51,
     "code": "EW",
-    "name": "The Enchanted Wood",
+    "name": "El Bosque Encantado",
     "categories": [
       "dreamlands"
     ],
@@ -806,7 +806,7 @@
   {
     "id": 52,
     "code": "MN",
-    "name": "The Moon",
+    "name": "La Luna",
     "categories": [
       "dreamlands"
     ],
@@ -820,7 +820,7 @@
   {
     "id": 53,
     "code": "UW",
-    "name": "The Underworld",
+    "name": "El Mundo Subterraneo",
     "categories": [
       "dreamlands"
     ],
@@ -850,7 +850,7 @@
   {
     "id": 55,
     "code": "KD",
-    "name": "Unknown Kadath",
+    "name": "La Desconocida Kadath",
     "categories": [
       "dreamlands"
     ],

@@ -984,7 +984,7 @@
     "id": 86
   },
   {
-    "name": "Menuscritos arcanos",
+    "name": "Manuscritos arcanos",
     "categories": [
       "object",
       "tome"
@@ -1190,5 +1190,757 @@
     "front": "Obtén +1 <influence>. Puedes volver a tirar 1 dado cuando resuelvas una prueba de <influence>",
     "cost": 2,
     "id": 104
+  },
+  {
+    "name": "Velas rituales",
+    "categories": [
+      "trinket"
+    ],
+    "type": "asset",
+    "expansion": "utp",
+    "front": "Puedes descartar esta carta para obtener +5 <lore> al resolver el efecto de un Hechizo.\nAcción: Puedes descartar esta carta para obtener 1 Hechizo",
+    "cost": 1,
+    "id": 105
+  },
+  {
+    "name": "Lupa",
+    "categories": [
+      "trinket"
+    ],
+    "type": "asset",
+    "expansion": "utp",
+    "front": "Una vez por ronda, otro investigador que esté en tu casilla o tú podéis gastar 1 Pista para volver a tirar cualquier cantidad de dados al resolver una prueba.",
+    "cost": 1,
+    "id": 106
+  },
+  {
+    "name": "Pergamino arcano",
+    "categories": [
+      "trinket",
+      "tome"
+    ],
+    "type": "asset",
+    "expansion": "utp",
+    "front": "Puedes sumar 1 al resultado al resolver una prueba de <lore> como parte del efecto de un Hechizo",
+    "cost": 1,
+    "id": 107
+  },
+  {
+    "name": "Diario del escriba",
+    "categories": [
+      "object",
+      "tome"
+    ],
+    "type": "asset",
+    "expansion": "utp",
+    "front": "Ningún efecto puede hacerte descartar Pistas o Hechizos a menos que elijas hacerlo.",
+    "cost": 1,
+    "id": 108
+  },
+  {
+    "name": "Puñal encantado",
+    "categories": [
+      "objeto",
+      "weapon",
+      "magical"
+    ],
+    "type": "asset",
+    "expansion": "utp",
+    "front": "Obtén +2 <strength> durante Encuentros de Combate",
+    "cost": 1,
+    "id": 109
+  },
+  {
+    "name": "Protección contra el mal",
+    "categories": [
+      "service"
+    ],
+    "type": "asset",
+    "expansion": "utp",
+    "front": "Cuando obtengas esta carta, descarta inmediatamente de cualquier casilla 1 Monstruo de tu elección que tenga una fortaleza de 3 o menos.\nA continuación descarta esta carta.",
+    "cost": 2,
+    "id": 110
+  },
+  {
+    "name": "Tienda de magia",
+    "categories": [
+      "service"
+    ],
+    "type": "asset",
+    "expansion": "utp",
+    "front": "Cuando obtengas esta carta, obtén 2 Hechizos inmediatamente.\nA continuación descarta 1 Hechizo y esta carta",
+    "cost": 2,
+    "id": 111
+  },
+  {
+    "name": "Colt de bolsillo del .32",
+    "categories": [
+      "object",
+      "weapon"
+    ],
+    "type": "asset",
+    "expansion": "utp",
+    "front": "Tira 1 dado adicional al resolver una prueba de <strength> durante un Encuentro de Combate.\nPuedes volver a tirar 1 dado al resolver una prueba de <strength> durante un Encuentro de Combate",
+    "cost": 2,
+    "id": 112
+  },
+  {
+    "name": "Tomo antiguo",
+    "categories": [
+      "object",
+      "tome",
+      "relic"
+    ],
+    "type": "asset",
+    "expansion": "utp",
+    "front": "Acción: Estudias las palabras escritas en un idioma que lleva mucho tiempo muerto (<lore>). Si suuperas la prueba, puedes gastar 1 punto de Cordura para obtener 1 Pista, 1 Hechizo o 1 Apoyo único Tarea",
+    "cost": 2,
+    "id": 113
+  },
+  {
+    "name": "Almadena",
+    "categories": [
+      "object"
+    ],
+    "type": "asset",
+    "expansion": "utp",
+    "front": "Obtén +1 <strength>.\nObtén +2 <strength> durante Encuentros de Combate.",
+    "cost": 2,
+    "id": 114
+  },
+  {
+    "name": "Psicoanalista",
+    "categories": [
+      "ally"
+    ],
+    "type": "asset",
+    "expansion": "utp",
+    "front": "Puedes volver a tirar 1 dado al resolver una prueba de <will> como parte de un efecto de un Estado Locura.\nCuando realices una acción de descansar, recupera 1 punto de Cordura adicional.",
+    "cost": 2,
+    "id": 115
+  },
+  {
+    "name": "Libro de hechizos",
+    "categories": [
+      "object",
+      "tome"
+    ],
+    "type": "asset",
+    "expansion": "utp",
+    "front": "Cuando obtengas esta carta del mazo o de la reserva, obtén 2 Hechizos y descarta 1 de ellos.\nObtén +2 <lore> al resolver efectos de Hechizos",
+    "cost": 3,
+    "id": 116
+  },
+  {
+    "name": "Talisman de la suerte",
+    "categories": [
+      "trinket",
+      "relic"
+    ],
+    "type": "asset",
+    "expansion": "utp",
+    "front": "Una vez por ronda, puedes volver a tirar todos tus dados al resolver una prueba",
+    "cost": 3,
+    "id": 117
+  },
+  {
+    "name": "Anj",
+    "categories": [
+      "object",
+      "relic"
+    ],
+    "type": "asset",
+    "expansion": "utp",
+    "front": "Obtén +2 <lore> al resolver efectos de Hechizos.\nObtén +2 <will> al resolver Encuentros de Combate.",
+    "cost": 3,
+    "id": 118
+  },
+  {
+    "name": "Buscadora de tesoros",
+    "categories": [
+      "ally"
+    ],
+    "type": "asset",
+    "expansion": "utp",
+    "front": "Obtén +1 <observation> y +1 <strength>.\nPuedes volver a tirar 1 dado al resolver una prueba de <observation> o de <strength>",
+    "cost": 4,
+    "id": 119
+  },
+  {
+    "name": "Tienda de curiosidades",
+    "categories": [
+      "service"
+    ],
+    "type": "asset",
+    "expansion": "utp",
+    "front": "Cuando obtengas esta carta, obtén inmediatamente 1 Artefacto.\nA continuación descarta esta carta.",
+    "cost": 1,
+    "id": 120
+  },
+  {
+    "name": "Talisman vampírico",
+    "categories": [
+      "object",
+      "relic",
+      "magical"
+    ],
+    "type": "asset",
+    "expansion": "mon",
+    "front": "Obtén +2 <strength> durante Encuentros de Combate.\nCuando derrotes un Monstruo durante un Encuentro de Combate, obtén 1 ficha de Concentración",
+    "cost": 2,
+    "id": 121
+  },
+  {
+    "name": "Recuerdo preciado",
+    "categories": [
+      "trinket"
+    ],
+    "type": "asset",
+    "expansion": "mon",
+    "front": "Una vez por ronda, cuando gastes 1 ficha de Concentración, puedes obtener 1 ficha de Concentración.",
+    "cost": 1,
+    "id": 122
+  },
+  {
+    "name": "Hierro desgastado",
+    "categories": [
+      "object",
+      "weapon",
+      "relic",
+      "magical"
+    ],
+    "type": "asset",
+    "expansion": "mon",
+    "front": "Obtén +1 <strength> durante Encuentros de Combate.\nPuedes volver a tirar 1 dado al resolver una prueba de <strength> durante un Encuentro de Combate.",
+    "cost": 1,
+    "id": 123
+  },
+  {
+    "name": "Pergamino de secretos",
+    "categories": [
+      "object",
+      "tome"
+    ],
+    "type": "asset",
+    "expansion": "mon",
+    "front": "Cuando obtengas esta carta desde el mazo o la reserva, obtén 1 Pista.\nObtén +2 <will> al resolver efectos de Hechizos.",
+    "cost": 2,
+    "id": 124
+  },
+  {
+    "name": "Totem protector",
+    "categories": [
+      "object",
+      "relic",
+      "magical"
+    ],
+    "type": "asset",
+    "expansion": "mon",
+    "front": "Una vez por ronda, si fueses a perder un total de 2 o más puntos de Salud y/o Cordura, puedes prevenir 1 punto de esa pérdida",
+    "cost": 1,
+    "id": 125
+  },
+  {
+    "name": "Tablilla ocultista",
+    "categories": [
+      "object",
+      "tome",
+      "relic"
+    ],
+    "type": "asset",
+    "expansion": "mon",
+    "front": "Obtén +3 <lore> al resolver efectos de Hechizos.\nCuando realices una acción de descansar, puedes realizar una prueba de <lore>.\nSi superas la prueba, puedes gastar 1 punto de Cordura para obtener 1 Pista.",
+    "cost": 3,
+    "id": 126
+  },
+  {
+    "name": "Tomo místico",
+    "categories": [
+      "object",
+      "tome"
+    ],
+    "type": "asset",
+    "expansion": "mon",
+    "front": "CUando obtengas esta carta desde el mazo o la reserva, obtén 2 Hechizos. A continuación descarta 1 Hechizo.\nCUando realices una acción de descansar, recupera 1 punto de Cordura adicional.",
+    "cost": 3,
+    "id": 127
+  },
+  {
+    "name": "Director de museo",
+    "categories": [
+      "ally"
+    ],
+    "type": "asset",
+    "expansion": "mon",
+    "front": "Cuando obtengas esta carta desde el mazo o la reserva obtén un Artefacto.\nTira 1 dado adicional al resolver una prueba de <will> durante un Encuentro de Combate",
+    "cost": 4,
+    "id": 128
+  },
+  {
+    "name": "Compendio grotesco",
+    "categories": [
+      "object",
+      "tome"
+    ],
+    "type": "asset",
+    "expansion": "mon",
+    "front": "Obtén +4 <lore> al resolver efectos de Hechizos.\nCada 6 que obtengas al resolver el efecto de un Hechizo cuenta como 2 éxitos.",
+    "cost": 4,
+    "id": 129
+  },
+  {
+    "name": "Repertorio siniestro",
+    "categories": [
+      "object",
+      "tome"
+    ],
+    "type": "asset",
+    "expansion": "mon",
+    "front": "Cuando obtengas esta carta desde el mazo o la reserva, obtén 1 Pista.\nReduce en 1 el horror de los Monstruos con los que resuelvas encuentros, hasta un mínimo de 1.",
+    "cost": 2,
+    "id": 130
+  },
+  {
+    "name": "Hoja de experto",
+    "categories": [
+      "object",
+      "weapon",
+      "relic",
+      "magical"
+    ],
+    "type": "asset",
+    "expansion": "mon",
+    "front": "CUando obtengas esta carta desde el mazo o la reserva obtén 1 Estado Talento.\nObtén +2 <strength> durante Encuentros de Combate.",
+    "cost": 2,
+    "id": 131
+  },
+  {
+    "name": "Joyeria encantada",
+    "categories": [
+      "object",
+      "relic",
+      "magical"
+    ],
+    "type": "asset",
+    "expansion": "mon",
+    "front": "Si fueses a perder Cordura, puedes gastar 1 ficha de Concentración para prevenir la pérdida de hasta 2 puntos de Cordura.",
+    "cost": 3,
+    "id": 132
+  },
+  {
+    "name": "Motosierra",
+    "categories": [
+      "object"
+    ],
+    "type": "asset",
+    "expansion": "mon",
+    "front": "Obtén +3 <strength> durante Encuentros de Combate.\nCada 6 que obtengas al resolver una prueba de <strength> durante un Encuentro de Combate cuenta como 2 éxitos.",
+    "cost": 3,
+    "id": 133
+  },
+  {
+    "name": "Hoja bendecida",
+    "categories": [
+      "object",
+      "weapon",
+      "relic",
+      "magical"
+    ],
+    "type": "asset",
+    "expansion": "mon",
+    "front": "Cuando obtengas esta carta desde el mazo o la reserva, obtén 1 Estado Ayuda.\nObtén +3 <strength> durante Encuentros de Combate.",
+    "cost": 3,
+    "id": 134
+  },
+  {
+    "name": "Investigador astuto",
+    "categories": [
+      "ally"
+    ],
+    "type": "asset",
+    "expansion": "mon",
+    "front": "Cuando obtengas esta carta desde el mazo o la reserva, obtén 2 Apoyos únicos Tarea. A continuación, descarta 1 Apoyo único Tarea.\nSiempre que descartes un Apoyo único Tarea, obtén 1 Pista.",
+    "cost": 2,
+    "id": 135
+  },
+  {
+    "name": "Manuscrito antiguo",
+    "categories": [
+      "trinket",
+      "tome",
+      "relic"
+    ],
+    "type": "asset",
+    "expansion": "mon",
+    "front": "Obtén +1 <lore> y +1 <will>.\nUna vez por ronda, puedes volver a tirar 1 dado al resolver una prueba.",
+    "cost": 3,
+    "id": 136
+  },
+  {
+    "name": "Régimen de entrenamiento",
+    "categories": [
+      "service"
+    ],
+    "type": "asset",
+    "expansion": "cir",
+    "front": "Cuando obtengas esta carta mejora inmediatamente 1 habilidad de tu elección y obtén 1 Estado Talento.\nA continuación, descarta esta carta.",
+    "cost": 2,
+    "id": 137
+  },
+  {
+    "name": "Fusil Winchester",
+    "categories": [
+      "object",
+      "weapon"
+    ],
+    "type": "asset",
+    "expansion": "cir",
+    "front": "Una vez por ronda, puedes obtener +4 <strength> durante un Encuentro de Combate.",
+    "cost": 2,
+    "id": 138
+  },
+  {
+    "name": "Anfitrion del Crepustulo de Plata",
+    "categories": [
+      "service"
+    ],
+    "type": "asset",
+    "expansion": "cir",
+    "front": "Cuando obtengas esta carta, recupera inmediatamente 3 puntos de Salud y 3 puntos de Cordura y obtén 1 Estado Ayuda.\nA continuación, descarta esta carta",
+    "cost": 3,
+    "id": 139
+  },
+  {
+    "name": "Vuelo privado",
+    "categories": [
+      "service"
+    ],
+    "type": "asset",
+    "expansion": "cir",
+    "front": "CUando obtengas esta carta, muévete inmediatamente a cualquier casilla de tu elección.\nA continuación, descarta esta carta.",
+    "cost": 2,
+    "id": 140
+  },
+  {
+    "name": "Analgésicos",
+    "categories": [
+      "trinket"
+    ],
+    "type": "asset",
+    "expansion": "cir",
+    "front": "Puedes volver a tirar 1 dado al resolver una prueba de <strength> como parte del efecto de un Estado Enfermedad o Herida.",
+    "cost": 1,
+    "id": 141
+  },
+  {
+    "name": "Escritura ocultista",
+    "categories": [
+      "object",
+      "tome"
+    ],
+    "type": "asset",
+    "expansion": "cir",
+    "front": "Cuando obtengas esta carta del mazo o de la reserva, obtén 2 Pistas.\nSiempre que obtengas una Pista durante un Encuentro de Investigación, genera 1 Pista.",
+    "cost": 3,
+    "id": 142
+  },
+  {
+    "name": "Reportaje de interes",
+    "categories": [
+      "service"
+    ],
+    "type": "asset",
+    "expansion": "cir",
+    "front": "Cuando obtengas esta carta, genera 3 Pistas inmediatamente.\nA continuación, descarta esta carta.",
+    "cost": 1,
+    "id": 143
+  },
+  {
+    "name": "Pergamino místico",
+    "categories": [
+      "object",
+      "tome"
+    ],
+    "type": "asset",
+    "expansion": "cir",
+    "front": "PUedes volver a tirar 1 dado al resolver una prueba de <will>",
+    "cost": 1,
+    "id": 144
+  },
+  {
+    "name": "Informe de misión",
+    "categories": [
+      "service"
+    ],
+    "type": "asset",
+    "expansion": "cir",
+    "front": "Cuando obtengas esta carta, obtén inmediatamente 2 Apoyos únicos Tarea.\nA continuación, descarta 1 Apoyo Tarea y esta carta.",
+    "cost": 1,
+    "id": 145
+  },
+  {
+    "name": "Mauser C96",
+    "categories": [
+      "object",
+      "weapon"
+    ],
+    "type": "asset",
+    "expansion": "cir",
+    "front": "Obtén +2 <strength> durante Encuentros de Combate.\nPuedes volver a tirar 1 dado al resolver una prueba de <strength> durante un Encuentro de Combate.",
+    "cost": 2,
+    "id": 146
+  },
+  {
+    "name": "Cazador de la Logia",
+    "categories": [
+      "ally"
+    ],
+    "type": "asset",
+    "expansion": "cir",
+    "front": "Obtén +1 <strength> y +1 <will>.\nPuedes volver a tirar 1 dado al resolver una prueba de <strength> o de <will>",
+    "cost": 4,
+    "id": 147
+  },
+  {
+    "name": "Totem macabro",
+    "categories": [
+      "trinket",
+      "magical"
+    ],
+    "type": "asset",
+    "expansion": "cir",
+    "front": "Obtén +1 <strength> y +1 <will>.\nUna vez por ronda, puedes volver a tirar 1 dado al resolver una prueba.",
+    "cost": 3,
+    "id": 148
+  },
+  {
+    "name": "Ametralladora gatling",
+    "categories": [
+      "object",
+      "weapon"
+    ],
+    "type": "asset",
+    "expansion": "cir",
+    "front": "Obtén +5 <strength> durante Encuentros de Combate.\nPuedes volver a tirar 2 dados que tengan el mismo resultado al resolver uan prueba de <strength> durante un Encuentro de Combate.",
+    "cost": 4,
+    "id": 149
+  },
+  {
+    "name": "Secretos prohibidos",
+    "categories": [
+      "object",
+      "tome"
+    ],
+    "type": "asset",
+    "expansion": "cir",
+    "front": "Obtén +1 <will> durante Encuentros de Combate.\nCuando resuelvas una prueba de <will> durante un Encuentro de Combate, obtén 1 Pista si no pierdes Cordura.",
+    "cost": 2,
+    "id": 150
+  },
+  {
+    "name": "Sutra arcano",
+    "categories": [
+      "object",
+      "tome"
+    ],
+    "type": "asset",
+    "expansion": "cir",
+    "front": "Obtén +2 <lore> al resolver efectos de Hechizos.\nPuedes volver a tirar 2 dados que tengan el mismo resultado al resolver una prueba de <will> como parte del efecto de un Hechizo.",
+    "cost": 3,
+    "id": 151
+  },
+  {
+    "name": "Vigilancia de la Agencia",
+    "categories": [
+      "service"
+    ],
+    "type": "asset",
+    "expansion": "cir",
+    "front": "Cuando obtengas esta carta, obtén 1 Pista inmediatamente y 1 Monstruo de tu elección que esté en cualquier casilla pierde 3 puntos de Salud.\nA continuación, descarta esta carta.",
+    "cost": 3,
+    "id": 152
+  },
+  {
+    "name": "Clases nocturnas",
+    "categories": [
+      "service"
+    ],
+    "type": "asset",
+    "expansion": "td",
+    "front": "Cuando obtengas esta carta, obtén inmediatamente 2 Estados Talento.\nA continuación, descarta 1 Estado Talento y esta carta.",
+    "cost": 2,
+    "id": 153
+  },
+  {
+    "name": "Aristocrata caprichoso",
+    "categories": [
+      "ally"
+    ],
+    "type": "asset",
+    "expansion": "td",
+    "front": "Obtén +1 <influence> y +1 <will>.\nPuedes volver a tirar 1 dado al resolver una prueba de <influence> o <will>.",
+    "cost": 4,
+    "id": 154
+  },
+  {
+    "name": "Redada policial",
+    "categories": [
+      "service"
+    ],
+    "type": "asset",
+    "expansion": "td",
+    "front": "Cuando obtengas esta carta, elige inmediatamente una casilla. Cada Monstruo que esté en la casilla elegida pierde 3 puntos de Salud.\nA continuación, descarta esta carta.",
+    "cost": 3,
+    "id": 155
+  },
+  {
+    "name": "Grimorio oculto",
+    "categories": [
+      "object",
+      "tome"
+    ],
+    "type": "asset",
+    "expansion": "td",
+    "front": "Obtén +3 <lore> al resolver efectos de Hechizos.\nReduce en 1 el horror de los Monstruos con los que resuelvas encuentros, hasta un mínimo de 1.",
+    "cost": 3,
+    "id": 156
+  },
+  {
+    "name": "Sicario",
+    "categories": [
+      "ally"
+    ],
+    "type": "asset",
+    "expansion": "td",
+    "front": "Cuando obtengas esta carta del mazo o de la reserva, obtén 1 Apoyo Arma aleatorio del mazo.\nLanza 1 dado adicional al resolver una prueba de <strength> durante un Encuentro de Combate.",
+    "cost": 3,
+    "id": 157
+  },
+  {
+    "name": "Arco encantado",
+    "categories": [
+      "object",
+      "weapon",
+      "magical"
+    ],
+    "type": "asset",
+    "expansion": "td",
+    "front": "Obtén +3 <strength> durante Encuentros de Combate.\nAcción: Un Monstruo de tu elección que esté en tu casilla pierde 1 punto de Salud.",
+    "cost": 3,
+    "id": 158
+  },
+  {
+    "name": "Arcanista",
+    "categories": [
+      "ally"
+    ],
+    "type": "asset",
+    "expansion": "td",
+    "front": "Cuando obtengas esta carta del mazo o de la reserva, obtén 2 Hechizos. A continuación, descarta 1 Hechizo.\nLanza 1 dado adicional al resolver una prueba de <will> como parte del efecto de un Hechizo.",
+    "cost": 3,
+    "id": 159
+  },
+  {
+    "name": "Códice de otro mundo",
+    "categories": [
+      "object",
+      "tome"
+    ],
+    "type": "asset",
+    "expansion": "td",
+    "front": "Obtén +1 <lore> y +1 <will>.\nJuega con el primer Portal del montón de Portales revelado.",
+    "cost": 2,
+    "id": 160
+  },
+  {
+    "name": "Texto prohibido",
+    "categories": [
+      "object",
+      "tome"
+    ],
+    "type": "asset",
+    "expansion": "td",
+    "front": "Obtén +1 <will>.\nObtén +2 <will> durante Encuentros de Combate.",
+    "cost": 2,
+    "id": 161
+  },
+  {
+    "name": "Caja onírica",
+    "categories": [
+      "trinket",
+      "magical"
+    ],
+    "type": "asset",
+    "expansion": "td",
+    "front": "Cuando cierres un Portal durante un Encuentro de Otros mundos, obtén 1 ficha de Concentración. Si ese Portal se corresponde con el Augurio actual, recupera 1 punto de Cordura.",
+    "cost": 2,
+    "id": 162
+  },
+  {
+    "name": "Cámara",
+    "categories": [
+      "object"
+    ],
+    "type": "asset",
+    "expansion": "td",
+    "front": "Una vez por ronda, cuando gastes una Pista, puedes obtener 1 Pista.",
+    "cost": 2,
+    "id": 163
+  },
+  {
+    "name": "Llaves maestras",
+    "categories": [
+      "trinket"
+    ],
+    "type": "asset",
+    "expansion": "td",
+    "front": "Una vez por ronda, puedes añadir 1 al resultado de 1 dado al resolver una prueba durante un Encuentro de Otros mundos.",
+    "cost": 1,
+    "id": 164
+  },
+  {
+    "name": "Buscar la verdad",
+    "categories": [
+      "task"
+    ],
+    "type": "asset",
+    "expansion": "td",
+    "front": "Siempre que obtengas una Pista durante un Encuentro de Investigación, genera 1 Pista.\nA continuación, puedes gastar 3 Pistas y descartar esta carta para hacer avanzar el Misterio activo en 1.",
+    "cost": 1,
+    "id": 165
+  },
+  {
+    "name": "Diario onírico",
+    "categories": [
+      "object"
+    ],
+    "type": "asset",
+    "expansion": "td",
+    "front": "Obtén +1 <lore> durante Encuentros de Otros mundos.\nCuando realices una acción de descansar, genera 1 Pista.",
+    "cost": 1,
+    "id": 166
+  },
+  {
+    "name": "Adivinación",
+    "categories": [
+      "service"
+    ],
+    "type": "asset",
+    "expansion": "td",
+    "front": "Cuando obtengas esta carta, mira los 3 primeros Portales del montón de Portales. Pon cualquier cantidad de ellos en la parte inferior del monton de Portales y el resto en la parte superior, en cualquier orden.\nA continuación descarta esta carta.",
+    "cost": 1,
+    "id": 167
+  },
+  {
+    "name": "Pócima alquímica",
+    "categories": [
+      "object",
+      "magical"
+    ],
+    "type": "asset",
+    "expansion": "td",
+    "front": "Puedes descartar esta carta para obtener +5 <strength> durante un Encuentro de Combate.",
+    "cost": 1,
+    "id": 168
   }
 ]

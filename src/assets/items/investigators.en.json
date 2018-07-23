@@ -97,7 +97,25 @@
       "If you would improve a skill, you may gain 1 Talent Condition instead."
     ],
     "location": 33,
-    "equipment": [],
+    "equipment": [
+      {
+        "type": "unique-asset",
+        "id": [
+          180
+        ],
+        "amount": 1
+      },
+      {
+        "type": "condition",
+        "id": [
+          187,
+          188,
+          189,
+          190
+        ],
+        "amount": 1
+      }
+    ],
     "stats": {
       "health": 6,
       "sanity": 6,
@@ -123,7 +141,22 @@
       "When another investigator performs a Rest Action on your space, they may gain 1 additional Sanity. "
     ],
     "location": 32,
-    "equipment": [],
+    "equipment": [
+      {
+        "type": "asset",
+        "id": [
+          166
+        ],
+        "amount": 1
+      },
+      {
+        "type": "unique-asset",
+        "id": [
+          181
+        ],
+        "amount": 1
+      }
+    ],
     "stats": {
       "health": 5,
       "sanity": 7,
@@ -237,7 +270,22 @@
       "Roll 1 additional die when resolving a test during a location encounter or a Research Encounter if you are on a City space. "
     ],
     "location": 20,
-    "equipment": [],
+    "equipment": [
+      {
+        "type": "asset",
+        "id": [
+          163
+        ],
+        "amount": 1
+      },
+      {
+        "type": "asset",
+        "id": [
+          165
+        ],
+        "amount": 1
+      }
+    ],
     "stats": {
       "health": 7,
       "sanity": 5,
@@ -451,7 +499,28 @@
       "You and other investigators on your space roll 1 additional die when resolving a test during an Other World Encounter."
     ],
     "location": "AR",
-    "equipment": [],
+    "equipment": [
+      {
+        "type": "unique-asset",
+        "id": [
+          170,
+          171,
+          172,
+          173
+        ],
+        "amount": 1
+      },
+      {
+        "type": "spell",
+        "id": [
+          141,
+          142,
+          143,
+          144
+        ],
+        "amount": 1
+      }
+    ],
     "stats": {
       "health": 4,
       "sanity": 8,
@@ -693,7 +762,21 @@
       "If a Gate would spawn on your space, discard that Gate and gain 1 Clue instead."
     ],
     "location": 30,
-    "equipment": [],
+    "equipment": [
+      {
+        "type": "unique-asset",
+        "id": [
+          174,
+          175,
+          176
+        ],
+        "amount": 1
+      },
+      {
+        "type": "clue",
+        "amount": 1
+      }
+    ],
     "stats": {
       "health": 5,
       "sanity": 7,
@@ -841,8 +924,20 @@
       "Action: Move to a space containing a Gate that corresponds to the current Omen. ",
       "During the Encounter Phase, you may spend 1 Focus or 1 Sanity to encounter a Gate on your space as if there are no Monsters on your space."
     ],
-    "location": "A space containing a Gate",
-    "equipment": [],
+    "location": "Una casilla que contenga un portal",
+    "equipment": [
+      {
+        "type": "asset",
+        "id": [
+          162
+        ],
+        "amount": 1
+      },
+      {
+        "type": "clue",
+        "amount": 1
+      }
+    ],
     "stats": {
       "health": 4,
       "sanity": 8,
@@ -1429,7 +1524,23 @@
       "When you or another investigator on your space performs a Rest action, that investigator may recover 1 additional Health. "
     ],
     "location": 17,
-    "equipment": [],
+    "equipment": [
+      {
+        "type": "asset",
+        "id": [
+          55
+        ],
+        "amount": 1
+      },
+      {
+        "type": "condition",
+        "id": [
+          207,
+          208
+        ],
+        "amount": 1
+      }
+    ],
     "stats": {
       "health": 6,
       "sanity": 6,
@@ -1495,7 +1606,28 @@
       "When you defeat a Monster with toughness 2 or greater during a Combat Encounter, you may gain 1 non-Service Asset of your choice from the reserve. "
     ],
     "location": 36,
-    "equipment": [],
+    "equipment": [
+      {
+        "type": "asset",
+        "id": [
+          168
+        ],
+        "amount": 1
+      },
+      {
+        "type": "unique-asset",
+        "id": [
+          167,
+          168,
+          169
+        ],
+        "amount": 1
+      },
+      {
+        "type": "focus",
+        "amount": 1
+      }
+    ],
     "stats": {
       "health": 7,
       "sanity": 5,
@@ -1579,6 +1711,169 @@
     "role": "combat",
     "quote": "God has spoken. I will do His work without hesitation.",
     "bio": "When Zoey was six years old, her parents were killed in a fire. As the flames consumed her home, God spoke to her. He told Zoey that she was special and that He was giving her a special task. As an adult, she now travels from city to city, taking work as a chef to support herself. When she isn't working, she stalks the night, guided by the Lord's voice. Wherever she finds wickedness, she strikes it down without remorse or hesitation. Most recently, God has called her to Rome, to dispense His righteous fury. ",
+    "team": ""
+  },
+  {
+    "id": 45,
+    "name": "Pete 'Cubo de Basura'",
+    "image": "",
+    "type": "investigator",
+    "profession": "El vagabundo",
+    "abilities": [
+      "Acción: Muévete 1 casilla por una ruta de Tren. A continuación, realiza una acción adicional.",
+      "Después de que realices una acción de adquirir Apoyos, puedes obtener 1 Apoyo Objeto o Baratija de la pila de descartes que tenga un valor menor que tu <observation>"
+    ],
+    "location": 14,
+    "equipment": [
+      {
+        "type": "unique-asset",
+        "id": [
+          165
+        ],
+        "amount": 1
+      },
+      {
+        "type": "clue",
+        "amount": 1
+      }
+    ],
+    "stats": {
+      "health": 7,
+      "sanity": 5,
+      "lore": 3,
+      "influence": 1,
+      "observation": 3,
+      "strength": 3,
+      "will": 3
+    },
+    "expansion": "cir",
+    "role": "",
+    "quote": "Aunque pueda haber peligros ahí fuera, hay almas que no pueden evitar vagabundear.",
+    "bio": "Pete lleva viajando por ferrocarril con su sabueseo Duque desde que empezó a tener sueños proféticos. Ha visto lo mejor y lo peor del mundo y sabe tomárselo con filosofia. Últimamente, parece que todas las ciudades a las que va están sufriendo. A veces es una inundación; otras, un incendio. CUando cierras los ojos, oye los gritos de todas las almas desconsoladas pidiendo ayuda. Sin embargo, cuando llegó a Oulu, vio una ciudad reconstruida tras el incendio sufrido. Pete cree que si logra descubrir el origen de toda esta destrucción, podrá ayudar a quienes más lo necesitan.",
+    "team": ""
+  },
+  {
+    "id": 46,
+    "name": "Bob Jenkins",
+    "image": "",
+    "type": "investigator",
+    "profession": "El vendedor",
+    "abilities": [
+      "Acción: Puedes intercambiar cualquier cantidad de pertenencias Objeto o Baratija con otro investigador que esté en cualquier casilla.",
+      "Cuando realices una acción de adquirir Apoyos, reduce el valor de cada carta de la reserva en 1, hasta un mínimo de 1."
+    ],
+    "location": 31,
+    "equipment": [
+      {
+        "type": "asset",
+        "id": [
+          138
+        ],
+        "amount": 1
+      },
+      {
+        "type": "clue",
+        "amount": 1
+      }
+    ],
+    "stats": {
+      "health": 7,
+      "sanity": 5,
+      "lore": 2,
+      "influence": 4,
+      "observation": 2,
+      "strength": 3,
+      "will": 2
+    },
+    "expansion": "cir",
+    "role": "",
+    "quote": "La realidad es sólo cuestion de negociación",
+    "bio": "Según Bob, el secreto del éxito de un vendedor reside en la persistencia. Sólo hay que decirle a la gente qué es lo que quieren. Una y otra vez. Hace poco, Bob se hizo con un puñado de extrañas monedas doradas, y espera que la misma persistencia que tanto promulga lo ayude a descubrir su origen y propósito. La investigación realizada le ha demostrado que las monedas son excepcionales y valiosas, pero también que llevan aparejada una especie de maldición. Los coleccionistas se niegan a tocarlas, pero Bob está más que convencido. Quiero saber más.",
+    "team": ""
+  },
+  {
+    "id": 47,
+    "name": "Rita Young",
+    "image": "",
+    "type": "investigator",
+    "profession": "La atleta",
+    "abilities": [
+      "Acción: Puedes gastar 1 punto de Salud o 1 punto de COrdura para obtener 1 Estado Talento.",
+      "Suma 1 al resultado de cada dado tirado como parte del efecto de un Estado Enfermedad, Herida o Locura."
+    ],
+    "location": 35,
+    "equipment": [
+      {
+        "type": "condition",
+        "id": [
+          183,
+          184
+        ],
+        "amount": 1
+      },
+      {
+        "type": "clue",
+        "amount": 1
+      }
+    ],
+    "stats": {
+      "health": 7,
+      "sanity": 5,
+      "lore": 3,
+      "influence": 1,
+      "observation": 2,
+      "strength": 4,
+      "will": 3
+    },
+    "expansion": "cir",
+    "role": "",
+    "quote": "¿Que tienes que ajustarme las cuentas? Por mí perfecto. Como si no te fuera a hacer morder el polvo igualmente.",
+    "bio": "Los relojes no mienten. En el pasado, la gente hacía comentarios hirientes a Rita. La amenazaban. Pero desde que empezo a correr de forma competitiva, a Rita sólo le ha importado el reloj. La mayor parte del tiempo, dice que Rita es más rápida que el resto. Dice que es más fuerte y que ha entrenado más duro. Ahora compite en todo el mundo y ha atraido la atención de gente poco deseable. Los prejuicios de algunas sectas esotéricas no pueden tolerar sus éxitos y quieren hacerla servir de ejemplo. Pero primero tendrán que atraparla, y el reloj dice que no pueden.",
+    "team": ""
+  },
+  {
+    "id": 48,
+    "name": "Roland Banks",
+    "image": "",
+    "type": "investigator",
+    "profession": "El federal",
+    "abilities": [
+      "Acción: Pon aparte cualquier candidad de Apoyos Servicio de la reserva.",
+      "Una vez por ronda, durante la fase de Acción, tú u otro investigador podéis obtener 1 Apoyo Servicio que hayas puesto aparte, descartar 1 carta de la reserva o generar 1 Pista."
+    ],
+    "location": 28,
+    "equipment": [
+      {
+        "type": "asset",
+        "id": [
+          146
+        ],
+        "amount": 1
+      },
+      {
+        "type": "unique-asset",
+        "id": [
+          146,
+          147,
+          148,
+          149
+        ],
+        "amount": 1
+      }
+    ],
+    "stats": {
+      "health": 7,
+      "sanity": 5,
+      "lore": 2,
+      "influence": 2,
+      "observation": 4,
+      "strength": 2,
+      "will": 3
+    },
+    "expansion": "cir",
+    "role": "",
+    "quote": "Seguir las reglas a rajatabla.",
+    "bio": "Hasta los que trabajan estrechamente con Roland no se atreverian a decir que lo conocen bien. Saben que es un agente incansable del FBI con mucha mano en conspiraciones y ocultismo. Saben que sigue la ley al pie de la letra, incluso cuando eso le perjudique, y que nadie supera su convicción en la justicia de la ley. Pero no lo conocen. No conocen las cosas que ha visto o las dudas que nublan sus pensamientos. Si su fe en el sistema se tambaleó en algun momento, nunca lo supieron. No dice nada. Lo ve todo",
     "team": ""
   }
 ]

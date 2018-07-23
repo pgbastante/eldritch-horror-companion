@@ -1589,5 +1589,917 @@
     "reckoning": "Realiza una prueba de <strength>. Si fallas, dale la vuelta a esta carta",
     "back": "Costilla rota",
     "id": 134
+  },
+  {
+    "name": "Maldito",
+    "categories": [
+      "bane"
+    ],
+    "type": "condition",
+    "expansion": "utp",
+    "front": "En tus pruebas sólo cuenta un 6 como éxito sacar un 6. Si fueses a obtener otro Estado Maldito, en lugar de eso dale la vuelta a esta carta. Si fueses a obtener el Estado Bendecido, en lugar de eso descarta esta carta",
+    "reckoning": "Lanza 1 dado. Si sacas un 4, 5 o 6, descarta esta carta",
+    "back": "Ineptitud",
+    "id": 135
+  },
+  {
+    "name": "Bendecido",
+    "categories": [
+      "boon"
+    ],
+    "type": "condition",
+    "expansion": "utp",
+    "front": "En tus pruebas cuenta como exito sacar 4, 5 o 6. Si fueses a obtener otro Estado Bendecido, en lugar de eso dale la vuelta a esta carta. Si fueses a obtener el Estado Maldito, en lugar de eso descarta esta carta",
+    "reckoning": "Lanza 1 dado. Si sacas un 1 o un 2 descarta esta carta",
+    "back": "Talento bendecido",
+    "id": 136
+  },
+  {
+    "name": "Espalda herida",
+    "categories": [
+      "injury"
+    ],
+    "type": "condition",
+    "expansion": "utp",
+    "front": "Cuando realices una accion de descansar, puedes tirar 1 dado. Si sacas un 5 o un 6, descarta esta carta",
+    "reckoning": "Realiza una prueba de <strength>. Si fallas, dale la vuelta a esta carta",
+    "back": "Lesión incapacitante",
+    "id": 137
+  },
+  {
+    "name": "Amnesia",
+    "categories": [
+      "madness"
+    ],
+    "type": "condition",
+    "expansion": "utp",
+    "front": "Cuando realices una accion de descansar, puedes tirar 1 dado. Si sacas un 5 o un 6, descarta esta carta",
+    "reckoning": "Realiza una prueba de <will>. Si fallas, dale la vuelta a esta carta",
+    "back": "Talentos Olvidados",
+    "id": 138
+  },
+  {
+    "name": "Embrujado",
+    "categories": [
+      "bane"
+    ],
+    "type": "condition",
+    "expansion": "utp",
+    "front": "Si fueses a obtener el Estado Bendecido o a mejorar tu <will>, en lugar de eso puedes descartar esta carta.",
+    "reckoning": "Tira 1 dado. Si sacas un 1, 2 o 3, dale la vuelta a esta carta.",
+    "back": "Banshee aulladora",
+    "id": 139
+  },
+  {
+    "name": "Embrujado",
+    "categories": [
+      "bane"
+    ],
+    "type": "condition",
+    "expansion": "utp",
+    "front": "Si fueses a obtener el Estado Bendecido o a mejorar tu <will>, en lugar de eso puedes descartar esta carta.",
+    "reckoning": "Tira 1 dado. Si sacas un 1, 2 o 3, dale la vuelta a esta carta.",
+    "back": "Seguidor fantasmal",
+    "id": 140
+  },
+  {
+    "name": "Embrujado",
+    "categories": [
+      "bane"
+    ],
+    "type": "condition",
+    "expansion": "utp",
+    "front": "Si fueses a obtener el Estado Bendecido o a mejorar tu <will>, en lugar de eso puedes descartar esta carta.",
+    "reckoning": "Tira 1 dado. Si sacas un 1, 2 o 3, dale la vuelta a esta carta.",
+    "back": "Fantasma viajero",
+    "id": 141
+  },
+  {
+    "name": "Embrujado",
+    "categories": [
+      "bane"
+    ],
+    "type": "condition",
+    "expansion": "utp",
+    "front": "Si fueses a obtener el Estado Bendecido o a mejorar tu <will>, en lugar de eso puedes descartar esta carta.",
+    "reckoning": "Tira 1 dado. Si sacas un 1, 2 o 3, dale la vuelta a esta carta.",
+    "back": "Visita espectral",
+    "id": 142
+  },
+  {
+    "name": "Contagiado",
+    "categories": [
+      "illness"
+    ],
+    "type": "condition",
+    "expansion": "utp",
+    "front": "Cuando realices una acción de descansar, tira 1 dado. Si sacas un 5 o 6, descarta esta carta.",
+    "reckoning": "Realiza una prueba de <strength> -1. Si fallas, dale la vuelta a esta carta.",
+    "back": "Deformidades",
+    "id": 143
+  },
+  {
+    "name": "Contagiado",
+    "categories": [
+      "illness"
+    ],
+    "type": "condition",
+    "expansion": "utp",
+    "front": "Cuando realices una acción de descansar, tira 1 dado. Si sacas un 5 o 6, descarta esta carta.",
+    "reckoning": "Realiza una prueba de <strength> -1. Si fallas, dale la vuelta a esta carta.",
+    "back": "Delirios febriles",
+    "id": 144
+  },
+  {
+    "name": "Contagiado",
+    "categories": [
+      "illness"
+    ],
+    "type": "condition",
+    "expansion": "utp",
+    "front": "Cuando realices una acción de descansar, tira 1 dado. Si sacas un 5 o 6, descarta esta carta.",
+    "reckoning": "Realiza una prueba de <strength> -1. Si fallas, dale la vuelta a esta carta.",
+    "back": "Momificación",
+    "id": 145
+  },
+  {
+    "name": "Contagiado",
+    "categories": [
+      "illness"
+    ],
+    "type": "condition",
+    "expansion": "utp",
+    "front": "Cuando realices una acción de descansar, tira 1 dado. Si sacas un 5 o 6, descarta esta carta.",
+    "reckoning": "Realiza una prueba de <strength> -1. Si fallas, dale la vuelta a esta carta.",
+    "back": "Ictericia",
+    "id": 146
+  },
+  {
+    "name": "Desesperación",
+    "categories": [
+      "madness"
+    ],
+    "type": "condition",
+    "expansion": "utp",
+    "front": "Cuando realices una acción de descansar, no puedes recuperar Cordura; dale la vuelta a esta carta.",
+    "reckoning": "Pierde 1 punto de Cordura",
+    "back": "Recuerdos Malditos",
+    "id": 147
+  },
+  {
+    "name": "Desesperación",
+    "categories": [
+      "madness"
+    ],
+    "type": "condition",
+    "expansion": "utp",
+    "front": "Cuando realices una acción de descansar, no puedes recuperar Cordura; dale la vuelta a esta carta.",
+    "reckoning": "Pierde 1 punto de Cordura",
+    "back": "Conocimiento horripilante",
+    "id": 148
+  },
+  {
+    "name": "Desesperación",
+    "categories": [
+      "madness"
+    ],
+    "type": "condition",
+    "expansion": "utp",
+    "front": "Cuando realices una acción de descansar, no puedes recuperar Cordura; dale la vuelta a esta carta.",
+    "reckoning": "Pierde 1 punto de Cordura",
+    "back": "Sufrimiento interminable",
+    "id": 149
+  },
+  {
+    "name": "Desesperación",
+    "categories": [
+      "madness"
+    ],
+    "type": "condition",
+    "expansion": "utp",
+    "front": "Cuando realices una acción de descansar, no puedes recuperar Cordura; dale la vuelta a esta carta.",
+    "reckoning": "Pierde 1 punto de Cordura",
+    "back": "Manicomio",
+    "id": 150
+  },
+  {
+    "name": "Labia",
+    "categories": [
+      "talent"
+    ],
+    "type": "condition",
+    "expansion": "mon",
+    "front": "Puedes volver a tirar 1 dado al resolver una prueba de <influence>\nCuando realices una acción de adquirir Apoyos, puedes sumar 1 al resultado de 1 dado. Dale la vuelta a esta carta antes de adquirir cartas.",
+    "number": 1,
+    "id": 151
+  },
+  {
+    "name": "Labia",
+    "categories": [
+      "talent"
+    ],
+    "type": "condition",
+    "expansion": "mon",
+    "front": "Puedes volver a tirar 1 dado al resolver una prueba de <influence>\nCuando realices una acción de adquirir Apoyos, puedes sumar 1 al resultado de 1 dado. Dale la vuelta a esta carta antes de adquirir cartas.",
+    "number": 2,
+    "id": 152
+  },
+  {
+    "name": "Resistente",
+    "categories": [
+      "talent"
+    ],
+    "type": "condition",
+    "expansion": "mon",
+    "front": "Una vez por ronda, cuando fueses a perder Salud, puedes realizar una prueba de <strength>. Si la superas, prevén la perdida de hasta 2 puntos de Salud. A continuación, dale la vuelta a esta carta",
+    "number": 3,
+    "id": 153
+  },
+  {
+    "name": "Resistente",
+    "categories": [
+      "talent"
+    ],
+    "type": "condition",
+    "expansion": "mon",
+    "front": "Una vez por ronda, cuando fueses a perder Salud, puedes realizar una prueba de <strength>. Si la superas, prevén la perdida de hasta 2 puntos de Salud. A continuación, dale la vuelta a esta carta",
+    "number": 4,
+    "id": 154
+  },
+  {
+    "name": "Experimentado",
+    "categories": [
+      "talent"
+    ],
+    "type": "condition",
+    "expansion": "cir",
+    "front": "Una vez por ronda, puedes tirar 1 dado adicional y volver a tirar un maximo de 1 dado al resolver una prueba. Si fallas esa prueba, dale la vuelta a esta carta.",
+    "number": 1,
+    "id": 155
+  },
+  {
+    "name": "Experimentado",
+    "categories": [
+      "talent"
+    ],
+    "type": "condition",
+    "expansion": "cir",
+    "front": "Una vez por ronda, puedes tirar 1 dado adicional y volver a tirar un maximo de 1 dado al resolver una prueba. Si fallas esa prueba, dale la vuelta a esta carta.",
+    "number": 2,
+    "id": 156
+  },
+  {
+    "name": "Experimentado",
+    "categories": [
+      "talent"
+    ],
+    "type": "condition",
+    "expansion": "mon",
+    "front": "Una vez por ronda, puedes tirar 1 dado adicional y volver a tirar un maximo de 1 dado al resolver una prueba. Si fallas esa prueba, dale la vuelta a esta carta.",
+    "number": 3,
+    "id": 157
+  },
+  {
+    "name": "Experimentado",
+    "categories": [
+      "talent"
+    ],
+    "type": "condition",
+    "expansion": "cir",
+    "front": "Una vez por ronda, puedes tirar 1 dado adicional y volver a tirar un maximo de 1 dado al resolver una prueba. Si fallas esa prueba, dale la vuelta a esta carta.",
+    "number": 4,
+    "id": 158
+  },
+  {
+    "name": "Perspicaz",
+    "categories": [
+      "talent"
+    ],
+    "type": "condition",
+    "expansion": "mon",
+    "front": "Puedes volver a tirar 1 dado al resolver una prueba de <observation>.\nPuedes gastar 1 Pista para volver a tirar hasta 2 dados al resolver una prueba. Si lo haces, dale la vuelta a esta carta.",
+    "number": 1,
+    "id": 159
+  },
+  {
+    "name": "Perspicaz",
+    "categories": [
+      "talent"
+    ],
+    "type": "condition",
+    "expansion": "mon",
+    "front": "Puedes volver a tirar 1 dado al resolver una prueba de <observation>.\nPuedes gastar 1 Pista para volver a tirar hasta 2 dados al resolver una prueba. Si lo haces, dale la vuelta a esta carta.",
+    "number": 2,
+    "id": 160
+  },
+  {
+    "name": "Meditación",
+    "categories": [
+      "talent"
+    ],
+    "type": "condition",
+    "expansion": "mon",
+    "front": "Cuando realices una acción de concentrarse o de descansar, obtén 1 ficha de Concentracion o recupera 1 punto de Cordura.",
+    "number": 1,
+    "id": 161,
+    "reckoning": "Puedes darle la vuelta a esta carta"
+  },
+  {
+    "name": "Meditación",
+    "categories": [
+      "talent"
+    ],
+    "type": "condition",
+    "expansion": "mon",
+    "front": "Cuando realices una acción de concentrarse o de descansar, obtén 1 ficha de Concentracion o recupera 1 punto de Cordura.",
+    "number": 2,
+    "id": 162,
+    "reckoning": "Puedes darle la vuelta a esta carta"
+  },
+  {
+    "name": "Obstinado",
+    "categories": [
+      "talent"
+    ],
+    "type": "condition",
+    "expansion": "mon",
+    "front": "Una vez por ronda, cuando fueses a perder Cordura, puedes realizar una prueba de <will>. Si la superas, prevén la pérdida de hasta 2 puntos de Cordura. A continuación, dale la vuelta a esta carta",
+    "number": 3,
+    "id": 163
+  },
+  {
+    "name": "Obstinado",
+    "categories": [
+      "talent"
+    ],
+    "type": "condition",
+    "expansion": "mon",
+    "front": "Una vez por ronda, cuando fueses a perder Cordura, puedes realizar una prueba de <will>. Si la superas, prevén la pérdida de hasta 2 puntos de Cordura. A continuación, dale la vuelta a esta carta",
+    "number": 4,
+    "id": 164
+  },
+  {
+    "name": "Vinculo viviente",
+    "categories": [
+      "boon"
+    ],
+    "type": "condition",
+    "expansion": "mon",
+    "front": "Obtén +1 a todas tus habilidades.\nSi fueses a obtener un Estado Ruina, en lugar de eso puedes descartar esta carta.",
+    "back": "Los restos de la 118",
+    "id": 165,
+    "reckoning": "Tu destino te aguarda. Dale la vuelta a esta carta."
+  },
+  {
+    "name": "Vinculo viviente",
+    "categories": [
+      "boon"
+    ],
+    "type": "condition",
+    "expansion": "mon",
+    "front": "Obtén +1 a todas tus habilidades.\nSi fueses a obtener un Estado Ruina, en lugar de eso puedes descartar esta carta.",
+    "back": "La brujería de Ezdagor",
+    "id": 166,
+    "reckoning": "Tu destino te aguarda. Dale la vuelta a esta carta."
+  },
+  {
+    "name": "Vinculo viviente",
+    "categories": [
+      "boon"
+    ],
+    "type": "condition",
+    "expansion": "mon",
+    "front": "Obtén +1 a todas tus habilidades.\nSi fueses a obtener un Estado Ruina, en lugar de eso puedes descartar esta carta.",
+    "back": "Legado de los Yithianos",
+    "id": 167,
+    "reckoning": "Tu destino te aguarda. Dale la vuelta a esta carta."
+  },
+  {
+    "name": "Vinculo viviente",
+    "categories": [
+      "boon"
+    ],
+    "type": "condition",
+    "expansion": "mon",
+    "front": "Obtén +1 a todas tus habilidades.\nSi fueses a obtener un Estado Ruina, en lugar de eso puedes descartar esta carta.",
+    "back": "El Rey del Crepúsculo",
+    "id": 168,
+    "reckoning": "Tu destino te aguarda. Dale la vuelta a esta carta."
+  },
+  {
+    "name": "Corrupción",
+    "categories": [
+      "bane"
+    ],
+    "type": "condition",
+    "expansion": "mon",
+    "front": "Puedes recibir 1 ficha de Arcano para volver a tirar 1 dado al resolver una prueba.\nSi fuese a obtener un Estao Ayuda, en lugar de eso descarta esta carta.",
+    "number": 1,
+    "id": 169,
+    "reckoning": "Recibe 1 ficha de Arcano. A continuación, dale la vuelta a esta carta."
+  },
+  {
+    "name": "Corrupción",
+    "categories": [
+      "bane"
+    ],
+    "type": "condition",
+    "expansion": "mon",
+    "front": "Puedes recibir 1 ficha de Arcano para volver a tirar 1 dado al resolver una prueba.\nSi fuese a obtener un Estao Ayuda, en lugar de eso descarta esta carta.",
+    "number": 2,
+    "id": 170,
+    "reckoning": "Recibe 1 ficha de Arcano. A continuación, dale la vuelta a esta carta."
+  },
+  {
+    "name": "Corrupción",
+    "categories": [
+      "bane"
+    ],
+    "type": "condition",
+    "expansion": "mon",
+    "front": "Puedes recibir 1 ficha de Arcano para volver a tirar 1 dado al resolver una prueba.\nSi fuese a obtener un Estao Ayuda, en lugar de eso descarta esta carta.",
+    "number": 3,
+    "id": 171,
+    "reckoning": "Recibe 1 ficha de Arcano. A continuación, dale la vuelta a esta carta."
+  },
+  {
+    "name": "Corrupción",
+    "categories": [
+      "bane"
+    ],
+    "type": "condition",
+    "expansion": "mon",
+    "front": "Puedes recibir 1 ficha de Arcano para volver a tirar 1 dado al resolver una prueba.\nSi fuese a obtener un Estao Ayuda, en lugar de eso descarta esta carta.",
+    "number": 4,
+    "id": 172,
+    "reckoning": "Recibe 1 ficha de Arcano. A continuación, dale la vuelta a esta carta."
+  },
+  {
+    "name": "Corrupción",
+    "categories": [
+      "bane"
+    ],
+    "type": "condition",
+    "expansion": "mon",
+    "front": "Puedes recibir 1 ficha de Arcano para volver a tirar 1 dado al resolver una prueba.\nSi fuese a obtener un Estao Ayuda, en lugar de eso descarta esta carta.",
+    "number": 5,
+    "id": 173,
+    "reckoning": "Recibe 1 ficha de Arcano. A continuación, dale la vuelta a esta carta."
+  },
+  {
+    "name": "Corrupción",
+    "categories": [
+      "bane"
+    ],
+    "type": "condition",
+    "expansion": "mon",
+    "front": "Puedes recibir 1 ficha de Arcano para volver a tirar 1 dado al resolver una prueba.\nSi fuese a obtener un Estao Ayuda, en lugar de eso descarta esta carta.",
+    "number": 6,
+    "id": 174,
+    "reckoning": "Recibe 1 ficha de Arcano. A continuación, dale la vuelta a esta carta."
+  },
+  {
+    "name": "Corrupción",
+    "categories": [
+      "bane"
+    ],
+    "type": "condition",
+    "expansion": "mon",
+    "front": "Puedes recibir 1 ficha de Arcano para volver a tirar 1 dado al resolver una prueba.\nSi fuese a obtener un Estao Ayuda, en lugar de eso descarta esta carta.",
+    "number": 7,
+    "id": 175,
+    "reckoning": "Recibe 1 ficha de Arcano. A continuación, dale la vuelta a esta carta."
+  },
+  {
+    "name": "Corrupción",
+    "categories": [
+      "bane"
+    ],
+    "type": "condition",
+    "expansion": "mon",
+    "front": "Puedes recibir 1 ficha de Arcano para volver a tirar 1 dado al resolver una prueba.\nSi fuese a obtener un Estao Ayuda, en lugar de eso descarta esta carta.",
+    "number": 8,
+    "id": 176,
+    "reckoning": "Recibe 1 ficha de Arcano. A continuación, dale la vuelta a esta carta."
+  },
+  {
+    "name": "Maldito",
+    "categories": [
+      "bane"
+    ],
+    "type": "condition",
+    "expansion": "cir",
+    "front": "En tus pruebas sólo cuenta un 6 como éxito sacar un 6. Si fueses a obtener otro Estado Maldito, en lugar de eso dale la vuelta a esta carta. Si fueses a obtener el Estado Bendecido, en lugar de eso descarta esta carta",
+    "reckoning": "Lanza 1 dado. Si sacas un 4, 5 o 6, descarta esta carta",
+    "back": "Hostilidad cósmica",
+    "id": 177
+  },
+  {
+    "name": "Bendecido",
+    "categories": [
+      "boon"
+    ],
+    "type": "condition",
+    "expansion": "cir",
+    "front": "En tus pruebas cuenta como exito sacar 4, 5 o 6. Si fueses a obtener otro Estado Bendecido, en lugar de eso dale la vuelta a esta carta. Si fueses a obtener el Estado Maldito, en lugar de eso descarta esta carta",
+    "reckoning": "Lanza 1 dado. Si sacas un 1 o un 2 descarta esta carta",
+    "back": "Serenidad",
+    "id": 178
+  },
+  {
+    "name": "Pacto oscuro",
+    "categories": [
+      "deal"
+    ],
+    "type": "condition",
+    "expansion": "cir",
+    "front": "",
+    "reckoning": "Tira 1 dado. Si sacas un 1, es hora de cumplir tu parte del trato; dale la vuelta a esta carta",
+    "back": "Recoger tempestades",
+    "id": 179
+  },
+  {
+    "name": "Pacto oscuro",
+    "categories": [
+      "deal"
+    ],
+    "type": "condition",
+    "expansion": "td",
+    "front": "",
+    "reckoning": "Tira 1 dado. Si sacas un 1, es hora de cumplir tu parte del trato; dale la vuelta a esta carta",
+    "back": "Al abismo",
+    "id": 180
+  },
+  {
+    "name": "Deuda",
+    "categories": [
+      "deal",
+      "common"
+    ],
+    "type": "condition",
+    "expansion": "td",
+    "front": "Acción local: Realiza una prueba de <influence>. Si superas la prueba, descarta esta carta",
+    "reckoning": "Unos hombres han venido a cobrar la deuda. Dale la vuelta a esta carta",
+    "back": "Invocación oscura",
+    "id": 181
+  },
+  {
+    "name": "Deuda",
+    "categories": [
+      "deal",
+      "common"
+    ],
+    "type": "condition",
+    "expansion": "cir",
+    "front": "Acción local: Realiza una prueba de <influence>. Si superas la prueba, descarta esta carta",
+    "reckoning": "Unos hombres han venido a cobrar la deuda. Dale la vuelta a esta carta",
+    "back": "Extracción oscura",
+    "id": 182
+  },
+  {
+    "name": "Recio",
+    "categories": [
+      "talent"
+    ],
+    "type": "condition",
+    "expansion": "cir",
+    "front": "Puedes volver a tirar 1 dado al resolver una prueba de <strength>.\nUna vez por ronda, si fueses a perder 2 o más puntos de Salud, prevén 1 punto de esa pérdida de Salud.\nA continuación, dale la vuelta a esta carta.",
+    "number": 1,
+    "id": 183
+  },
+  {
+    "name": "Recio",
+    "categories": [
+      "talent"
+    ],
+    "type": "condition",
+    "expansion": "cir",
+    "front": "Puedes volver a tirar 1 dado al resolver una prueba de <strength>.\nUna vez por ronda, si fueses a perder 2 o más puntos de Salud, prevén 1 punto de esa pérdida de Salud.\nA continuación, dale la vuelta a esta carta.",
+    "number": 2,
+    "id": 184
+  },
+  {
+    "name": "Implacable",
+    "categories": [
+      "talent"
+    ],
+    "type": "condition",
+    "expansion": "cir",
+    "front": "Al resolver una prueba de <strength> durante un Encuentro de Combate, puedes reducir la fortaleza del Monstruo en 1 hasta un mínimo de 1 durante ese encuentro.\nSi lo haces, dale la vuelta a esta carta.",
+    "number": 1,
+    "id": 185
+  },
+  {
+    "name": "Implacable",
+    "categories": [
+      "talent"
+    ],
+    "type": "condition",
+    "expansion": "cir",
+    "front": "Al resolver una prueba de <strength> durante un Encuentro de Combate, puedes reducir la fortaleza del Monstruo en 1 hasta un mínimo de 1 durante ese encuentro.\nSi lo haces, dale la vuelta a esta carta.",
+    "number": 2,
+    "id": 186
+  },
+  {
+    "name": "Aprendizaje rápido",
+    "categories": [
+      "talent"
+    ],
+    "type": "condition",
+    "expansion": "td",
+    "front": "Una vez por ronda, cuando obtengas esta carta u otro Estado Talento, puedes obtener 1 Estado Talento adicional. Si lo haces, dale la vuelta a esta carta.",
+    "number": 1,
+    "id": 187
+  },
+  {
+    "name": "Aprendizaje rápido",
+    "categories": [
+      "talent"
+    ],
+    "type": "condition",
+    "expansion": "td",
+    "front": "Una vez por ronda, cuando obtengas esta carta u otro Estado Talento, puedes obtener 1 Estado Talento adicional. Si lo haces, dale la vuelta a esta carta.",
+    "number": 2,
+    "id": 188
+  },
+  {
+    "name": "Aprendizaje rápido",
+    "categories": [
+      "talent"
+    ],
+    "type": "condition",
+    "expansion": "cir",
+    "front": "Una vez por ronda, cuando obtengas esta carta u otro Estado Talento, puedes obtener 1 Estado Talento adicional. Si lo haces, dale la vuelta a esta carta.",
+    "number": 3,
+    "id": 189
+  },
+  {
+    "name": "Aprendizaje rápido",
+    "categories": [
+      "talent"
+    ],
+    "type": "condition",
+    "expansion": "cir",
+    "front": "Una vez por ronda, cuando obtengas esta carta u otro Estado Talento, puedes obtener 1 Estado Talento adicional. Si lo haces, dale la vuelta a esta carta.",
+    "number": 4,
+    "id": 190
+  },
+  {
+    "name": "Agallas",
+    "categories": [
+      "talent"
+    ],
+    "type": "condition",
+    "expansion": "cir",
+    "front": "Al resolver un Encuentro de Combate, puedes obtener +2 <will> durante ese encuentro. Si lo haces, dale la vuelta a esta carta antes de resolver la prueba.",
+    "number": 1,
+    "id": 191
+  },
+  {
+    "name": "Agallas",
+    "categories": [
+      "talent"
+    ],
+    "type": "condition",
+    "expansion": "cir",
+    "front": "Al resolver un Encuentro de Combate, puedes obtener +2 <will> durante ese encuentro. Si lo haces, dale la vuelta a esta carta antes de resolver la prueba.",
+    "number": 2,
+    "id": 192
+  },
+  {
+    "name": "En armonia",
+    "categories": [
+      "talent"
+    ],
+    "type": "condition",
+    "expansion": "cir",
+    "front": "Al resolver el efecto de un Hechizo, puedes obtener +2 <lore>. Si lo haces, dale la vuelta a esta carta antes de resolver la prueba.\nCuando obtengas esta carta del mazo, obtén 2 Hechizos. A continuación, descarta 1 Hechizo.",
+    "number": 1,
+    "id": 193
+  },
+  {
+    "name": "En armonia",
+    "categories": [
+      "talent"
+    ],
+    "type": "condition",
+    "expansion": "cir",
+    "front": "Al resolver el efecto de un Hechizo, puedes obtener +2 <lore>. Si lo haces, dale la vuelta a esta carta antes de resolver la prueba.\nCuando obtengas esta carta del mazo, obtén 2 Hechizos. A continuación, descarta 1 Hechizo.",
+    "number": 2,
+    "id": 194
+  },
+  {
+    "name": "Terror",
+    "categories": [
+      "madness"
+    ],
+    "type": "condition",
+    "expansion": "cir",
+    "front": "CUando realices una accion de descansar, no puedes recuperar Cordura; tira 1 dado. Si sacas un 4, 5 o 6, descarta esta carta.",
+    "back": "Revelación aterradora",
+    "id": 195,
+    "reckoning": "Realiza una prueba de <will>. Si fallas, dale la vuelta a esta carta."
+  },
+  {
+    "name": "Terror",
+    "categories": [
+      "madness"
+    ],
+    "type": "condition",
+    "expansion": "cir",
+    "front": "CUando realices una accion de descansar, no puedes recuperar Cordura; tira 1 dado. Si sacas un 4, 5 o 6, descarta esta carta.",
+    "back": "Pesadillas aterradoras",
+    "id": 196,
+    "reckoning": "Realiza una prueba de <will>. Si fallas, dale la vuelta a esta carta."
+  },
+  {
+    "name": "Terror",
+    "categories": [
+      "madness"
+    ],
+    "type": "condition",
+    "expansion": "cir",
+    "front": "CUando realices una accion de descansar, no puedes recuperar Cordura; tira 1 dado. Si sacas un 4, 5 o 6, descarta esta carta.",
+    "back": "Encuentros aterradores",
+    "id": 197,
+    "reckoning": "Realiza una prueba de <will>. Si fallas, dale la vuelta a esta carta."
+  },
+  {
+    "name": "Terror",
+    "categories": [
+      "madness"
+    ],
+    "type": "condition",
+    "expansion": "cir",
+    "front": "CUando realices una accion de descansar, no puedes recuperar Cordura; tira 1 dado. Si sacas un 4, 5 o 6, descarta esta carta.",
+    "back": "Oscuridad aterradora",
+    "id": 198,
+    "reckoning": "Realiza una prueba de <will>. Si fallas, dale la vuelta a esta carta."
+  },
+  {
+    "name": "Alucinaciones",
+    "categories": [
+      "madness"
+    ],
+    "type": "condition",
+    "expansion": "base",
+    "front": "Cuando realices una accion de descansar, puedes tirar 1 dado. Si sacas un 5 o un 6, descarta esta carta",
+    "reckoning": "Realiza una prueba de <will>. Si fallas, dale la vuelta a esta carta",
+    "back": "Sueños surrealistas",
+    "id": 199
+  },
+  {
+    "name": "Visiones",
+    "categories": [
+      "talent"
+    ],
+    "type": "condition",
+    "expansion": "td",
+    "front": "Puedes volver a tirar 1 dado al resolver una prueba de <lore>.\nUna vez por ronda, cuando otro investigador obtenga un Estado que no sea Común, puedes mirar el dorso de esa carta. A continuación, dale la vuelta a esa carta.",
+    "number": 1,
+    "id": 200
+  },
+  {
+    "name": "Visiones",
+    "categories": [
+      "talent"
+    ],
+    "type": "condition",
+    "expansion": "td",
+    "front": "Puedes volver a tirar 1 dado al resolver una prueba de <lore>.\nUna vez por ronda, cuando otro investigador obtenga un Estado que no sea Común, puedes mirar el dorso de esa carta. A continuación, dale la vuelta a esa carta.",
+    "number": 2,
+    "id": 200
+  },
+  {
+    "name": "Arrojo",
+    "categories": [
+      "talent"
+    ],
+    "type": "condition",
+    "expansion": "td",
+    "front": "Puedes volver a lanzar 1 dado al resolver una prueba de <will>.\nUna vez por ronda, si fueses a perder 2 o más puntos de Cordura, preven 1 punto de esa pérdida de Cordura. A continuación, dale la vuelta a esta carta.",
+    "number": 1,
+    "id": 201
+  },
+  {
+    "name": "Arrojo",
+    "categories": [
+      "talent"
+    ],
+    "type": "condition",
+    "expansion": "td",
+    "front": "Puedes volver a lanzar 1 dado al resolver una prueba de <will>.\nUna vez por ronda, si fueses a perder 2 o más puntos de Cordura, preven 1 punto de esa pérdida de Cordura. A continuación, dale la vuelta a esta carta.",
+    "number": 2,
+    "id": 202
+  },
+  {
+    "name": "Destreza de lucha",
+    "categories": [
+      "talent"
+    ],
+    "type": "condition",
+    "expansion": "td",
+    "front": "Al resolver un Encuentro de Combate, puedes obtner +3 <strength> durante ese encuentro. Si lo haces, dale la vuelta a esta carta antes de resolver la prueba.",
+    "number": 3,
+    "id": 203
+  },
+  {
+    "name": "Destreza de lucha",
+    "categories": [
+      "talent"
+    ],
+    "type": "condition",
+    "expansion": "td",
+    "front": "Al resolver un Encuentro de Combate, puedes obtner +3 <strength> durante ese encuentro. Si lo haces, dale la vuelta a esta carta antes de resolver la prueba.",
+    "number": 4,
+    "id": 204
+  },
+  {
+    "name": "Escurridizo",
+    "categories": [
+      "talent"
+    ],
+    "type": "condition",
+    "expansion": "td",
+    "front": "Durante la fase de Encuentros, puedes realizar una prueba de <observation>. Si la superas, puedes elegir un encuentro como si no hubiese un monstruo en tu casilla. A continuación, dale la vuelta a esta carta",
+    "number": 3,
+    "id": 205
+  },
+  {
+    "name": "Escurridizo",
+    "categories": [
+      "talent"
+    ],
+    "type": "condition",
+    "expansion": "td",
+    "front": "Durante la fase de Encuentros, puedes realizar una prueba de <observation>. Si la superas, puedes elegir un encuentro como si no hubiese un monstruo en tu casilla. A continuación, dale la vuelta a esta carta",
+    "number": 4,
+    "id": 206
+  },
+  {
+    "name": "Sereno",
+    "categories": [
+      "talent"
+    ],
+    "type": "condition",
+    "expansion": "td",
+    "front": "Al resolver una prueba, si no sacaste ningun 1, puedes volver a tirar todos tus dados.\nCuando falles en una prueba, dale la vuelta a esata carta.",
+    "number": 1,
+    "id": 207
+  },
+  {
+    "name": "Sereno",
+    "categories": [
+      "talent"
+    ],
+    "type": "condition",
+    "expansion": "td",
+    "front": "Al resolver una prueba, si no sacaste ningun 1, puedes volver a tirar todos tus dados.\nCuando falles en una prueba, dale la vuelta a esata carta.",
+    "number": 2,
+    "id": 208
+  },
+  {
+    "name": "Perdido en el tiempo y el espacio",
+    "categories": [
+      "restriction"
+    ],
+    "type": "condition",
+    "expansion": "td",
+    "front": "Retira tu ficha de Investigador del tablero de juego. No te ves afectado por otros efectos de juego y no puedes moverte ni realizar acciones. En lugar de resolver un encuentro dale la vuelta a esta carta",
+    "back": "Perdido en el tiempo",
+    "id": 209
+  },
+  {
+    "name": "Perdido en el tiempo y el espacio",
+    "categories": [
+      "restriction"
+    ],
+    "type": "condition",
+    "expansion": "td",
+    "front": "Retira tu ficha de Investigador del tablero de juego. No te ves afectado por otros efectos de juego y no puedes moverte ni realizar acciones. En lugar de resolver un encuentro dale la vuelta a esta carta",
+    "back": "Hacia delante",
+    "id": 210
+  },
+  {
+    "name": "Perdido en el tiempo y el espacio",
+    "categories": [
+      "restriction"
+    ],
+    "type": "condition",
+    "expansion": "td",
+    "front": "Retira tu ficha de Investigador del tablero de juego. No te ves afectado por otros efectos de juego y no puedes moverte ni realizar acciones. En lugar de resolver un encuentro dale la vuelta a esta carta",
+    "back": "Contra la marea",
+    "id": 211
+  },
+  {
+    "name": "Perdido en el tiempo y el espacio",
+    "categories": [
+      "restriction"
+    ],
+    "type": "condition",
+    "expansion": "td",
+    "front": "Retira tu ficha de Investigador del tablero de juego. No te ves afectado por otros efectos de juego y no puedes moverte ni realizar acciones. En lugar de resolver un encuentro dale la vuelta a esta carta",
+    "back": "Busqueda onírica",
+    "id": 212
   }
 ]

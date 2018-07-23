@@ -42,21 +42,21 @@
   {
     "id": 2,
     "name": "Atlach-Nacha",
-    "title": "The Dreamweaver",
+    "title": "La tejedora de sueños",
     "expansion": "td",
-    "gameplay": "<reckoning>: Spawn 1 Gate unless investigators as a group discard a total number of Clues and/or Spells equal to half Number of <investigators>",
-    "victory": "When 3 Mysteries have been solved, investigators win the game.",
+    "gameplay": "<reckoning>: Genera 1 Portal a menos que los investigadores, como grupo, descarten una cantidad total de Pistas y/o Hechizos igual a la mitad del <investigators>",
+    "victory": "Cuando se hayan resuelto 3 Misterios, los investigadores ganan la partida.",
     "doom": 9,
-    "flavor": "Ever-weaving, ever watching, should Atlach-Nacha ever complete her empyrean masterpiece, it would merge the firmaments of the Dreamlands and reality into a single cosmic ingress, opening the way for the horrors of the Underworld to wage war upon the cities of humanity.",
+    "flavor": "Siempre tejiendo, siempre observando. Si Atlach-Nacha completa alguna vez su obra maestra empírea, fundiría los firmamentos de las Tierras del Sueño y de la realidad en un solo acceso cósmico que abriría el camino para que los horrores del Mundo Subterraneo fueran a la guerra contra las ciudades de la humanidad",
     "cultist": {
-      "effect": "Whenever this Monster is spawned, move it to the nearest space that does not contain a Gate or a Monster.",
+      "effect": "CUando se genere este Monstruo, muévelo a la casilla más cercana que no contenga un Portal ni un Monstruo",
       "health": {
         "test": "<strength>",
         "value": 1
       },
       "resistance": 1
     },
-    "setup": "Set aside the Leng Spider Monster. The Lead Investigator gains 1 Spell.",
+    "setup": "Pon aparte el Monsturo Araña de Leng. El investigador jefe obtiene 1 Hechizo.",
     "mythos": {
       "stage-1": {
         "green": 1,
@@ -269,15 +269,15 @@
   },
   {
     "id": 7,
-    "name": "Hypnos",
-    "title": "The Lord of Sleep",
+    "name": "Hipnos",
+    "title": "El Señor del Sueño",
     "expansion": "td",
-    "gameplay": "When an investigator performs a Rest action, he cannot recover both Health and Sanity.\n<reckoning>: Each investigator moves 1 space toward the nearest space on the Dreamlands side board unless he spends 1 Sanity.",
-    "victory": "When 3 Mysteries have been solved, investigators win the game.",
+    "gameplay": "Cuando un investigador realice una acción de descansar, no puede recuperar tanto Salud como Cordura.\n<reckoning>: Cada investigador se mueve 1 casilla hacia la casilla más cercana del tablero secundario de Las Tierras del Sueño a menos que gaste 1 punto de Cordura.",
+    "victory": "Cuando se hayan resuelto 3 Misterios, los investigadores ganan la partida.",
     "doom": 12,
-    "flavor": "Hypnos, Lord of Sleep, whispers softly to wayward dreamers, drawing them into his realm of madness.",
+    "flavor": "Hipnos, el Señor del Sueño, susurra suavemente a los soñadores extraviados, atrayéndolos a su reino de locura.",
     "cultist": {
-      "effect": "If you pass the <will> test, you free the dreamer from eternal slumber; defeat the Monster. If you pass the <strength> test, gain 1 Madness Condition",
+      "effect": "SI superas la prueba de <will> liberas al soñador de su sueño eterno; derrota a ese Monstruo.\nSi superas la prueba de <strength> obtén 1 Estado Locura.",
       "sanity": {
         "test": "<will> -1",
         "value": 0
@@ -288,7 +288,7 @@
       },
       "resistance": 1
     },
-    "setup": "Set aside all Hypnos Special Encounters. Setup the Dreamlands side board.",
+    "setup": "Pon aparte todos los Encuentros Especiales de Hipnos. Prepara el tablero secundario de Las Tierras del Sueño",
     "mythos": {
       "stage-1": {
         "green": 0,
@@ -589,6 +589,142 @@
       "sources": ""
     },
     "image": "yog-sothoth",
+    "type": "ancient-one"
+  },
+  {
+    "id": 14,
+    "name": "Shudde M'ell",
+    "title": "El Cataclismo de las Profundidades",
+    "expansion": "cir",
+    "gameplay": "Cuando la Perdición avance a una casilla que contenga una ficha de Arcano, roba y resuelve un Desastre. A continuación, descarta esa ficha de Arcano.\n<reckoning>: Cada investigador pierde un total de 2 puntos de Salud y/o Cordura.",
+    "victory": "CUando se hayan resuelto 3 Misterios, los investigadores ganan la partida.",
+    "doom": 15,
+    "flavor": "Shudde M'ell duerme a gran profundidad bajo la ciudad africana perdida de G'harne. Los efectos de sus tumultuosos sueños traen la destrucción al mundo de la superficie.",
+    "cultist": {
+      "effect": "<reckoning>: Tira 1 dado. Si sacas un 1 o 2, haz avanzar la Perdición una casilla.",
+      "health": {
+        "test": "<strength>-1",
+        "value": 1
+      },
+      "resistance": 1
+    },
+    "setup": "Deja aparte todos los Encuentros Especiales de Shudde M'ell. Coloca 1 ficha de Arcano en las casillas 2, 5, 8 y 11 del medidor de Perdición. ¡Roma queda devastada!",
+    "mythos": {
+      "stage-1": {
+        "green": 0,
+        "yellow": 2,
+        "blue": 2
+      },
+      "stage-2": {
+        "green": 4,
+        "yellow": 2,
+        "blue": 0
+      },
+      "stage-3": {
+        "green": 2,
+        "yellow": 4,
+        "blue": 0
+      }
+    },
+    "lore": {
+      "description": "",
+      "appearance": "",
+      "residence": "",
+      "sources": ""
+    },
+    "image": "",
+    "type": "ancient-one"
+  },
+  {
+    "id": 15,
+    "name": "Nyarlathotep",
+    "title": "El caos reptante",
+    "expansion": "mon",
+    "gameplay": "Cuando tengas una cantidad de fichas de Arcano igual o mayor que tu Cordura máxima, eres devorado.\n<reckoning>: Los investigadores, como grupo, reciben una cantidad de fichas de Arcano igual a la mitad del <investigators>",
+    "victory": "Cuando se hayan resuelto 2 Misterios, los investigadores ganan la partida.",
+    "doom": 12,
+    "flavor": "Tiene muchos nombres y presenta muchos rostros. Es el único de los Dioses Exteriores que camina por la Tierra, el titiritero que maneja los hilos de mil sectas, llevando las máscaras de mil dioses.",
+    "cultist": {
+      "effect": "Si fallas la prueba de <will>, obtén el Estado Corrupcion: si ya tienes el Estado Corrupción, en lugar de eso recibe 1 ficha de Arcano.",
+      "health": {
+        "test": "<strength>",
+        "value": 1
+      },
+      "sanity": {
+        "test": "<will>-1",
+        "value": 0
+      },
+      "resistance": 1
+    },
+    "setup": "Pon aparte todas las cartas de Encuentro Especial de Nyarlathotep",
+    "mythos": {
+      "stage-1": {
+        "green": 1,
+        "yellow": 2,
+        "blue": 1
+      },
+      "stage-2": {
+        "green": 2,
+        "yellow": 3,
+        "blue": 1
+      },
+      "stage-3": {
+        "green": 2,
+        "yellow": 4,
+        "blue": 0
+      }
+    },
+    "lore": {
+      "description": "",
+      "appearance": "",
+      "residence": "",
+      "sources": ""
+    },
+    "image": "",
+    "type": "ancient-one"
+  },
+  {
+    "id": 16,
+    "name": "Antediluvium",
+    "title": "La Orden de las Estrellas Nacientes",
+    "expansion": "mon",
+    "gameplay": "Cuando se genere un Portal que se corresponda con el Augurio azul, genera 1 Monstruo Sectario en esa casilla.\nCuando el Augurio avance a una casilla azul del medidor de Augurio, los investigadores, como grupo, pierden una cantidad de Cordura igual a la cantidad de Cordura que haya sobre esta hoja. A continuación, descarta 1 ficha de Cordura de esta hoja.",
+    "victory": "Cuando se hayan resuelto 3 Misterios, los investigadores ganan la partida",
+    "doom": 13,
+    "flavor": "Cada noche, las estrellas se acercan más a su alineamiento definitivo",
+    "cultist": {
+      "effect": "<reckoning>: Coloca 1 ficha de Cordura en la hoja de Primigenio.",
+      "health": {
+        "test": "<strength>",
+        "value": 1
+      },
+      "resistance": 1
+    },
+    "setup": "Pon aparte 5 Monstruos Sectarios y 1 Monstruo Profundo. Pon aparte el mazo de Encuentros de Ruinas místicas.\nColoca 1 ficha de Arcano en cada casilla azul del medidor de Augurio, y una cantidad de Cordura igual al <investigators> sobre esta hoja.",
+    "mythos": {
+      "stage-1": {
+        "green": 1,
+        "yellow": 2,
+        "blue": 1
+      },
+      "stage-2": {
+        "green": 2,
+        "yellow": 3,
+        "blue": 1
+      },
+      "stage-3": {
+        "green": 2,
+        "yellow": 4,
+        "blue": 0
+      }
+    },
+    "lore": {
+      "description": "",
+      "appearance": "",
+      "residence": "",
+      "sources": ""
+    },
+    "image": "",
     "type": "ancient-one"
   }
 ]

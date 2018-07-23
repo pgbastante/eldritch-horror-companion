@@ -1034,5 +1034,605 @@
     "front": "Acción: Realiza una prueba de <lore>. Si superas la prueba, elige un Monstruo que esté en tu casilla para que pierda 2 puntos de Salud. A continuación, dale la vuelta a esta carta",
     "number": 4,
     "id": 92
+  },
+  {
+    "name": "Atormentar",
+    "categories": [
+      "incantation"
+    ],
+    "type": "spell",
+    "expansion": "utp",
+    "front": "Al resolver un Encuentro de Combate, puedes realizar una prueba de <lore> -1. Si superas la prueba, obtén +5 <strength> durante ese encuentro.\nA continuación, dale la vuelta a esta carta.",
+    "number": 1,
+    "id": 93
+  },
+  {
+    "name": "Atormentar",
+    "categories": [
+      "incantation"
+    ],
+    "type": "spell",
+    "expansion": "utp",
+    "front": "Al resolver un Encuentro de Combate, puedes realizar una prueba de <lore> -1. Si superas la prueba, obtén +5 <strength> durante ese encuentro.\nA continuación, dale la vuelta a esta carta.",
+    "number": 2,
+    "id": 94
+  },
+  {
+    "name": "Atormentar",
+    "categories": [
+      "incantation"
+    ],
+    "type": "spell",
+    "expansion": "utp",
+    "front": "Al resolver un Encuentro de Combate, puedes realizar una prueba de <lore> -1. Si superas la prueba, obtén +5 <strength> durante ese encuentro.\nA continuación, dale la vuelta a esta carta.",
+    "number": 3,
+    "id": 95
+  },
+  {
+    "name": "Atormentar",
+    "categories": [
+      "incantation"
+    ],
+    "type": "spell",
+    "expansion": "utp",
+    "front": "Al resolver un Encuentro de Combate, puedes realizar una prueba de <lore> -1. Si superas la prueba, obtén +5 <strength> durante ese encuentro.\nA continuación, dale la vuelta a esta carta.",
+    "number": 4,
+    "id": 96
+  },
+  {
+    "name": "Mortaja de sombras",
+    "categories": [
+      "incantation"
+    ],
+    "type": "spell",
+    "expansion": "utp",
+    "front": "Durante la fase de Encuentros, puedes elegir un encuentro como si no hubiera Monstruos en tu casilla.",
+    "reckoning": "Realiza una prueba de <lore> -1 y dale la vuelta a esta carta.",
+    "number": 1,
+    "id": 97
+  },
+  {
+    "name": "Mortaja de sombras",
+    "categories": [
+      "incantation"
+    ],
+    "type": "spell",
+    "expansion": "utp",
+    "front": "Durante la fase de Encuentros, puedes elegir un encuentro como si no hubiera Monstruos en tu casilla.",
+    "reckoning": "Realiza una prueba de <lore> -1 y dale la vuelta a esta carta.",
+    "number": 2,
+    "id": 98
+  },
+  {
+    "name": "Mortaja de sombras",
+    "categories": [
+      "incantation"
+    ],
+    "type": "spell",
+    "expansion": "utp",
+    "front": "Durante la fase de Encuentros, puedes elegir un encuentro como si no hubiera Monstruos en tu casilla.",
+    "reckoning": "Realiza una prueba de <lore> -1 y dale la vuelta a esta carta.",
+    "number": 3,
+    "id": 99
+  },
+  {
+    "name": "Mortaja de sombras",
+    "categories": [
+      "incantation"
+    ],
+    "type": "spell",
+    "expansion": "utp",
+    "front": "Durante la fase de Encuentros, puedes elegir un encuentro como si no hubiera Monstruos en tu casilla.",
+    "reckoning": "Realiza una prueba de <lore> -1 y dale la vuelta a esta carta.",
+    "number": 4,
+    "id": 100
+  },
+  {
+    "name": "Aprendizaje forzoso",
+    "categories": [
+      "incantation"
+    ],
+    "type": "spell",
+    "expansion": "utp",
+    "front": "Una vez por ronda, cuando mejores una habilidad, mejora esa habilidad de nuevo",
+    "reckoning": "Realiza una prueba de <lore> y dale la vuelta a esta carta.",
+    "number": 1,
+    "id": 101
+  },
+  {
+    "name": "Aprendizaje forzoso",
+    "categories": [
+      "incantation"
+    ],
+    "type": "spell",
+    "expansion": "utp",
+    "front": "Una vez por ronda, cuando mejores una habilidad, mejora esa habilidad de nuevo",
+    "reckoning": "Realiza una prueba de <lore> y dale la vuelta a esta carta.",
+    "number": 2,
+    "id": 102
+  },
+  {
+    "name": "Aprendizaje forzoso",
+    "categories": [
+      "incantation"
+    ],
+    "type": "spell",
+    "expansion": "utp",
+    "front": "Una vez por ronda, cuando mejores una habilidad, mejora esa habilidad de nuevo",
+    "reckoning": "Realiza una prueba de <lore> y dale la vuelta a esta carta.",
+    "number": 3,
+    "id": 103
+  },
+  {
+    "name": "Aprendizaje forzoso",
+    "categories": [
+      "incantation"
+    ],
+    "type": "spell",
+    "expansion": "utp",
+    "front": "Una vez por ronda, cuando mejores una habilidad, mejora esa habilidad de nuevo",
+    "reckoning": "Realiza una prueba de <lore> y dale la vuelta a esta carta.",
+    "number": 4,
+    "id": 104
+  },
+  {
+    "name": "Gracia encantadora",
+    "categories": [
+      "incantation"
+    ],
+    "type": "spell",
+    "expansion": "utp",
+    "front": "Una vez por ronda, cuando fueses a perder salud, prevén 2 puntos de esa perdida de salud.",
+    "reckoning": "Realiza una prueba de <lore> y dale la vuelta a esta carta.",
+    "number": 1,
+    "id": 105
+  },
+  {
+    "name": "Gracia encantadora",
+    "categories": [
+      "incantation"
+    ],
+    "type": "spell",
+    "expansion": "utp",
+    "front": "Una vez por ronda, cuando fueses a perder salud, prevén 2 puntos de esa perdida de salud.",
+    "reckoning": "Realiza una prueba de <lore> y dale la vuelta a esta carta.",
+    "number": 2,
+    "id": 106
+  },
+  {
+    "name": "Gracia encantadora",
+    "categories": [
+      "incantation"
+    ],
+    "type": "spell",
+    "expansion": "utp",
+    "front": "Una vez por ronda, cuando fueses a perder salud, prevén 2 puntos de esa perdida de salud.",
+    "reckoning": "Realiza una prueba de <lore> y dale la vuelta a esta carta.",
+    "number": 3,
+    "id": 107
+  },
+  {
+    "name": "Gracia encantadora",
+    "categories": [
+      "incantation"
+    ],
+    "type": "spell",
+    "expansion": "utp",
+    "front": "Una vez por ronda, cuando fueses a perder salud, prevén 2 puntos de esa perdida de salud.",
+    "reckoning": "Realiza una prueba de <lore> y dale la vuelta a esta carta.",
+    "number": 4,
+    "id": 108
+  },
+  {
+    "name": "Arma encantada",
+    "categories": [
+      "incantation"
+    ],
+    "type": "spell",
+    "expansion": "utp",
+    "front": "Los Monstruos con los que resuelvas encuentros pierden su resistencia fisica.\nPuedes volver a tirar hasta 2 dados cuando resuelvas una prueba de <strength> durante un Encuentro de Combate.",
+    "reckoning": "Realiza una prueba de <lore> y dale la vuelta a esta carta.",
+    "number": 1,
+    "id": 109
+  },
+  {
+    "name": "Arma encantada",
+    "categories": [
+      "incantation"
+    ],
+    "type": "spell",
+    "expansion": "utp",
+    "front": "Los Monstruos con los que resuelvas encuentros pierden su resistencia fisica.\nPuedes volver a tirar hasta 2 dados cuando resuelvas una prueba de <strength> durante un Encuentro de Combate.",
+    "reckoning": "Realiza una prueba de <lore> y dale la vuelta a esta carta.",
+    "number": 2,
+    "id": 110
+  },
+  {
+    "name": "Arma encantada",
+    "categories": [
+      "incantation"
+    ],
+    "type": "spell",
+    "expansion": "utp",
+    "front": "Los Monstruos con los que resuelvas encuentros pierden su resistencia fisica.\nPuedes volver a tirar hasta 2 dados cuando resuelvas una prueba de <strength> durante un Encuentro de Combate.",
+    "reckoning": "Realiza una prueba de <lore> y dale la vuelta a esta carta.",
+    "number": 3,
+    "id": 111
+  },
+  {
+    "name": "Arma encantada",
+    "categories": [
+      "incantation"
+    ],
+    "type": "spell",
+    "expansion": "utp",
+    "front": "Los Monstruos con los que resuelvas encuentros pierden su resistencia fisica.\nPuedes volver a tirar hasta 2 dados cuando resuelvas una prueba de <strength> durante un Encuentro de Combate.",
+    "reckoning": "Realiza una prueba de <lore> y dale la vuelta a esta carta.",
+    "number": 4,
+    "id": 112
+  },
+  {
+    "name": "Alterar el destino",
+    "categories": [
+      "incantation"
+    ],
+    "type": "spell",
+    "expansion": "utp",
+    "front": "Puedes intercambiar Estados, fichas de Concentracion, fichas de Mejora y fichas de Discapacidad como parte de una accion de intercambiar.",
+    "reckoning": "Realiza una prueba de <lore> y dale la vuelta a esta carta.",
+    "number": 1,
+    "id": 113
+  },
+  {
+    "name": "Alterar el destino",
+    "categories": [
+      "incantation"
+    ],
+    "type": "spell",
+    "expansion": "utp",
+    "front": "Puedes intercambiar Estados, fichas de Concentracion, fichas de Mejora y fichas de Discapacidad como parte de una accion de intercambiar.",
+    "reckoning": "Realiza una prueba de <lore> y dale la vuelta a esta carta.",
+    "number": 2,
+    "id": 114
+  },
+  {
+    "name": "Alterar el destino",
+    "categories": [
+      "incantation"
+    ],
+    "type": "spell",
+    "expansion": "utp",
+    "front": "Puedes intercambiar Estados, fichas de Concentracion, fichas de Mejora y fichas de Discapacidad como parte de una accion de intercambiar.",
+    "reckoning": "Realiza una prueba de <lore> y dale la vuelta a esta carta.",
+    "number": 3,
+    "id": 115
+  },
+  {
+    "name": "Alterar el destino",
+    "categories": [
+      "incantation"
+    ],
+    "type": "spell",
+    "expansion": "utp",
+    "front": "Puedes intercambiar Estados, fichas de Concentracion, fichas de Mejora y fichas de Discapacidad como parte de una accion de intercambiar.",
+    "reckoning": "Realiza una prueba de <lore> y dale la vuelta a esta carta.",
+    "number": 4,
+    "id": 116
+  },
+  {
+    "name": "Cuchilla espectral",
+    "categories": [
+      "incantation"
+    ],
+    "type": "spell",
+    "expansion": "cir",
+    "front": "Al resolver un Encuentro de Combate, puedes realizar una prueba de <lore>. Si la superas, tira 1 dado adicional al resolver la prueba de <strength> durante ese encuentro.\nA continuación, dale la vuelta a esta carta.",
+    "number": 1,
+    "id": 117
+  },
+  {
+    "name": "Cuchilla espectral",
+    "categories": [
+      "incantation"
+    ],
+    "type": "spell",
+    "expansion": "cir",
+    "front": "Al resolver un Encuentro de Combate, puedes realizar una prueba de <lore>. Si la superas, tira 1 dado adicional al resolver la prueba de <strength> durante ese encuentro.\nA continuación, dale la vuelta a esta carta.",
+    "number": 2,
+    "id": 118
+  },
+  {
+    "name": "Cuchilla espectral",
+    "categories": [
+      "incantation"
+    ],
+    "type": "spell",
+    "expansion": "cir",
+    "front": "Al resolver un Encuentro de Combate, puedes realizar una prueba de <lore>. Si la superas, tira 1 dado adicional al resolver la prueba de <strength> durante ese encuentro.\nA continuación, dale la vuelta a esta carta.",
+    "number": 3,
+    "id": 119
+  },
+  {
+    "name": "Cuchilla espectral",
+    "categories": [
+      "incantation"
+    ],
+    "type": "spell",
+    "expansion": "cir",
+    "front": "Al resolver un Encuentro de Combate, puedes realizar una prueba de <lore>. Si la superas, tira 1 dado adicional al resolver la prueba de <strength> durante ese encuentro.\nA continuación, dale la vuelta a esta carta.",
+    "number": 4,
+    "id": 120
+  },
+  {
+    "name": "Exaltación ocultista",
+    "categories": [
+      "ritual"
+    ],
+    "type": "spell",
+    "expansion": "cir",
+    "front": "Acción: Elígete a ti mismo o a otro investigador que esté en tu casilla y realiza una prueba de <lore>. Si la superas, el investigador elegido obtiene 1 Estado Talento.\nA continuación, dale la vuelta a esta carta.",
+    "number": 1,
+    "id": 121
+  },
+  {
+    "name": "Exaltación ocultista",
+    "categories": [
+      "ritual"
+    ],
+    "type": "spell",
+    "expansion": "cir",
+    "front": "Acción: Elígete a ti mismo o a otro investigador que esté en tu casilla y realiza una prueba de <lore>. Si la superas, el investigador elegido obtiene 1 Estado Talento.\nA continuación, dale la vuelta a esta carta.",
+    "number": 2,
+    "id": 122
+  },
+  {
+    "name": "Exaltación ocultista",
+    "categories": [
+      "ritual"
+    ],
+    "type": "spell",
+    "expansion": "cir",
+    "front": "Acción: Elígete a ti mismo o a otro investigador que esté en tu casilla y realiza una prueba de <lore>. Si la superas, el investigador elegido obtiene 1 Estado Talento.\nA continuación, dale la vuelta a esta carta.",
+    "number": 3,
+    "id": 123
+  },
+  {
+    "name": "Exaltación ocultista",
+    "categories": [
+      "ritual"
+    ],
+    "type": "spell",
+    "expansion": "cir",
+    "front": "Acción: Elígete a ti mismo o a otro investigador que esté en tu casilla y realiza una prueba de <lore>. Si la superas, el investigador elegido obtiene 1 Estado Talento.\nA continuación, dale la vuelta a esta carta.",
+    "number": 4,
+    "id": 124
+  },
+  {
+    "name": "Bestia interior",
+    "categories": [
+      "incantation"
+    ],
+    "type": "spell",
+    "expansion": "cir",
+    "front": "Puedes volver a tirar 1 dado al resolver una prueba de <observation> o de <strength>.",
+    "number": 1,
+    "id": 125,
+    "reckoning": "Realiza una prueba de <will> y dale la vuelta a esta carta"
+  },
+  {
+    "name": "Bestia interior",
+    "categories": [
+      "incantation"
+    ],
+    "type": "spell",
+    "expansion": "cir",
+    "front": "Puedes volver a tirar 1 dado al resolver una prueba de <observation> o de <strength>.",
+    "number": 2,
+    "id": 126,
+    "reckoning": "Realiza una prueba de <will> y dale la vuelta a esta carta"
+  },
+  {
+    "name": "Bestia interior",
+    "categories": [
+      "incantation"
+    ],
+    "type": "spell",
+    "expansion": "cir",
+    "front": "Puedes volver a tirar 1 dado al resolver una prueba de <observation> o de <strength>.",
+    "number": 3,
+    "id": 127,
+    "reckoning": "Realiza una prueba de <will> y dale la vuelta a esta carta"
+  },
+  {
+    "name": "Bestia interior",
+    "categories": [
+      "incantation"
+    ],
+    "type": "spell",
+    "expansion": "cir",
+    "front": "Puedes volver a tirar 1 dado al resolver una prueba de <observation> o de <strength>.",
+    "number": 4,
+    "id": 128,
+    "reckoning": "Realiza una prueba de <will> y dale la vuelta a esta carta"
+  },
+  {
+    "name": "Invocar tormenta",
+    "categories": [
+      "ritual"
+    ],
+    "type": "spell",
+    "expansion": "mon",
+    "front": "Acción: Elige un Monstruo que esté en tu casilla y realiza una prueba de <lore>-1.\nSi superas la prueba, el Monstruo elegido pierde 3 puntos de Salud.\nA continuación, dale la vuelta a esta carta.",
+    "number": 1,
+    "id": 129
+  },
+  {
+    "name": "Invocar tormenta",
+    "categories": [
+      "ritual"
+    ],
+    "type": "spell",
+    "expansion": "mon",
+    "front": "Acción: Elige un Monstruo que esté en tu casilla y realiza una prueba de <lore>-1.\nSi superas la prueba, el Monstruo elegido pierde 3 puntos de Salud.\nA continuación, dale la vuelta a esta carta.",
+    "number": 2,
+    "id": 130
+  },
+  {
+    "name": "Invocar tormenta",
+    "categories": [
+      "ritual"
+    ],
+    "type": "spell",
+    "expansion": "mon",
+    "front": "Acción: Elige un Monstruo que esté en tu casilla y realiza una prueba de <lore>-1.\nSi superas la prueba, el Monstruo elegido pierde 3 puntos de Salud.\nA continuación, dale la vuelta a esta carta.",
+    "number": 3,
+    "id": 131
+  },
+  {
+    "name": "Invocar tormenta",
+    "categories": [
+      "ritual"
+    ],
+    "type": "spell",
+    "expansion": "mon",
+    "front": "Acción: Elige un Monstruo que esté en tu casilla y realiza una prueba de <lore>-1.\nSi superas la prueba, el Monstruo elegido pierde 3 puntos de Salud.\nA continuación, dale la vuelta a esta carta.",
+    "number": 4,
+    "id": 132
+  },
+  {
+    "name": "Maldición",
+    "categories": [
+      "incantatino"
+    ],
+    "type": "spell",
+    "expansion": "td",
+    "front": "Al resolver un Encuentro de Combate, puedes realizar una prueba de <lore>-2. Si superas la prueba, obtén +8 <strength> durante ese encuentro.\nA continuación, dale la vuelta a esta carta.",
+    "number": 1,
+    "id": 133
+  },
+  {
+    "name": "Maldición",
+    "categories": [
+      "incantatino"
+    ],
+    "type": "spell",
+    "expansion": "td",
+    "front": "Al resolver un Encuentro de Combate, puedes realizar una prueba de <lore>-2. Si superas la prueba, obtén +8 <strength> durante ese encuentro.\nA continuación, dale la vuelta a esta carta.",
+    "number": 2,
+    "id": 134
+  },
+  {
+    "name": "Maldición",
+    "categories": [
+      "incantatino"
+    ],
+    "type": "spell",
+    "expansion": "td",
+    "front": "Al resolver un Encuentro de Combate, puedes realizar una prueba de <lore>-2. Si superas la prueba, obtén +8 <strength> durante ese encuentro.\nA continuación, dale la vuelta a esta carta.",
+    "number": 3,
+    "id": 135
+  },
+  {
+    "name": "Maldición",
+    "categories": [
+      "incantatino"
+    ],
+    "type": "spell",
+    "expansion": "td",
+    "front": "Al resolver un Encuentro de Combate, puedes realizar una prueba de <lore>-2. Si superas la prueba, obtén +8 <strength> durante ese encuentro.\nA continuación, dale la vuelta a esta carta.",
+    "number": 4,
+    "id": 136
+  },
+  {
+    "name": "Invocación",
+    "categories": [
+      "ritual"
+    ],
+    "type": "spell",
+    "expansion": "td",
+    "front": "Acción: Realiza una prueba de <lore>+2. Si superas la prueba puedes mover a tu casilla 1 Monstruo de tu elección que tenga una fortaleza igual o menor que tu resultado de la prueba.\nA continuacion, dale la vuelta a esta carta.",
+    "number": 1,
+    "id": 137
+  },
+  {
+    "name": "Invocación",
+    "categories": [
+      "ritual"
+    ],
+    "type": "spell",
+    "expansion": "td",
+    "front": "Acción: Realiza una prueba de <lore>+2. Si superas la prueba puedes mover a tu casilla 1 Monstruo de tu elección que tenga una fortaleza igual o menor que tu resultado de la prueba.\nA continuacion, dale la vuelta a esta carta.",
+    "number": 2,
+    "id": 138
+  },
+  {
+    "name": "Invocación",
+    "categories": [
+      "ritual"
+    ],
+    "type": "spell",
+    "expansion": "td",
+    "front": "Acción: Realiza una prueba de <lore>+2. Si superas la prueba puedes mover a tu casilla 1 Monstruo de tu elección que tenga una fortaleza igual o menor que tu resultado de la prueba.\nA continuacion, dale la vuelta a esta carta.",
+    "number": 3,
+    "id": 139
+  },
+  {
+    "name": "Invocación",
+    "categories": [
+      "ritual"
+    ],
+    "type": "spell",
+    "expansion": "td",
+    "front": "Acción: Realiza una prueba de <lore>+2. Si superas la prueba puedes mover a tu casilla 1 Monstruo de tu elección que tenga una fortaleza igual o menor que tu resultado de la prueba.\nA continuacion, dale la vuelta a esta carta.",
+    "number": 4,
+    "id": 140
+  },
+  {
+    "name": "Encontrar portal",
+    "categories": [
+      "incantation"
+    ],
+    "type": "spell",
+    "expansion": "td",
+    "front": "Juega con el primer Portal del montón de Portales revelado.",
+    "number": 1,
+    "reckoning": "Realiza una prueba de <lore> y dale la vuelta a esta carta.",
+    "id": 141
+  },
+  {
+    "name": "Encontrar portal",
+    "categories": [
+      "incantation"
+    ],
+    "type": "spell",
+    "expansion": "td",
+    "front": "Juega con el primer Portal del montón de Portales revelado.",
+    "number": 2,
+    "reckoning": "Realiza una prueba de <lore> y dale la vuelta a esta carta.",
+    "id": 142
+  },
+  {
+    "name": "Encontrar portal",
+    "categories": [
+      "incantation"
+    ],
+    "type": "spell",
+    "expansion": "td",
+    "front": "Juega con el primer Portal del montón de Portales revelado.",
+    "number": 3,
+    "reckoning": "Realiza una prueba de <lore> y dale la vuelta a esta carta.",
+    "id": 143
+  },
+  {
+    "name": "Encontrar portal",
+    "categories": [
+      "incantation"
+    ],
+    "type": "spell",
+    "expansion": "td",
+    "front": "Juega con el primer Portal del montón de Portales revelado.",
+    "number": 4,
+    "reckoning": "Realiza una prueba de <lore> y dale la vuelta a esta carta.",
+    "id": 144
   }
 ]
